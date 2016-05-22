@@ -6,11 +6,14 @@ ActiveRecord::Base.establish_connection({
   database: 'urls',
   host: 'localhost',
   username: 'root',
-  password: '123456',
   encoding: 'utf8'
 })
 
 class Qdaily < ActiveRecord::Base
   self.table_name = 'qdaily'
+end
+
+class Tmt < ActiveRecord::Base
+  self.table_name = 'tmt'
 end
 
