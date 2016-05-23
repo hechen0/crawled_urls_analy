@@ -1,13 +1,22 @@
 require './url_models'
 
-raw_text = IO.read("qdaily.urls")
+raise ArgumentError if ARGV.count != 2
+
+file = ARGV[0]
+raise "NO such file #{file}" unless File.exist?(file)
+
+table = ARGV[1].capitalize
+table = Object.const_get(table) # raise name error if table not exist
+
+raw_text = IO.read(file)
 lines = raw_text.gsub(/\r\n?/, "\n").chomp.lines
 
 total = lines.count
 current = 0
 
 lines.each do |line|
-  match = line.chomp.match(/(.+) (http:.+)/)
+  current = current + 1
+  match = line.chomp.match(/(.+) (https?:.+)/)
   next unless match
   title = match[1]
 
@@ -29,7 +38,6 @@ lines.each do |line|
 
   Qdaily.create(record)
 
-  current = current + 1
 
   if current % 1000 == 0
     p "current status: #{current} / #{total}"
