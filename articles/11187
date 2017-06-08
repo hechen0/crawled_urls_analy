@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这款音响看上去萌萌的，干起活儿来却有点猛_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这款音响看上去萌萌的，干起活儿来却有点猛。Phantom 并不存在任何“设计”，因为它的外形完全是由声学原理所决定。。好奇心日报为您呈现这款音响看上去萌萌的，干起活儿来却有点猛的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Coolhunting Hi-Fi 音响 设计 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="iHnD16ohsiWfmVandj7KEmAxvwfqQ7rqmnxkcXHmT3A=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="11929">
+				<span data-id="11929">Hi-Fi</span>
+			</li>
+			<li class="tag item" data-id="1090">
+				<span data-id="1090">音响</span>
+			</li>
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这款音响看上去萌萌的，干起活儿来却有点猛</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/121376/small/121376.jpg?1434268095" alt="">
+					</span>
+				<span class="name">Nara Shin</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-25 08:19:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11187/medium/11187.jpg?1436641898" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11187" data-title="《这款音响看上去萌萌的，干起活儿来却有点猛》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11187/medium/11187.jpg?1436641898" data-url="http://www.qdaily.com/mobile/articles/11187.html?appinstall=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Phantom 并不存在任何“设计”，因为它的外形完全是由声学原理所决定。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<b><a href="http://www.coolhunting.com/tech/devialet-hi-fi-phantom-speaker-amplifier-us-debut" target="_blank"><em><strong>本</strong></em><em><strong>文</strong></em></a><em><strong>由 Coolhunting 授权《好奇心日报》发布，即使我们允许了也不许转载。</strong></em></b> 
+</p>
+<p>
+	自从 2007 年创立以来，总部位于巴黎的 Devialet 就以他们那非比寻常的圆滑而紧凑的 hi-fi 功放而著名。通过科技研发而不是重新包装过时的产品，它已经在高端的音频市场上开辟出一片特殊的天地。Devialet 原先只是一个品牌，现在他们设计出一种集功放和扬声器为一体的产品 Phantom，将于今年秋天首次在美国亮相。现在在法国的 Colette 时尚店已经可以买到这款产品——这家概念商店对其非常喜爱，自己的整个音响系统都是由 14 个 Phantom 组成。而且 Phantom 跟其他许多主流的扬声器不一样，它并非一种能够“提升”什么技术的生活方式产品，而是游戏规则的颠覆者，它采用了自己开发的音频技术（到目前为止一共使用了 88 项专利），而且结果非常具有震撼性。
+</p>
+<p>
+	Devialet 发明了一项专有技术，第一次将最佳的模拟和数字功放技术结合起来——既保留了前者的质量，也保留了后者的效率和功率。他们第一次在他们的高端功放中使用这种数字模拟混合技术 ADH（Analog Digital Hybrid），音响价格从 7 千美元到 3 万美元不等。为了将音质以及它所创造的“情感”效果带给更多的人，Devialet 的蛋形 Phantom 诞生了，它同时具有连接 WiFi 和蓝牙的功能。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/0dbe2da76aa3.jpg" width="1080" height="681" title="到" alt="到" /> 
+</p>
+<p>
+	“从一开始，我们的梦想就是把 Devialet 打造成世界领先的音频领导者，”Devialet 的创立者之一和首席执行官 Quentin Sannié 告诉 CH 说，“我们有很长的路要走，每一步都是既令人兴奋又充满了痛苦。我们刚开始想征服高端音频市场，那是我们首先发明 Devialet 专业功放的目的，它是建立我们的品牌和技术正统性的必要一步。一旦确立了高端市场的领导者地位，接下来我们想发明第二个产品——专门为家庭音响打造的 Phantom。”
+</p>
+<p style="text-align:left;">
+	我们在我们位于的纽约办公室预先把玩了 Phantom，这个沉甸甸的设备（重量大约 11 公斤）被轻轻地放在我们图书馆的玻璃桌面上。试想一下，在播放 Moderat 的《A New Error》（Devialet 的试音曲）时，这首电子音乐史上史诗级别的低音响震耳膜，而玻璃却纹丝不动，可把我们给惊到了。桌子依然稳稳当当，而 Phantom 也丝毫没有移位，它根本就没有震动；你把一只手放在 Phantom 上面，也感受不到震动。它安静得甚至有点怪诞，而它那两个令人难忘的、对称的低音喇叭——一边一个，就像金鱼的两只眼睛一样——则随着低音的增强而疯狂地颤抖。你会发现扬声器在毫不费力地工作，而歌曲也奇妙地变成了可视的场景。当 Phantom 发出超密集而且强有力的低音（没有任何人为增强）时，这些歌曲也成为了一种身体上的体验，可以与任何大型扬声器平分秋色。Phantom 给出的承诺很大——没有背景噪音、不会饱和（即使音量突然提高，声音依然保持精确）、没有失真——但是他们都做到了。
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201506/182140b4f7e3.jpg" width="1080" height="680" title="d" alt="d" style="text-align:center;" /> 
+</p>
+<p style="text-align:left;">
+	我们很高兴 Phantom 全部都是法国制造的，而且每一个零部件都来自企业的内部设计。Devialet 将它的设计和一辆一级方程式赛车做了比较：赛车是由空气动力学驱动的。与此类似，Phantom 并不存在任何“设计”，它的外形完全由声学原理所决定——而球形是最有利于消除声衍射，并创造全方位聆听体验的形状。传统的音箱一般都是方形，这主要是由制造成本所决定的。
+</p>
+<p style="text-align:left;">
+	凭借 2000 美元左右一套的紧凑型扬声器系统，Devialet 向广大观众打开了一个封闭而且常常很冷僻的 hi-fi 世界。尽管价格对于新转变过来的音响发烧友来说仍然是个障碍，但是我们很兴奋地看到这个死水一般的行业已经泛起了一点波澜。Phantom 带来的是一种剥离了高端音响的沉闷外衣、让音乐自己说话的有机体验，而最精彩的事情也许就是聆听你喜欢的音乐，并发现有多少是你以前没听出来的。Phantom 是一款你购买前必须先亲自聆听的商品，但有一点是肯定的：一旦用了一天 Phantom 之后，你将很难再用回你之前用电池供电的蓝牙音箱。试想一想，在家看 Netflix 的夜晚将会被如何永远改变。
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201506/9f5a9abb0ea7.jpg" width="1080" height="792" title="到" alt="到" style="text-align:center;" /> 
+</p>
+<p>
+	今天开始美国用户可以预定 Devialet 了，交货期预计为 2015 年 9 月。有两种产品可以选择：750 瓦的 Phantom（1990 美元）和 3000 瓦的 Silver Phantom（2390 美元）——以上图像中的产品都是 Silver Phantom。纽约现代艺术博物馆设计商店（MoMA Design Store）的 Phantom 将会于今年秋天到货，与此同时，今年夏天晚些时候 Devialet 在纽约 Soho 区的商店（他们在美国的第一家店）将会开业，届时在那里也可以买到。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 &nbsp;is译社 曾小楚
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="11929">
+				<span data-id="11929">Hi-Fi</span>
+			</li>
+			<li class="tag item" data-id="1090">
+				<span data-id="1090">音响</span>
+			</li>
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11187" data-title="《这款音响看上去萌萌的，干起活儿来却有点猛》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11187/medium/11187.jpg?1436641898" data-url="http://www.qdaily.com/mobile/articles/11187.html?appinstall=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26482.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26482/medium/26482.jpg?1462474908" alt="">
+                        <h1 class="title">那个拍下 papi 酱广告的丽人丽妆，到底是个什么公司？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26484.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26484/medium/26484.jpg?1462486804" alt="">
+                        <h1 class="title">这家公司用 VR 技术，还原了吉卜力动画的经典场景</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26449.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26449/medium/26449.jpg?1462425686" alt="">
+                        <h1 class="title">「这世界」英国首相想用足球套近乎，反而被糗了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26480.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26480/medium/26480.jpeg?1462460367" alt="">
+                        <h1 class="title">智利地震之后建的社区图书馆，一样有颜值</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26458.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26458/medium/26458.jpg?1462431814" alt="">
+                        <h1 class="title">新兴设计师怎样才能吸引零售商？买手们有话说</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11187">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11187" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">151</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11194.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

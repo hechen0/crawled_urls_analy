@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>看看这些数字，你会知道 Twitter 危机四伏_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="看看这些数字，你会知道 Twitter 危机四伏。最近 Twitter 有点烦，内部遭遇用户增长放缓、管理层动荡的困境，外有 Facebook 等虎视眈眈的强敌， Twitter 已不再是投资者们眼中那个可以击败 Facebook 的新势力。。好奇心日报为您呈现看看这些数字，你会知道 Twitter 危机四伏的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Twitter " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xmJFMfYx0P6f3ItCNWtNnVuqZ/g/To95f4e6b0drr1Q=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">看看这些数字，你会知道 Twitter 危机四伏</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/147/small/147.jpg?1418116339" alt="">
+					</span>
+				<span class="name">陈思吟</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-21 23:40:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1143/medium/1143.jpg?1436639026" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1143" data-title="《看看这些数字，你会知道 Twitter 危机四伏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1143/medium/1143.jpg?1436639026" data-url="http://www.qdaily.com/mobile/articles/1143" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				最近 Twitter 有点烦，内部遭遇用户增长放缓、管理层动荡的困境，外有 Facebook 等虎视眈眈的强敌， Twitter 已不再是投资者们眼中那个可以击败 Facebook 的新势力。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				1. 不断动荡的管理层<br />
+<p>
+	Twitter 已经不再是只是一只小鸟，它的员工数超过了 4000 名，和绝大多数公司的成长经历一致， Twitter 的公司结构正日趋复杂。创业公司尤其瞬息万变，哪怕是你一手建立的公司都有可能被后来者赶走，但 Twitter 管理层动荡之频繁让人快要以为自己在看一出互联网肥皂剧。
+</p>
+<p>
+	<img src="/uploads/image/201406/200508a0208f.jpg" alt="" /> 
+</p>
+<p>
+	2. 内部压力来源——用户增长放缓
+</p>
+<p>
+	除了公司内部人士斗争、限制股票套现导致员工出走，用户数与活跃用户数增长乏力的严峻现状也使得管理层面临着极大的压力。虽然 Twitter 注册用户数接近 10 亿，但活跃用户数仅为注册用户数的 25% ，从长期来看 Twitter 用户增速放缓已是不争的事实，这打击了投资者与广告主的信心。
+</p>
+<p>
+	<img src="/uploads/image/201406/3abe78fc9e29.jpg" alt="" /> 
+</p>
+<p>
+	<img src="/uploads/image/201406/472eb0be1f17.jpg" alt="" /> 
+</p>
+<p>
+	活跃用户增长率不断下滑引发投资者忧虑
+</p>
+<p>
+	<img src="/uploads/image/201406/c3d00b27cc48.jpg" alt="" /> 
+</p>
+<p>
+	3.&nbsp;外部压力来源——虎视眈眈的竞争对手们
+</p>
+<p>
+	Twitter 曾被看作是 Facebook 的”终结者“，但 USNEWS 将 Twitter 、 Facebook 月活跃用户达到 1 亿作为时间点，计算了 29 个月里两家社交媒体月活跃用户的增长速度，可以看到 Facebook 月活跃用户增长速度远远高于 Twitter 。根据Facebook 2014 年第一季度财报，其月活跃用户已达到 12.8 亿，约为 Twitter 的 5 倍。
+</p>
+<p>
+	<img src="/uploads/image/201406/01fa54d160f4.jpg" alt="" /> 
+</p>
+<p>
+	在策略性收购上， Facebook 也更具前瞻性地在 2012 年与 2014 年收购了 Instagram 与 WhatsApp 。 WhatsApp 月活跃用户已远超过 Twitter ， Instagram 在美国地区的月活跃用户也已超过 Twitter 。
+</p>
+<p>
+	<img src="/uploads/image/201406/ff02cf16ece4.jpg" alt="" /> 
+</p>
+<p>
+	不过，Facebook 创造实验室推出的第一款新闻聚合应用 Paper 却不甚成功。 Paper 将 Facebook 用户所关心的内容摆在了首位，还结合了类似 Flipboard 、 Zaker 的新闻阅读功能，用户既能在 Paper 上了解朋友们的动态，又可以进行 RSS 订阅。 Faceboo k显然希望 Paper 能够成为 timeline 的另一种延伸。但UI设计极为精美的 Paper 仅在推出初期红火了一段时间，在短短 3 个月里 Paper 在美国 App Store 的排名从第 2 位跌至 1500 名，活跃用户仅占 Facebook 活跃用户的 0.001% 。
+</p>
+<p>
+	4. 竞争对手的优势——更适应富媒体<br />
+Twitter 做减法起家，它创造了 140 字字数限制的信息传播模式，极简的页面设计与文字瀑布与之呼应，“短、平、快”是 Twitter 最大的特点。而以 WhatsApp 、 Instagram 为代表的即时应用更适合作为照片、视频、语音的载体，富媒体的特性使得二者互动性高于 Twitter 。为此 Twitter 也从最初的微博服务平台逐步转变成为富媒体平台。 WhatsApp 的优势较为明显，每天处理的照片数量远高于 Instagram 。
+</p>
+<p>
+	<img src="/uploads/image/201406/19813d6ac503.jpg" alt="" /> 
+</p>
+<p>
+	注： Instagram 没有透露日均处理视频数，但功能推出首日使用次数超过 500 万次。
+</p>
+<p>
+	5.&nbsp;对策—— Twitter 也开始做加法<br />
+危机四伏的环境令 Twitter 不得不改变策略开始做加法。不难发现， Twitter 正变得越来越像新浪微博。
+</p>
+<p>
+	<img src="/uploads/image/201406/1e3f477c8d7d.jpg" alt="" /> 
+</p>
+<p>
+	6.&nbsp;投资人对 Twitter 期望很高<br />
+相比 Facebook 2012 年上市时跌破发行价的“惨剧”， 2013 &nbsp;年 11 月 8 日在纽交所挂牌上市的 Twitter 显得风光得多，每股 45.1 美元，远超发行价每股 26 美元，最后收涨 72.69% 。投资者们曾经期待 Twitter 可以吸引更多用户取代 Facebook ，然而现实是每逢 Twitter 发布财报，股价就会应势下跌。
+</p>
+<p>
+	<img src="/uploads/image/201406/66e5006535df.jpg" alt="" /> 
+</p>
+<p>
+	7. Twitter 所承担的营收压力<br />
+Twitter 2014 年第一季度营收 2.5 亿美元，比上年同期增长 119% ，较上一季度增长 3% 。第一季度运营亏损 1.29 亿美元，净亏 1.32 亿美元。其中广告收入 2.26 亿美元，比去年同期增长 125% ，占总营收的 90% ，移动广告收入占广告收入80% 。
+</p>
+<p>
+	<img src="/uploads/image/201406/62bbdfe116c6.jpg" alt="" /> 
+</p>
+<p>
+	8. Twitter 过去半年在广告上的努力 &nbsp;<br />
+Twitter 正不断扩大广告销售业务范围，以此来削减净亏。
+</p>
+<p>
+	<img src="/uploads/image/201406/264d464b1118.jpg" alt="" /> 
+</p>
+<p>
+	题图来自：<a href="http://money.cnn.com/2013/10/18/investing/twitter-david-cohen/" target="_blank">CNN</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1143" data-title="《看看这些数字，你会知道 Twitter 危机四伏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1143/medium/1143.jpg?1436639026" data-url="http://www.qdaily.com/mobile/articles/1143" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24789/medium/24789.jpg?1459407016" alt="">
+                        <h1 class="title">有个工厂仓库改的住宅，理想化得不可思议</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24810.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24810/medium/24810.jpg?1459418914" alt="">
+                        <h1 class="title">愚人节要来了，看全世界都觉得没安好心呐</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1143">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1143" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">2</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1226.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

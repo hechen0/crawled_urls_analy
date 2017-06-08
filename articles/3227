@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>除了谷歌，这些互联网公司的办公室设计也十分酷炫_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="除了谷歌，这些互联网公司的办公室设计也十分酷炫。有没有哪一家公司的办公室让你有种爱上工作的感觉？。好奇心日报为您呈现除了谷歌，这些互联网公司的办公室设计也十分酷炫的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="室内设计 互联网公司 办公室设计 Twitter Airbnb Pinterest instagram " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RcPlElbfeERQc/DfiGF0FJL41nvd0dW5rdYqQBCQN4Y=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="435">
+				<span data-id="435">室内设计</span>
+			</li>
+			<li class="tag item" data-id="3367">
+				<span data-id="3367">互联网公司</span>
+			</li>
+			<li class="tag item" data-id="287">
+				<span data-id="287">办公室设计</span>
+			</li>
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="1270">
+				<span data-id="1270">Airbnb</span>
+			</li>
+			<li class="tag item" data-id="1374">
+				<span data-id="1374">Pinterest</span>
+			</li>
+			<li class="tag item" data-id="26">
+				<span data-id="26">instagram</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">除了谷歌，这些互联网公司的办公室设计也十分酷炫</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-03 08:12:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3227/medium/3227.jpg?1436637329" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3227" data-title="《除了谷歌，这些互联网公司的办公室设计也十分酷炫》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3227/medium/3227.jpg?1436637329" data-url="http://www.qdaily.com/mobile/articles/3227" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				有没有哪一家公司的办公室让你有种爱上工作的感觉？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	很多互联网公司的办公环境成为许多求职者慕名前往的理由的同时，也正在成为室内设计案例研究的对象。说到这里，你想到的第一个名字大概是谷歌，的确，他们引领了开放式办公室的潮流。
+</p>
+<p>
+	当然，别以为造一个开放式的办公环境就可以冠以“办公室革命”之类的名义，美国罗德岛设计学院的前任校长约翰·梅达就曾指出：“如果缺乏设计灵感，开放式的空间设计会与产品创新背道而驰。”
+</p>
+<p>
+	如 Instagram， Pinterest、Airbnb 这样的公司，都开始把办公空间当作一件极为重要的作品来对待，而每一个风格迥异的办公室背后，都有其自己的述说方式。
+</p>
+<h2>
+	<span style="line-height:1.5;">Instagram：要复古，也要美感</span> 
+</h2>
+<p>
+	<span style="line-height:1.5;">时下最流行的社交类图片应用 Instagram 从诞生起就以其复古、多样的滤镜效果受到世界各地用户的追捧。而由旧金山湾区的室内设计公司 <a href="http://geremiadesign.com/commercial/instagram/" target="_blank">Geremia Design</a> 呈现的 Instagram 公司办公环境，其灵感也全数来源于 Instagram 自身的品牌形象。</span> 
+</p>
+<p>
+	嗯，就是要复古。Geremia Design 给整个办公空间赋予了如 Instagram 应用内加了滤镜一般的古典风情，办公家具多以原木色或是黑、白、灰、棕等低彩度的色系，圆拱形的木质坐凳、复古唱片播放器摆件等，甚至会给人误入复古家具收藏店的错觉，它不似其他创意公司那般多彩，也并没有太多花哨的饰物，但却精准定位了自己的品牌形象。
+</p>
+<p>
+	你应该能够猜到，在一家图片应用公司，“摄影”、“相机”等元素肯定不可或缺，Instagram 的办公室的确这样，偌大的会客厅里一个大型的置物架上摆满了各式各样、不同年代的复古款相机，沙发旁巨大的落地灯也选用了摄影棚常见的打光灯造型。
+</p>
+<p>
+	从家具、色调、灯饰直到像个相机博物馆似的置物架，这一连串清晰的视觉线索，都足以连接到 Instagram 的形象。
+</p>
+<p>
+	<img src="/uploads/image/201411/b4c908073d2a.jpg" alt="" /><img src="/uploads/image/201411/248542f3ff2e.jpg" alt="" /><img src="/uploads/image/201411/44835153ec7a.jpg" alt="" /><img src="/uploads/image/201411/72eca8a5a05c.jpg" alt="" /><img src="/uploads/image/201411/e02b73be5739.jpg" alt="" /><img src="/uploads/image/201411/07505934c3dc.jpg" alt="" /> 
+</p>
+<h2>
+	Twitter :开放与分享很重要
+</h2>
+<p>
+	想要一睹旧金山的美景？Twitter 的总部是个不错的观景点，传说中的露天顶层花园一直是员工平日休闲放松的好去处。
+</p>
+<p>
+	这里曾经是旧金山著名的家具卖场（ San Francisco Furniture Mart ），闲置了 5 年，直到 Twitter 进驻，才让这幢建筑重现新的生机。接手 Twitter 办公空间室内设计项目的是当地有名的 IA Interior Architects 与 Lundberg Design 事务所。
+</p>
+<p>
+	与 Instagram 公司不同的是，颜色的使用在这里并没有禁忌，设计师们将大量明丽的颜色带入到办公空间之中，随处可见的小鸟与树枝图案也让整个空间活了起来，轻松、简约、开放，这是 Twitter 的办公空间希望传递的理念，不管是大量玻璃墙面的运用，还是各个功能区域之间的隔断设计，都是为了鼓励和引导员工之间的交流与协作。
+</p>
+<p>
+	信息分享在 Twitter 是十分重要的一件事。 Commons 主餐厅被公司形象地称为“全球小镇广场”，几乎所有的公开交谈都在这里进行。与其说它是餐厅，不如说是一个公开的大型办公区，要知道就连公司 CEO 每周主持的例会都在这里举行。
+</p>
+<p>
+	<img src="/uploads/image/201411/c2c232d05886.jpg" alt="" /><img src="/uploads/image/201411/89de2d7250bd.jpg" alt="" /><img src="/uploads/image/201411/0827f87db915.jpg" alt="" /><img src="/uploads/image/201411/4033617b56fe.jpg" alt="" /><img src="/uploads/image/201411/a9ae5c525751.jpg" alt="" /><img src="/uploads/image/201411/f9415faace0e.jpg" alt="" /><img src="/uploads/image/201411/567eaadf6290.jpg" alt="" /> 
+</p>
+<h2>
+	Airbnb：办公室如家一般自在
+</h2>
+<p>
+	以出租自家房屋为理念的 Airbnb 已带用户们看遍了全世界形形色色的房子，那你一定也好奇他们总部究竟是长什么样子。这里先做个简单的交代，Airbnb 的两位创始人 Joe Gebbia 和 Brian Chesky 是在罗德岛设计学院（Rhode Island School of Design）结识的朋友，在创办 Airbnb 之前两人从事的都是工业设计。
+</p>
+<p>
+	也许正是因为老板有设计背景，Airbnb 总部在任何小地方都可以令人察觉到他们对于使用者体验的考虑。他们的办公室坐落在旧金山一幢名为 888 Brannan 的工业大楼里。走进内部宽阔又干净的空间里，放眼望去的白色墙面，融合着从玻璃穿透进来的大量自然光线，简单明亮的基调，好似待在室内也能呼吸到外界的新鲜空气。
+</p>
+<p>
+	鼓励员工交流与沟通的理念同样体现在 Airbnb 的办公室设计中。偌大的屋子里摆放着好几张长方形大桌子，员工们可以选择在此工作、讨论或是进行一些非正式的会议。在 Airbnb 的办公室里，令人放松的沙发也是无处不在，精心营造出像家一般的惬意环境。
+</p>
+<p>
+	为了贴合公司的形象，设计师还汲取了员工们不同的旅行经验，将旅途回忆的精华之处，展示在每天工作的空间，既独树一格又能呈现出世界缩影的氛围， Airbnb 让世界各个角落都变成了旅行者的家，他们也希望办公室能如同窝在自己家一般地自在。
+</p>
+<p>
+	<img src="/uploads/image/201411/8aab0a0654ca.jpg" alt="" /><img src="/uploads/image/201411/2168e1191d08.jpg" alt="" /><img src="/uploads/image/201411/f2df8b0c9b0b.jpg" alt="" /><img src="/uploads/image/201411/770b82aa9fba.jpg" alt="" /><img src="/uploads/image/201411/831e6fc648d7.jpg" alt="" /> 
+</p>
+<h2>
+	Pinterest：现实版的“ Pinterest ”
+</h2>
+<p>
+	在办公室设计方面，能把自己品牌精神完美再现地，Pinterest 算是一个。
+</p>
+<p>
+	Pinterest 的总部是由一处仓库改建而成，外观是红褐色的建筑，内部则充满浓浓 loft 风情。在开放式的宽敞空间中，一二楼承担不同功能，一楼的大长桌允许员工在此进行团体讨论，希望员工能激荡出更多创意的火花。二楼则是办公桌，可以进行比较独立的作业，但旁边的沙发亦带出随性、轻松的感觉。
+</p>
+<p>
+	熟悉 Pinterest 网站的人应该了解，这就是一个将自己喜爱的图片分类“钉”在网络上的网站，因此公司内的墙壁也允许员工们随意钉上自己喜欢的图片，整个办公室看上去就像是一幅巨型的 Pinterest 实体钉板。
+</p>
+<p>
+	Pinterest 品牌设计师 Victor Ng 解释说，我们刻意裸着不装修，然后鼓励大家来创造办公室文化。在搬进这个新总部后，种类不一的小饰品以及员工 DIY 的各种小摆设开始侵占办公室的各个角落，当然也包括墙面。用 Victor Ng 的话说，“我们的规则是没有规则。”
+</p>
+<p>
+	<img src="/uploads/image/201411/b7d41bbc2ef6.jpg" alt="" /><img src="/uploads/image/201411/002d0c7a623e.jpg" alt="" /><img src="/uploads/image/201411/3d6010f8a362.jpg" alt="" /><img src="/uploads/image/201411/b3231600e634.jpg" alt="" /><img src="/uploads/image/201411/8598f76ae9a9.jpg" alt="" /> 
+</p>
+<p>
+	<span>越来越多年轻的互联网公司正在通过工作空间的设计塑造公司文化，那你钟意哪家公司的文化呢？</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201411/0f9037429466.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>( Dropbox ）</span> 
+</p>
+<p style="text-align:left;">
+	<span><img src="/uploads/image/201411/dd8d015d116a.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>（奇虎360）</span> 
+</p>
+<p style="text-align:left;">
+	<span><img src="/uploads/image/201411/96c77d2570ac.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>（ Cisco ）</span> 
+</p>
+<p style="text-align:left;">
+	<span><img src="/uploads/image/201411/7db8d74a2080.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>（ Skype ）</span> 
+</p>
+<p style="text-align:left;">
+	<span><img src="/uploads/image/201411/8bdb1d38aac2.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>（微信总部）</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="435">
+				<span data-id="435">室内设计</span>
+			</li>
+			<li class="tag item" data-id="3367">
+				<span data-id="3367">互联网公司</span>
+			</li>
+			<li class="tag item" data-id="287">
+				<span data-id="287">办公室设计</span>
+			</li>
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="1270">
+				<span data-id="1270">Airbnb</span>
+			</li>
+			<li class="tag item" data-id="1374">
+				<span data-id="1374">Pinterest</span>
+			</li>
+			<li class="tag item" data-id="26">
+				<span data-id="26">instagram</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3227" data-title="《除了谷歌，这些互联网公司的办公室设计也十分酷炫》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3227/medium/3227.jpg?1436637329" data-url="http://www.qdaily.com/mobile/articles/3227" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26071.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26071/medium/26071.jpg?1461724951" alt="">
+                        <h1 class="title">Coach 大规模重组，以及，“中指猫”春夏系列不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26151.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26151/medium/26151.jpeg?1461800768" alt="">
+                        <h1 class="title">大公司头条：Google 无人车要自立门户了，扎克伯格的广告生意越做越好</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26107.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26107/medium/26107.jpg?1461747912" alt="">
+                        <h1 class="title">YouTube针对移动端发布6秒视频广告，不能跳过</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26152.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26152/medium/26152.jpg?1461802501" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26083.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26083/medium/26083.jpg?1461745652" alt="">
+                        <h1 class="title">优衣库和 KAWS 的联名系列开卖，KAWS自己怎么看？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3227">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3227" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">88</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3219.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

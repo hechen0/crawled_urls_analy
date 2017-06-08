@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？。纵观全身上下，最能表达你当前情感的地方，是鞋子吗？。好奇心日报为您呈现一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="V&amp;A 鞋履展 会玩 Line Lund " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vPM0PJzxUimdK2gxWzj57iO0+SW8mnGz9hy0SVE5YTY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="160">
+				<span data-id="160">V&amp;A</span>
+			</li>
+			<li class="tag item" data-id="11458">
+				<span data-id="11458">鞋履展</span>
+			</li>
+			<li class="tag item" data-id="11459">
+				<span data-id="11459">会玩</span>
+			</li>
+			<li class="tag item" data-id="11460">
+				<span data-id="11460">Line Lund</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/37534/small/37534.JPG?1421809836" alt="">
+					</span>
+				<span class="name">石玉 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-13 08:05:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/10741/medium/10741.jpg?1436646031" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10741" data-title="《一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10741/medium/10741.jpg?1436646031" data-url="http://www.qdaily.com/mobile/articles/10741" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				纵观全身上下，最能表达你当前情感的地方，是鞋子吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	今年&nbsp;6&nbsp;月，伦敦的<a href="http://www.vam.ac.uk" target="_blank">维多利亚与艾伯特博物馆</a>（Victoria and Albert Museum，简称&nbsp;V&amp;A&nbsp;博物馆）正在举办一个名为“快乐与痛苦”（Shoes: Pleasure and Pain）的鞋展。这个展览将陈列来自世界各地的&nbsp;200&nbsp;多双鞋子，从古埃及时期的凉鞋，到当代知名设计师的手工鞋等等，它还会呈现鞋领域的最新科技。 &nbsp;
+</p>
+<p>
+	这次活动的赞助商是英国的鞋履品牌其乐（<span>Clarks</span>），他们也借着这次机会庆祝了品牌成立&nbsp;<span>190&nbsp;</span>周年。展览的室内空间做得挺炫酷，它是由室内设计师&nbsp;<span>Line Lund&nbsp;</span>设计的，这位设计师<a href="http://www.designweek.co.uk/how-the-va-designed-its-blockbuster-shoes-exhibition/?nocache=true&adfesuccess=1" target="_blank">在接受&nbsp;<span>designweek&nbsp;</span>的采访时说</a>，这个展览的目的是想激发人们欲望中的痛苦、快乐和痴嗔。下图是一些在展览中出现的鞋子。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/d6660f273e19.jpg" width="640" height="410" title="展出的鞋子" alt="展出的鞋子" /><span>展出的鞋子</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/36fc22e48e2c.jpg" width="640" height="474" title="鞋子来自不同的年代" alt="鞋子来自不同的年代" /><span>鞋子来自不同的年代</span> 
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201506/01433bca518b.jpg" width="640" height="451" title="来自中国" alt="来自中国" />来自中国的鞋
+</p>
+<p style="text-align:center;">
+	展出品中有玛丽莲·梦露（Marilyn Monroe）、女王维多利亚（Queen Victoria）和Lady Gaga 的鞋子，还有不少名设计师作品，比如&nbsp;Jimmy Choo 和 Prada。
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/b3367ed8ffad.jpg" width="640" height="400" title="V&amp;A鞋子展" alt="V&amp;A鞋子展" /><span>V&amp;A 鞋子展</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/0581d33db9dd.jpg" width="640" height="440" title="V&amp;A鞋子展" alt="V&amp;A鞋子展" />不同的展览空间
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/e709032e9c35.jpg" width="640" height="372" title="V&amp;A鞋子展" alt="V&amp;A鞋子展" />鞋子的细节
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/fd0e848fe84c.jpg" width="640" height="404" title="V&amp;A鞋子展" alt="V&amp;A鞋子展" />一部分展出的鞋
+</p>
+<p>
+	展览分为好几层，设计师&nbsp;<span>Line Lund&nbsp;</span>说，她在底层塑造了幽暗的闺房，在高层打造的则是开放、明亮的空间。
+</p>
+<p>
+	她说，高跟鞋本身很富有张力和戏剧性，技术的发展能让鞋子变得越来越高，形态也千奇百怪，从某一层面来说，在设计师眼中鞋子本身就是欲望的象征，特别是高跟鞋，常常让女人又爱又恨。这样的展览空间的安排也恰好符合了“<span>快乐与痛苦</span>”的主题。关于 V&amp;A 博物馆的地址和购票信息，可以点击<a href="http://www.vam.ac.uk/content/exhibitions/shoes-pleasure-and-pain/" target="_blank">这里</a>。
+</p>
+<p>
+	<em>题图来源：</em><a href="http://www.designweek.co.uk/how-the-va-designed-its-blockbuster-shoes-exhibition/?nocache=true&adfesuccess=1" target="_blank"><em>designweek</em></a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="160">
+				<span data-id="160">V&amp;A</span>
+			</li>
+			<li class="tag item" data-id="11458">
+				<span data-id="11458">鞋履展</span>
+			</li>
+			<li class="tag item" data-id="11459">
+				<span data-id="11459">会玩</span>
+			</li>
+			<li class="tag item" data-id="11460">
+				<span data-id="11460">Line Lund</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10741" data-title="《一个鞋子展，也能探索人们的痛苦、欢快和嗔痴？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10741/medium/10741.jpg?1436646031" data-url="http://www.qdaily.com/mobile/articles/10741" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/7291.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/7291/medium/7291.png?1436689115" alt="如果你对平面设计感兴趣，伦敦能带给你什么？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">如果你对平面设计感兴趣，伦敦能带给你什么？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">171</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25088/medium/25088.jpg?1459995308" alt="">
+                        <h1 class="title">H&amp;M一季度利润下跌，Supreme 与北脸新一季联名上市｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25082.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25082/medium/25082.jpeg?1459987565" alt="">
+                        <h1 class="title">大公司头条：华为推出 5000+ 的新手机，Facebook 认真做直播</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25087.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25087/medium/25087.jpg?1459989195" alt="">
+                        <h1 class="title">Gucci 合并男女装秀，性别是不是这年头不太重要的事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25086.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25086/medium/25086.jpg?1459988628" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25089.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25089/medium/25089.jpg?1459991369" alt="">
+                        <h1 class="title">今日娱乐：《神奇女侠》提前上映，蒂姆·波顿新片会引进</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10741">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10741" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">50</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10751.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

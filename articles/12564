@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今日应用：如何顽皮地做一只马赛克君？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="今日应用：如何顽皮地做一只马赛克君？。像素控看过来。。好奇心日报为您呈现今日应用：如何顽皮地做一只马赛克君？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Beautiful Mosaic 马赛克 今日应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="8XG1tm+k/RJvzGxm+hh0XcIewjFaopN+TSMfbcUh56k=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13401">
+				<span data-id="13401">Beautiful Mosaic</span>
+			</li>
+			<li class="tag item" data-id="13402">
+				<span data-id="13402">马赛克</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">今日应用：如何顽皮地做一只马赛克君？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1741/small/1741.jpg?1435203015" alt="">
+					</span>
+				<span class="name">高宇馨 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-24 09:41:44 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12564/medium/12564.jpg?1437695075" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12564" data-title="《今日应用：如何顽皮地做一只马赛克君？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12564/medium/12564.jpg?1437695075" data-url="http://www.qdaily.com/mobile/articles/12564.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				像素控看过来。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<ul>
+	<li>
+		充满了卡通元素的 Beautiful Mosaic 是一个优秀的打码应用。
+	</li>
+	<li>
+		一码在手，首先可以做遮挡，并且是漂亮的像素风格遮挡。其次马赛克用的巧妙，还能突出照片中的元素，让它变得有趣味。第三种整体加工则能让一张拍坏了的风景照一秒变壁纸。
+	</li>
+	<li>
+		<span>这是又一个值得花 6 块获得的应用，只在<a href="https://itunes.apple.com/us/app/beautiful-mosaic/id734415215?mt=8" target="_blank"> iPhone</a> 上可以下载。</span> 
+	</li>
+</ul>
+<p>
+	<span>相信你也发现了，并不是所有再处理都满足得了你的趣味。对柔光磨皮没有依赖的人来说，颗粒感十足的马赛克可能才是做图片后期的正确打开方式。</span> 
+</p>
+<p>
+	<span>Beautiful Mosaic 展示了 32 种不同的马赛克组合，如果你此前不是这方面的爱好者，完全可以滚动下方的选择框，挨个试一遍。<span>世界上竟然有这么多漂亮的马赛克</span>组合。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/b7aa289785fd.jpg" width="1080" height="949" title="两种不常见地马赛克" alt="两种不常见地马赛克" /><span>两种不常见的马赛克</span> 
+</p>
+<p>
+	此外，你还会发现 Beautiful Mosaic&nbsp;所有图标、界面和操作都有极强的卡通风格。主界面进来以后就可以选择进行整体的马赛克处理，点击不太显眼的左下角的 Mosaic Canvas（马赛克画布）还能进行局部马赛克。
+</p>
+<p>
+	题图这张“身披战甲的孟加拉猫们”就是通过 Beautiful Mosaic 的局部处理得来的。就像下图显示的一样，整个操作十分简单，不考验手指的灵活性，就是拼拼创意而已。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/13b26f25977c.jpg" width="1080" height="957" title="处理前景和处理背景" alt="处理前景和处理背景" /> 
+</p>
+<p style="text-align:left;">
+	在局部处理中，除了可以对前景进行处理以外，还可以改换背景。比如以下左边这幅图，就是先局部处理了两只喵，然后又改换了黑白条纹的背景。<span>做完这两种不同的侧重点的处理之后，就可以把图片分享出去了，再次被这种卡通的界面萌到。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/72a5036cc38f.jpg" width="1080" height="953" title="处理背景和分享" alt="处理背景和分享" /><span>处理背景和分享</span> 
+</p>
+<p style="text-align:left;">
+	<span>在 Beautiful Mosaic 的 Instagram 账号上，随便找来一些就像普通人用手机随手捏出的照片，加上马赛克效果之后，有了很多种不同的风格。<br />
+</span> 
+</p>
+<p style="text-align:left;">
+	<span><img src="http://cms.qdaily.com/uploads/image/201507/0da5896e1682.jpg" width="1080" height="1115" title="马赛克的几种处理方法|图片来自 Instagram" alt="马赛克的几种处理方法|图片来自 Instagram" style="text-align:center;" /> </span> 
+</p>
+<p style="text-align:center;">
+	<span>马赛克的几种处理方法|图片来自 Instagram</span> 
+</p>
+<p style="text-align:left;">
+	<span><span>一定程度上，给照片加马赛克，是把我们熟悉的形状变成了有点陌生的图案，或者通过这种方式吸引注意力、强调某个细节、改变照片的重心。</span></span> 
+</p>
+<p>
+	就是这种小的改造，就可以让照片中显示的生活变得更有趣一点。最终我们的记忆都会被照片骗的，所以....修照片很重要好么！
+</p>
+<p>
+	<i><span style="text-align:start;"><br />
+</span></i>
+</p>
+<p>
+	<i><span style="text-align:start;">想在「今日应用」栏目分享让你欲罢不能的应用，请邮件至 apps AT&nbsp;</span>qdaily.com</i> 
+</p>
+<span></span>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13401">
+				<span data-id="13401">Beautiful Mosaic</span>
+			</li>
+			<li class="tag item" data-id="13402">
+				<span data-id="13402">马赛克</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12564" data-title="《今日应用：如何顽皮地做一只马赛克君？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12564/medium/12564.jpg?1437695075" data-url="http://www.qdaily.com/mobile/articles/12564.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/1501.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/1501/medium/1501.png?1436641864" alt="今日应用：莫名火起来的又一个像素游戏Timberman">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">今日应用：莫名火起来的又一个像素游戏Timberman</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">6</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25470.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25470/medium/25470.jpg?1460614876" alt="">
+                        <h1 class="title">亚马逊 Kindle Oasis 上手，这是我们的印象</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25466.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25466/medium/25466.jpg?1460613715" alt="">
+                        <h1 class="title">「这世界」消灭种族偏见，应该从纠正搜索结果开始？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25483.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25483/medium/25483.jpg?1460625093" alt="">
+                        <h1 class="title">科比退役，耐克知道所有人都急于在这一刻说点什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25475.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25475/medium/25475.jpg?1460617328" alt="">
+                        <h1 class="title">把发布会变成脱口秀后，韩寒公布了新片《三重门》</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25426.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25426/medium/25426.jpg?1460542897" alt="">
+                        <h1 class="title">咖啡、巧克力、红酒和奶酪，减肥的时候也别戒掉它们</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12564">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12564" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12539.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

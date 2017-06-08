@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事。本次的诺贝尔医学奖体现了人类对弱势群体的关注，而中国终于有了自己的诺奖科学家。。好奇心日报为您呈现一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 诺贝尔医学奖 纽约时报 疟疾 青蒿素 屠呦呦 大村智 William C. Campbell " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="98A7mqkYgBaUHS7WQyP2fjUQGr/jModnJShOrLSKzrQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/5.html" class="category x25" data-id="5">
+			<img src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<h1 class="title">一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/173508/small/173508.png?1441191706" alt="">
+					</span>
+				<span class="name">Donald G. McNeil Jr.</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-06 22:21:06 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/15701/medium/15701.jpg?1444142041" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15701" data-title="《一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15701/medium/15701.jpg?1444107570" data-url="http://www.qdaily.com/mobile/articles/15701.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				本次的诺贝尔医学奖体现了人类对弱势群体的关注，而中国终于有了自己的诺奖科学家。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	<span style="text-align:justify;"><a href="http://health.nytimes.com/health/guides/disease/malaria/overview.html?inline=nyt-classifier">疟疾</a></span><span style="text-align:justify;">给热带地区带来了灾难，而中国药品青蒿素已经被誉为自二百年前发现奎宁之后，抗击疟疾历程中最伟大的进步之一。</span> 
+</p>
+<p>
+	青蒿素的发现正在被不断提及，说它会成为诺贝尔医学奖的候选。每年，有数百万美国纳税人的钱被花在非洲的疟疾治疗上。
+</p>
+<p>
+	但很少有人意识到，作为史上一大悖论，这种药的发现要归功于毛泽东，因为是他当时要求帮助正在丛林里和美国对抗的北越军队治疗疟疾。或者说由于中国的被孤立和西方捐助者、医疗机构和制药公司的漠视，这种药度过了默默无闻的 <span>30 </span>年。
+</p>
+<p style="text-align:left;">
+	现在，它的故事终于重见天日。但正如在科学历史上发生过很多次的事情一样，故事有很多个版本，而且有许多人在争夺它的发现者的桂冠。9 月，事情变得尤为明确了，因为拉斯克奖（Lasker Awards）中的一个奖项落到了数百名曾参与研发过该药的中国科学家中的一人的头上——而拉斯克奖又被誉为是“美国的诺贝尔奖”。&nbsp;
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/6ff23155e263.jpg" width="296" height="500" title="1" alt="1" /><span style="text-align:justify;"><em>晚花期的青蒿含有青蒿素，数十年前它就在中国被发现了。</em></span> 
+</p>
+<p>
+</p>
+<p>
+	毛泽东扮演的角色显而易见。
+</p>
+<p>
+	1960 年代，他收到了北越的请求：由于当地的疟疾寄生虫已经对所有已知的药物产生了抗药性，战士们正在因患疟疾而死去。于是毛泽东命令中国最好的科学家提供帮助。
+</p>
+<p>
+	但事情可没那么容易。文化大革命正在逐渐失去控制，而知识分子，包括科学家都正在被公开侮辱、被强迫到集体农场劳动，甚至被逼自杀。然而，由于命令是来自毛泽东本人，而且他派了军队的人来负责，所以这个研发项目得到了保护。在接下来的 <span>14 </span>年里，来自 <span>60 </span>家军队和民间机构的 <span>500 </span>名科学家都扑在了这个项目上。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/c1672027744a.jpg" width="600" height="330" title="1" alt="1" /><span style="text-align:justify;"><em>当某种疟疾击倒北越军队之后，毛泽东要求中国科学家行动起来。</em>&nbsp;</span><span style="text-align:justify;"></span> 
+</p>
+<p>
+</p>
+<p>
+	与此同时，数千名在越南的美国士兵也得了疟疾，而且沃尔特里德军事研究院（<span><a href="http://wrair-www.army.mil/">Walter Reed Army Institute
+of Research</a></span>）也开始了它的药品开发 。它最终的研究成果是甲氟喹，后来该药的产品名为 <span>Lariam</span>。
+</p>
+<p>
+	虽然甲氟喹效果很好，但它也有严重的缺陷，包括会引起<span><a href="http://health.nytimes.com/health/guides/symptoms/nightmares/overview.html?inline=nyt-classifier">噩梦</a></span>和妄想症。2003
+年，数十名在利比亚的美国海军陆战队员在拒绝服用此种药物之后得了疟疾，而他们拒服药物的原因，就是军中谣传有数名特战队员在 <span>2002 </span>年从阿富汗回到美国之后，因为被抗疟药逼疯而<span><a href="http://www.nytimes.com/2002/07/29/us/wife-killings-at-fort-reflect-growing-problem-in-military.html?pagewanted=all&amp;src=pm">杀了自己的妻子</a></span>。
+</p>
+<p>
+	中国研制抗疟药的努力正式开始于 <span>1967 </span>年 <span>5 </span>月 <span>23 </span>日的一次会议，而且该项目也因为会议的日期而被命名为“523
+项目”。
+</p>
+<p>
+	研究人员从两个角度入手开始研发。一组人员对 <span>4 </span>万种已知的化学品进行筛选，第二组人员则在传统医学文献中搜索，并派专人到乡下，向用草药治病的民间医生寻访他们治疗发热的秘方。
+</p>
+<p>
+	在公元前 <span>168 </span>年的墓室雕刻上提到了一种叫青蒿的草药，并且它还在数百年来的医学书卷中受到高度赞扬，一直到 <span>1798 </span>年的《温病条辨》中都还提到它。乡村医生确认了青蒿就是西方人称作黄花蒿（Artemisia
+annua，或者 <span>sweet wormwood</span>）的植物，它是一种有黄色花朵的尖叶野草。
+</p>
+<p>
+	1950 年代，部分中国乡村的干部曾经用青蒿茶对付过疟疾，但科学地对此进行调查还是第一次。青蒿素还有至少其他 <span>9 </span>种具有疟疾治疗效果的传统中药和它竞争，其中还包括一种辣椒（国内医学学术网站上找到的来源，pepper 指辣椒，不是胡椒，译者注）。
+</p>
+<p>
+	在实验室里，青蒿的提取物杀死了老鼠体内的疟疾寄生虫。研究人员试图找到几个答案：起作用的确切化学品是什么、它在哪种植物中含量最高、它是否能穿透血脑屏障并杀死大脑中的疟疾原虫，以及口服、静脉注射和栓剂应用它是否有效。
+</p>
+<p>
+	过时的科研设备延缓了研究进度。但到 <span>1970 </span>年代时，人们已经明白，这种被称为青蒿素的致命化学品有一种此前在自然界从未见过的结构：在化学术语中，这种结构叫做带过氧键的倍半萜内酯。在 <span>2000 </span>名患者身上的试验显示，它能非常迅速地杀死寄生虫。
+</p>
+<p>
+	然而人体清除它的速度非常快，任何没有被杀死的寄生虫又会卷土重来。所以科学家们开始把它和见效较慢、但药效更持久的药物结合起来，形成一种现在被称为青蒿素组合疗法的治疗方案。（一种新的组合疗法中还包括了甲氟喹。）
+</p>
+<p>
+	2006 年由 <span>523 </span>项目前副总指控<a href="http://book.douban.com/subject/2059978/" target="_blank">张剑方撰写的回忆录</a>中，包括了一些令人激动的细节：竞争对手之间狭隘的争论、文化大革命的街头武斗迫使一间实验室搬到了地下室、项目组医生在华南热带山区偏远的村庄里开展临床实验时靠糙米和蔬菜为生，而其他医生则和越共一起穿越了胡志明小道。
+</p>
+<p>
+	1976 年，毛泽东去世，523 项目也在 <span>1981 </span>年被正式解散，不过临床部分的工作依然继续了下去。
+</p>
+<p>
+	1979 年，在香港研究疟疾的基思·阿诺德博士（Dr. Keith
+Arnold）设法来到中国，他曾经帮助美国陆军研发甲氟喹，希望能在中国测试一下这种药。他遇到了李国强，他当时正在测试青蒿素的各种变种。他们决定开展对照试验，而阿诺德说，中国的神秘药物打败了他的甲氟喹。
+</p>
+<p>
+	不久之后，为了回应一位南斯拉夫药剂师正在进行艾蒿相关实验的报道，世界卫生组织的科学家要求查阅一些中国医学杂志上的文章，其中最早的一篇发表于 &nbsp;<span>1977 </span>年。
+</p>
+<p>
+	1982 年，《柳叶刀》（The Lancet）上发表了一篇由中国研究人员撰写的文章。它还得了一个奖，但当时的英镑支票还没有办法在中国兑现。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/9338dbb4299c.jpg" width="650" height="553" title="1" alt="1" /><em>早期灵药。1941 年《医学史公报》（Bulletin of the History of Medicine）上的一幅插画，它描述了和奎宁的来源金鸡纳树有关的想法，并认为这种树的名字来自于秘鲁的一位伯爵夫人。</em> 
+</p>
+<p>
+</p>
+<p>
+	阿诺德说，在那之后不久，沃尔特里德军事研究院的科学家们发现了长在美国波托马克河岸上的黄花蒿，并从其中提取出了青蒿素。然而这种药一直寂寂无闻，世界卫生组织直到 <span>2000 </span>年才正式支持了这种药，直到 <span>2006 </span>年它才得到广泛应用。
+</p>
+<p>
+	针对这种拖延形成的原因有许多争论。中国的政治当时一片混乱，国内外不同的实验室当时都在努力研究各种衍生物，专利法在共产主义制度下失效，而中国从来没有应用西方式的专利，所以也就没有哪家大型制药公司能得到独家授权并获得高额利润，而且疟疾是穷人的疾病，而今天这种大的捐助基金当时也并不存在。
+</p>
+<p>
+</p>
+<p>
+	援助机构不能购买那些未经世界卫生组织批准的药物。阿诺德博士说，他曾试图为自己的中国合作伙伴争取在泰国和越南进行临床试验的许可，但世界卫生组织始终支吾搪塞着不批准。（对一个美国机构来说，这已经是个很少见的大胆举动了，但 <span>1990 </span>年代是一个士气特别低落、明争暗斗时常发生的年代。）<span></span> 
+</p>
+<p>
+	当时，一年里死亡的非洲儿童人数多达近百万。阿诺德博士公开谴责称，世界卫生组织的犹疑不定是一种“种族屠杀行为<span>”</span>。<span></span> 
+</p>
+<p>
+	美国军方则不顾甲氟喹的代价，竭力坚持使用这种药物。一直到 <span>2002 </span>年，无国界医生组织（Doctors Without
+Borders）大声呼吁、要求将青蒿素投入使用时，一位美国国际开发总署（United
+States Agency for International Development）的顾问还在<span><a href="http://www.nytimes.com/2002/05/28/health/new-drug-for-malaria-pits-us-against-africa.html?ref=donaldgjrmcneil">《纽约时报》的一篇采访</a></span>中说“时机还未成熟，（这种药物）还没到投入使用的时候<span>”</span>， 在氯喹和其他一些老旧、便宜的药物存在抗药性的情况普遍存在的情况下，他还为它们进行辩护。<span></span> 
+</p>
+<p>
+	最终，瑞士公司诺华制药（Novartis）打破了这一僵局。公司带来了一种青蒿素甲醚（一种青蒿素衍生物）和苯芴醇（另一种中药）组合制剂的全新中国专利，并且拿出了西方专利，计划将这款药物命名为
+Riamet，并以高价卖给游客和军队。<span>2011 </span>年，公司将这款药物命名为复方蒿甲醚（Coartem），并以接近成本价的价格将其售予世界卫生组织。<span></span> 
+</p>
+<p>
+	2002 年，<span><a href="http://www.theglobalfund.org/en/">抗击艾滋病、结核病和疟疾全球基金</a></span>（<span>&nbsp;</span>Global
+Fund to Fight AIDS, Tuberculosis and Malaria）成立；<span>2005 </span>年，布什政府推出<span><a href="http://www.pmi.gov/">总统防治疟疾行动计划</a></span>（President’s
+Malaria Initiative）。大批购买这一药物的钱款因此有了着落。如今，每年都有约 <span>1.5 </span>亿份的几种不同组合制剂被送往贫困国家。<span></span> 
+</p>
+<p>
+	获得这场胜利后，仍然健在的 <span>523 </span>项目科学家和其他一些项目组以外的人开始为了声望而彼此竞争。<span>1996 </span>年，一家香港科学基金会表彰了 <span>10 </span>位团队领导者。<span>2009 </span>年，周义清因为复方蒿甲醚获得了欧洲专利局（European Patent Office）颁布的<span>“</span><span><a href="http://www.epo.org/news-issues/european-inventor/finalists/2009/zhou.html">年度发明家（Inventors of
+the Year）</a></span>”大奖。<span></span> 
+</p>
+<p>
+	9 月，前任<span><a href="http://old.cacms.ac.cn/english/unit/zhongyaosuo.html">北京中药研究所</a></span>主任屠呦呦获得了奖金 <span>25 </span>万美元的<span><a href="http://www.laskerfoundation.org/awards/2011_c_interview_youyou.htm">拉斯克奖</a></span>临床医学研究奖（Lasker
+Award<span>&nbsp;</span>for clinical medical research）。拉斯克委员会提名称她是<span>“</span><span><a href="http://www.laskerfoundation.org/awards/2011_c_description.htm">青蒿素的发现者</a></span>”。<span></span> 
+</p>
+<p>
+	这让一些中国和西方疟疾学家相当愤慨。<span></span> 
+</p>
+<p>
+	一位杰出的牛津疟疾研究人员尼古拉斯<span>·</span>怀特（Nicholas J. White）博士表示，<span>“</span>将这一发现归功于某一个人是件相当不公平的事<span>”</span>，他提到了其他一些他认为同样应当获得这一荣耀的科学家，其中就包括了这一临床试验的负责人李国强和另一位化学家李英（音）。<span></span> 
+</p>
+<p>
+	李国强的合作者阿诺德博士也同意这一看法。（当时拉斯克奖的颁奖辞中也提到了阿诺德博士。）香港科技大学（University of Science and Technology）疟疾研究人员、历史学家理查德<span>·</span>海恩斯（Richard K. Haynes）则将单单提名一位发明者的行为称作是“一种歪曲（事实）的行为<span>”</span>。<span></span> 
+</p>
+<p>
+	拉斯克基金会拒绝对此做出评论。不过基金会表示，屠呦呦获得的颁奖辞中有提到说，<span>523 </span>项目是一项巨大的集体成就。<span></span> 
+</p>
+<p>
+	在颁奖仪式前的一场采访中，<span>81 </span>岁的<span>屠呦呦</span>辩称，她理应获得这个奖项，因为她的团队是第一个分离出青蒿素活性成分的，当时其他的小组还在研究错误的植物。<span></span> 
+</p>
+<p>
+	此外，她还重新阅读了中国 <span>4 </span>世纪一位医药学家葛洪的手稿。手稿里有一份处方认为，浸泡在冷水中的青蒿能够治疗发烧症状。在阅读了手稿后，<span>屠呦呦</span>意识到，煎煮这一最典型的萃取方式其实是在破坏药物的有效成分。她转而采用了乙醚。而青蒿素也成为了第一种能够完全杀死老鼠体内疟疾的植物萃取物。<span></span> 
+</p>
+<p>
+	而且<span>屠呦呦</span>表示，在进行人体实验前，她和另外两位同事自己服用了这一药物，以确保药物无毒。<span></span> 
+</p>
+<p>
+	<span>屠呦呦</span>说，在西方人甚至还没有听说过这种药物的时候，她就和另外三位匿名作者一起写出了 <span>1977 </span>年发表的第一篇论文。<span>1978 </span>年，她被选中领取了中国政府授予 <span>523 </span>项目的集体奖项。<span></span> 
+</p>
+<p>
+	然而，无论甄选某一领域的卓越人才有多困难，诺贝尔委员会都必须做出选择。章程规定，诺贝尔奖获奖者不能超过三人。而且奖项也不能授予已经过世的死者——这也就是说，毛泽东不会成为诺贝尔奖的获奖人选。<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	翻译&nbsp;is译社&nbsp;葛仲君&nbsp;钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="16785">
+				<span data-id="16785">诺贝尔医学奖</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="5537">
+				<span data-id="5537">疟疾</span>
+			</li>
+			<li class="tag item" data-id="16791">
+				<span data-id="16791">青蒿素</span>
+			</li>
+			<li class="tag item" data-id="16786">
+				<span data-id="16786">屠呦呦</span>
+			</li>
+			<li class="tag item" data-id="16787">
+				<span data-id="16787">大村智</span>
+			</li>
+			<li class="tag item" data-id="16788">
+				<span data-id="16788">William C. Campbell</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15701" data-title="《一个看起来有争议的诺贝尔奖，和它背后坎坷纠结的秘密故事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15701/medium/15701.jpg?1444107570" data-url="http://www.qdaily.com/mobile/articles/15701.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15698.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15698/medium/15698.jpg?1444092262" alt="恶作剧、求职、骚扰电话？诺贝尔奖得主们回忆那个来自瑞典的电话">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">恶作剧、求职、骚扰电话？诺贝尔奖得主们回忆那个来自瑞典的电话</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">83</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15705.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15705/medium/15705.jpg?1444142591" alt="凭借抗寄生虫疗法，三位科学家获得诺贝尔医学奖">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">凭借抗寄生虫疗法，三位科学家获得诺贝尔医学奖</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">36</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26746.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26746/medium/26746.jpg?1463032218" alt="">
+                        <h1 class="title">他给“世界音乐”做经纪，所以这做的到底是什么音乐？ | 100个有想法的人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26701.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26701/medium/26701.jpg?1462951738" alt="">
+                        <h1 class="title">作为一个气味设计师，她到底如何为客户工作？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26755.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26755/medium/26755.jpg?1463042885" alt="">
+                        <h1 class="title">“乐观看待问题”？现在有研究说这可能不是好事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26767.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26767/medium/26767.jpg?1463050615" alt="">
+                        <h1 class="title">欧洲杯倒计时，汉莎要选 350 个球迷名字印在德国队专机上</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26752.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26752/medium/26752.jpg?1463036482" alt="">
+                        <h1 class="title">《刺客信条》发布预告片，法鲨在中世纪街头跑酷</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26741.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26741/medium/26741.jpg?1463024373" alt="">
+                        <h1 class="title">这里有本手绘色彩索引，比Pantone还要早270多年</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26761.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26761/medium/26761.jpg?1463043128" alt="">
+                        <h1 class="title">又来了一家电动汽车公司，也用了伟人的名字</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15701">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15701" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">352</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15704.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

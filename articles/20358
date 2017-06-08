@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个设计了不起之今日最佳_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个设计了不起之今日最佳。我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。。好奇心日报为您呈现这个设计了不起之今日最佳的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="工业设计 包装设计 灯饰 Electrical Shop Frederik Roijé Dmowski &amp; Co. 藤原敬介 Charles Törnros Viviana Degrandi " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="EcfILKfbECGh5ugHZuBAznmRbMvAgn0Bg+4VvREEyu8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="3875">
+				<span data-id="3875">包装设计</span>
+			</li>
+			<li class="tag item" data-id="2976">
+				<span data-id="2976">灯饰</span>
+			</li>
+			<li class="tag item" data-id="21702">
+				<span data-id="21702">Electrical Shop</span>
+			</li>
+			<li class="tag item" data-id="21703">
+				<span data-id="21703">Frederik Roijé</span>
+			</li>
+			<li class="tag item" data-id="21704">
+				<span data-id="21704">Dmowski &amp; Co.</span>
+			</li>
+			<li class="tag item" data-id="21705">
+				<span data-id="21705">藤原敬介</span>
+			</li>
+			<li class="tag item" data-id="21706">
+				<span data-id="21706">Charles Törnros</span>
+			</li>
+			<li class="tag item" data-id="21707">
+				<span data-id="21707">Viviana Degrandi</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个设计了不起之今日最佳</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/161922/small/161922.jpg?1442322894" alt="">
+					</span>
+				<span class="name">廖婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-07 07:30:44 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20358/medium/20358.jpg?1452092172" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20358" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20358/medium/20358.jpg?1452092172" data-url="http://www.qdaily.com/mobile/articles/20358.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	「这个设计了不起」的微信公众号上线啦，直接搜索「BestDesign」或是「Qthings」就可以订阅，关注我们每日发现的新鲜好设计。
+</p>
+<h3>
+	Diamond Cage by The Electrical Shop&nbsp;
+</h3>
+<p>
+	这是英国照明公司 The Electrical Shop 推出的 Diamond Cage，将圆形灯泡放在了钻石结构的灯罩里。带有尖锐表面的灯罩和圆形灯泡产生了对比，小巧而有雕塑感。灯罩上没有玻璃，所以很轻，可以通过电线挂起来，或者直接放在桌面上。这盏灯连接了不同颜色的电线，最近推出了黑枪色，售价 79 英镑起，<a href="http://www.the-electrical-shop.co.uk/shop?category=Gunmetal" target="_blank">这里是购买链接。</a> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/fd03d8de092b.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ed7af6870ef5.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a5bd93cb6b7e.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ff88f2971098.jpg" width="1000" height="750" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/4ee18da14aa7.jpg" width="1000" height="750" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<h3>
+	花瓶系列 by 藤原敬介
+</h3>
+<p>
+	这一系列花瓶来自日本设计师藤原敬介（keisuke fujiwara），模拟了水滴的形状，是用钢材制作的。插上花之后，花瓶会根据花枝的重量微微倾斜，随着花瓣落下，花瓶又能轻轻摆动，寻找到平衡点，巧妙而有趣味。花瓶系列有 5 种颜色组合，每个花瓶都呈现渐变的镜面效果，在晃动中有了光影的变化。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/2908137d9c13.jpg" width="818" height="545" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a7915e2e4109.jpg" width="818" height="545" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/fbe852a91149.jpg" width="818" height="545" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/bfd932f353aa.jpg" width="818" height="545" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<h3>
+	TExTURE TRaY by Frederik Roijé&nbsp;
+</h3>
+<p>
+	这是一套用钢丝制作的托盘，由一个长方形和两个正方形组成。托盘中间是斜向的纹路，两者重叠在一起正好组成交叉纹，移动放在里面的小托盘还会产生纹路的变化，看似简单，却也有生活的乐趣。托盘是灰色的，在此基础上可以选择偏蓝、绿、黄等多种不同的色调，售价 179 欧元起，<a href="http://www.roije.com/index.php?route=product/product&product_id=80" target="_blank">这里是购买链接。</a> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/02dc604b57bc.jpg" width="1080" height="810" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/90ca1ac64fee.jpg" width="600" height="441" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ae90c9fdffdb.jpg" width="600" height="450" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/bd87e19b5ccb.jpg" width="600" height="451" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/7fa2a5f6202c.jpg" width="600" height="450" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<h3>
+	Norrom aquarium by Charles Törnros &amp; Norrom&nbsp;
+</h3>
+<p>
+	瑞典设计师 Charles Törnros 不满意现有鱼缸看起来笨重，电缆搭配很难看，做了这个家庭使用的圆柱形的鱼缸。可以最大面积观察鱼缸的内部，远看像一盏小灯。鱼缸两头有木质的圆柱，作为基础和盖子，也是可以替换的。两头的圆木对比中间的透明，让鱼缸像是漂浮在空中。灯光从下面发出，照射到顶部时再反射到水里。空气过滤器也安装在了下面，使鱼缸不会显得突兀。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/9939aa195b36.jpg" width="1080" height="762" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/9c0658eaca43.jpg" width="600" height="424" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b0576cfccdfc.jpg" width="600" height="190" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/7dadff5e9dd6.jpg" width="600" height="312" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/032a8d6e07de.jpg" width="600" height="952" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<h3>
+	Apollo by Viviana Degrandi
+</h3>
+<p>
+	这 6 个碗是按照大小型号重叠在一起的，叠在一起后就像只有一个碗，便于收纳。容量是从 2.5 升到 250 毫升，正好形成了红色到黄色的渐变。渐变的色彩能方便排列，也增加了生活的色彩。此外，碗的边缘一边是有厚度的，慢慢转到没有厚度，有微微的倾斜。从有厚度的一侧可以看到颜色的叠加，也方便看到碗的个数。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/2853f34f0849.jpg" width="1050" height="516" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/52fc1d72e11c.jpg" width="1050" height="542" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/25a387eb40ff.jpg" width="1050" height="525" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/083d95f4fb1c.jpg" width="1050" height="1050" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<h3>
+	Blanca Tea by Dmowski &amp; Co.&nbsp;
+</h3>
+<p>
+	波兰的包装设计公司 Dmowski &amp; Co.要求为一家新成立的茶叶品牌 Blanca 设计包装，他们遵循了“少即是多”（less is more）的原则。logo 是一个大写的 B，画在手绘植物图案和深蓝色的背景上。宣传卡片和铝盒子上的标签都是白色的，上面简单地画了彩色的植物的图案，显得简单干净，文字选用了很小<span>的字体</span>，印在了植物上有特别的文艺气息。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/82c617399a05.jpg" width="1080" height="540" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/284d6c9a7df8.jpg" width="1080" height="719" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/cc564a8c6eb9.jpg" width="1080" height="719" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e6d3af86c404.jpg" width="1080" height="719" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/69a6b39b248f.jpg" width="1000" height="666" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="3875">
+				<span data-id="3875">包装设计</span>
+			</li>
+			<li class="tag item" data-id="2976">
+				<span data-id="2976">灯饰</span>
+			</li>
+			<li class="tag item" data-id="21702">
+				<span data-id="21702">Electrical Shop</span>
+			</li>
+			<li class="tag item" data-id="21703">
+				<span data-id="21703">Frederik Roijé</span>
+			</li>
+			<li class="tag item" data-id="21704">
+				<span data-id="21704">Dmowski &amp; Co.</span>
+			</li>
+			<li class="tag item" data-id="21705">
+				<span data-id="21705">藤原敬介</span>
+			</li>
+			<li class="tag item" data-id="21706">
+				<span data-id="21706">Charles Törnros</span>
+			</li>
+			<li class="tag item" data-id="21707">
+				<span data-id="21707">Viviana Degrandi</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20358" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20358/medium/20358.jpg?1452092172" data-url="http://www.qdaily.com/mobile/articles/20358.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2177.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/2177/medium/2177.jpg?1436648613" alt="「万物简史」茶的全球化四部曲">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">「万物简史」茶的全球化四部曲</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">60</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9799.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9799/medium/9799.jpg?1436655102" alt="如何边吃炸鸡边打字？KFC把托盘变成了键盘">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">如何边吃炸鸡边打字？KFC把托盘变成了键盘</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">20</span>
+				<span class="iconfont icon-heart">100</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25529.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25529/medium/25529.JPG?1460696772" alt="">
+                        <h1 class="title">「这世界」有人开了家普京主题咖啡馆，充满了俄罗斯式的爱国主义</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25535.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="">
+                        <h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25555.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25555/medium/25555.jpg?1460741386" alt="">
+                        <h1 class="title">一篇偷窥狂报道，马上就要变成斯皮尔伯格和门德斯的电影</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20358">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20358" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">57</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20346.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasper Morrison 眼中的“好生活”_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Jasper Morrison 眼中的“好生活”。“在这个日益被‘设计‘污染的世界——我指的是那些唯一目的在满足被市场驱动的消费需求的产品，设计应该让它保持本来应有的样子。你应该设计那种具有内在永恒性的产品，它不会形成干扰，而能营造好的气氛”。。好奇心日报为您呈现Jasper Morrison 眼中的“好生活”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 设计 工业设计 Jasper Morrison " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="e91WSGlK7VcTdEtoljTgJQnKV9Vp167KRciGWm/UlRE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/17.html" class="category x25" data-id="17">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<h1 class="title">Jasper Morrison 眼中的“好生活”</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/13/small/13.jpg?1427661993" alt="">
+					</span>
+				<span class="name">张晶</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-03 09:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/972/medium/972.jpg?1410857873" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="972" data-title="《Jasper Morrison 眼中的“好生活”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/972/medium/972.JPG?1436637907" data-url="http://www.qdaily.com/mobile/articles/972" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“在这个日益被‘设计‘污染的世界——我指的是那些唯一目的在满足被市场驱动的消费需求的产品，设计应该让它保持本来应有的样子。你应该设计那种具有内在永恒性的产品，它不会形成干扰，而能营造好的气氛”。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	一年一度的纽约国际家具展（ICFF）上，Jasper Morrison 的存在显得有些另类，虽然他的出场被定义为今年最值得一提的环节。在光怪陆离的会场中央，一个白色墙壁围拢起来的空间里只是随意放了几把椅子，墙上挂着数十张摄影作品，像个微型画廊。Jasper Morrison 似有心事地坐在其中，偶尔有人走上前请他签名时才微微起身。在展览进行的几天时间内，他大多保持着这样的状态，几乎没有去看过其它人的作品。“它们太喧闹了”，他说。
+</p>
+<p>
+	作为当代工业设计的代表人物和“新极简主义”运动的先锋，这位出生于 1959 年的工业设计师的作品包罗万象，除家具之外，还曾设计灯具、织物、 家中装饰物，以及德国汉诺威的有轨交通系统——当时是欧洲最大的轻轨项目。自2004年开始，他还担任三星电子和无印良品的顾问。
+</p>
+<p>
+	<img src="/uploads/image/201406/ab69316715bb.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	Jasper Morrison 曾担任德国汉诺威轻轨系统的设计师
+</p>
+<p>
+	他先后就读于金斯顿工业设计学校和英国皇家艺术学院，此前往返于伦敦和巴黎，如今大半时间待在东京，还曾于 2005 与日本设计师深泽直人（Naoto Fukasawa）<a href="http://www.jaspermorrison.com/html/4996075.html" target="_blank">合作</a>举办展览并出版<a href="http://www.supernormal.co.uk/" target="_blank">《平常至极：平中见奇》（Super Normal：Sensations of the Normal）</a>一书。他在书中表示，不必要的设计都是污染物，“在这个日益被‘设计‘污染的世界——我指的是那些唯一目的在满足被市场驱动的消费需求的产品，设计应该让它保持本来应有的样子。你应该设计那种具有内在永恒性的产品，它不会形成干扰，而能营造好的气氛”。
+</p>
+<p>
+	近年来，他一直用镜头记录下一切能触动自己的东西，它们来源于生活中一些不经意的场景或瞬间。数千张的照片最后被择选为他出版的新书《The Good Life》（见下图）中的 34 张图片，这些照片正是他所理解的“好生活”。
+</p>
+<div style="text-align:center;">
+	<img src="/uploads/image/201406/70fe7d1225ff.jpg" alt="" /><br />
+</div>
+Q：我留意到在这样一个环境之中，你的作品和其它设计师或品牌非常不同。这本书是怎么诞生的？
+<p>
+	Morrison：我一直都有拍照片，大概五六年以前，我把它们放到网站上，命名为“Picture of the Month”。每个月我都会用一张照片讲一个故事。后来Vitra找到我，问能不能放到它的网站上。所以就这样一直持续了下来，拍照和写一点东西。后来两年前威尼斯建筑双年展 Common Ground 的时候就做了一个展览，当时我就起了这个名字，《好生活》。后来我之前的出版商就出版了它，共计34张图片。这些照片就是我在旅行或者到处逛的时候，它们突然引起了我的注意。
+</p>
+<p>
+	Q：这些照片有什么共性么？
+</p>
+<p>
+	Morrison：我想这正是人们对好的生活的理解。有些只是陈列，有些设置在某些场景之中，让气氛更加和谐，比如在印度的那张一颗树斜向一旁，旁边有一些绿植和一尊无头的佛像，我觉得那样的场景很有魅力，也很有趣。
+</p>
+<p>
+	<img src="/uploads/image/201406/c71467492bdf.JPG" alt="" /> 
+</p>
+<p>
+	这是 Jasper Morrison 在 Pondicherry Archeaolgical 博物馆外拍下的一幕。“它无需特别解释什么，只是一些漫不经心地陈列，但比起那些有意从最初人为设计的场景，气氛更美妙”。
+</p>
+<p>
+	Q：但有些图片看上去非常日常化，比如这张木窗。
+</p>
+<p>
+	Morrison：我认为这种展示非常独特。可能在中国还会有很多这样的东西，但是在欧洲已经看不到以这种方式陈列的窗。它非常美丽，将尺寸不一的事物摆放在一起。
+</p>
+<p>
+	Q：你的书名叫《好生活》（The Good Life），你理解的好生活的含义是什么？
+</p>
+<div>
+	Morrison：就像这些，它和金钱无关，和奢侈品无关，那些都不重要。可能在中国人人都在狂热地追逐奢侈品，但那些对我毫无意义，它就像是把人们的钱从口袋里拿出来的一场游戏。欧洲人也经历过这样的时期，现在稍微减缓了。
+</div>
+<p>
+	丰富并不意味着富有（注：这里同时用了rich这个词），而在于精神层面。这才是好生活所传递出的信息，是真实存在的事物。那些不必要的设计都是垃圾，是对物料的浪费，这个情况越来越严重，因为设计如今变得太主流了。你很容易发现为什么会发生这一切，因为公司希望做出为人关注的产品，认为设计就是简单的装点，而不从长远思考问题。这也是为什么一些设计产品两年后就显得过时了。一些设计师并没有在做设计，而是在扮演营销、消费的功能。
+</p>
+<p>
+	一件好的设计，最终应该看上去是非常自然的。
+</p>
+<p>
+	Q：这是你设计哲学的核心么？在你的职业生涯中，它发生过改变么？
+</p>
+<p>
+	Morrison：或许吧。让生活更好一点，做一些美好的东西，从最初开始，这一点从来没改变过。我做事情永远是单向的。这可能是好事，也可能是坏事。好的一面在于你持续在做，不好的一面可能有些人会觉得很枯燥很无聊。不过我不在乎别人怎么想。
+</p>
+<p>
+	Q：你提到昂贵，但如今一些好的设计师的作品也很昂贵。
+</p>
+<p>
+	Morrison：我不能理解人们为什么喜欢花钱在那些愚蠢的东西上面。世界上的事物有天然和人工两大类，设计的意义在于找到合用的形式，以及它同时适合观赏，这就是所谓的“超乎寻常”。我也厌恶那些有特别装饰的服装。
+</p>
+<p>
+	Q：你在不同的城市工作和生活，人们对设计的理解有何差异？
+</p>
+<p>
+	Morrison：我现在住在日本东京，我很喜欢那里。我住的房子可以看到别人的屋顶和两边都是樱桃树的河流。日本的设计哲学很独特，和它的国民性很接近。和欧洲那些炫丽的设计不同，日本的设计纯净、安静、直接，很有意思。和德国人相比，日本人有更好的幽默感，很有趣，德国人太严肃了。
+</p>
+<p>
+	我在那里住了六年了，大概每年住半年，剩下的时间在世界各地旅行。美国和欧洲很不同，欧洲不同小镇有不同的设计产品，而美国更加分散，城市之间都相隔很远，就像中部几乎没有设计。两地的价值观和理念也都显著不同。
+</p>
+<p>
+	Q：但越来越多的欧洲设计师现在也开始给美国公司工作。
+</p>
+<p>
+	Morrison：的确如此。他们可能渐渐体会到欧洲设计师的魔力。我二十年前做这个行业的时候，很多人不知道工业设计师是做什么的，他们问我，你的工作室在那里，在他们想象当中，我们就像是传统的手工艺人。
+</p>
+<p>
+	<img src="/uploads/image/201406/63b25c04d17e.jpg" alt="" /> 
+</p>
+<p>
+	"如果这个东西出现在米兰，我肯定不会多瞧一眼。但是它出现在印度南部城市 Pondicherry 的狭窄的街道间，就显得意味深长"（Jasper Morrison）
+</p>
+<p>
+	Q：你和其它设计师之间的交流多么？
+</p>
+<p>
+	Morrison：我不太喜欢那种炫耀性的东西。好的设计不应该制造太多噪音。我有很多设计师朋友，他们可能和我很不一样，但是我们是很好的朋友。如果我只是和那些与我相近的人交朋友，就太无聊了。
+</p>
+<p>
+	Q：你比较欣赏的设计师有谁呢？
+</p>
+<p>
+	Morrison：过去的么？很多。比如日本的Sori Yanagi，意大利的比如&nbsp;Vico Magistretti、Achille Castiglioni、Enzo Mari、Franco Albini，德国的dieter rams，法国的Jean Prouvé，还有Charles Eames。一些新兴的瑞典和德国设计师也不错，不过我不太跟踪新的东西。
+</p>
+<p>
+	Q：关于中国的设计和文化你有什么想评论的么？
+</p>
+<p>
+	Morrison：有个地方我非常想去。我看过一个电视节目，里边有很多洞穴，大概在中国的西部，有很多漂亮的壁画。（注：他讲的是敦煌）。
+</p>
+<p>
+	Q：你对年轻设计师有什么建议？
+</p>
+<p>
+	Morrison：不要总想着标新立异，专注于解决问题。关注你身边正在发生的一切，这就是我教育他们的方式。
+</p>
+<p>
+	Q：你每天的生活是什么样的？
+</p>
+<p>
+	Morrison：很简单。就像我说过，其实你发现设计师都不会去设计师餐厅，大家还是会找个有传统的馆子，能喝啤酒吃香肠的地方。这就是人身上矛盾的地方。设计师有种特殊的嗅觉，能知道哪里气氛最好，好的产品就该可以营造合适的气氛。
+</p>
+<p>
+	Jasper Morrison 的一些作品
+</p>
+<p>
+	<img src="/uploads/image/201406/c0bab984b8b2.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	1999 年为 Vitra 设计的多功能椅
+</p>
+<p>
+	<img src="/uploads/image/201406/6a370b16d4e3.png" alt="" /> 
+</p>
+<p>
+	<img src="/uploads/image/201406/f063545fcbc2.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	2011 年为 Vitra 设计的椅子“Hal”，椅腿为不同材质
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201406/6e9646a22fee.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	2000 年为伦敦泰特博物馆设计的椅子，由意大利家具公司 Cappellini 生产。
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201406/103386c7fa33.JPG" alt="" /> 
+</p>
+<p style="text-align:center;">
+	上由 Alessi 制造；左下为月亮瓷器晚餐整套餐具，由 Rosenthal 制造；右下为日本品牌 Oigen
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201406/01630d41d88d.JPG" alt="" /> 
+</p>
+<p style="text-align:center;">
+	Morrison 为三宅一生等品牌设计的钟表
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="939">
+				<span data-id="939">Jasper Morrison</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="972" data-title="《Jasper Morrison 眼中的“好生活”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/972/medium/972.JPG?1436637907" data-url="http://www.qdaily.com/mobile/articles/972" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24645.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24645/medium/24645.jpg?1459231311" alt="">
+                        <h1 class="title">甲骨文认为 Android 涉嫌“抄袭”，想要 93 亿赔偿</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="972">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="972" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">30</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/973.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

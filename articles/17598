@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？。今年双 11，展现这家公司潜力的并不是卖出更多东西。好奇心日报为您呈现一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 双 11 阿里巴巴 天猫 支付宝 菜鸟网络 马云 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="kRHGd6dtRvPdwsrdI8Sq1vg+Qum3g5WPqi/De0/b4sA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/2007/small/2007.jpg?1408114682" alt="">
+					</span>
+				<span class="name">许冰清 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-16 15:28:41 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/17598/medium/17598.jpeg?1447651791" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17598" data-title="《一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17598/medium/17598.jpg?1447651484" data-url="http://www.qdaily.com/mobile/articles/17598.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				今年双 11，展现这家公司潜力的并不是卖出更多东西
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	如果只用数字来说明刚过去的 11 月 11 日发生了什么，大概是这样的：
+</p>
+<p>
+	24 小时里，天猫卖了 912 亿元的商品、比一年前的 11.11 多了六成。之后的十天内，仅天猫上的消费就将产生 4.76 亿个包裹，放在每个纸盒中的商品价值接近 195 元。
+</p>
+<p>
+	这是天猫经历的第 7 个双 11 购物节，也是最大的一次。在此之前，我们已经经历了一个月的营销攻势。
+</p>
+<p>
+	提前一个月开始的预购、一场耗费巨资在水立方举办的双 11 晚会以及随之而来的摇手机抢红包……或是现在正在全城运送包裹、车身却被提前漆上了天猫 Logo 的快递车，都是这些努力的一部分。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/e70483145f32.jpg" width="1080" height="719" title="位于水立方内的天猫双 11 晚会现场" alt="位于水立方内的天猫双 11 晚会现场" style="text-align:center;" /><span style="text-align:center;">位于水立方内的天猫双 11 晚会现场</span> 
+</p>
+<p>
+</p>
+<p>
+	你完全可以将今年各家的双 11，看作是一场持续了一个多月的集体营销。在前期的一次媒体沟通会上，天猫市场部总经理应宏就曾对外透露，天猫为了今年的双 11，联合参与活动的几百家品牌投出了总计 15 亿元的广告。
+</p>
+<h2>
+	阿里巴巴的股票并不像销售数字一样高涨
+</h2>
+<p>
+	今年双 11，天猫已经变成了一个更成熟的电商平台。从去年双 11 开始就有了这样的趋势：国际大牌的比例变高了、以往需要出境旅游才能买到的东西也有了，甚至连购置大小家电这件事，也不一定要集中在京东、苏宁花钱了。
+</p>
+<p>
+	到了 2015 年，这些趋势都变得更加明显了：包括联合利华、可口可乐、雅诗兰黛、哈雷等一线品牌的战略合作签约仪式，在今年下半年频繁地在阿里巴巴位于杭州的总部内举行。主营跨境海淘的天猫国际，目前已经扩展到 5000 多个海外品牌。
+</p>
+<p>
+	2014 年，阿里巴巴在上市后不久就迎来了一个双 11，美国投资者惊诧于巨额的销售总额数据，这帮助阿里巴巴的股票顺势冲上 120 美元的高点。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/06cfe1b43d70.jpg" width="1080" height="810" title="位于纽约麦迪逊广场的天猫双 11 广告" alt="位于纽约麦迪逊广场的天猫双 11 广告" /><span>位于纽约麦迪逊广场的天猫双 11 广告</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	而在今年，即使双 11 数字更漂亮、即使阿里巴巴买下了纽交所、时报光场甚至硅谷地区的广告位，并请纽交所为自己举办了远程敲钟仪式，但在整个双 11 的 24 小时内，阿里巴巴的股价并没有出现大幅上涨。双 11 结束后，它的股价反而下跌了近 2%。
+</p>
+<p>
+	如果说海外投资人不熟悉阿里巴巴，1 个月前，马云已经亲自公开做过一轮沟通。在今年 10 月阿里巴巴发布 2015 财年报告时，马云写了一封 4200 余字的致股东公开信。在这封信中，他曾强调：“实际上，狭义的电子商务仅仅是今天阿里巴巴集团战略的一部分，我们追求的是打造一个开放、透明、协同的商业基础设施平台。”
+</p>
+<p>
+	在阿里巴巴一年中最受关注的这一天，马云再度向现场的中外媒体解释说这个“商业基础设施平台”都包括了哪些部分，又是如何从阿里现有的电商生意中生长出来的：
+</p>
+<p>
+	“双 11 是对中国基础设施的考试——两三年前，几乎所有的银行都瘫痪，所有的物流公司每年都紧张，所有的公司的客服、供应链都紧张，但是今年，越来越好。……今天每一笔双 11 交易量，很可能成为十年以后的每天平均交易量，为此我们必须在技术、物流、支付等方面做出大量投入。”
+</p>
+<p>
+	漂亮的数字、更成熟的天猫、一轮接一轮的沟通……但阿里巴巴的股票却没有随之上涨。
+</p>
+<p>
+	毕竟<span>对于投资者来说，不管是双 11 的重要参与者蚂蚁金服或是尚在建设中的物流网络，其红利都暂时无法被放入阿里巴巴的上市部分分享。</span> 
+</p>
+<h2>
+	双 11 的成功还得感谢支付宝，未来这究竟会是谁的双 11？
+</h2>
+<p>
+	在今年双 11，得利者明显已经不只是阿里巴巴。双 11 当日，支付宝承担了 7.1 亿笔交易，许多来自天猫在线上、线下的竞争对手。这些交易可能是一笔在天猫或亚马逊上支付的订单、在便利店内用手机购买瓶饮料、在外卖平台上定份午餐，或是通过支付宝应用缴纳的一笔公共事业费。
+</p>
+<p>
+	借着最大的购物节，支付宝背后的公司蚂蚁金服正在用近乎诱导的方式，推广自己年内才正式<span></span>上线的新业务“花呗”。
+</p>
+<p>
+	“花呗”就像一张仅限线上使用的信用卡：提前消费、以月为周期还款，可以选择分期，也可以在现金充裕时自动缴纳上月账单。
+</p>
+<p>
+	在 双 11 这天，有 70% 的蚂蚁花呗用户获得了额度提升，幅度在 30%-100% 之间。根据蚂蚁金服方面提供的数据，购物节当天通过“花呗”完成的交易量超过了 6000 万笔。
+</p>
+<div style="text-align:center;">
+	<img src="/uploads/image/201511/5e9d907ee314.jpg" width="1034" height="323" title="蚂蚁金服集团现有业务架构" alt="蚂蚁金服集团现有业务架构" style="text-align:center;" /><span style="text-align:center;">蚂蚁金服集团现有业务架构</span> 
+</div>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	从易观智库近期发布的相关数据来看，支付宝目前还是移动支付领域的最大玩家。2015 年第 2 季度，中国第三方移动支付市场交易规模达 3.5 万亿元人民币，其中归于支付宝的部分超过了 74%。
+</p>
+<p style="text-align:left;">
+	以支付宝为核心，阿里也逐渐建立起了自己包括支付工具、小额贷款、个人征信、网络银行等多种业务的金融集团蚂蚁金服。目前，这一业务已经从阿里巴巴的集团架构中剥离，独立发展，并于 2015 年中完成了一轮融资。由于与淘宝、天猫等电商业务的结合紧密，蚂蚁金服被外界看作是马云手上未来最有前景的新兴业务。
+</p>
+<p style="text-align:left;">
+	你甚至可以发现，那些最为传统的商店、百货公司，或是流动摊贩，都开始欢迎支付宝了——他们不愿意将自己销售的商品价格压到像在电商平台上那么低，但支付宝不仅是一个与现金、银行卡同样便利、安全的支付方式，又可以成为招揽顾客的方法，何乐而不为。
+</p>
+<p style="text-align:left;">
+	一个典型的案例是主营业务植根于浙江的银泰集团。这个公司有体量不小的实体店资源（银泰百货），以及一个做得不太好的在线商店银泰网。从 2013 年开始，银泰就提出与天猫合作当年的双 11，并在一年后获得阿里巴巴入股。
+</p>
+<p style="text-align:left;">
+	在今年“双 11”前，银泰称要放弃自己对于商场内商品的定价权，做到“银泰天猫价、天猫银泰货”：顾客到实体门店购买商品可以享受天猫双 11 的价格，也可通过银泰天猫旗舰店享受到实体门店的商品。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/d4d2228b506d.jpg" width="800" height="533" title="天猫与银泰跨境商超业务“西选”的合作门店" alt="天猫与银泰跨境商超业务“西选”的合作门店" /><span>天猫与银泰跨境商超业务“西选”的合作门店</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	但在《好奇心日报》记者实地走访杭州四家银泰门店后看到，这一模式似乎没有被很好地落实：四家店中，几乎都没有明显出现跟天猫或者双 11 有关的标识，相关的信息也很少在与店员的交流时被提及。
+</p>
+<p>
+	与竞争对手天猫的线上线下结合，即使对于境况不太好的百货行业来说，一时半会可能也是比较难以接受的事。但这不妨碍支付宝在银泰商圈内的推广：不管是餐饮还是服饰商铺，都很乐意接受来自支付宝的付款。
+</p>
+<p>
+	对于大部分在中国做生意的零售业公司来说，不管是线下还是线上、不管是不是投入双 11，与支付宝合作已经不再是问题。这正是马云所说的“商业基础平台”的重要一环。
+</p>
+<h2>
+	阿里巴巴想象中的商业基础平台，到底是什么？
+</h2>
+<p>
+	在今年 6 月前往美国前，马云曾在《华尔街日报》上刊载一封致美国投资者的公开信，称：“中国没有美国那样发达的、以砖块和水泥建立起来的零售基础设施。没有全国级的零售网络，每百万人口只能拥有 2 家购物中心，这一数字只是美国的十分之一。但在有了互联网和电子商务之后，中国消费者的消费体验得到了巨大提升，他们目前在网上购物的金额正在快速上升。”
+</p>
+<p>
+	马云试图用自己伴随互联网普及而来的电商与在线支付改变实体经济的运作方式。
+</p>
+<p>
+	他的努力已经获得了一些初步的回报——网购在社会零售中的总比例逐年上升，品牌商开始愿意与电商渠道合作、甚至将其提升至与传统销售并列的地位。912 亿元的总销售额，很大程度上也是这种结构性变化的体现。
+</p>
+<p>
+	和淘宝几乎同时生长起来的支付宝，最开始仅是国内在线支付能力薄弱、交易双方信用数据缺失时，解决交易便利性的一个小工具。但随着几乎所有银行逐渐接入这一体系，支付宝成为了比银联规模更大、也更方便的第三方支付平台。
+</p>
+<p>
+	目前，使用支付宝的实名用户数已经超过 4 亿，这比每月使用天猫和淘宝的用户更多。另一个可以说明其规模及未来前景的数字是：目前在线下支持支付宝付款的超市、便利店门店数量接近 4 万家，涉及品牌包括家乐福、沃尔玛、全家、7-11 等 70 多个。
+</p>
+<p>
+	销售与支付以外，阿里巴巴还想做得更多，他们计划中的下一步，是将物流与生产的一些环节管起来。
+</p>
+<p>
+	今年，已经建立一个松散的菜鸟网络的阿里巴巴先后入股圆通快递和拥有较强自营物流能力较强的苏宁。
+</p>
+<p>
+	《好奇心日报》曾走访过苏宁位于上海郊区的一个大型仓库，总面积 26 万平米的仓库中，除了苏宁自己用于储存彩电、洗衣机、冰箱等大型家电的仓库，另有近 4 万平米的小件仓库，专门处理天猫超市托管的“爆款”货品。在这片仓库中，你只能看到莫斯利安酸奶、好奇纸尿裤等几十款商品，但商品的总数达到 30-40 万件。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/7fffa2877fc8.jpg" width="1080" height="810" title="苏宁位于上海奉贤的仓库，同时托管的天猫超市“爆品”莫斯利安酸奶" alt="苏宁位于上海奉贤的仓库，同时托管的天猫超市“爆品”莫斯利安酸奶" /><span>苏宁位于上海奉贤的仓库，同时托管的天猫超市“爆品”莫斯利安酸奶</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	苏宁的工作人员不仅要负责这些货物的分拣、打包、贴单、发货等工序，甚至还要帮助在货物的外包装上，贴上天猫超市的贴纸。在运输速度上，则可以与苏宁自营的商品一样，做到“一日三送”的效率。
+</p>
+<p>
+	与天猫的合作意味着苏宁开始作为“商业基础平台”的一部分，服务更多的商家、甚至是与自己多少有些竞争关系的商家。
+</p>
+<p>
+	苏宁物流业务上海区副总经理徐承航曾向《好奇心日报》表示，这是苏宁在仓储上为数不多的对外合作案例。而在未来的规划中，来自天猫的商品将有望与苏宁自己的商品“混在一起”，各方面都能享受同等待遇。
+</p>
+<p>
+	在和媒体从业者秦朔的对话中，马云首次提到了他为阿里巴巴制定的“履带战略”：“没有一家互联网公司能够连续 3-5 年都保持优势。所以我们形成梯队发展、有机作战，每一家公司，一个上，然后退下来，再另一个上，形成一个循环。这是我们七八年前定的履带战略：阿里巴巴 B2B 需要修复，淘宝就当第一阵营，然后是天猫，然后接下来支付宝起来了，过两年再是云计算，再是菜鸟，一轮一轮……”
+</p>
+<p>
+	从阿里巴巴过去披露的财报数据中，你也可以部分验证这样的说法。
+</p>
+<p>
+</p>
+<p>
+	目前，B2B 业务在阿里的单季营收中，比例已经低至 10% 以下，为公司贡献主要收入的，是淘宝、天猫为主的“中国零售业务”；相比双 11 的主力天猫，淘宝的体量仍然大了一倍有余，但增长放缓明显，过去的 4 个季度中，同比增长率每季度都会掉 10 个百分点；而在创造了 912 亿元交易额之后，也许天猫也会逐渐进入一个相对平稳的发展期。
+</p>
+<p>
+	相比于薄利多销、且不知何时就将遇到增长瓶颈的电子商务来说，为商家提供水电煤之外的基础服务，可能是个更好的生意。这之后，就是支付宝、菜鸟网络正在争取的机会了。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<div>
+</div>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="4129">
+				<span data-id="4129">双 11</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="1329">
+				<span data-id="1329">天猫</span>
+			</li>
+			<li class="tag item" data-id="2399">
+				<span data-id="2399">支付宝</span>
+			</li>
+			<li class="tag item" data-id="12585">
+				<span data-id="12585">菜鸟网络</span>
+			</li>
+			<li class="tag item" data-id="1515">
+				<span data-id="1515">马云</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17598" data-title="《一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17598/medium/17598.jpg?1447651484" data-url="http://www.qdaily.com/mobile/articles/17598.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17377.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/17377/medium/17377.jpg?1447168274" alt="天猫最后做了 912.17 亿，我们来告诉你这个数字背后的 5 个事实">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 10 个图</span>
+		</p>
+		<h1 class="title">天猫最后做了 912.17 亿，我们来告诉你这个数字背后的 5 个事实</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">217</span>
+				<span class="iconfont icon-heart">1866</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26567.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26567/medium/26567.jpg?1462760882" alt="">
+                        <h1 class="title">Gucci 退出可疑的国际反伪联盟，以及，这些泳衣值得推荐｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26588.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26588/medium/26588.jpg?1462779743" alt="">
+                        <h1 class="title">马丁·斯科塞斯的黑帮新电影，聚集了三位影帝</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26577.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26577/medium/26577.jpg?1462769578" alt="">
+                        <h1 class="title">如恩为Selfridges百货做的新空间，是百货转型的一部分</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26571.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26571/medium/26571.jpg?1462762578" alt="">
+                        <h1 class="title">男同学们，这里有一条能穿去海边浪的“自制”游泳短裤</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26572.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26572/medium/26572.jpeg?1462763611" alt="">
+                        <h1 class="title">「这世界」伦敦新市长出炉，人们最关心的是他的穆斯林身份</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26578.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26578/medium/26578.jpg?1462769896" alt="">
+                        <h1 class="title">Google 尽管在印度卖不好，但还没放弃</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26591.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26591/medium/26591.jpg?1462780513" alt="">
+                        <h1 class="title">莎莎预期利润暴跌，只是内地赴港旅游人数下滑闹的？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17598">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17598" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">311</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17621.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

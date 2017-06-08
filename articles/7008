@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个设计了不起之今日最佳_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个设计了不起之今日最佳。我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考。。好奇心日报为您呈现这个设计了不起之今日最佳的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="iF国际设计奖 音箱 曲面电视 蓝牙耳机 创意台历 出版物 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="abrl9CM9oqsw64lA44gR4LsFjQJt8V0EYZn/U+Nwzww=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7413">
+				<span data-id="7413">iF国际设计奖</span>
+			</li>
+			<li class="tag item" data-id="2354">
+				<span data-id="2354">音箱</span>
+			</li>
+			<li class="tag item" data-id="7414">
+				<span data-id="7414">曲面电视</span>
+			</li>
+			<li class="tag item" data-id="7415">
+				<span data-id="7415">蓝牙耳机</span>
+			</li>
+			<li class="tag item" data-id="7416">
+				<span data-id="7416">创意台历</span>
+			</li>
+			<li class="tag item" data-id="7417">
+				<span data-id="7417">出版物</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个设计了不起之今日最佳</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/49585/small/49585.jpg?1422286480" alt="">
+					</span>
+				<span class="name">马安琪</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-03 07:56:24 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7008/medium/7008.jpg?1436686977" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7008" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7008/medium/7008.jpg?1436686977" data-url="http://www.qdaily.com/mobile/articles/7008.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	昨天，我们在第 62 届德国 iF 国际设计奖的获奖作品中选择了 5 种家居和生活用品推荐，今天我们来看看智能，数码和影像视觉领域有什么值得我们关注的好设计。当然，Apple Watch 这种人尽皆知的产品我们就不提了，我们来看看那些你可能会忽视的角落。
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	德国 iF 国际设计奖是世界三大设计奖（其他两个是红点奖和 IDEA 奖）之一，这个奖项的评选标准综合产品外观，性能，绿色环保等多个方面，综合性较强。素来有“设计界的奥斯卡”之称。
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	获奖作品共有 75 件，上榜的既有 Apple Watch，Gear VR 眼镜这一类数码智能产品，也有小金鱼茶包，餐桌等我们生活中每天都会用到的小产品，还有影像视觉，建筑物等各个领域的好产品，好设计。
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	当然啦，如果你想要全面了解全部的作品，<a href="http://exhibition.ifdesign.de/index_en" target="_blank">可以点这里进来看</a>。
+</p>
+<h2>
+	Aether Cone 音箱
+</h2>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/343657753bef.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/7bbe44c8614e.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/b20ee1361c1c.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/ea9537505e37.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	Aether 公司推出的这一款音箱采用圆锥形状的外观设计，看上去像一个萌动的小喇叭。音箱的表面几乎看不到按钮等，你只需要在电脑上设置好参数，它就可以为你随机播放歌曲。这个小音箱被称为“会思考的音箱”，它可以根据整一套复杂的算法，计算出你喜欢在什么时刻，什么地点，以什么音量收听什么样的歌曲。它拥有一套声控系统，你可以直接下达指令，请求它为你播放歌曲。
+</p>
+<h2>
+	三星 HU9000 曲面电视
+</h2>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/17deffc26c19.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/0be66b44268f.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/386ad6769767.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	曲面电视在市场上存在已经有一段时间了，而三星这款曲面电视是目前市面上存在的曲面最大的电视。三星旨在通过曲面的设计，将观众与电视的互动从“观看”转变为“体验”。这款电视支持完整的 4K 标准，不管是观看电视节目还是打游戏，都可以保证画质，当然相比起 LG 之前推出的 OLED 电视，HU9000 系列画质上仍然落后，但却拥有价格上的较大优势。比较性价比，这款电视是不错的选择。
+</p>
+<h2>
+	三星 Gear Circle 蓝牙耳机
+</h2>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/fe4e64daba9d.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/9b76af295abb.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	三星的这款蓝牙耳机的有趣之处在于，两端的耳机可以通过内置的磁极吸在一起，摇身一变，变成一个项圈的模样。同时，它拥有蓝牙耳机的全部功能，与手机接通后可以打电话，听音乐等等。这款耳机有白色，黑色和蓝色三种颜色。耳机挂在脖子上不是什么新提法，但像三星做的这么好看的就没几个了。
+</p>
+<h2>
+	Botanical Life 创意台历
+</h2>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/e6707ae0fb84.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/2edcb9c58d71.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	来自日本的 Good Morning 公司带来的这款台历核心理念是“少即是多”。这些台历每两个月作为一页出现。每页如同一张贺卡，当打开台历，中间的树木，树叶等形状立体展现在人们面前。通过这一套台历，Good Morning 公司意在向全世界宣告环保理念。相信这也是 iF 设计大奖中意他们的重要原因。
+</p>
+<h2>
+	Rona Editora 出版物 Palindromo&nbsp;
+</h2>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/c34b3eee422c.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;min-height:13px;">
+	<img src="/uploads/image/201503/b45db5f39d9f.jpg" alt="" /> 
+</p>
+<p style="margin-top:0px;margin-bottom:0px;font-size:11px;line-height:normal;font-family:Helvetica;">
+	Rona Editora 推出的这一系列出版物其实是 Rona Editora 的一个作品集。这一系列作品的呈现方式各有不同，抵达内容的方式也千差万别。为了展现不同的内容，他们采用了不同的纸张材料和设计风格。作品的顺序也是被打乱的，读者可以选择不同的阅读顺序。同时，合作方看到不同的纸张设计风格，可以更好的选择 Rona Editora 的服务内容。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7413">
+				<span data-id="7413">iF国际设计奖</span>
+			</li>
+			<li class="tag item" data-id="2354">
+				<span data-id="2354">音箱</span>
+			</li>
+			<li class="tag item" data-id="7414">
+				<span data-id="7414">曲面电视</span>
+			</li>
+			<li class="tag item" data-id="7415">
+				<span data-id="7415">蓝牙耳机</span>
+			</li>
+			<li class="tag item" data-id="7416">
+				<span data-id="7416">创意台历</span>
+			</li>
+			<li class="tag item" data-id="7417">
+				<span data-id="7417">出版物</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7008" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7008/medium/7008.jpg?1436686977" data-url="http://www.qdaily.com/mobile/articles/7008.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25514.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25514/medium/25514.jpg?1460683198" alt="">
+                        <h1 class="title">Dior销售大涨，以及，霉霉在VOGUE拍的大片不太像她｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25533.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25533/medium/25533.jpg?1460696584" alt="">
+                        <h1 class="title">除了潮流、科技和明星，一双球鞋还可以有什么卖点？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25527.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25527/medium/25527.jpeg?1460694989" alt="">
+                        <h1 class="title">难民也可以拥有一间适合长期居住的“家”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25538.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25538/medium/25538.jpg?1460704546" alt="">
+                        <h1 class="title">「本周新片」《奇幻森林》和《垫底辣妹》都值得你花时间</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7008">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7008" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">73</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/cards/6954.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

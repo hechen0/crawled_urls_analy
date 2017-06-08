@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>伦敦设计博物馆 2014 最佳设计：好设计让生活更美好_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="伦敦设计博物馆 2014 最佳设计：好设计让生活更美好。位于伦敦的设计博物馆已经第七年举办年度最佳设计奖。总共入围的 76 件设计作品从世界各地搬到了设计博物馆中展出，技术和材料在设计师的运用下让我们的生活更便捷安全，更振奋人心。。好奇心日报为您呈现伦敦设计博物馆 2014 最佳设计：好设计让生活更美好的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计 设计博物馆 伦敦 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="7dL+eR1rjZcC0ui2GVM7u04msmX/kg/UILbKCmvONII=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="519">
+				<span data-id="519">设计博物馆</span>
+			</li>
+			<li class="tag item" data-id="130">
+				<span data-id="130">伦敦</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">伦敦设计博物馆 2014 最佳设计：好设计让生活更美好</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/12/small/12.JPG?1399408627" alt="">
+					</span>
+				<span class="name">姚芳沁</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-05-14 13:35:20 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/421/medium/421.jpg?1436636527" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="421" data-title="《伦敦设计博物馆 2014 最佳设计：好设计让生活更美好》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/421/medium/421.jpg?1436636527" data-url="http://www.qdaily.com/mobile/articles/421.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				位于伦敦的设计博物馆已经第七年举办年度最佳设计奖。总共入围的 76 件设计作品从世界各地搬到了设计博物馆中展出，技术和材料在设计师的运用下让我们的生活更便捷安全，更振奋人心。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	要在橘子和苹果之间比出个高低，显然不是件容易的事，但至少它们都属于水果类。英国埃塞克斯小镇上的住房工程和迪奥最新一季的时尚系列，或者是一个功能橱柜和一架轻型飞机，要在它们之间赛出各自的优点，位于伦敦的设计博物馆正试图这么做。这已经是这家博物馆第七年举办年度最佳设计奖。总共入围的 76 件设计作品涵盖了建筑、数字、时尚、家居、绘图、产品和交通七个门类，它们从世界各地搬到了设计博物馆中展出，技术和材料在设计师的运用下让我们的生活更便捷安全，更振奋人心。
+</p>
+<p>
+	七个门类各自的冠军已经角逐产生，最后的总冠军将在六月底正式公布，哪一款是你心目中的最佳设计呢？
+</p>
+<p class="MsoNormal">
+	<b>建筑类：Heydar Aliyev 文化中心，阿塞拜疆</b> 
+</p>
+<p class="MsoNormal">
+	设计师：Zaha Hadid，英国
+</p>
+<p>
+	<img src="/uploads/image/201405/97e61c652692.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	这个文化中心位于阿塞拜疆的首都，其中包括博物馆，图书馆以及演出大厅，从广场上一系列互相交叉的波浪形的柔和轮廓中升起，通过使用玻璃纤维增强过的水泥，以及聚酯面板和钢空间框架，整个建筑被塑造出一种褶皱的曲线，同时让支撑结构被隐藏在建筑的里面。
+</p>
+<p class="MsoNormal">
+	<b>数字类：便携式眼部检查装置（PEEK）</b> 
+</p>
+<p class="MsoNormal">
+	设计师：PeekVision，英国
+</p>
+<img src="/uploads/image/201405/59544abad45a.jpg" alt="" /> 
+<p class="MsoNormal">
+	这个由手机 app 和夹式硬件组成的产品能够为检查眼部疾病带来更多便利，帮助医生尽快确诊眼部疾病并跟踪患者治疗。目前全球总共有 3900 万失明者，其中 80% 是可以避免的，但在很多发展中国家，眼睛保护和治疗的能力非常有限。夹式硬件提供病人眼睛的细节图像，使用手机摄像头的闪光灯照亮眼睛深处，病例数据被存储在手机中发送给医生做诊断。
+</p>
+<p class="MsoNormal">
+	<b>时尚类：Prada 2014 春夏系列</b> 
+</p>
+<p class="MsoNormal">
+	设计师：Miuccia Prada，意大利
+</p>
+<img src="/uploads/image/201405/ceb1e397a34d.jpg" alt="" /><br />
+<p>
+	这个系列在米兰发布会的秀场背景是一副巨型壁画，艺术家被邀请来创作他们心目中强大的女性形象。Prada 在礼服上使用了块状缤纷的色彩，风衣上用珠宝装饰并绣上了女性脸部彩绘。这个系列的主题是“女性、代表性、权力、多重性”。
+</p>
+<p class="MsoNormal">
+	<b>家居类：专业椅子家族（Pro Chair Family）</b> 
+</p>
+<p class="MsoNormal">
+	设计师：Konstantin Grcic，德国
+</p>
+<p>
+	<img src="/uploads/image/201405/103d6b2f45be.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;">这款椅子最初是专门为儿童、老师和护工设计的，能够很容易被堆放起来，同时，能够灵活移动的座椅，让学校里的孩子们从僵硬的坐姿中解放出来，对学习的也是大有好处的。圆形的椅座让人可以自由变幻姿势，偏窄的靠背更方便侧身移动，S形的曲线可以帮助缓解久坐产生的背部及骨盆压力。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;"> </span> 
+</p>
+<p class="MsoNormal">
+	<b>绘图类：无人机的影子（Drone Shadows）</b> 
+</p>
+<p class="MsoNormal">
+	设计师：James Bridle，英国
+</p>
+<img src="/uploads/image/201405/a95d9d06098b.jpg" alt="" /> 
+<p class="MsoNormal">
+	<span style="line-height:1.5;">在这个简单而又充满力量的绘图设计中，来自伦敦的作家、出版商、艺术家同时也是一名工程师的 James Bridle 成功的让公众在日常生活中注意到无人机的存在以及对我们生活的影响。按照
+1:1 的比例，Bridle 在城市中的人行道上描绘出无人机的轮廓。这个无声但又强烈的作品提醒着人们对无人机监控设备伦理的思考。&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;"> </span> 
+</p>
+<p class="MsoNormal">
+	<b>产品类：无键盘钢琴（The Seaboard GRAND）</b> 
+</p>
+<p class="MsoNormal">
+	设计师：Roland Lamb，Hong Yeul Eom，英国<span style="line-height:1.5;"></span> 
+</p>
+<p>
+	<br />
+</p>
+<img src="/uploads/image/201405/4010e6621e88.jpg" alt="" /> 
+<p>
+	<span style="font-size:12px;line-height:1.5;">对钢琴的革命性设计，传统的象牙键被一种柔软的硅胶表面取代，底下安装了各种感应器，能够感知精确的压力。这会是一种全新的弹琴体验，让表演者能够更好的控制音调、音量和音色。这个电子乐器还可以模仿其他乐器，比如吉他和其他琴弦类乐器，还有喇叭。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;"> </span> 
+</p>
+<p class="MsoNormal">
+	<b>交通类：XL1 概念车</b> 
+</p>
+<p class="MsoNormal">
+	设计师：Peter Wouda，德国大众
+</p>
+<p>
+	<img src="/uploads/image/201405/0d00460db76d.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;">这是第一辆仅耗一升柴油就能跑100千米的汽车，为了最大化节省汽油，整辆车配备了轻型的碳纤维结构和椅座，细长的柔线车形能够缓解阻力，甚至连后视镜都被小型摄像头取代。这样的设计最大程度的发挥了这款车柴油电动双动力的优势。能在 12 秒内从零迅速加速到 72km，而二氧化碳的排放量则控制在 24g/km 以内。至今为止，还只有 250 辆 XL1 概念车被生产。</span> 
+</p>
+<p>
+	题图来自：<a href="http://designmuseum.org" target="_blank">Design Museum London</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="519">
+				<span data-id="519">设计博物馆</span>
+			</li>
+			<li class="tag item" data-id="130">
+				<span data-id="130">伦敦</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="421" data-title="《伦敦设计博物馆 2014 最佳设计：好设计让生活更美好》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/421/medium/421.jpg?1436636527" data-url="http://www.qdaily.com/mobile/articles/421.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24914.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="">
+                        <h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24988.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24988/medium/24988.jpg?1459846694" alt="">
+                        <h1 class="title">SpaceX将发射充气型居住舱，这会是太空酒店的雏形么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24972/medium/24972.jpg?1459842289" alt="">
+                        <h1 class="title">「这世界」突然，澳大利亚有好多金·卡戴珊的裸体涂鸦</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24987.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24987/medium/24987.jpg?1459843965" alt="">
+                        <h1 class="title">有人花了 5 万美元，做了一个和寡姐长得特别像的机器人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="421">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="421" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">3</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/428.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

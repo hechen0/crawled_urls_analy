@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>连火箭都没有的 NASA 凭什么探索太空？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="连火箭都没有的 NASA 凭什么探索太空？。答案是：“外包”给私人公司。。好奇心日报为您呈现连火箭都没有的 NASA 凭什么探索太空？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="载人航天 NASA SpaceX Blue Origin 波音 洛克·马丁 马斯克 贝索斯 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="2BItiWjRIApIfoCzXEAS9mqN7B7cWJjpvKmuYJQ6pJ8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17460">
+				<span data-id="17460">载人航天</span>
+			</li>
+			<li class="tag item" data-id="214">
+				<span data-id="214">NASA</span>
+			</li>
+			<li class="tag item" data-id="946">
+				<span data-id="946">SpaceX</span>
+			</li>
+			<li class="tag item" data-id="8657">
+				<span data-id="8657">Blue Origin</span>
+			</li>
+			<li class="tag item" data-id="876">
+				<span data-id="876">波音</span>
+			</li>
+			<li class="tag item" data-id="20800">
+				<span data-id="20800">洛克·马丁</span>
+			</li>
+			<li class="tag item" data-id="15064">
+				<span data-id="15064">马斯克</span>
+			</li>
+			<li class="tag item" data-id="2437">
+				<span data-id="2437">贝索斯</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">连火箭都没有的 NASA 凭什么探索太空？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-22 10:15:28 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19488/medium/19488.jpg?1450730917" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19488" data-title="《连火箭都没有的 NASA 凭什么探索太空？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19488/medium/19488.jpg?1450730917" data-url="http://www.qdaily.com/mobile/articles/19488" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				答案是：“外包”给私人公司。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	自从四年前退役全部航天飞机以来，美国的宇航员一直在靠着俄罗斯的联盟号（<span>Soyuz</span>）宇宙飞船往来地面和国际空间站，价格也够贵：<a href="http://www.space.com/20897-nasa-russia-astronaut-launches-2017.html" target="_blank"><span>7000 </span>万美元</a>一个座位。<span></span> 
+</p>
+<p>
+	这种寄人篱下的日子对美国人来说显然不会是长久之计，今年<span> 8 </span>月在国会削减<span> NASA </span>预算时，<span>NASA </span>负责人 <span>Charles Bolden </span>就曾在《连线》杂志<a href="http://www.wired.com/2015/08/congress-dont-make-us-hitch-rides-russia-love-nasa/?mbid=social_twitter" target="_blank">公开抱怨</a>：<span>“</span>别让我们老是搭俄罗斯人的便车！<span>”</span>&nbsp;
+</p>
+<h1>
+	载人航天也“外包”
+</h1>
+<p>
+	不过，<span>NASA </span>并不打算自己造飞船，他们的意思很明确，正在研发中的猎户座号（<span>Orion</span>）新一代宇宙飞船是给深空探索用的。至于把宇航员送到近地轨道上的国际空间站这件事，<span>NASA </span>计划完全“外包”给商业公司来做。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/458f89912ade.jpg" width="985" height="554" title="波音的星际线飞船与国际空间站对接的概念图，图片来自：NASA" alt="波音的星际线飞船与国际空间站对接的概念图，图片来自：NASA" /><span><em>波音的星际线飞船与国际空间站对接的概念图，图片来自：</em><a href="http://www.nasa.gov/press-release/nasa-orders-second-boeing-crew-mission-to-international-space-station" target="_blank"><em>NASA</em></a></span> 
+</p>
+<p>
+</p>
+<p>
+	上周，<a href="http://www.nasa.gov/press-release/nasa-orders-second-boeing-crew-mission-to-international-space-station/" target="_blank"><span>NASA </span>宣布</a>将给波音公司第二份载人航天飞行发射的订单；至此，NASA 已经向商业公司预定了三次载人发射：
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		今年 5 月 NASA 向波音还在研发中的“星际线”（Starliner）飞船预定了第一份合同；
+	</li>
+	<li>
+		<a href="http://www.theverge.com/2015/11/20/9772564/spacex-iss-nasa-astronaut-crewed-mission-announced" target="_blank">上个月</a>&nbsp;SpaceX 公司的“龙”（Dragon）飞船也拿到一张&nbsp;NASA 的载人发射订单，当然用的是正在改进的载人版“龙”飞船。
+	</li>
+</ul>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这些订单的具体发射日期还没定，而且飞船正在研发、改进过程中，因此价格暂时没法估测。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/264d7bc61d90.jpg" width="1043" height="695" title="SpaceX 下一代载人“龙”飞船，图片来自：SpaceX" alt="SpaceX 下一代载人“龙”飞船，图片来自：SpaceX" /><span><em>SpaceX 下一代载人“龙”飞船，图片来自：</em><a href="http://www.spacex.com/news/2014/05/30/dragon-v2-spacexs-next-generation-manned-spacecraft" target="_blank"><em>SpaceX</em></a><em></em></span> 
+</p>
+<p>
+</p>
+<p>
+	不过，根据<span> NASA </span>的计划，最早 <span>2017 </span>年下半年，美国宇航员就将重新乘坐美国制造的飞船前往太空。<span></span> 
+</p>
+<p>
+	而根据<span> NASA </span>的<a href="http://www.nasa.gov/exploration/commercial/crew/index.html" target="_blank">商业载人项目</a>（<span>Commercial Crew Program</span>），他们将在两三年内预定至少四架次的载人飞船<span>“</span>航班<span>”</span>，因此<span> NASA </span>手中至少还有一份发射订单还没确定下家，但 <span>NASA </span>的手头显然并不缺选项。<span></span> 
+</p>
+<h1>
+	NASA 在靠哪些公司重返太空？
+</h1>
+<p>
+	和中国航天事业属于高度机密不同，在美国，当前占据航天领域舞台的，是各式各样的私人公司。<span></span> 
+</p>
+<p>
+	除了《好奇心日报》<a href="http://www.qdaily.com/articles/11766.html" target="_blank">此前报道</a>的蓬勃发展的卫星发射市场，<span>NASA </span>还很早就把向国际空间站运送货物的任务完全交给了<span> SpaceX </span>和 <span>Orbital ATK </span>这两家商业发射公司来做。即便是高难度的载人航天，这方面的私人公司也不在少数。<span></span> 
+</p>
+<p>
+	早在航天飞机退役前的<span> 2010 </span>年，<span>NASA </span>就已经确定了近地轨道载人航天任务<a href="http://www.nasa.gov/content/commercial-crew-program-the-essentials/#.VnfuXbh97tT" target="_blank">商业化的道路</a>；早早启动<span>“</span>商业载人发展<span>”计划</span>（<span>Commercial
+Crew Development</span>），分批资助了一系列商业公司。<span></span> 
+</p>
+<p>
+	第一轮计划中，<span>NASA </span>拿出了<span> 5000 </span>万美元给了五家有志于进军载人航天的商业公司。不过，如今大名鼎鼎的<span> SpaceX </span>当时还不在<span> NASA </span>的名单上。<span></span> 
+</p>
+<p>
+	那时的五家公司中，负责研发飞船和发射任务的分别是：<span></span> 
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		贝索斯那个最近刚实现<a href="http://www.qdaily.com/articles/18063.html" target="_blank">亚轨道发射回收</a>的 &nbsp;Blue Origin 公司；
+	</li>
+	<li>
+		军火巨头洛克·马丁和波音合资成立的“联合发射联盟”（United Launch Alliance）；
+	</li>
+	<li>
+		如今已经拿到两份载人发射合同的波音公司。
+	</li>
+</ul>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/758579591144.jpg" width="588" height="370" title="NASA 第一轮资助的公司" alt="NASA 第一轮资助的公司" /><span><em>NASA 第一轮资助的公司</em></span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<script src="http://tushuo.baidu.com/dt-ui/api/DTStub-xb.js"></script>
+<p>
+	此外，负责载人航天中宇航员生命保障系统研发的 <span>Paragon </span>太空发展公司（<span>Paragon Space
+Development Corporation</span>）也榜上有名——这是洛克·马丁公司旗下的子公司。如今，这家公司手中的技术不仅用在了波音的<span>“</span>星际线<span>”</span>飞船上，<span>NASA </span>自家的“猎户座”号飞船未来也将用上 <span>Paragon </span>研发的宇航员生命保障系统。<span></span> 
+</p>
+<p>
+	再加上专攻航天器电路集成系统的内华达山脉公司（<span>Sierra Nevada Corporation</span>），<span>NASA </span>为如今美国商业载人航天市场的发展打下了相当完备的基础。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/f14b13084401.jpg" width="561" height="334" title="NASA 第二轮目前已经拿到钱的公司" alt="NASA 第二轮目前已经拿到钱的公司" /><span><em>NASA 第二轮目前已经拿到钱的公司</em></span> 
+</p>
+<p>
+</p>
+<p>
+	此后，<span>2011 </span>年<span> 4 </span>月，<span>NASA </span>又追加了<span> 2.7 </span>亿美元开启了第二轮<span>“</span>商业载人发展<span>”计划</span>，目前这笔钱还没用完，但<span> NASA </span>已经先列出了一个合作伙伴的名单。<span></span> 
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		上一轮的五家公司中，除了发展已经成熟的 Paragon 公司没再拿钱，其它继续“晋级”，但&nbsp;Blue Origin 和联合发射联盟还没获得资金；
+	</li>
+	<li>
+		而马斯克的 SpaceX 则终于进入 NASA 的视野获并得资助；
+	</li>
+	<li>
+		Orbital ATK 以及 Alliant
+Techsystems 这两家同样研发载人飞船和发射系统的商业公司，也被 NASA 列入名单但目前没拿到钱。
+	</li>
+</ul>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<h1>
+	用着商业公司便宜的发射服务，NASA 把目标放在了火星
+</h1>
+<p>
+	这些商业公司不仅带动了整个商业航天市场的发展，而且相互间的竞争也在推动他们努力降低发射成本，提供性价比更高的服务。
+</p>
+<p>
+	就像已经包下 NASA 向国际空间站运送物资任务的 SpaceX 和 Orbital ATK 公司，他们的单次发射价格都在一亿美元左右，仅是其它国家的一半。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	其中，<span>Orbital ATK </span>公司是在<a href="http://spacenews.com/atlas-price-cut-helps-orbital-atk-shake-off-antares-failure/" target="_blank">今年十月</a>努力把价格从一亿五千万压低到一亿美元才保住明年的发射订单的；而马斯克的<span> SpaceX </span>至今仍在反复试验猎鹰&nbsp;<span>9</span><span>&nbsp;</span><span>号</span>（Falcon 9）的回收以降低成本。
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	日常发射任务都“外包”，那<span> NASA </span>就能把有限的拨款都用在更加雄心勃勃的计划上，比如今年七月快飞出太阳系去给冥王星拍照的<a href="http://www.qdaily.com/articles/12088.html" target="_blank">“新视野”号卫星</a>，以及目前还在火星上行走的“好奇号”火星车等等。而他们最近刚完成第一次试飞的<a href="http://www.nasa.gov/press/2014/december/nasa-s-new-orion-spacecraft-completes-first-spaceflight-test/" target="_blank">猎户座号飞船</a>也是专门为深空探索研发的。<span></span> 
+</p>
+<p>
+	即便是在这些项目中，NASA 也已离不开商业航天公司的帮忙了，比如猎户座飞船试飞用的火箭就是联合发射联盟的“三角洲四号”运载火箭。
+</p>
+<p>
+	当然，美国人最心心念念的，还要数载人火星登陆计划了。就连好莱坞拍的电影里，现在太空“硬科幻”的主题，都从前几年近地轨道的《地心引力》换成了《火星救援》。<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<strong>题图来自：</strong><a href="http://www.nasa.gov" target="_blank">NASA</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17460">
+				<span data-id="17460">载人航天</span>
+			</li>
+			<li class="tag item" data-id="214">
+				<span data-id="214">NASA</span>
+			</li>
+			<li class="tag item" data-id="946">
+				<span data-id="946">SpaceX</span>
+			</li>
+			<li class="tag item" data-id="8657">
+				<span data-id="8657">Blue Origin</span>
+			</li>
+			<li class="tag item" data-id="876">
+				<span data-id="876">波音</span>
+			</li>
+			<li class="tag item" data-id="20800">
+				<span data-id="20800">洛克·马丁</span>
+			</li>
+			<li class="tag item" data-id="15064">
+				<span data-id="15064">马斯克</span>
+			</li>
+			<li class="tag item" data-id="2437">
+				<span data-id="2437">贝索斯</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19488" data-title="《连火箭都没有的 NASA 凭什么探索太空？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19488/medium/19488.jpg?1450730917" data-url="http://www.qdaily.com/mobile/articles/19488" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/14795.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/14795/medium/14795.jpg?1441944560" alt="SpaceX 载人飞船内部细节来了，很豪华">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">SpaceX 载人飞船内部细节来了，很豪华</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">35</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18014.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18014/medium/18014.jpg?1448359223" alt="NASA 外包订单，居然也被批走“社会主义”路线">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">NASA 外包订单，居然也被批走“社会主义”路线</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">17</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19091.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19091/medium/19091.jpg?1450150597" alt="想去火星？上网给 NASA 递简历吧">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">想去火星？上网给 NASA 递简历吧</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">65</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26509.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26509/medium/26509.jpg?1462517137" alt="">
+                        <h1 class="title">「这世界」那个穿梅西同款塑料袋球衣的小男孩，情节也反转了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26504.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26504/medium/26504.jpg?1462510306" alt="">
+                        <h1 class="title">玩这个插画师画的扑克牌，差不多能了解半部当代建筑史</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26512.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26512/medium/26512.jpg?1462516975" alt="">
+                        <h1 class="title">伟大的人值得穿好点，爱因斯坦、达尔文都被吐槽了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19488">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19488" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">35</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19489.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

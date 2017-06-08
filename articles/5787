@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>华人解开世纪数学难题？_Best on the Web_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="华人解开世纪数学难题？。Best On The Web 是一个推荐性栏目，每个工作日我们会从互联网世界中找出最好看的内容，希望这个栏目让我们始终与阅读、知识和美好在一起。。好奇心日报为您呈现华人解开世纪数学难题？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="微积分 数学 科学家 罗素 纯数学 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="55jFGnJo6SVWkJEkVQ+u7Qyw1qOph7uwmkO29L7jF5M=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="12">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/12.html" class="category black clearfix x25" data-id="12">
+			<img class="black" src="/system/categories/iconblacks/12/medium/12.png?1399153208" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/12/medium/12.png?1399153208" alt=""/>
+			<span>Best on the Web</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6690">
+				<span data-id="6690">微积分</span>
+			</li>
+			<li class="tag item" data-id="1907">
+				<span data-id="1907">数学</span>
+			</li>
+			<li class="tag item" data-id="6691">
+				<span data-id="6691">科学家</span>
+			</li>
+			<li class="tag item" data-id="6692">
+				<span data-id="6692">罗素</span>
+			</li>
+			<li class="tag item" data-id="6693">
+				<span data-id="6693">纯数学</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">华人解开世纪数学难题？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/471673/small/471673.png?1455448663" alt="">
+					</span>
+				<span class="name">里约</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-02-02 08:05:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5787/medium/5787.jpg?1436690220" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5787" data-title="《华人解开世纪数学难题？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5787/medium/5787.jpg?1436690220" data-url="http://www.qdaily.com/mobile/articles/5787.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Best On The Web 是一个推荐性栏目，每个工作日我们会从互联网世界中找出最好看的内容，希望这个栏目让我们始终与阅读、知识和美好在一起。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="white-space:normal;margin-bottom:16px !important;">
+	<strong>New Yorker</strong>
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<strong><a href="http://www.newyorker.com/magazine/2015/02/02/pursuit-beauty?utm_source=nextdraft&utm_medium=email" target="_blank">The Pursuit of Beauty</a></strong> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	「除非你对付一个已经被解开的难题，这当然有点无聊，或者你从一开始就知道如何解开这道题，否则整个人就会像被困住了。但对于 Yitang Zhang 来说，这个被困的时间要更长一点。」
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Alec Wilkinson 在《纽约客》的这篇文章中描述了华裔兼职数学教师 Yitang Zhang 最近如何解开了一个困扰数学领域上半年的定理的故事。他最早从他的侄女、芝加哥大学教授 Amie Wilkinson 中听闻了 Yitang Zhang 的故事，一个不爱与人交往、在新罕布什尔大学兼职教微积分的老师。他还曾经得过很多奖项，包括去年九月因为解决了这个困扰人们长达 150 年的难题而得到了麦克阿瑟奖。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	这个难题简而言之是关于纯数学（Pure Mathematics）的。这是与应用科学相对应的说法。换句话说，你在大脑中对于这类问题并没有什么清晰的思考路径，比起工程学，它和艺术和哲学也差不多。Zhang 就总说，「我做这些对这个产业没什么价值。」
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	更多的数学家对此的评价也充满诗意。英国数学家 G.H.Hardy 说过，「在所有人文和自然科学当中，最严肃和难以捉摸的就是数学。」罗素（Bertrand Russel）也曾经说，它就像是「从现实世界的枯燥流放中的避难所」。加州伯克利大学教授 Edward Frenkel 评价 Zhang 的研究成果的时候说，「它像是点明了具体的星座，而非是像银河系那样呈现大量的星群」，充满「文艺复兴式的美」。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	这也意味着虽然普通人可能很难真正理解这个定理的推演和代表什么，但它的外在又看上去非常简单清晰。对这种「美」的追逐正是这种「纯数学」的要理。去年的一项科学研究表明，人大脑中激发音乐和艺术感受的部分，同样激发了对数学的理解和体验。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Zhang 的研究命题被成为「受约束的鸿沟」（Bound Gaps）。简单来说，它怀疑素数（只能被自己和一整除的数字）之间是否存在边界。解开这个难题的时候 Zhang 已经快 60 岁了。Hardy 说，「没有人能遗忘，数学比任何的人文和自然科学都更加是年轻人的游戏。在此之前，我从来没见过一个人过了 50 岁还会有重大成果的。」
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Zhang 在 1991 年获得了普度大学的代数几何学博士。他当时相处并不愉快的导师最近为这项成果为他写了一段文字，同样也很文艺。「当我第一次见他的时候，就感受到一个不安的灵魂，一丛燃烧的灌木，一个期待到达北极的探险者。」当时 Zhang 因为提前离开没有发表论文而无法获得教职，开始了动荡的四处漂泊的生活。很多年他甚至都放弃了继续研究数学。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	最终在一个朋友的帮助下，他终于在 1999 年获得了新罕布什尔的教职，2010 年决定研究 Bound Gaps 的难题。「我一直在想哪儿是门？很多年来数学家门都认为应该有一扇打开的门，但从来没找到过。我开始担忧可能并不存在这扇门。」「很多时候我很疲惫，但又很平静。」
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Alec 发现 Zhang 非常沉默，可能出于一种内向，他习惯用「我们」而非「我」来回答问题，大部分答案都由「可能」、「不一定」、「可能并不一定这样」这样的内容组成。大多数人随后对他的印象也是不善社交。他可以做出色的演讲，但毫无炫耀之意。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	在 Zhang 办公室的书架上，除了一些专业书籍，还包括关于拿破仑的书和中文版的莎士比亚戏剧。在朋友们的印象中，他具有惊人的记忆力，在一次宴会中他像以往沉默，但是在半年后可以记得谁坐在哪个位子，当时讲了些什么。他一度从来没有电话本，所有的号码都在他的头脑中。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	他在一个中餐馆遇到了现在的太太，当时对方是个服务生。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6690">
+				<span data-id="6690">微积分</span>
+			</li>
+			<li class="tag item" data-id="1907">
+				<span data-id="1907">数学</span>
+			</li>
+			<li class="tag item" data-id="6691">
+				<span data-id="6691">科学家</span>
+			</li>
+			<li class="tag item" data-id="6692">
+				<span data-id="6692">罗素</span>
+			</li>
+			<li class="tag item" data-id="6693">
+				<span data-id="6693">纯数学</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5787" data-title="《华人解开世纪数学难题？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5787/medium/5787.jpg?1436690220" data-url="http://www.qdaily.com/mobile/articles/5787.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25937.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25937/medium/25937.jpg?1461548899" alt="">
+                        <h1 class="title">莎士比亚逝世 400 周年，我们在这里怀念他带来的一切</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25951.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25951/medium/25951.jpg?1461558108" alt="">
+                        <h1 class="title">以后用空气发电可好？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25943.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25943/medium/25943.jpeg?1461552498" alt="">
+                        <h1 class="title">纽约这个建在天桥上的游泳池，风景绝佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25963.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25963/medium/25963.jpg?1461565195" alt="">
+                        <h1 class="title">要了解全球生活方式，信息图也是一个重要的参考</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25972/medium/25972.jpg?1461570481" alt="">
+                        <h1 class="title">W 酒店又耍新花招，这次想把演唱会开进来</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5787">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5787" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">25</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5772.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

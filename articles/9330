@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「在硅谷」怎么把卖大麻做得像送外卖一样简单？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「在硅谷」怎么把卖大麻做得像送外卖一样简单？。我们和大麻创业公司 Meadow 的创始人聊了聊。。好奇心日报为您呈现「在硅谷」怎么把卖大麻做得像送外卖一样简单？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="大麻 创业 Meadow GrowBuddy Eaze David Hua " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RLF13P3e1bQugg3rcbG/VZofmSPMu3PZiNBVuz19Dpw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2164">
+				<span data-id="2164">大麻</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+			<li class="tag item" data-id="9846">
+				<span data-id="9846">Meadow</span>
+			</li>
+			<li class="tag item" data-id="9847">
+				<span data-id="9847">GrowBuddy</span>
+			</li>
+			<li class="tag item" data-id="9848">
+				<span data-id="9848">Eaze</span>
+			</li>
+			<li class="tag item" data-id="9849">
+				<span data-id="9849">David Hua</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「在硅谷」怎么把卖大麻做得像送外卖一样简单？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-09 09:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9330/medium/9330.JPG?1436681163" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9330" data-title="《「在硅谷」怎么把卖大麻做得像送外卖一样简单？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9330/medium/9330.JPG?1436681163" data-url="http://www.qdaily.com/mobile/articles/9330.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们和大麻创业公司 Meadow 的创始人聊了聊。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“我高中开始抽大麻，到现在也用。”David Hua 告诉我们。他是旧金山的大麻创业公司 <a href="https://getmeadow.com/" target="_blank">Meadow</a>&nbsp;的创始人，披着过肩的长发、扎着小辫子、打扮随意。接受《好奇心日报》采访的那天，他把采访地点定在了旧金山一个街心公园的草坪。
+</p>
+<p>
+	Meadow 是一个上线半年的大麻配送到家平台。在网上下单挑选好大麻品种和供货商之后，Meadow 的供货商会在一个小时之内把大麻配送到你所在的地址，而 Meadow 会在每单成功交易当中向供货商收取一定费用。有媒体称 Meadow 为大麻版的 Uber，尽管我们觉得这更像是大麻版的“饿了么”外卖。
+</p>
+<p>
+	<img src="/uploads/image/201505/453fe54f74e1.jpg" alt="" /> 
+</p>
+<p>
+	在加州，合法使用大麻还需要一张正规医院诊所出具的“医用大麻证”，而如果你没有证又懒得去医院，Meadow 还能同时送一个医生到你的所在地址，直接帮你开具证明。这家成立不到一年、团队只有 4 个人的初创公司，刚刚从美国的创业孵化器 Y Combinator 拿到了一笔启动资金。这也是 Y Combinator 目前投资的唯一一家大麻创业公司。
+</p>
+<p>
+	Meadow 并不愿意透露目前的用户数量，但 David Hua 称，不少用户是购买用于缓解身体疼痛以及精神压力。
+</p>
+<p>
+	而由于其他三名创始人都是工程师出身，David Hua 要负责除了产品构建之外的部分，包括市场，供货商还有公关的工作，所以非常忙碌。“如果今天不接受采访，我会在谈合作。” David Hua 口中称的谈合作，就是去寻找更多的大麻供货商。在 Meadow 上有不同供货商提供的、THC（四氢大麻酚）浓度不一的大麻植株和周边产品，每个供货商都经过 David Hua 的手——除了保证供货商货源稳定，从事大麻种植有一段时间之外，David Hua 还会尝试他们的大麻，以确保质量。
+</p>
+<p>
+	也许是 David Hua 之前的经历让他能胜任这项工作。David Hua 在美国东部的一个中国家庭长大，因为天生对酒精过敏没法喝酒，而大麻就成为他用于放松的药物。因为从高中就开始接触大麻，他十分认可大麻的医疗作用。
+</p>
+<p>
+	“我平常也会使用大麻。例如，我需要提神，那么我会选 Sativa，如果我想要放松一下，我会选择 CBD （大麻二酚）比较高的品种。”David Hua 称，他早已过了想要嗑药获得快感的时间段，现在大麻对于他来说是改善生活质量的药品。
+</p>
+<p>
+	出于兴趣，David Hua 去年还到旧金山附近的“大麻大学” <a href="http://oaksterdamuniversity.com/departments/" target="_blank">Oaksterdam University</a> 进修，这所大学创办者是 Richard Lee，一位活跃在旧金山的大麻支持者，课程包括大麻的历史、种植、烹调、法律法规、医药用途、大麻诊所的运营，还有大麻相关的商科课程……你并不会拿到一个正式的文学或者理学学士学位，但是 Oaksterdam University 会给你颁发课程完成的证书。
+</p>
+<p>
+	<img src="/uploads/image/201505/85594708bd31.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	Oaksterdam University 学生宣传图片
+</p>
+<p>
+	在美国，大麻成了创业热点。今年 4 月初，大麻初创公司 Privateer Holdings 拿到了让人震惊的 7500 万美元的种子轮投资，不到两周后，另外一家药用大麻上门的 Eaze 也拿到了1000 万美元的融资，投资方来自 500 Startup、DCM Ventures 等机构。
+</p>
+<p>
+	但大麻创业公司们目前都面临不少的阻碍，最大的问题在于合法性。国内的情况就不用赘述了，而即使在美国，也只有 23 个州允许吸食大麻。大麻一般有两种用途娱乐性使用以及医药用途。在美国加州，只有医药用大麻是被允许的，前提是需要医生签一张“医用大麻卡”。
+</p>
+<p>
+	这也让这些大麻创业公司在推广上有了不少阻碍。帮助人们在家种植大麻的应用 <a href="https://growbuddy.com/" target="_blank">GrowBuddy</a>&nbsp;的 CEO Rob Rusher&nbsp;告诉《好奇心日报》：我们通过合法的途径申请到 Google 、雅虎等网站的广告平台投放，但是他们都把我们的广告下架了。
+</p>
+<p>
+	不仅是广告，应用也是。Meadow 目前只有网页版本，因为 Google 的应用商店 Google Play 和苹果的 App Store 都把他们的大麻应用给下架了——目前美国只有 23 个州允许吸食大麻，但这两个应用平台目前只有以国家而不是以州为单位的过滤机制，因此 Meadow 以及其他大麻贩卖相关的应用都无法登陆应用商店。
+</p>
+<p>
+	“但我还是很有信心的，”David Hua 说，“现在已经是大麻创业的最好时机了，要是 5 年前，做这事情会难得多。”
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2164">
+				<span data-id="2164">大麻</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+			<li class="tag item" data-id="9846">
+				<span data-id="9846">Meadow</span>
+			</li>
+			<li class="tag item" data-id="9847">
+				<span data-id="9847">GrowBuddy</span>
+			</li>
+			<li class="tag item" data-id="9848">
+				<span data-id="9848">Eaze</span>
+			</li>
+			<li class="tag item" data-id="9849">
+				<span data-id="9849">David Hua</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9330" data-title="《「在硅谷」怎么把卖大麻做得像送外卖一样简单？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9330/medium/9330.JPG?1436681163" data-url="http://www.qdaily.com/mobile/articles/9330.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24706.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24706/medium/24706.jpg?1459319977" alt="">
+                        <h1 class="title">美国大学的篮球联赛，都用上 VR 直播了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24691.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24691/medium/24691.jpg?1459306365" alt="">
+                        <h1 class="title">「酸汤鱼经济学」为什么你成不了“网红”</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9330">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9330" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">63</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9346.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

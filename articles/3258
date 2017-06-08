@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今日应用：不习惯浏览器书签？Google给你新选择_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="今日应用：不习惯浏览器书签？Google给你新选择。有了 Chrome 新的 Bookmarks Manager 插件，再也不用担心收藏夹又丑又乱了。。好奇心日报为您呈现今日应用：不习惯浏览器书签？Google给你新选择的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Chrome 书签 今日应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MBXsCc3MrSRpDNOPYpw5JdVyIHvKP2/oJncQbeMx+YM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="84">
+				<span data-id="84">Chrome</span>
+			</li>
+			<li class="tag item" data-id="3955">
+				<span data-id="3955">书签</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">今日应用：不习惯浏览器书签？Google给你新选择</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1375/small/1375.jpg?1432819025" alt="">
+					</span>
+				<span class="name">徐弢 崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-04 08:17:22 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3258/medium/3258.jpg?1436637550" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3258" data-title="《今日应用：不习惯浏览器书签？Google给你新选择》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3258/medium/3258.jpg?1436637550" data-url="http://www.qdaily.com/mobile/articles/3258" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				有了 Chrome 新的 Bookmarks Manager 插件，再也不用担心收藏夹又丑又乱了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<ul>
+	<li>
+		<a href="https://chrome.google.com/webstore/detail/bookmark-manager/gmlllbghnfkpflemihljekbapjopfjik" target="_blank">Bookmark Manager</a> 是一款 Chrome 浏览器新推出的小插件，可将添加了书签的网页汇总起来，不会像以前一样容易胡乱防止到导航栏，现在可以放心给待阅链接加“星标”了；
+	</li>
+	<li>
+		整理书签心情都会变好，因为 Bookmark Manager 把书签汇总页面视觉化了，有图片、标题、摘要外链更像真实的“书签”，一目了然，整理效率也变高了；
+	</li>
+	<li>
+		如果上述的理由还不够方便，小插件还支持“搜索书签”功能，不仅标签的标题和网址，还能搜到网页里面的关键字；
+	</li>
+</ul>
+<p>
+	每天都能够在互联网上看到许多新鲜有趣的内容就想快速保存起来，但要么忘记打开，要么就是不知道究竟跑到了哪个标签文件夹的角落里，甚至有可能乱七八糟地躺在浏览器的导航栏上，体验略糟糕。
+</p>
+<p>
+	应运而生的就是所谓的“待阅”应用，例如 Pocket、Instapaper 的浏览器插件及其手机应用。不过他们可能要遇到一位新对手了，就是 Google 新推出的 Bookmark Manager，它是基于 Chrome 浏览器的一款“待阅”扩展插件，安装之后，点击导航栏上的“星星”图表即可进入汇总的书签页面，设计简洁漂亮。
+</p>
+<p>
+	<img src="/uploads/image/201411/cba983dd8a7e.jpg" alt="" /> 
+</p>
+<p>
+	<span style="line-height:1.5;">以往的 Bookmarks 汇总页面真是让人看腻了：文件夹图表，点进去之后是一串长长的“标题+链接”表单……所以在看到新的 Bookmarks Manager 页面时感到很舒服，目前每条链接会附带图片、标题、摘要，浏览一眼就能知道大概，这对于有海量书签需要挑选资料的人们来说十分重要。</span> 
+</p>
+<p>
+	另外，点按地址栏旁边的收藏按钮时，弹出的收藏框也相当精美，还可以选择代表这个书签的小图片。真的不会告诉你，为了看这个弹框我收藏了几篇文章。
+</p>
+<p>
+	<img src="/uploads/image/201411/c25aef1871c6.jpg" alt="" /> 
+</p>
+<p>
+	<span style="line-height:1.5;">有趣的是，Google 将自身的搜索特长放入了 Bookmark Manager 中。新插件的说明中宣称新能够遍及网址和标题，标签内的网页内容也能够被搜索到，经过我们的测试，中英文都可用。不过。目前这个功能槽点满满——只支持安装插件后添加的新书签，之前的书签依然不可搜索！这对于书签重度用户来说非常不便，谁会重新将之前收藏的书签取消收藏再添加一遍吗？</span> 
+</p>
+<p>
+	总而言之，这个书签汇总页面十分适合经常在电脑浏览器面前工作和刷新闻的人们，但如果说 Bookmarks Manager 要成为目前市面上待阅应用的强力竞争者还相当有难度，因为如 Pocket、Instapaper 在手机端阅读体验良好的应用才是他们的核心竞争力，而打开 Chrome 手机版浏览器之后，我们失望地发现书签管理页依然没有随着 Bookmarks Manager 的出现而改变。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<span class="irc_ho"><a class="_ZR irc_hol" target="_blank" href="http://officesupplygeek.com/levenger/levenger-page-points-for-easier-reading-and-organizing/">officesupplygeek.com</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="84">
+				<span data-id="84">Chrome</span>
+			</li>
+			<li class="tag item" data-id="3955">
+				<span data-id="3955">书签</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3258" data-title="《今日应用：不习惯浏览器书签？Google给你新选择》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3258/medium/3258.jpg?1436637550" data-url="http://www.qdaily.com/mobile/articles/3258" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3258">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3258" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">36</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3245.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

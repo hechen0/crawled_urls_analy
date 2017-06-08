@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道。对这样一个巨头的要求，不应该只是财务数字。好奇心日报为您呈现2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 电子商务 互联网金融 阿里巴巴 腾讯 蚂蚁金服 开云 马云 蔡崇信 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="48UvQ6P3UuTli74/mXT8rTmRBTMGFcb9aUZE2nSEIAE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/2007/small/2007.jpg?1408114682" alt="">
+					</span>
+				<span class="name">许冰清</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-21 08:17:03 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/21037/medium/21037.jpg?1453285541" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21037" data-title="《2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21037/medium/21037.jpg?1453285577" data-url="http://www.qdaily.com/mobile/articles/21037.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				对这样一个巨头的要求，不应该只是财务数字
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<div style="text-align:start;">
+	对于再次登上《福布斯》杂志封面这件事，马云应该不太高兴。
+</div>
+<p style="text-align:start;">
+	马云 2000 年 6 月登上《福布斯》国际版封面是这家电商巨头早年的一个里程碑式的宣传材料。15 年后，《福布斯》的一期封面标题是<a href="http://finance.qq.com/a/20151127/032292.htm" target="_blank">《阿里巴巴和他的四万大盗》</a>。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/774d8a487ce6.jpg" width="1080" height="706" title="马云先后两次登上《福布斯》杂志封面" alt="马云先后两次登上《福布斯》杂志封面" /><span>马云先后两次成为《福布斯》杂志封面人物</span> 
+</p>
+<p>
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;">因为假货争议，</span><span style="text-align:start;">阿里</span><span style="text-align:start;">巴巴</span><span style="text-align:start;">在 2015 年与奢侈品集团开云（Kering，Gucci 等品牌的母公司）有了一场国际诉讼。报道中，</span><span style="text-align:start;">当马云被问到这件事时，“</span><span style="text-align:start;">他几乎从沙发上一跃而起。马云说：‘我宁可输掉这场官司，损失钱，也要赢得我们的尊严和尊重……Gucci 或任何其他品牌的手袋怎么能卖到这么贵？这很荒谬。我知道品牌公司不高兴，但我也说这是你的经营模式。你必须反思你自己的经营模式。’</span><span style="text-align:start;">”</span> 
+</p>
+<p style="text-align:start;">
+	很多用户可能确实不觉得 Gucci 值那个钱。但当作为全球市值第二大的电商，阿里巴巴在谈及假货问题的时候，指责原品卖得贵，无疑是一种让人意外的态度。
+</p>
+<div style="text-align:start;">
+	这一年，马云也驳斥过海外投资者对<span>阿里</span><span>巴巴</span>模式想当然的看法：
+</div>
+<div style="text-align:start;">
+	“狭义的电子商务仅仅是今天<span>阿里</span><span>巴巴</span>集团战略的一部分，我们追求的是打造一个开放、透明、协同的商业基础设施平台。……换句话说，简单地把今天市场上从事电子商务的企业当作<span>阿里</span><span>巴巴</span>的对手，是把苹果和苹果树相比，是对双方都不合适的。”
+</div>
+<div style="text-align:start;">
+	考虑到这封<a href="http://ar.alibabagroup.com/2015/index.html" target="_blank">《致股东信》</a>是在公司股价跌到历史低位的 9 月发布的，还算是件挺有勇气的事——2015 年的<span>阿里</span><span>巴巴</span>不管是面对消费者、投资方、监管、竞争对手还是自己，处境都要比想象中更艰难一些。
+</div>
+<div style="text-align:start;">
+	2014 年完成史上最大 IPO 这件事，可能也给<span>阿里</span>带来了一些“成名的想象”。它看起来已经像是一个有全球影响力的互联网公司了，但依旧面目模糊，外加很多不确定性：独断的管理风格、过分美好的业绩、假货的原罪、下行的中国经济……
+</div>
+<div style="text-align:start;">
+	我们希望从五个方面来说明，这家公司可能不像想象中、或者我们看到的那样顺遂。
+</div>
+<div style="text-align:start;">
+</div>
+<h3 style="text-align:start;">
+	财富价值：市值缩水了，但还有蚂蚁金服的 400 多亿美元&nbsp;
+</h3>
+<div style="text-align:start;">
+</div>
+<div style="text-align:start;">
+	<span>阿里</span><span>巴巴</span>目前依然是中国最富有的公司之一，市值接近 1800 亿元。根据其 2015 年 10 月底发布的最新一季财报，目前整个<span>阿里</span>集团拥有的现金及等价物储备超过 1000 亿元，比传统的“现金流大户”百度还要高。
+</div>
+<p style="text-align:start;">
+	优异的财报数据背后，往往有一些合理的技术手段，比如将控股的<span>阿里</span>影业、<span>阿里</span>健康的相应增值部分计入集团利润。而当 2015 年第二季度公司营收增速下降到历史最低位时，华尔街投资者也毫不留情地给出了相应的惩罚。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c84d69a1f748.jpg" width="968" height="543" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	与<span>阿里</span><span>巴巴</span>相关，还有一块不能忽视的巨额资产是蚂蚁金服。2015 年，这家从支付宝成长起来的互联网金融集团<a href="http://cn.nytimes.com/dealbook/20150705/c05db-ant/" target="_blank">完成了第一轮公开融资</a>，当时彭博社对其给出的估值就已经超过 400 亿美元。
+</div>
+<div style="text-align:start;">
+	2016 年初，蚂蚁金服也对外确认，公司正在进行第二轮融资，规模将不低于第一轮的 100 亿元。这很可能将使蚂蚁金服超越 Uber，成为全球身价最高的非上市公司。
+</div>
+<p style="text-align:start;">
+	根据马云在两大集团中的持股比例，彭博社“<a href="http://www.bloomberg.com/billionaires/2016-01-18/aaa/aaaga" target="_blank">亿万富豪指数</a>”目前将其列为了全球第 22 位最富有的人。他的个人身价在 275 亿美元，在中国仅低于王健林的 307 亿美元。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/22e1ac000886.jpg" width="1080" height="426" title="彭博亿万富豪指数列出的中国前十大富豪" alt="彭博亿万富豪指数列出的中国前十大富豪" /><span>彭博亿万富豪指数列出的中国前十大富豪</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	2015 年全年，<span>阿里</span><span>巴巴</span>至少完成了 47 项对外投资，其中最大的几笔包括 45 亿美元现金收购优酷土豆、与苏宁的 283 亿元相互投资、以及年底以 12.5 亿美元参与投资饿了么。
+</div>
+<div style="text-align:start;">
+	<a href="http://www.valuewalk.com/2015/12/alibaba-38-billion-acquisitions-bnp/" target="_blank">BNP Paribas 的分析师报告</a>说，2016 年<span>阿里</span>在对外投资上可能还要再花掉 380 亿美元。而不管是花钱购回、持股上市、还是套现退出，这些投资，未来都有可能转化成<span>阿里巴巴</span>自身财富的一部分。
+</div>
+<div style="text-align:start;">
+</div>
+<h3 style="text-align:start;">
+	行业影响力，电商依然是重点
+</h3>
+<div style="text-align:start;">
+</div>
+<div style="text-align:start;">
+	2015 年的“双 11”，在销售额突破 800 亿后，马云照例与媒体见面，并发表了简短的讲话。他说，“双 11”早已不是天猫一家的游戏，而是<a href="http://www.thepaper.cn/newsDetail_forward_1395609" target="_blank">一个更大规模的社会实验</a>：
+</div>
+<p style="text-align:start;">
+	“双 11”当下创造的交易量规模，将会在 10 年后成为每一个平常日子里、中国全社会的消费水平；天猫只是在测试，在商家、客服、支付、技术、物流等各个环节，是否都已经为这样的规模做好了准备。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ec0a60259c4d.jpg" width="1080" height="640" title="2015 年在水立方举办的天猫“双 11”晚会" alt="2015 年在水立方举办的天猫“双 11”晚会" /><span>2015 年在水立方举办的天猫“双 11”晚会</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	这倒是类似全盛时期的沃尔玛类似的野心：以一个品牌或是平台的力量，就足以对整个国家的社会消费水平产生影响。
+</div>
+<div style="text-align:start;">
+	但沃尔玛的影响力不仅限于美国市场。它对高性价比商品的追求，最终将全球的原材料和商品资源都统筹了起来；而目前的<span>阿里</span><span>巴巴</span>，虽然喊出了“要帮助全球一千万中小商户”做生意的口号，它的主业依然在中国市场。
+</div>
+<p style="text-align:start;">
+	在国际化这件事上，目前<span>阿里</span><span>巴巴</span>能做的，还是帮助中国人买到更多的外国商品。
+</p>
+<p style="text-align:start;">
+	从 2014 年起，天猫开始扶持一个全新的跨境电商团队“天猫国际”，并将几乎所有一线国际品牌的资源倾注于此，要远好于京东、亚马逊等传统竞争对手，以及小红书、洋码头等创业公司。
+</p>
+<div style="text-align:start;">
+	但在 2015 年“双 11”的前 9 个小时里，这个团队只完成了 10 亿元的销售额。考虑到先期的广告、资源的投入，以及预售商品在当日凌晨付款的规则，这个成绩不算好。
+</div>
+<div style="text-align:start;">
+	中国市场对于<span>阿里</span>有多重要，从这几年那些被开发出来的需求上也可以看出来。
+</div>
+<p style="text-align:start;">
+	比如连接线下服务的平台。在投资饿了么的时候，<span>阿里</span>似乎就已经承认，他们在“O2O”这一块的布局还是有些慢了。快的打车在 2015 年初被滴滴合并、持股的美团在与大众点评合并后接受了腾讯的投资、口碑网在方向上的摇摆不定……这些对<span>阿里</span>都不是好消息。
+</p>
+<p style="text-align:start;">
+	不妨将广义上的物流行业，也纳入 O2O 的范畴内一起考虑。目前，<span>阿里</span>的“菜鸟网络”正在将平台化运营的思路复制到物流行业，为各类大小快递公司提供服务。但从今年“双 11”的表现来看，相对于京东、亚马逊建立起的高效率自营物流来说，菜鸟的模式似乎暂时还没法完全解决“最后三公里”的困境。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/98722cabcb83.jpg" width="1080" height="810" title="&quot;双 11&quot;期间，天猫使用了来自苏宁的物流运力作为补充" alt="&quot;双 11&quot;期间，天猫使用了来自苏宁的物流运力作为补充" /><span>"双 11"期间，天猫使用了来自苏宁的物流运力作为补充</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	好在在音乐、视频、体育直播、媒体信息等领域，<span>阿里</span>不会被物流的问题拖后腿。根据 CEO 张勇<a href="http://www.iwshang.com/Post/Default/Index/pid/42033.html" target="_blank">近期披露的集团年度战略</a>，规模更大、毛利率相对也更高的虚拟商品和服务领域，将成为 2016 年<span>阿里</span><span>巴巴</span>的渗透重点。
+</div>
+<div style="text-align:start;">
+</div>
+<h3 style="text-align:start;">
+	控制力：被腾讯抢走的 3 个大生意，以及共同看好的 3 个项目
+</h3>
+<div style="text-align:start;">
+</div>
+<div style="text-align:start;">
+	在讨论<span>阿里</span>的财富价值时，我们已经考虑到了公司 2015 年完成的 47 项对外投资。但不管是数量还是风头上，腾讯似乎都是 2015 年的胜者——这一年，腾讯总共完成了 70 项投资，并且在 3 个最大的并购案中出现。
+</div>
+<div style="text-align:start;">
+	<span>阿里</span>当然也有风光的时候，比如将苏宁拉入自家战线，或是 45 亿美元现金收购优酷土豆。这与其 2014 年的投资思路差别不大：以战略投资为主，希望被投的公司能够尽快与自己的电商主业产生协同效应。
+</div>
+<p style="text-align:start;">
+	<span>阿里</span>的投资，很多都围绕着电商、支付、物流这些已经打好了基础的领域开展。相比之下，腾讯则是在社交、游戏的主业之外，尝试渗透那些之前不太擅长的领域，比如电商、医疗，以及从社交延伸出来的本地生活服务、O2O 业务。
+</p>
+<p style="text-align:start;">
+	<span></span> 
+</p>
+<div style="text-align:start;">
+	那些几年前就被这两家看上、并且花了点钱来投资的初创项目中，有好几个都成了 2015 年中国互联网行业的经典并购案例。离得最近的一个，就是 2016 年初<a href="http://www.qdaily.com/articles/20567.html" target="_blank">宣布合并的美丽说、蘑菇街</a>。
+</div>
+<p style="text-align:start;">
+	滴滴与快的、美团与大众点评、58 同城与赶集，这些在 2015 年最终选择合并的公司背后，都有<span>阿里</span>和腾讯之前的长期投资支持。但在合并后，这些新项目的追加投资，几乎都来自于腾讯；滴滴的强势，更加独立的美团，也进一步削弱了<span>阿里</span>在这些“新巨头”中的影响力。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/5be82ab48590.jpg" width="960" height="506" title="在《华尔街日报》列出的“十亿美元俱乐部”亚洲部分中，滴滴快的、新美大都入选" alt="在《华尔街日报》列出的“十亿美元俱乐部”亚洲部分中，滴滴快的、新美大都入选" /><span>在《华尔街日报》列出的“<a href="http://graphics.wsj.com/billion-dollar-club/" target="_blank">十亿美元俱乐部</a>”亚洲区公司中，</span><span>滴滴出行、美团-大众点评（China Internet Plus）都在列</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	不妨再来看看在对方的地盘上，腾讯和<span>阿里</span>都做了什么事：
+</div>
+<div style="text-align:start;">
+	在腾讯擅长的社交领域，<span>阿里</span>这一年改为扶持企业社交软件“钉钉”；媒体领域，完成了对 SMG、《南华早报》等多家传统媒体的布局；在游戏领域，他们早年在美国市场看上的 Ouya 最终倒闭，但却在 2016 年将“UC 九游”改了个名字，叫“阿里游戏”。
+</div>
+<div style="text-align:start;">
+	在<span>阿里</span>擅长的电商领域，腾讯不仅加深了与京东在营销领域的合作，还对从淘宝成长起来的美丽说+蘑菇街追加了投资；在想象力更大的移动支付上，目前微信支付的影响力也已经逐渐接近了支付宝。
+</div>
+<div style="text-align:start;">
+	在两家的计划中，文化娱乐和线下服务都是会在未来拿到更多钱的业务。双方共同投资华谊兄弟、微鲸电视、Lyft，以及先后投资的饿了么，也都是出于这样的目的。
+</div>
+<div style="text-align:start;">
+</div>
+<h3 style="text-align:start;">
+	未来战略：用蚂蚁金服再造一个阿里巴巴
+</h3>
+<div style="text-align:start;">
+	在互联网金融这一领域，蚂蚁金服没有太像样的竞争对手。
+</div>
+<p style="text-align:start;">
+	微信支付在线下影响力已经基本可以与支付宝处于同一水平。但不管是腾讯、京东或是百度的金融部门，还是传统金融企业的在线业务，都没法将支付工具、小额贷款、理财工具、社会征信、网络银行等多个业务同时运作得很好，并拥有 4 亿用户作为支持。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/851979f680b6.jpg" width="1080" height="353" title="蚂蚁金服旗下业务部门及服务" alt="蚂蚁金服旗下业务部门及服务" /><span>蚂蚁金服集团旗下业务部门及服务</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	在<span></span><a href="http://tech.sina.com.cn/i/2015-11-04/doc-ifxkhcfn4339123.shtml" target="_blank">与秦朔讨论<span>阿里</span><span>巴巴</span>的发展策略时</a><span></span>，马云提出了一个“履带战略”的概念：“没有一家互联网公司能够 3 年到 5 年都保持优势的。所以我们形成梯队发展、有机作战……<span>阿里</span><span>巴巴</span>&nbsp;B2B 需要修复，淘宝就当第一阵营，然后是天猫，然后接下来支付宝起来了，过两年再是云计算，再是菜鸟。”
+</div>
+<div style="text-align:start;">
+	从 B2B 到淘宝、天猫、再到支付宝扩张而成的蚂蚁金服，正是<span>阿里</span>尝试扩张其影响力，最终将所有消费、交易相关的业务都囊括在内的思路。目前不断改造传统金融、仍处于上升发展期的蚂蚁金服，是马云为了再造一个<span>阿里</span><span>巴巴而准备</span>的布局。
+</div>
+<div style="text-align:start;">
+	当然，对于决定阿里巴巴股价的美股投资者来说，蚂蚁金服的未来再好也没什么用。所以 2015 年投资者反响最积极的时候是<span>阿里巴巴宣布手机购物所占比例的数字以后</span>。
+</div>
+<p style="text-align:start;">
+	两年前，<span>阿里</span>宣布“All in 无线”战略，决定向手机购物转型。目前，70% 以上的用户已经更习惯用手机在淘宝、天猫上购物，而不是对着电脑屏幕挑挑拣拣。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a33512c9bcf6.jpg" width="1080" height="497" title="代表广告转化效果的“货币化率”走势" alt="代表广告转化效果的“货币化率”走势" /><span>代表广告转化效果的“货币化率”走势情况，其中橙色为移动端、灰色为 PC 端，蓝色为总体情况</span> 
+</p>
+<p>
+</p>
+<div style="text-align:start;">
+	最后，可能稍微有点让人意外的是，<span>阿里</span><span>巴巴</span>真的在推进农村地区的生意。根据张勇<a href="http://www.iwshang.com/Wap/Default/Index/pid/41961.html" target="_blank">日前公布的相关数据</a>，目前全中国已经建立起了 1 万个以上的农村淘宝服务点，对于这些网络基础设施还不够健全的地区来说，对消费欲望的促进是明显的。
+</div>
+<div style="text-align:start;">
+	当然，你也可以将这看作是一个预防措施：在经济整体不太好的时候，城市消费者每年花在购物上的钱，不会无节制地持续大幅增长。
+</div>
+<div style="text-align:start;">
+</div>
+<h3 style="text-align:start;">
+	企业（家）形象没有太大变化
+</h3>
+<p style="text-align:start;">
+	<span style="text-align:start;">在 2015 年，</span>马云和阿里巴巴的管理层花了很多精力，在各类投资者会议、国际活动、以及可以见诸报端的公开信上，对外界解释了一批问题：
+</p>
+<p style="text-align:start;">
+	阿里不是一家电商网站，而是一个生态系统，甚至是未来整个商业社会的基础设施；中国的消费红利还没有消失，接下来几年才是增长最快的时候；对沃尔玛和亚马逊怀有敬畏之心，但我们很快就会超过他们。
+</p>
+<p style="text-align:start;">
+	但从<a href="http://www.barrons.com/articles/alibaba-why-it-could-fall-50-further-1442036618" target="_blank">《巴伦周刊》那篇耸动的封面报道</a>就可以看出，业绩增长或是商业模式，绝不是外界判断公司的唯一标准。判断会受主观情绪影响。
+</p>
+<p style="text-align:start;">
+	投资者们可能还记得，早几年<span>阿里</span><span>巴巴</span>&nbsp;B2B 业务刚从香港退市、开始筹划整体上市的时候，马云和公司董事会闹出的“支付宝事件”。马云曾表示，为了获得支付牌照，剥离支付宝是当时“不完美但唯一正确”的做法。
+</p>
+<div style="text-align:start;">
+	直到现在，这件事依然产生着两个后果：<span>阿里</span><span>巴巴</span>的股东们无法享受到蚂蚁金服的增长红利；合伙人而非董事会才是公司的实际控制人，他们随时有再“越界”的可能性。
+</div>
+<div style="text-align:start;">
+	同样不时被提起的，还有销售假货这样的“原罪”。在这个问题上，2015 年的<span>阿里</span>收获了一份来自国家工商总局的白皮书、来自美国市场的集体诉讼，以及来自若干个海外品牌协会和集团的指责。
+</div>
+<p style="text-align:start;">
+</p>
+<p style="text-align:start;">
+	但在搭建于乌镇的另一个舞台上，马云却表示：<a href="http://www.17wh.com/kjk/20151219/726296.html" target="_blank">他欢迎监管</a>，欢迎针对所有中国互联网企业的监管：
+</p>
+<p style="text-align:start;">
+	“在海外有不少人讲，中国的互联网是不是管得太紧，但是我自己这么认为，不管怎么样，这个国家管出了七亿互联网用户，管出了 BAT，管出了无数的创新，还是有很多东西值得我们学习和反思。”
+</p>
+<p style="text-align:start;">
+	这样的表态，甚至引来了他早年工作过的<a href="http://www.admin5.com/article/20151223/639088.shtml" target="_blank">商务部的工作人员的质疑</a>：
+</p>
+<p style="text-align:start;">
+	“有关部门曾经多次试图制定电子商务管理办法都没有得到足够支持，很多人就是怕把电子商务这个新生事物管死了。而马云，一方面鼓吹管制互联网，另一方面又呼吁开放市场——里外通吃，这就是马云欢呼管制的内在逻辑？”
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;">我们为什么要对阿里巴巴，或者其它体量巨大的公司的发展保持警惕？《公司帝国》（<em>Corporation Nation</em>）里的一段话大概可以解释这个问题：</span> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;">“在美国国内，大公司的一举一动直接影响着政府公共政策的制定，影响着大多数人的生活方式和生活水平；在世界的其他国家，大公司可以轻而易举地切断与个别国家的贸易往来，或者通过直接或间接的方式，微笑着让那些已经陷入财政困难的外国政府债台高筑。”</span> 
+</p>
+<p>
+	不断扩张中的阿里巴巴，已经成为中国消费市场中绕不开的一部分，但 2015 年却没有因此在商业社会上获得足够多的尊敬。它应该思考的是：如何利用自己的影响力，更多地对外传递商业文明精神，并且承担起更多的义务。
+</p>
+<p>
+	这也是全球市场对大公司要求更严苛的地方。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="358">
+				<span data-id="358">电子商务</span>
+			</li>
+			<li class="tag item" data-id="3172">
+				<span data-id="3172">互联网金融</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="6902">
+				<span data-id="6902">蚂蚁金服</span>
+			</li>
+			<li class="tag item" data-id="2120">
+				<span data-id="2120">开云</span>
+			</li>
+			<li class="tag item" data-id="1515">
+				<span data-id="1515">马云</span>
+			</li>
+			<li class="tag item" data-id="14032">
+				<span data-id="14032">蔡崇信</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21037" data-title="《2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21037/medium/21037.jpg?1453285577" data-url="http://www.qdaily.com/mobile/articles/21037.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19721.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19721/medium/19721.jpg?1451026896" alt="关于阿里巴巴投向饿了么的 12.5 亿美元，你可能想知道的 5 个答案">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">关于阿里巴巴投向饿了么的 12.5 亿美元，你可能想知道的 5 个答案</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">35</span>
+				<span class="iconfont icon-heart">368</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18971.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18971/medium/18971.jpg?1449889154" alt="阿里巴巴买了《南华早报》，它说对中国好就是对阿里好">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">阿里巴巴买了《南华早报》，它说对中国好就是对阿里好</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">67</span>
+				<span class="iconfont icon-heart">180</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17598.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/17598/medium/17598.jpg?1447651793" alt="一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">一整天的数字游戏之外，双 11 让阿里巴巴的生意发生了什么变化？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">45</span>
+				<span class="iconfont icon-heart">311</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26567.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26567/medium/26567.jpg?1462760882" alt="">
+                        <h1 class="title">Gucci 退出可疑的国际反伪联盟，以及，这些泳衣值得推荐｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26588.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26588/medium/26588.jpg?1462779743" alt="">
+                        <h1 class="title">马丁·斯科塞斯的黑帮新电影，聚集了三位影帝</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26596.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26596/medium/26596.jpg?1462787230" alt="">
+                        <h1 class="title">10000 小时训练法，其实并不是一碗人人适合的鸡汤</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26589.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26589/medium/26589.jpg?1462779763" alt="">
+                        <h1 class="title">苹果零售店里的配件是如何完成它们的设计包装的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26595.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26595/medium/26595.gif?1462782941" alt="">
+                        <h1 class="title">这个足球场里，为什么球迷喊最响的是赞助商的名字？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26578.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26578/medium/26578.jpg?1462769896" alt="">
+                        <h1 class="title">Google 尽管在印度卖不好，但还没放弃</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26571.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26571/medium/26571.jpg?1462762578" alt="">
+                        <h1 class="title">男同学们，这里有一条能穿去海边浪的“自制”游泳短裤</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21037">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21037" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">513</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21021.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

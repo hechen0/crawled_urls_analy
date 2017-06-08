@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1。我们征集了不同职业的人，尝试用 iPad Pro 作为主要的工作设备。这不是一个全方面的测评报告，只不过是想告诉你，如果我只用 iPad Pro 工作，会发生什么。。好奇心日报为您呈现我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 用 iPad Pro 工作实验室 Evernote Dropbox 留白 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="V/IEHqGNcMnv9SZysUiSzEsxd3NEhJOnCZ32yZBLFUI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="19577">
+				<span data-id="19577">用 iPad Pro 工作实验室</span>
+			</li>
+			<li class="tag item" data-id="527">
+				<span data-id="527">Evernote</span>
+			</li>
+			<li class="tag item" data-id="6446">
+				<span data-id="6446">Dropbox</span>
+			</li>
+			<li class="tag item" data-id="11384">
+				<span data-id="11384">留白</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Cash </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-07 21:25:13 +0800"></span>
+	</div>
+	<div class="banner">
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18649" data-title="《我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18649/medium/18649.jpeg?1455796212" data-url="http://www.qdaily.com/mobile/articles/18649.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们征集了不同职业的人，尝试用 iPad Pro 作为主要的工作设备。这不是一个全方面的测评报告，只不过是想告诉你，如果我只用 iPad Pro 工作，会发生什么。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		我是 Cash，留白 WHITE 的产品及技术负责人、联合创始人。（编辑注：关于留白 WHTE 是干什么的，我们曾经写过一篇报道：<a href="http://www.qdaily.com/articles/10676.html" target="_blank">《今日应用：最难得是恰到好处》</a>）
+	</li>
+	<li>
+		之前主要做&nbsp;iOS 开发以及 Web 前端，还有 Node.js 和 Python（都是编写代码的语言）。最近这段时间迷上了智能硬件相关的设备 Arduino 和 Raspberry Pi，就用 C 语言多一些。
+	</li>
+	<li>
+		日常工作用到的设备，主要是 15 英寸 Macbook Pro，iPhone 6(128G)，Nexus 5，还有一些乱七八糟的外设。
+	</li>
+</ul>
+<p>
+</p>
+<p style="text-align:start;">
+	在精悍的互联网团队里面，肯定要求人人都是多面手，我也不例外。日常工作包括但不限于：编写一些爬虫抓取数据分析需求，撰写产品需求文档，规划产品和做原型图（甚至原型），做 QA 测试，写测试代码，代码评审，疑难杂症处理，以及一些核心的模块或者数据库的编写，团队沟通，处理各种邮件。
+</p>
+<p style="text-align:start;">
+	在看到这个实验室的时候，我想，此前在出差的时候也常使用 iPad Air 工作，还是能够解决一些事情，想着用 iPad Pro 工作一周应该也还好。
+</p>
+<p style="text-align:start;">
+	不过，最终在决定做这个实验的时候，我的心理是开心的，压力也很大。压力在于，我知道 iPad Pro 肯定有很多东西满足不了我。
+</p>
+<p style="text-align:start;">
+	作为开发者，我无法利用 iPad Pro 编写程序在其自身上面运行，这意味着无法编写iOS、Android 的应用。还好，这一周的工作安排不太涉及这类开发工作，但是实际的工作场景里，编码是肯定少不了的。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/3e01c163022c.jpg" width="1080" height="720" title="日常工作环境" alt="日常工作环境" /> 
+</p>
+<div style="text-align:center;">
+	<em>请忽略不太整齐的办公桌</em> 
+</div>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:start;">
+	实验前，我从上一位实验者那里拿到了好奇心日报提供的 iPad Pro 和 Apple Pencil。实验规定是尽可能不使用笔记本电脑，于是我安装了一些应用，以便连接到电脑上面处理一些必要的工作。
+</p>
+<p style="text-align:start;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/40e52f76b7f5.jpg" width="1080" height="809" title="桌面截图" alt="桌面截图" /> 
+</p>
+<h2 style="text-align:left;">
+	文档管理&nbsp;| Evernote
+</h2>
+<p style="text-align:left;">
+	基本上每次有新的系统、新的设备出来，Evernote 都是及时更新的。<span>基本上我的文档都存在Evernote上，包括产品文档。</span> 
+</p>
+<p style="text-align:left;">
+	<span>Evernote已经做好了 iOS 9 以及 iPad Pro 的兼容了，但是用了老半天，也没有发现什么新特性（比如说涉及到 3D Touch 之类的）。</span> 
+</p>
+<p style="text-align:left;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/fd51b0bfd7f9.jpg" width="1080" height="809" title="Evernote" alt="Evernote" /> 
+</p>
+<h2 style="text-align:left;">
+	代码管理 | Gitlab（客户端和网页端）
+</h2>
+<p style="text-align:left;">
+	Gitlab 比较让人郁闷，但是你也找不到比这个东西更好的选择了。
+</p>
+<p style="text-align:left;">
+	因为涉及到项目管理、代码评审，以及 issue 提交等，是我们内部作为代码管理的重要场所。我们自己在 VPS 上搭建了一个内部使用的 Gitlab，本身 Gitlab 有提供客户端，iOS全线支持，Android也有。
+</p>
+<p style="text-align:left;">
+	但是审查 iOS项目的话，在电脑上我一定用 Xcode，用起来舒服太多了。
+</p>
+<p style="text-align:left;">
+	issue 管理则是最让人郁闷的地方，客户端上不能够插图。后来我考虑使用网页版，但是网页版上估计有 WebSocket 的 bug，会导致浏览器常常在打字时处于假死的状态。尝试插图也从来没有成功过。不过，我也是头一次发现，在浏览器里头也可以调用起 Dropbox 插入文件，这些特性在其它的操作系统中貌似早已实现了.（貌似是 iOS 9 的新特性，我没有深究）
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/4cdfba6abbb8.jpg" width="1080" height="809" title="gitlab" alt="gitlab" /> 
+</p>
+<h2 style="text-align:left;">
+	任务管理 | Trello
+</h2>
+<p>
+</p>
+<p style="text-align:left;">
+	Trello是我们的任务管理工具之一，比较让人郁闷的是，在我第一次登录的时候它崩溃了，尝试了好几次都不成功。后来转战到网页端，也遇到同样的问题，输入文字的时候常常卡死。
+</p>
+<p style="text-align:left;">
+	反复几次，还好最后客户端能够打开了。而且 Trello 也已经做好了 iOS 9 以及 iPad Pro 的兼容适配。
+</p>
+<p style="text-align:left;">
+	<img src="http://cms.qdaily.com/uploads/image/201512/cd6b813ec253.jpg" width="1080" height="809" title="Trello" alt="Trello" style="text-align:center;" /> 
+</p>
+<h2 style="text-align:left;">
+	文件共享 | Dropbox
+</h2>
+<p style="text-align:left;">
+	公司里的设计文件、工程的切图文件，还有一些共享资料，我们都会同步到 Dropbox 当中，同样是因为跨平台，所以非常方便。Dropbox 并没有对 iPad Pro 做兼容适配，但是功能都能正常使用。
+</p>
+<p style="text-align:left;">
+	今天需要跟 Android工程师一起调试 Android ，还要将一些存在问题的功能点梳理出来，所以基本流程就是在 Android 上将问题勾勒出，再将截图放入 Dropbox 中，然后同步到 iPad Pro 上。最后再将问题用 Gitlab 记录下来，提交给工程师。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/1fbbc3d5b67f.jpg" width="1080" height="809" title="Dropbox" alt="Dropbox" /> 
+</p>
+<h2 style="text-align:left;">
+	团队沟通 | Slack
+</h2>
+<p>
+	Slack作为公司的沟通工具，在工作中当然必不可少。果然，Slack 的响应非常快，也做好了 iPad Pro 的兼容。但也似乎仅仅是兼容而已，没有什么特别的新特性，够用就好。
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/ef95a720b695.jpg" width="1080" height="809" title="slack" alt="slack" /> 
+</p>
+<h2 style="text-align:center;">
+	一些使用体验上的问题
+</h2>
+<p>
+</p>
+<p style="text-align:left;">
+	非原生键盘的标点符号令人非常头疼。因为今天都在使用 HHKB 编写文字，所以发给编辑的报告中，标点符号全部不对，都是使用了英文格式的标点。
+</p>
+<p style="text-align:left;">
+	另外，如果用蓝牙连接原生键盘之外的键盘，似乎会有些问题。比如，在 iPad 休眠的时候无法智能唤醒，一定要按 HOME 键或者电源键。（编辑注，Smart keyboard 已经在寄去的路上了）
+</p>
+<p style="text-align:left;">
+	没有了鼠标，需要用手来划，用手来点，但是其实竖着键盘时候就非常不适合点，但如果把键盘平躺了，要跨过键盘才可以对屏幕点击，"浏览"和"键入"的使用场景无法快速无缝地切换。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/5a2d48893608.jpg" width="1080" height="720" title="键盘" alt="键盘" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/d32f8530f9e4.jpg" width="1080" height="720" title="键盘，反正怎么放都不太舒服" alt="键盘，反正怎么放都不太舒服" /><span><em>键盘，反正怎么放都不太舒服</em></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	在这一点上，MacBook 确实有优势。而且非原生键盘没有 HOME 键的功能，每次用到 HOME 键时都需要用四个手指去推屏幕，体验也不佳。
+</p>
+<p style="text-align:left;">
+	也有很棒的地方，截止下班吃晚饭前，电池还有 17%的电力。
+</p>
+<p style="text-align:left;">
+	总的来说，今天算是效率一般的一天，因为有些工作确实不算熟悉。但是勉勉强强也算完成了。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h2 style="background-color:#FFFFFF;">
+	实验报告
+</h2>
+<p>
+	<strong>编辑</strong> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18311.html" target="_blank">我是写字的，今天测了测什么工具可以用 | 用 iPad Pro 工作 Day 1</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18353.html" target="_blank">今天我们谈谈不该买的外设 | 编辑·用 iPad Pro 工作 Day 2</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18421.html" target="_blank">遇上第一个打不开的文件，剪一个雾霾视频 | 编辑·用 iPad Pro 工作 Day 3</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18481.html" target="_blank">背出门一整天，比在办公室好用 | 编辑·用 iPad Pro 工作实验室 Day 4</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18564.html" target="_blank">最后一天，决定用它取代 12 寸 MacBook | 编辑·用 iPad Pro 工作实验室 Day 5</a> 
+</p>
+<p>
+	<strong>插画师</strong> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18299.html" target="_blank">我是个插画师，我试了试那支笔 | 用 iPad Pro 工作Day 1</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18356.html" target="_blank">模拟水彩效果是方便了，总觉得不够细致 | 插画师·用 iPad Pro 工作 Day 2</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18425.html" target="_blank">逛展览，为了速度还是用了纸笔 | 插画师·用 iPad Pro 工作实验室 Day 3</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18478.html" target="_blank">没有 Photoshop，也可以在平板上做设计 | 插画师·用 iPad Pro 工作实验室 Day 4</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/18564.html" target="_blank">用了5天的感想，以及推荐这四个应用 | 插画师·用 iPad Pro 工作实验室 Day 5</a> 
+</p>
+<p>
+	「好奇心实验室<span>」</span><span>&nbsp;微信公众账号已经开通，搜索&nbsp;<span style="text-align:left;">qdailylab 即可关注实验室的后续进展。</span>《我是个程序员（小白领），我要疯了 | 用 iPad Pro 工作day 0.5》也会有的！</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	题图制作/龙睛
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="19577">
+				<span data-id="19577">用 iPad Pro 工作实验室</span>
+			</li>
+			<li class="tag item" data-id="527">
+				<span data-id="527">Evernote</span>
+			</li>
+			<li class="tag item" data-id="6446">
+				<span data-id="6446">Dropbox</span>
+			</li>
+			<li class="tag item" data-id="11384">
+				<span data-id="11384">留白</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18649" data-title="《我是个审代码的，这一周将面临大挑战 | 用iPad Pro工作实验室Day 1》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18649/medium/18649.jpeg?1455796212" data-url="http://www.qdaily.com/mobile/articles/18649.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18564.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18564/medium/18564.jpeg?1455796251" alt="最后一天，决定用它取代 12 寸 MacBook | 编辑·用 iPad Pro 工作实验室 Day 5">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">最后一天，决定用它取代 12 寸 MacBook | 编辑·用 iPad Pro 工作实验室 Day 5</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">19</span>
+				<span class="iconfont icon-heart">119</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18215.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18215/medium/18215.jpg?1448683942" alt="iPad Pro 究竟能不能换掉电脑，好奇心实验室请你来试试">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">iPad Pro 究竟能不能换掉电脑，好奇心实验室请你来试试</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">79</span>
+				<span class="iconfont icon-heart">115</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18649">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18649" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">57</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18650.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

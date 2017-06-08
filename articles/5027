@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了。想一个人戴着头盔自 high？还得等等。好奇心日报为您呈现CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Oculus VR 虚拟现实 CES CES 2015 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="512">
+				<span data-id="512">Oculus</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="513">
+				<span data-id="513">虚拟现实</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="5774">
+				<span data-id="5774">CES 2015</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-07 16:29:50 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5027/medium/5027.jpg?1436675347" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5027" data-title="《CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5027/medium/5027.jpg?1436675347" data-url="http://www.qdaily.com/mobile/articles/5027.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				想一个人戴着头盔自 high？还得等等
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“<span style="white-space:normal;">Future=Delivered</span>”（未来已经到来）是今年 CES 全球消费电子展的口号。林立的展台中，看上去最接近未来的设备莫过于头戴式虚拟现实（VR）设备——使用者头戴着类似星际战士的硕大头盔，靠在椅子上张大了嘴。
+</p>
+<p>
+	由于动作太过整齐，已经有了<span style="white-space:normal;">“Oculus 嘴”</span><span style="white-space:normal;">（Oculus Mouth）</span>这样的专有名词来形容体验虚拟现实的表情。
+</p>
+<p>
+	<span style="white-space:normal;">“Oculus 嘴”的名字来自</span><span style="white-space:normal;">在 Kickstarter 上筹款 200 万美元，去年被 Facebook 以 20 亿美元收购的</span><a href="http://qdaily.com/display/articles/search?search=oculus" target="_blank" style="white-space:normal;background-color:#FFFFFF;">虚拟现实先锋&nbsp;Oculus&nbsp;</a><span style="white-space:normal;">。</span> 
+</p>
+<p>
+	本届 CES 展会上，以 Oculus 为代表的虚拟现实设备厂商占据了游戏展区的大半空间。请随《好奇心日报》体验一下他们所描绘的未来吧：
+</p>
+<h3>
+	Oculus Crescent Bay
+</h3>
+<p>
+	<img src="/uploads/image/201501/39b6415051ac.jpg" alt="" /> 
+</p>
+<p>
+	Oculus 展位搭了两层，设了 19 个体验屋，现场非常火爆。从上午开馆到下午闭关，排队的人龙就没有消散过。工作人员称，今天已经就接待了几百个排队体验用户。Oculus 还专门开发了一个针对 CES 2015 的排队预约应用，而第二天的部分时间也已经约满。
+</p>
+<p>
+	在预约成功之后，我们看到了新产品 Oculus Crescent Bay 的原型机，并且进行了 6 分钟“沉浸式”体验。
+</p>
+<p>
+	体验在一个方形小房间内进行，房间内 Crescent Bay 用电源线连接着在一旁的 PC。 Crescent Bay 会将头部卡紧，让玻璃镜片靠近眼球，这对于没有近视眼的同学来说不成问题，如果带了眼镜，那么你有可能会为了不压着眼镜而将 Crescent Bay 佩戴过松。
+</p>
+<p>
+	带上之后视野清晰，分辨率比针对开发者的第一代 Oculus Rift 产品高出不少。而戴上后感觉的确沉浸——我站在了高楼的边上，不敢往外迈出一步，还看到真实枪林弹雨的战场，无数的碎石和子弹穿过自己的身体，还有有蓝天和草原的野外，还和一个外星人脸贴脸地交谈挥手。
+</p>
+<p>
+	虽然体验非常不错，但未必能让你忘记现实，因为几十秒的“幻觉”之后，头上沉重的设备马上提醒你，你是戴着一个黑色闪着灯泡的塑料眼罩在走动。
+</p>
+<h3>
+	三星 Gear VR
+</h3>
+<p>
+	<img src="/uploads/image/201501/6156f8af50c4.jpg" alt="" /> 
+</p>
+<p>
+	Oculus 的展区中除了新品 Crescent Bay，还有与三星合作的 Gear VR 专场，这款产品用的是三星的硬件外设以及 Oculus 的软件。
+</p>
+<p>
+	Gear VR 比 Crescent Bay 要轻，需要配合 Galaxy Note 4 一起使用，以 Galaxy Note 4 的屏幕作为显示屏。
+</p>
+<p>
+	使用前，只需要打开 Galaxy S4 的 VR 应用，选择好要玩的游戏，然后将手机安装到 Gear VR 上即可。实际体验中，这种利用手机软件较非整体 VR 设备有清晰度的优势，但是左右以及上下看时畸变情况会干扰体验，坐在我后面的两位体验的女生都反映使用后感到头晕。
+</p>
+<h3>
+	蚁视 ANTVR
+</h3>
+<p>
+	<img src="/uploads/image/201501/adeac39ad1d3.jpg" alt="" /> 
+</p>
+<p>
+	蚁视是国内团队的展台，他们这次带来了两款设备，一款是如 Gear VR 那样需要嵌入大屏手机（4.5-6 英寸）的 Taw，另一款是如 Oculus Rift 那样一体的 VR 设备“蚁视头盔”。Taw 佩戴时感觉舒适度尚可并不重，使用中感觉清晰度尚可，视野广阔，我体验了一个过山车的视频，可能由于内容问题，使用感受并没有 Oculus 产品那么沉浸。
+</p>
+<p>
+	不过也许他们的优势是在于内容，除了 PC 之外，可以连接 Xbox、PS，Android 手机甚至蓝光光盘等多个内容源，游戏可以直接接入蚁视就开玩，不需要游戏开发者作更多的修改。
+</p>
+<h3>
+	Structure Sensor
+</h3>
+<p>
+	<img src="/uploads/image/201501/fb410cc830b7.jpg" alt="" /> 
+</p>
+<p>
+	还有更有趣的。当大家都在做头戴式的消费级 VR 设备，Structure Sensor 切入的路线并不同，它其实是一款带有感应器和摄像头的 iPad 配件。
+</p>
+<p>
+	感应器和左边的投影仪可以丈量出你所在的空间的各种障碍物的距离。所以举着 Structure Sensor 可以直接玩 VR 游戏，走在现实世界中，看着虚拟世界的变化。我体验了一个在虚拟空间进行寻宝的游戏，需要跟着游戏指引走各种方向，虚拟地拿起物件或者倾倒平板，十分有趣。
+</p>
+<p>
+	<img src="/uploads/image/201501/fc205e7d2afc.jpg" alt="" style="width:681px;white-space:normal;" /> 
+</p>
+<p>
+	而由于他们的硬件设备可以丈量空间的形状，在消费级游戏之外，Structure Sensor 更大一部分的用途就是 3D 扫描，原理和 Google 早前的 Project Tango 3D 扫描手机类似。下图是用 Structure Sensor 扫描我的背包。
+</p>
+<h3>
+	Virtuix Omni
+</h3>
+<p>
+	<img src="/uploads/image/201501/45546f33beaf.jpg" alt="" /> 
+</p>
+<p>
+	Virtuix Omni 其实只能算是 Oculus 的周边产品。在现场并不能让每个人都试用，因为设备太复杂了：一整个行走的原型固定原型装置，腰间的固定器，定制的鞋子以及鞋子上的感应器，然后再带上 Oculus 的头盔。
+</p>
+<p>
+	配好整套装置之后才能进行游戏，现场 Virtuix Omni 找了两位模特儿进行演示，我们还能在一旁的电脑上看到他们枪战游戏的效果。
+</p>
+<h3>
+	3D Head
+</h3>
+<p>
+	<img src="/uploads/image/201501/9bb8aa4ba163.jpg" alt="" /> 
+</p>
+<p>
+	也总会有一些奇葩设备，例如 3D Head。这款设备展位就在 Oculus 后面，分成带有平板和游戏手柄的 2D 转 3D 游戏机，以及一个形状和重量都如同西瓜的头戴式设备。
+</p>
+<p>
+	在现场演示中，3D Head 解释通过左右两边两层的视频显示方式，将 2D 的视频和游戏都变成 3D 效果（只是在显示屏上做了小动作）。而那头戴式设备原本的效果应该是头上的家庭影院，配有麦克风、耳机以及一个投影仪，但戴起来效果则非常可怕，我戴了 1 分钟就忍不住要脱下来，因为头顶实在是太重了。
+</p>
+<h3>
+	VR 到底离我们还有多远？
+</h3>
+<p>
+	尽管已经有这么多厂商涌入虚拟现实市场，它们的产品今年大多也会上架销售，但一个人戴着偷窥自 high 暂时还不会成为今年的娱乐潮流。
+</p>
+<p>
+	摆在 VR 面前的障碍是如下几个：
+</p>
+<ul>
+	<li>
+		<b style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">内容不足</b><span style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">。Structure Sensor 上的游戏/应用只有 6 个，就算是 Oculus 上的游戏数量比较多，也只有不足 200 个。那些不需要对游戏进行修改便直接在 VR 设备上玩的，例如 ANTVR，一般来说是牺牲了一定的游戏体验而成就的。</span> 
+	</li>
+	<li>
+		<b style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">技术规格受限</b><span style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">。这会让 VR 设备“沉浸式体验”的目标无法达成。在 4K 电视走向普及的时代，虚拟现实设备的分辨率大多还停留在 1920 x 1080，也就是 2K 的水平。 </span> 
+	</li>
+	<li>
+		<b style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">价格过高</b><span style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">。</span><span style="color:#222222;font-family:arial, sans-serif;font-size:13px;letter-spacing:normal;line-height:normal;">对于一体式的 VR 设备来说，400-500 美元是目前的均价，如 Oculus Rift、Glyph，而造型独特的 3D Head 居然要 2000 美元，这样的高门槛必定使 VR 难以普及大众。</span> 
+	</li>
+</ul>
+<p style="line-height:normal;letter-spacing:normal;white-space:normal;">
+	而在此背后，更加根本的问题是数据传输的基础设施等成本过高。<wbr>今天 Oculus 公司的 CEO Palmer Luckey 在一个圆桌讨论会众谈到 VR 的内容制作难度问题，首当其冲的就是巨大空间储存需求。VR 电影的核心是为观众提供一定的自由，让你从自己想要的角度来看电影里的场景，这就需要特别大的拍摄素材。Luckey 称高质量的 VR 视频，可能几分钟就有几百 GB 的大小。
+</p>
+<p style="line-height:normal;letter-spacing:normal;white-space:normal;">
+	这不仅对电影、电视的制作带来很大麻烦。今天的内容消费已经转向在线视频，如此高的容量对于网站和用户来说都是难以接受的。
+</p>
+<p style="letter-spacing:normal;line-height:normal;white-space:normal;">
+	Luckey 承认，需要等技术成本下降，设备做到 30-50 美元时，高质量的 VR 游戏和视频才能够普及起来，而当有更多不同消费者群体使用 VR，才能够有除了游戏以外的使用场景，例如建筑建模，<wbr>商场酒店导览，景点预览，甚至是广告商投放互动广告等。
+</p>
+<p style="letter-spacing:normal;line-height:normal;white-space:normal;">
+	现在看来，我们近期真正能享受的虚拟现实设备可能还是三星 Gear VR 之类的手机配件。这类玩具的普及也将为制作方的投入带来更多动力。
+</p>
+<p style="letter-spacing:normal;line-height:normal;white-space:normal;">
+	<p style="white-space:normal;">
+		<strong><br class="Apple-interchange-newline" />
+你身边的电子设备还会发生什么变化？请看《好奇心日报》其它 CES 现场报道：</strong>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		家居：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/manager/articles/5107/edit" style="background-color:#FFFFFF;">理想的未来厨房应该有什么？这里有 4 个例子</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5091" style="background-color:#FFFFFF;">怎么养花都养不死的花盆来了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5024">Misfit 想用智能灯泡让你睡个好觉</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4978">手机被颠覆之后，三星打算通过智能家居发起反击</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4973">LG 出个长得像冰箱的智能洗衣机</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		汽车：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5094">2014 年风光进驻的苹果已经不再是智能汽车的主角</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5014">在福特的实验里，你也许不需要买车了</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		穿戴：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5061">7 个为女性而生的智能硬件值得推荐</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5058">你觉得手环太难看？再看看这些智能服装吧</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5055">施华洛世奇带来智能珠宝，目标中国</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5013">Apple Watch 还没开始卖，配件已经到了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4981">那么多设备在追踪你的数据，然后呢？</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		娱乐：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5027">虚拟现实终于到你眼前了，但未来还没到来</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/display/articles/5028">Beats 的前任至今还没放下它</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5095">以后你的手机可能连数据线都用不着了</a>
+	</p>
+<span style="white-space:normal;"></span>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="512">
+				<span data-id="512">Oculus</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="513">
+				<span data-id="513">虚拟现实</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="5774">
+				<span data-id="5774">CES 2015</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5027" data-title="《CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5027/medium/5027.jpg?1436675347" data-url="http://www.qdaily.com/mobile/articles/5027.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27022.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27022/medium/27022.jpg?1463567304" alt="">
+                        <h1 class="title">特斯拉还要出新车，回归敞篷跑车</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27004.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27004/medium/27004.jpg?1463551252" alt="">
+                        <h1 class="title">明星是怎么练习获奖感言的？苹果说我帮你啊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27016/medium/27016.jpg?1463561406" alt="">
+                        <h1 class="title">阿里音乐发布了一个“粉丝游乐场”，它是不是想得太好了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5027">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5027" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">38</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5024.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

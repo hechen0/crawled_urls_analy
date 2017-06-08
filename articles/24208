@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个西西里的酒吧，可以“翻”开外墙直接坐_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个西西里的酒吧，可以“翻”开外墙直接坐。这些桌椅增加了社区的人与建筑的互动。。好奇心日报为您呈现这个西西里的酒吧，可以“翻”开外墙直接坐的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="西西里 公共建筑 Giuseppe Gurrieri " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="WwbgrO1/YEv47MnlFuvGlf18wJ6FrGXdbrZLGczeanU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="25189">
+				<span data-id="25189">西西里</span>
+			</li>
+			<li class="tag item" data-id="17008">
+				<span data-id="17008">公共建筑</span>
+			</li>
+			<li class="tag item" data-id="25190">
+				<span data-id="25190">Giuseppe Gurrieri</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个西西里的酒吧，可以“翻”开外墙直接坐</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/161922/small/161922.jpg?1442322894" alt="">
+					</span>
+				<span class="name">廖婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-21 15:51:43 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/24208/medium/24208.jpeg?1458538364" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24208" data-title="《这个西西里的酒吧，可以“翻”开外墙直接坐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24208/medium/24208.jpeg?1458538364" data-url="http://www.qdaily.com/mobile/articles/24208.html?from=singlemessage&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这些桌椅增加了社区的人与建筑的互动。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>          </p><p>随着城市更新，不少老房子都面临再利用的问题。在意大利的西西里，一所建于 1980 年代末期的票务办公室就荒废了不少时间，当地政府为此面向私人事务所招标，不仅仅想要更新这所老房子，还要结合当地的环境考虑公共用途，并将预算控制在很低的范围。</p><p>这个一层楼的水泥房看上去没有任何特色，它是方形的，有一个近似农场的轮廓。它的优势也许是靠近马路，有不少人流，将它改造为咖啡馆之类的提供休息的地方是一个设计方向。</p><p class="">意大利建筑师 Giuseppe Gurrieri 的个人工作室赢得了这个招标，把这里改造成一个社区生态酒吧（ Eco bar ）。他在墙面使用了一种 Aquapanel® 材料，有防潮的功能。墙面之外增加了一层可重复利用的木条，就像穿了一层黄色的外衣，在周围灰色的环境里显得很特别，可以吸引人过来。在灯光的照射下木条与灯光相互间隔，保持了一种轻盈感。<br></p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201603/d90cf9f8875e.jpg" alt="">
+</figure><figure class="">
+    <img src="/uploads/image/201603/4ccf37ad9b94.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201603/ad9423a478e3.jpg" alt="" class="">
+</figure></div><p class="">西西里一带气候湿热，夏天温度有将近40度，Giuseppe Gurrieri 就在房子的两头开了大的窗户，可以保持通风。透明的大窗户也鼓励人们走进室内，也让坐在里面的人与社区亲近。<br></p><p>室内被一面绿色的墙划分为两半，一半是吧台和就餐区，另一半是厨房、储藏间和公共卫生间。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/a37ecc76e8bf.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/a3ed1f088ceb.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/8c3a8f5cd92d.jpg" alt="">
+</figure></div><p>但为他赢得方案的亮点其实是将墙外的木条做成了可折叠的桌面，木条和墙面的空隙正好放椅子，鼓励周围的人都过来坐一下。建筑本身也有遮挡阳光的作用，像是一个凉亭性质的社区空间。</p><p>原本的盒子一样的建筑其实容易让人产生封闭的不可接近的感受，但开放性的桌椅明显地提高了互动。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/1dcff7a8065b.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201603/e904332a59b8.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/e858b01fbedf.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/b92086ca9ba1.jpg" alt="" class="">
+</figure></div><div class="com-insert-images medium-insert-images-wide"><figure class="">
+    <img src="/uploads/image/201603/0aae97b0bba3.gif" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201603/be4f347e2aec.gif" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201603/4f563217d19c.gif" alt="" class="">
+</figure></div><p class="">图片来自<a href="http://www.dezeen.com/2016/03/19/giuseppe-gurrieri-architecture-eco-bar-cafe-old-ticket-office-sports-arena-sicily-italy/"> dezeen</a>、<a href="http://www.archdaily.com/783725/eco-bar-giuseppe-gurrieri">archdaily</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="25189">
+				<span data-id="25189">西西里</span>
+			</li>
+			<li class="tag item" data-id="17008">
+				<span data-id="17008">公共建筑</span>
+			</li>
+			<li class="tag item" data-id="25190">
+				<span data-id="25190">Giuseppe Gurrieri</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24208" data-title="《这个西西里的酒吧，可以“翻”开外墙直接坐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24208/medium/24208.jpeg?1458538364" data-url="http://www.qdaily.com/mobile/articles/24208.html?from=singlemessage&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22317.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22317/medium/22317.png?1455549557" alt="5个很酷的公交站，变成了连接岛上村庄的枢纽">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">5个很酷的公交站，变成了连接岛上村庄的枢纽</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">71</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15929.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15929/medium/15929.jpg?1444485082" alt="落日的时候如果你在海边，有这么一个凉亭会锦上添花">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">落日的时候如果你在海边，有这么一个凉亭会锦上添花</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">62</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26513.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26513/medium/26513.jpg?1462550568" alt="">
+                        <h1 class="title">超模时代真的一去不复返了吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26527.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26527/medium/26527.jpg?1462539334" alt="">
+                        <h1 class="title">这些给你，大概可以加入母亲节礼物清单｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26531.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26531/medium/26531.jpg?1462584708" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="24208">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="24208" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">142</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/24216.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

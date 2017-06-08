@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>Material Design: Google 向纸墨学了什么？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta property="qc:admins" content="1060427031614114163757" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="renderer" content="webkit">
+  <meta property="wb:webmaster" content="44da4c6e9f808df9" />
+  <meta name="description" content="Material Design: Google 向纸墨学了什么？--这不像我们熟悉的 Google，但它是一个我更乐于见到的 Google。它不再死守好听不中用的「开放」与「自由」等口号，开始从眼睛看得到的地方增强对 Android 的控制。移动互联网走到第七年，苹果与 Google这两大旗手在设计上终于殊途同归。|《Material Design: Google 向纸墨学了什么？来自《好奇心日报》，想看更多这样的文章，请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="UI设计 Google 苹果 Top 15 李如一 长文章 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="/assets/components/display2/common/redirect-cae4d6da8cd0914609f3df97f811bfd9.js" type="text/javascript"></script>
+
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/assets/pages/display2/articles/show-eb15e4f5807e8e43660cabfc80aca3e5.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="PbFEnnErItHLBq9QC/h7hmN88nZGdN+kTUqtaxXaEyc=" name="csrf-token" />
+</head>
+<body class="display articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<!-- 页头 -->
+
+<div class="com-page-header">
+	<div class="page-header-bd clearfix">
+		<div class="section-left">
+			<a href="/" target="_self" class="logo" data-ga-event="pc:click:logo">
+				<h1 class="hidden">好奇心日报官网</h1>
+				<img src="/img/display2/logo-q.png" class="pic" alt="好奇心日报">
+				<img src="/img/display2/logo-text.png" class="text" alt="好奇心日报">
+			</a>
+			<ul class="items main-cates clearfix">
+				<li class="item main-cate ">
+					<h2>
+						<a href="/labs.html">
+							<span class="iconfont icon-1yanjiusuo"></span>
+							<span class="text">好奇心研究所</span>
+						</a>
+					</h2>
+				</li>
+				<li class="item main-cate ">
+					<h2>
+						<a href="/special_columns.html">
+							<span class="iconfont icon-2lanmu"></span>
+							<!-- <span class="text">长文章</span> -->
+							<span>栏目中心</span>
+						</a>
+					</h2>
+				</li>
+			</ul>
+		</div>
+		<div class="section-center">
+			<ul class="items cates">
+			
+				<li class="item cate ">
+					<a href="/tags/1068.html">长文章</a>
+				</li>
+				<li class="item cate ">
+					<a href="/tags/1615.html">10 个图</a>
+				</li>
+					<li class="item cate ">
+						<a href="/tags/29.html">Top 15</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/18.html">商业</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/4.html">智能</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/17.html">设计</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/19.html">时尚</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/3.html">娱乐</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/5.html">城市</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/54.html">游戏</a>
+					</li>
+				<li class="item cate">
+					<a data-ga-event="pc:click:cate" href="#" class="dropdown">全部分类</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section-right clearfix">			
+			<a data-ga-event="pc:click:nav_search" href="#" class="search iconfont icon-search"></a>
+			<div class="ribbon">
+				<div class="user" data-isLogined="false">
+					<a href="#" class="avatar x32">
+						<img src="/img/missing_face.png" alt="默认头像">
+					</a>
+					<a data-ga-event="pc:login:nav" href="#" class="text">登录</a>
+					<a href="/users/sign_out" target="_self" data-method="delete" class="logout hidden">退出</a>
+				</div>
+				<a data-ga-event="pc:click:nav_about" href="/aboutus.html" class="contact-us">关于我们</a>
+				<a data-ga-event="pc:click:nav_app" href="javascript:void(0)" class="app iconfont icon-5app">
+					<div class="app-qrcode" data-text="http://www.qdaily.com/webapp/download">
+						<div class="qrcode"></div>
+						<span>扫码下载好奇心日报APP</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weixin" href="http://weibo.com/qdaily" class="weixin iconfont icon-weixin">
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weibo" href="http://weibo.com/qdaily" class="weibo iconfont icon-weibo"></a>
+			</div>
+		</div>
+	</div>
+	<div class="page-header-ft hidden">
+		<ul class="items cates">
+			<li class="item cate ">
+				<a href="/tags/1068.html">
+					<img class="white" src="/system/categories/iconwhites/1/medium/1.png?1459380863">
+					<span>长文章</span>
+				</a>
+			</li>
+			<li class="item cate ">
+				<a href="/tags/1615.html">
+					<img class="white" src="/system/categories/iconwhites/22/medium/22.png?1411569295">
+					<span>10 个图</span>
+				</a>
+			</li>
+				<li class="item cate ">
+					<a href="/tags/29.html">
+						<img class="white" src="/system/categories/iconwhites/16/medium/16.png?1411569252">
+						<span>Top 15</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/18.html">
+						<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398">
+						<span>商业</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/4.html">
+						<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452">
+						<span>智能</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/17.html">
+						<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501">
+						<span>设计</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/19.html">
+						<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539">
+						<span>时尚</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/3.html">
+						<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578">
+						<span>娱乐</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/5.html">
+						<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637">
+						<span>城市</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/54.html">
+						<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513">
+						<span>游戏</span>
+					</a>
+				</li>
+		</ul>
+	</div>
+	<div class="com-search-popup zoom-anim-dialog mfp-hide white-popup">
+	<div class="search-popup-hd">
+		<form action="/searches" target="_blank">
+			<input type="text" name="key" placeholder="搜索文章">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="search-popup-bd">
+		<p class="tip">大家都在搜</p>
+		<ul class="items hotwords clearfix">
+				<li class="item hotword">
+					<a href="/searches?key=好莱坞">好莱坞</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=亚马逊">亚马逊</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=阿里巴巴">阿里巴巴</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=音乐节">音乐节</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=特斯拉">特斯拉</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=腾讯">腾讯</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=苹果">苹果</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=海淘">海淘</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=百度">百度</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=Google">Google</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=小米">小米</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=时尚">时尚</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=迪士尼">迪士尼</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=万达">万达</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=星巴克">星巴克</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=人工智能">人工智能</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=无人机">无人机</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=华为">华为</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=MUJI">MUJI</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=宜家">宜家</a>
+				</li>
+		</ul>
+	</div>
+</div>
+	<div class="com-devise-popup mfp-hide zoom-anim-dialog white-popup">
+	<div class="devise-popup-bd">
+		<div class="vertical-wrapper">
+			<div class="vertical">
+				<!-- 登录表单 -->
+				<form class="login active" action="">
+					<div class="form-hd">
+						<a href="#" class="spirt icon-login-logo"></a>
+					</div>
+					
+					<p class="small-title"><span>社交账号登录</span></p>
+					<div class="social-login">
+						<a href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo" target="_self"></a>
+						<a href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq" target="_self"></a>
+					</div>
+					<p class="small-title"><span>或者</span></p>
+
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="密码">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:login:account" href="#" class="btn submit ripple">登录</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".findpassword">忘记密码</a>
+							<a href="#" data-toForm=".register">新用户</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤一，注册 -->
+				<form class="register" action="">
+					<div class="form-hd">
+						<p class="title">新用户注册</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="创建密码">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+						</div>
+						<div class="form-control agree" style="display: none;">
+							<input type="radio">
+							<a href="#">我已阅读并同意《用户注册协议》</a>
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">下一步</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login" >已有账号</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤二，个人信息 -->
+				<form class="info" action="">
+					<div class="form-hd">
+						<p class="title">完善资料</p>
+					</div>
+					<div class="form-bd">
+						<div class="preview-uploader nopic">
+							<div class="img-preview"></div>
+							<div class="webuploader iconfont icon-avatar-upload">选取头像</div>
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[username]" placeholder="我的昵称">
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[description]" placeholder="一句话介绍自己">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:sign:account" href="#" class="btn submit ripple">完成</a>
+						</div>
+					</div>
+				</form>
+
+
+				<div class="com-avatar-cropper">
+					<div class="avatar-cropper-hd">
+						<p class="title">上传头像</p>
+					</div>
+					<div class="avatar-cropper-bd clearfix">
+						<p class="tip">拖拽或者缩放虚线框，生成自己满意的头像</p>
+						<div class="cropper">
+							<div class="img-container">
+								<img src="" alt="头像">
+							</div>
+						</div>
+						<div class="cropper-preview">
+							<p class="tip">预览</p>
+							<div class="img-preview"></div>
+						</div>
+					</div>
+					<div class="avatar-cropper-ft">
+						<a href="#" class="btn submit ripple">保存</a>
+						<a href="#" class="btn cancel ripple">取消</a>
+					</div>
+				</div>
+		
+				<!-- 找回密码表单 -->
+				<form class="findpassword" action="">
+					<div class="form-hd">
+						<p class="title">忘记密码</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="输入电子邮箱">
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">发送</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login">返回登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+	<!-- 长文章 -->
+	<div class="com-full-banner">
+	<div class="full-banner-bd">
+		<img src="/system/articles/articleshows/1297/showLongPc2/1297.png?1436640086" alt="Material Design: Google 向纸墨学了什么？">
+	</div>
+</div>
+	<div class="page-content clearfix">
+		<div class="main long-article">
+			<!-- 传入参数：article -->
+
+
+<div class="com-article-detail long" data-articleId="1297" data-categoryId="17">
+		
+<div class="article-detail-hd">
+	<div class="category-title">
+		<p class="category x25">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+		<h1 class="title">Material Design: Google 向纸墨学了什么？</h1>
+	</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="author-share clearfix">
+			<div class="author">
+		            <a href="javascript:void(0)" class="avatar x32 circle">
+		                <img src="/system/users/faces/2/small/2.jpg?1399526585" alt="杨樱">
+		            </a>
+	            <span class="name">李如一</span>
+	            <span class="date smart-date" data-origindate="2014-06-28 23:13:35 +0800"></span>
+	            <script language="JavaScript" type="text/javascript">
+				    var o='d'+'i'+'v', a=' style=\'disp', b='lay:', c='none\'';
+				    document.write( "<" + o + a + b + c + ">" );
+				</script>
+				<span class="date">2014-06-28 23:13:35</span>
+				<script language="JavaScript" type="text/javascript">
+				    var o='di'+'v';
+				    document.write( "</"+o+">" );
+				</script>
+	        </div>
+
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="1297" data-title="《Material Design: Google 向纸墨学了什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1297/medium/1297.png?1436640086" data-url="http://www.qdaily.com/articles/1297" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/1297">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">37</span></a>
+	</div>
+</div>	
+		</div>
+			<h2 class="excerpt">这不像我们熟悉的 Google，但它是一个我更乐于见到的 Google。它不再死守好听不中用的「开放」与「自由」等口号，开始从眼睛看得到的地方增强对 Android 的控制。移动互联网走到第七年，苹果与 Google这两大旗手在设计上终于殊途同归。</h2>
+		<div class="detail">
+					<!-- 普通文章 -->
+					<p class="p1">
+	一向被视为只懂工程，不懂设计的 Google，在今年的开发者大会 Google I/O 上要咸鱼翻身了。
+</p>
+<p class="p1">
+	在长达两个半小时的 Google I/O 主题演讲里，Google 提出的全新设计理念「Material Design」无疑是最大亮点。智能手表、与汽车的整合、手机和 Chromebook 的协作（类似苹果 iOS 8 的 Handoff）、语音输入的进一步扩散……这些新功能并不令人兴奋，反而产生了既视感：要么猜到了，要么之前在别家产品中看过了。但是，以 Material Design 为本的那一整套框架和示范，让 Google 头一次完整地显露出设计野心。
+</p>
+<p class="p1">
+	有必要说明一下 Material Design 与 Google Design 的区别：前者是 Google 倡导的设计理念，后者则更像一个综合名称与品牌。由<span>&nbsp;Google&nbsp;</span>倡导，以 Material Design 为方法论，做出来的一套横跨智能手机、平板、web、汽车以及可穿戴设备的整体 UI 风格，就是 Google Design。之前坊间用「Android Design」来指代&nbsp;Android&nbsp;系统的设计风格，只是一种方便提法：<a href="http://developer.android.com/design/index.html"><span class="s1">关于这套风格的正式页面</span></a>上并没有把 Android Design 当做一种「风格」提出。这次<span>&nbsp;Google&nbsp;</span>以 Google 代 Android，也是其不断收紧对&nbsp;Android&nbsp;的控制权的体现。
+</p>
+<p class="p1">
+	Material Design 中的「Material」指的是可以摸得着的实体物材，而这也是<span>&nbsp;Google&nbsp;</span>此次设计改版最令人意外之处。极少做硬件产品、贯彻<a href="http://qdaily.com/display/articles/1264"><span class="s1">数字本位</span></a>态度的<span>&nbsp;Google&nbsp;</span>，高调宣称要在面向屏幕的设计中引入实物质感，甚至在 <a href="http://www.google.com/design/material-design.pdf"><span class="s1">Material Design 的宣言书</span></a>（注：PDF 文件）里写明了这套风格源自他们对于纸张与墨水的研究。
+</p>
+<p class="p1">
+	假如在 Google I/O 2014 之前，有好事者跳出来说「<span>&nbsp;Google&nbsp;</span>的设计太差了，他们应该多研究纸张和墨水，向传统平面设计学习」，一定会被群起而攻。在数字设计领域，旧不如新是政治上最正确的态度。不要拟物、不要以为把平面设计的美感搬到屏幕上就是好设计、数字媒介要有自己的审美和趣味……坚定地站在这条队列中的人，往往对<span>&nbsp;Google&nbsp;</span>的设计有相当的好感，也往往是最猛烈抨击 iOS 拟物化的那一群。可是如今，<span>&nbsp;Google&nbsp;</span>的设计大总管马提亚·杜华（Matías Duarte）居然在 I/O 大会上公开宣称「我们有向纸墨学习」。<span>&nbsp;Google&nbsp;</span>终于背叛了数字本位精神，要向那个数字原住民心中不能提的词——拟物——靠拢了？
+</p>
+<p class="p1">
+	可是<span>&nbsp;Google&nbsp;</span>究竟向纸墨学了什么？在目前已经发布的 Material Design 设计成果里（例如 Android L 的预览版、<a href="http://www.google.com/design/"><span class="s1">Google Design 页面</span></a>），我们确实看到了<span>&nbsp;Google&nbsp;</span>反复强调的对阴影的使用。但除此之外，几乎没有任何元素可以为反拟物原教旨主义者提供口实。而阴影又如何？iOS 7 的确几乎干掉了阴影，但 Mac OS X 直到目前尚未正式发布的 10.10 版（Yosemite）都依然保留了窗口阴影。阴影和缝线皮革、牌桌绿绒布（iOS 6 里的 Game Center）等「拟物重犯」完全不能相提并论，即便是再讨厌拟物元素的人，相信也不会仅仅因为一个窗口投下了阴影而掩鼻。
+</p>
+<p class="p1">
+	只要我们能够穿透那份必将被广泛传播的 Material Design 宣言，直接面对 Google Design 的设计成品，就会发现<span>&nbsp;Google&nbsp;</span>还是<span>&nbsp;Google&nbsp;</span>。他们向纸张学习，但并没有使用纸张纹理（例如 iOS 7 上的 Notes 软件）；他们向墨水学习，但那只不过体现为按下某些按钮时、以点按处为圆心向外迅速扩散的纯色动画——我担保它不会让你想到墨水或水墨（两者在英文里是一个词）。如果你喜欢无纹理、无高光、长得不像实体按钮的按钮，新的<span>&nbsp;Google&nbsp;</span>设计不会令你失望。
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">今年的 Google I/O 和苹果 WWDC 的共同主题是不同平台、不同设备之间的整合。这里的整合并不是指公司战略，而是指那些直接面向用户的功能。可穿戴设备，以及移动设备和汽车的整合尚未普及，谈来为时尚早。但对于电脑、智能手机和平板这三者的整合，苹果和</span><span style="line-height:1.5;">&nbsp;Google&nbsp;</span><span style="line-height:1.5;">都交出了各自的答卷。无疑，由于&nbsp;Android&nbsp;的硬件并不由谷歌控制，</span><span style="line-height:1.5;">&nbsp;Google&nbsp;</span><span style="line-height:1.5;">对于这种整合的完成度始终会比软硬件全都自己掌控的苹果逊色。但 Google Design 所倡导的「一套设计语言，多个平台」，也体现出了</span><span style="line-height:1.5;">&nbsp;Google&nbsp;</span><span style="line-height:1.5;">对于作为平台的 web 的持续信心与推进。</span> 
+</p>
+<p class="p1">
+	下面这张&nbsp;<span>Google&nbsp;</span><span>做的示意图</span>可以很好地说明其「一套设计语言，多个平台」的构想：
+</p>
+<p class="p3">
+	<img src="/uploads/image/201406/5e44b812d55e.png" alt="" /> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">在宽阔的屏幕上用卡片呈现信息，但当同样的信息出现在屏幕较窄的手机上时，则改用</span><a href="http://qdaily.com/display/articles/1094"><span class="s1">无边框设计</span></a><span style="line-height:1.5;">。新出现的鲜艳圆形按钮（</span><span style="line-height:1.5;">Google&nbsp;</span><span style="line-height:1.5;">称之为「悬浮动作按钮」）压在两个视觉区域边缘，令整体效果显得灵活跳脱。但当它出现在手机上时，则回归到最常出现的角落。这一切都只是<a href="http://qdaily.com/display/articles/1323" target="_blank">弹性设计</a>（responsive design）的入门级知识，但要用一套具体而微的规则统合碎片化如此严重的&nbsp;Android&nbsp;，不得不说是一种魄力。</span> 
+</p>
+<p class="p1">
+	的确，细读「<span>Google&nbsp;</span>设计则例」（<a href="http://www.google.com/design/spec"><span class="s1">Google Design Guidelines</span></a>），会发现<span>&nbsp;Google&nbsp;</span>为设计师定下了无比具体的规则。对于每一种设计元素，<span>Google&nbsp;</span>都以实例向第三方设计师说明了「应该怎么做」和「不要怎么做」。对「卡片」的说明中有这样一句：
+</p>
+<p class="p4">
+	<i>请勿将信息写在卡片背后并翻转显示。</i> 
+</p>
+<p class="p1">
+	翻转卡片，显示背后的信息，可以说是相当常见的 UI 技巧，但<span>&nbsp;Google&nbsp;</span>生生把它禁掉了。这不像我们熟悉的<span>&nbsp;Google&nbsp;</span>，但它是一个我更乐于见到的<span>&nbsp;Google&nbsp;</span>。它不再死守好听不中用的「开放」与「自由」等口号，开始从眼睛看得到的地方增强对&nbsp;Android&nbsp;的控制。<span>&nbsp;Google&nbsp;</span>设计则例里的规则是明确、清晰、可执行的。这也是中国古代建筑中「则例」的用途：列出用来建造房屋的各项元素的名称、特性与规格，并说明其用法。和苹果的「iOS 人机介面则例」（<a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html"><span class="s1">iOS Human Interface Guidelines</span></a>）一样，<span>&nbsp;Google&nbsp;</span>设计则例是一本供设计师随时翻查的工作手册。
+</p>
+<p class="p1">
+	讲到这里，人们不禁要问：第三方&nbsp;Android&nbsp;设计师社群会不会愿意遵循这套规则？iOS 与 Mac 人机介面则例之所以有效，是因为苹果从 1980 年代就开始用则例对第三方软件的 UI 设计进行规范。在图形介面尚属新生事物的当年，一份具体而可执行的则例是设计师们的苦海明灯，不用力推大家也会主动遵守。到了今天，虽然各种高度定制的 UI 在 Mac 和 iOS 上也屡见不鲜，但整个 Mac / iOS 第三方设计师社群仍然有阅读和参考则例的习惯。相反，一向处于三不管状态的&nbsp;Android&nbsp;社群直到近年才有了人称「Android Design」的设计规范，但这并不妨碍各家厂商于种种理由自行发明林林总总的信息架构、UI 形态与交互方式。新版<span>&nbsp;Google&nbsp;</span>设计有没有号令诸侯的魅力，是未来两年值得观察的问题。
+</p>
+<p class="p1">
+	无论如何，<span>&nbsp;Google&nbsp;</span>这次的表现是受设计师欢迎的，而这家工程传统深厚的公司对于设计的人文维度的认可也令人感到欣慰。<span>Google&nbsp;</span>在其 Material Design 宣言的开头说：
+</p>
+<p class="p4">
+	<i>我们向自己提出了挑战：如何为用户创造一种视觉语言，结合好设计的经典原则与科技提供的创新可能性？</i> 
+</p>
+<p class="p1">
+	毫无疑问，这正是乔布斯那句名言「技术与人文的十字路口」的另一种表述。移动互联网走到第七年，苹果与<span>&nbsp;Google&nbsp;</span>这两大旗手在设计上终于殊途同归。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/1376.html">UI设计</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/199.html">Google</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/68.html">苹果</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/29.html">Top 15</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/639.html">李如一</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/1068.html">长文章</a>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 		
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="1297" data-title="《Material Design: Google 向纸墨学了什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1297/medium/1297.png?1436640086" data-url="http://www.qdaily.com/articles/1297" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/1297">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">37</span></a>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+			<!-- 传入参数：relateds, votes, type -->
+<!-- type取值为short, long-article -->
+
+
+	<div class="com-related-banners long-article">
+		<div data-ga-event="pc:click:ft_recomend_article"  class="related-banners-bd">
+			<!--
+			<a href="http://sss.qingting.fm/pugc/introduction/" class="makemoney imgcover">
+				<img src="/img/makemoney/qingtingfm/bottom-qingtingfm.jpg">
+			</a>
+			-->
+
+		</div>
+	</div>
+
+			<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments wide" data-id="1297">
+    <div class="related-comments-hd clearfix">
+        <p class="count">评论</p>
+        <a href="javascript:;" class="avatar x40 circle">
+            <img src="/img/missing_face.png" alt="默认头像">
+        </a>
+        <form action="" class="comment-form">
+            <textarea name="content" placeholder="我有意见"></textarea>
+            <div class="share-submit clearfix">
+                <div class="share hidden">分享至：
+                    <a href="#"><span class="iconfont icon-weibo"></span></a>
+                    <a href="#"><span class="iconfont icon-tengxun"></span></a>
+                </div>
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+        <form action="" class="reply-form hidden">
+            <input type="hidden" name="parent_id">
+            <textarea name="content" placeholder="回复评论"></textarea>
+            <div class="share-submit clearfix">
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="related-comments-bd">
+        <div class="items comments">
+        </div>
+        <div class="nomore-wrapper">
+            <p class="nomore">没有更多啦</p>
+        </div>
+    </div>
+</div>
+
+			<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+                    <div class="packery-item article size1x2">
+                        <!-- 重点文章格子，1x2的占位，智能占位 -->
+<!-- 传入参数：article -->
+<a href="/articles/24873.html"  class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24873/indexLargePc2/24873.jpg?1459524371" alt="扎哈·哈迪德、她的建筑和我们所处的这个世界">
+		<p class="category">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+	</div>
+	<div class="grid-key-article-bd">
+		<h1 class="title smart-lines" data-originText="扎哈·哈迪德、她的建筑和我们所处的这个世界">
+			<span class="line">扎哈·哈迪德、她的建筑和我们所处的这个世界</span>
+		</h1>
+	</div>
+	<div class="grid-key-article-ft clearfix">
+		<span class="smart-date" data-originDate="2016-04-02 07:06:48 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">16</span>
+				<span class="iconfont icon-heart">539</span>
+		</div>
+	</div>
+</a>
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24898.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24898/indexMediumPc2/24898.jpg?1459643241" alt="YSL 创意总监离职，时尚业怎么全是待不久的设计师？">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt="时尚">
+			<span>时尚</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-03 09:21:18 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">12</span>
+				<span class="iconfont icon-heart">72</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24875.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24875/indexMediumPc2/24875.jpg?1459525796" alt="这家简单的咖啡馆，每个细节都透露出精细品味">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-02 08:06:48 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">11</span>
+				<span class="iconfont icon-heart">459</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24859.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24859/indexMediumPc2/24859.jpg?1459495736" alt="百度招募了一批科幻作家，说要和他们产生化学反应">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-01 16:17:20 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">22</span>
+				<span class="iconfont icon-heart">50</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24893.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24893/indexMediumPc2/24893.jpg?1459598722" alt="硅谷总迷恋长寿和改变世界，这次爱上了一台复杂的榨汁机">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt="商业">
+			<span>商业</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">硅谷总迷恋长寿和改变世界，这次爱上了一台复杂的榨汁机</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-03 07:57:04 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">26</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24874.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24874/indexMediumPc2/24874.jpg?1459523629" alt="大表姐改了口风，说特别想继续演魔形女">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt="娱乐">
+			<span>娱乐</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">大表姐改了口风，说特别想继续演魔形女</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-02 07:06:48 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">13</span>
+				<span class="iconfont icon-heart">31</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24886.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24886/indexMediumPc2/24886.jpg?1459556493" alt="「日本語」“农民有必要协助旅游业吗？”">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt="城市">
+			<span>城市</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">「日本語」“农民有必要协助旅游业吗？”</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-03 07:56:57 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">35</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+	    </div>
+	</div>
+</div>
+		</div>
+	</div>
+
+<!-- 页尾 -->
+
+
+<div class="com-page-footer">
+	<div class="page-footer-bd clearfix">
+		<!-- 分类 -->
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/">首页</a></li>
+			<li class="item category"><a href="/tags/1068.html">长文章</a></li>
+			<li class="item category"><a href="/tags/29.html">TOP 15</a></li>
+			<li class="item category"><a href="/tags/1615.html">10 个图</a></li>
+			<li class="item category"><a href="/labs.html">好奇心研究所</a></li>
+			<li class="item category"><a href="/tags/12066.html">100个有想法的人</a></li>
+			<li class="item category"><a href="/tags/7543.html">Medium</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/tags/7294.html">大公司头条</a></li>
+			<li class="item category"><a href="/tags/7018.html">Q Business</a></li>
+			<li class="item category"><a href="/tags/1288.html">今日应用</a></li>
+			<li class="item category"><a href="/tags/1543.html">这世界</a></li>
+			<li class="item category"><a href="/categories/12.html">Best on the web</a></li>
+			<li class="item category"><a href="/categories/18.html">商业</a></li>
+			<li class="item category"><a href="/categories/4.html">智能</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">			
+			<li class="item category"><a href="/categories/17.html">设计</a></li>
+			<li class="item category"><a href="/categories/19.html">时尚</a></li>
+			<li class="item category"><a href="/categories/3.html">娱乐</a></li>
+			<li class="item category"><a href="/categories/5.html">城市</a></li>
+			<li class="item category"><a href="/categories/54.html">游戏</a></li>
+		</ul>
+
+		<!-- 功能区，下载，关于我们 -->
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_app" href="/aboutus.html">下载APP</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:login:ft" href="#"  class="user">登录 / 注册</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_subscribe" href="/feed.xml">订阅</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_weibo" href="http://weibo.com/qdaily">微博</a></li>
+			<li class="item ribbon">
+				<a data-ga-event="pc:click:ft_weixin" href="javascript:void(0)" class="weixin">微信
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+			</li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_protocal" href="/policy.html">用户协议</a></li>
+		</ul>
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_about" href="/aboutus.html#aboutus-qdaily">关于好奇心</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:contact" href="/aboutus.html#aboutus-contact">联系我们</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:job" href="/aboutus.html">工作机会</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:copyright" href="/policy.html">版权声明</a></li>
+		</ul>
+
+		<!-- 搜索 -->
+		<form data-ga-event="pc:click:ft_search" action="/searches" target="_blank" class="search" >
+			<input type="text" name="key">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="page-footer-ft">
+		<div class="copyright">
+			<span class="iconfont icon-logo"></span>
+			<p class="company">2014 北京酷睿奥思科技发展有限公司</p>
+			<p class="icp">京ICP备14027177号-1</p>
+			<p class="gongan" style="display: inline-block;margin-left: 10px;">京公网安备 11010502030071号</p>
+		</div>
+		
+	</div>
+</div>
+  
+  <script src="/assets/pages/display2/common/preexec-dc70eef64fda3ac449a5d84bdf382f49.js" type="text/javascript"></script>
+  <script src="/assets/pages/display2/articles/show-1aa2824c26abc66f8477f2c552bb0b70.js" type="text/javascript"></script>
+  <!-- [if (gte IE 6)&(lte IE8)] >
+  <script src="/assets/pages/display2/common/ie8fix-06af2be7e6665b9ac21375abd1cf4ad5.js" type="text/javascript"></script>
+  <! [endif] -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

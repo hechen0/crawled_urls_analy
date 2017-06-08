@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>从合作设计师到旗下产品，这个公司每个细节都充满童趣_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="从合作设计师到旗下产品，这个公司每个细节都充满童趣。每个人心中都有一个孩子。身边的一切都可以是艺术。也许这就是为什么充满童趣的日用杂货会成为“让艺术变得平易近人”的最佳方式。。好奇心日报为您呈现从合作设计师到旗下产品，这个公司每个细节都充满童趣的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="丹麦 日本 Tiger 河井美咲 大卫·史瑞格里 小野洋子 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ZPNA1aHskD+EYKV/WBwkdX0l/7dG+XpzsAE0aH6oHJ8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17">
+				<span data-id="17">丹麦</span>
+			</li>
+			<li class="tag item" data-id="50">
+				<span data-id="50">日本</span>
+			</li>
+			<li class="tag item" data-id="26384">
+				<span data-id="26384">Tiger</span>
+			</li>
+			<li class="tag item" data-id="26385">
+				<span data-id="26385">河井美咲</span>
+			</li>
+			<li class="tag item" data-id="26386">
+				<span data-id="26386">大卫·史瑞格里</span>
+			</li>
+			<li class="tag item" data-id="10115">
+				<span data-id="10115">小野洋子</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">从合作设计师到旗下产品，这个公司每个细节都充满童趣</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/574557/small/574557.jpg?1460972298" alt="">
+					</span>
+				<span class="name">刘璐天 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-19 07:40:28 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25633/medium/25633.jpg?1460978102" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25633" data-title="《从合作设计师到旗下产品，这个公司每个细节都充满童趣》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25633/medium/25633.jpg?1460978102" data-url="http://www.qdaily.com/mobile/articles/25633.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				每个人心中都有一个孩子。身边的一切都可以是艺术。也许这就是为什么充满童趣的日用杂货会成为“让艺术变得平易近人”的最佳方式。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="" style="text-align: left;">4 月 29 日起，有“杂货界宜家”之称的丹麦连锁杂货品牌 Tiger，将在全球 27 个国家的 600 家店铺（遗憾的是还不包括中国）发售与日本艺术家河井美咲（Misaki Kawai）合作设计的新日用杂货系列 <a href="http://playwithmisaki.com/">“和河井美咲一起玩”（Play with Misaki Kawai）</a>。<br></p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/7594dfeec7be.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">河井美咲，图片来自<a href="http://playwithmisaki.com/" style="background-color: rgb(255, 255, 255);">playwithmisaki.com</a></div></figcaption></figure></div><h2><b>河井美咲是谁？</b></h2><p style="text-align: left;">没听说过<a href="http://www.misakikawai.com/">河井美咲</a>？没关系。如果你也喜欢荷兰艺术家<a href="http://www.florentijnhofman.nl/">Florentijn Hofman</a>的大黄鸭，或者奈良美智（Yoshitomo Nara）笔下的小女孩，那么这位 1978 年出生于大阪、现居纽约布鲁克林的大顽童，可能也会给你带来似曾相识的欢喜。</p><p class="">
+
+
+
+</p><p style="text-align: left;">在 Tiger 这个新系列中，你会遇见色彩斑澜、古灵精怪的 28 件物品，包括手机壳、瑜伽垫、环保袋等。虽然都是日常用品，但在河井美咲的手下却成了爱跑、爱跳、爱玩耍的“活童话”，让你忍不住想扑上去一起玩。比如，海蓝色或大红色的瑜伽垫上，印着四脚朝天、咆哮怒视的红毛狮子，以及只穿了条白色内裤、扎着蝴蝶结、满脸慌张的大胸女孩儿。这头狮子“溜”到手机壳背后又一次四脚朝天，不过这次没发怒，而是眼珠滴溜转，张着嘴发呆的样子惹人发笑。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/d583c11cbc36.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">手机壳系列，图片来自wallpaper.com</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/198695444964.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">抱枕系列，图片来自wallpaper.com</div></figcaption></figure></div><p style="text-align: left;">Tiger 选择与河井美智合作的初衷也正在于此：鼓励大人和孩子尽情享受玩耍的快乐。尽管她的作品跨度很广，包括油画、音乐、雕塑、装置、手工制品等等，但共通之处都是对艺术诚实、坦然的态度，以及轻松自如的游戏精神。</p><p style="text-align: left;">比较知名的一个例子是 2011 年她在马尔默美术馆举办的<a href="http://utopianslumps.com/exhibition/in-the-gardens/">“Big Bubble”装置艺术展</a>。当时河井在集市和“1 元店”中淘了许多产自中国、印度或墨西哥的便宜材料，再把这些材料做成假象人物和它们活动的日常空间——宇宙空间站、飞机和汽车等，绘上微笑的树、草莓、动物和各种几何图形，让参展的人也玩得很开心。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/94743da88142.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">Big Bubble装置之一，图片来自 misakikawai.com</div></figcaption></figure></div><p class="" style="text-align: left;">2011 年，河井美咲还和澳洲潮牌 P.A.M.合作过名为“<a href="http://hypebeast.com/2011/9/pam-2011-fallwinter-carpets-and-rugs-in-sport-collection">Carpets and Rugs in Sport</a>”的秋冬系列，同样童趣盎然。</p><p style="text-align: left;">如果你想进一步了解河井美咲和 Play with Misaki Kawai 系列的设计趣事，可以看看下面这个视频：</p><div class="com-insert-embed com-insert-embeds">
+	<figure style="text-align: left; margin: 0px;">
+		<iframe src="http://player.youku.com/embed/XMTUzOTUwMTY0OA==" frameborder="0" allowfullscreen="" style="width: 100%; min-height: 240px;"></iframe>
+	</figure>
+	
+</div><h2><b>“透纳奖”得主系列也要来了！</b></h2><p style="text-align: left;">除了 Play with Misaki Kawai 系列，今年 9 月，Tiger 与英国艺术家、英国当代视觉艺术大奖透纳奖（Turner Prize）得主大卫·史瑞格里（David Shrigley）的合作系列也即将开售。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/de499cc5baa3.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">大卫·史瑞格里个展 Brain Activity 现场装置。一只标本狗举着牌子：“我死了。” 图片来自 dailyserving.com</div></figcaption></figure></div><p align="left">尽管这一系列的细节尚未公布，但单单是大卫·史瑞格里的名字就足够令人期待。他最擅长的创作，就是用线条简洁但风格强烈的黑白漫画，吐槽日常生活中的小事，以此触发你对生活和自身的反思。</p><p align="left">国际现代艺术杂志 Dailyserving 的一位作者 Michelle Schultz 在<a href="http://dailyserving.com/2012/03/my-dog-is-dead-my-pigeon-is-lost-and-i-fell-down-a-rabbit-hole/">评论</a>时曾说：“我很欣赏大卫·史瑞格里（David Shrigley）作品中那种赤裸裸的诚实——他平铺直叙，通过自己准确诚实的观察将幽默和智慧注入到日常生活之中。他的作品是很好理解的——展厅中熙熙攘攘、四处奔跑的孩子们可以证明这一点——但绝不仅是停留于制造话题。相反，他的作品既引人深思又尊重道德，已经超越了漫画作为‘下酒小菜’的意义，开始成为人们日常的精神主食。”</p><p align="left" class="">
+
+
+
+</p><p align="left">如果你想先解解馋，可以看看大卫在 2012 年个展“Brain Activity”上播放的这个视频作品《合群的必要》（New Friends）:</p><div class="com-insert-embed com-insert-embeds">
+	<figure style="text-align: left; margin: 0px;">
+		<iframe src="http://player.youku.com/embed/XMzY2NzI5OTYw" frameborder="0" allowfullscreen="" style="width: 100%; min-height: 240px;"></iframe>
+	</figure>
+	
+</div><h2><b>连续与艺术家合作的 Tiger 到底是个什么品牌？</b></h2><p align="left"><a href="http://flyingtiger.com">Tiger</a>&nbsp;是由 Lennart Lajboschitz 创立的平价日用品品牌，产品包括厨房用品、办公室文具、玩偶、手工艺品、美食、电子设备、体育用具和时尚配饰等等。</p><p align="left">与河井美咲、大卫·史瑞格里的合作并不是 Tiger 在艺术方面的一次尝试。为了推广“好设计属于所有人”、“艺术并非高不可攀”的概念，这个做日用品的品牌几乎把各种看似不相干的活动都尝试了一遍。比如 2015 年，Tiger 摇身一变成了出版商，出版了小野洋子艺术著作《概念摄影》（Conceptual Photography）一书，在所有门店以及纽约和东京的 MoMA 商店出售。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/ed09d76254bf.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">Conceptual Photography，图片来自 popsugar.com</div></figcaption></figure></div><p align="left">神奇的一点是，1995 年这个品牌的第一家店在哥本哈根开张时，基本就是个“1 元店”，各式商品统一标价 10 克朗（约合当时的 1 美元）。因为 Tiger 在丹麦语中的发音 tee’-yuh 除了“老虎”还有“10 克朗”的意思，店铺原本的名称“斑马”（Zebra）也被半开玩笑地改成了 Tiger。</p><p align="left" style="text-align: left;"><span style="text-align: justify;">虽然是“1 元店”起家，Tiger 的发展速度却非常惊人。2000 年就在丹麦的主要城市开设了 40 家店，2010 年发展到 10 个国家的 100 家店，到 2013 年已在欧洲和日本拥有超过 3900 万顾客，并且于 2015 年 5 月在纽约曼哈顿开设了第一家美国分店。在不同地区，Tiger 也有了不同的名称：在瑞典和挪威被称作“TGR”，在荷兰是“Flying Tiger”，在日本则叫做“Flying Tiger Copenhagen”。</span></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/018371ae74d8.jpg" alt="" class="" style="text-align: left;">
+<figcaption class=""><div style="text-align: left;">Flying Tiger Copenhagen 店面，图片来自 haninsociety.com</div></figcaption></figure></div><p align="left" class="" style="text-align: left;"><span style="text-align: justify;">如果你很好奇 Tiger 神速发展的原因，答案可能至少包含以下几点：</span></p>
+
+<ul><li style="text-align: left;">随着时间推移，Tiger 也调整了自身的业务重心，从强调“便宜”到注重“独特”，从通用设计到原创设计，从单一定价到多价位定价，从随机分类到精心策划分类。</li><li style="text-align: left;">Tiger 现在的品牌宗旨是以合宜的价格提供自主设计、古灵精怪、独具风格且品种不断变化的产品，而实现这一切的基础是坚信“好的设计应人人可得”。</li><li style="text-align: left;">Tiger 旗下 75% 的产品都在 10 美元以下，但其中超过 50% 的设计均出自哥本哈根总部，且屡获日本优良设计大奖（Good Design Award）、IF 设计奖和视觉设计专业杂志 Communication Arts 颁发的视觉传达艺术奖。</li><li style="text-align: left;">一般你会在城市中心广场或繁华的人行道及购物中心见到 Tiger 的店铺。外观设计遵从北欧极简主义，内部 200 到 300 平方米的空间像宜家一样做成“迷宫”，引导你从头看到尾。</li><li style="text-align: left;">“不走寻常路”和“享受乐趣”是 Tiger 的核心主张。2014 年，Tiger 甚至在哥本哈根、意大利的热那亚和日本京都开设了三家 Tiger 游乐咖啡（Tiger Game Cafe），尝试将这些概念带入咖啡厅。除了提供低价咖啡和啤酒，这里还塞满了桌游，并且会定期或不定期组织圆桌乒乓球、现场音乐会、桌上足球等活动。</li></ul><p style="text-align: left;">看到“乒乓球”“桌游”这两个关键词，唔，看样子 Tiger 来中国的日子不远了。</p><p class="" style="text-align: left;">题图来自 wmagazine.com<br></p><p align="center"><i></i></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17">
+				<span data-id="17">丹麦</span>
+			</li>
+			<li class="tag item" data-id="50">
+				<span data-id="50">日本</span>
+			</li>
+			<li class="tag item" data-id="26384">
+				<span data-id="26384">Tiger</span>
+			</li>
+			<li class="tag item" data-id="26385">
+				<span data-id="26385">河井美咲</span>
+			</li>
+			<li class="tag item" data-id="26386">
+				<span data-id="26386">大卫·史瑞格里</span>
+			</li>
+			<li class="tag item" data-id="10115">
+				<span data-id="10115">小野洋子</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25633" data-title="《从合作设计师到旗下产品，这个公司每个细节都充满童趣》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25633/medium/25633.jpg?1460978102" data-url="http://www.qdaily.com/mobile/articles/25633.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/4356.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/4356/medium/4356.jpg?1436647923" alt="开出世界旗舰店的无印良品还是当初的那家杂货小铺吗？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">开出世界旗舰店的无印良品还是当初的那家杂货小铺吗？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">59</span>
+				<span class="iconfont icon-heart">189</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19432.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19432/medium/19432.png?1450672945" alt="成为全球成长速度最快的设计品牌，来自丹麦的 HAY 做了什么？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">成为全球成长速度最快的设计品牌，来自丹麦的 HAY 做了什么？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">672</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19745.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19745/medium/19745.jpg?1451026535" alt="这个布鲁克林的日本艺术家，谈了谈如何制作蓝染">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">这个布鲁克林的日本艺术家，谈了谈如何制作蓝染</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">121</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/24914.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="宜家与时尚设计师合作，首个系列挺迷幻">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">70</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26877.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26877/medium/26877.jpg?1463364031" alt="">
+                        <h1 class="title">晚霞配色的Stan Smith，以及，H&amp;M 前高管加入 Ralph Lauren｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26852/medium/26852.jpg?1463223516" alt="">
+                        <h1 class="title">出了一个油耗丑闻后，三菱汽车被日产控股了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26873/medium/26873.jpeg?1463338218" alt="">
+                        <h1 class="title">大公司头条：微软处理剩下的诺基亚业务，麦当劳要换肉</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26820.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26820/medium/26820.jpg?1463160546" alt="">
+                        <h1 class="title">这两个姑娘太爱衬衫，所以干脆做了一个自己的品牌</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26876/medium/26876.jpg?1463358966" alt="">
+                        <h1 class="title">日本这个遗址博物馆，锯齿状屋顶暗藏历史线索</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25633">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25633" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">128</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25635.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

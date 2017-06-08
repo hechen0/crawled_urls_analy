@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择。「硅谷趋势 2015」是《好奇心日报》在硅谷的特别报道系列。过去数十年中，这里诞生了数以百计的科技公司，它们用技术影响了全球几乎所有行业。今天在硅谷，科技创业者和投资人们都在关注什么、讨论什么？我们根据今年夏天在数十场硅谷线下科技活动中的观察与交流，加上对投融资等行业数字的理解带来这一系列趋势报道。。好奇心日报为您呈现「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 大麻 创业 Meadow Eaze 500 Startups Y Combinator " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ZO2errZny9B3yy3YO7TxUO07pVsjM/yMT9/HChVn+Xs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 钟舒婷</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-05 15:24:11 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/10457/medium/10457.jpg?1433472771" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10457" data-title="《「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10457/medium/10457.jpg?1436648531" data-url="http://www.qdaily.com/mobile/articles/10457.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				「硅谷趋势 2015」是《好奇心日报》在硅谷的特别报道系列。过去数十年中，这里诞生了数以百计的科技公司，它们用技术影响了全球几乎所有行业。今天在硅谷，科技创业者和投资人们都在关注什么、讨论什么？我们根据今年夏天在数十场硅谷线下科技活动中的观察与交流，加上对投融资等行业数字的理解带来这一系列趋势报道。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	5 月底的一个下午，刚结束采访 5 分钟，采访对象给我递来一支大麻烟。“我只是想帮个小忙”，他朝我眨了眨眼，像递口香糖一样轻松平常。
+</p>
+<p>
+	尽管我们今天采访的内容与此并不相干，他所做的行业与大麻毫无关联，但听说我要做一个“硅谷大麻创业”的题目，采访对象就把他的大麻烟送出以表支持。
+</p>
+<p>
+	大麻在旧金山早非“禁物”，今年已经是加州医药用大麻合法化的第 19 个年头了。作为美国医用大麻合法化最早的一个州，在旧金山的街头巷尾，你偶尔能看到售卖大麻烟和相关制品的诊所，尽管人们需要一个医生开具的“大麻的使用证”才能购买相关的产品。
+</p>
+<p>
+	但过去一年对大麻产业格外不同。目前，美国已经有 20 个州支持大麻医用合法，<a href="http://www.nytimes.com/2014/02/27/us/momentum-is-seen-as-more-states-consider-legalizing-marijuana.html?_r=0" target="_blank">2014 年还被称为大麻合法化的关键一年</a>，因为美国有接近一半的州都呼吁放宽对大麻的法律限制。而在科罗拉多州和华盛顿州，比医药用途更加宽松的“消遣用大麻”也在 2013 年合法化了，人们可以像喝酒一样去抽大麻。
+</p>
+<p>
+	与此同时，美国公众对大麻的态度也逐步放宽。根据调查机构<a href="http://www.pewresearch.org/fact-tank/2015/04/14/6-facts-about-marijuana/" target="_blank">皮尤</a>的数据，截止到 2015 年三月，美国已经有 49% 的人承认曾经使用过大麻，而支持大麻合法化人数比例从 2010 年的 42% 跃升到 2015 年的 53%。
+</p>
+<p>
+	这种积极的态度和美国本土法律限制的放宽，对创业和投资圈子带来了不少刺激作用。创业公司的名录 AngelList 上已经有 277 个大麻创业相关的公司；在 <a href="http://www.crunchbase.com/category/cannabis/9fc62131a73139e58757a46adf1fdfe8" target="_blank">CrunchBase</a> 上的数据显示，各家大麻创业的公司在 2014 年拿到了 29 笔总额超过 9000 万美元的投资。
+</p>
+<p>
+	甚至专门诞生了一个大麻投资公司 Privateer Holdings，今年募集了 8200 万美元专门投资大麻产业里的公司。它投资者中也有 PayPal 的联合创始人彼得·蒂尔（Peter Thiel）；市场分析投资公司 <a href="https://tctechcrunch2011.files.wordpress.com/2015/01/56e66-executivesummary-thestateoflegalmarijuanamarkets2ndedition.pdf" target="_blank">Arcview Group 甚至乐观预计</a>，大麻产业到 2018 年预计会达到 100 亿美元的市场规模。
+</p>
+<p>
+	在美国，大麻创业公司们已经美国政策限制之下做着各个环节的生意，从种植、配送、按月订阅等等，投资者，尤其是个人投资者正在热烈参与大麻创业的投资，赶在政策放开，传统投资机构进驻之前获得最大价值。那么，在硅谷，各家公司都是怎么做大麻的？
+</p>
+<h2>
+	&nbsp;像叫 Uber 一样呼叫大麻
+</h2>
+<p>
+	最近几个月，大麻初创公司才频繁现身于媒体报道，进入公众读者的视野。<a href="https://www.eazeup.com/" target="_blank">Eaze</a> 和 <a href="https://getmeadow.com/" target="_blank">Meadow</a> 就是其中两个，但他们的爆红并非完全大麻，而是因为“大麻版的 Uber”的跨界概念、美国说唱明星 Snoop Dogg 的投资，以及美国有名的创业孵化器 500 Startups 和 Y Combinator 背后的资金和资源支持。
+</p>
+<p>
+	<img src="/uploads/image/201506/ab697584bfbe.jpg" alt="" /> 
+</p>
+<p>
+	《好奇心日报》早前采访了医用大麻产品快送服务 Meadow 的创始人 David Hua。这个公司成立还不到一年，主创团队只有 4 个人，其中 3 个是工程师。Meadow 在 2014 年冬天进入 Y Combinator，拿到了 12 万美元的种子轮投资，这也是 Y Combinator 投资的第一家大麻创业公司。
+</p>
+<p>
+	在网上下单挑选好大麻品种和供货商之后，Meadow 的供货商会在一个小时之内把大麻配送到你所在的地址，而 Meadow 会在每单成功交易当中向供货商收取一定费用。有媒体称 Meadow 为“大麻版的 Uber”，尽管我们觉得这更像是大麻版的“饿了么”外卖。而如果你没有购买大麻所需的“医用大麻证”没有证又懒得去医院，Meadow 还能同时送一个医生到你的所在地址，直接帮你开具证明。
+</p>
+<p>
+	<img src="/uploads/image/201506/5ee890d5091d.jpg" alt="" /> 
+</p>
+<p>
+	“我平常也会使用大麻。例如，我需要提神，那么我会选 Sativa，如果我想要放松一下，我会选择 CBD （大麻二酚）比较高的品种。”David Hua 称，他早已过了想要嗑药获得快感的时间段，现在大麻对于他来说是改善生活质量的药品。而现在 Meadow 上的大麻供货商，都是 David Hua 逐个去商谈的合作，因为 Meadow 本身并不生产或者销售大麻，只在每一个订单当中抽取 3 美元的费用。
+</p>
+<p>
+	David Hua 告诉《好奇心日报》，他认为现在是美国大麻创业的最好时机。“呼吁政策放宽的风声很大，而且还在早期建立市场的时期，所以是一个做生意的好机会。”
+</p>
+<h2>
+	大麻也有独立品牌
+</h2>
+<p>
+	在 Meadow 的网站上，你能浏览到不同品种品牌的大麻，这也是 David Hua 去每个商谈的供货商。事实上，大麻不仅有不同产地、种类，在提炼技术上也各成体系，因此在美国的大麻市场上也会有不同的“品牌”。大麻投资公司 Privateer Holdings 在 2014 年获得 8200 万美元的融资里面，有 7500 万都是来自于一个新创的大麻品牌——Marley Natual。
+</p>
+<p>
+	<img src="/uploads/image/201506/ae74221734b0.jpg" alt="" /> 
+</p>
+<p>
+	这个品牌产品还没发布就已经把品牌和营销打上来了，他们选中了已经去世的雷鬼音乐之父鲍勃·马利（Bob Marley）作为品牌形象，强调大麻种植产地牙买加。而因为鲍勃·马利的音乐带有不少政治文化意味，Marley Natual 也想将这点结合在大麻的目前并没有完全合法化的特点之上，做成一个带有文化意味的大麻品牌。
+</p>
+<h2>
+	教人种大麻的也是应用
+</h2>
+<p>
+	不过也有一些大麻使用者更加偏爱自己种植大麻，因为就在自己的花园产出，还可以自己选择肥料、泥土和生长素，这些使用者觉得比较放心。目前，全美国有 250 万人正在自己的花园种植大麻。位于卡罗拉多州的应用 GrowBuddy 就是其中一个切入大麻种植环节的初创公司。
+</p>
+<p>
+	<img src="/uploads/image/201506/250ea0cc6899.jpg" alt="" /> 
+</p>
+<p>
+	这个成立于 2013 年的初创公司，目前正在做的服务是大麻种植建议应用，让用户记录自家种大麻的每个时间点、目前植株的高度、给出对应的施肥和养殖建议。
+</p>
+<p>
+	“这是全美国增长最快的行业，”GrowBuddy 的首席执行官 Rob Rusher 对《好奇心日报》说到。Rob Rusher 并非资深大麻使用者，而是在一家科技公司承担市场工作。在 8 个月之前，他才嗅到了大麻行业的机会加入其中。“最早期的大麻创业公司，肯定还是大麻爱好者和使用者来创办的。但是现在就会有很多像我这样的生意人进来做正式的生意。”
+</p>
+<p>
+	“就像是遍地都能买到啤酒，美国还有 130 万人在家自己酿，所以这个市场还是会在的。”Rob Rusher 说道。
+</p>
+<h2>
+	专门投资大麻创业的公司
+</h2>
+<p>
+	就在我们和 Rob Rusher 见面的当天，他刚刚结束了一个投资人的会议。不仅仅是大麻品牌、大麻种植和配送，连大麻投资也已经成为了一门生意，而这生意做得最大的，目前就属于拿了 8200 万美元融资的大麻投资公司 Privateer Holdings。
+</p>
+<p>
+	<img src="/uploads/image/201506/a9832a099b78.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<span>Privateer Holdings 的三位创始人</span> 
+</p>
+<p>
+	这家成立于 2011 年的公司，受到了 Paypal 创始人彼得·蒂尔的关注和投资，而今年还会推出我们上述介绍过的大麻品牌 Marley Natual。Privateer Holdings 认为，大麻在美国有潜力增长为 400 亿美元的超大市场，而他们就要先在这个过程中走快一步——投资大麻创业公司。
+</p>
+<p>
+	目前，他们已经完成了第一宗大麻创业公司的收购——大麻在线评测社区 Leafly，这个初创公司并不需要烧钱，目前每个月已经能带来至少 10 万美元的收入，还在增长中。
+</p>
+<h2>
+	大麻创业“展销会”和孵化器
+</h2>
+<p>
+	在 Twitter 公司大楼里面的创业孵化器 Runway Incubator，《好奇心日报》还参加了一场大麻创业公司们的“展销会”，这就是现场的热闹程度：
+</p>
+<p>
+	<img src="/uploads/image/201506/78cfc3679f19.jpg" alt="" /> 
+</p>
+<p>
+	这场展会现场吸引了 200 人来参加，除了在大会上摆摊的十多家初创公司之外，还有不少前来物色投资机会的投资者、正准备投身大麻创业前来了解情况的人。尽管现场展示了很多大麻制品、服务和品牌，但由于在室内的公共空间举办活动，举办方 Weed Club 也有严格的规定，禁止所有与会者在现场吸食和贩卖大麻。
+</p>
+<p>
+	在这个展销会当中，我们看到了各种有趣的大麻创业者。例如这个由女性创业者正在做的 Synchronicity 就是一个大麻样品按月订阅服务。她们的灵感来源于现在美国给女性消费者送出的化妆品样品服务。“目前大麻使用者当中，其实有一半以上是女性，但是她们却没有在这个行业发声，我觉得我们要订制一款给她们的服务，既然你可以订化妆品小样，那不同产品、品种的大麻小样也可以这么来操作。”
+</p>
+<p>
+	<img src="/uploads/image/201506/2b579a93d2c8.jpg" alt="" /> 
+</p>
+<p>
+	这是 Synchronicity 的两位创始人，她们把大麻产品做成漂亮的礼盒按月送出。如果使用者喜欢里面的某一个小样，还能在她们网站上买到完整版的产品。
+</p>
+<p>
+	<img src="/uploads/image/201506/deffe9844581.jpg" alt="" /> 
+</p>
+<p>
+	这两个小伙子正在做一个关于大麻的在线医疗服务 PestoDoctor，方便那些不想到线下诊所赵医生开具大麻使用证明的人们，直接可以通过手机或者平板应用和医生在线视频对话，然后获得大麻使用证。“跟医生视频只需要花费你 10 分钟，然后我们就可以给你寄出大麻使用证了。”
+</p>
+<p>
+	<img src="/uploads/image/201506/6899c27fe7eb.jpg" alt="" /> 
+</p>
+<p>
+	这家叫做 Harvest 的公司更加有趣，他们正在做一个大麻线下诊所的“星巴克”。创始人 Marty Higgins 为了做成这个生意，还从星巴克挖来了一些管理人员，他告诉《好奇心日报》，Harvest 今年将会在旧金山市区开设新式的大麻诊所，里面将会采用和星巴克一样的运作方式——敞亮的店面、精致的装修，还有快速的现场大麻产品销售。
+</p>
+<p>
+	如果你还觉得不够细分，这里还有一些专门用于大麻交易资金安全的初创公司，还有专门帮大麻初创公司做政治政策咨询的初创服务……
+</p>
+<p>
+	<img src="/uploads/image/201506/85b8139287f9.jpg" alt="" /> 
+</p>
+<p>
+	私募股权公司 Rubicon Venture Captial 的负责人 Mike McCormick 也在现场物色合适的公司和创业者，他告诉《好奇心日报》，现在个人投资者在大麻初创投资中十分活跃，因为大的投资机构尚未进入这个领域，机会也很多。
+</p>
+<h2>
+	大麻还有大学
+</h2>
+<p>
+	在离旧金山市区不远的奥克兰，还有一所名为 <a href="http://oaksterdamuniversity.com/about/" target="_blank">Oaksterdam University</a> 的大学，专门开展大麻相关知识的培训班。这所大学创办者是 Richard Lee，一位活跃在旧金山的大麻支持者，学校课程包括大麻的历史、种植、烹调、法律法规、医药用途、大麻诊所的运营，还有大麻相关的商科课程……
+</p>
+<p>
+	尽管自称大学，完成课程的你并不会拿到一个正式的文学或者理学学士学位，但是 Oaksterdam University 会给你颁发课程完成的证书。
+</p>
+<p>
+	<img src="/uploads/image/201506/36d7898e664a.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<span>Oaksterdam University 外墙</span> 
+</p>
+<p>
+	这个学校非常强调和工作接轨的大麻知识学习，其中他们常用的宣传词语就是“来了解大麻的历史，并且认识一些可以跟你一起工作的人。”目前，根据 Oaksterdam University 自己公布的数据，至今已经有 1.5 万人拿到了大麻课程的培训证书。刚刚提到的&nbsp;<span>Meadow 创始人</span>&nbsp;David Hua 也是这所大学课程的毕业生之一。
+</p>
+<h2>
+	前行依然不易
+</h2>
+<p>
+	虽然现在硅谷大麻创业公司的数量正在迅速增长，但总体而言，大麻初创公司还会遇到很多棘手问题，第一个面临的问题就是如何接触到用户。因为现在主流的线上广告投放平台、包括应用商店的应用搜索引擎都依然在限制大麻创业公司的服务推广。
+</p>
+<p>
+	帮助人们在家种植大麻的应用 GrowBuddy 的 CEO Rob Rusher 向《好奇心日报》抱怨说：“我们通过合法的途径申请到 Google 、雅虎等网站的广告平台投放，但是他们都把我们的广告下架了”。
+</p>
+<p>
+	因为应用内容涉及大麻肥料和生长素的商品信息，而且宣传语中带有“大麻”字样，并不是每个应用商店和线上广告商愿意接纳他们。
+</p>
+<p>
+	“因为我们所在的行业，所以我们无法和其他商业机构一样使用这些应用商店搜索的方式来获取用户。”Rob Rusher 称，大麻创业公司们在推广方面非常不易，他还有几个在应用商店内的“小号”，专门用来上传自己不同版本、不同描述和关键词的应用，来测试苹果的应用商店是否会把应用下架。
+</p>
+<p>
+	Meadow、Eaze 等大麻配送的服务也没有办法把应用登陆到应用商店当中。他们现在所采取的方式是——写一个移动端的网页，替代应用本身的功能。
+</p>
+<p>
+	“Web 版本肯定有一定限制，但是也是目前最好的解决方法了。”Meadow 的 David Hua 跟我们说到。
+</p>
+<p>
+	这些限制都是因为目前美国仅有一部分地区开放了大麻合法使用，但更多的地区，大麻依然是违禁品。再加上，关于大麻是“入门毒品（Gateway Drug）”的争论也从未休止，不少人担心，大麻尽管毒性并不高，但因为价格适中，容易获取，让人更可能之后尝试其他毒品，例如海洛因。
+</p>
+<p>
+	“所以我们才需要大麻合法化，”David Hua 对此反驳称，“并不是大麻本身是入口，而是因为大麻禁令，让毒贩成为人们购买大麻的途径，是他们让大麻变成入门毒品”。
+</p>
+<p>
+	在变革中，与政策、传统相冲突的科技创业公司不在少数。我们已经看到了冲击出租车的 Uber、冲击旅馆业的 Airbnb、挑战医疗监管的 23andMe……现在则是大麻。很明显，在今天的创业潮下，已经不会有什么行业不被科技创业者看上了。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="2164">
+				<span data-id="2164">大麻</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+			<li class="tag item" data-id="9846">
+				<span data-id="9846">Meadow</span>
+			</li>
+			<li class="tag item" data-id="9848">
+				<span data-id="9848">Eaze</span>
+			</li>
+			<li class="tag item" data-id="416">
+				<span data-id="416">500 Startups</span>
+			</li>
+			<li class="tag item" data-id="10569">
+				<span data-id="10569">Y Combinator</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10457" data-title="《「硅谷趋势 2015 之二」大麻已经是科技创业的自然选择》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10457/medium/10457.jpg?1436648531" data-url="http://www.qdaily.com/mobile/articles/10457.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/10421.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/10421/medium/10421.jpg?1436648861" alt="「硅谷趋势 2015 之一」招人这个生意不再只是招人而已">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">「硅谷趋势 2015 之一」招人这个生意不再只是招人而已</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">152</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24980.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24980/medium/24980.jpg?1459837705" alt="">
+                        <h1 class="title">入选篮球名人堂，不只是因为姚明是个好球员</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24983.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24983/medium/24983.jpeg?1459842260" alt="">
+                        <h1 class="title">电动二轮车不让上路了，你的外卖怎么办？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24967.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24967/medium/24967.jpeg?1459831436" alt="">
+                        <h1 class="title">这处在葡萄牙的住宅，像是随意叠在一起的白色盒子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24972/medium/24972.jpg?1459842289" alt="">
+                        <h1 class="title">「这世界」突然，澳大利亚有好多金·卡戴珊的裸体涂鸦</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24914.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="">
+                        <h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24977.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24977/medium/24977.jpg?1459835278" alt="">
+                        <h1 class="title">他原本是迪士尼下任 CEO 的理想候选人，但突然离职</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10457">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10457" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">182</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10459.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

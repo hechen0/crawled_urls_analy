@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今日应用：感受弱肉强食的残酷，来玩这游戏_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="今日应用：感受弱肉强食的残酷，来玩这游戏。要么吃掉他人，要么被人吃掉，就这样。。好奇心日报为您呈现今日应用：感受弱肉强食的残酷，来玩这游戏的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Agar 小游戏 今日应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="W2i4t0KXbMKJOIWgEkiLI04e2KEi2bTWiiv0dFMCeXc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9775">
+				<span data-id="9775">Agar</span>
+			</li>
+			<li class="tag item" data-id="4637">
+				<span data-id="4637">小游戏</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">今日应用：感受弱肉强食的残酷，来玩这游戏</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-07 07:59:47 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9266/medium/9266.jpg?1436687094" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9266" data-title="《今日应用：感受弱肉强食的残酷，来玩这游戏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9266/medium/9266.jpg?1436687094" data-url="http://www.qdaily.com/mobile/articles/9266.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				要么吃掉他人，要么被人吃掉，就这样。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<ul>
+	<li>
+		<a href="http://agar.io" target="_blank">Agar</a> 是一个简单至极的网页小游戏。在这个游戏中，你唯一要做的就是不断吃掉比自己小的东西，让自己变大。
+	</li>
+	<li>
+		这也是一个大型的在线游戏，高峰时可能会有上万名玩家在同一个世界中相互吞食，使它充满了刺激和挑战。
+	</li>
+	<li>
+		虽然通常你只需要移动鼠标或点击屏幕来控制运动的方向，不过这个游戏中也讲求策略性，比如你得选择合适的猎物，远离别人的诱饵。
+	</li>
+</ul>
+<p>
+	打开这个游戏后，或许你会觉得它有些粗糙，因为这个游戏里只有各种大小不一的圆。一旦你开始玩它，很难保证 Agar 不会让你上瘾。 由于没有账号系统，在首次登陆时，你只需要填写一个昵称，然后选择服务器即可。
+</p>
+<p>
+	<img src="/uploads/image/201505/17fa7730763d.jpg" alt="" /> 
+</p>
+<p>
+	进入游戏界面，系统会给你一个随机的出生位置。在这个世界中，你只是一个有名字的小小的圆，就好像一个病毒，或者用 Agar 的本意来说就是琼脂 ------ 一种藻类提取物的名称。然后就赶紧移动自己吧，控制方向吃掉那些系统生成的小饵料，让自己变得大一些，是在这个游戏中的唯一目标。过程有点像是在玩老旧的贪食蛇游戏，只不过游戏的结果并不是令自己变得更高挑，而是变得更臃肿了。总的来说，这个游戏上手起来非常得轻松。
+</p>
+<p>
+	不过实际上，玩家却完全没有放松的机会。因为身边总是有一大批对手在虎视眈眈。毕竟这是一个在线游戏，有的时候可能有上万人在同一个网页中猎食。所以除了吃，你还有可能被别人的吃掉，这一点可和单机的贪食蛇完全不一样！也正是因为相互竞争的关系，让这个游戏变得格外刺激。如果不亲手体验一下，你恐怕难以体会到我被别人当做猎物，满世界地追着跑的紧张感。当我辛苦花了半小时，把自己攒大之后，那种被人一口吞掉的感觉，真的挺不好受。
+</p>
+<p>
+	<img src="/uploads/image/201505/a39b0089c872.jpg" alt="" /> 
+</p>
+<p>
+	<span style="white-space:normal;">在 Agar 的世界里，更多的时候是在探索，寻找一个饵料充足又相对安全的地方。吃和随心所欲地漫游，让人感觉自己就像是一个简单的单细胞生物。当你真正融入这个游戏的角色中去的时候，或许就会感受到我的这种奇妙的感觉。</span> 
+</p>
+<p>
+	但这里始终是一个弱肉强食的世界，一切比自己小的东西都能被吃掉，所以随时都要保持警惕。但这个游戏的机制还算是公平。比如，当你吃的越大，移动速度也就越慢，也就越难追捕猎物。而且一旦不小心吃到一种带锯齿边的绿色的饵料，不管你有多大，都会被分解掉，散射到四周。接下来的场景可能就是惨遭其他玩家分食了。此外，游戏的玩家越多，你成长的可能就更大。有几次，我就很轻易的吃掉了数个比我略小的对手，获得了快速增长的机会。在这个过程中，你也得小心随时都会出现“螳螂捕蝉黄雀在后”的情况。
+</p>
+<p>
+	在艰难的生存中，尤其是连续被别人吞掉后，我真的很想找找游戏攻略（或者说取巧的方法）来看看。游戏的开发者，来自巴西的 Matheus Valadares 告诉《好奇心日报》，这个游戏中并没有什么特殊的算法。这个世界，更多的是由玩家所创造，所以一切皆有可能。再微小的个体，也能在奋斗中登上前十名的排行榜。
+</p>
+<p>
+	这里透露几个小技巧，游戏中，你可以通过 “W” 键，把半个自己快速地发射出去，用来捕食较小的玩家；也可以按空格键，让自己获得分身，这样移动速度会更快，而且捕食的面积也会更大。不过导致的结果是，你也会变小，而可能被原本小于你的对手吞掉。
+</p>
+<p>
+	Agar 目前只有网页版，玩家可以用鼠标来控制方向。不过在手机上打开网页，通过点击触摸屏同样也可以完成操作，但这样就无法使用 “W” 和空格键的技能了。Matheus Valadares 表示，移动版的应用已在计划中，但是现在只有他一人进行开发，因此可能要花费一段时间。
+</p>
+<p>
+	一局又一局的死亡后，我不禁问自己，为什么如此多的人会喜欢这么一款小游戏。我带着这个问题询问 Matheus Valadares ，他说：“ 当你看到一个比你更大的家伙的时候，你会想变得像它那么大。所以你不会停下来，直到将它打败。” 似乎，这也解释了我每次复仇之心的来源。
+</p>
+<p>
+	题图、封面图来自&nbsp;<a href="http://www.hellorf.com/" target="_blank">海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9775">
+				<span data-id="9775">Agar</span>
+			</li>
+			<li class="tag item" data-id="4637">
+				<span data-id="4637">小游戏</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9266" data-title="《今日应用：感受弱肉强食的残酷，来玩这游戏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9266/medium/9266.jpg?1436687094" data-url="http://www.qdaily.com/mobile/articles/9266.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25557.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25557/medium/25557.jpg?1460754429" alt="">
+                        <h1 class="title">宜家试着让你用VR体验厨房，目前还只是个噱头</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25555.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25555/medium/25555.jpg?1460741386" alt="">
+                        <h1 class="title">一篇偷窥狂报道，马上就要变成斯皮尔伯格和门德斯的电影</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25535.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="">
+                        <h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9266">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9266" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">61</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9275.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人。保持简单，同时又了解什么是真实，还得具备把这一切实现的能力。。好奇心日报为您呈现皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="皮克斯 动画设计 Kim Robledo-Diga " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="SSl8y1W31OkG7M7/ooVjtzflzgqv1YHAgd3YFF/5gMs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3783">
+				<span data-id="3783">皮克斯</span>
+			</li>
+			<li class="tag item" data-id="16810">
+				<span data-id="16810">动画设计</span>
+			</li>
+			<li class="tag item" data-id="16811">
+				<span data-id="16811">Kim Robledo-Diga</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-08 13:06:21 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15738/medium/15738.jpg?1444238228" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15738" data-title="《皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15738/medium/15738.jpg?1444238228" data-url="http://www.qdaily.com/mobile/articles/15738.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				保持简单，同时又了解什么是真实，还得具备把这一切实现的能力。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	《头脑特工队》10 月 6 日在国内上映，口碑不错。皮克斯工作室打造的脑内世界奇妙而不失科普性，其中还发生了一些熟悉却也不同寻常的成长故事，赚足观众眼泪。当然，不仅是这部电影，皮克斯的动画仿佛总能让我们惊叹于它所创造的世界，<span><a href="http://www.qdaily.com/articles/11092.html"><span>并且甘心为之落泪</span></a></span>。
+</p>
+<p>
+	这其中有很多原因，而好的故事与角色设计，是非常重要的一个。<a href="http://www.cooperhewitt.org/2015/07/27/cooper-hewitt-to-present-exhibition-pixar-the-design-of-story-this-fall/" target="_blank">纽约<span> Cooper Hewitt </span>设计博物馆于今天开启《皮克斯：故事的设计》展览</a>，展出一系列手稿、画作与模型雕塑，介绍皮克斯团队如何将设计作为整个工作室的核心，如何创造出动人的角色与故事。
+</p>
+<p>
+	<span><a href="http://www.fastcodesign.com/3051708/4-design-lessons-from-the-pixar-team"><span>设计网站</span><span><span> Fastcodesign 发表</span></span><span>了一篇与策展人</span><span><span> Kim
+Robledo-Diga</span></span><span>的对谈</span></a></span>，探讨我们能从皮克斯电影得到什么关于设计的心得或收获。
+</p>
+<h1>
+	有灵感，但也不能少了研究
+</h1>
+<p>
+	设计固然是一个极需想象力的过程，创意与灵感有很大话语权。但围绕某个有意思的想法再进行细致严谨的调查和研究，往往能使最终作品更充实，也更具吸引力。皮克斯团队便是这样做的。
+</p>
+<p>
+	<span><a href="http://www.qdaily.com/articles/3190.html">我们此前曾报道过</a></span><span>《美食总动员》背后的一个小故事。这部电影关于小老鼠雷米在巴黎的餐厅里追寻自己成为五星大厨的梦想，于是一大批皮克斯的研究人员来到巴黎寻找这座城市的特质。他们发现灯光是这座城市的重要特色，于是专门在一家餐厅门口待上一天，观察和记录不同时间段的光影效果。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/9f31ed15e030.jpg" width="1000" height="486" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/733cf9432591.jpg" width="1000" height="597" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;">《料理鼠王》中巴黎的光与影</span> 
+</p>
+<p>
+</p>
+<p>
+	再以《赛车总动员》为例。你可能立刻意识到若想设计出里面丰富多样的汽车角色，需要对世界上不同品牌不同型号的汽车都有深入了解，而这是一个很花功夫的过程。的确如此，不过<span>据 Kim Robledo-Diga&nbsp;</span><span>介绍，</span>红色跑车 <span>McQueen</span>、拖车&nbsp;<span>Mater </span>的形象并不是设计师们最先考虑的东西——为了做好这部有公路片性质的动画片，他们先来了一场公路旅行。
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/2eb59f2c12f2.jpg" width="640" height="500" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/8021528d624a.jpg" width="1080" height="675" title=" " alt=" " />
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/93ee3b2e08cc.jpg" width="800" height="333" title="《赛车总动员》中的汽车，山间风景与公路" alt="《赛车总动员》中的汽车，山间风景与公路" /><span>《赛车总动员》中的汽车，山间风景与公路</span> 
+</p>
+<p>
+</p>
+<p>
+	在旅途中，设计师们收集路上的泥土，尝试途径之地的特色晚餐菜式，买当地的旅游明信片。这也是一种研究。影片中蜿蜒的道路及途中美丽壮阔的自然风景，路边的驿站、山中小镇……动画中的这些背景变得生动，离不开设计师的实地见闻与感受。
+</p>
+<p>
+</p>
+<p>
+</p>
+<h1>
+	看着普通的设计，也来自跨团队的协同工作
+</h1>
+<p>
+</p>
+<p>
+	我们知道，一个大型设计不是仅靠单独的设计师就能完成的，它背后有强大的团队，团队成员来自许多不同的背景，他们分工很细、各司其职。而在皮克斯，要做出一部好电影，设计一个精彩的场景，甚至只是其中一座建筑，都很可能是多个团队协作才能完成的。
+</p>
+<p>
+	<span><a href="http://www.fastcodesign.com/3051708/4-design-lessons-from-the-pixar-team">Robledo-Diga <span>向</span> Fastcodesign <span>解释说</span></a></span>，即使像《飞屋环游记》中那座看起来简单又普通的房子，也是所有部门一起工作才做出来的，动用了包括动画师、研究、技术设计师、“模型包”画师（注：<span>model packet</span>，指当有些角色、物件、场景较为复杂精密时，设计师或画师会创作一系列详细的构造图或分解图为之后的<span>&nbsp;3D </span>模型提供辅助）等在内的不同团队。
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/725f88580295.jpg" width="800" height="449" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/d928c784b351.jpg" width="800" height="518" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<div style="text-align:center;">
+	&nbsp;《飞屋环游记》中的老房子和之后的“飞屋”
+</div>
+<p>
+</p>
+<p>
+	具体到砌房子的砖块、房子底部的水管应该长什么样等诸如此类的“小问题”，每个参与的工作人员都给出自己的意见。
+</p>
+<h1>
+	保持简单，一种复杂的简单
+</h1>
+<p>
+	皮克斯团队还坚持一个设计理念，保持简单，但这种简单可能不像字面意义那样，而是有更多值得探讨的地方，被赋予了比它看起来更复杂的意思。皮克斯把这种理念总结为“<span>simplexity</span>”，结合了“<span>simple</span>（简单）”和“<span>complex</span>（复杂）”。
+</p>
+<p>
+	一个角色、一个场景本质上是简单的图形，但基于此，设计师们再一笔一划为具体的角色加上颜色、外表的纹理等各种细节，发展出无限多变化。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/bc6f934da198.jpg" width="800" height="450" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/f60482bfd4e4.jpg" width="800" height="450" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/d79f218fcb89.jpg" width="800" height="455" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	最上图从左到右依次是《头脑特工队》中的忧忧、怕怕、怒怒、厌厌和乐乐
+</p>
+<p>
+</p>
+<p>
+	比如说《头脑特工队》里这几个色彩各异的情绪小人，怒怒其实就是个正方形砖块，忧忧基于一个泪滴，乐乐则像爆炸的烟花，但毫无疑问它们都不只是几个单调重复的基本元素，而有自己的个性，与众不同。
+</p>
+<h1>
+	细节，的确是关键
+</h1>
+<p>
+	“细节决定成败”这样的论调我们已经听过许多，是否决定成败可以先不做定论，但对于皮克斯动画来说，完善细节确实很关键。<a href="http://www.fastcodesign.com/3051708/4-design-lessons-from-the-pixar-team#8" target="_blank"><span>Fastcodesign </span>指出</a>，皮克斯的设计师们在设计动画、通过它来讲故事时，最关心的两件事是：有吸引力（让观众觉得这部动画与自己有情感关联），看起来可信。而为实现这两个目标，丰富的细节十分重要。
+</p>
+<p>
+	比如极为具体的色彩脚本。是的，皮克斯动画不仅有剧情的脚本，还有专门针对颜色的脚本。颜色之所以重要，因为它让电影更引人入胜，而且能表现出潜藏在具体事物后的心理和情绪。而细致入微的色彩脚本可以帮助团队更高效地理清故事，确定每个段落的氛围与情绪。
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/7c7fe5d43a81.jpg" width="894" height="586" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	《超人总动员》的色彩脚本，很明显不同场景有不同的颜色基调
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/38159d6d0bbc.jpg" width="1080" height="721" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	《海底总动员》，红色代表危险
+</p>
+<p>
+	以其他电影为例，考究的细节可见于《机器人总动员》中的机器人瓦力和垃圾星球。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/7a1faeee9c07.jpg" width="1000" height="601" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/9019881ff024.jpg" width="1000" height="584" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	而《头脑特工队》里的脑内世界之所以多彩而迷人，不仅因为想象力天马行空，更因为它有足够精妙的细节去支撑起整体架构，从而拟人化的心理机制和思维过程显得真切可信。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/e218e3891162.jpg" width="1000" height="666" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span>&nbsp;</span> 
+</p>
+<p>
+	图片来源：<span><a href="http://pixar-animation.weebly.com/colour-script.html">Pixar-animation</a></span>，<span><a href="http://movie.douban.com/photos/photo/2248272307/"><span>豆瓣</span></a></span>，<span><a href="http://www.fastcodesign.com/3051708/4-design-lessons-from-the-pixar-team#6">fastcodesign</a></span>，<span><a href="http://allhdwallpapers.com/wp-content/uploads/2015/04/cars-2.jpg">allhdwallpaper</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3783">
+				<span data-id="3783">皮克斯</span>
+			</li>
+			<li class="tag item" data-id="16810">
+				<span data-id="16810">动画设计</span>
+			</li>
+			<li class="tag item" data-id="16811">
+				<span data-id="16811">Kim Robledo-Diga</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15738" data-title="《皮克斯分享设计心得：我们做了这 4 件事，让故事更迷人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15738/medium/15738.jpg?1444238228" data-url="http://www.qdaily.com/mobile/articles/15738.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11092.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/11092/medium/11092.jpg?1436642812" alt="为什么看皮克斯电影必哭无疑？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/12/medium/12.png?1433892245" alt="Best on the Web">
+				<span>Best on the Web</span>
+		</p>
+		<h1 class="title">为什么看皮克斯电影必哭无疑？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">50</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/3190.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/3190/medium/3190.jpg?1436637050" alt="皮克斯的八卦，创始人拉塞特在北京讲了一堆">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">皮克斯的八卦，创始人拉塞特在北京讲了一堆</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">17</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26985.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26985/medium/26985.jpg?1463540431" alt="">
+                        <h1 class="title">马云不会参会国际反假联盟，以及，Free People 婚纱不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26986.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26986/medium/26986.jpg?1463535747" alt="">
+                        <h1 class="title">一本关于素食者的暗黑小说拿下大奖，它荒凉又怪异</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26980.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26980/medium/26980.jpeg?1463529197" alt="">
+                        <h1 class="title">大公司头条：亚马逊要开更多实体店，Google 年度大会要开了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26974.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26974/medium/26974.jpg?1463501307" alt="">
+                        <h1 class="title">明天凌晨 1 点，Google 会描述一个全新的未来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26977.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26977/medium/26977.gif?1463514543" alt="">
+                        <h1 class="title">上班时候想睡一小会儿？这里给你张罗了很多设备</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15738">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15738" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">112</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15723.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

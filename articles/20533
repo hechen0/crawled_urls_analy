@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「酸汤鱼经济学」为什么计算机不能预测我们的生活？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「酸汤鱼经济学」为什么计算机不能预测我们的生活？。人们的未来还根本无法预知，我们的生活也会更有趣一些。好奇心日报为您呈现「酸汤鱼经济学」为什么计算机不能预测我们的生活？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="酸汤鱼经济学 大数据 分析 预测 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="+0+BES2BFlrtSd5ZIVFA3ky9TLnQd0RxL3TdPpP+8uU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3737">
+				<span data-id="3737">酸汤鱼经济学</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="21899">
+				<span data-id="21899">分析</span>
+			</li>
+			<li class="tag item" data-id="3879">
+				<span data-id="3879">预测</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「酸汤鱼经济学」为什么计算机不能预测我们的生活？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3891/small/3891.jpg?1418027288" alt="">
+					</span>
+				<span class="name">酸汤鱼 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-11 15:00:02 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20533/medium/20533.jpg?1452496430" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20533" data-title="《「酸汤鱼经济学」为什么计算机不能预测我们的生活？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20533/medium/20533.jpg?1452496430" data-url="http://www.qdaily.com/mobile/articles/20533.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				人们的未来还根本无法预知，我们的生活也会更有趣一些
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span style="text-align:start;">无疑计算机计算能力的进步让人们的生活质量有了非常大的提高。在 1950 年代初，人们就开始用当时的大型计算机来预测将来的天气情况。承担这个任务的是 ENIAC，它是世界上第二代巨型计算机，大概重 31 吨。</span> 
+</p>
+<p>
+	<span style="text-align:start;">气象学家们把搜集到的数据传送给 ENIAC，25 小时它就能算出它预测的天气情况。这个计算结果不是很准，而且比它预测的天气的发生时间还要晚。</span> 
+</p>
+<p>
+	<span style="text-align:start;">现在，人们可以用塞在裤兜里最简单的手机来承担 ENIAC 的任务，而且所用时间不到一秒钟。那些超级计算机已经可以预测到今后三天以至五天的天气。</span> 
+</p>
+<p>
+	<span style="text-align:start;">根据这个经验，那些掌握大量消费者行为数据的互联网公司开始尝试着预测人们的行为，而且很多公司似乎做得已经很有成效了。</span> 
+</p>
+<p>
+	<span style="text-align:start;">这里比较著名的是来自埃基塔公司的例子。曾经有个父亲投诉埃基塔公司给他还很年幼的女儿推荐婴儿用品，这种给准妈妈的待遇骚扰了他女儿的生活。而后来事实是，他的女儿的确怀孕了。大数据让一个远隔千里的零售商比一个父亲更加了解他的女儿。</span><span style="text-align:start;">很多本推崇大数据的书都引用了此例。</span> 
+</p>
+<p>
+	<span style="text-align:start;">但令人怀疑的是，这很可能是个公关稿。</span> 
+</p>
+<p>
+	<span style="text-align:start;">首先，如果大数据能如此准确地分析消费者的消费行为，那么埃基塔公司就应该拿出一个数据来，看一下他们对人们消费行为预测准确到什么程度。埃基塔是一家销售额接近千亿美元的大型公司，他们的数据应该是有说服力的。如果只是这个孤立的例子，就像一个人扔了 1000 回骰子，其中出现一次“豹子”（每个骰子的点数都一样），那就没有什么可夸耀的。</span> 
+</p>
+<p>
+	<span style="text-align:start;">实际的情况是，大数据拥有者并没有找到用大数据来预测消费者行为的可信模型。所以那些拥有大数据的公司只能进行最浅显的“预测”，比如你搜索贷款，他就通过网络发给你贷款公司的小广告。对那些数据的交叉分析也令人一筹莫展。比如某网站发布年度报告，女性购物者的比例远远高于男性，于是得出了女人果然爱购物的说明。这里面有两个问题，第一是这事儿好像不需要你来讲，第二更关键一些，就是它们得到的是“购买者数据”，也许这位女士把全家人的东西都一并买了，爸爸老公儿子的委托购买都在其中，这已经完全超出了“女人更爱买”的说明。</span> 
+</p>
+<p>
+	<span style="text-align:start;">大数据不能像分析天气一样分析人类行为或者人类社会的发展。一个很重要的原因是人类社会是稀缺性社会，一个因素的变化会由于稀缺性引起其他因素的相应变化。这种变化也包括预测者本身对系统的影响。举个例子，对于股票市场如果某种短期的预测方法是正确的，那么投资者根据这个方法去投资。而市场因为新的投资方式的产生而改变，那种有效的投资方式又很可能变成无效的。</span> 
+</p>
+<p>
+	<span style="text-align:start;">用大数据来分析预测社会或者人们的行为的思路很困难是有问题的。当然也许这已经是人们能找到的最佳解决方案。它离真实情况还有十万八千里就开始停步不前了。</span> 
+</p>
+<p>
+	<span style="text-align:start;">如果这是事实，那它也有好的一面，人们的未来还根本无法预知，我们的生活也会更有趣一些。</span> 
+</p>
+<p>
+	<span style="text-align:start;"></span> 
+</p>
+<p>
+	<em>关于作者</em> 
+</p>
+<p>
+	<em>酸汤鱼，一个孜孜不倦的价值投资推广者。他最大的爱好是胡思乱想和寻找市场的漏洞。这个专栏很希望启发你的好奇心，如果你有不同观点，欢迎理性和有价值的批评。</em> 
+</p>
+<p>
+	题图来自&nbsp;<a href="http://commons.wikimedia.org/wiki/File:Cat_on_laptop_-_Just_Browsing.jpg" target="_blank">Wikimedia Commons</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3737">
+				<span data-id="3737">酸汤鱼经济学</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="21899">
+				<span data-id="21899">分析</span>
+			</li>
+			<li class="tag item" data-id="3879">
+				<span data-id="3879">预测</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20533" data-title="《「酸汤鱼经济学」为什么计算机不能预测我们的生活？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20533/medium/20533.jpg?1452496430" data-url="http://www.qdaily.com/mobile/articles/20533.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20403.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20403/medium/20403.png?1452155753" alt="「酸汤鱼经济学」谁在让市场下跌">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">「酸汤鱼经济学」谁在让市场下跌</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">81</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25860/medium/25860.jpg?1461285759" alt="">
+                        <h1 class="title">他是个不创造新品的设计师，开出了全日本最有影响力的旧货店</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25869.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25869/medium/25869.jpg?1461299527" alt="">
+                        <h1 class="title">「这世界」抑郁症究竟是什么？来看这些分享</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25875/medium/25875.jpg?1461304997" alt="">
+                        <h1 class="title">「本周新片」《谁的青春不迷茫》，没想的那么差</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25890.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25890/medium/25890.jpg?1461321608" alt="">
+                        <h1 class="title">轩尼诗拍了支看着就很贵的广告，有关上天入海</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25885.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25885/medium/25885.jpg?1461313145" alt="">
+                        <h1 class="title">邀请你设计一个火星上的家，NASA 这样做了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20533">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20533" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">53</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20509.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

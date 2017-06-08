@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>人生，就是拼个车都会出现一些人改变你的生活_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="人生，就是拼个车都会出现一些人改变你的生活。有人拼出一段姻缘，有人一不小心听了个“恐怖片”。好奇心日报为您呈现人生，就是拼个车都会出现一些人改变你的生活的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 拼车 Via Uber " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="+6gUHkmMEevy9qbnhYdw0IYy9Kt2fogEckOd0O06Hz4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2187">
+				<span data-id="2187">拼车</span>
+			</li>
+			<li class="tag item" data-id="21493">
+				<span data-id="21493">Via</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">人生，就是拼个车都会出现一些人改变你的生活</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/164877/small/164877.jpg?1440045204" alt="">
+					</span>
+				<span class="name">Caroline Tell</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-06 19:00:35 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20145/medium/20145.jpg?1451738618" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20145" data-title="《人生，就是拼个车都会出现一些人改变你的生活》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20145/medium/20145.jpg?1451738618" data-url="http://www.qdaily.com/mobile/articles/20145.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				有人拼出一段姻缘，有人一不小心听了个“恐怖片”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/5c1ed829992a.jpg" width="878" height="567" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<span>利用 Via 拼车的乘客：Dee Tseurate（左前）、Joanne Gamel（右前）、Kelly Lee（左后）、Seth Hirschhorn（右后）。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	<span>Via&nbsp;</span><span>是纽约的一款拼车服务，而乔安妮</span><span>·</span><span>加梅尔（</span><span>Joanne Gamel</span><span>）喜欢把&nbsp;</span><span>Via&nbsp;</span><span>专车的后座当成是自己的移动办公室。加梅尔小姐是纽约的房地产经纪人，她经常在利用&nbsp;</span><span>Via&nbsp;</span><span>拼车服务叫到的车上查收邮件、给客户打电话和整理房产清单。</span> 
+</p>
+<p>
+	<span>类似于&nbsp;</span><span>Via&nbsp;</span><span>这样的拼车服务能给人们带来很多好处。对加梅尔小姐而言，这种分享经济最棒的地方在于有时候与她同行的其他拼车顾客正好也是个房地产经纪人。</span> 
+</p>
+<p>
+	<span>35&nbsp;</span><span>岁的加梅尔小姐说：</span><span>“</span><span>我已经从一起拼车的其他经纪人那里拿到了至少&nbsp;</span><span>15&nbsp;</span><span>张不同的名片。拼车能帮我扩展人脉。有时候，一起拼车的房产经纪人同行还会和我分享房产清单或者给我推荐客户。我很喜欢与其他房产经纪人同乘一辆车，如果他笑起来很帅气的话，那就更棒了。</span><span>”</span> 
+</p>
+<p>
+	<span>UberPool&nbsp;</span><span>是&nbsp;</span><span>Uber&nbsp;</span><span>公司推出的多人拼车服务。上个月，坦纳</span><span>·</span><span>威尔斯（</span><span>Tanner Wells</span><span>）在拼车时遇到了自己的梦中情人。当时他刚在布鲁克林参加完派对，准备叫车返回位于曼哈顿的公寓。返程途中，那个姑娘使用&nbsp;</span><span>UberPool&nbsp;</span><span>服务叫到了他乘坐的车，和他开启了拼车之旅。</span> 
+</p>
+<p>
+	<span>37&nbsp;</span><span>岁的威尔斯先生说：</span><span>“</span><span>我们在返回市区的路上相谈甚欢。她给我说了自己接下来要去见的几个人的情况，我们还聊了一些傻乎乎的话题。当我们到达她的目的地时，她告诉我很高兴与我同行，接着就下车离去了。司机转过头问我，</span><span>‘</span><span>你为什么不去要她的电话号码呢？</span><span>’”</span> 
+</p>
+<p>
+	<span>第二天，威尔斯先生在大型分类广告网站&nbsp;</span><span>Craigslist&nbsp;</span><span>上发布了一条</span><span>“</span><span>失去联系</span><span>”</span><span>的寻人启事，希望那个女孩看到之后能主动联系自己。（到目前为止，他还没有收到回复）</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/196329c08bf8.jpg" width="850" height="568" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<span>类似 Via 这样的拼车服务让纽约人互相认识。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	<span>在过去的一年里，类似于&nbsp;</span><span><a href="http://ridewithvia.com/" target="_blank">Via</a></span><span>、</span><span><a href="http://www.lyft.com/line" target="_blank">Lyft Line</a>&nbsp;</span><span>和&nbsp;</span><span><a href="http://get.uber.com/cl/uberpool/" target="_blank">UberPool</a>&nbsp;</span><span>这样的拼车服务在纽约蓬勃发展起来。如果人们不想乘坐费用昂贵的出租车或者使用不靠谱的公共交通，那么可以选择拼车服务来出行。这些拼车服务旗下拥有大批&nbsp;</span><span>SUV&nbsp;</span><span>专车，为顾客提供奢华、合算而且省时的交通服务，给拼车行业带来了新的气象。公司高管喜欢拼车去上班，企业合伙人在孩子上学的交通高峰时段也使用拼车服务避免拥堵。到了晚上，一大批年轻的白领精英更是成群结队地在狂欢之后拼车回家。</span> 
+</p>
+<p>
+	<span>相比越发<a href="http://www.thestreet.com/story/13367110/1/new-york-city-taxi-revenue-accelerates-decline-in-uber-era.html" target="_blank">不景气</a>的出租车而言，拼车服务的价格要亲民很多。在&nbsp;</span><span>110&nbsp;</span><span>大街以南曼哈顿地区的任意位置上车，只要目的地还是在&nbsp;</span><span>110&nbsp;</span><span>大街以南的曼哈顿，那么拼车服务的价格只要&nbsp;</span><span>5&nbsp;</span><span>美元多一点而已。</span> 
+</p>
+<p>
+	<span>便利性是拼车服务的一大优点。除此之外，拼车还是人们进行愉快交流和暧昧调情的温床。当几个纽约人挤在车后座上时，他们可以尽情地社交、调情甚至争论问题。拼车给他们提供了一个相对自由的环境，让他们几乎可以随心所欲。</span> 
+</p>
+<p>
+	<span>拼车的时候，乘客们要挤在一起。身体的靠近和彼此之间的匿名使得拼车的车厢成了人们寻找刺激调情的新场所。威尔斯先生说：</span><span>“</span><span>拼车让人产生了一种奇怪的心理，这有点像以前很火的一个夜间电视节目《出租车内的自白》（</span><span>Taxicab Confessions</span><span>）。在那个节目里，所有人的心理状态都很放松，愿意与出租车司机交谈。从某种角度来说，拼车的乘客之间也是这种心理状态。车辆的后座上，乘客们的情绪都很放松。</span><span>”</span> 
+</p>
+<p>
+	<span>上周四晚上，卡门（</span><span>Carmen</span><span>）小姐利用&nbsp;</span><span>UberPool&nbsp;</span><span>拼车服务叫到了一辆车。上车后，她发现后座上还坐着一位帅气的男士。这两个人一见如故，立刻就开始了调情。男士不断称赞卡门小姐的裙子，请求她同意与自己出去约会。后来，这位男士甚至握住了卡门小姐的手。</span> 
+</p>
+<p>
+	<span>卡门小姐是纽约一位著名高管的助理，她要求我们在报道时隐去她的姓氏，以免危及工作。她说：</span><span>“</span><span>那位男士不断要求我和他一起出去玩，邀请我去跳舞。我说自己刚刚参加完派对，感觉很累，因此希望以后找时间再和他一起出去。</span><span>”</span><span>当车辆达到男子的目的地时，他突然弯下腰给了卡门小姐一顿热吻，然后下车离去。</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b50ab6bfa2d0.jpg" width="864" height="567" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<span>图中三人分别是Jon Lowenstein（中间）、Gregg Arenson（后排）和司机David Franco。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;"></span> 
+</p>
+<p>
+	<span>对于当代的媒人来说，拼车服务给他们牵线搭桥提供了绝佳机会。乔纳斯</span><span>·</span><span>简</span><span>·</span><span>巴普蒂斯特（</span><span>Jonas Jean Baptiste</span><span>）是&nbsp;</span><span>Via&nbsp;</span><span>拼车服务旗下一名司机，上个月他接到了两名拼车的女性乘客。他说，这两位乘客上车后就开始聊自己的孩子。一位女士有一个&nbsp;</span><span>30&nbsp;</span><span>岁的女儿，目前单身。另一位女士有一个&nbsp;</span><span>30&nbsp;</span><span>岁的儿子，刚刚从一场痛苦的分手中挣脱出来。</span> 
+</p>
+<p>
+	<span>55&nbsp;</span><span>岁的巴普蒂斯特先生说：</span><span>“</span><span>她们俩在后座开始给对方看自己孩子的照片。接下来，她们就交换了邮箱地址和电话号码，试图把孩子们撮合到一起。</span><span>”</span> 
+</p>
+<p>
+	<span>加布里埃尔</span><span>·</span><span>麦凯格（</span><span>Gabrielle McCaig</span><span>）是&nbsp;</span><span>Via&nbsp;</span><span>公司的新闻发言人，她表示乘客经常在拼车之后联系</span><span>Via</span><span>公司，试图索要同行之人的联系方式。这种情况频发使得&nbsp;</span><span>Via&nbsp;</span><span>公司创设了一个政策：如果乘客想要联系另一位同行的拼车乘客，他（她）必须先与&nbsp;</span><span>Via&nbsp;</span><span>公司沟通。如果公司确认两人都有兴趣与彼此保持联系，那么才会帮助他们交换联系方式。</span> 
+</p>
+<p>
+	<span>麦凯格女士说：</span><span>“</span><span>这样一来，没有人会受到拘束。如果乘客不想与拼车的同伴继续联系，可以礼貌地拒绝。</span><span>”</span><span>她近期拼车时听司机讲了一个故事。这位&nbsp;</span><span>Via&nbsp;</span><span>公司的司机曾经接了一位男乘客和一位女乘客，上车后两人在后座聊得非常投缘。六个月后，司机又一次接到了这位男乘客。他告诉司机，自己已经与那位女乘客开始正式认真地交往了。</span> 
+</p>
+<p>
+	<span>不过，不是每一次拼车之旅都能开启一段浪漫的爱情故事。拼车之后的的故事走向如何，还要看乘客的自身情况。有的乘客经历的拼车之旅就完全是</span><span>“</span><span>恐怖片</span><span>”</span><span>了。凯莱布</span><span>·</span><span>安杰尔（</span><span>Caleb Angel</span><span>）是叶史瓦大学的大三学生，他有一次使用&nbsp;</span><span>Via&nbsp;</span><span>拼车服务的经历颇为惊悚，就像是现实版的《黑道家族》<i>（一部反映美国黑手党题材的著名美剧</i></span><span><i>——</i></span><span><i>译者注）</i>上演。</span> 
+</p>
+<p>
+	<span>在车里，同行的拼车乘客一直详细地向他阐述自己威胁前女友的种种计划。安杰尔先生说：</span><span>“</span><span>那个人给我讲了他前女友如何偷了他&nbsp;</span><span>6000&nbsp;</span><span>美元。他以前有过违法记录，所以他不能亲自动手，只能雇佣两个打手去打碎前女友的头骨和膝盖。我很害怕，提前下了车。</span><span>”</span> 
+</p>
+<p>
+	<span>凯蒂</span><span>·</span><span>谢伊（</span><span>Katie Shea</span><span>）今年秋天使用了&nbsp;</span><span>Via&nbsp;</span><span>服务拼车。她并不是一个人乘车，身边还带着一个由自己照看的&nbsp;</span><span>5&nbsp;</span><span>岁女孩。她们上车后发现，与她们一起拼车的还有三个喝高了的男子。他们不断地大声说脏话，还用粗俗下流的语言描述自己刚刚在酒吧遇见的姑娘。</span> 
+</p>
+<p>
+	<span>幼教老师谢伊小姐说：</span><span>“</span><span>他们的举动非常不得体。当时，我身边的小女孩一直问我他们为什么如此大声说话，还举止奇异。我本打算给小姑娘放一段《冰雪奇缘》的音乐，谁知她拿出了《彼得兔》这本书，请求其中一名男子读给她听。车上原本喧闹的气氛瞬间安定下来，整个场面变得既滑稽又温馨。</span><span>”</span> 
+</p>
+<p>
+	<span>拼车时，乘客们可能因为任何事情起争执。从车内空调的温度到谁坐在副驾驶位置，任何事都能成为争论的导火索。鲁本</span><span>·</span><span>阿劳斯（</span><span>Ruben Araoz</span><span>）是一名&nbsp;</span><span>Via&nbsp;</span><span>司机，他今年九月时接到了一个女乘客发来的拼车订单。这位女士当时只定了一个座位，但他接到人时才发现她还带着自己的女儿。根据&nbsp;</span><span>Via&nbsp;</span><span>公司的规定，乘客在发出拼车订单时必须说明自己有几个人，以便司机根据车辆座位数量接单。</span> 
+</p>
+<p>
+	<span>阿劳斯先生说：</span><span>“</span><span>这位女乘客还是将女儿带上了车，觉得自己可以把女儿安置在车辆后面的第三排座位上。但是，其他乘客都挤在后面的前两排座位上。我不得不请车上的另一位女乘客先起身出来，以保证自己能走到最后一排座位那里安置好小姑娘。起身的那位女乘客感觉受到了惊扰，一个劲儿抱怨带孩子的女乘客</span><span>‘</span><span>总是如此</span><span>’</span><span>。我猜她们两个应该是之前认识。</span><span>”</span> 
+</p>
+<p>
+	<span>在之后的整个行程之中，两位女乘客一直争论不休。</span> 
+</p>
+<p>
+	<span>据麦凯格女士透露，</span><span>Via&nbsp;</span><span>公司的各项乘车规定均是由&nbsp;</span><span>Via&nbsp;</span><span>乘客论坛创立。这样一来，所有的乘客才能更乐于遵守。目前为止，乘车规定包括：准时达到、彬彬有礼、尽量少打电话和禁止饮食。</span> 
+</p>
+<p>
+	<span>“</span><span>总是有些乘客不愿意迁就他人，不同意挪座位或者在寒冷的天气开车内空调。根据我们的规定，如果乘客之间有冲突，我们会一个一个与拼车的乘客联系，保证能够掌握事情的完整细节。我们希望所有用户都有舒适的拼车体验，但这不意味着无限退让。我们的价值观是：尊重每一位司机和乘客。</span><span>”</span> 
+</p>
+<p>
+	<span>有的时候，拼车还能带来一些惊喜。去年十月，</span><span>25&nbsp;</span><span>岁的艾斯特</span><span>·</span><span>诺维克（</span><span>Esther Novik</span><span>）想从自己位于曼哈顿中城的公寓去&nbsp;</span><span>SoHo&nbsp;</span><span>商业区。她利用拼车软件发出了订单，没想到在车上遇到了自己的妈妈。</span> 
+</p>
+<p>
+	<span>诺维克小姐说：</span><span>“</span><span>车停下后我打开车门，竟然发现自己的妈妈坐在后排。我都不知道她是怎么学会使用拼车服务的。我们俩哈哈大笑，司机也跟着笑了起来。现在她已经是拼车服务的忠实用户，逢人便讲我们俩这段有趣的偶遇。</span><span>”</span><span>为了纪念这次惊喜，诺维克小姐还在&nbsp;</span><span><a href="http://instagram.com/p/9Bem3KEBXy/?taken-by=enicole2301" target="_blank">Instagram</a>&nbsp;</span><span>上发了一张照片。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;"></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	翻译：康平
+</p>
+<p>
+	题图版权：McMillan Digital Art/Digital Vision，文中图片摄影：Dina Litovsky
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2187">
+				<span data-id="2187">拼车</span>
+			</li>
+			<li class="tag item" data-id="21493">
+				<span data-id="21493">Via</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20145" data-title="《人生，就是拼个车都会出现一些人改变你的生活》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20145/medium/20145.jpg?1451738618" data-url="http://www.qdaily.com/mobile/articles/20145.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18753.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18753/medium/18753.jpg?1449633683" alt="为了做好拼车服务，Uber 想为乘客建一些虚拟站点">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">为了做好拼车服务，Uber 想为乘客建一些虚拟站点</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">17</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25091.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25091/medium/25091.jpg?1459994181" alt="">
+                        <h1 class="title">乐视想借助经典歌曲《睡在我上铺的兄弟》的魔力打造一个超级 IP，结果呢？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25103.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25103/medium/25103.jpg?1460007267" alt="">
+                        <h1 class="title">H&amp;M 说它们对飞速扩张没有压力，还会继续激进</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25118.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25118/medium/25118.gif?1460018862" alt="">
+                        <h1 class="title">带你徒手爬上 75 层摩天大楼，像是匡威会做的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25094.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25094/medium/25094.jpg?1459997112" alt="">
+                        <h1 class="title">「这世界」健身房里的难言之隐，全都藏在这 31 张名画里</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25108.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25108/medium/25108.jpg?1460005404" alt="">
+                        <h1 class="title">日本晨间剧越来越火，《阿浅来了》又创造了收视记录</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20145">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20145" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">44</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20336.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

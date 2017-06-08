@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>你知道购物小票里藏着什么秘密吗？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="你知道购物小票里藏着什么秘密吗？。你每天随手拿来又扔一边的购物小票，其实也是商家精心设计过的。。好奇心日报为您呈现你知道购物小票里藏着什么秘密吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="购物小票 零售 7-Eleven 全家 优衣库 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="OUPISI6hFwkm+6ejWwlMDIeag/hy0ogGJWIC44XABCw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">你知道购物小票里藏着什么秘密吗？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3926/small/3926.jpg?1421980719" alt="">
+					</span>
+				<span class="name">费丽婷 董芷菲</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-15 14:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/20356/medium/20356.jpg?1452439634" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20356" data-title="《你知道购物小票里藏着什么秘密吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20356/medium/20356.jpg?1452439676" data-url="http://www.qdaily.com/mobile/articles/20356.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				你每天随手拿来又扔一边的购物小票，其实也是商家精心设计过的。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	购物小票，这是一个你几乎每天都会接触到，但很少会去注意的东西。
+</p>
+<p>
+	它的原始作用是标明购买商品的名称、数量和金额，作为商家给消费者留存的销售凭据。在一些欠发达地区，一张手写小票已经能满足这个功能。
+</p>
+<div>
+	但在现代零售业，小票承载了更多的内容，也被赋予了记录商品信息以外的价值。
+</div>
+<div>
+	过去几周，我们搜集了北京和上海 14 个商家的购物小票，涵盖了便利店、超市、百货、餐饮、服装等行业，<span>试图从中发现购物小票的奥秘。</span><span></span> 
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/e165b91eeb26.jpg" width="1023" height="796" title="1" alt="1" /><span>1</span> 
+	</p>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/1b90c3e806a3.jpg" width="1029" height="783" title="2" alt="2" /><span>2</span> 
+	</p>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/60eb5fecc95a.jpg" width="1022" height="785" title="3" alt="3" /><span>3</span> 
+	</p>
+</div>
+<p>
+	<span>我们将小票中的信息整理成了上面这几张表格，从中你会发现，每个商家对自己小票上出现的信息都有不同的设计。</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h3>
+	一张小票里可以隐藏哪些信息？
+</h3>
+<div>
+	北京 7-Eleven 行政本部本部长吴萌告诉《好奇心日报》，小票上的信息是商家在收银系统中设计好的，设计的依据主要包括三个部分：
+</div>
+<div>
+	一是法律法规要求必须向消费者明示的内容，包括商户名称、商品名称、数量、收款单位、单价、总价、日期等。其中价格是最重要的，所以放在最突出的位置。
+</div>
+<div>
+	店铺地址和电话虽然不是必须，但大部分商家也会标明。在我们统计的商家中，唯一一个没有标明的是星巴克，只有店铺编号“101024”，而对顾客来说这个编号几乎毫无涵义。大润发超市没有标明具体地址，但有分店的名字和电话，通过这些信息也能查到店铺。
+</div>
+<div>
+	二是各个企业管理自己标注的信息，比如小票编号、POS 机号、收银员信息等，用于内部结算。这些信息普通消费者往往会直接忽略，但在发生纠纷时可能会派上用场。
+</div>
+<div>
+	三是不同商家的个性化设计，如 logo、广告语、二维码，通常是宣传用途。这才是商家发挥余地最大的部分，我们将在下一部分详细展开。
+</div>
+<div>
+</div>
+<h3>
+	商家会在小票里夹带哪些“私货”？
+</h3>
+<div>
+	<ul>
+		<li>
+			logo
+		</li>
+	</ul>
+</div>
+<div>
+	大部分品牌都会在小票上印 logo。在一堆细小的文字中出现一个图案，的确能有效提高辨识度。
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/344f8fe9f340.jpg" width="1080" height="1247" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			宣传语 &amp; 客套话
+		</li>
+	</ul>
+</div>
+<div>
+	比如全家的“全家就是你家”和家乐福的“恭祝各位：家家快乐又幸福”。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/289946d31c27.jpg" width="1080" height="1080" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	<p style="text-align:center;">
+		<span> </span> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			二维码、官网地址、官方微信
+		</li>
+	</ul>
+</div>
+<div>
+	虽说这些用到购物小票的都是实体店，大多属于人们眼中正在走下坡的产业。但它们谋求向线上发展的愿望也在小票中昭然若揭。
+</div>
+<div>
+	罗森的小票上附了会员 app “罗森点点”的二维码，优衣库也让消费者扫码关注官方微信。看得出马莎很重视电商发展，在小票上特别强调了“M&amp;S 官网和马莎天猫旗舰店正式全新震撼呈现”。但后面跟着一长串网址，真的指望消费者逐个字母敲到地址栏里吗？
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/43563ec42bde.jpg" width="1080" height="1440" title="马莎小票" alt="马莎小票" /> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			促销信息、优惠券
+		</li>
+	</ul>
+</div>
+<div>
+	为了鼓励你再次消费，全家在小票上说加价换购“啵兔公仔”，面包新语说凭小票买咖啡减 5 元。
+</div>
+<div>
+	在结账时另外附上一张优惠券，则是超市最爱用的伎俩。我们调查的两家超市中，大润发和家乐福都额外附赠了优惠券，分别是护舒宝和“冠军榜”牛肉面的促销活动，优惠券背面有使用细则。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/974fb69b3255.jpg" width="665" height="925" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			广告位
+		</li>
+	</ul>
+</div>
+<div>
+	在上海的百盛买一瓶味全葡萄汁，小票上也会出现“兰蔻香水礼盒仅售 530 元！限量 10 套！”这样的呐喊。这是百盛商场为一些专柜吆喝推广的广告词，同样风格的还有“Gucci/Prada/Burberry 等名品清仓，最高直降 1 万元！”不过颜色太浅了，很难辨认。我们去专柜问了一下，兰蔻的打折信息已经过期了，不过百盛没有更新。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/d683fb3a0c90.jpg" width="1080" height="1080" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			税率
+		</li>
+	</ul>
+</div>
+<div>
+	宜家的小票中规中矩，没有品牌本身给人的印象活泼。除了 logo 之外，没有任何带有品牌色彩的文字，但是它标出了税率——17%。这通常是外企的作风。
+</div>
+<div>
+	优衣库的小票也标出了税率 17%。除去商品信息所占的区域，它的剩余部分是所有小票中最长的，其中详细的退换政策占了很大一部分。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/29f30f38db59.jpg" width="665" height="665" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	<ul>
+		<li>
+			免责声明
+		</li>
+	</ul>
+</div>
+<div>
+	永辉超市和无印良品都在小票结尾叮嘱顾客“请仔细核对收银票据、找零及商品”，后者还特地加了一句“离柜概不负责”。
+</div>
+<div>
+	一些特殊商品尤其需要免责，比如北京一家药房注明了“药品为特殊商品，售出概不退换”。
+</div>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ae9eca32b47f.jpg" width="1080" height="1795" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0c2514ba295b.jpg" width="640" height="853" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<div>
+	<ul>
+		<li>
+			其他奇怪的东西
+		</li>
+	</ul>
+</div>
+<div>
+	这里说的是 Nike，它用了 7 行文字邀请顾客去网站上填写问卷调查并获取优惠券，其中有一整行的网址和一整行的“输入代码”。非常好奇有多少人真的会去填写。
+</div>
+<div>
+	当然，在这张小票上更吸引你眼球的可能是中间的“你节省了 210.000000 元”。大概是个 bug。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/c79fcca75307.jpg" width="1080" height="1080" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+</div>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h3>
+	然后，还有背面
+</h3>
+<p>
+	一些商家也利用了小票背后的空间。和正面不同的是，小票背面的内容往往不是现场打印的，而是小票本身自带的。也就是说，一卷崭新的空白小票背面已经有字了，而这些内容是商家定制的。
+</p>
+<p>
+	在我们收集的小票中，星巴克、7-Eleven 和玛莎百货的小票是双面印刷的，但内容差别很大。
+</p>
+<div>
+	星巴克正面是一本正经的机打发票，除了名字那三个字，看不到一点品牌的特色。小票的背面则“星巴克”多了：最上面是经典的美人鱼圆形 logo，主体信息是“星巴克共爱地球计划”，用四段文字介绍了品牌在环保和企业社会责任上的努力。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/e5737d969e7e.jpg" width="1080" height="1080" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	同样采用机打发票作小票的 7-Eleven 背面则中规中矩得多——普通发票查询说明、发票真伪简易鉴别方法……和 7-Eleven 本身完全无关，倒像是国税局统一要求的。
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/c9f372746560.jpg" width="640" height="853" title="7-Eleven 小票背面" alt="7-Eleven 小票背面" /><span>7-Eleven 小票背面</span> 
+	</p>
+</div>
+<div>
+	玛莎百货小票的背面是详细的商品退换政策，中英双语对照。然而中文部分也翻译腔十足，比如“改变您的心意了吗？我们很乐意为您提供退换货服务”。不过因为有比较大的花体 logo，看起来还是比较洋气。
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/d679351bdacf.jpg" width="640" height="853" title="0" alt="0" /><span>马莎百货小票背面</span> 
+	</p>
+</div>
+<div>
+</div>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h3>
+	既然小票这么多功能，是不是印越多信息越好？
+</h3>
+<div>
+	并不是。在利用小票传递信息的同时，商家也要权衡所需的成本。
+</div>
+<div>
+	别看一张小票不起眼，但对零售行业——尤其是客单价低、客流量大的商家来说，小票累计下来也有不小的数量。全家便利店的一位收银员告诉《好奇心日报》，店里每天被顾客丢弃的小票，能积累两个垃圾桶。
+</div>
+<div>
+	如果每张小票上的附加内容过多，日积月累下来也会增加不小的成本，而且打印时间长会影响结账速度。
+</div>
+<div>
+	在小票规格的选择上，商家会根据自身特点和顾客的消费习惯进行选择。比如，7-Eleven 常用的卷纸长度为 80 米左右。他们会计算，以每个顾客购买三个商品为例，一张小票的长度是 8 厘米，一卷纸可以打印 1000 张小票，对应 1000 个客人。这也差不多是北京 7-Eleven 平均每天的客流量。
+</div>
+<div>
+</div>
+<h3>
+	为什么有的小票直接是发票？
+</h3>
+<div>
+	这一点常出差的人可能更容易注意到。在大多数餐厅，开发票都是件麻烦事，你得写下一大串公司全称，再等待服务员一个字一个字敲出来，还要仔细核对以免服务员把“酷睿奥思”打成了“酷睿奥恩”（对，这是《好奇心日报》的公司名，以及本人亲身经历）。
+</div>
+<div>
+	但如果你去星巴克，买完咖啡拿到的“小票”直接就是一张机打发票。
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/74f0b91f1d66.jpg" width="1080" height="1080" title=" " alt=" " /><span> </span> 
+	</p>
+</div>
+<div>
+	机打发票是现代流通业推行的，就像出租车一样，直接打出写着消费明细的机打发票，跳过了“小票”。
+</div>
+<div>
+	2010 年开始，就有<a href="http://www.bj.xinhuanet.com/bjpd-cj/2010-10/22/content_21207283.htm" target="_blank">题为《北京零售业明年将以发票取代“购物小票”》的新闻</a>称，北京正以沃尔玛望京店为试点，开具加盖税务局红章的机打发票，并将于次年底在全市商业零售企业中推行。
+</div>
+<div>
+	报道中还援引北京市国税局相关负责人称，此前商业企业中手工票占比较大，不利于提高税源监控的质量和水平，也让虚开发票有了生存空间，致使国家税收流失难以控制。
+</div>
+<div>
+	但截至 2015 年底《好奇心日报》搜集小票时，仍只有 7-Eleven 和星巴克两个商家采用了机打发票，其余大部分商家仍是使用传统的“自制购物小票”。
+</div>
+<div>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/107d2f9130e8.jpg" width="640" height="853" title="7-Eleven 小票也是发票" alt="7-Eleven 小票也是发票" /><span>7-Eleven 小票也是发票</span> 
+	</p>
+</div>
+<div>
+	北京 7-Eleven 从 2013 年开始使用机打发票。吴萌告诉《好奇心日报》，从商家的角度考虑，一是省事，因为现开发票需要人工手写，需要花费时间成本和人工成本。二是发票管理方便，不会出现发票丢失、误开、错开的情况。但由于机打发票成本较高，目前在零售业的普及率还不高。
+</div>
+<div>
+</div>
+<div>
+</div>
+<h3>
+	小票用的是什么纸？
+</h3>
+<div>
+	绝大多数小票是用热敏纸打印。你可以试试用指甲在小票上划一道，如果出现了一条黑线，那它就是热敏纸。
+</div>
+<p>
+	<a href="http://www.scipark.net/archives/25050" target="_blank">热敏纸的工作原理是</a>，表面有一层含有隐色染料的涂层，本身无色，一旦温度升高，隐色染料和酸性物质发生化学反应，就显色了。所以热敏打印机内部也没有墨盒，只有滚筒和打印头，通过对热敏纸上的特定区域加热，在纸上显色形成特定的文字或图案。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c44568acd07b.jpg" width="540" height="221" title="热敏纸工作原理" alt="热敏纸工作原理" /><span>热敏纸工作原理</span> 
+</p>
+<p>
+</p>
+<div>
+	比起喷墨或激光打印机，热敏纸打印机的体积更小巧，成本也更低。更重要的是，由于不需要更换墨盒或碳粉，维护起来也更容易，不会耽误顾客结账。
+</div>
+<div>
+	但热敏纸的一个缺陷是，显色物质的结构不稳定，存放一段时间后字迹会逐渐褪去（好像电影票最常见褪色）。一些生产厂商会在染料层之上额外添加一层保护层，减少染料与其他化学物质的接触，以存放更久。
+</div>
+<div>
+	但这种方法会增加成本，所以仍有不少商家使用普通热敏纸。7-Eleven 等一些需要小票作为财务凭证的商家，则会选择能够长时间保存不褪色的热敏纸。
+</div>
+<p>
+	吴萌说，除此之外，纸张光滑平整、不掉纸屑也很重要。因为小票使用频繁，每打印一次，打印机内部的切纸刀都会工作，不好的纸会落纸屑，时间长了会卡纸或损坏机器。
+</p>
+<p>
+</p>
+<p>
+	（制图：许冰清）
+</p>
+<div>
+</div>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="21700">
+				<span data-id="21700">购物小票</span>
+			</li>
+			<li class="tag item" data-id="743">
+				<span data-id="743">零售</span>
+			</li>
+			<li class="tag item" data-id="14457">
+				<span data-id="14457">7-Eleven</span>
+			</li>
+			<li class="tag item" data-id="4663">
+				<span data-id="4663">全家</span>
+			</li>
+			<li class="tag item" data-id="334">
+				<span data-id="334">优衣库</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20356" data-title="《你知道购物小票里藏着什么秘密吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20356/medium/20356.jpg?1452439676" data-url="http://www.qdaily.com/mobile/articles/20356.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19436.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19436/medium/19436.png?1450678332" alt="关于便利店，这 19 个秘密还挺有意思的">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">关于便利店，这 19 个秘密还挺有意思的</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">63</span>
+				<span class="iconfont icon-heart">2051</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26534.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26534/medium/26534.jpg?1462593100" alt="">
+                        <h1 class="title">上海迪士尼乐园试运营第一天，这里是一些剧透</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26537/medium/26537.jpg?1462626631" alt="">
+                        <h1 class="title">如果你是个吃货，那你的旅行不应该错过特拉维夫</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26533.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26533/medium/26533.gif?1462614619" alt="">
+                        <h1 class="title">那些被负能量小事毁掉的一天，一次让你看够</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26536.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26536/medium/26536.jpg?1462610662" alt="">
+                        <h1 class="title">除了温馨牌，母亲节营销还可以这样做</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26527.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26527/medium/26527.jpg?1462539334" alt="">
+                        <h1 class="title">这些给你，大概可以加入母亲节礼物清单｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26525.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26525/medium/26525.jpg?1462531542" alt="">
+                        <h1 class="title">脱掉自己的鞋，才能进 Everlane 这家快闪店玩</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20356">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20356" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">918</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20776.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

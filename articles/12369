@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>如果 iPhone 是索尼发明的，它会是什么样子？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="如果 iPhone 是索尼发明的，它会是什么样子？。如果索尼推出 Talkman……。好奇心日报为您呈现如果 iPhone 是索尼发明的，它会是什么样子？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="iPod iPhone Walkman Nintendo 苹果 任天堂 索尼 雅达利 Nolan Bushnell Ted Dabney Pierre Cerveau " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mH407w7ZmMuQtnljAoaVmSeCR1b3Ds5QnuLxoTOI+y0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1648">
+				<span data-id="1648">iPod</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="1884">
+				<span data-id="1884">Walkman</span>
+			</li>
+			<li class="tag item" data-id="13193">
+				<span data-id="13193">Nintendo</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="916">
+				<span data-id="916">任天堂</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="13194">
+				<span data-id="13194">雅达利</span>
+			</li>
+			<li class="tag item" data-id="13195">
+				<span data-id="13195">Nolan Bushnell</span>
+			</li>
+			<li class="tag item" data-id="13196">
+				<span data-id="13196">Ted Dabney</span>
+			</li>
+			<li class="tag item" data-id="13197">
+				<span data-id="13197">Pierre Cerveau</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">如果 iPhone 是索尼发明的，它会是什么样子？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/73517/small/73517.jpg?1431406847" alt="">
+					</span>
+				<span class="name">赖江锟 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-21 13:49:49 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12369/medium/12369.jpg?1437457565" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12369" data-title="《如果 iPhone 是索尼发明的，它会是什么样子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12369/medium/12369.jpg?1437457565" data-url="http://www.qdaily.com/mobile/articles/12369.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				如果索尼推出 Talkman……
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	iPhone 影响了智能手机的发展，但如果是索尼、雅达利、任天堂首先带来一款划时代的智能手机，它会是什么样子？
+</p>
+<p>
+	现在，设计师 <span>Pierre Cerveau 将这些幻想做成了图：</span>
+</p>
+<h2>
+	索尼会把 iPhone 做成扁平的 Walkman 随身听
+</h2>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/cb45d8ffd9d4.jpg" width="853" height="640" title="Talkman" alt="Talkman" /><span><em>Talkman</em></span> 
+</p>
+<p>
+	索尼的 <a href="http://www.techradar.com/au/news/audio/portable-audio/30-facts-from-30-years-of-the-sony-walkman-612817">Walkman</a> 曾是个人随身听的代名词，从 1979 年推出的 <a href="http://www.minimallyminimal.com/blog/sony-walkman-tps-l2">TPS-L2</a> 卡带随身听开始，Walkman 统治了个人音乐 20 年。
+</p>
+<div>
+	在第一年，Walkman 卡带机售出 5 万台。到第一个 10 年结束，它的销量超过 5000 万台。而到了第二个 10 年，这个数字超过了 1.7 亿台。
+</div>
+<div>
+	索尼工程师 Nobutoshi Kihara 定义了第一台 Walkman。正面有磁带盒，侧面分布着音乐播放键的实体按钮，顶部则有音频出口。
+</div>
+<p>
+	按照 Cerveau 的设想，如果是索尼设计 iPhone，我们可能会看到一台扁平化的 Walkman 上加入了摄像头和触摸屏，实体音乐播放键将得到保留，而扬声器可能会被放在金属背面或侧面。但你肯定不会再看到放置磁带的地方了。
+</p>
+<div>
+	至于名字，索尼的 iPhone 理所应当叫“Talkman”。
+</div>
+<h2>
+	街机公司雅达利把 iPhone 的金属换成木材
+</h2>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/4971d4225170.jpg" width="853" height="640" title="雅达利的 iPhone" alt="雅达利的 iPhone" /><span><em>雅达利的 iPhone</em></span> 
+</p>
+<p>
+	Nolan Bushnell 与 Ted Dabney，一起在 1971 年推出首款街机游戏电脑空间大战 (Computer Space)。他们在第二年成立<a href="http://inventors.about.com/od/astartinventions/a/Atari.htm">雅达利</a>公司，并推出广受欢迎的 Pong 游戏街机。
+</p>
+<div>
+	到了 1975 年，雅达利推出 Pong 的电视游戏版本，并卖出 15000 份。在 1980 年，雅达利的电视游戏系统的销售额达到了 4.15 亿美元 (约合 25.7 亿元)。看起来，雅达利应该会成长为一家屹立很多年的公司。
+</div>
+<div>
+	但它的<a href="https://en.wikipedia.org/wiki/Atari">生命轨迹</a>却非一帆风顺。在创立公司 4 年后，Bushnell 将雅达利卖给了华纳通信 (Warner Communications)。由于亏损严重，华纳通信又在 8 年后将雅达利出售给了 Tramel 公司。到了 1996 年，雅达利被并入磁盘制造商 JTS。接着 2 年后，雅达利又被并入 Hasbro Interactive 公司。此后，雅达利又经历几次易主，最终在 2008 年并入了法国游戏公司 Infogrames。
+</div>
+<div>
+	虽然雅达利走的很曲折，但 1972 年推出的 Pong 却奠定了它的统治地位。他们甚至吸引了年轻的乔布斯，来当工程师开发单机版的 Pong。
+</div>
+<div>
+	Cerveau 为雅达利设计的 iPhone，融入了许多街机的设计元素。例如，木制的背壳，黑色条纹的面板，但不会有投币口。
+</div>
+<div>
+	雅达利版的 iPhone 背面也不会有小苹果了，应该是它们自己的标志性 LOGO。
+</div>
+<h2>
+	掌机卖得最多的任天堂为 iPhone 加游戏手柄
+</h2>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/01c309eb7697.jpg" width="877" height="640" title="Smart boy" alt="Smart boy" /><span><em>Smart boy</em></span> 
+</p>
+<div>
+	1990 年代任天堂在游戏主机领域遭遇竞争危机的时候，是掌机救了它的命，并重塑辉煌。
+</div>
+<div>
+	Game boy 自 1989 年推出后的 15 年，共售出 <a href="https://en.wikipedia.org/wiki/List_of_million-selling_game_consoles#cite_note-GB_and_GBC-31">1.18 亿</a>台。2004 年推出的 DS 卖了 1.54 亿台。在 iPhone 带来手游之前，任天堂长期统治着掌机市场。
+</div>
+<div>
+	因此，任天堂的掌机系列早已深入人心。它的塑料外壳与早期的游戏主机看起来没什么两样，十字方向键四周会有一圈圆形，A、B 控制按钮总是左低右高，扬声器不是点状，就是条形。另外，还有总是内嵌的任天堂 LOGO。
+</div>
+<div>
+	如果在任天堂的掌机时代设计 iPhone，肯定也少不了 Game boy 上那些元素。
+</div>
+<div>
+	上周末，Cerveau 展示了一款他所理解的任天堂版 iPhone——Smart Boy。它有塑料的材质，背面的任天堂 LOGO 依然是内嵌式，扬声器上有条纹，背部腰线的众多横条起着装饰作用。
+</div>
+<div>
+	控制手柄也被设计出来，仍沿用 Game boy 系列的布局与造型，老玩家不会感到陌生。
+</div>
+<h2>
+	如果 30 年前的苹果自己去做 Mac Phone
+</h2>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/fd76cd6a7131.jpg" width="853" height="640" title="Macintosh 版的 iPhone" alt="Macintosh 版的 iPhone" /><span><em>Macintosh 版的 iPhone</em></span> 
+</p>
+<div>
+	30 年前的苹果推出了首款面向大众市场的、带有图形操作系统的个人电脑 Macintosh（麦金塔），它著名的广告直到今天还被人津津乐道。
+</div>
+<p>
+	Cerveau 最后还设想了 30 年前诞生的 Mac Phone：机身更厚、材质将变成塑料、不超过 2 英寸的非触摸屏幕。当然，手机背面顶端还得有两个出风口，为 512Kb 硬盘的“高配置”手机散热。而原盘型的拨号键盘会显得很特别，跟后来的 iPod 类似。
+</p>
+<p>
+	<p style="text-align:center;">
+		<img src="http://www.qdaily.com/uploads/image/201507/fd3b213adaf1.jpg" width="920" height="640" title="iPod 改进来的 iPhone" alt="iPod 改进来的 iPhone" />2007 年发布会上展示的恶搞 iPhone
+	</p>
+	<div>
+		2001 年出场的 iPod 帮助苹果提前进入数字音乐时代，也让它成功颠覆唱片产业。
+	</div>
+	<div>
+		那时，iPod 的大容量、够用的屏幕、极具创意且便捷的 Click Wheel，让 iPod 成为最时髦的科技产品之一。
+	</div>
+	<div>
+		在发售的前 10 年里，iPod 的销量一直在增长，并在 2008 年达到巅峰，那年苹果卖了超过 5000 万台。在 2012 年，苹果宣布他们从 2001 年开始，总共售出了&nbsp;<a href="https://en.wikipedia.org/wiki/IPod">3.5 亿</a>台 iPod。
+	</div>
+	<p>
+		虽然苹果最终在 2007 年推出的 iPhone 与 iPod 存在很大的差异，但苹果在设计 iPhone 时确实考虑过用 Click Wheel 作为拨盘。
+	</p>
+</p>
+<p>
+	题图来自：<a href="http://designshack.net/wp-content/uploads/iphone6-free-psd.jpg.jpg" target="_blank">DesignShack</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1648">
+				<span data-id="1648">iPod</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="1884">
+				<span data-id="1884">Walkman</span>
+			</li>
+			<li class="tag item" data-id="13193">
+				<span data-id="13193">Nintendo</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="916">
+				<span data-id="916">任天堂</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="13194">
+				<span data-id="13194">雅达利</span>
+			</li>
+			<li class="tag item" data-id="13195">
+				<span data-id="13195">Nolan Bushnell</span>
+			</li>
+			<li class="tag item" data-id="13196">
+				<span data-id="13196">Ted Dabney</span>
+			</li>
+			<li class="tag item" data-id="13197">
+				<span data-id="13197">Pierre Cerveau</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12369" data-title="《如果 iPhone 是索尼发明的，它会是什么样子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12369/medium/12369.jpg?1437457565" data-url="http://www.qdaily.com/mobile/articles/12369.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12369">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12369" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">80</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12314.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

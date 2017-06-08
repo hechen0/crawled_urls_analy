@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这些镜子难道真的只是镜子？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这些镜子难道真的只是镜子？。跟着这些脱离了单一功能性的镜子来开开脑洞。。好奇心日报为您呈现这些镜子难道真的只是镜子？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="米兰设计周 镜子 Coolhunting " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="W2i4t0KXbMKJOIWgEkiLI04e2KEi2bTWiiv0dFMCeXc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9003">
+				<span data-id="9003">米兰设计周</span>
+			</li>
+			<li class="tag item" data-id="2581">
+				<span data-id="2581">镜子</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这些镜子难道真的只是镜子？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Jill Singer</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-30 15:28:30 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9056/medium/9056.jpg?1436688662" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9056" data-title="《这些镜子难道真的只是镜子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9056/medium/9056.jpg?1436688662" data-url="http://www.qdaily.com/mobile/articles/9056.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				跟着这些脱离了单一功能性的镜子来开开脑洞。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<span><a href="http://coolhunting.com/design/milan-design-week-incredible-mirrors" target="_blank" style="white-space:normal;"><em>本</em><em>文</em></a><em style="white-space:normal;">由 Coolhunting 授权《好奇心日报》发布，即使我们允许了也不许转载。</em></span> 
+</p>
+<p class="MsoNormal">
+	是什么使镜子成为了设计师钟爱实验的沃土？是它顽固不可变的&nbsp;<span>DNA&nbsp;</span>吗？毕竟，如果不是玻璃，换成其他材质的话那还能算是镜子吗？不管怎样，今年<span><a href="http://www.coolhunting.com/tag/Milan%20Design%20Week">米兰设计周</a></span>的设计师们应对挑战，用心改造了这个顽固的日用品。从荧光色和渐变的表面处理到空间操作，我们找到了许多镜子的改变形式。以下是八款最佳设计。<span></span> 
+</p>
+<p class="MsoNormal">
+	<b><img src="/uploads/image/201504/5029407f1ed7.jpg" alt="" /></b> 
+</p>
+<p class="MsoNormal">
+	<b>看穿我</b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：伊莎贝拉</b>·<b>盖茨恩（</b><b><span>Isabell Gatzen</span></b><b>）</b> 
+</p>
+<p class="MsoNormal">
+	为了她的“看穿我”镜子，苏黎世设计师<span class="MsoHyperlink"><span><a href="http://www.isabellgatzen.com/">伊莎贝拉·盖茨恩</a></span></span>把不同尺寸的没有背面的单面镜层叠在一起，使得照镜子的人可以透过镜子看到或者捕捉到自己的倒影，这需要靠光的作用来实现。每面镜子被安置在白色帕特农大理石制成的坐架上，可以自由组合成任意角度。
+</p>
+<p class="MsoNormal">
+	<b>大理石家用镜 <span></span></b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：戴佛兹<span>-</span></b><b>肖凯（<span>Thévoz-Choquet</span></b><b>）为&nbsp;<span>Bloc&nbsp;</span></b><b>工作室设计</b> 
+</p>
+<p class="MsoNormal">
+	瑞士洛桑艺术设计大学（<span>ECAL</span>）毕业生约瑟芬·肖凯（<span>Josephine
+Choquet</span>）和维尔日勒·戴佛兹（<span>Virgile Thévoz</span>）似乎喜欢用那些看起来已经过时了的材料专攻新鲜的，特别让人羡慕的课题。去年他们用醋酸纤维设计了台灯系列，而今年，这二人更是设计了一系列家居装饰品，包括这面镜子，这个设计是为新兴的意大利大理石品牌&nbsp;<span><a href="http://www.bloc-studios.com/products">Bloc 工作室</a></span>做的。这面镜子称作大理石家用镜，材料是从卡拉拉大理石采石场剩下的大块的大理石中捞回的，整个系列最终都在意大利完成。
+</p>
+<p class="MsoNormal">
+	<b><img src="/uploads/image/201504/ce0d94127bdc.jpg" alt="" /></b> 
+</p>
+<p class="MsoNormal">
+	<b>塑造色彩 <span></span></b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：日耳曼·埃米克斯（<span>Germans
+Ermics</span></b><b>）</b> 
+</p>
+<p class="MsoNormal">
+	拉托维亚出生，阿姆斯特丹生活的设计师<span><a href="http://www.germansermics.com/">日耳曼·埃米克斯</a></span>在做家具设计前，是个平面设计师，这一背景使得他展现出了利用色彩作为手段去塑造形式的独到之处。在罗萨姆<b>·</b>奥兰迪（<span>Rossana Orlandi</span>）展馆和&nbsp;<span>Dutch
+Invertuals</span>（荷兰设计师团体）组织的展上，<span>埃米克斯</span>都展示了他通过彩色镜子所做的多种实验成果，这面颜色由浅渐变成深的镜子，立在一个操控台和咖啡桌旁，也会因色彩的变幻产生不同效果。
+</p>
+<p class="MsoNormal">
+	<b>困镜 <span></span></b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：<span>Aparentment 公司</span></b> 
+</p>
+<p class="MsoNormal">
+	今年在&nbsp;<span>Ventura Lambrate&nbsp;</span>展区，巴塞罗那设计及咨询公司&nbsp;<span><a href="http://www.aparentment.com/INDUSTRIAL/">Aparentment</a>&nbsp;</span>的经营者，设计师何塞普<b>·</b>维拉<b>·</b>卡普德维拉（<span>Josep Vila Capdevila</span>）展示了灯具、镜子、烛台和其他的东西，都来自于他不断设计出的大理石配件产业线，大言不惭地称之为&nbsp;<span>Marblelous</span>。但我们更偏爱这枚困镜，简单的一块圆镜，嵌在蓝漆的铁的、铜的或者是生锈的黄铜的折角板中。
+</p>
+<p class="MsoNormal">
+	<b><img src="/uploads/image/201504/41ec1fd66f5f.jpg" alt="" /></b> 
+</p>
+<p class="MsoNormal">
+	<b>微光&nbsp;</b> 
+</p>
+<p class="MsoNormal">
+	<b>设计师：帕特丽夏·乌古拉（<span>Patricia Urquiola</span></b><b>）为意大利格拉斯公司设计</b> 
+</p>
+<p class="MsoNormal">
+	<span><a href="http://www.patriciaurquiola.com/">帕特丽夏·乌古拉</a></span>为<span><a href="http://www.glasitalia.com/">意大利格拉斯公司</a></span>设计的彩虹家具系列是<span><a href="http://www.coolhunting.com/design/patricia-urquiola-glas-italia-shimmer">去年展会</a></span>上的一大亮点。今年，这位西班牙设计师很巧妙地通过不同的表面处理，包括对表面做了微点处理，用到了新的象征体系，提升了格调。跟该系列其他的产品一样，乌古拉锁眼型的微光镜做了多彩的表面处理，使它能够随着光源以及视角的变换改变颜色。
+</p>
+<p class="MsoNormal">
+	<b><span>Tynni&nbsp;</span></b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：迈亚·波斯卡里（<span>Maija
+Puoskari</span></b><b>）</b> 
+</p>
+<p class="MsoNormal">
+	芬兰最著名的山脉（萨那山，<span>Saana</span>）和湖泊（基尔皮斯湖，<span>Kilpisjärvi</span>）是这面镜子的灵感来源，有不同色调的玻璃可选，由赫尔辛基设计师迈亚·波斯卡里设计，取名为&nbsp;<span>Tynni</span>，芬兰语意为冷静或平静。这面镜子展现的曲线型的架子像是&nbsp;<span>Saana&nbsp;</span>山峰的形状，颜色则是芬兰天空的颜色。
+</p>
+<p class="MsoNormal">
+	<b><img src="/uploads/image/201504/cd4b4c9e792b.jpg" alt="" /></b> 
+</p>
+<p class="MsoNormal">
+	<b>日蚀</b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：鲁姆斯（<span>Rooms</span></b><b>）</b> 
+</p>
+<p class="MsoNormal">
+	去年格鲁吉亚设计师杜奥<b>·</b><span><a href="http://rooms.ge/">鲁姆斯</a></span>（<span>duo Rooms</span>）在斯帕其奥<b>·</b>罗萨姆<b>·</b>奥兰迪展馆发布了他的镜子系列，灵感来自于他们在家乡第比利斯的跳蚤市场上发现的荣誉勋章。今年，他们沉湎于日蚀所反射出的不同形式，一面神秘的，三折式的镜子和壁灯组合都产生自月光和外太空带来的灵感，就如同经过镜面抛光的边桌与椅子一样。
+</p>
+<p class="MsoNormal">
+	<b>裂镜 <span></span></b> 
+</p>
+<p class="MsoNormal">
+	<b>设计者：李·布鲁姆（<span>Lee Broom</span></b><b>）</b> 
+</p>
+<p class="MsoNormal">
+	在他的灰度手工制品商店（<span><a href="http://www.coolhunting.com/design/milan-design-week-lee-brooms-department-store">上周</a></span>我们还写了关于它的文章），英国设计师<span><a href="http://www.leebroom.com/">李·布鲁姆</a></span>提交了几样他设计的产品，都是一些带着微妙失衡设计感的产品——球形大理石和黄铜打造的新月灯，半开半合，一张像是醉酒的边桌，是由一些集合体随意堆放而成；以及这面裂镜，看起来就像是布鲁姆将其中的一条轻轻地推开了似的。
+</p>
+<p class="MsoNormal">
+	<i><br />
+</i> 
+</p>
+<p class="MsoNormal">
+	<i>翻译 &nbsp;is译社 塔米日</i>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9003">
+				<span data-id="9003">米兰设计周</span>
+			</li>
+			<li class="tag item" data-id="2581">
+				<span data-id="2581">镜子</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9056" data-title="《这些镜子难道真的只是镜子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9056/medium/9056.jpg?1436688662" data-url="http://www.qdaily.com/mobile/articles/9056.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25557.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25557/medium/25557.jpg?1460754429" alt="">
+                        <h1 class="title">宜家试着让你用VR体验厨房，目前还只是个噱头</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25535.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="">
+                        <h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25559.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25559/medium/25559.jpg?1460773210" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9056">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9056" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">50</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9062.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

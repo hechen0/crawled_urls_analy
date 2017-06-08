@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>改造完纽约之后，布隆伯格的下一个目标是新闻_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="改造完纽约之后，布隆伯格的下一个目标是新闻。当 72 岁的布隆伯格卸任纽约市长时，有人预测他会回归他的慈善机构，而他却激情满满地回到了新闻事业中。好奇心日报为您呈现改造完纽约之后，布隆伯格的下一个目标是新闻的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 彭博 布隆伯格 新闻 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="fR89m2whquuMLUGW9ig8K8f73ZqZg8uYHGvr9rA2a/o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="4938">
+				<span data-id="4938">彭博</span>
+			</li>
+			<li class="tag item" data-id="6495">
+				<span data-id="6495">布隆伯格</span>
+			</li>
+			<li class="tag item" data-id="77">
+				<span data-id="77">新闻</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">改造完纽约之后，布隆伯格的下一个目标是新闻</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Ravi Somaiya</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-27 09:40:51 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5591/medium/5591.jpg?1436688607" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5591" data-title="《改造完纽约之后，布隆伯格的下一个目标是新闻》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5591/medium/5591.jpg?1436688607" data-url="http://www.qdaily.com/mobile/articles/5591.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当 72 岁的布隆伯格卸任纽约市长时，有人预测他会回归他的慈善机构，而他却激情满满地回到了新闻事业中
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em style="white-space:normal;"><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em> 
+</p>
+<p class="MsoNormal">
+	自从迈克尔·布隆伯格（Michael R. Bloomberg）重新执掌彭博以后，事情就起了变化。
+</p>
+<p class="MsoNormal">
+	其中一些是小的变化。他曾经怎么也找不到纸巾发放机在哪儿，后来才发现它们被狡猾地藏在了公司卫生间的镜子后面，所以他现在在旁边贴上了指示纸巾位置的箭头。在公司同事之间的邮件上，会标明相关同事进入公司的时间——这也是布隆伯格回到集团以后重新恢复的一条规矩。有人推测，这是想对那些较早加入的员工们给予一些鼓励（或者让那些晚进集团的人感到难为情）。在一份备忘录里，他叫下属不要让门禁卡遮住各自的名牌，那样他就能更方便地认出谁是谁。<span></span> 
+</p>
+<p class="MsoNormal">
+	而另一些则是大变革。当布隆伯格表示希望重回彭博之后，公司的首席执行官丹尼尔·多克托洛夫（<span>Daniel L. Doctoroff</span>）就在去年卸任了。去年底，公司创始人、长期主管新闻业务的马修·温克勒（<span>Matthew Winkler</span>）大权旁落，并被赋予了一个名誉头衔。取代他的是《经济学人》的主编约翰·米可斯威特（<span>John Micklethwait</span>）。布隆伯格主持了这一系列调动，而曾经被认为铁定是温克勒继任者的他的副手劳瑞·海斯（<span>Laurie Hays</span>），则在此后不久离开了彭博。<span></span> 
+</p>
+<p class="MsoNormal">
+	近 <span>13 </span>个月前，当 <span>72 </span>岁的布隆伯格卸任纽约市长、离开纽约市政厅的时候，有人预测他会回归他的慈善机构，全身心投入到他所捍卫的社会公益事业上。然而他却激情满满地回到了他的新闻事业上。在接受采访时，有十多位现职员和前职员都说，他对领导权的强力把控已经震动了彭博的编辑部、打破了旧的联盟和僵局，而员工们在尝试推行新举措和新政策的时候，内心也充满着不确定。<span></span> 
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/8659940aa9a9.jpg" /> 
+</p>
+<p class="MsoNormal">
+	<span style="white-space:normal;"><em>去年 4 月，卸任纽约市长的迈克尔·布隆伯格在纽约彭博慈善基金会总部。</em></span> 
+</p>
+<p class="MsoNormal">
+	布隆伯格已经更改了计划、调整了策略，并在公司架构里深挖，亲自制定最细小的政策和决策——这些信息都是彭博现职员和前职员说的，因为谈论前市长的领导力是件敏感的事，他们坚持匿名。对于记者来说，在一个习惯了照着自己的想法做事情、公司大楼还是以他的名字冠名的人手下干活……正如一位前职员所说，那感觉到像是身处一个气象系统里——高处不胜寒、不可控，而且无所不能。<span></span> 
+</p>
+<p class="MsoNormal">
+	公司拒绝让布隆伯格或者他的媒体高管们接受采访。“是的，他现在正在执掌公司，”彭博新闻集团发言人马克·拉沃格（<span>Marc LaVorgna</span>）说。他还说，布隆伯格“有能力在进行全球化思考的同时，比任何人都更好地做好细节”。<span></span> 
+</p>
+<p class="MsoNormal">
+	“这就是为什么他能成功地创立和运营了这家公司，也是为什么他能当一个成功的市长，”拉沃格说。<span></span> 
+</p>
+<p class="MsoNormal">
+	在位于莱克星顿大道的彭博有限合伙公司（<span>Bloomberg L.P.</span>）<span>5 </span>楼的办公室里，布隆伯格和同事们坐在自己的桌边开会。这里也是公司的电视业务开始运营的地方。他还会在一个会议室里上西班牙语课。<span></span> 
+</p>
+<p class="MsoNormal">
+	布隆伯格曾在 <span>2002 </span>年至 <span>2014 </span>年间担任纽约市长，他从来没有当过记者，而当他上一次管理公司时，博彭新闻业务的规模比现在要小。不过熟悉他思想的人说，他对媒体的力量和潜力非常着迷。<span></span> 
+</p>
+<p class="MsoNormal">
+	除了参加每日编辑会之外，他还会和彭博媒体集团（<span>Bloomberg Media Group</span>）首席执行官贾斯汀·史密斯（<span>Justin B. Smith</span>）等集团高管开小会，贾斯汀正在领导对公司新闻业务的大规模转型。一起开会的还会有《彭博商业周刊》的总编乔什·泰兰基尔（<span>Josh Tyrangiel</span>）。在和布隆伯格开会以后，这两位通常都会有新的思路，或者对工作方向进行调整。<span></span> 
+</p>
+<p class="MsoNormal">
+	直到 <span>1990 </span>年代末都一直在布隆伯格身边做营销主管的伊丽莎白·德玛丝（<span>Elisabeth DeMarse</span>）说，布隆伯格“是一个难懂的聪明人”。她说，作为公司的管理者，布隆伯格喜欢进行变革。“他喜欢让人们保持在失衡的状态，”她说。“他不会让任何人耀武扬威。”<span></span> 
+</p>
+<p class="MsoNormal">
+	一位熟悉公司财务状况的人说，公司的媒体业务每年都会让彭博有限合伙公司损失数亿美元，而彭博有限合伙公司每年 <span>90 </span>多亿美元的收入中，绝大部分来自其财经数据终端。布隆伯格的目标，是让媒体业务版块的亏损处在可控的范围内，而在他认为有发展空间的领域，则要不断扩大公司的影响力。<span></span> 
+</p>
+<p class="MsoNormal">
+	早在 <span>1 </span>月份在纽约召开的一次会议上，他就告诉高级编辑人员们说，当他 <span>2002 </span>年离开彭博去做市长的时候，他的公司只有一个新闻组织。他说，当他回来的时候，公司有 <span>12 </span>个下属的新闻组织，在新闻专线、电视、广播、网络、杂志和其他领域都有不同的团队。有人推测，下个月即将履新的米可斯威特将会承担整合这些不同媒体的任务。<span></span> 
+</p>
+<p class="MsoNormal">
+	特别是布隆伯格一直在参与重塑公司的电视版块，而且其参与程度已经到了相当细致的层面——几位员工说，是他亲自决定取消了在屏幕下方滚动的股票信息，并在画面的右边加进了信息框。他还对一个新的商业新闻网络进行了评估，而该网站被认为是公司为核心商业受众打造的关键产品。网站原计划上周二推出，但现在已经由于明显的技术原因推迟上线。<span></span> 
+</p>
+<p class="MsoNormal">
+	布隆伯格说过，两个直接了解情况的人，就会成为媒体的热心受众。他有一台 <span>iPhone 6 Plus</span>，但基本上只用彭博出的应用。他在自己的 <span>iPad Mini </span>里会读的两个出版物，分别是《纽约邮报（<span>The New York Post</span>）》和《经济学人》。<span></span> 
+</p>
+<p class="MsoNormal">
+	在布隆伯格正在为自己卸任市长后的生活做规划时，大多数人以为他会把时间花在慈善事业上。据《福布斯》预计，他的个人资产达到了 <span>350 </span>亿美元。但一些认识他的人却怀疑，他不会满足于整天批各种捐款申请上。他的一位朋友说，他“更乐于把时间花在他所关注的事情上”。白宫还对布隆伯格说，将会支持他作为候选人，去竞选世界银行的总裁。<span></span> 
+</p>
+<p class="MsoNormal">
+	但最终他还是回到了自己的公司。起初由于还在进行类似告别旅行的世界环游，所以他回归的进程有点儿缓慢。但随着环游的结束，他对自己在 <span>1982 </span>年创办的彭博有限合伙公司的经营——特别是它的媒体业务——管得越来越多。<span></span> 
+</p>
+<p class="MsoNormal">
+	尽管他并没有公开说明过彭博新闻业务的战略，但他曾和朋友们说，如果公司的其他媒体产品影响力变得很大时，人们会更愿意购买公司的财经终端。更大的覆盖面同样也会让公司的影响力超出终端的范畴，吸引尚未订阅彭博服务的金融业以外的高管。而且，和财经通讯社相比，公众人物也更愿意接受一般出版物的新闻采访。<span></span> 
+</p>
+<p class="MsoNormal">
+	在他担任市长期间，公司新闻部门的业务扩张到了深度新闻报道和调查性报道，这一策略当时曾让编辑部的目标和业务发展产生了冲突——比如公司就把中国看作是其数据服务可以实现巨额增长的市场（但彭博新闻的网站在中国却无法访问，译者注）。据熟悉公司内部讨论情况的人说，这些紧张关系仍然还未得到解决。<span></span> 
+</p>
+<p class="MsoNormal">
+	有几个人说，对于公司在布隆伯格回归之前所做的决定，史密斯是向布隆伯格汇报过的。这其中就包括了一系列新闻产品，比如一档政治性电视节目，以及由政治记者约翰·海尔曼（<span>John Heilemann</span>）和马克·哈珀林（<span>Mark Halperin</span>）负责管理的相关网站。<span></span> 
+</p>
+<p class="MsoNormal">
+	德玛丝现在是金融媒体公司 <span>TheStreet </span>的首席执行官，她说：“为迈克工作和为普通人工作不一样。你必须得非常聪明，必须对模糊的态度有相当的忍耐力，必须懂得变通，因为事情变化得太快了。整个组织的变动会非常快，而你必须在这个过程中树立自己的威信。”<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	翻译<span> is</span>译社
+葛仲君<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="4938">
+				<span data-id="4938">彭博</span>
+			</li>
+			<li class="tag item" data-id="6495">
+				<span data-id="6495">布隆伯格</span>
+			</li>
+			<li class="tag item" data-id="77">
+				<span data-id="77">新闻</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5591" data-title="《改造完纽约之后，布隆伯格的下一个目标是新闻》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5591/medium/5591.jpg?1436688607" data-url="http://www.qdaily.com/mobile/articles/5591.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24709.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24709/medium/24709.gif?1459321585" alt="">
+                        <h1 class="title">手机防水重要么？三星让你体验一种别样的快感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24713.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24713/medium/24713.jpg?1459324043" alt="">
+                        <h1 class="title">神游的时候，你的脑袋都在准备世界崩塌</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24716.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24716/medium/24716.jpg?1459326299" alt="">
+                        <h1 class="title">Airbnb 出了个海景房，让你和鲨鱼睡一晚</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5591">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5591" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">21</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5564.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

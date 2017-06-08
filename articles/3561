@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「这世界」# 我们能登陆彗星但我们不能 XXX #_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「这世界」# 我们能登陆彗星但我们不能 XXX #。菲莱成为了首个登陆彗星的人造探测器，虽然这是一个有点严肃认真的消息，但是到了英国人那里，就开始变得逗起来了。。好奇心日报为您呈现「这世界」# 我们能登陆彗星但我们不能 XXX #的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="这世界 菲莱 BBC 彗星登陆 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Nz0UG4tazmTMZvfcBJ0VMVn7O6KWs4fftv7AvcP7fxI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1543">
+				<span data-id="1543">这世界</span>
+			</li>
+			<li class="tag item" data-id="4271">
+				<span data-id="4271">菲莱</span>
+			</li>
+			<li class="tag item" data-id="1368">
+				<span data-id="1368">BBC</span>
+			</li>
+			<li class="tag item" data-id="4272">
+				<span data-id="4272">彗星登陆</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「这世界」# 我们能登陆彗星但我们不能 XXX #</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4695/small/4695.jpg?1418026962" alt="">
+					</span>
+				<span class="name">孙若空</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-14 11:29:42 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3561/medium/3561.jpg?1436639984" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3561" data-title="《「这世界」# 我们能登陆彗星但我们不能 XXX #》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3561/medium/3561.jpg?1436639984" data-url="http://www.qdaily.com/mobile/articles/3561" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				菲莱成为了首个登陆彗星的人造探测器，虽然这是一个有点严肃认真的消息，但是到了英国人那里，就开始变得逗起来了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	“着陆！我的新地址： 67P 。”&nbsp;
+</p>
+<p class="p1">
+	11 月 12 日上午 8 点 04&nbsp;菲莱登陆器分首先在 Twitter 上分享了这个消息。当天 17 时 03 分，欧航局位于德国达姆施塔特的欧洲空间运转中心收到确认“菲莱”着陆的信号，它成功降落在了彗星“ 67P /丘留莫夫-格拉西缅科”上。
+</p>
+<p class="p1">
+	从历史意义上来说，菲莱（有多少人看成了韭菜？）成为了首个登陆彗星的人造探测器。
+</p>
+<p class="p1">
+	虽然帮助菲莱固定在彗星上的冷气推动器无法启动、“渔叉”装置也没有成功抓出彗星表面所以它随时有飘回太空的可能，但忠诚的菲莱同学已经投入到了紧张的工作当中，向欧洲宇航局传回了大量的数据。
+</p>
+<p class="p1">
+	欧洲宇航局那个普大喜奔啊。首先，13 亿多欧元的投入总算是出成绩了，其次，欧洲航天技术的实力总算得以证明了。过去十年成果了了的憋屈终于一扫而空了。当然用情怀一点的眼光来看，对于 2000 名投身这项事业的科学家来说，他们多年来的梦想终于实现了。
+</p>
+<p class="p1">
+	位高权重的欧航局局长让-雅克·多尔丹在镜头前还是比较淡定的，面对记者的采访，他只是用“这是对人类文明的一大步”对他们的成功做了总结和拔高。但为此熬了好几年的科学家们激动起来就 hold 不住了。比如英国开放大学（Open University）的教授莫妮卡·格雷迪（Monica Grady）。
+</p>
+<p class="p1">
+	随着菲莱登陆，莫妮卡·格雷迪一时之间也在网上红了一把。她在 BBC 对菲莱着陆的报道中出现的超 High 的那几秒已经火速在互联网上传播开来。手舞足蹈欢呼雀跃都不足以形容这位教授当时的表现。在那个开心的瞬间，她不停地说着：“我已经等了很多年......我只是太激动了，我要哭了！对不起。这就像做梦，太像做梦了，太美妙了，真的，真的很奇妙，对不起，对不起。”说着她又激动的抱住了 BBC 科学编辑，边抱边道歉说：“对不起，大卫，我不是故意要这样拥抱你的。”然后，大家看到莫妮卡·格雷迪教授开始努力克制自己情绪，“对不起，对不起，现在我会尽力，做一个专业的科学家......”老实说，大家都忍不住怀疑是不是因为莫妮卡·格雷迪教授的表现实在太可爱了，所以明明是去报道菲莱情况的 BBC 也忍不住对着她多拍了一会儿。
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201411/89aa8689efdb.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201411/3aeade43b11d.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	菲莱的登陆自然而然地也成为了随后一段时间内社交网络上的热门话题。但你知道啦，互联网上总有那么一些高贵冷艳的家（dou）伙（bi）。那些包含有吐槽之心的人在大家都热烈庆祝菲莱登陆彗星的时候冷不防地又制造了一个“我们能登陆彗星但我们不能 XXX”的新话题。
+</p>
+<p class="p1">
+	当然，这些无聊的家伙讨论的都是些什么“我们能登陆彗星但我们不能打喷嚏时睁着眼睛”啊，“我们能登陆彗星但我们不能停止让做蠢事的人出名”啊、“我们能登陆彗星但我们不能使西兰花口感更好”啊之类无意义的话题。间或还有像英国的午餐肉牌子 SPAM 冷不丁地跑出来打个广告说“我们能登陆彗星但我们不能在生活中没有 SPAM 午餐肉！”
+</p>
+<p class="p1">
+	虽然这些话题和人类第一次登上彗星这么严肃而又伟大的事有些不搭啦，但它们总算也让菲莱与人类文明的现实层面挂钩了。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1543">
+				<span data-id="1543">这世界</span>
+			</li>
+			<li class="tag item" data-id="4271">
+				<span data-id="4271">菲莱</span>
+			</li>
+			<li class="tag item" data-id="1368">
+				<span data-id="1368">BBC</span>
+			</li>
+			<li class="tag item" data-id="4272">
+				<span data-id="4272">彗星登陆</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3561" data-title="《「这世界」# 我们能登陆彗星但我们不能 XXX #》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3561/medium/3561.jpg?1436639984" data-url="http://www.qdaily.com/mobile/articles/3561" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25276/medium/25276.jpg?1460357878" alt="">
+                        <h1 class="title">一款号称卖给 “95 后”的茶饮料，背后是大公司对年轻人怎样的揣测？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25272/medium/25272.jpeg?1460353578" alt="">
+                        <h1 class="title">灯越来越重要，北欧家居公司HAY独立一个子品牌专做这个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25268/medium/25268.jpg?1460346559" alt="">
+                        <h1 class="title">「这世界」那些不睡觉的传说，还是留给真正的天才吧！</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25285.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25285/medium/25285.jpg?1460366636" alt="">
+                        <h1 class="title">这家做汽水机的公司，总喜欢在广告里诋毁人家做瓶装生意的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25281.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25281/medium/25281.jpg?1460359761" alt="">
+                        <h1 class="title">阿里体育的乒羽平台，暂时还只有比赛报名功能</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3561">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3561" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">6</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3557.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

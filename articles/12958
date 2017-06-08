@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>除了叫车，打车软件生意还能怎么玩？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="除了叫车，打车软件生意还能怎么玩？。代驾、车险、快递……脑洞请再开大一点。。好奇心日报为您呈现除了叫车，打车软件生意还能怎么玩？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="打车应用 快递 车贷 Uber " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="NpMfYQAm7LgOPinxZkMbyw9kW+FiO62JgsGYu3tAdnc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5120">
+				<span data-id="5120">打车应用</span>
+			</li>
+			<li class="tag item" data-id="3207">
+				<span data-id="3207">快递</span>
+			</li>
+			<li class="tag item" data-id="13885">
+				<span data-id="13885">车贷</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">除了叫车，打车软件生意还能怎么玩？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-04 08:40:22 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12958/medium/12958.jpg?1438593808" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12958" data-title="《除了叫车，打车软件生意还能怎么玩？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12958/medium/12958.jpg?1438593808" data-url="http://www.qdaily.com/mobile/articles/12958.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				代驾、车险、快递……脑洞请再开大一点。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	不久前，<a href="https://newsroom.uber.com/2015/07/a-flexible-vehicle-leasing-pilot-in-california-georgia-maryland/">Uber 宣布在美国成立了一家名为 Xchange 的子公司</a>，向公众租赁全新和二手的汽车，以此吸引更多人成为 Uber 司机。此前，Uber 的经济模式是与司机按照单分成，司机自己支付汽车购买和保险；而现在，Uber 还想自己做车主，正式走进了金融服务领域，这家公司还能做点啥？
+</p>
+<h2>
+	从打车到租车
+</h2>
+<p>
+	目前，Uber 的租车服务已经涵盖了丰田、通用、福特、尼桑、现代、克莱斯勒等多家厂商的车型。司机可按周支付费用，租满 3 年后就能购得这辆车，这也就相当于车贷，其利率约 11.6％ 。但该服务还仅限于加利福尼亚、佐治亚、马里兰三个州，测试结束后或向更多地区推广。
+</p>
+<p>
+	而且对于一些信用状况不佳的人，只要能通过 Uber 的背景调查，也能获得称为 Uber 司机的机会了。<a href="http://recode.net/2015/07/29/uber-offers-revised-car-leasing-program-that-could-be-more-appealing-for-drivers/">根据 Recode 介绍</a>，如果用传统的方式，这些人连租车都会很困难。
+</p>
+<p>
+	实际上，这并不是 Uber 第一次涉足租车领域。2013 年末，Uber 就曾和租赁公司以及汽车厂商展开过类似的活动，但仅收获 2 万名司机。
+</p>
+<p>
+	合作的租赁公司收费过高是其中重要的原因。<a href="http://ww2.kqed.org/news/2015/04/24/one-uber-drivers-story-how-he-was-trapped-by-auto-loan-program">一名司机就曾告诉新闻网站 KQED</a>，他当时每月要偿还 1000 美元的汽车贷款，其利率高达 22.75％。也因此，他不得不一直开 Uber 才勉强够用。
+</p>
+<p>
+	如今利率的下降可能会吸引到更多的司机前来，于是用户叫车或许就更方便了。当然，这也显示出了这家公司在叫车服务外还能做的更多，而租车和车贷也只是其中之一。
+</p>
+<h2>
+	快递：打车运人，为什么不可以运货？
+</h2>
+<p>
+	此前，用 Uber 来送货的营销事件就几乎没有停过，比如送冰淇淋、送猫、送便当等。但其实，Uber 送货在一些地区早已不再只是营销活动。
+</p>
+<p>
+	比如<a href="https://newsroom.uber.com/new-jersey/2015/02/introducing-uberrusha-reliable-ride-for-your-deliveries/"> Uberrush </a>就是通过自行车来做同城快递的服务。用户只需要用 Uber 应用招来快递员，然后填入目的地地址，就能把货物快速送达。
+</p>
+<p>
+	而<a href="%5Bhttps://newsroom.uber.com/nyc/2015/04/ubereats-now-serving-nyc/%5D">在纽约推出的 UberEats</a>&nbsp;和<a href="%5Bhttp://blog.uber.com/uberfresh%5D%0A">加州推出的 UberFresh</a>&nbsp;这两类送餐服务，则显示出了 Uber 同样可以在餐饮配送上有所为。
+</p>
+<p>
+	除此之外，这家公司还<a href="http://techcrunch.com/2014/08/19/uber-corner-store-turns-the-transit-app-into-a-delivery-service-for-daily-staples/">在华盛顿特区推出过 Corner Store 项目</a>。该项目主要通过 Uber 的打车应用来快速配送生活日用品以及紧急药品。
+</p>
+<p>
+	今年 4 月，还传出 Uber 将会和 Louis Vuitton、Tiffany’s、Cohen’s Fashion Optical 这样的高端品牌合作，推出<a href="http://techcrunch.com/2015/04/28/uber-is-quietly-testing-a-massive-merchant-delivery-program/#.4sfadt:HYNK">奢侈品当日送达服务</a>。虽然这件事后来再没有下文，但是送货本身对 Uber 其实已不是难事。
+</p>
+<p>
+	不管怎么说，如果未来 Uber 要把众包快递的生意扩展到全球更多地方，也不会出人意料。
+</p>
+<h2>
+	车险、汽车贷款，还有什么不能做？
+</h2>
+<p>
+	当 Uber 获得越来越多的司机，把这些司机服务好，本身就会成为一门生意。
+</p>
+<p>
+	2014 年 11 月的时候 Uber <a href="https://newsroom.uber.com/2014/11/introducing-momentum-partner-rewards/">就向司机推出过 3 项 Momentum 服务（一个给特定司机的奖励项目）</a>，其中包括一个 15% 的汽车养护折扣，针对司机的医疗保险和运营商合作提供的无线网络折扣。
+</p>
+<p>
+	由于全球各地，甚至美国各州针对汽车保险的政策不尽相同，在一些地区甚至对 Uber <a href="https://newsroom.uber.com/houston/2014/07/a-look-at-uberx-insurance-standards/">该用私家车险还是商用车险还存在争议</a>。汽车保险无疑是影响 Uber 司机们的重要方面。于是 2015 年 1 月，Uber 便<a href="https://newsroom.uber.com/2015/01/a-partnership-with-metromile/">联合保险公司 Metromile 推出了专门针对 Uber 这种顺风车的保险</a>。尽管它可能还是很难推广到全球。
+</p>
+<p>
+	加油也是司机们必不可少的需求。于是，2015 年 6 月 Uber 就顺势<a href="%5Bhttps://newsroom.uber.com/2015/06/partner-fuel-card/%5D">在 Momentum 奖励中新增了带折扣的加油卡服务</a>。通过和 FleetCor 、万事达以及埃克森美孚石油合作，司机就能享受到每加仑最高 15 美分的折扣。
+</p>
+<p>
+	汽车保养、医疗保险、汽车保险、加油卡等这些服务，尽管目前都是 Uber 和第三方合作所提供，但考虑到像汽车贷款这种事，Uber 最后都改合作模式为通过子公司来经营。未来也不排除这家公司会自己来做这件事情。
+</p>
+<h2>
+	有了人和车，打车应用也能为你搬家
+</h2>
+<p>
+	去年八月，Uber 就是在纳什维尔和亚特兰大两地推出了<a href="https://newsroom.uber.com/nashville/2014/08/need-help-moving-ubermovers-are-here/">短暂的搬家服务 UberMovers</a>。只需 25 美金，就能获得由第三方搬家公司 Bellhops 提供的上门搬家服务。而且用的也是 Uber 的客户端。
+</p>
+<p>
+	尽管它只是为学生搬宿舍做的一次营销活动，但搬家本质上还是一种货运，既然 Uber 能推出快递业务，那么未来做搬家服务也应该没什么难处。
+</p>
+<h2>
+	如果你只要司机不要车，打车应用也能做代驾
+</h2>
+<p>
+	今天 4 月，Uber 就曾推出过一个名为<a href="http://www.latinpost.com/articles/50229/20150428/colombias-uber-angel-ubers-unconventional-methods-for-capturing-global-markets.htm"> UberAngel 的代驾服务</a>。如果用户喝多了，也能用 Uber 叫来司机，用自己的车把自己送回家。
+</p>
+<p>
+	不过这个服务目前也仅限于哥伦比亚，因为当地对酒驾的处罚尤为严厉，不仅罚金高达 1.5 万美元，而且还会最高被吊销 25 年驾照。
+</p>
+<p>
+	考虑到上周滴滴就已推出了代驾服务，未来这项业务在打车应用中普及也是有可能的。
+</p>
+<h2>
+	接入到别的应用里，直接分成
+</h2>
+<p>
+	<a href="https://newsroom.uber.com/introducing-the-uber-api/" target="_blank">去年 8 月，Uber 开放了它的 API 接口</a>，这意味第三方的应用开发者也能在自己的应用里接入 Uber 的叫车服务。
+</p>
+<p>
+	目前星巴克、猫途鹰（Tripadvisor）、Opentable 等 13 家已经接入了这项服务。这时候，如果用户在 Opentable 上订好餐，就能直接在应用中无缝地使用 Uber 叫车前往。
+</p>
+<p>
+	虽然现在 Uber 的接口是免费的，但也不排除以后会提供更高级的接口，并参与到这些应用内服务的分成中去。<a href="http://techcrunch.com/2014/08/12/uber-api/">根据 Techcrunch 之前的猜测</a>，如果每单能抽取一美元，也还算合理。
+</p>
+<h2>
+	一键把人运到指定商家
+</h2>
+<p>
+	一键打车说到底，还是想让用户能够最省心。但当你只知道要做什么，却不知道该去哪，Uber 也能带你去想要的。
+</p>
+<p>
+	母亲节的时候，<a href="http://weibo.com/3594467922/CgHzrFMGJ?type=comment#_rnd1438579081778">Uber 就和丝芙兰展开过一次合作</a>，让你用 Uber 直接前往丝芙兰的门店使用体验，让你在给母亲挑选礼物的同时，还能获得打车折扣。
+</p>
+<p>
+	如果，未来 Uber 成为本地线下商铺的导流方式，让消费者直接选择目的地的类型，车就会开到合作的商家门口，也未尝不可。比起点评类网站或者地图，这也要方便许多。
+</p>
+<p>
+	虽然打车应用在未来的一段时间里，或许还是要结合各地市场的不同环境，以及政策法规的限制，但这个产品依然充满想象力。指不定 Uber 的一个新奇的营销活动就会成为它的一个新业务。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图：<a href="http://www.hellorf.com/" target="_blank">站酷海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5120">
+				<span data-id="5120">打车应用</span>
+			</li>
+			<li class="tag item" data-id="3207">
+				<span data-id="3207">快递</span>
+			</li>
+			<li class="tag item" data-id="13885">
+				<span data-id="13885">车贷</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12958" data-title="《除了叫车，打车软件生意还能怎么玩？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12958/medium/12958.jpg?1438593808" data-url="http://www.qdaily.com/mobile/articles/12958.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24680.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24680/medium/24680.jpg?1459267693" alt="">
+                        <h1 class="title">喂，你们这些看电视的大人们，来听听我们的歌</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24666.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24666/medium/24666.jpg?1459256924" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12958">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12958" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">46</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12961.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

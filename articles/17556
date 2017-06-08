@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”。标识上写的是“All Gender Restroom”（无性别卫生间）。有个女士大声说：“你是说我可以去男厕所吗？”。好奇心日报为您呈现“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="卫生间 标识 无性别 纽约时报 城市建设 LGBT " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="K4BONh8/BuIC2PueDG6SF63lbLSLzFOnl0ujEpL73kc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2129">
+				<span data-id="2129">卫生间</span>
+			</li>
+			<li class="tag item" data-id="11129">
+				<span data-id="11129">标识</span>
+			</li>
+			<li class="tag item" data-id="16817">
+				<span data-id="16817">无性别</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="11466">
+				<span data-id="11466">城市建设</span>
+			</li>
+			<li class="tag item" data-id="1128">
+				<span data-id="1128">LGBT</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Aimee Lee Ball</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-16 17:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17556/medium/17556.jpg?1447409679" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17556" data-title="《“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17556/medium/17556.jpg?1447409679" data-url="http://www.qdaily.com/mobile/articles/17556.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				标识上写的是“All Gender Restroom”（无性别卫生间）。有个女士大声说：“你是说我可以去男厕所吗？”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/w/whitney_museum_of_american_art/index.html?inline=nyt-org">惠特尼美术馆</a>在搬到曼哈顿下城的新址前，曾经主持过一场讨论，话题是“博物馆怎么样才能算是一个既安全又热情的地方”。
+</p>
+<p>
+	有一条在各种议题中排在了很靠前的位置：为所有不同性别的人提供卫生间。
+</p>
+<p>
+	“我们邀请了所有性别认同的艺术家来参与讨论，”这个易用性和社区项目的主管丹妮艾勒·林泽（Danielle Linzer）说。“而且我们清楚地听到他们说，这是他们真正有需求的东西，我们没有扭捏，而是决定直面此事。”
+</p>
+<p>
+	所以在惠特尼美术馆新馆的标识上写的是“All Gender Restroom”（无性别卫生间），而林泽常看到有女士大声说出自己的疑惑：“你是说我可以去男厕所吗？”
+</p>
+<p>
+	对于重新思考公共空间里的厕所问题，惠特尼美术馆并不是唯一一个受到挑战的机构。由于现在不同性别认同的人参军服役和<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/s/same_sex_marriage/index.html?inline=nyt-classifier">同性婚姻</a>问题基本上已经得到解决，所以争取无性别卫生间的行动，就成为了女同性恋者、男同性恋者、双性恋者与跨性别者（LGBT）群体最新的人权议题——其中跨性别者群体的愿望尤其强烈。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/c56175cf0913.jpg" width="427" height="484" title="上部左起分别是惠特尼美术馆、犹他大学和华盛顿特区 Founding Farmers 餐厅的无性别卫生间标识。 中部左起分别是纽约民间艺术博物馆（Folk Art Museum）、市政厅和内华达大学的无性别卫生间标识。 下部左起分别是惠特尼美术馆、罕布什尔学院和巴纳德学院的无性别卫生间标识。" alt="上部左起分别是惠特尼美术馆、犹他大学和华盛顿特区 Founding Farmers 餐厅的无性别卫生间标识。 中部左起分别是纽约民间艺术博物馆（Folk Art Museum）、市政厅和内华达大学的无性别卫生间标识。 下部左起分别是惠特尼美术馆、罕布什尔学院和巴纳德学院的无性别卫生间标识。" /><span>上部左起分别是惠特尼美术馆、犹他大学和华盛顿特区 Founding Farmers 餐厅的无性别卫生间标识；</span> 
+</p>
+<p style="text-align:center;">
+	<span>中部左起分别是纽约民间艺术博物馆（Folk Art Museum）、市政厅和内华达大学的无性别卫生间标识；</span> 
+</p>
+<p style="text-align:center;">
+	<span>下部左起分别是惠特尼美术馆、罕布什尔学院和巴纳德学院的无性别卫生间标识。</span> 
+</p>
+<p>
+	学校和大学（包括约翰·霍普金斯大学和密歇根州立大学）、博物馆（比如纽约的美国民间美术馆和盐湖城的犹他美术馆）、时髦的餐厅和普通餐厅（比如休斯敦的Pass &amp; Provisions 和加州圣克鲁兹的 Midtown Cafe），甚至是（位于艾森豪威尔行政办公大楼里的）<a href="http://www.politico.com/story/2015/04/white-house-gender-neutral-bathroom-116779">白宫</a>都在重新的整修传统的男女分用式卫生间，因此也出现了让人眼花缭乱（却又往往创意十足）的一类标识和用词。
+</p>
+<p>
+</p>
+<p>
+	个中原因一部分和法律有关。西雅图、伯克利、圣塔菲、奥斯汀和费城等城市都已经通过了相关法律，要求配备单人用的无性别卫生间。费城有一个在线的<a href="http://www.google.com/maps/d/viewer?mid=z5ka4rzrs7f8.kupwuyqo6q1g">寻厕指南</a>，显示出了此类设施的位置，此外还有一个叫&nbsp;<a href="http://www.refugerestrooms.org/">Refuge Restrooms</a>（救命厕所）、适用于全美国的手机寻厕应用。
+</p>
+<p>
+	费城市长 LGBT 办公室主任海伦·费茨帕特里克（Helen L. Fitzpatrick）说，费城的公司将有90天的时间来完成相关配套工作。她说：“但我们的目标是不让一个人因此而受罚，我会到市里各处去，把这个法律的推进作为一次教育公众的机会。”
+</p>
+<p>
+	引入一个新的词汇也是工作内容之一。9 月，费茨帕特里克访问了一间在窗户上贴了攻击卡戴珊的变性继父凯特琳·詹娜（Caitlyn Jenner）标语的酒吧。在和老板谈过之后，他们挂起了<a href="http://www.phillymag.com/g-philly/2015/09/22/sign-caitlyn-jenner-teachable-moment/">一条新的标语</a>：“Cis-gender white men learned something new today!!”（顺性白人今天学到了点儿新东西！！）（“顺性”指的是个人的生理性别与其行为或其扮演的角色完全匹配，译注）。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/70ceaab50243.jpg" width="600" height="399" title="惠特尼美术馆里具有性别包容性的卫生间。图片来源：Hilary Swift for The New York Times" alt="惠特尼美术馆里具有性别包容性的卫生间。图片来源：Hilary Swift for The New York Times" /><span>惠特尼美术馆里具有性别包容性的卫生间。图片来源：Hilary Swift ／《纽约时报》</span> 
+</p>
+<p>
+</p>
+<p>
+	去年在缅因州有一个标志性的案子，法律的认可并不是没有受到人们的质疑，跨性别的高中学生尼科尔·梅恩斯（Nicole Maines）<a href="http://bangordailynews.com/2014/12/01/news/bangor/nicole-maines-transgender-student-maine-lawsuit-ends-with-order-telling-school-to-allow-bathroom-access-based-on-gender-identification/">成功地告倒了自己所在的学区</a>，因为后者曾经不让她去自己所认同的性别的卫生间。（她的故事还被写成了书：《成为尼科尔》（<a href="http://www.nytimes.com/2015/10/22/books/review-becoming-nicole-a-young-boys-journey-into-girlhood.html">Becoming Nicole</a>）。）
+</p>
+<p>
+	9月，<a href="http://elkodaily.com/news/local/board-denies-transgender-request/article_7bd181b8-427b-5fe5-916e-d012e504e547.html">内华达州艾科县学校董事会投了一次票</a>，把跨性别学生挡在了他们所认同的性别的卫生间之外。威斯康星州的两位州议员想要求学校董事会<a href="http://www.wpr.org/gender-restrictions-proposed-wisconsins-school-bathrooms">明确标出卫生间对应的某一种性别</a>，而他们所说的性别指的是“男性或女性的生理状态”。（而在邻近的明尼苏达州，由民主党把控的州参议院否决了一项类似的提案。）
+</p>
+<p>
+	周二在休斯敦，<a href="http://www.nytimes.com/2015/11/04/us/houston-voters-repeal-anti-bias-measure.html">选民否决了</a>一项<a href="http://www.nytimes.com/2015/10/28/opinion/the-equal-rights-fight-over-houstons-bathrooms.html">被称为“卫生间法令”的举措</a>，该法令意在禁止基于性别认同的歧视。
+</p>
+<p>
+	但事情也在发生着变化，因为各类组织都认可了无性别卫生间的意义。萨穆埃尔·巴斯（Samuel Bass）是旧金山 Miraloma 小学的校长，<a href="http://www.examiner.com/article/san-francisco-s-miraloma-elementary-school-puts-boys-and-girls-same-bathroom">这个小学低年级学生用的卫生间现在全是无性别卫生间</a>，而剩下的卫生间也将完成改造。
+</p>
+<p>
+	巴斯说：“长久以来，从一年级到六年级，我们都要求学生遵守男女二元划分，我们有一些学生还有别的性别认同，所以我们认为我们应该这么做，它也并不会影响到其他学生。在大人们教他们之前，孩子们是不懂得性别规范的。家长们则会质疑任何一种变化，但当他们意识到孩子在这儿和在家里一样的时候，也就没什么大不了的了。”
+</p>
+<p>
+	许多跨性别者都说，他们每天都要盘算好什么时候、在哪里上厕所，承受憋尿带来的膀胱感染，憋不住要去上厕所的时候，还得冒着被骚扰或被打的风险。最近，马萨诸塞大学安姆斯特分校 LGBT 资源组&nbsp;<a href="http://www.umass.edu/stonewall/">The Stonewall Center</a>&nbsp;完成了美国首次针对自我认同不是男性、也不是女性的大学学生的全国性调查。猜猜看，几乎所有人眼中最大的问题是什么？
+</p>
+<p>
+	在不包容的心态影响下，就连现实都变得复杂了起来。根据纽约市人权法的规定，人们拥有根据自身对性别的认同选择使用某一单一性别卫生间的权利。
+</p>
+<p>
+	但严格的下水管道规范或者地标性建筑的身份，意味着公司不能直接换掉标识就算符合了规定。根据建筑类型、建筑年份以及占用权的不同，相应的要求是由不同的规范规定的。在一些情况下，规范会规定某一场所“可以”有无性别卫生间，而不是“必须”有，而这也反映出了从经济角度考虑向社会角度考虑过渡的现状。
+</p>
+<p>
+	百老汇的剧院依然在纠结这个问题，但在举办艾美奖获奖电视剧《透明人生》（Transparent）红毯首映礼时，洛杉矶市中心的&nbsp;<a href="http://www.acehotel.com/losangeles/theatre">Ace Hotel 的剧院</a>就已经有了无性别卫生间。（这部电视剧讲的是一个变性为女人的父亲的故事，在为获奖预热时，该剧制作公司就推出了一次<a href="http://www.tubefilter.com/2015/06/01/amazon-transparent-emmy-campaign-restaurant-bathrooms/">游击宣传活动</a>，由公司出钱，换掉了餐厅里标注了特定性别的卫生间单间门上的标牌，把它们都换成了写着“Be Transparent”[做个透明人]的标牌。）
+</p>
+<p>
+	直到 19 世纪晚期，公共卫生间才在美国普遍出现。美国内战期间的霍乱流行让人们意识到，尿壶里的东西胡乱往窗户外面一丢是不大合适的，因此美国人开始认真地注意起了公共卫生。
+</p>
+<p>
+	自从有了公共卫生间，它就成为了一个颇不寻常的民权运动基点，无论是非裔美国人还是残疾人，都爱拿它说事儿。
+</p>
+<p>
+	针对跨性别人群的歧视，则把这一问题引向了一个尖锐的新焦点上。但不同性别共享卫生间的想法并不新鲜，《甜心俏佳人》（Ally McBeal）的粉丝们也许还记得电影中的相关桥段（不过电影里 Cage and Fish 律师事务所里的卫生间，似乎经常被用来作为和乔·邦·乔维[Jon Bon Jovi]或者小罗伯特·唐尼[Robert Downey Jr.]嬉耍的地方）。
+</p>
+<p>
+	而在现实生活中，<a href="http://www.youtube.com/watch?v=ayuavfaqwew">当时想象出来的多隔间卫生间</a>的情况则变得更加复杂，而且当人们只能去这种卫生间的时候，事情尤其难办。一些地方采用的是更不容易起争议的单人卫生间，而一些地方则没有亮出自己的态度，继续沿用了传统的男女分开的卫生间。
+</p>
+<p>
+	在谈到性别自我认同时，<a href="http://www.nytimes.com/2014/04/06/fashion/facebook-customizes-gender-with-50-different-choices.html">就连用词都变得十分慎重</a>：中性（gender-neutral）、无性别（all-gender）、不分性别（gender-inclusive）、性别开放（gender-open）、男女通用（unisex）……所有这些都是想说男女不分的意思。巴纳德学院在卫生间门上用的是“Gender Inclusive”的字样，还同时用了马桶和滴水龙头的图标。（巴纳德学院<a href="http://columbiaspectator.com/news/2013/10/01/restroom-signs-go-gender-inclusive">在教育学生方面的努力</a>还包括了一张传单，上面写的是“We want everyone to be able to pee in peace.”[我们希望所有人都能平和地如厕。]）
+</p>
+<p>
+	内华达大学拉斯维加斯分校则选择了一个彩色的柜子和“Gender Neutral”、“Unisex”的字样，不过这些用词并没有让跨性别人群感到特别满意。
+</p>
+<p>
+	“对我来说，说‘中性’就像是在说色盲，”Stonewall Center的主管杰尼·毕敏（Genny Beemyn）说。“我们能看得出性别，否认它，就是否认人的现实情况。我们在努力提高人们对于性别多样化的认识，而不是想抹掉它。”
+</p>
+<p>
+	“无性别”这个词似乎受到了人们的喜爱。纽约的新学院（New School）在卫生间用的就是这个词，配的是内部排水管路的象形文字。“我从来没想过自己会就小便池说这么多话，”社会公正运动的主管盖尔·德雷克斯（Gail Drakes）说。
+</p>
+<p>
+	在一个被人们普遍认为观念没那么激进的犹他州，犹他大学里却有无性别卫生间。伊利诺伊州立大学也决定使用无性别标牌，但同时还在标牌上加了一句冗长的附言：“Anyone may use this restroom regardless of gender, gender identity or expression.”（无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间）。伊利诺伊州立大学平等机会、伦理与权利部主管珊恩·麦克克里利（M. Shane McCreery）说：“我们并不是要改变卫生间的用途，只是想承认我们认同所有人，并且希望接纳他们。”
+</p>
+<p>
+	毫无意外地，大学生们正在推动无性别差异权利这个议题。美国各企业对此议题态度的改变则没有那么快。Target 超市的政策是：目前“家庭专用”卫生间就够用了。星巴克则示范性地声明称，“咖啡厅应当是一个热情、诱人和熟悉的地方”。（咱把它的说法翻译成它的做法吧：一些星巴克的门店已经有了无性别卫生间，而且可能还会有更多的店跟进。）
+</p>
+<p>
+	但位于俄勒冈的耐克世界总部则采取的是一幅简单的黑白马桶图像，它是由一名 28 岁、自称是社会公正倡导者的萨姆·齐勒曼恩（<a href="http://www.samuelkillermann.com/">Sam Killermann</a>）绘制的。他是受一张叫作“Victor/Victoria”的简笔人物画的启发想出的这个图案。画中人穿的是一件一半裙子、一半裤子的衣服，而那些性别不顺从的人则不喜欢这种衣服，他们强调说，自己既不喜欢裙子、又不喜欢裤子。
+</p>
+<p>
+	“人们都被这个想法给吓到了，”齐勒曼恩说。“而且关于它的讨论往往就转而开始讨论‘我们在门上放什么？我有点儿受不了了，于是写了一篇博客取笑这个一半男人、一半女人的标识，并没有恶意，只是希望这篇文章能说明一下这种想法有多荒唐，如果人人都想做老好人，那才是真的有问题’。”
+</p>
+<p>
+	纽约一家叫<a href="http://www.smartsign.com/all-gender-restroom-signs">SmartSign</a>的公司使用过这种阴阳人的图案，他们联系到了齐勒曼恩，提出要买下他设计的厕所标识的版权（顺便说一下，齐勒曼恩对于被人称为‘厕所标识男’完全没意见）。他对 SmartSign 说，他们可以免费用这个标识。他说：“于是他们按照我的建议做了，做得比我还好，还开始免费发放这个标识。”
+</p>
+<p>
+	到目前为止，SmartSign 已经把这个卫生间的标识发到了教堂、医院、图书馆、公立学区、食品合作社、一个马戏团和 128 所大学。
+</p>
+<p>
+	在世界上的很多地方，WC（water closet[抽水马桶]的缩写）已经成为了被广泛承认的无性别用语，但在肯尼亚也有它的新变种出现——在安加马马拉野生动物保护区（Angama Mara Safari Lodge）每间卫生间的门上，放的是当地的男女马赛小勇士的图案。
+</p>
+<p>
+	<span>费城的&nbsp;</span><span>White Dog Café&nbsp;</span><span>想出了一个解决办法：两个卫生间分别被分配给了民主党人和共和党人，另外两个则画的是指示犬和赛特犬（<a href="http://www.metaphordogs.org/dogs/entries/pointset.html"><span>它们开的是人体部位的玩笑</span><span>——</span><span>懂了没？</span></a>）</span><span>“</span><span>顾客们都很喜欢这个点子，</span><span>”</span><span>咖啡厅曾经的老板茱迪</span><span>·</span><span>威克斯（</span><span>Judy Wicks</span><span>）说。</span><span>“</span><span>不过外国人还是看不懂。由于日本的文化讲究礼貌，所以日本的游客会站在那儿努力地想该进哪个卫生间。</span><span>”</span> 
+</p>
+<p>
+	（不过咖啡厅的新老板去掉了那些标牌。现在，这 4 个卫生间门上都贴的是狗狗的贴纸，并没有说明性别。）
+</p>
+<p>
+	而在华盛顿特区的 Founding Farmers 餐厅，人们是不会犯这种该进哪一个的错误的——它的卫生间门上标的分别是 Men（男士）、Women（女士）和 Rest of Us（其他人士）。
+</p>
+<p>
+	“男士在卫生间里一般会比较邋遢，而女士则会优雅、明智一些，”餐厅老板丹·西蒙斯（Dan Simons）说。“这就是我最初的想法。餐厅的两个卫生间正好在隔壁，所以我在一个上标的是‘女士’，另一个标的是‘其他人士’。后来我收到一封信说，这两个卫生间带有歧视性，因为女士有专用的卫生间。”
+</p>
+<p>
+	“这时我才意识到，对于一些人来说，这是一个让他们感到紧张的话题，”他说。“所以我想，为什么我不标清楚呢？我们需要一个写着‘我们不给人贴标签’的标牌。”
+</p>
+<p>
+	<span>题图来自&nbsp;<span><a href="http://www.huffingtonpost.com/2015/01/23/gender-neutral-bathrooms_n_6534738.html">www.huffingtonpost.com</a></span></span> 
+</p>
+<p>
+	<span>翻译 &nbsp;&nbsp;</span><span>is</span><span>译社 葛仲君</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2129">
+				<span data-id="2129">卫生间</span>
+			</li>
+			<li class="tag item" data-id="11129">
+				<span data-id="11129">标识</span>
+			</li>
+			<li class="tag item" data-id="16817">
+				<span data-id="16817">无性别</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="11466">
+				<span data-id="11466">城市建设</span>
+			</li>
+			<li class="tag item" data-id="1128">
+				<span data-id="1128">LGBT</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17556" data-title="《“无论你的性别、性别认同或者性别表达如何，都可以用这间卫生间”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17556/medium/17556.jpg?1447409679" data-url="http://www.qdaily.com/mobile/articles/17556.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9978.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9978/medium/9978.jpg?1436653135" alt="英国设计师说，裙子作为女洗手间标识略不妥">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">英国设计师说，裙子作为女洗手间标识略不妥</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">18</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/8348.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/8348/medium/8348.png?1436695120" alt="男士洗手间里这 15 样东西，你想要有多少？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">男士洗手间里这 15 样东西，你想要有多少？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">23</span>
+				<span class="iconfont icon-heart">357</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26531.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26531/medium/26531.jpg?1462584708" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26518.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26518/medium/26518.jpg?1462524179" alt="">
+                        <h1 class="title">那些大型模型，都是他用这些好使的乐高颗粒搭成的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26521.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26521/medium/26521.jpg?1462525817" alt="">
+                        <h1 class="title">《魔兽》电影的背后，有多少家中国公司？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26527.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26527/medium/26527.jpg?1462539334" alt="">
+                        <h1 class="title">这些给你，大概可以加入母亲节礼物清单｜这个设计了不起</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17556">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17556" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">81</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17628.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

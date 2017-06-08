@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？。曾经与 Airbnb 并肩的科技创业公司榜样，开始寻找自己的出路。好奇心日报为您呈现创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 网盘 Dropbox 微软 苹果 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hYBZvNQ2Yh5T1yT+6seQbHlm+kKcEe8ObPeQRC8HmE4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/244919/small/244919.jpg?1451146107" alt="">
+					</span>
+				<span class="name">李硕明 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-16 14:30:32 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/19179/medium/19179.jpg?1450242444" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19179" data-title="《创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19179/medium/19179.jpg?1450242423" data-url="http://www.qdaily.com/mobile/articles/19179.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				曾经与 Airbnb 并肩的科技创业公司榜样，开始寻找自己的出路
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	估值百亿美元、比肩 Airbnb 和 Uber……这曾是网盘公司 Dropbox 在一年前达到的高度。但就在 Airbnb 正式确认了新一轮 15 亿融资，估值达到 250 亿美元的同一周，Dropbox 的境况却不太好。
+</p>
+<p>
+	Dropbox 上周宣布，他们将关闭邮件应用 Mailbox 和相片管理服务 Carousel，<span></span>这两个服务在他们旗下才运作了 2 年，尽管收购 Mailbox 的价格也花了 1 亿美元成本。
+</p>
+<p>
+	其实从今年下半年开始，市场开始对 Dropbox 谨慎起来了。分析师们认为 Dropbox 按照 100 亿美元或者更高估值上市的可能性很低。而 Dropbox 的其中一个投资者贝莱德集团将他们投资的估值调低了 24%，随后美国富达投资集团也把对 Dropbox 的投资估值降低了 20%。
+</p>
+<p>
+	即将这些服务一同终止，还有 Dropbox 想从网盘转型“生活基础服务”的大计划。而现在的情况是，尽管 Dropbox 做成了最好用的网盘，但还是无法阻止下滑的走势。
+</p>
+<h2>
+	被看好的 Dropbox，从开始创业就很顺利
+</h2>
+<p>
+	Dropbox 公司，从一开始就是硅谷投资人的宠儿。
+</p>
+<p>
+	2008 年，Dropbox 在孵化器 Y Combinator 毕业仅一年，就已经筹集到了 720 万美元的资金。而同样刚刚开始创业一年的 Airbnb，已经烧光创始人布莱恩·切斯基的钱，创始人只能靠<span></span><a href="http://www.qdaily.com/articles/11544.html" target="_blank">卖麦片获得的 3 万美元</a><span></span>继续维持公司运营。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/fd102d436a0a.jpg" width="1080" height="608" title="Uber、Airbnb、Dropbox 三家公司估值对比" alt="Uber、Airbnb、Dropbox 三家公司估值对比" /><span>Uber、Airbnb、Dropbox 三家公司估值对比（单位 亿美元），X 轴是成立年限</span> 
+</p>
+<p>
+</p>
+<p>
+	不仅仅是早期融资顺利，Dropbox 的蹿红也很快。2009 年，尽管邮箱邀请注册制已经被不少互联网产品，（如 Gmail）使用，但 Dropbox 是当时邀请制玩得最好的公司了。如果想要使用 Dropbox 的服务，你还不能直接注册，得让其他用户邀请，而这些邀请发起人一旦成功拉新，Dropbox 就会给他们提供福利——例如更大的储存空间，免费多送 1 GB 的云盘。
+</p>
+<p>
+	这种邀请注册制度最火的时候，Dropbox 每个月可以发送 300 万封左右的邀请邮件，他们的用户数也在 2010 年这一年当中从 500 万上涨到了 2500 万。
+</p>
+<p>
+	足够简单的操作方式是 Dropbox 获得成功的另一个关键。
+</p>
+<p>
+	它并不需要你提前做任何设置，你完成安装就会看到一个文件夹。普通消费者不用再去关注那些复杂的细节，只要把需要保存的文件拖进去，就完成了在线备份。
+</p>
+<p>
+	这种简单的操作方式受到了大量用户的欢迎，即使是硅谷著名的风险投资家 Bill Gurley。他在 2012 年写过的《<a href="http://abovethecrowd.com/2012/02/23/why-dropbox-is-a-major-disruption/" target="_blank">Why Dropbox Is A Major Disruption</a>》文章中表示：“一旦你开始使用 Dropbox，渐渐的你会对你所使用的设备以及操作系统失去感觉。”
+</p>
+<h2>
+	后来，Dropbox 也不想只做网盘
+</h2>
+<p>
+	Dropbox 的快速成功，也曾经在 2009 年引起了乔布斯的关注。<a href="http://www.forbes.com/forbes/welcome/" target="_blank">Dropbox 的创始人德鲁·休斯顿回忆道</a>：“乔布斯曾经开出了 9 位数的价格，尝试收购我们。”
+</p>
+<p>
+	也正是在那次见面中，乔布斯说 “ Dropbox 是一项功能而非产品”（Dropbox is a feature not a product）。但最后，休斯顿拒绝了苹果的收购，觉得自己有能力把 Dropbox 做得更大。
+</p>
+<p>
+	之后几年，看上去休斯顿赌对了。
+</p>
+<p>
+	在 2013 年，他们的用户数已经达到 2 亿，而公司估值也从乔布斯报出的“9 位数”到了 11 位。2011 年的 40 亿美元、2013 年的 80 亿美元，2014 年的 100 亿美元……当时，他们成了 Y Combinator 孵化器里面最成功初创公司。
+</p>
+<p>
+	而同时，各大科技公司看到云盘功能的潜力，也开始将简单易用的云端储存和现有整合起来。苹果的 iCloud、百度云盘、Google Drive、微软的 OneDrive……他们除了有云盘的功能，还能快速调用既有的邮件、工作表单等服务。
+</p>
+<p>
+	为了避免 Dropbox 真变成“一项功能”，休斯顿在 2013 年就重新制定了 Dropbox 的方向：不仅仅是一个云盘，而是储存一切的数据中心，包括程序员的编程代码，个人的邮件资料、个人照片，甚至是聊天纪录。
+</p>
+<p>
+	首先是进入企业级的市场。他们在 2013 年 7 月召开了第一次开发者大会，Dropbox 向开发者们推出了 2 项新功能，可以让开发者通过添加几行代码的方式，把应用内的数据保存到 Dropbox 上。
+</p>
+<p>
+	完全能整合 Dropbox 云盘的邮箱服务 Mailbox 就是在当时收购的。而在此之后，Dropbox 还推出了照片管理服务 Carosel，让用户工作协作的工具 Dropbox Paper，以及笔记服务 Project Composer。就在今年 1 月，Dropbox 还收购了云端协作的通讯应用 Clementine 团队，想要在云盘服务之外添加云端协作功能。
+</p>
+<p>
+</p>
+<h2>
+	想让消费者花钱买存储空间，这事有点难
+</h2>
+<p>
+	推出 Mailbox 和 Carousel、邀请注册制度、4 亿用户数量，Dropbox 看起来更像是一家专注个人市场的公司，但是这却无法给 Dropbox 带来足够的收入。
+</p>
+<p>
+	今天所有网盘都提供一定的免费空间，Dropbox 目前提供 5GB 免费空间。如果不用来备份数据的话，5GB 已经非常足够，只有需要更多空间的用户才可能为这个服务花钱。
+</p>
+<p>
+	但个人用户对于数据备份这件事情并不在意。根据&nbsp;<a href="http://www.backblaze.com/blog/backup-awareness-month-2015/" target="_blank">BackBlaze 的调查结果</a>显示，只有 8% 的用户习惯每天备份自己的数据，而 25% 的用户则是从不会备份数据。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="https://www.backblaze.com/blog/wp-content/uploads/2015/06/backup-frequency-chart-2015.jpg" width="720" height="405" title="BackBlaze 的调查结果显示，25% 的用户根本不会选择备份数据" alt="BackBlaze 的调查结果显示，25% 的用户根本不会选择备份数据" /><span>BackBlaze 的调查结果显示，25% 的用户根本不会选择备份数据</span> 
+</p>
+<p>
+</p>
+<p>
+	2013 年，<a href="http://www.wsj.com/news/articles/SB10001424052702303985504579206763922615986" target="_blank">《华尔街日报》获得数字称</a>，当时估值已经 80 亿美元的 Dropbox 一年只有 2 亿美元收入。随着微软、Google、苹果等竞争对手陆续提供 5-15GB 免费空间，个人用户为一个网盘花钱的理由更少了。
+</p>
+<p>
+	愿意为数据安全花钱的是企业。
+</p>
+<p>
+	Dropbox 并没有在过去几年中做好企业服务，它的另一家网盘竞争对手 Box 为企业服务准备的更充分。Box 早在 2007 年就开始向企业市场转型，而且在用户权限管理和集中管理方面比 Dropbox 更有经验。
+</p>
+<p>
+	不过即便是准备更充分的 Box，可能也没法和企业服务竞争。因为竞争对手已经变了。
+</p>
+<p>
+</p>
+<h2>
+	网盘的竞争对手不再是网盘，而是互联网服务
+</h2>
+<p>
+	Dropbox 的成功依靠的是让用户在电脑上备份、同步文件变得及其简单。
+</p>
+<p>
+	问题是今天电脑没那么重要了，智能手机逐渐取而代之成为真正意义上的“个人电脑”。
+</p>
+<p>
+	iPhone 和 Android 手机所用的操作系统从技术上来说和电脑上没什么差别。但为了让它更易用，文件的概念已经基本被藏了起来。用户接触的是应用、联网的应用。
+</p>
+<p>
+	作为互联网服务的载体，几乎所有应用都会备份你的数据。你在微博上发的照片和文字、在朋友圈分享的鸡汤、在豆瓣里说的话、通过邮箱发出的邮件——所有的这些都被服务备份了，登录账号就能直接看到。
+</p>
+<p>
+	需要自己手动备份的东西原本就很少，此前最占空间的可能是手机上的照片。苹果、Google、定制系统的中国手机厂商们已经解决了照片备份的问题。今天你得挑一下才能买到不会自动备份照片的手机。而备份照片也不只是备份而已，Google 的照片服务已经会自动帮你 P 图、做 MV。
+</p>
+<p>
+	把持着硬件收入甚至操作系统的厂商们并不指望通过网盘赚钱。对于这些公司来说，网盘只是是一个帮助自己提供更好服务、留住用户的功能，它们可以通过硬件销售、应用商店广告之类的收入弥补这里的开支。
+</p>
+<p>
+	Dropbox、Box 等新兴网盘服务试图进入的中小企业市场也一样。它们所需要挑战的曾经只是微软 Sharepoint 这样难用、只为 PC 考虑的文件分享工具。但过去两年里，微软重启了自己 Office 365，今天企业每月花钱租用的是企业邮箱、在线文档协作工具、Office 软件……以及 OneDrive 网盘。
+</p>
+<p>
+	在微软为企业提供的服务里，网盘不是卖点，只是今天移动办公所不可缺少的一个基本功能。一个月贡献数十亿美元净利润的 Office 已经可以存储功能的开支，微软没有太多动力通过网盘直接获利。
+</p>
+<p>
+	就像乔布斯所说的，网盘只是一个功能。现在 Dropbox 们得想新办法把自己变成服务参与竞争了。
+</p>
+<p>
+</p>
+<p>
+	<span>题图来自：</span><a href="http://thenextweb.com/apps/2014/11/04/dropbox-reveals-arriving-windows-phone-tablet-coming-months/" target="_blank">The Next Web</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="9377">
+				<span data-id="9377">网盘</span>
+			</li>
+			<li class="tag item" data-id="6446">
+				<span data-id="6446">Dropbox</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19179" data-title="《创业明星 Dropbox 遇冷，网盘这生意为什么做到最好也赚不到钱？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19179/medium/19179.jpg?1450242423" data-url="http://www.qdaily.com/mobile/articles/19179.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/cards/12229.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/12229/medium/12229.jpg?1437038010" alt="「Hack Your Life」用这 26 个应用，优雅地保存你的数字世界">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">「Hack Your Life」用这 26 个应用，优雅地保存你的数字世界</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">51</span>
+				<span class="iconfont icon-heart">1424</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26364.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26364/medium/26364.jpg?1462308299" alt="">
+                        <h1 class="title">从时尚大片到“时尚界的奥斯卡”，苹果公司热情展现了它的另一面</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26349.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26349/medium/26349.jpg?1462271846" alt="">
+                        <h1 class="title">30年后，这个传奇导演的传说中的大制作终于要上映了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26345.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26345/medium/26345.jpg?1462268912" alt="">
+                        <h1 class="title">把指纹识别嵌入到玻璃内，LG 想取消 Home 键？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26351.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26351/medium/26351.jpg?1462277445" alt="">
+                        <h1 class="title">登上这趟新干线，你就来到了世界最高速美术馆</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26360.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26360/medium/26360.gif?1462303321" alt="">
+                        <h1 class="title">纽约这家健身房，用光和声音让你的训练变得更有趣</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26343.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26343/medium/26343.jpg?1462268494" alt="">
+                        <h1 class="title">这位数学家想科普自己的专业，先给人讲的是怎么做甜品</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26359.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26359/medium/26359.jpg?1462289894" alt="">
+                        <h1 class="title">那个卖喉宝的金嗓子，也要开始卖饮料了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19179">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19179" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">187</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19189.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

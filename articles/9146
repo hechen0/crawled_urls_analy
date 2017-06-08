@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>顶级VC告诉你，如何像包装明星一样做科技风险投资_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="顶级VC告诉你，如何像包装明星一样做科技风险投资。他们锁定有才的公司，到头来他们会把他们以更高的身价卖掉。。好奇心日报为您呈现顶级VC告诉你，如何像包装明星一样做科技风险投资的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 风投 安德里森·霍洛维茨 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Oi8R5ECKNkqSlEGpKUQb1VFswj+kp+eUfCgomEM28eA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="9636">
+				<span data-id="9636">安德里森·霍洛维茨</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">顶级VC告诉你，如何像包装明星一样做科技风险投资</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Noam Scheiber</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-05 07:45:49 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9146/medium/9146.jpg?1436688052" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9146" data-title="《顶级VC告诉你，如何像包装明星一样做科技风险投资》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9146/medium/9146.jpg?1436688052" data-url="http://www.qdaily.com/mobile/articles/9146.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				他们锁定有才的公司，到头来他们会把他们以更高的身价卖掉。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	<span style="white-space:normal;background-color:#CCCCCC;"><em><strong><a href="http://www.nytimes.com/2015/05/03/upshot/andreessen-horowitz-dealmaker-to-the-stars-of-silicon-valley.html?abt=0002&abg=1" target="_blank">本文</a></strong></em></span><span style="white-space:normal;outline:none;background-color:#CCCCCC;"><em style="outline:none;"><strong style="outline:none;">由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</strong></em></span> 
+</p>
+<p class="MsoNormal" align="left">
+	自 <span>2009 </span>年始创，安德里森·霍洛维茨（Andreessen
+Horowitz）就成为了硅谷顶级风投公司，它凭借的就是一个最简单的信条：人才至上。
+</p>
+<p class="MsoNormal" align="left">
+	这家公司看起来是做业务计划和市场分析的，当然还关注新技术的细节。但只要可能，他们会在数日内尽量解决企业的筹款工作，而不是一直吊着企业（这是业内的普遍做法）。它雇佣了数十名员工，帮助创业者开发市场、招聘、开拓业务——并且给那些初创公司提供它们所不具备的行业知识和人脉。
+</p>
+<p class="MsoNormal" align="left">
+	“他们有 <span>100 </span>个员工，基本上全都在为你服务，”安德里森参与投资的金融服务公司 <span>Dwolla </span>的创始人本·米尔恩（Ben
+Milne）说道。
+</p>
+<p class="MsoNormal" align="left">
+	在某种程度上，安德里森·霍洛维茨作为科技投资公司，也像是一家艺人经纪公司。马克·安德里森（Marc
+Andreessen）是该公司的网络先锋，在做风险投资之前，他曾创办过 <span>Netscape </span>和其他几家公司。在 <span>2010 </span>年的一次私人活动中，他采访了迈克尔·奥维茨（Michael
+Ovitz），并以一种个人的口吻提出了“我们相当于艺人经纪公司”这一观点。采访通过华尔街日报发布的<span><a href="http://allthingsd.com/20101208/when-marc-met-mike-andreessen-interviews-ovitz/">视频</a></span>公布于众。迈克尔曾一度成为好莱坞超级经纪人，创立了创新艺人经纪公司（Creative
+Artists Agency）。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/4682fcb862fa.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left">
+	<em>由马克·安德里森领导的风投公司有先天的优势来吸引科技创始人，但收费却并不高。</em> 
+</p>
+<p class="MsoNormal" align="left">
+	“我们在安德里森·霍洛维茨尝试去做的很多事情，都直接基于迈克尔创立创新艺人经纪公司的经验，”安德里森对当时在场的硅谷大亨们说。公司对此不予置评。
+</p>
+<p class="MsoNormal" align="left">
+	两个行业的相似之处非常地多。而意识到一家风投公司可以像艺人经纪公司一样运营的，也不只有安德里森·霍洛维茨的合伙人们（包括安德里森的长期合作者本·霍洛维茨[Ben Horowitz]）。硅谷经济学也跟好莱坞经济学特别诡异地相似。在利用这一发现的过程中，他们也许已经加速了科技泡沫的产生。
+</p>
+<p class="MsoNormal" align="left">
+	奥维茨全部的注意力都在他花大力气投资的明星上——创新艺人经纪公司的合伙人中，有医院或者私立学校的董事会成员，以便于他们为客户提供优先服务——迄今为止，他为合伙人们争取到的最重要的东西就是钱和控制权。
+</p>
+<p class="MsoNormal" align="left">
+	奥维茨在 <span>1970 </span>年代创立创新艺人经纪公司时，正赶上传统制片公司体制被打破，在这个崭新的世界里，艺人有望拿到很多钱，而给经纪公司的却很少。“60 年来，制片公司从这些艺人身上得到了很多，”在一次采访中奥维茨说道，“而我们努力改变了事情运作的方式。”
+</p>
+<p class="MsoNormal" align="left">
+	制片公司仍旧渴求明星，但不再通过签订长期合同来正式控制他们。
+</p>
+<p class="MsoNormal" align="left">
+	奥维茨组合了一个全是牛人的客户群，并利用集体的力量为他们赢得了利润极其丰厚的商业合同。“奥维茨说：‘我会帮你弄清楚你的人生，’然后他帮我和环球影业达成了交易，”马丁·斯科塞斯（Martin
+Scorsese）<span><a href="http://www.nytimes.com/1999/05/09/magazine/michael-ovitz-is-on-the-line.html?pagewanted=all">1999 年说</a></span>，“他们建起了办公室和放映室，还在我的电影基金上帮了大忙。”创新艺人经纪公司还是达斯汀·霍夫曼（Dustin
+Hoffman）、汤姆·克鲁斯（Tom
+Cruise）和格伦·克洛斯（Glenn
+Close）的经纪公司。
+</p>
+<p class="MsoNormal" align="left">
+	而对安德里森来说，他完成了从风投资本家到硅谷公司创始人的转变。1970 年代，风投公司可以通过相对比较少的钱获得公司较多的股权。然而到了 <span>2000 </span>年代，新技术降低了让公司起步所需的成本。“我们估计，现在创立一家软件公司的花费，是十年前的十分之一，”
+Revolution Ventures 的大卫·高登（David
+Golden）说。
+</p>
+<p class="MsoNormal" align="left">
+	有钱的个人投资者被称作天使投资人，他们能在不借助风投帮助的前提下，让几乎任何人创立一家公司。一旦创始人遇到天使投资人，公司的业绩就很有可能呈几何级数增长，此时，风投公司就成了弱势。
+</p>
+<p class="MsoNormal" align="left">
+	纳瓦尔·拉维康特（Naval Ravikant）说，风投公司过去促成了很多最佳交易。他一直以来都是一名投资人，还创立了投资聚合网站 <span>AngelList</span>。他说：“现在的问题在于，谁能获得进入资格。”
+</p>
+<p class="MsoNormal" align="left">
+	安德里森·霍洛维茨的先天优势有助于争取到创始人，但和创新艺人经纪公司一样，它拿到创业公司投资权的关键，在于非常有利的融资条件。
+</p>
+<p class="MsoNormal" align="left">
+	风投交易工作的方式是，他们会就和他或她想要投资的公司的“股前值”达成共识，然后再另加一份股权。比如，假设风投公司认为一家公司在投资前的市值是 <span>4000 </span>万美元，并且投资 <span>1000 </span>万美元，风投公司就会拥有该公司 <span>20% </span>的股权，该公司将会估价为 <span>5000 </span>万美元。估值越高，对创业者越有利，因为他为了获得现金所放弃的股权就会越少。
+</p>
+<p class="MsoNormal" align="left">
+	在硅谷，安德里森·霍洛维茨以爱抬高出价、令竞争对手不高兴而闻名。为了抵消安德里森投入的资金——他管理的资产<span><a href="http://a16z.com/contact/">据称</a></span>达到了 <span>42 </span>亿美金——对公司所有权的稀释，他会提高投资额度。据曾预期竞争的风险投资对手们称，他的投资往往会比对方企业提出的融资数额还要高。（一些投资者仅能同意匿名发言。）“他们想要彻底改变牌局里的筹码，”安德里森后期注资的的几家公司的一位天使投资人格雷格·基德（Greg
+Kidd）说：“也有其他一些土豪能像他这样一掷千金，不过确实没有几个。”
+</p>
+<p class="MsoNormal" align="left">
+	曾与安德里森共同参与竞价的风险资本家声称，安德里森的公司的叫价往往会比其他竞价者高出 <span>50% - 100%</span>。2011 年，他们对闪购网站 <span>Fab </span>给出了高达 <span>2 </span>亿美元的估价，提供了一笔 <span>4000 </span>万美元的不明智投资。（这家公司偶尔也会经手大交易，譬如 <span>UBer</span>，那一次交易价就非常昂贵。）这些出价往往让企业受宠若惊，毕竟在突然之间，自己经营的公司纸面上的价格就比自己先前预想的翻了一番。
+</p>
+<p class="MsoNormal" align="left">
+	好莱坞的规律之一就是，雇佣一个明星可以显著地提高让影片制造出轰动效应的机会。不过事实上未必如此。电影经济学专家亚瑟·S.·德·瓦尼（Arthur S. De
+Vany）研究了 <span>1980 </span>年代中期到 <span>1990 </span>年代中期的电影，发现只有 <span>19 </span>位明星演员与导演参与的电影可以将票房收入提升 <span>5000 </span>万美元。而在明星华丽的发薪日里，团队的利润也被华丽丽地吸走了。
+</p>
+<p class="MsoNormal" align="left">
+	支配电影和初创企业的规律是相似的。他们都遵循所谓的幂律分布，意即大部分投资都收不回成本，只有少部分能收支平衡，甚至还能获得可观的盈利，只有极少一部分人会变得极其成功。
+</p>
+<p class="MsoNormal" align="left">
+	安德里森和他的合伙人看起来深信自己扮演着奥维茨和他的超级经纪人一样的角色：他们锁定有才的公司，到头来他们会把他们以更高的身价卖掉。这为他们带来了可观的利润，也为明星们带来了愉快的发薪日——好莱坞明星和初创企业的明星都是如此。
+</p>
+<p class="MsoNormal" align="left">
+	不过要是安德里森他们这样的类推方法有误呢？比起赚钱能力杠杠的奥维茨和他的伙伴们，风险资本家更像是好莱坞的制片公司——长期贴补项目，极少能收回投资。安德里森和他的伙伴们已经在初创企业投资了许多，理论上来说，他们应该已经形成了一条能保持收支平衡的产业链。他们的眼光和其他技能都不赖——公司在早期就买进了 <span>Airbnb</span>、Instagram
+和 <span>Pinterest</span>——不过他们的投资记录却表明，他们未必是获利的。目前他们已经有了一些众所周知的哑火投资——包括 <span>Fab </span>在内，他们差不多已经损失了数千万美金。
+</p>
+<p class="MsoNormal" align="left">
+	即便他们挑的都不错，但他们给明星的投资实在是太过慷慨，以至于回报显得非常微不足道。和给价值 <span>10 </span>亿的公司投资 <span>1 </span>亿相比，给价值 <span>1 </span>亿的公司投资 <span>1000 </span>万翻起倍来更容易一些，他们对母婴闪购网站 <span>Zulily </span>就是这么做的。毕竟能要求募集上十亿金额的公司并不多，而且首次通过公开募股达到这样层次价格的也是少之又少。能保住估值的公司则更少——Zulily
+的股价去年起就急剧下跌。
+</p>
+<p class="MsoNormal" align="left">
+	除了投资其他公司之外，安德里森·霍洛维茨的命运还与整个科技市场紧密相连。如果科技股价格始终保持强劲，那么在安德里森旗下这些贵得令人乍舌的企业里，它们当中表现最佳的就能始终保持盈利，损失也在可控范围内。不过要是市场转向，安德里森·霍洛维茨就真的遇到大麻烦了。
+</p>
+<p class="MsoNormal" align="left">
+	更糟糕的是，安德里森·霍洛维茨不仅仅是驱使股价提升的受益者。要是泡沫正在逐渐成型，其本质就是太多的资金在围着太少的公司打转。不过这家公司也得为它自己的野心担一部分责任。“因为交易上存在竞争，所以市场上要是出现了没有价格标准的大明星，那对所有人而言，这就意味着成本被抬高了，”一位投资者说。
+</p>
+<p class="MsoNormal" align="left">
+	当然，安德里森认为科技市场是理性的——像<span><a href="http://www.wsj.com/articles/SB10001424052702303640604579298330921690014">智能手机的普及</a></span>这样的根本性动力，已经从基础上改变了流行应用软件的价值。不过即使是安德里森自己，也表现出了一些担忧。去年 <span>9 </span>月，<span><a href="http://dealbook.nytimes.com/2014/09/25/marc-andreessen-sounds-warning-on-start-ups-burning-cash/">他在 Twitter 上说</a></span>：“市场要是转向了，那一切都要变化，到时候那些裸泳的就要暴露了。”他警告那些没能管好自己资金的公司，小心资金“蒸发”。
+</p>
+<p class="MsoNormal" align="left">
+	这或许是这位挥霍数千万美金的企业家的罪己诏。明星总也还是有闪光点，不过好莱坞也已经证明，明星总是会让大家变得更穷，除了他们自己。
+</p>
+<p class="MsoNormal" align="left">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	翻译 is译社 塔米日
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="9636">
+				<span data-id="9636">安德里森·霍洛维茨</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9146" data-title="《顶级VC告诉你，如何像包装明星一样做科技风险投资》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9146/medium/9146.jpg?1436688052" data-url="http://www.qdaily.com/mobile/articles/9146.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24852/medium/24852.jpg?1459491636" alt="">
+                        <h1 class="title">没有苹果的平行世界，你猜会发生什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24840.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24840/medium/24840.jpg?1459479366" alt="">
+                        <h1 class="title">时尚圈都很喜欢的“小胖”去清华做演讲，都说了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24851.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24851/medium/24851.jpg?1459490634" alt="">
+                        <h1 class="title">「这世界」这10个知识看起来有点假，其实都是真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24846.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24846/medium/24846.jpeg?1459482674" alt="">
+                        <h1 class="title">这个丹麦学校需要一个活动场，然后就有了三个小岛</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9146">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9146" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">35</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9177.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

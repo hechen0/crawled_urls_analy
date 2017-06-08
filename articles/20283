@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>美国最大的电子产品展会又来了，今年有什么看头？| CES 2016_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="美国最大的电子产品展会又来了，今年有什么看头？| CES 2016。从 1967 年就开始的国际展会，你能见到各种电子产品：手机、电视机、VR 头盔......。好奇心日报为您呈现美国最大的电子产品展会又来了，今年有什么看头？| CES 2016的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="CES 展会 国际电子消费展 VR 无人机 CES 2016 苹果 微软 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="z2UeyeZjLkW98g9ThsRnV5DdpEN3DXhUo2yRtgAKhnY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="16249">
+				<span data-id="16249">展会</span>
+			</li>
+			<li class="tag item" data-id="21625">
+				<span data-id="21625">国际电子消费展</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="21675">
+				<span data-id="21675">CES 2016</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">美国最大的电子产品展会又来了，今年有什么看头？| CES 2016</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1375/small/1375.jpg?1460641790" alt="">
+					</span>
+				<span class="name">徐弢 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-06 14:19:18 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20283/medium/20283.jpg?1451991249" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20283" data-title="《美国最大的电子产品展会又来了，今年有什么看头？| CES 2016》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20283/medium/20283.jpg?1451991249" data-url="http://www.qdaily.com/mobile/articles/20283" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				从 1967 年就开始的国际展会，你能见到各种电子产品：手机、电视机、VR 头盔......
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="background-color:#F3F2EE;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	美国一年一度的 CES 也就是<a href="http://www.wikiwand.com/zh/%E5%9B%BD%E9%99%85%E6%B6%88%E8%B4%B9%E7%94%B5%E5%AD%90%E5%B1%95">国际电子消费展</a>又来了。
+</p>
+<p>
+	这个从 1967 年开始的消费电子展每年 1 月都会在拉斯维加斯展开，而它也曾是各种科技产品的首发地，例如第一台&nbsp;CD 播放器、苹果电脑，Xbox 游戏机。尽管在最近几年，少了智能手机的新品发布，微软、苹果等重要科技公司也不再参与，这个展会看起来重要性下降了不少。
+</p>
+<p>
+	但千篇一律的智能手机早已经不再有趣。少了手机厂商参与的 CES，近年反而带来了更新鲜的元素，例如各式各样的虚拟现实、增强现实头盔，无人机、形态不断改变的可穿戴设备，智能服装，还有无人驾驶技术……去看 CES，就像在看未来几年可能进入我们生活的科技产品。
+</p>
+<p>
+	今年，《好奇心日报》也跑到了拉斯维加斯 CES 的最前方做科技报道，详情可以留意我们的后续文章。
+</p>
+<p>
+	而在看展之前，我们先来看看今年的 CES 都有什么科技趋势。
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	说了几年的虚拟现实设备，终于要见人了
+</h4>
+<p>
+	虚拟现实技术无疑是今年 CES 的重头戏。今年 VR 参展商有 40 多家，包括 Oculus Rift、索尼、HTC 等公司，比去年增加了 77%。
+</p>
+<p>
+	对于 VR 来说，今年的 CES 重要性来自两方面。一方面，主流的 VR 头盔厂商都将在 2016 年推出消费者版本 HTC Valve、Oculus Rift，以及索尼的 Playstation VR。Oculus 已经宣布要在 1 月 6 日预售 Rift 硬件。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/03e4e2dbb506.jpg" width="620" height="372" title="Oculus Rift" alt="Oculus Rift" /><em>Oculus Rift</em> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span>《纽约客》网站编辑&nbsp;</span><a href="http://www.cbsnews.com/news/ces-2016-preview-consumer-electronics-show-las-vegas/">Nicholas Thompson 也认为接下来是虚拟现实重点</a><span>：“今年将会是它变得主流的一年……大批的头盔将会到来。”</span> 
+</p>
+<p>
+	但火的可能还不只是头盔，虚拟现实相关的产业今年声音也不小。不仅有 16 个 GoPro 摄像机绑成的 Project JUMP，诺基亚也做了专业的虚拟现实摄像机 Ozo，接下来的几个月会在国内推出。而且，进入这个领域的内容制作者也在增加，不只是《纪念碑谷》的制作团队 Ustwo，前几天还有游戏工作室宣布他们制作的 Lucky’s Tale 游戏会预装在 Oculus Rift 上。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	汽车厂商、科技公司、芯片厂商，大家都要做无人驾驶了
+</h4>
+<p>
+</p>
+<p>
+	CES 常被称为是“车展”，汽车厂商会像在车展上一样展出新车、新的概念车。去年外号 Jack 的奥迪 A7 特别版自动驾驶车从硅谷一路开到了展会，吸引了不少目光。
+</p>
+<p>
+	今年在汽车公司上最大的关注点，汽车厂商如何做自动驾驶汽车。过去的一年，汽车厂商都宣称要<a href="http://www.bbc.com/news/technology-34464450" target="_blank">在未来几年要让无人车上路</a>，参与制造无人车的包括丰田、福特、奥迪。
+</p>
+<p>
+	这里不仅是汽车厂商在推动，他们在部分 2016 款新车中接入了苹果的操作系统 CarPlay，做了不少手机应用，还在做自动驾驶技术相关的硬件产品更新。
+</p>
+<p>
+	另外，汽车配件制造商也在加入，例如福特展示的 Velodyne 公司做的新传感器 Ultra Puck，将无人车使用的激光雷达覆盖范围<a href="http://www.theverge.com/2016/1/5/10717040/ford-driverless-car-velodyne-ultra-puck-lidar-ces-2016" target="_blank">增加到 200 米</a>。芯片制造商 Nvidia 还跟汽车厂商合作做了无人车用的计算系统。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/128b76c9723c.jpg" width="660" height="440" title="沃尔沃电动车" alt="沃尔沃电动车" /><em>大众放出来的汽车</em><span><em>图</em></span> 
+</p>
+<p>
+</p>
+<p>
+	今年的 CES 展会上，需要关注的一个事情是，汽车厂商福特据称会在 CES 展览上宣布跟 Google 合作无人车。
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	电视机厂商今年的新卖点，是本来用在照片上的 HDR 技术
+</h4>
+<p>
+</p>
+<p>
+</p>
+<p>
+	每年电视厂商都会找一个新的卖点让你换新电视。而今年，这个卖点是 HDR。
+</p>
+<p>
+	HDR 是高动态范围的意思，图像会有更加完整丰富的色彩，画面中明亮和阴暗之处的细节同样清楚。 HDR 我们现在的 iPhone 相机里面也有，主要是用在光线对比太强烈的图片上，使用后会让图片明暗的部分都能更加同时都看清楚。
+</p>
+<p>
+	而现在，这项技术要用到动态的图像当中了。今年，<span>HDR 的标准也开始标准化，<span>UHD（超高清电视）联盟的行业内工作小组</span><a href="http://www.forbes.com/sites/johnarcher/2016/01/05/ces-2016-high-dynamic-range-tv-finally-gets-a-standard-you-can-just-about-understand/">宣布了一个 UHD 和 HDR 的标准化项目</a><span>，在画质等技术规格上设立了一个标准，为那些支持 UHD 和 HDR 的电视机进行授权认证。</span>而在此之前，还有一些公司也在做类似的事情，例如杜比的&nbsp;</span>Dolby Vision。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/f21792ac74a5.jpg" width="1024" height="626" title="LG 电视机" alt="LG 电视机" /><span><em>LG 电视机</em></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	种类越来越多的无人机，不再只是航拍就可以了
+</h4>
+<p>
+</p>
+<p>
+</p>
+<p>
+	今年的 CES，无人机厂商数量上也有小爆发。<a href="http://www.popsci.com/ces-2016-what-to-expect" target="_blank">根据统计</a>，今年无人机的展位达到了 27 家，去年只有 4 家。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/07643ce868b5.jpg" width="1080" height="719" title="无人机" alt="无人机" />CES 上的<span><em>无人机演示</em></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	一开始作为玩具和军事监测工具出现的无人机，在 2015 年以专业的拍摄功能成为热点。去年 CES 上，不少无人机公司也配备了用于高清或者 4K 摄像的相机云台，以及更方便的手机操控功能。
+</p>
+<p>
+	而在今年，只是高清摄像、防抖功能或者能，从你手掌上起飞，已经不够吸引眼球了。具有更多不同用途的无人机今年会更加吃香，例如可以做 3D 地图拍摄的 3D Robotics，装有环境监测感应器的 Parrot 工业用无人机，甚至是能够跟着你自拍的 Lily Camera。
+</p>
+<p>
+	国内除了大疆会参展以及发布新品之外，亿航、九鹰等国产无人机公司也到了 CES 寻找新的商机。
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	可穿戴设备和小配件，今年也有新变化
+</h4>
+<p>
+</p>
+<p>
+	2015 年，可穿戴设备是 CES 上种类最繁杂也是最大的一个片区，尽管产品与产品之间差别不太大，大多都是主打运动和健康数据监测功能。
+</p>
+<p>
+	而今年可穿戴设备的变化趋势是，在运动数据之外，可穿戴设备用在了更加垂直的领域。在医疗和运动记录之外，虚拟现实设备也成了可穿戴的新尝试。三星的创意实验室要在 CES 上展示 VR 控制器 Rink 手环，可以让你在虚拟世界中操控手部运动。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c3c39f412a14.jpg" width="600" height="331" title="Rink VR 控制器" alt="Rink VR 控制器" /><span><em>Rink VR 控制器，可以用来玩游戏</em></span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图来自：Flickr@<a href="http://www.flickr.com/photos/lge/6663368085">LG전자</a> 
+</p>
+<p>
+</p>
+<p>
+	<a href="http://www.flickr.com/photos/lge/6663368085"></a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="16249">
+				<span data-id="16249">展会</span>
+			</li>
+			<li class="tag item" data-id="21625">
+				<span data-id="21625">国际电子消费展</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="21675">
+				<span data-id="21675">CES 2016</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20283" data-title="《美国最大的电子产品展会又来了，今年有什么看头？| CES 2016》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20283/medium/20283.jpg?1451991249" data-url="http://www.qdaily.com/mobile/articles/20283" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/5091.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/5091/medium/5091.jpg?1436679637" alt="CES 现场：怎么养花都养不死的花盆来了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">CES 现场：怎么养花都养不死的花盆来了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">12</span>
+				<span class="iconfont icon-heart">44</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/5027.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/5027/medium/5027.jpg?1436675353" alt="CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">CES 现场：虚拟现实终于到我们眼前了，但戴着头盔自 high 暂时还流行不了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">12</span>
+				<span class="iconfont icon-heart">37</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26692.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26692/medium/26692.jpg?1462944964" alt="">
+                        <h1 class="title">《疯狂动物城》成为爆款后，小中信能否在童书市场再赢一局？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26710.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26710/medium/26710.jpeg?1462960180" alt="">
+                        <h1 class="title">中国公司在和 AC 米兰谈收购，但成不成是另一回事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26701.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26701/medium/26701.jpg?1462951738" alt="">
+                        <h1 class="title">作为一个气味设计师，她到底如何为客户工作？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26707.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26707/medium/26707.jpg?1462960232" alt="">
+                        <h1 class="title">看起来像个衣柜，它其实是在家蒸桑拿的设备</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26700.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26700/medium/26700.jpg?1462951136" alt="">
+                        <h1 class="title">百威改名叫“美国”了，怎么回事？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20283">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20283" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">44</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20319.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

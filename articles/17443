@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为你那微不足道的快乐，我送上意义深远的忧愁_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为你那微不足道的快乐，我送上意义深远的忧愁。哪里都要求和鼓励我们振奋、开朗、正能量，这个世界为什么不能给忧郁留一点空间呢？
+。好奇心日报为您呈现为你那微不足道的快乐，我送上意义深远的忧愁的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="忧郁 纽约时报 香水 情绪 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Q7+xDYkXem6X83Z1drg/Dt8kUJenb4OwK2NYELXKjlE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="18644">
+				<span data-id="18644">忧郁</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1936">
+				<span data-id="1936">香水</span>
+			</li>
+			<li class="tag item" data-id="1062">
+				<span data-id="1062">情绪</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为你那微不足道的快乐，我送上意义深远的忧愁</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Laren Stover</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-13 19:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17443/medium/17443.jpg?1447294261" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17443" data-title="《为你那微不足道的快乐，我送上意义深远的忧愁》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17443/medium/17443.jpg?1447294261" data-url="http://www.qdaily.com/mobile/articles/17443.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				哪里都要求和鼓励我们振奋、开朗、正能量，这个世界为什么不能给忧郁留一点空间呢？
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	最近你如果随处看看，总会看到些内容是关于怎么过得开心的——怎么显得充实、有冲劲，取得成功，找到自己的幸福。
+</p>
+<p>
+	到 Google 上一搜，立刻就会有治疗忧郁的办法：有的承诺 10 个或 15 个简单步骤就可能让你开心起来，有些承诺只要 3 步就行。
+</p>
+<p>
+	无论忧郁的体验如何，这都是个需要反思的过程：一种精神上的沉浸，像泡茶一样。如果所有让你开心的建议都不见效怎么办？如果你生来就郁闷怎么办呢？
+</p>
+<p>
+	忧郁，与悲伤不同，并不是具体的事情造成的，比如失业、宠物去世、流产或是健康问题。忧郁也不会因为你听到好消息就消失不见，比如影视红星买下了你的小说版权，或是你受邀免费去参观威尼斯双年展。
+</p>
+<p>
+	忧郁是更……稍纵即逝的东西。
+</p>
+<p>
+	它像烟、像雾一样来临，基本上不请自来。有些人生来就高贵、富有、拥有特权，有些人则生来就遗传了忧郁的性情。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/ecee56dcbc91.jpg" width="427" height="598" title="图片版权 Shannon Freshwater" alt="图片版权 Shannon Freshwater" /><span>图片版权 Shannon Freshwater</span> 
+</p>
+<p>
+	早在我见到去世的生父前，我就理解忧郁是怎么回事。我父亲是 Leon Stover 博士，他用打字机写出了《自杀宣言》，褪色的灰墨水记录着他忧郁的沉思，那时他是纽约一家精神病院的病人，我母亲在之前已经离开了他。我直到 21 岁才见到我父亲。当了解到忧郁是我继承来的艺术天赋，我感到了些许安慰。这是对我的内心有着更大影响的基因，远胜过与普鲁士腓特烈二世以及艾森豪威尔总统的谱系联系。
+</p>
+<p>
+</p>
+<p>
+	在那篇《宣言》中，父亲解释自己的精神治疗过程，写道：“为你那微不足道的快乐与痛苦，我送上意义深远的悲剧和辉煌灿烂的忧愁……”
+</p>
+<p>
+	带着他两极化的忧郁狂躁（他是由于糖尿病并发症去世，但我不怀疑他也写过一些自杀笔记），我的父亲，已出版过 24 本书的作家，曾在给我的信中写到：
+</p>
+<p>
+	“我不知道你是否会成为作家，但是你有那种‘躁动’的特质。要创造性地利用它，否则人们会以为你只是个平庸的傻叉。”
+</p>
+<p>
+	虽然我周围的环境并不开心，但我的童年生活依然闪烁着关于精灵天使的故事和幻想；青少年时期则混杂着艺术化的倦怠和诗意的消沉——而且搬了很多次家。
+</p>
+<p>
+	等我转到第 3 所高中时，我感觉非常孤立。我决定不交任何朋友，而只和树木交流，感受树的内心世界。我沿着家后面孤单的铁轨走着，脑子里装着古怪的念头，然后在纸上写下这样的开头“我不能看着另一个灰色的拂晓被唤醒……”（忧郁常常与舞台剧也差不太多）。
+</p>
+<p>
+	我的英文老师把我拎出来单独学习，期间我写了些存在主义的散文，还画了些扭曲的画。
+</p>
+<p>
+	我和一个更不着调的小妖精交了朋友，她叫 Erica，头发上系着无数根长丝带，不是系成时髦的蝴蝶结，而是像哭泣的卷须一样无精打采地晃荡着，像是某种哀悼的装饰。她穿长裙，或是彩色的灯芯绒长裤，裤脚卷起来，好像要趟过河似的，而且肩上总别着个狐狸围脖。
+</p>
+<p>
+	她到哪儿都带瓶墨水，然后用钢笔写作业，翻译些拉丁语文字，比如“噢，可怕的死去的柏树啊……”
+</p>
+<p>
+	她读我写的诗，煽动我从自习室窗户溜出去，到史密森学会（Smithsonian Institution）看老电影。她不会因为我喜欢蝙蝠就觉得我怪。她从来不强迫我“笑一笑”，或是“高兴点”。她拯救了我。
+</p>
+<p>
+	悲伤有个坏名声。但我开始感觉到，忧郁这个词——本来由希腊语“melancholia”演变而来的晚期拉丁语——有着浪漫的旧世界光环，还有月亮光晕般易逝的美感。我们在济慈的《忧郁颂》（Ode on Melancholy）中读到过。
+</p>
+<p>
+	“当忧郁的情绪骤然袭来 / 仿佛空中悲泣的云团 / 她与美共居一处——美呀，有着必死的劫数……”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	虽然忧郁症是种病，但这个词被到处乱用，失去了魅力。相形之下，沉浸在忧郁的阴云中感觉还不错：去看场悲伤的黑白电影，或是被一阵风吹走，声音就像卡波特描写的“草竖琴”一般。
+</p>
+<p>
+	在抗抑郁药出现前的年代，忧郁是受人珍视的。比如，16 世纪牛津大学的英国学者（他们用了 3 卷书来写这个题目，还给出了植物性治愈的饮食建议）、19 世纪的诗人们，还有光彩照人、忧伤的葛丽泰·嘉宝。
+</p>
+<p>
+	虽然大多数现代角色都缺少这种忧伤的魅力，但忧郁被蒂姆·波顿歌颂（《牡蛎男孩忧郁之死和其他故事》，还有约翰尼·德普在波顿影片中的角色）；被蝙蝠侠歌颂（《黑暗骑士》）；被《呼啸山庄》的西斯克里夫，还有安妮·莱斯笔下愁闷、忧郁的吸血鬼莱斯特歌颂。
+</p>
+<p>
+	看到最近的动画影片《头脑特工队》中，叫“忧忧”（Sadness）的情绪小人与精力充沛、大大咧咧的“乐乐”（Joy）一起拯救了主人公的一天，也让我感觉很安慰。
+</p>
+<p>
+	美国的商业片一般不会这么包容。
+</p>
+<p>
+	倩碧最畅销的香水是甜美、霓虹色、热情洋溢的“Happy”。有苹果、李子、佛手柑和一种气味清新的香调，管它是什么，这款香水被描述为“一款开心的香水，内含一个明媚幸福早晨的精华”。
+</p>
+<p>
+	其他 2015 年大卖的香水基本都是这种棉花糖式的甜腻调调：就像在嘉年华上，总是亮色花哨的动物玩偶能赢取更多关注。
+</p>
+<p>
+	对我而言，我宁愿打开窗户，享受扑面而来忧郁花园香气，嗅一嗅带着倦怠、沉思和失落味道的气息。这种温和的香水闻起来像是秋天的雨，或是被雨水打湿的窗沿，混杂着凋零的玫瑰和眼泪。
+</p>
+<p>
+	雨天气氛的香水对改善心情有好处：比如，Frédérick Malle 的“En Passant”香水。娇兰是忧郁方面的专家，1912 年推出了如暮色般迷人的“L’Heure Bleue”（蓝调时光）。还有19 世纪末的 Jicky，感性闪耀、被形容为迷人而忧郁的香氛，带有柑橘、薰衣草和尘封书本的味道。此外，还有 Mitsouko,&nbsp; 1919 年的水果味香氛。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这些香水种，没有一款有明媚阳光的味道，不会放声大笑，其实连微笑都不会。Serge Lutens 的 Iris Silver Mist 香氛（1994 年）在 <a href="http://basenotes.net/">Basenotes.net</a> 上被点评为“瓶中悲伤”和“忧郁奇观”。我们需要那些能赞许自己心情和灵魂的香水，而不仅仅能配合我们在办公室与鸡尾酒会上的行头。
+</p>
+<p>
+	当我看到香水博客上这段文字，就感到自己的渴求没那么孤单了：
+</p>
+<p>
+	“最近我感觉情绪有点低落，说实在的，简直是沮丧。你能推荐几款反映我心情的香水吗？我不想要那些催人奋进的香味，因为悲伤是我在生活中需要经历的。”
+</p>
+<p>
+	和这个沮丧的灵魂一样，我也不需要让自己高兴的香水。幸福，就像太阳，明晃晃得荒谬，是你不能指望的希望，甚至无法直视它。
+</p>
+<p>
+	如果忧愁降临，你可能会欢迎它的到来，穿上最合身的家居服；坐进最舒服的沙发或躺椅，或是躺在两棵榆树间的吊床上。让忧愁安顿下来。
+</p>
+<p>
+	你可能还会伴一壶绿茶，看卷曲的叶片在浸泡时舒展开诗意的曲线，听着拉威尔的《达夫尼斯与克洛埃》（Daphnis et Chloé），或是弗朗赛的钢琴小协奏曲第二乐章。&nbsp;
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	我提议，不仅要有忧郁的香水、还要有忧郁的衣服、鞋子（无论如何，不能有跑鞋）、音乐（Lana Del Rey 是忧郁女主角，Joni Mitchell 和 Billie Holiday 都不错）、药水（不含酒精；看看爱伦·坡的下场就知道了），还有为沉湎于忧郁而设计的理想家具。
+</p>
+<p>
+	我想要的是月光。
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>题图来自 <span><a href="http://commons.wikimedia.org/wiki/File:Munch_Melankoli_1892.jpg">commons.wikimedia.org</a></span></span> 
+</p>
+<p>
+	<span>翻译 Alicia Lee</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="18644">
+				<span data-id="18644">忧郁</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1936">
+				<span data-id="1936">香水</span>
+			</li>
+			<li class="tag item" data-id="1062">
+				<span data-id="1062">情绪</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17443" data-title="《为你那微不足道的快乐，我送上意义深远的忧愁》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17443/medium/17443.jpg?1447294261" data-url="http://www.qdaily.com/mobile/articles/17443.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16278.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16278/medium/16278.jpg?1445247185" alt="并非是我选择禁欲，而是性好像在选择避开我">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">并非是我选择禁欲，而是性好像在选择避开我</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">74</span>
+				<span class="iconfont icon-heart">292</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15546.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15546/medium/15546.jpg?1443149061" alt="爱上她之后，我更确认，世上没有什么快乐的单身族">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">爱上她之后，我更确认，世上没有什么快乐的单身族</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">16</span>
+				<span class="iconfont icon-heart">313</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26315.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26315/medium/26315.jpg?1462240634" alt="">
+                        <h1 class="title">看看英超新冠军，中国资本家不如再想想到底什么才是正确的投资</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26338.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26338/medium/26338.jpg?1462262817" alt="">
+                        <h1 class="title">《刀剑乱舞》要来中国了，这个代理公司你满意吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26322.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26322/medium/26322.jpg?1462247818" alt="">
+                        <h1 class="title">奥巴马大女儿上大学之前先“间隔年”，这事儿其实不新鲜</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26347.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26347/medium/26347.jpg?1462269493" alt="">
+                        <h1 class="title">没有对手跑不快？Puma 做了一个赛跑机器人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26342.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26342/medium/26342.jpg?1462271552" alt="">
+                        <h1 class="title">社交网站 Twitter，现在把自己定位成新闻应用了？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17443">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17443" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">538</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17534.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

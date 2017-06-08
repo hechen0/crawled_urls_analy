@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>如何把年终盘点做成营销？来看几个示范_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="如何把年终盘点做成营销？来看几个示范。我们来盘点一下这些“盘点”。。好奇心日报为您呈现如何把年终盘点做成营销？来看几个示范的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="豆瓣 麦当劳 滴滴出行 黄油相机 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="5LPyOt0mswtZtLmrz7kA69DjlO8XkQJd1mtdCMZ98C0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1977">
+				<span data-id="1977">豆瓣</span>
+			</li>
+			<li class="tag item" data-id="738">
+				<span data-id="738">麦当劳</span>
+			</li>
+			<li class="tag item" data-id="18974">
+				<span data-id="18974">滴滴出行</span>
+			</li>
+			<li class="tag item" data-id="6047">
+				<span data-id="6047">黄油相机</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">如何把年终盘点做成营销？来看几个示范</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3926/small/3926.jpg?1421980719" alt="">
+					</span>
+				<span class="name">费丽婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-03 08:00:09 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20089/medium/20089.jpg?1451565974" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20089" data-title="《如何把年终盘点做成营销？来看几个示范》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20089/medium/20089.jpg?1451565974" data-url="http://www.qdaily.com/mobile/articles/20089.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们来盘点一下这些“盘点”。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<div>
+</div>
+<p>
+</p>
+<div>
+</div>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	岁末年初，爱《好奇心日报》的你有没有发现，我们最近多了不少盘点类的文章，比如“LGBT 史上标志性的 2015 年有哪些彩虹营销”、“十张 GIF 盘点 2015 年十大新闻事件”……
+</p>
+<p>
+	一到年末，回顾、盘点、总结就成了关键词。如果你的职业够“幸运”，还免不了要写个年终总结什么的。
+</p>
+<p>
+	一些商家、网站也喜欢就此契机，借“年终盘点”的形式做一些营销。我们简单盘点一下，今年出现了哪些有趣的“盘点。
+</p>
+<h3>
+	豆瓣
+</h3>
+<p style="text-align:left;">
+	当豆瓣已经成为国内最大的书影音评论社区，利用这些数据来做年终盘点简直再合适不过了。
+</p>
+<p style="text-align:left;">
+	基于 2015 年豆瓣用户在豆瓣 App 和网站上对各条目的评分、标记和访问数据，豆瓣近日发布了&nbsp;2015 年度的电影、读书、音乐榜单。
+</p>
+<p style="text-align:left;">
+	以最受关注的<a href="http://movie.douban.com/annual2015/?source=navigation" target="_blank">电影榜单</a>为例，你可以看到这一年评分最高的外语电影、华语电影、最受关注的院线电影、年度台词、冷门佳片，以及评分高的电视剧和综艺节目等等。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/d151d27368ef.jpg" width="1071" height="717" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/d13aac6480f1.jpg" width="1080" height="632" title="0" alt="0" /> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:left;">2015 评分最高的外语电影</span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span style="text-align:left;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/4367d7ba7ac5.jpg" width="1080" height="627" title="评分最高的华语电影" alt="评分最高的华语电影" />2015&nbsp;<span>评分最高的华语电影</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	这些页面还可以开启弹幕，画风一秒变这样：
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/a39d6e43c70d.jpg" width="1080" height="605" title="豆瓣一秒变“B 站”" alt="豆瓣一秒变“B 站”" /><span>一秒变“B 站”</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	和豆瓣电影类似，豆瓣读书和豆瓣音乐也都推出了年度榜单。今年年度高分图书榜的第一名是《火星救援》，最受欢迎专辑则是陈粒的《如也》。榜单详细内容可以点<a href="http://book.douban.com/annual2015/#0" target="_blank">这里</a>和<a href="http://music.douban.com/annual2015/?source=web_musicspecial" target="_blank">这里</a>查看。
+</p>
+<h3>
+	麦当劳：把盘点做成动图
+</h3>
+<p style="text-align:left;">
+	<span style="text-align:left;">人人都在说大数据，但怎么把这些数据用更直观的方式表现出来，可要花点功夫。</span> 
+</p>
+<p style="text-align:left;">
+	麦当劳把一年到头的销量数据做成了一组<a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1OTIxMg==&mid=401303351&idx=1&sn=72ea30d04686e6392f0ab5d823a4c7c1&scene=1&srcid=12309bY4PLraqLvWIzVl977j&key=62bb001fdbc364e51baa1df2dc503a616c73b9b85509e6acf4d448f2f15758743033d189f72fc2a0fe7370dfc413fbef&ascene=0&uin=NjU0MjM0NzIw&devicetype=iMac+MacBookAir6%2C2+OSX+OSX+10.10.5+build(14F27)&version=11020012&pass_ticket=kk2s9WoHA%2BAwa85P%2FF%2BXImg0UE2s4UiuQDgzF9eR9gtMzUKYb3i4NvYrGuJUya2b" target="_blank">“2015 麦当劳人气榜”gif</a>。比如去年麦当劳的玩具里哪个最受欢迎？不同风味的甜筒哪个人气最高？去年卖出了 7500 万份的麦乐鸡有四种形状，你知道吗？（这个真不知道。）
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/aa29f3b0ae1d.gif" width="400" height="600" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/65fdc1be44ca.gif" width="400" height="598" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/f54d1edc272f.gif" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/7c4a3aa5147b.gif" width="400" height="600" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	为麦当劳制作这组动图的是信息设计公司 LXU。它是由两位中国传媒大学毕业生创立，以前也曾为百度、Google、微软、MINI Cooper、阿里、京东这些大公司做过可视化设计，他们的是&nbsp;slogan 是“让信息更动人”。
+</p>
+<p style="text-align:left;">
+	去年 5 月麦当劳推出新品“麻麻黑”时，四组平面海报也是和 LXU 合作的。
+</p>
+<h3>
+	黄油相机
+</h3>
+<p style="text-align:left;">
+	黄油相机是一个给照片加文字的工具和社区。12 月中旬，他们在应用里推出了“我的年度汉字”征集活动，让用户总结 <span>2015 </span>年自己的代表汉字，并作出解读，用“照片+文字”的形式展现。
+</p>
+<p style="text-align:left;">
+	这个创意的灵感来源于一些传统的“年度汉字”评选活动，比如中国、日本、马来西亚、新加坡等使用汉字的地区。
+</p>
+<p style="text-align:left;">
+	但这些“年度汉字”往往是关于社会热点和世态民情，和黄油相机的相关度并不高。所以黄油相机提出了“我的年度汉字”，希望让用户制作出个人化的图文。比如：
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/3335db134cbe.jpg" width="440" height="440" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/68074febb7a4.jpg" width="440" height="440" title="来自用户" alt="来自用户" /><span style="text-align:left;"></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span style="text-align:left;">在黄油相机内，活动一周的有效参与人数达到 2000 多人，微博 #我的年度汉字# 话题一周的阅读量也达到了几百万。</span> 
+</p>
+<p style="text-align:left;">
+	黄油相机目前的用户数超过 450 万，以 14 - 35 岁的女性为主。除了普通用户的参与，黄油相机还主动和一些年轻人喜欢的品牌合作，通过他们在各自的渠道上展示自己品牌的年度汉字。
+</p>
+<p style="text-align:left;">
+	从品牌调性和用户群体上来讲，这些品牌都和黄油相机有一定的共通之处，包括：坚果手机（及文青版坚果手机）、vivo、智能手环 bong、文艺眼镜品牌木九十、新兴的热门应用如&nbsp;echo、same、礼物说、氧气等。
+</p>
+<p style="text-align:left;">
+	这些品牌在发布自己的年度汉字时，也会带上 #我的年度汉字# 话题，为黄油相机增加了曝光。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/dca9c65057bc.jpg" width="719" height="1280" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<div style="text-align:center;">
+	文青版坚果手机：美
+</div>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/6cd2cc5c9122.jpg" width="960" height="960" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	礼物说：种
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/028ed7446df0.jpg" width="960" height="960" title="0" alt="0" />same：嘿
+</p>
+<h3>
+	滴滴出行
+</h3>
+<p>
+	滴滴也在 2015 年的最后一天推出了年终盘点 H5，通过微信传播。除了全年打车里程、订单数以外，还有计算了这一年你跟哪位司机师傅“最有缘”（也就是乘坐次数最多）。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/3573336af68e.jpg" width="750" height="1334" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/931824228615.jpg" width="750" height="1334" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/9e8bdee2c639.jpg" width="750" height="1334" title="0" alt="0" /> 
+</p>
+<p style="text-align:left;">
+	此外，按照往年的惯例，还有一些品牌会选择以农历春节为节点，制作年终的盘点营销，<span>目测 1 月至 2 月初还会有这类的活动出街。</span> 
+</p>
+<p style="text-align:left;">
+	<span>说到底，都是以盘点之名，做营销之实。点子不错。</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1977">
+				<span data-id="1977">豆瓣</span>
+			</li>
+			<li class="tag item" data-id="738">
+				<span data-id="738">麦当劳</span>
+			</li>
+			<li class="tag item" data-id="18974">
+				<span data-id="18974">滴滴出行</span>
+			</li>
+			<li class="tag item" data-id="6047">
+				<span data-id="6047">黄油相机</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20089" data-title="《如何把年终盘点做成营销？来看几个示范》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20089/medium/20089.jpg?1451565974" data-url="http://www.qdaily.com/mobile/articles/20089.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/cards/19635.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19635/medium/19635.jpg?1450941823" alt="如果豆瓣是一个国家，它的国民都是什么样的人？｜好奇心人类学">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">如果豆瓣是一个国家，它的国民都是什么样的人？｜好奇心人类学</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">61</span>
+				<span class="iconfont icon-heart">593</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/12726.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/12726/medium/12726.jpg?1438074699" alt="盘点你爱看“Top 10”类盘点的九个微妙心理">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">盘点你爱看“Top 10”类盘点的九个微妙心理</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">71</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27126.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27126/medium/27126.jpg?1463722452" alt="">
+                        <h1 class="title">拿下 NBA 之后，腾讯又承包了国际篮联的中国转播和官网</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27088/medium/27088.jpg?1463669002" alt="">
+                        <h1 class="title">吸引了Rihanna和Beyoncé的郭培，其实背后很有故事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27132.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27132/medium/27132.jpg?1463727053" alt="">
+                        <h1 class="title">三星支付搭伙支付宝，银联大概不太高兴</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27134.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27134/medium/27134.jpg?1463726793" alt="">
+                        <h1 class="title">Gap 可能要入驻亚马逊，这对它重振业绩有帮助么？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20089">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20089" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">153</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20062.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>走进这座拱形集市，体验在巨大投影下吃饭的感觉_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="走进这座拱形集市，体验在巨大投影下吃饭的感觉。Markthal 不仅是一个受瞩目的大集市，还是世界首例集合了市场与住宅的建筑。。好奇心日报为您呈现走进这座拱形集市，体验在巨大投影下吃饭的感觉的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="MVRDV 建筑设计 集市 市场 壁画 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="OmdigEQK7skTFWQyPuAKQohpo8qR2Ig1lyGuYJCToY8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="15052">
+				<span data-id="15052">MVRDV</span>
+			</li>
+			<li class="tag item" data-id="272">
+				<span data-id="272">建筑设计</span>
+			</li>
+			<li class="tag item" data-id="15053">
+				<span data-id="15053">集市</span>
+			</li>
+			<li class="tag item" data-id="3381">
+				<span data-id="3381">市场</span>
+			</li>
+			<li class="tag item" data-id="9945">
+				<span data-id="9945">壁画</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">走进这座拱形集市，体验在巨大投影下吃饭的感觉</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-27 09:44:33 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/14042/medium/14042.jpg?1440585094" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="14042" data-title="《走进这座拱形集市，体验在巨大投影下吃饭的感觉》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/14042/medium/14042.jpg?1440585094" data-url="http://www.qdaily.com/mobile/articles/14042.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Markthal 不仅是一个受瞩目的大集市，还是世界首例集合了市场与住宅的建筑。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	途经荷兰鹿特丹的室内集市<span> Markthal </span>，路过的人很难不被吸引。这座高<span> 40 </span>米的拱式建筑前后两侧皆为透明玻璃立面，透过玻璃可以看到内部满墙的大幅彩绘，色彩活泼的大比例蔬果图案形成穹顶中绚丽的美食银河，正与这家汇集世界各地美食的市场相呼应。
+</p>
+<p>
+	雄伟的构造、巨大的建筑体量以及琳琅满目的食物，使得 <span>Markthal </span>成为又一受瞩目的欧洲市场。不过，它最为独特的一点在于多功能性——<span>Markthal </span>是世界首例集合了市场与住宅的建筑，这个巨大的拱形下涵盖<span> 228 </span>间公寓、<span>100 </span>多家食品商店或餐厅、超市以及一座地下停车场。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/83fb3b700c68.jpg" width="675" height="505" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	建筑外观
+</p>
+<p>
+	设计这座多功能建筑的是荷兰知名建筑事务所 <span><a href="http://www.mvrdv.nl/en/about" target="_blank">MVRDV</a></span>，<span>11 </span>年前他们竞标成功，为鹿特丹市政府打造<span> Markthal</span>。由于欧洲对食品市场有了更严格的卫生管理规定，露天市场被禁止售卖新鲜或冷冻食物，所以鹿特丹市政府希望能够为既有的露天食品市场加一个顶棚。他们同时还希望这座建筑能够承载更多人数，为该地区的人提供更多公共服务。经过数年时间的建造，花费了 <span><a href="http://www.mvrdv.nl/projects/markethall">1.75 <span>亿欧元</span></a></span>，<span>MVRDV </span>于<span> 2014 </span>年交出答卷。
+</p>
+<p>
+	<span>Markthal </span>外观似马蹄形状，建筑的外立面由灰色的天然石材制成，前后两面设计成玻璃幕墙，则是为了吸引更多人进入。内部的巨幅壁画并不像常见于欧洲教堂穹顶中的壁画，它不是真正的绘画，而是多媒体装置。颜色鲜艳的鲜花、谷物、蔬菜、水果图像实际上<span><a href="http://www.gooood.hk/markthal-rotterdam-by-mvrdv.htm"><span>通过</span> 3D <span>投影技术<span>被投影到<span>圆拱内壁中</span></span></span></a></span>。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/de3bae829bfd.jpg" width="784" height="560" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	玻璃幕墙
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/a8f178466922.jpg" width="784" height="560" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/505d0c7f0501.jpg" width="784" height="560" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	巨幅彩绘“壁画”
+</p>
+<p>
+	<span>Markthal </span>底下两层楼为零售空间，有售卖新鲜蔬果、肉食、鱼类、奶制品的小摊，也有甜点店、咖啡馆、餐厅以及一切与美食相关的店铺。这个大大的拱形建筑，不仅是一场视觉的筵席，也真正刺激访客的味蕾。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/9bd6137cff75.jpg" width="468" height="621" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/88e5c982f4d8.jpg" width="468" height="594" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/1ca54f1e504b.jpg" width="832" height="626" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	一二层被用作零售空间，所售卖的商品大部分都与食物有关
+</p>
+<p>
+	二楼以上是住宅区，其中一半的公寓直接面对市场，面向市场的窗户设置三层加厚玻璃来隔绝噪音和气味。而得益于拱形造型，顶层的单元有宽大的屋顶露台，视野很好。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/61bbbe5081be.jpg" width="960" height="455" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	多功能建筑
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/9d1e3614f024.jpg" width="784" height="560" title="所在街区十分便利" alt="所在街区十分便利" /><span>所在街区十分便利</span> 
+</p>
+<p>
+	这座建筑很具生命力，落成后成为颇受当地人欢迎的休闲娱乐场所，还逐渐吸引更多的游客前来光顾。不少人认为，鹿特丹又有了新地标，而对另一些人而言，<span><a href="http://www.dezeen.com/2015/08/25/mvrdv-markthal-rotterdam-monumentalises-food-winy-maas-movie-interview/"><span>它则像本地建起一座<span>主题公园</span></span></a></span>。
+</p>
+<p>
+	“你可能认为像我这样每天在这儿工作的人早就习惯了它，但其实不是的。这个地方让人感觉它是有生命的。它屹立在这里，不是为了显摆建筑的美丽壮观。事实上，在这里，每天都有些故事发生。”<span><a href="http://www.dezeen.com/2015/08/25/mvrdv-markthal-rotterdam-monumentalises-food-winy-maas-movie-interview/"><span>一位在</span> Markthal <span>工作的店员说道</span></a></span>。
+</p>
+<p style="text-align:left;">
+	&nbsp;&nbsp;
+</p>
+<p>
+	图片来源：<a href="http://www.mvrdv.nl/projects/markethall/">MVRDV</a>，<a href="http://www.theguardian.com/artanddesign/architecture-design-blog/2014/oct/02/-sp-rotterdam-markthal-superdutch-market-mvrdv#img-1">the
+guardian</a>，<a href="http://www.dezeen.com/2015/08/25/mvrdv-markthal-rotterdam-monumentalises-food-winy-maas-movie-interview/">dezeen</a>，<a href="http://www.gooood.hk/_c_hhSV8RHdyQXyYFHJP8dmJmxg69nd0pVJuaKRPxaj1c8M0AvWWiehjdpqusuHTt2DzNh0g1W0SBRS0u8pdU2Xeo2G7GPes3ed.jpg">gooood</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="15052">
+				<span data-id="15052">MVRDV</span>
+			</li>
+			<li class="tag item" data-id="272">
+				<span data-id="272">建筑设计</span>
+			</li>
+			<li class="tag item" data-id="15053">
+				<span data-id="15053">集市</span>
+			</li>
+			<li class="tag item" data-id="3381">
+				<span data-id="3381">市场</span>
+			</li>
+			<li class="tag item" data-id="9945">
+				<span data-id="9945">壁画</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="14042" data-title="《走进这座拱形集市，体验在巨大投影下吃饭的感觉》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/14042/medium/14042.jpg?1440585094" data-url="http://www.qdaily.com/mobile/articles/14042.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26158.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26158/medium/26158.jpg?1461807503" alt="">
+                        <h1 class="title">梦工厂如果撑不下去把自己卖掉，其实并不是一件悲情的事情</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26166.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26166/medium/26166.jpg?1461814068" alt="">
+                        <h1 class="title">TFBOYS 网剧《超少年密码》暑假播出，这是预告</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26103.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26103/medium/26103.jpg?1461799881" alt="">
+                        <h1 class="title">从什么时候开始，你不太穿高跟鞋了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26195.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26195/medium/26195.jpg?1461833641" alt="">
+                        <h1 class="title">梦龙的入夏广告，另一种版本的美女与野兽</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26163.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26163/medium/26163.jpg?1461813428" alt="">
+                        <h1 class="title">三星要做新的 VR 头盔了，不带手机的那种</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="14042">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="14042" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">149</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/14062.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

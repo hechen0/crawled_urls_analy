@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>浴帽，的确也可以有时尚这一说_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="浴帽，的确也可以有时尚这一说。浴帽也得好看且好用，有家公司靠这个创了一个品牌。好奇心日报为您呈现浴帽，的确也可以有时尚这一说的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="SHHHOWERCAP 浴帽 产品设计 Jackie De Jesu " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="z9NcDP+gERpstY8dU4caCQGnH64VB86AGjlqFiuLEkc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="14994">
+				<span data-id="14994">SHHHOWERCAP</span>
+			</li>
+			<li class="tag item" data-id="14995">
+				<span data-id="14995">浴帽</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="14996">
+				<span data-id="14996">Jackie De Jesu</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">浴帽，的确也可以有时尚这一说</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-26 08:39:22 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13984/medium/13984.jpg?1440497965" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13984" data-title="《浴帽，的确也可以有时尚这一说》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13984/medium/13984.jpg?1440497965" data-url="http://www.qdaily.com/mobile/articles/13984.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				浴帽也得好看且好用，有家公司靠这个创了一个品牌
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“你用浴帽吗？你讨厌它吗？戴着浴帽你感觉如何？”<a href="http://www.fastcodesign.com/3050104/reinventing-the-showercap-for-the-modern-woman#1"><span>浴帽品牌</span> SHHHOWERCAP <span>的创始人</span><span><span> Jackie De Jesu </span></span><span>常常会问她遇到的女性这些</span><span>问题</span></a>。
+</p>
+<p>
+	两年前，在自己母亲和发型师的建议下，De
+Jesu 开始考虑在不洗头的时候戴上浴帽洗澡，这样能够更好地保护头发。她花了几个月的时间去寻找好用而且外观时尚的浴帽，却始终没有结果。而经过对周边女性的调查，她发现她们实际上还是对浴帽这个似乎已经过时的产品有需求。于是，De Jesu 决定自己创办一个浴帽品牌，一改现在市场上那些一次性塑料浴帽的式样。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/8f08734064ca.jpg" width="1080" height="713" title=" " alt=" " /> 
+</p>
+<p>
+	De Jesu 本以为女孩们只是想要一个更好看的浴帽，这样自己戴上时不会显得太土或太傻气。但在调查中<a href="http://dict.youdao.com/search?le=eng&amp;q=stay%20on&amp;keyfrom=dict.top"><span>她的受访者<span>却提出各种各样在功能上的要<span>求</span></span></span></a>。比如说她们不希望浴帽松松垮垮戴不住，但又不喜欢浴帽的松紧带在自己的额头上留下明显的印痕。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/6722a56b59ca.jpg" width="1000" height="494" title="传统浴帽长这样" alt="传统浴帽长这样" />市面上常见的传统浴帽
+</p>
+<p>
+	在一段时间的研发后，De Jesu 重新设计出了一种比过去的浴帽更时尚而且不失功能性的浴帽。
+</p>
+<p>
+	从外观上看，它近似于穆斯林女性戴的头巾，更贴合头发而不再是一副蓬松、膨胀的样子，同时选用了暗色作为底色以及不再幼稚、花哨的图案，整体看起来更精致时髦。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/8468f019e18f.jpg" width="1080" height="713" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/471c0314a01b.jpg" width="1080" height="713" title=" " alt=" " /><span> </span> 
+</p>
+<div style="text-align:center;">
+	外观时尚，甚至在出门时戴也不违和
+</div>
+<p>
+	SHHOWERCAP 的浴帽与传统的浴帽不同，它采用了一种防水的织物而不是常见的塑料材质。这种织物可以机洗、透气性强，所以也能很快甩干。而且相对于塑料，水花打在这个浴帽上所发出的噪音会明显降低，也没有难闻的塑胶味。
+</p>
+<p>
+	同时，De Jesu 改进了传统浴帽的松紧带并扩大了浴帽后部的容积，使之适合各种发型、发量和头型，使用者能稳稳地把它戴住同时不会感到太紧绷。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/e738d7f9fdd3.jpg" width="500" height="500" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/27415e73740b.jpg" width="500" height="500" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/651968f673cd.jpg" width="1080" height="713" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	针对塑料浴帽的种种弊端，这款浴帽改用防水的织物做成
+</p>
+<p>
+	不过，<a href="http://www.shhhowercap.com/thecollection/">SHHHOWERCAP 这些经过革新的浴帽产品目前仍处于预售阶段</a>，正式开始对外售卖还要等到今年 11 月。
+</p>
+<p>
+	&nbsp;
+</p>
+<p>
+	图片来源：<a href="http://www.lulubeautyco.com/PUPPY_LOVE_SHOWER_CAP_p/524000.htm">lulubeauty</a>，<a href="http://static1.squarespace.com/static/55a9bb69e4b0ba2b927d179e/55a9bcbae4b09b833bece41b/55c91cdae4b06aa6109da8f9/1439243483568/12302_Yonce_r1.jpg?format=1500w">SHHHOWERCAP</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="14994">
+				<span data-id="14994">SHHHOWERCAP</span>
+			</li>
+			<li class="tag item" data-id="14995">
+				<span data-id="14995">浴帽</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="14996">
+				<span data-id="14996">Jackie De Jesu</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13984" data-title="《浴帽，的确也可以有时尚这一说》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13984/medium/13984.jpg?1440497965" data-url="http://www.qdaily.com/mobile/articles/13984.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25091.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25091/medium/25091.jpg?1459994181" alt="">
+                        <h1 class="title">乐视想借助经典歌曲《睡在我上铺的兄弟》的魔力打造一个超级 IP，结果呢？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25121.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25121/medium/25121.jpg?1460022465" alt="">
+                        <h1 class="title">戴 VR 头盔会眩晕？听说电一下就能好</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25108.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25108/medium/25108.jpg?1460005404" alt="">
+                        <h1 class="title">日本晨间剧越来越火，《阿浅来了》又创造了收视记录</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25118.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25118/medium/25118.gif?1460018862" alt="">
+                        <h1 class="title">带你徒手爬上 75 层摩天大楼，像是匡威会做的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25103.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25103/medium/25103.jpg?1460007267" alt="">
+                        <h1 class="title">H&amp;M 说它们对飞速扩张没有压力，还会继续激进</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13984">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13984" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">24</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/14004.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

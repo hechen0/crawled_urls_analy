@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个让市民骄傲的音乐厅，应该是什么样子的？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个让市民骄傲的音乐厅，应该是什么样子的？。充分考虑自然环境，连接一座城市的过去与现在，为所有人提供开放多元的公共空间。。好奇心日报为您呈现一个让市民骄傲的音乐厅，应该是什么样子的？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="音乐厅 公共空间 波兰 Fernando Menis " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="l8igvZ28GS/46k5nY5lZz6o/C0F510wqNl28yJRtvA4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17202">
+				<span data-id="17202">音乐厅</span>
+			</li>
+			<li class="tag item" data-id="2887">
+				<span data-id="2887">公共空间</span>
+			</li>
+			<li class="tag item" data-id="4961">
+				<span data-id="4961">波兰</span>
+			</li>
+			<li class="tag item" data-id="27694">
+				<span data-id="27694">Fernando Menis</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个让市民骄傲的音乐厅，应该是什么样子的？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/574557/small/574557.jpg?1460972298" alt="">
+					</span>
+				<span class="name">刘璐天 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-05-16 15:30:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/26898/medium/26898.jpg?1463379825" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26898" data-title="《一个让市民骄傲的音乐厅，应该是什么样子的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26898/medium/26898.jpg?1463379825" data-url="http://www.qdaily.com/mobile/articles/26898.html?source=sogo" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				充分考虑自然环境，连接一座城市的过去与现在，为所有人提供开放多元的公共空间。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">          </p><p style="text-align: left;">“在每一处风景中，投射理智与情感。”（Projecting reason and emotion in every landscape），这是 64 岁的西班牙建筑设计师 <a href="http://www.designboom.com/architecture/fernando-menis-ckk-jordanki-auditorium-poland-05-10-2016/">Fernando Menis</a> 写在他工作室主页的一句话。“风景”这个词所蕴含的公共性与开放性，透露出这位设计师对公共空间的关注。</p><p style="text-align: left;">Fernando 的最新项目，是为波兰西部文化城市托伦（<span style="text-align: justify;">Toruń）</span>设计一座名为“CKK Jordanki”的音乐厅，地址位于新城区与老城区交接的一个绿化带上。尽管委托方的要求是完成音乐厅的基本功能即可，Fernando 却用同样的预算创造出一个灵活变换的多功能空间，可以容纳任何形式的音乐会或演出。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/3fb72a951458.jpg" alt="">
+</figure></div><p style="text-align: left;">从外部格局上看，Fernando 只使用了一半的土地，将另一半留给城市公园；中间仅用一个绿色的拱门隔开，这样既能从公园里望见音乐厅，也能让整个公园看上去更开阔些。为了保证行人能看清河水流过的样子，音乐厅的高度也尽量控制在最低限度以内，硬朗的线条和朴素的色彩让它看上去就像天然原石一样，和谐融入周边环境。</p><p style="text-align: left;">走进音乐厅内部，灰白渐变成浅红，线条也柔和起来。Fernando 把托伦传统建筑中常用的红砖磨碎，揉进灰白水泥中一起使用，象征新老城区的交界、现代与历史的分野。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/11448e76a7fc.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/b4bfed147cbb.jpg" alt="">
+</figure></div><p style="text-align: left;">这种材料的运用手法是 Fernando 在 2005 年设计特内里费 Magma 艺术及会议中心（Magma Art &amp; Congress）时开始实验的，称为“picado”；不仅可以让建筑外观呈现出原始粗犷的风貌，也有很好的声学效果。</p><p style="text-align: left;">各个功能区随着屋顶的弧线流动交织在一起，彼此区别也彼此补充，可根据演出需求灵活调整。其中有两个区可以通过移动墙壁合二为一，成为主剧场。</p><p style="text-align: left;">另外，起伏的天花板也有很好的吸音效果，即使同时举办交响乐演奏、话剧、歌剧、电影展映等音响要求各不相同的活动，也不会相互影响。整个大厅还可以向外打开，将舞台和公园连通起来，上演露天表演。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/c6752da3ce08.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/480ff3374e4c.jpg" alt="" class="">
+</figure></div><div class="com-insert-images medium-insert-active"><figure style="margin:0;">
+    <img src="/uploads/image/201605/3583e43aa2fe.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/88e14ce38303.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/f8e57a01b1a1.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/b249d80988c8.jpg" alt="">
+</figure></div><p><span style="text-align: left;">Fernando 打趣地说，来到这里就像吃波兰传统美食 Zurek 一样——这是一种用圆形面包乘装的传统浓汤，你在吃的时候得先把顶上的“盖子”揭开，才能看见里头丰富的汤料。</span><br></p><div class="com-insert-images"><span style="text-align: left;"></span><figure style="margin:0;">
+    <img src="/uploads/image/201605/681e26642f94.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Zurek</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/3f3bb77b1719.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">托伦市</div></figcaption></figure></div><p style="text-align: left;">“我希望修建这样一座音乐厅——它要尽可能高效，能同时为公众提供各式各样的演出和服务；它也要配得上这座城市，让托伦市民觉得骄傲。这个建筑就是我写给托伦的一封情书。”</p><p style="text-align: left;">CKK Jordanki 在设计阶段已获得世界建筑节“文化未来类项目”中的第一名，今年初建成后又获得由波兰杂志 Nowosci 颁发的“Zlota Kareta”奖。</p><p style="text-align: left;" class="">题图来自 <a href="http://www.designboom.com/architecture/fernando-menis-ckk-jordanki-auditorium-poland-05-10-2016/">designboom</a>，配图来自 <a href="http://www.dezeen.com/2016/02/02/ckk-jordanki-concert-hall-torun-poland-fernando-menis-crushed-brick-concrete/">dezeen</a>，<a href="http://zjemto.pl/wp-content/uploads/2014/04/zurek-2.jpg">zjemto.pl</a><br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="17202">
+				<span data-id="17202">音乐厅</span>
+			</li>
+			<li class="tag item" data-id="2887">
+				<span data-id="2887">公共空间</span>
+			</li>
+			<li class="tag item" data-id="4961">
+				<span data-id="4961">波兰</span>
+			</li>
+			<li class="tag item" data-id="27694">
+				<span data-id="27694">Fernando Menis</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26898" data-title="《一个让市民骄傲的音乐厅，应该是什么样子的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26898/medium/26898.jpg?1463379825" data-url="http://www.qdaily.com/mobile/articles/26898.html?source=sogo" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22210.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22210/medium/22210.jpg?1455421439" alt="建筑大师西扎的新作，是一个静谧细致的红色礼堂">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">建筑大师西扎的新作，是一个静谧细致的红色礼堂</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">94</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16615.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16615/medium/16615.jpg?1445857770" alt="这家外墙像瀑布一样的酒店，去波兰的话可以顺便看看">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">这家外墙像瀑布一样的酒店，去波兰的话可以顺便看看</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">134</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/14330.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/14330/medium/14330.jpg?1441175530" alt="捷克和波兰的边境上的这个小房子，是故意要倒下来的样子">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">捷克和波兰的边境上的这个小房子，是故意要倒下来的样子</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">30</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="26898">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="26898" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">80</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/26888.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

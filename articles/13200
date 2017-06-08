@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>在手机上发消息， 没有比 GIF 更吃香的了_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="在手机上发消息， 没有比 GIF 更吃香的了。“这就像是把一个笑话里最精华的部分讲了一遍又一遍。” 。好奇心日报为您呈现在手机上发消息， 没有比 GIF 更吃香的了的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 移动通讯 表情包 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="k72VMVSX8u0T7NW5E446CUCTGLwvqqlovYNUWv3D3ho=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">在手机上发消息， 没有比 GIF 更吃香的了</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Mike Isaac</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-11 10:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/13200/medium/13200.jpg?1438943143" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13200" data-title="《在手机上发消息， 没有比 GIF 更吃香的了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13200/medium/13200.jpg?1439260611" data-url="http://www.qdaily.com/mobile/articles/13200.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“这就像是把一个笑话里最精华的部分讲了一遍又一遍。” 
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	21 岁的 Lucy Dikeou 在斯坦福大学念大四，她从很久以前就已经在 iPhone 上用英语和图像表情符号（emoji）发消息了。几个月前，她开始使用第三种语言发消息：GIF 动画。
+</p>
+<p>
+	最近，Dikeou 不想再收到她的一个朋友给她发的食物图片，她就用 GIF（一种图形交换格式的动画）回应一个克里斯蒂娜·阿奎莱拉翻着白眼、摆着手，做出在说“别再说了（PLEASE STOP）”的嘴型。Dikeou 现在的手机消息里很少出现文本，取而代之的是<a href="http://topics.nytimes.com/top/reference/timestopics/complete_coverage/harry_potter/index.html?inline=nyt-classifier">哈利波特</a>在鼓掌、或者是激动的小朋友拆开生日礼物的片段。她最钟爱的一个表情是《宋飞正传》全体演员兴高采烈地跳舞的片段，当听说有朋友远道来访，她就会发这个表情。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/3720f5b23c2d.gif" width="250" height="303" title="1" alt="1" style="text-align:left;" />《宋飞正传》的跳舞场面，GIF 来自 Reactiongifs.com
+</p>
+<p>
+	“我可以在两秒内表达出这些很复杂的情绪，”Dikeou 说。她在 10 月前还从来没有发送过类似的片段，直到她下载了一个叫做 Riffsy 的输入法，这个应用就是为发送动画图像而设计的。
+</p>
+<p>
+	就像智能手机催生了表情符号的崛起，移动设备同样也把 GIF 动画变成了一种广泛存在的即时可视消息。轻博客网站 Tumblr 称，每天有 2300 万个 GIF 动画被发布到他们网站上。Facebook 从 3 月开始支持 GIF，它的短信应用里每天会发送超过 500 万个动画。作为一个创业中的办公场所协作应用，Slack 说，他们每个月要处理超过 200 万条 GIF 动画信息。
+</p>
+<p>
+	根据行业研究公司益百利市场服务（Experian Marketing Services）的数据，从 2012 年中期到现在，GIF 动画的线上搜索量已经上升了 1/9。
+</p>
+<p>
+	这种短动画的历史可谓不短。1987 年，CompuServe 的程序员 <a href="http://bits.blogs.nytimes.com/2013/05/21/an-honor-for-the-creator-of-the-gif/">Steve Wilhite 发明了 GIF 动画</a>，此后风靡了台式电脑。移动技术领域的重大进步和即时通讯应用的激增，都使得 GIF 动画从过去的网络论坛里破茧而出。它们已经成为了主流的数字表达方式，这种方式能够承载难以言表的复杂情感、思绪和画面，因此在如今手机不离身的年轻人里广受欢迎。
+</p>
+<p>
+	这些动画片段都由新一代的 GIF 创业团队在移动设备上发布和传播，它们身后都有风险资本的支持。Riffsy 是一家为智能手机开发 GIF 输入法的公司，刚刚融到 1000 万美元。Giphy 则是一家提供海量 GIF 动画搜索引擎服务的公司，刚刚获投2300 万美元。还有很多其它公司，比如 Imgur、PopKey 和 Kanvas，都在跃跃欲试地将视频片段混剪成精短、能及时分享的表情包。
+</p>
+<p>
+	当下，这些公司都专注于对动画片段的使用传播，基本上没有哪家已经开始从 GIF 动画里盈利。不过这些创业公司都看到了盈利的前景，特别是各个品牌都越来越多地将动画整合在广告和其它营销活动中。
+</p>
+<p>
+	“打字已经是老掉牙的输入方式了，而且你也没法用几个表情符号就恰如其分地表达多维度的情感，”Adam Leibsohn 说道，他是位于曼哈顿的 Giphy 公司首席运营官，“GIF 动画胜过所有。”
+</p>
+<p>
+	GIF 动画都有一些特定的特征。他们通常情况下都是几秒钟长、无声且循环播放。它们往往是电影和电视节目的节选，而且在动画之上还会加上文字。
+</p>
+<p>
+	<b></b> 
+</p>
+<p>
+	在移动设备的驱动下，Riffsy、Giphy 和 Imgur 等新一代创业公司使 GIF 动画掀起了一阵复兴大潮。以下是这家公司最受欢迎的 GIF 动画：Giphy 的 Tyler Menzel 说，吉米·法伦（Jimmy Fallon）的 GIF 动画“定义了完美的反动 GIF。他这种让人一下子就能认出来的名人 GIF 既短小，内涵又丰富，循环时机也恰到好处，有很多有意思的应用方法。”Riffsy 说，“love（爱）”是它上面搜索量最大的词汇，而中间的“I Love You（我爱你）”GIF 动画则是它上面被观看最多的 GIF 动画。
+</p>
+<p>
+	GIF 动画的使用已经渗透进了专业领域，常常用来取代文字。Google 最近<a href="http://www.wired.com/2015/03/google-sends-reporter-gif-instead-no-comment/">发给一位记者一张 GIF 动画</a>，上面是一个小孩为了回答问题而高举起了双手。BuzzFeed 等数字刊物都会经常使用 GIF 动画作为讲故事的手段。像 Google 员工 Jerrod Howlett 这样的办公室职员，也会经常回复带有 GIF 动画的邮件。
+</p>
+<p>
+	“我写字没那么遛，” Jerrod Howlett 说，“但如果让我找到了完美的 GIF 动画的话，问题就解决了。”
+</p>
+<p>
+	这一潮流和文字表情符号的兴起是相呼应的，但文字表情符号最后还是让位给了图形表情符号——后者是一种在 1990 年代由日本通信巨头 NTT DoCoMo 开发的图形语言。使用卡通风格的图形表情符号过去在亚洲国家引发了热潮，现在它也被内置到了许多智能手机的输入法里。拥有 3 亿多用户的 Instagram 说，现在发布的所有图片中，<a href="http://bits.blogs.nytimes.com/2015/05/01/the-rise-of-emoji-on-instagram-is-causing-language-repercussions/">大约有 40%</a>&nbsp;的配文中会包括至少一个图形表情符号。
+</p>
+<p>
+	GIF 动画也得益于移动设备和更快的移动网络的应用，它们保证了视觉动画的连续传输。去年夏天，苹果也开放了它的 iOS 移动操作系统，这样开发者就能安装新的输入法，使在消息中插入 GIF 动画变得更加方便。这也导致了一批新的 GIF 动画公司迅速成立起来。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/f7d63b4ef5cc.gif" width="600" height="400" title="2" alt="2" /> 
+</p>
+<div style="text-align:center;">
+	（左起）Erick Hachenburg、David McIntosh 和 Frank Nawabi，他们是移动输入法应用 Riffsy 的联合创始人。
+</div>
+<p>
+	“不管是电脑、智能手机、平板电脑还是 Apple Watch，我们在屏幕上写的文字消息都越来越短了，” 美利坚大学（American University）语言学教授、《屏幕上的文字：数字世界中阅读的命运（Words Onscreen: The Fate of Reading in a Digital World）》一书作者 Naomi S. Baron 说。
+</p>
+<p>
+	从许多方面讲，和图形表情符号相比，GIF 动画都是一种更加高效的视觉沟通手段，因为动画中的运动可以表达更多的内容。
+</p>
+<p>
+	“一个 GIF 动画可以帮你把你要传递的信息打成一个包，那样你就不必去想该如何表达自己了，”Baron 说。
+</p>
+<p>
+	Riffsy 说，在它的平台上，每个月 GIF 动画的访问量是 40 多亿次，而 Giphy 说，它每月能吸引到 5000 多万个独立访客。但它们都说，它们目前并没有着重靠 GIF动画来赚钱，而是在和品牌合作，利用 GIF 动画来推广产品。
+</p>
+<p>
+	最近在电影《飓风营救 3（Taken 3）》上映期间，Riffsy 和 20 世纪福克斯公司（20th Century Fox）合作，节选拼接了它自己的 GIF 动画给人们发消息用。有一个很流行的动画片段，展示的是 Neeson 跳出窗口的过程，重复一遍以后，画面里加上了用粗短的字体写的字幕“YOLO”（you only live once 的缩写，意为“人的生命只有一次”）。
+</p>
+<p>
+	“和其他内容一样，人们现在都在分享这些品牌的 GIF 动画，”Riffsy 的首席执行官David McIntosh 说。“我们公司的目标，是真正打造一种所有人都能用的语言。”
+</p>
+<p>
+	一些广告和娱乐界的人也在使用这些动画片段。Pamela Reed 和 Matthew Rader 是一对住在布鲁克林的夫妻，都是视频导演，近几年来，他们已经把动画片段加入到了一些知名时尚界客户的广告宣传活动中，其中包括阿迪达斯、Diesel 和雷鹏（Ray-Ban）。虽然一开始也遇到过拒绝，但他们俩说，GIF 动画已经不再是傻傻的马后炮，而是被看作了一次完整的广告宣传活动中的一部分。
+</p>
+<p>
+	“人们并不总想看一个 4 分钟长的视频，”Reed 说。她还说，利用 GIF 动画进行的品牌宣传内容可以很快被疯狂传播开来，因为它的格式恰好又小又易于分享。
+</p>
+<p>
+	“它真的是互联网内在原生的艺术形式，”Rader 说。
+</p>
+<p>
+	社交网站同样看到了 GIF 动画中蕴含的机遇。Tumblr 已经推出了自己的搜索引擎，帮助人们发现 Tumblr 上各种类型的动画。图片托管网站、社交消息板 Imgur 看到它的用户发布动画片段的频率之后，也制作了一个 GIF 生成器。这两家公司都正在试验各种包含了 GIF 动画推广的广告模式。
+</p>
+<p>
+	但是 Imgur 的创始人兼首席执行官 Alan Schaaf 说，如果付费内容没有像人们每天发来发去的数百万张 GIF 动画那么让人欢乐的话，这些模式也不会有什么商业意义。
+</p>
+<p>
+	“这就好像是把一个笑话里最精华的部分讲了一遍又一遍，” Schaaf 说。他已经组建了一个团队，在向网站的 1.5 亿常规用户推送的广告里使用 GIF 动画。“它就是一种即时的情绪联系。”
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 &nbsp; is译社 刘昉
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="969">
+				<span data-id="969">移动通讯</span>
+			</li>
+			<li class="tag item" data-id="14183">
+				<span data-id="14183">表情包</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13200" data-title="《在手机上发消息， 没有比 GIF 更吃香的了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13200/medium/13200.jpg?1439260611" data-url="http://www.qdaily.com/mobile/articles/13200.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13200">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13200" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">86</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13329.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

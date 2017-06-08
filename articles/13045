@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停。这不是一个比宅的实验，而是试图探究，新兴的到家服务是否能让我们过上更有质量的生活。。好奇心日报为您呈现18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 好奇心实验室 不出门实验 饿了么 闪送 上门帮 百度外卖 e 袋洗 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Zv/cYphe0gLVaUPbmEZh2AkS9oxNjfBKZpEH3Ug0CBQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="13905">
+				<span data-id="13905">好奇心实验室</span>
+			</li>
+			<li class="tag item" data-id="14914">
+				<span data-id="14914">不出门实验</span>
+			</li>
+			<li class="tag item" data-id="6547">
+				<span data-id="6547">饿了么</span>
+			</li>
+			<li class="tag item" data-id="13988">
+				<span data-id="13988">闪送</span>
+			</li>
+			<li class="tag item" data-id="13989">
+				<span data-id="13989">上门帮</span>
+			</li>
+			<li class="tag item" data-id="11419">
+				<span data-id="11419">百度外卖</span>
+			</li>
+			<li class="tag item" data-id="13990">
+				<span data-id="13990">e 袋洗</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-04 22:00:28 +0800"></span>
+	</div>
+	<div class="banner">
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13045" data-title="《18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13045/medium/13045.jpg?1455796825" data-url="http://www.qdaily.com/mobile/articles/13045.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这不是一个比宅的实验，而是试图探究，新兴的到家服务是否能让我们过上更有质量的生活。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	这是<a href="http://www.qdaily.com/articles/12983.html" target="_blank">不出门实验</a>的第二天（<a href="http://www.qdaily.com/articles/12983.html" target="_blank">详细解释点在这里</a>），我没有专门叫早餐。起床后，用昨天凑单买的食品解决了早餐，便开始了今天的工作。
+</p>
+<p>
+	今天的工作状态和在办公室没有什么区别，甚至还更紧张一些，因为有一篇着急的文章必须赶出来。大概也是因为这个原因，即使已经 48 小时没有出门，我暂时还没有时间感到无聊。
+</p>
+<p>
+	如果用一句话来形容这一天，就是：从早到晚电话都没有停过。除了用电话联络采访对象，这一天里我接到的电话，大多来自下面这些服务：
+</p>
+<h3 style="background-color:#FFFFFF;">
+	【洗衣】e 袋洗 | 等待 22 分钟
+</h3>
+<p>
+	下单：07:28；预约 10:00-12:00 之间上门；10:22 分 到达
+</p>
+<p>
+	费用：99 元/袋，塞进去几件，算几件。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/6b4971da3667.jpg" width="1080" height="1080" title="e 袋洗从我家带走清洗的衣物" alt="e 袋洗从我家带走清洗的衣物" /><span>e 袋洗从我家带走清洗的衣物</span> 
+</p>
+<p>
+	上门取件的陈师傅穿着印有 e 袋洗字样的 T 恤，在刚过 10 点不久就来敲门了。他送到我家的是一个帆布袋，大小相当于一台 13 寸的 Macbook。只要把衣服用合理的收纳方法塞进去，洗多少件都只收费&nbsp;99 元/袋，此外，他们也提供按件计费的选择。
+</p>
+<p>
+	陈师傅平常负责大约 3 公里左右范围内的衣物取送，收到的衣物会统一送到荣昌的工厂进行清洗，清洗完毕之后配送员会和用户再约时间送上门。想到接下来会有许多天不用出门，我把几件小礼服裙、西装外套都塞进了袋子里。
+</p>
+<p>
+	不然，在衣物相对轻薄的夏天，按袋计费就不太划算了。塞的过程当中，据陈师傅介绍，将衣服卷起来比较节省空间，有的顾客一次性能塞下三十多件衬衫。
+</p>
+<p>
+	陈师傅用统一的封条封口，再贴上标签之后，我在手机上接到了支付推送。衣服清洁熨烫之后，配送员会用衣架挂好送回来。对了，一起送回来的，还会包含那只帆布袋。
+</p>
+<p>
+	就在本文完成前几分钟，我接到了洗衣工厂的电话，跟我核对其中一件衣物的轻微破损，确认无误之后，他们才会开始清洗。
+</p>
+<h3>
+	【外卖】饿了么 - 新旺茶餐厅 | 等待 51 分
+</h3>
+<p>
+	下单 10:41；送达 11:30；等待 49 分钟，比承诺的“70 分钟送达”早 21 分钟
+</p>
+<p>
+	费用：47 元（餐费 50 元，配送费 7 元，减去补贴 10 元）
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/c749bc96b03f.jpg" width="1080" height="1080" title="饿了么品牌馆配送的午餐外卖" alt="饿了么品牌馆配送的午餐外卖" /><span>饿了么品牌馆配送的午餐外卖</span> 
+</p>
+<p>
+	早餐用昨天早餐时凑单的食物解决之后，今天的午餐我还是决定继续叫外卖。毕竟在写稿的时候，实在没有时间自己动手烹饪。
+</p>
+<p>
+	根据昨天叫外卖获得的教训，我在开始饿之前就打开应用点好了餐，一边写稿一边等待。饿了么的品牌馆是平台和品牌餐厅合作的模式，用户下单之后，由自营配送团队去餐厅取餐，再进行配送。饿了么将这些配送员称作骑手，由公司统一配备工作服、保温箱和电瓶车。
+</p>
+<p>
+	但是一般来说，品牌馆的承诺配送时间是 70 分钟，如果在高峰时段点餐，相对于“饿了就吃”的需求来说，等待时间还是长了一点。
+</p>
+<h3>
+	【快递】闪送 | 等待 11 分
+</h3>
+<p>
+	预约 12:45；取件 12:56；送达 13:07，比承诺的一小时送达早 39 分钟
+</p>
+<p>
+	费用：19 元（按公里计算）
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/dc77d633a4ad.jpg" width="1080" height="1080" title="通过闪送服务送到办公室的咖啡豆" alt="通过闪送服务送到办公室的咖啡豆" /><span>通过闪送服务送到办公室的咖啡豆</span> 
+</p>
+<p>
+	昨天来家里探望我的朋友留下了两包从台湾带回来的咖啡豆，但是按照这场实验的规则，我并不能立刻拆开喝，为了防止豆子放太久变质，我还是决定“忍痛”将它们寄到办公室，给同事分享。
+</p>
+<p>
+	“闪送”是一个承诺同城 1 小时送达的服务，下单之后几分钟，我就收到了“已被抢单”短信提醒。虽然办公室就在直线距离 1 公里以外的写字楼，但是最终 11 分钟就送达的速度，还是比自己走去办公室快一些。
+</p>
+<p>
+	上门接单的快递员李师傅告诉我，这个服务其实已经运营了 2 年时间，每天他都能接到至少十几个订单。在订单生成之后，寄件人和收件人都会以短信形式收到 6 位数字验证码，收件人凭验证码确认身份即可签收。
+</p>
+<h3>
+	【休闲】足疗 - 提前 90 分钟
+</h3>
+<p>
+	下单：昨天晚上 21：00；预约：15:00；开始服务：13:30，比约好的时间早 90 分钟
+</p>
+<p>
+	费用：79 元，新用户优惠 30 元，实付 49 元
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/a9b990ba8fe3.jpg" width="1080" height="1080" title="上门帮技师带来的工具包" alt="上门帮技师带来的工具包" /><span>上门帮技师带来的工具包</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/5e4a71835f8c.jpg" width="1080" height="1080" title="上门帮技师为足疗服务做的摆盘准备" alt="上门帮技师为足疗服务做的摆盘准备" /><span>上门帮技师为足疗服务做的摆盘准备</span> 
+</p>
+<p>
+	今天早上，我接到了客服的电话，确认了上门时间、地址和技师的姓名。下午 1 点多，约好的技师打电话来，告诉我已经到达我家附近，如果我有空的话可以提前来服务。
+</p>
+<p>
+	考虑到等到约定的时间我估计也还是在写稿，就请技师直接上门来。技师雪儿告诉我，她从事这一行已经 8 年时间，加入上门帮才十几天，之前一直在实体店做。除了要去不同的用户家里服务，花了更多时间在交通上之外，她的收入比在实体店高多了。
+</p>
+<p>
+	在正式加入之前，由于担心上门服务的安全问题，她也观望了好一阵子。不过工作一段时间之后，她的感受是：“觉得还是应该早点来的。”
+</p>
+<p>
+	进门之后，穿着工作服的雪儿换上了自己带来的拖鞋，按照统一培训的内容介绍了自己，在借用浴室接水之前还请我确认里面是否有贵重物品。由于赶着写稿，我一边坐在沙发上打字一边等待服务开始。
+</p>
+<p>
+	用三分钟的时间摆开所需工具之后，她又站起来向我鞠了一躬，再次介绍了自己和服务项目，打开定时器，才坐下开始为时 70 分钟的“尚品足浴”项目。<span>说实话，这是我第一次做足疗，整体体验下来，如果忽略一直在敲键盘的手很酸这一点，技师的手法确实令人觉得强度适中，非常放松。</span> 
+</p>
+<p>
+	服务结束之后，技师快手快脚地将工具收拾回包里，顺手把那一片地板擦干净之后，她又向我鞠了一躬，非常客气地与我告别。能看出来，这些都是统一培训过的结果，只是有些过于标准化了。
+</p>
+<h3>
+	【外卖】百度外卖-全时便利店 | 等待 29 分
+</h3>
+<p>
+	下单 18:43 ；送达 19:12；
+</p>
+<p>
+	费用：43.1 元
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/c1c02c7fc63e.jpg" width="1080" height="1080" title="百度外卖配送的便利店商品" alt="百度外卖配送的便利店商品" /><span>百度外卖配送的便利店商品</span> 
+</p>
+<p>
+	临近晚餐时间，我接到了编辑的 Slack 消息，提醒我今天在写的这篇稿子可能得熬夜修改，需要准备红牛。于是我打开百度外卖的“超市配送”栏目，把红牛和晚餐一起解决。
+</p>
+<p>
+	下单之后，很快我就接到了全时便利店打来的电话，告诉我订单中的某一个菜品已经售完，询问是否可以换一个。最后，由于我的电话占线，百度外卖的配送员告诉我，他在楼下至少多等了二十分钟。忙着接下一单，这位配送员反复叮嘱了几句“记得给我好评啊”，就急匆匆地奔下了楼。
+</p>
+<h3>
+	今日到家 Tips
+</h3>
+<ul>
+	<li>
+		就像出差整理行李一样，如果想最经济的使用类似 e 袋洗的服务，你需要学一些收纳的小技巧，比如将衣物竖着对折起来，卷紧一些，就能在一个袋子里装下更多衣物；
+	</li>
+	<li>
+		一边打字一边接受肩颈按摩是一种比酸爽更酸爽的体验，决定要放松一下的话，最好放下工作，专心休息；
+	</li>
+	<li>
+		尽管大多数到家服务都是通过手机应用预约，但是大多数服务都会有客服电话确认订单，所以要在家待上一整天，最好设置一个舒缓一些的铃声。
+	</li>
+	<li>
+		Day 2 费用总计 257.1 元
+	</li>
+</ul>
+<h2>
+	到家服务实验记录：
+</h2>
+<p>
+	<a href="http://www.qdaily.com/articles/12983.html" target="_blank"> </a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/12983.html" target="_blank">Day 1：挑战从早餐开始：快方送药；美团早餐；易家洁保洁；爱大厨晚餐 ；384.5 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/12983.html" target="_blank">Day 2：从早到晚电话没停过：e 袋洗；饿了么午餐；闪送；上门帮足疗；百度外卖晚餐 ； 257.1元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13096.html" target="_blank">Day 3：等等等啊等啊等：上门修手机：早餐佳；闪送；闪修侠；到家美食会；即买送；330.4 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13146.html" target="_blank">Day 4：交电费+生病怎么办：淘宝代办；春雨医生；本来生活；微信外卖；药给力；顺丰快递；Keep ；315.9 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13217.html" target="_blank">Day 5：送花不是件容易事：大众点评送花；泰笛洗鞋；甜心摇滚沙拉；新味；小菜仙；192.5&nbsp;</a>元
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13222.html" target="_blank">Day 6 ：周末依然得提前规划：Uber 捐书；嘟嘟美甲；微信旅行；挑食火锅送；147 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13231.html" target="_blank">Day 7：理发也可以上门了：Soylent 代餐；Kindle 购书；北京 T 理发；楼下 100； 114.16 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13306.html" target="_blank">Day 8：月入过万算什么：爱建康沙拉；助理来也快递；新味食材包；京东到家；泰笛绿植；221.7 元</a> 
+</p>
+<p style="text-align:start;">
+	D<a href="http://www.qdaily.com/articles/13374.html" target="_blank">ay 9：快递小哥的微信加不加：邻趣随意购；口碑外卖；超级减肥王；小菜仙；70.6 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13425.html" target="_blank">Day 10：狗狗上门也没问题：爱鲜蜂；家电管家；去哪儿外卖；万能小哥；助理来也订餐；Get 一下宠物上门；156.7 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13492.html" target="_blank">Day 11：外卖还能找到什么不同寻常的选择：微信优粮生活外卖；搜狗号码通点餐失败；来个水果；燃点瑜伽；神猪；220 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13552.html" target="_blank">Day 12：忍受不完善的产品，都是因为懒：锦食送；功夫熊；青年菜君；生活圈；278.51 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13569.html" target="_blank">Day 13：在旅行沙龙拥有一个座位：河狸家；Enjoy；邻趣；FaceTime；同城约见；188 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13573.html" target="_blank">Day 14：终于有人上门送钱：约见；楼下 100；回家吃饭；Vividolce；暖食；爱鲜蜂；127.9 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13645.html" target="_blank">Day 15：喝果汁的一天：Enjoy；小美到家；约见；泰笛绿植；阿姨帮；77 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13701.html" target="_blank">Day 16：CEO 也可以送上门：花椒直播；乐食派；天天果园；顺丰快递；到位；136 元</a> 
+</p>
+<p style="text-align:start;">
+	<a href="http://www.qdaily.com/articles/13749.html" target="_blank">Day 17：带娃的一天：八公美宠；河狸家彩绘；58 到家；味库净菜；小菜仙；567.5 元</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/13782.html" target="_blank">Day 18：<span style="text-align:start;">离完美约会只差一个男友：本来便利；美到家；有衣；厨临门；1194.8 元</span></a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/13222.html" target="_blank"></a> 
+</p>
+<p>
+</p>
+<p>
+	* 从昨天文章发出开始，陆续有人问要不要做视频直播，除去颜值不够高这个硬伤，真正让我怀疑的一点在于，真的会有人愿意连续四小时看人坐在那里一动不动地对着电脑敲键盘吗？
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="13905">
+				<span data-id="13905">好奇心实验室</span>
+			</li>
+			<li class="tag item" data-id="14914">
+				<span data-id="14914">不出门实验</span>
+			</li>
+			<li class="tag item" data-id="6547">
+				<span data-id="6547">饿了么</span>
+			</li>
+			<li class="tag item" data-id="13988">
+				<span data-id="13988">闪送</span>
+			</li>
+			<li class="tag item" data-id="13989">
+				<span data-id="13989">上门帮</span>
+			</li>
+			<li class="tag item" data-id="11419">
+				<span data-id="11419">百度外卖</span>
+			</li>
+			<li class="tag item" data-id="13990">
+				<span data-id="13990">e 袋洗</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13045" data-title="《18 天不出门，只用互联网服务生活 | Day 2 从早到晚电话不停》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13045/medium/13045.jpg?1455796825" data-url="http://www.qdaily.com/mobile/articles/13045.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/12983.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/12983/medium/12983.jpg?1438612295" alt="18 天不出门，只用互联网服务生活 | Day 1 一个人的生活实验">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">18 天不出门，只用互联网服务生活 | Day 1 一个人的生活实验</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">24</span>
+				<span class="iconfont icon-heart">232</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/12789.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/12789/medium/12789.jpg?1438322398" alt="每个互联网巨头都向往“到家服务”，它会如何改变你的日常？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 10 个图</span>
+		</p>
+		<h1 class="title">每个互联网巨头都向往“到家服务”，它会如何改变你的日常？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">21</span>
+				<span class="iconfont icon-heart">447</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13222.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/13222/medium/13222.jpg?1455796185" alt="18 天不出门，只靠手机 App 会过上怎样的生活？ | 前 144 小时">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">18 天不出门，只靠手机 App 会过上怎样的生活？ | 前 144 小时</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">33</span>
+				<span class="iconfont icon-heart">115</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24702.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24702/medium/24702.jpg?1459314855" alt="">
+                        <h1 class="title">为了体现蜂蜜的不同特点，她做了两种性格的包装</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24701.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24701/medium/24701.jpg?1459318171" alt="">
+                        <h1 class="title">《深夜食堂》华语版，请个会做饭的黄磊来就管用吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13045">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13045" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">114</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13016.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

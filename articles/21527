@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为了行人也为了鲑鱼，冰岛建了两座这样的桥_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为了行人也为了鲑鱼，冰岛建了两座这样的桥。河道宽度相仿，建筑师们在这里建的两座桥也形状相似。远远望去，两座金字塔般的桥相映成趣。。好奇心日报为您呈现为了行人也为了鲑鱼，冰岛建了两座这样的桥的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="桥梁设计 建筑设计 桥 Teiknistofan Tröð " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2065">
+				<span data-id="2065">桥梁设计</span>
+			</li>
+			<li class="tag item" data-id="272">
+				<span data-id="272">建筑设计</span>
+			</li>
+			<li class="tag item" data-id="2058">
+				<span data-id="2058">桥</span>
+			</li>
+			<li class="tag item" data-id="22896">
+				<span data-id="22896">Teiknistofan Tröð</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为了行人也为了鲑鱼，冰岛建了两座这样的桥</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-30 08:30:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21527/medium/21527.jpg?1454082533" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21527" data-title="《为了行人也为了鲑鱼，冰岛建了两座这样的桥》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21527/medium/21527.jpg?1454082533" data-url="http://www.qdaily.com/mobile/articles/21527.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				河道宽度相仿，建筑师们在这里建的两座桥也形状相似。远远望去，两座金字塔般的桥相映成趣。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	冰岛的&nbsp;Elliðaár&nbsp;河常被称为“雷克雅未克的钓鱼圣地”，这里盛产鲑鱼，吸引了很多钓鱼爱好者。Elliðaár&nbsp;河从附近的火山山脉发源，途径首都雷克雅未克流向冰岛的南方。
+</p>
+<p>
+	河流在潮汐河口分成两条河道，冰岛本地的建筑公司<span><a href="http://www.tst.is/en/company"> Teiknistofan Tröð</a> </span>为这两条河道设计了两座桥，供自行车和行人通行。他们于<span> 2012 </span>年竞标成功，<span><a href="http://www.dezeen.com/2016/01/28/teiknistofan-trod-pedestrian-cycle-bridges-reykjavik-red-frames/">2013 <span>年完成了建设</span></a></span>。河道宽度相仿，建筑师们在这里建的两座桥也形状相似。远远望去，两座桥相映成趣。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/4f73b9f0a1ab.jpg" width="1080" height="771" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	两座外形相似的桥
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c5cee84f8b94.jpg" width="1080" height="771" title="河口风景" alt="河口风景" />水草丰茂时周边的<span>风景</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	桥外形像红色钢结构搭建而成的四面体，更形象地说是倾斜的金字塔形状，三条长短不一的钢柱于顶部相汇，延伸到河岸的桩基。桥面长约 <span><a href="http://divisare.com/projects/305947-teiknistofan-trod-pedestrian-and-bicycle-bridges">36 <span>米</span></a></span>，组成桥面板的材料中有易排水、表面倾斜的多孔混凝土板，下雨时，雨水便顺势从这里排出。
+</p>
+<p>
+	这样设计有几个原因。首先这个类金字塔的结构较为稳固，但又能尽量减少所使用的建筑材料，降低建设成本；其次，两座桥梁并排而建，简单利落的外形搭配以鲜艳的红色，辨识度会更高，易于给人留下深刻印象。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/dfd36a4bce6d.jpg" width="1080" height="771" title="结构和外形简单，又选择了红色，辨识度很高" alt="结构和外形简单，又选择了红色，辨识度很高" style="text-align:center;" /> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/55f3a2cf5d2e.jpg" width="1080" height="771" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+	结构和外形简单，又选择了红色，让人一眼就留下比较深的印象
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/9733e9fc7a80.jpg" width="1080" height="771" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/563709fc1093.jpg" width="1080" height="771" title="细部" alt="细部" /><span>细部</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c0b2cc507640.jpg" width="670" height="313" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	规划图
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	在设计这座桥梁时建筑师还特别注意尽可能地将光污染减到最小，<span>Elliða</span>á<span>r&nbsp;</span>河有许多季节性洄游的鲑鱼和随河流入海的小鲑鱼，桥的灯光须避免打扰和惊动它们。在这里，设计师用&nbsp;<span>LED&nbsp;</span>灯作为照明设备的光源内嵌在桥的栏杆上，光线照射到桥面上；主框架也发着温和的光。
+</p>
+<p style="text-align:left;">
+	除开这些功能性的理解，这两座桥是非常美的建筑，无论在雪天里还是回春时都如此。它们的出现没有破坏&nbsp;<span>Elliða</span>á<span>r&nbsp;</span>河畔原本的自然景观，而是为这个地方带来虽不一样但同样迷人的图景。<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/aa539aa1d959.jpg" width="1080" height="771" title="桥梁的灯光设计" alt="桥梁的灯光设计" /> 
+</p>
+<p style="text-align:center;">
+	<span>桥梁的灯光设计</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c9df983ece83.jpg" width="1080" height="771" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/21da76fc48c0.jpg" width="1080" height="771" title="各个季节都很美" alt="各个季节都很美" /><span>各个季节都很美</span> 
+</p>
+<p style="text-align:left;">
+	图片来源：<a href="http://www.tst.is/en/project/pedestrian-and-bicycle-bridges">Teiknistofan
+Tröð ehf</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2065">
+				<span data-id="2065">桥梁设计</span>
+			</li>
+			<li class="tag item" data-id="272">
+				<span data-id="272">建筑设计</span>
+			</li>
+			<li class="tag item" data-id="2058">
+				<span data-id="2058">桥</span>
+			</li>
+			<li class="tag item" data-id="22896">
+				<span data-id="22896">Teiknistofan Tröð</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21527" data-title="《为了行人也为了鲑鱼，冰岛建了两座这样的桥》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21527/medium/21527.jpg?1454082533" data-url="http://www.qdaily.com/mobile/articles/21527.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18967.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18967/medium/18967.jpg?1449847551" alt="在武汉，西班牙桥梁设计大师设计了三座跨河大桥">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">在武汉，西班牙桥梁设计大师设计了三座跨河大桥</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">97</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18211.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18211/medium/18211.jpg?1448642705" alt="伦敦要盖一座桥，你走下来的时候会感觉很优雅">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">伦敦要盖一座桥，你走下来的时候会感觉很优雅</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">80</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13966.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/13966/medium/13966.png?1440485056" alt="哥本哈根出现了一座桥，像是米老鼠的圆耳朵">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">哥本哈根出现了一座桥，像是米老鼠的圆耳朵</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">65</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13966.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/13966/medium/13966.png?1440485056" alt="哥本哈根出现了一座桥，像是米老鼠的圆耳朵">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">哥本哈根出现了一座桥，像是米老鼠的圆耳朵</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">65</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27004.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27004/medium/27004.jpg?1463551252" alt="">
+                        <h1 class="title">明星是怎么练习获奖感言的？苹果说我帮你啊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27016/medium/27016.jpg?1463561406" alt="">
+                        <h1 class="title">阿里音乐发布了一个“粉丝游乐场”，它是不是想得太好了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21527">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21527" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">165</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21517.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

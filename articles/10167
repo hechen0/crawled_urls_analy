@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布。Android M、智能家居系统 Brillo、还有 VR 内容制作，今年 Google 说，他们每样事情都想做大。。好奇心日报为您呈现Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 Google I/O Android Android M Google " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ps13W5G2fY6WfxSpI7kNIY76FvvDswTpHGOLN8WY/X4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-29 08:53:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/10167/medium/10167.JPG?1432861614" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10167" data-title="《Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10167/medium/10167.JPG?1436651205" data-url="http://www.qdaily.com/mobile/articles/10167.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Android M、智能家居系统 Brillo、还有 VR 内容制作，今年 Google 说，他们每样事情都想做大。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“Google I/O 就像世界的免费雪糕日，对世界做了卓越的贡献。” 硅谷著名投资人 Marc Andreessen&nbsp;今天在&nbsp;<a href="https://twitter.com/pmarca/status/603996344731172864" target="_blank" style="background-color:#FFFFFF;">Twitter 这么评论</a>到。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Google 的确影响很大，每年一度的 I/O 开发者大会带来的新产品，都会在未来几年里影响着全球 10 亿用户。每年这个时候，全球 6000 名开发者从清早到黄昏聚集在旧金山的莫斯康展览中心听接下来一年的大变化。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	这次也不例外，旧金山早上 7 点半，我来到现场排队。此时离演讲还有 2 个小时，现场队伍已经绵延了一公里，绕着莫斯康展览中心转了一圈：
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<img src="/uploads/image/201505/dd9e36d4203b.jpg" alt="" style="width:601px;" /> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	今年新手机操作系统 Android M、带有手写 Emoji 识别功能的新手表操作系统 &nbsp;Android Wear 、物联网操作系统 Brillo，中低端智能手机操作系统 Android One 计划的更新，还有年度惊喜 Google 最新虚拟现实（VR）内容制作计划 JUMP。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	“常有人问我，我们做搜索、Android、图片甚至 Google X，这些有什么联系？其实我们只是把科技放在了人们每天面对的问题上，然后把它做大。” Google 产品负责人&nbsp;Sundar Pichai 在大会上如此说到。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	我们来一起看看，Google 今年究竟要怎样影响十亿人的生活：
+</p>
+<h2 style="white-space:normal;">
+	关于 Android M，你需要知道的 6 件事
+</h2>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	新的 Android 操作系统是每年 Google I/O 重头戏。去年的重点是新的设计准则&nbsp;Material Design。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	而今年 Android M 在表面上看不到什么变化，偏重新功能的改进。有些功能是用户们期待了好些年的：
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<b>1. &nbsp;真正控制你的应用</b> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	之前 Android 的应用权限都只有两个选项：全部开放或者全部不开放。我安装一个手电筒应用，但为什么我要把手机电话簿、自己的号码、地理位置和麦克风权限都开放给它看？
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	这次 Android M 提供了不同的选项，你可以单独决定应用究竟能访问哪些数据。除了传统的地理位置、相机、话筒，联系人、电话、短信、日历权限之外，还有新增的心跳和健康信息。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	应用第一次读取某项数据时，它会弹出确认框。例如相机时，你点击同意或者不同意即可。就像 iPhone 上一样。和 iPhone 一样，Android M 把所有权限按应用分类放在一起，可以直接控制应用的权限。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	其实在 Android 4.3 时，Google 曾经短暂开放过这个选择权限，然后又迅速在下一版更新中去除了这功能，称这不是“用户可以玩的功能”，会给开发者支持带来很多问题。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	原本全部权限获取是对开发者更有利的环境，而现在的变化，也代表着现在 Android 获得牢固统治地位以后，Google 更在意的一方变成用户了。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<b>2. &nbsp;每个应用不再孤立</b> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	最大的变化是应用内打开网页的时候不但不用跳出去，而且可以直接读取你保存在 Chrome 里的网站数据。比如只你要在 Chrome 登录过一个网站的账号，以后在 Android 应用里打开那个网站，就不再需要重新输入密码——就像 iPhone 和 Android&nbsp;今天所做的那样。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	此外 Google 还发布了&nbsp;App Links，让你从一个应用快速地连接到其他应用，不需要重复的登陆。例如你收到一封提到某个 Twitter 链接的邮件，链接是某名人发的一条推文，那么你点开之后不需要打开默认浏览器，而是直接打开对应的 Twitter 推文的页面。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<b>3. &nbsp;自动进入节能模式</b> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Android M 最新的节能功能叫做 Doze，可以意识到你的手机应用是否在使用状态，如果不在使用状态，应用就会减少刷新频次，也会减少自动同步次数以节省电能。 Dave Bruke 称，有了 Doze 功能之后，Android 手机的电池寿命将会是原来的两倍；另外，Android M 还将会支持 USB Type-C，苹果最新版 Macbook 也使用同样的接口，可以用作 USB 连接，以及快速充电。
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<img src="/uploads/image/201505/c4f1f3bbd74f.jpg" alt="" style="width:601px;" /> 
+</p>
+<p style="white-space:normal;text-align:center;margin-bottom:16px !important;">
+	节能模式示意图
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	<b>4. &nbsp;更加聪明 Google Now</b> 
+</p>
+<p style="white-space:normal;margin-bottom:16px !important;">
+	Google Now 是今年的重头戏之一，同样作为虚拟助手，Google Now 现在可以通过情景来判断你所在说的“指代词”。举个例子，如果在短信里面有朋友约你看电影&nbsp;Tomorrow Land，那么，只要你点击一下字样，就会出来明天的 Tomorrow Land 的票务信息和场次；如果你在听 The Cranberries 专辑，然后问 Google Now，谁是这乐队的主唱？Google Now 通过你听的音乐，就能明白你代指的是&nbsp;&nbsp;The Cranberries 的主唱&nbsp;Dolores O'Riordan。这比之前 Google Now 想要主动给你推送实用信息的效果更往前了一步。
+</p>
+<p>
+	<span style="white-space:normal;"><b>5. &nbsp;指纹识别支持成标配</b></span> 
+</p>
+<p>
+	<span style="white-space:normal;">指纹识别并非新功能，三星、HTC 等厂商的旗舰手机早已经配备了自己开发的指纹识别系统，而现在，Android 也已经带有支持指纹识别。</span> 
+</p>
+<p>
+	<span style="white-space:normal;"><img src="/uploads/image/201505/dcb708e24f65.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span style="white-space:normal;">这个功能本应该在去年发布会，不过因为没有准备充分而被延迟到了现在，这个 API 发布后，Android 开发者就不需要自己单独开发指纹识别功能了，也可以预见指纹识别将会更快普及到中低端价位的智能手机中。</span> 
+</p>
+<p>
+	<b>6. &nbsp;移动支付应用 Android Pay</b> 
+</p>
+<p>
+	和之前的传言一致，Google 带来了自己的移动支付应用 Android Pay。像苹果的 Apple Pay 一样，Google 称今年支持近场通讯技术（NFC）的 Android 手机就可以使用。
+</p>
+<p>
+	Google 还在现场展示了目前已经支持 Android Pay 的公司，例如美国运营商 AT&amp;T 以及 T-Mobile，麦当劳、赛百味等快餐店，还有耐克、可口可乐等品牌。
+</p>
+<p>
+	早在 4 年前，Google 已经推出类似的服务 Google 钱包，但由于缺少支持没有人用。今天 Google Pay 也面临着类似的问题：许多手机厂商已经因为 NFC 应用缺失在新产品里拿掉了这功能。等大部分产品加回来会需要很长时间。同时不少手机厂商和运营商也参与了自己的标准置顶。因此 Google Pay 很难像 Apple Pay 一样短期积攒数千万用户，商家支持它的动力会相对有限。
+</p>
+<h2>
+	Android Wear 更新了，瞄准 Apple Watch
+</h2>
+<p>
+	尽管 Google 的智能手表操作系统 Android Wear 面世更早，还联合了 LG、三星和摩托罗拉等公司合作推出硬件，但一个多月前出货的苹果智能手表 Apple Watch 才算是真正炒热了“智能手表”这种产品。他们在一天之内预定了接近 100 万台，这比上述三家硬件厂商一年卖出的 Android Wear 智能手表还要多。
+</p>
+<p>
+	<img src="/uploads/image/201505/e5dcde7e99e5.jpg" alt="" /> 
+</p>
+<p>
+	而 Android Wear 的更新，也强调和 Apple Watch 类似的“Glance”（瞥一眼）效果。要实现这种效果，Android Wear 改进了交互方式，可以通过手腕转动而滚动屏幕转换应用，让你不用双手就可以；另外就是屏幕不熄灭的效果，Android Wear 想要手表屏幕“Always On”的同时还不费太多电，所以就有了一个“黑白屏幕模式”，应用依然运行，只是显示成黑白颜色。
+</p>
+<p>
+	当然，现场一个最好的功能就是手写 Emoji 识别功能，画个酒杯，对应的酒杯 Emoji 就出来了。
+</p>
+<h2>
+	传说中的智能家居操作系统来了
+</h2>
+<p>
+	传说中的 Google 智能家居系统 Brillo 来了，根据 Sundar Pichai 的说法，这个智能家居系统是 Android 操作系统的细分，尽管同时到来的不仅仅是 Brillo，还有 Weave，一个浮在物联网之上的沟通层，可以让你家的智能设备相沟通，无论那是否是统一品牌的灯泡或者智能电视。
+</p>
+<p>
+	<img src="/uploads/image/201505/7f4ba8d32c77.jpg" alt="" /> 
+</p>
+<p>
+	Google 并没有建立什么物联网联盟，但这次推出的 <span style="color:#3F3F3F;font-size:14px;line-height:24px;white-space:normal;">Weave</span>&nbsp;就像是一个物联网设备之间的“通用语言”，作为用户，你并不需要理解很复杂的原理，只要知道你家的智能烤箱可以和你的冰箱联动就对了。
+</p>
+<p>
+	<img src="/uploads/image/201505/10d483f49d1f.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	消费者们看到的应用画面会类似这样
+</p>
+<p>
+	Brillo 和 <span style="color:#3F3F3F;font-size:14px;line-height:24px;white-space:normal;">Weave</span>&nbsp;将会今年的第三和第四季度正式发布。
+</p>
+<h2>
+	Google 从纸皮 VR 设备，走向最难内容制作环节了
+</h2>
+<p>
+	Cardboard 今年也有了新的改进，除了支持 6 寸的手机之外，还改进了设计按钮。目前，纸皮 Cardboar 在全球已经有超过 100 万用户，还推出了一个教育项目&nbsp;Expedtions， 让老师就可以在网上注册这个项目，带小朋友用虚拟现实设备探索世界上任何地方。
+</p>
+<p>
+	<img src="/uploads/image/201505/6a3803a2e155.jpg" alt="" /> 
+</p>
+<p>
+	但更加让人激动的是 GoPro 和 Google 最新合作项目 JUMP。这个项目意味着 Google 终于正式进军虚拟现实领域了——而且是虚拟现实中最难的一环，内容制作。JUMP 项目分为三部分，一个圆形的装满 GoPro 高清运动相机的拍摄 360 度拍摄设备，一套 Google 优化景物深度和变形的算法，还有视频发布平台 YouTube。今年夏天，YouTube 将开始播放用&nbsp;GoPro 拍摄的 360 度的视频。
+</p>
+<p>
+	<img src="/uploads/image/201505/223d94a9c4e0.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	GoPro 360 摄像的硬件设计图
+</p>
+<p>
+	“我们的产品是给世界上的所有人提供的，所有人” Sundar Pichai 一直强调，而现场，也摆了一个所有 Android 设备的集合：
+</p>
+<p>
+	<img src="/uploads/image/201505/0900b2c92747.jpg" alt="" /> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1334">
+				<span data-id="1334">Google I/O</span>
+			</li>
+			<li class="tag item" data-id="568">
+				<span data-id="568">Android</span>
+			</li>
+			<li class="tag item" data-id="10838">
+				<span data-id="10838">Android M</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10167" data-title="《Google I/O 现场：Android 用户过十亿，新的手机、手表、智能家居系统发布》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10167/medium/10167.JPG?1436651205" data-url="http://www.qdaily.com/mobile/articles/10167.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27154/medium/27154.jpg?1463798236" alt="">
+                        <h1 class="title">持续数年的 Android 专利大战，现在还在争什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27145.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27145/medium/27145.jpg?1463748896" alt="">
+                        <h1 class="title">新《超能敢死队》预告片里，各种鬼魂占领了时报广场</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27141.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27141/medium/27141.jpg?1463755928" alt="">
+                        <h1 class="title">提高生活品质，给你几个小物做参考丨这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27142.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27142/medium/27142.jpg?1463736643" alt="">
+                        <h1 class="title">星巴克在美国推出超值午餐，里面没有咖啡</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27152.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27152/medium/27152.jpg?1463795016" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10167">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10167" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">133</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10147.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

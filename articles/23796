@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我们和穷游网创始人肖异，聊了聊“失败”这件事_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="我们和穷游网创始人肖异，聊了聊“失败”这件事。“我没有去做我内心真正想做的事情， 其实我那个时候真正想做的事情就是冲到 leader 的办公室，告诉他说你不能这么对我。”。好奇心日报为您呈现我们和穷游网创始人肖异，聊了聊“失败”这件事的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="穷游网 肖异 留学 告诉我一次你失败的经历 播客 创业 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="XQ9lLrW9y+gjJGDLwDFN+K29gEhBUdaQJthvfx8aB9c=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9396">
+				<span data-id="9396">穷游网</span>
+			</li>
+			<li class="tag item" data-id="24831">
+				<span data-id="24831">肖异</span>
+			</li>
+			<li class="tag item" data-id="2232">
+				<span data-id="2232">留学</span>
+			</li>
+			<li class="tag item" data-id="24451">
+				<span data-id="24451">告诉我一次你失败的经历</span>
+			</li>
+			<li class="tag item" data-id="6276">
+				<span data-id="6276">播客</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">我们和穷游网创始人肖异，聊了聊“失败”这件事</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/130051/small/130051.jpg?1435571000" alt="">
+					</span>
+				<span class="name">温欣语 徐婧艾</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-13 13:48:32 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23796/medium/23796.jpg?1457831321" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23796" data-title="《我们和穷游网创始人肖异，聊了聊“失败”这件事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23796/medium/23796.jpg?1457831321" data-url="http://www.qdaily.com/mobile/articles/23796.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“我没有去做我内心真正想做的事情， 其实我那个时候真正想做的事情就是冲到 leader 的办公室，告诉他说你不能这么对我。”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>2000 年，带上家里东拼西凑的钱，肖异一个人前往德国留学。刚下飞机，肖异发现，身上的钱被偷光了，“穷游”差不多就从这里开始。</p><p>肖异给自己取的网名“方便面”也是这个原因，那段时间，他的生活几乎可以和方便面划等号：他做了几个月的苦力活——帮人搬家具、整理地下室、去机场搬货，好不容易在教授的引荐下拿到了一份像模像样的 IT 实习工作，结果却令他大失所望。 </p><p>十多年过去了，肖异已经是一个有四百名员工、六千万用户网站的 CEO。当我们问他，什么是他经历的失败时，他认为产品设计或者技术问题这些都不是失败，都能迎刃而解，但德国的那段实习经历却是自己真正的失败：“违心地做一件你不愿意做的事情，你就是一个彻底的 loser”。</p><p>尽管 CEO 肖异对职场新人的一些建议听起来像是鼓励他们为公司无条件付出，但如果你恰好在工作这件事上感到困惑，我们相信这段音频还是会对你有帮助。</p><iframe style="width: 100%; max-height: 36px;" src="http://www.ximalaya.com/swf/sound/red.swf?id=13106781" allowfullscreen="" frameborder="0"></iframe><p class="">如果你想在后台收听或者锁屏的话，可以点开上面的音频。考虑到你还可能无法马上打开音频，我们摘取了访谈中最精彩的部分。<br></p><p><b>Q = Qdaily</b></p><p><b>肖=肖异（穷游创始人兼 CEO )</b><br></p><p>肖：各位《好奇心日报》的听众朋友们，大家好！我是肖异，网名“方便面”。 </p><p><b>Q：之前跟你聊天时发现你是一个心态特别好的人，遇到事情就解决，没什么大不了的，但我听说你在德国的一段实习经历你把它称之为失败，一直很难释怀，可以跟我们讲一讲吗？ </b></p><p>肖：可以，2000 年我到德国留学，最开始的时候有一段非常非常艰难的时候，因为家境非常的拮据然后又在德国的飞机上把钱丢了，所以前面大概两到三个月做了非常繁重的体力活，起的很早去劳动局抽签排队，去搬家、帮别人整理地下室、去机场搬货，所以特别想找一份比较稳定的工作。 </p><p>因为在那边学的是信息工程，好像也是我们那边学校的一个教授牵线搭桥，就去到了一个 IT 公司，然后为什么说这是一个失败的经历？我先定义一下什么是“失败”，在我看来如果你没有最大化地利用好你的时间，如果你没有在这段时间当中做你应该做的或者你愿意做的事情，我认为它就是失败。2000 年的时候在实习的工作当中，三个月的时间，我觉得可以说是一个煎熬，因为从去的第一天开始到最后走，我基本上不知道他们在做什么事。 </p><p><b>Q：是完全不知道吗？</b> </p><p>肖：对，基本上。我到现在想起来也觉得很诧异很费解，因为同事们大家人都很nice，但是就是一到工作的时候或者给我分配一些事情的时候，就明显感觉出来我好象被排斥在他们那个圈子外。你可以看到对面的办公室都在发生什么，我就发现他们在聊一些事情的时候,在那些白板上写东西的时候，挺热火朝天的，但是就是没有人过来跟我说我们希望你做什么，我们希望怎么去培养你。 </p><p><b>Q：你有找过相关的人沟通这件事吗？ </b></p><p>肖：那个公司好象没有专门的 HR，肯定是有跟我比较近的部门的 leader 和同事，也有跟他们聊，但是在聊的过程当中大家是跟你套套近乎，没有实质的东西。而且，那个时候心里上还是有一些矛盾，有一些就是忐忑，就是什么呢？我在想这个工作的 pay 还是不错的。而且当时想找这个工作挺不容易的，自己的语言还没有那么好，那也在想你如果直接去很激烈地跟别人去争一些东西，也许你会失去这份工作。 </p><p><b>Q：那没有工作安排的时间你都在干什么？ </b></p><p>肖：我一大收获就是我自己自学了一门编程语言，一门比较小众的编程语言，从那个时候开始接触到一些 Unix 系统环境的东西，因为他们是基于那些东西，刚在国内的时候是 Windows 的架构。</p><p><b>Q：没有人管你，其实对你自控能力要求挺高，很难一直保持热情，督促自己去学习？ </b></p><p>肖：对，所以这段时间我是定位为很彻底的一次失败，因为我觉得首先一点，就是从这个职业道德上面来说，你拿了别人的钱，那你其实并没有给雇主贡献什么样的事情，反而你是在消耗他的资源，而且你的所得就是为自己，你只学了这门语言，这个语言又没有用到这个公司的项目上面。第二个就是在做一件事情的时候就是挺无助的，你被排斥在外面那样一种感觉。我觉得第三点可能也是我心理上的，因为你其实有一种妥协，就是说你不希望失去你看起来还不错的一个 job，我没有去做我内心真正想做的事情，  其实我那个时候真正想做的事情就是冲到 leader 的办公室，告诉他说你不能这么对我，你应该怎么样怎么样，所以我是觉得包括到现在这么多年，我也是这么定义的，就是说当你在违心地做一件你不愿意做的事情的时候你就是一个彻底的 loser。 </p><p><b>Q：你觉得这家公司当时给你留下的什么印象比较深刻，或者说你以后去其他公司的时候有哪些迹象或者危险信号就绝对不会选择这家公司了？ </b></p><p>肖：对，我觉得就是对待新人，对待实习生的一种态度，因为这个确实对我打击太大了，所以我基本上对它的印象就是停留在很负面的一个上面。 </p><p><b>Q：这段实习结束后，下一段工作开始前的这段时间你做了些什么？ </b></p><p>肖：我觉得那段时间其实挺有意思的，正好稍微空了一点，在这个过程当中我跟那些西方的留学生做了很多的交流，也算是开拓了一些眼界和兴趣点，因为很多人喜欢摇滚乐、踢足球等，还包括旅行，大家会聊各种各样的旅行，学生嘛都是住青年旅馆，所以那个时候也对我后来做穷游网或多或少有一些影响吧。 </p><p><b>Q：你之后找的第二份实习据说你投入非常多，也非常喜欢</b></p><p>肖：当时披星戴月太普通了，在办公室里面通宵基本上就是我一个人，通宵的都有大概好多次。</p><p><b>Q：通宵时办公室还有其他人吗？ </b></p><p>肖： 没有，就我一个人。当然有几次比较晚了，大概晚上九十点钟的时候我们的CEO 还在，然后他跑到我的办公室，然后我们一起聊一些工作上的事情，现在让我回想起来那个场景还是历历在目，因为他个子比较高，直接就是站在那儿一只脚岔在我的办公桌上，一手叼着烟，我们聊当天工作的事情，出的一些状况和一些产品， 我觉得那个时候也是特别受到重视，他也是在加班。</p>
+
+<p><b>Q：整个公司就你和 CEO 经常会加班到很晚？ </b></p><p>肖： 对，  当他发现好多次都只有我一个人在公司，其他人都走的时候，他有的时候会跟我聊一聊，聊工作上的事情，有一次就是因为当时聊着聊着聊出一个状况，那是晚上大概十点半了，聊出一个在研发过程当中可能是隐患的东西，他当时就抓起电话把另外两个领导叫到公司来了。所以我觉得第二份工作给了我非常非常大的影响。我觉得你是学生又怎么样，刚来又怎么样，你是外国学生英语不好都没有关系，你只要积极上进，你就会做出不错的成绩，同时能够得到别人的积极的响应。在差不多在一年半的时间，我的薪酬就翻了三倍。当时在公司大概做了三四年，而且如果把税都省掉的话，我拿到手的要超过我的 leader，因为学生你还有一些税务上的一些优惠。</p><p><b>Q：这些经历对你后来做穷游网有什么影响吗？ </b></p><p>肖：我觉得“穷游”这两个字最开始把它放在一起确实是在德国的时候有点儿生搬硬造，那时候没有穷游这个词，就是留学生穷留学生，那时候的穷是真的穷，现在“穷 游”这两个字不再专门指代一个网站、公司，它已经被越来越多的人以及你们媒体人用到，代表一种旅行方式甚至是超越旅行方式的生活方式和生活态度。</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9396">
+				<span data-id="9396">穷游网</span>
+			</li>
+			<li class="tag item" data-id="24831">
+				<span data-id="24831">肖异</span>
+			</li>
+			<li class="tag item" data-id="2232">
+				<span data-id="2232">留学</span>
+			</li>
+			<li class="tag item" data-id="24451">
+				<span data-id="24451">告诉我一次你失败的经历</span>
+			</li>
+			<li class="tag item" data-id="6276">
+				<span data-id="6276">播客</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23796" data-title="《我们和穷游网创始人肖异，聊了聊“失败”这件事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23796/medium/23796.jpg?1457831321" data-url="http://www.qdaily.com/mobile/articles/23796.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22958.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22958/medium/22958.jpg?1456539979" alt="我们和歌手李健聊了聊“失败”这件事">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">我们和歌手李健聊了聊“失败”这件事</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">36</span>
+				<span class="iconfont icon-heart">526</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/23368.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/23368/medium/23368.jpg?1457234732" alt="我们和作家蒋方舟聊了聊“失败”这件事">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">我们和作家蒋方舟聊了聊“失败”这件事</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">33</span>
+				<span class="iconfont icon-heart">257</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26284.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26284/medium/26284.jpg?1462169320" alt="">
+                        <h1 class="title">在百度出丑闻的时候，人们为什么更应该怀念 Google</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26308.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26308/medium/26308.jpg?1462206737" alt="">
+                        <h1 class="title">只要你的公司可以改善零售业，沃尔玛就需要你</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26290.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26290/medium/26290.jpg?1462174598" alt="">
+                        <h1 class="title">这是展厅还是住家，好像不是一个重要的问题</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26295.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26295/medium/26295.jpg?1462180067" alt="">
+                        <h1 class="title">讨论魏则西事件，不要打错板子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23796">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23796" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">210</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/22923.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

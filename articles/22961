@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>重造一个地铁站，纽约人怎么就花掉了40亿美元？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="重造一个地铁站，纽约人怎么就花掉了40亿美元？。它毫无疑问会成为自拍圣地，而且会拿来和中央车站做比较。
+。好奇心日报为您呈现重造一个地铁站，纽约人怎么就花掉了40亿美元？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 世贸中心 Oculus " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="N13JDN/U/SwRUbM5bEdfOpeY39155xB7gW7DSlU2OEU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="570">
+				<span data-id="570">世贸中心</span>
+			</li>
+			<li class="tag item" data-id="512">
+				<span data-id="512">Oculus</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">重造一个地铁站，纽约人怎么就花掉了40亿美元？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">David W. Dunlap</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-02-29 07:30:08 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/22961/medium/22961.png?1456548566" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="22961" data-title="《重造一个地铁站，纽约人怎么就花掉了40亿美元？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/22961/medium/22961.png?1456548566" data-url="http://www.qdaily.com/mobile/articles/22961.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				它毫无疑问会成为自拍圣地，而且会拿来和中央车站做比较。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">          </p><p><b><i>＊<a href="http://www.nytimes.com/2016/02/25/nyregion/oculus-centerpiece-of-transit-hub-and-selfie-magnet-is-set-to-open.html">本文</a>只能在《好奇心日报》发布，即使我们允许了也不许转载＊</i></b></p><p>孕育了 12 年之久，<a href="http://topics.nytimes.com/top/reference/timestopics/people/c/santiago_calatrava/index.html?inline=nyt-per">Santiago Calatrava</a> 设计的那只世贸中心的凤凰终于要展翅高飞了。</p><p>至少，准备破壳而出了。</p><p>这座庞大且身姿如鸟的世贸中心交通枢纽站名为 Oculus，计划于下周开放其中一半的空间。这比 <a href="http://www.nytimes.com/2004/01/23/nyregion/a-path-station-that-honors-9-11-and-opens-wide-too.html" style="background-color: rgb(255, 255, 255);">2004 年 Calatrava 的设计方案公布</a>时的预计时间晚了 7 年，且花费了双倍的预算。<br></p><p>这次试运营，<a href="http://www.nytimes.com/2016/02/24/nyregion/subdued-opening-set-for-4-billion-transit-hub-called-a-symbol-of-excess.html" style="background-color: rgb(255, 255, 255);">取消了那些在世贸遗址上曾频繁举行的仪式</a>——那些仪式一方面是为增加当地官员的存在感，另一方面向人民保证，这座遭受过摧毁的城市有复原的希望。<br></p><p>这些动机也有助于解释，“重建世贸中心地下的纽新捷运（PATH）道路客运铁路站”这样一个如此直截了当的需求，怎么就变成了一个斥资 40 亿美元、集购物中心、转乘站和人行步道网络于一体的综合体，一个扣在街边令人惊叹的白色仿生结构体，粗壮的肋骨与舒展的翅膀闪闪发亮。<br></p><p>可以这么形容 Oculus 吧：它从室内看真是激动人心——闪闪发光、结构错综复杂、令人既能感到精神振奋又能享受内心的宁静。建筑的实景图与理想化的效果图并无二致。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/b683c86923ed.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">“公共空间受欢迎，是很有必要的，” Calatrava 在周一的导览中说。图片版权：Hilary Swift/《纽约时报》</div></figcaption></figure></div><p class="">没有可以与之比拟的地方，除非你说的是密尔沃基（<a href="http://www.calatrava.com/projects/milwaukee-art-museum.html" style="background-color: rgb(255, 255, 255);">Milwaukee</a>）或者比利时的列日（<a href="http://www.calatrava.com/projects/guillemins-tgv-railway-station-liege.html" style="background-color: rgb(255, 255, 255);">Liège</a>），那儿有一些 Calatrava 的建筑杰作。<br></p><p>在世贸中心一带的其他地方，一家四口（父母带着两个孩子，一个 10 岁、一个 6 &nbsp;岁）要走进 9·11 国家纪念馆（National September 11 Memorial Museum）和世贸一号观景台（One World Observatory）需要花 179 美元。<br></p><p>而进入 Oculus 是免费，因为这里是公共空间。</p><p>这里注定会成为曼哈顿下城最受欢迎的目的地之一。位于椭圆形大厅的两端的阳台像跳水板一样悬在半空，这里将会成为自拍的集中地点。它与<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/g/grand_central_terminal_nyc/index.html?inline=nyt-classifier" style="background-color: rgb(255, 255, 255);">纽约中央车站</a>之间的比较几乎不可避免。Calatrava 称中央车站是他的灵感来源，这也不足为奇。<br></p><p>他可能也给其他人带来了启发。随着话题转向安德鲁·库默（Andrew M. Cuomo）政府对<a href="http://www.governor.ny.gov/news/governor-cuomo-kicks-first-phase-transformational-redesign-new-york-penn-station" style="background-color: rgb(255, 255, 255);">宾州车站的改建</a>，这个对比也不可避免：政府对中城的国际化铁路站规划限制，而把市中心的通勤火车站搞得声势浩大。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/7d87676bbe1b.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Oculus 的外观，交通枢纽站的顶部，这里比计划晚开放了 7 年，花费了两倍预算。图片版权：Hilary Swift/《纽约时报》</div></figcaption></figure></div><p class="">而且，库默没有拿到公交枢纽站享有的联邦政府交通部资助。<br></p><p>“这是个遗产项目，”Steven Plate 说，他是<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/p/port_authority_of_new_york_and_new_jersey/index.html?inline=nyt-org" style="background-color: rgb(255, 255, 255);">纽约与新泽西港务局</a>的重大投资项目主管，负责建设枢纽站和重新规划整个世贸中心场地。他说：“我们有义务把它做好。”<br></p><p>2011 年 9 月 11 日的恐怖袭击发生后不到两年，纽约似乎就需要在世贸中心遗址上建个新生的公共建筑，几乎是庄严纪念馆与成群孤立写字楼的对立面。<br></p><p>港务局官员选择了 Calatrava 带头的一家建筑工程合资公司。后者承诺会拿出一个符合他们雄心壮志的纪念性建筑。<br></p><p>自那以后，枢纽站就一直<a href="http://www.nytimes.com/2014/12/03/nyregion/the-4-billion-train-station-at-the-world-trade-center.html" style="background-color: rgb(255, 255, 255);">问题不断</a>，不是所有问题都能摆在当局和 Calatrava 先生面前解决。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/94a8710c022c.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Oculus 内部，这注定会成为曼哈顿下城区最受欢迎的场所之一。</div></figcaption></figure></div><p class="">例如，在整个复杂的建设过程中，最奢侈的一个工程表现叫做<a href="http://www.historyofbridges.com/facts-about-bridges/tied-arch-bridge/" style="background-color: rgb(255, 255, 255);">系杆拱桥</a>，地铁 1 号线将在拱桥上行驶，距离在中楼层跨过 Oculus 和主要的 PATH 中转大厅间的人行道有 200 英尺（60.96 米）的高度——这当中没有设置立柱。<br></p><p>这种表现形式不仅是 Calatrava 偏好戏剧化结构的反映。<br></p><p>他说，这同时保证了游客的舒适性和安全性；之所以说舒适性，是因为没有立柱的宽敞空间更易游览；安全性则是指，这消除了在较细立柱下放包裹炸弹的安全威胁，同时使人群在紧急情况下更易疏散。<br></p><p>地铁带来了另一个巨大挑战。枢纽站必须绕着昼夜不停运行的地铁 1 号线来建，因为纽约城市交通管理局不会考虑暂停南码头的交通。枢纽站的中楼层是由屋顶向下搭建的，违背了标准的工程实践方式，原因是屋顶面积加倍，成了纪念广场的一部分，而布隆伯格（Michael R. Bloomberg）市长曾经一声令下，要求广场必须在 2011 年 9·11 恐怖袭击十周年的纪念日开放。<br></p><p>在 2012 年，<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/h/hurricanes_and_tropical_storms/index.html?inline=nyt-classifier">桑迪飓风</a>造成了数亿美元的财产损失。当局不会给出确切的损失总数，因为他们正在与保险公司协商。如果飓风后的重建也作为建设成本的一部分，那官方所公布的 37 亿美元预算会超过 40 亿美元大关。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/09f9ef7eeb00.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Oculus 的工程收尾工作。</div></figcaption></figure></div><p class="">此外，在去年即将完工时，由于 Greenwich 街与 Cortlandt 街交叉口的<a href="http://www.nytimes.com/2015/11/05/nyregion/westfield-world-trade-center-opening-delay-transportation-hub.html" style="background-color: rgb(255, 255, 255);">漏水事件</a>，原定的零售空间开放时间也推迟了数月。<br></p><p>零售商铺将如何呈现，以及运营方&nbsp;<a href="http://wtc.westfield.com/retailers/" style="background-color: rgb(255, 255, 255);">Westfield World Trade Center</a>&nbsp;怎样安排 Oculus 中央的广阔空间，这些最后都与建筑空间体验的品质有很大关系。<br></p><p>Calatrava 在周一导览的时候说：“公共空间受欢迎，是很必要的。”他希望 Oculus 能够与米兰的<a href="https://www.tripadvisor.co.nz/LocationPhotoDirectLink-g187849-d194342-i146761903-Galleria_Vittorio_Emanuele_II-Milan_Lombardy.html" style="background-color: rgb(255, 255, 255);">艾曼纽二世拱廊</a>相媲美，这座 19 世纪建成、有着拱形玻璃屋顶的优雅购物中心，与城市脉络天然地融为一体。<br></p><p>在 Oculus 里，店面的弧度与和散射的大厅会使零售商更有可见度，Calatrava 说，“但他们必须要在玻璃后面，”他补充道，“我们要创作一首协奏曲，然后营造出店铺之间的和谐感。”<br></p><p>克制的设计可不是 21 世纪零售店的标志特征，但港务局的执行董事 Patrick J. Foye 认为，这方面有很好的先例。<br></p><p>“中央车站的店铺就实现了很好的平衡，那么这里也能实现，”他说。<br></p><p>毕竟，在这块地盘上，商铺并不是新鲜事物。一个世纪以前，曾经有个生机勃勃的区域专门经销小型电子产品，后来为了给世贸中心的双塔腾出空间被港务管理局挤走了。今年秋天，Oculus 里就会有一家苹果商店出售新型的电子产品了，位置就在从前 Radio Row 商业区的不远处。<br></p><p>翻译：Alicia Lee</p><p class="">图片版权：Hilary Swift/《纽约时报》</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="570">
+				<span data-id="570">世贸中心</span>
+			</li>
+			<li class="tag item" data-id="512">
+				<span data-id="512">Oculus</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="22961" data-title="《重造一个地铁站，纽约人怎么就花掉了40亿美元？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/22961/medium/22961.png?1456548566" data-url="http://www.qdaily.com/mobile/articles/22961.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/3304.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/3304/medium/3304.jpg?1436637896" alt="13 年后，纽约新世贸中心 1 号楼重新开幕">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">13 年后，纽约新世贸中心 1 号楼重新开幕</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26458.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26458/medium/26458.jpg?1462431814" alt="">
+                        <h1 class="title">新兴设计师怎样才能吸引零售商？买手们有话说</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26506.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26506/medium/26506.jpg?1462512753" alt="">
+                        <h1 class="title">一家直播棒球比赛的公司，迪士尼开价 10 亿美元</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26498.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26498/medium/26498.jpg?1462506372" alt="">
+                        <h1 class="title">比利时酒厂建了 3 公里管道输送啤酒，这不是在搞笑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26504.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26504/medium/26504.jpg?1462510306" alt="">
+                        <h1 class="title">玩这个插画师画的扑克牌，差不多能了解半部当代建筑史</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="22961">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="22961" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">76</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/22948.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

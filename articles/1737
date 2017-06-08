@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个成立2年的订餐外卖服务，怎样卖到1亿美元？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个成立2年的订餐外卖服务，怎样卖到1亿美元？。移动支付公司 Square 今天收购了外卖送餐服务 Caviar，这个连移动应用都还没有的服务，是怎样卖出高价的？。好奇心日报为您呈现一个成立2年的订餐外卖服务，怎样卖到1亿美元？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Square 移动支付 Caviar " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="U1nCUGEKzmeWqiKp75biyCmnSu8JXbOoxJzlzq6cz+E=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1974">
+				<span data-id="1974">Square</span>
+			</li>
+			<li class="tag item" data-id="2150">
+				<span data-id="2150">移动支付</span>
+			</li>
+			<li class="tag item" data-id="2151">
+				<span data-id="2151">Caviar</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个成立2年的订餐外卖服务，怎样卖到1亿美元？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-08-05 15:05:04 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1737/medium/1737.jpg?1436645398" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1737" data-title="《一个成立2年的订餐外卖服务，怎样卖到1亿美元？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1737/medium/1737.jpg?1436645398" data-url="http://www.qdaily.com/mobile/articles/1737" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				移动支付公司 Square 今天收购了外卖送餐服务 Caviar，这个连移动应用都还没有的服务，是怎样卖出高价的？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	外卖订餐服务 Caviar 今天被美国的移动支付公司 Square <a href="http://techcrunch.com/2014/08/04/its-official-square-acquires-food-delivery-service-caviar/" target="_blank">收购</a>，交易的价格为 9000 万到 1 亿美元！为什么一个成立 2 年外卖送餐的初创公司（它甚至还没有出移动应用）会获得如此高的认可？
+</p>
+<p>
+	<a href="https://www.trycaviar.com/" target="_blank">Caviar</a> 成立于 2012 年，<span>与竞争者 DoorDash、GrubHub 一样，Caviar 主打的是网络订餐+快速送餐服务，不同的是，他们的主要食物来源都在于美国的中高端餐厅，<span>走中高端、企业化路线，两边收费。</span><span>在 Caviar 运营后的三个月，这个外送服务就已经开始盈利了。</span></span> 
+</p>
+<p>
+	<span style="line-height:1.5;">与很多外卖公司不同，Caviar 送餐是采用<a href="http://recode.net/2014/08/04/i-want-it-and-i-want-it-now-its-time-for-instant-gratification/" target="_blank">自建物流</a>的方式，每次送货给司机支付 15 美元的送货费用。</span><span style="line-height:1.5;">对于订餐的顾客，每次送餐还要收取 9.99 美元的送货费，这个价格未来将会调整为 4.99 美元；对于餐厅，Caviar 会收取订餐总价的 10%-25% 作为推广费用。目前在 Caviar 订餐需求中，有 50% 来自企业办公室订餐。</span> 
+</p>
+<p>
+	但对于收购它的 Square 来说，靠外卖赚点钱想必并不是它的主要考量。Caviar 可以整合到 Square 今年 5 月新推出了垂直订餐服务 <a href="http://gigaom.com/2014/05/12/square-retools-consumer-mobile-payments-replacing-wallet-with-a-new-app-called-order/" target="_blank">Square Order</a>，在一个应用中流畅地完成从点餐、支付、送货到反馈的所有环节。
+</p>
+<p>
+	由 Twitter 创始人 Jack Dorsey 创办的&nbsp;Square 是一个为中小型商家提供刷卡服务的移动支付平台，收入来自刷卡手续费。但这微薄的手续费里<a href="http://online.wsj.com/news/article_email/SB10001424052702303825604579513882989476424-lMyQjAxMTA0MDIwMDEyNDAyWj" target="_blank">有 80% 需支付 Visa 或者 MasterCard 等信用卡机构</a>，尽管 Square 2013 年处理的交易额已经达到 200 亿美元，但公司的收入仅 5.5 亿美元，亏损了 1.1 亿美元。
+</p>
+<p>
+	Square 之前曾希望依靠 2011 年推出的 Square Wallet 支付应用，让用户直接在应用里付款，而不再刷卡。但 Wallet 并没有获得广泛接受，最终 Square 在<span style="line-height:1.5;">今年 5 月关闭了 Wallet 并推出 Order。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">Square Order 的目标比 Wallet 更为现实，用户在上面直接给餐厅或糕点店下单，到店面直接取走，省去了排队付款、等菜的过程。</span> 
+</p>
+<p>
+	而 Caviar 的加入，可以让 Square 的商家和用户走完了一个完整的闭环：订餐，送餐，支付，反馈。&nbsp;有了 Caviar 旗下的合作商家和订餐服务（大部分是“走量”的企业客户），Square 公司也不需要仅仅依靠手续费，而是快速抓住了推广渠道，收取商家推广费。
+</p>
+<p>
+	一键订餐服务，如 Caviar、GrubHub 目前正炒得火热，不少订餐服务已经可以达到 <a href="http://recode.net/2014/08/04/i-want-it-and-i-want-it-now-its-time-for-instant-gratification/" target="_blank">10 分钟之内送到家门口的效率</a>。这些以“一键”、“极速服务”为主打的企业，被统称为“Uber for X”，正在高速提升城市运输效率、提供优质的体验，因而受到用户和投资人的青睐。而我们的手机，就更像是现实生活的“遥控”，让人们越来越接近 Wall E 里面描述的“一点即有”的生活。
+</p>
+<p>
+	<img src="/uploads/image/201408/41ee68769b14.jpg" alt="" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="mashable.com" target="_blank">Mashable</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1974">
+				<span data-id="1974">Square</span>
+			</li>
+			<li class="tag item" data-id="2150">
+				<span data-id="2150">移动支付</span>
+			</li>
+			<li class="tag item" data-id="2151">
+				<span data-id="2151">Caviar</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1737" data-title="《一个成立2年的订餐外卖服务，怎样卖到1亿美元？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1737/medium/1737.jpg?1436645398" data-url="http://www.qdaily.com/mobile/articles/1737" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24956.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24956/medium/24956.jpg?1459822948" alt="">
+                        <h1 class="title">硅谷初创公司对求职者的吸引力正在下降，这是真的吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24976.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24976/medium/24976.jpg?1459834748" alt="">
+                        <h1 class="title">30 多年之后，赛博朋克经典《银翼杀手》要拍续集了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24973.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24973/medium/24973.jpg?1459833900" alt="">
+                        <h1 class="title">连无人机公司都要成立联盟，来游说政府了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24967.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24967/medium/24967.jpeg?1459831436" alt="">
+                        <h1 class="title">这处在葡萄牙的住宅，像是随意叠在一起的白色盒子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1737">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1737" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">5</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1739.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

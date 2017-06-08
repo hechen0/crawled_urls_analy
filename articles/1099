@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5 个应用督促你开车不发短信_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="5 个应用督促你开车不发短信。如果你知道开车用手机是交通事故的头号杀手，而开车发短信则会降低司机 79% 的注意力，其危害是酒驾的 7 倍，也许你会开始意识到事情的严重性了。大众汽车近日一则创意广告正是围绕这个主题，通过互动的方式让人深刻感受到开车发短信的危害。。好奇心日报为您呈现5 个应用督促你开车不发短信的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="大众汽车 公益广告 应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="7AGuyViiujhIfMuqCbDv/0jy1wnWANp6tE0N0X4U65M=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1079">
+				<span data-id="1079">大众汽车</span>
+			</li>
+			<li class="tag item" data-id="1080">
+				<span data-id="1080">公益广告</span>
+			</li>
+			<li class="tag item" data-id="320">
+				<span data-id="320">应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">5 个应用督促你开车不发短信</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/9/small/9.JPG?1399347880" alt="">
+					</span>
+				<span class="name">林若茹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-11 13:16:11 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1099/medium/1099.jpg?1436638651" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1099" data-title="《5 个应用督促你开车不发短信》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1099/medium/1099.jpg?1436638651" data-url="http://www.qdaily.com/mobile/articles/1099.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				如果你知道开车用手机是交通事故的头号杀手，而开车发短信则会降低司机 79% 的注意力，其危害是酒驾的 7 倍，也许你会开始意识到事情的严重性了。大众汽车近日一则创意广告正是围绕这个主题，通过互动的方式让人深刻感受到开车发短信的危害。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	看完《催眠大师》的人都知道这其实是一部安全驾驶教育片……别笑，如果你知道开车用手机是交通事故的头号杀手，而开车发短信则会降低司机 79% 的注意力，其危害是酒驾的 7 倍，也许你开始意识到事情的严重性了。大众汽车近日<a href="http://mashable.com/2014/06/10/volkswagen-psa-texting-and-driving/" target="_blank">一则公益广告</a>正是围绕这个主题，通过互动的方式让人深刻感受到开车发短信的危害。&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	<iframe height="498" width="640" src="http://player.youku.com/embed/XNzI0NzQyMTAw" frameborder="0">
+	</iframe>
+</p>
+<p class="MsoNormal" align="left">
+	不同于以往的汽车广告，这是一则名为 “Eyes
+on the Road” 的互动公益广告，在香港的一家电影院放映。开场后，观众会看到一辆车在空旷的公路上行驶，画面是从第一人称视角拍摄，很容易让观众产生自己也在驾车的代入感。而这时工作人员就给在场的每个人发短信，你会看到每个人的本能都是第一时间掏出手机；当人们低头忙着回复讯息的时候，却发现屏幕上的车子已经撞毁——别忘了，这是个互动游戏，当你看手机的时候，意味着驾驶司机也在掏出手机来看，悲剧立刻就发生了。在视频中，我们会看到现场人们的表情：错愕、惊恐、后悔……大众的这则公益广告，可谓是富含深意又有创意，发布四天就在 <a href="http://youtu.be/JHixeIr_6BM" target="_blank">YouTube </a>上点击量就突破 400 万。
+</p>
+<p class="MsoNormal" align="left">
+	#五个应用让你开车的时候远离手机
+</p>
+<p class="MsoNormal" align="left">
+	1. &nbsp;DriveOFF
+</p>
+<p class="MsoNormal" align="left">
+	这是一个 <a href="https://play.google.com/store/apps/details?id=com.groupfmg.enginonmobileoff" target="_blank">Android 应用</a>，由汽车保险公司 Esure 开发，当监测到司机的运动速度超过每小时 16 公里时，就会自动关闭其他会分散注意力的应用，当然包括阻止来电和短信。而有才的家长也发现，这款应用还能被用来阻止熊孩子们学习的时候偷玩手机呢。
+</p>
+<p class="MsoNormal" align="left">
+	2.&nbsp; DriveMode
+</p>
+<p class="MsoNormal" align="left">
+	AT&amp;T
+开发的<a href="http://www.att.com/gen/press-room?pid=2964">应用</a>，会在车子速度超过每小时 40 公里的时候自动开启，而且比上面这个应用高明之处在于，会帮你自动回复短信和邮件：司机在开车，请稍后联系。Android 和黑莓手机都能装这款应用。
+</p>
+<p class="MsoNormal" align="left">
+	3.&nbsp; TextBuster
+</p>
+<p class="MsoNormal" align="left">
+	这个 <a href="http://www.textbuster.com/" target="_blank">Android 应用</a>需要搭配一个硬件设备，安装在车上，每当司机上车的时候就能被应用监测到，并且阻断短信、邮件和网络。当然，打电话和 GPS 导航功能还是有的，否则真出意外了还没法向外界求助，那可真是得不偿失了。这款硬件售价 179-199.95 美元。
+</p>
+<p class="MsoNormal" align="left">
+	4.&nbsp; DriveScribe
+</p>
+<p class="MsoNormal" align="left">
+	这也是一款免费<a href="http://drivescribe.com/" target="_blank">应用</a>，和以上应用的原理也大致相似，而且在司机开车太快的时候会提醒你减慢速度，并且记录你的每一次驾程。
+</p>
+<p class="MsoNormal" align="left">
+	5.&nbsp; iZUP
+</p>
+<p class="MsoNormal" align="left">
+	这款<a href="http://www.getizup.com/" target="_blank">应用</a>是最简单粗暴的，让你的手机立刻变成除了拨求助电话以外毫无用处的设备。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1079">
+				<span data-id="1079">大众汽车</span>
+			</li>
+			<li class="tag item" data-id="1080">
+				<span data-id="1080">公益广告</span>
+			</li>
+			<li class="tag item" data-id="320">
+				<span data-id="320">应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1099" data-title="《5 个应用督促你开车不发短信》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1099/medium/1099.jpg?1436638651" data-url="http://www.qdaily.com/mobile/articles/1099.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26437.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26437/medium/26437.jpg?1462412604" alt="">
+                        <h1 class="title">Farfetch 获 1.1 亿美元投资，以及，去沙滩度假可以这样穿｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26463.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26463/medium/26463.jpg?1462436943" alt="">
+                        <h1 class="title">她把报刊亭做成了城市名片，也做成了一门不错的生意</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26469.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26469/medium/26469.jpg?1462439952" alt="">
+                        <h1 class="title">什么家电都得联网，连戴森也带来智能空气净化器</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26464.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26464/medium/26464.jpg?1462438829" alt="">
+                        <h1 class="title">电影《龙虾》的小游戏，来测测你将成为哪种动物</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26466.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26466/medium/26466.jpg?1462437735" alt="">
+                        <h1 class="title">肯德基推出炸鸡味指甲油，可以舔的那一种</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1099">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1099" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">14</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1098.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

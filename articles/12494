@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>吞噬世界的游戏 Agar 是如何火起来的？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="吞噬世界的游戏 Agar 是如何火起来的？。三天击败所有应用的 Agar 是个怎样的游戏？。好奇心日报为您呈现吞噬世界的游戏 Agar 是如何火起来的？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="游戏 页游 网游 agar.io miniclip " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="daoTzH3LA6loS8YKNUwe2AMHXVa8znZriER5CiyR17E=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="8744">
+				<span data-id="8744">页游</span>
+			</li>
+			<li class="tag item" data-id="13338">
+				<span data-id="13338">网游</span>
+			</li>
+			<li class="tag item" data-id="13339">
+				<span data-id="13339">agar.io</span>
+			</li>
+			<li class="tag item" data-id="13340">
+				<span data-id="13340">miniclip</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">吞噬世界的游戏 Agar 是如何火起来的？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-24 09:21:35 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12494/medium/12494.jpg?1437642416" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12494" data-title="《吞噬世界的游戏 Agar 是如何火起来的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12494/medium/12494.jpg?1437642416" data-url="http://www.qdaily.com/mobile/articles/12494.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				三天击败所有应用的 Agar 是个怎样的游戏？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	7 月 8 日，一个名为 <a href="http://Agar.io" target="_blank">Agar.io</a> 的游戏在<a href="https://itunes.apple.com/app/agar.io/id995999703?mt=8&at=1l3vajp" target="_blank">苹果 App Store</a> 和 <a href="https://play.google.com/store/apps/details?id=com.miniclip.agar.io" target="_blank">Google Play</a> 上架，并很快在全球多国走红。仅 3 日就拿下了欧美 10 个国家下载排行第一的位置。甚至一度成为 42 个国家下载量最大的应用。
+</p>
+<p>
+	尽管 Agar.io 在国内没那么出名，但山寨它的应用却在 App Store 中国区的游戏排行榜冲到第三名。
+</p>
+<h2>
+	大鱼吃小鱼，就这么简单
+</h2>
+<p>
+	Agar.io 并非是什么游戏大作，它不仅看上去简单，甚至可以说有些粗糙。
+</p>
+<p>
+	玩家可以操控一个像细胞一样的圆点，通过在屏幕上移动方向，不断吞噬比自己更小的细胞，来让自己不断变大。简单的说，就是让你在地图上大鱼吃小鱼。
+</p>
+<p>
+	因为是一个在线网游，所以你可能在同一个网页上遭遇全世界数十万的玩家。尽管这会导致玩起来会很卡顿，但也为游戏创造了无限的可能。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/b655ac6f9039.jpg" width="750" height="496" title="Agar.io" alt="Agar.io" /> 
+</p>
+<p>
+	看着对手一个个被吃掉，同时自己也一点点长大，玩家心理上因此会产生一种满足感。一旦被更大的对手吃掉，也会让你为了复仇而再来一次。这正是它的有趣之处。
+</p>
+<h2>
+	三个月后，成为最火的应用
+</h2>
+<p>
+	起初它并非是一个手机应用。今年 4 月末，开发者就在网络讨论区 4chan 上发布了网页版。
+</p>
+<p>
+	直到 5 月 3 日，它被游戏平台 Steam 加入到了绿灯计划，这个项目通过投票的形式筛选优秀的作品，但仅针对独立的游戏开发者。此后，它开始被更多的人获知，《好奇心日报》的<a href="http://www.qdaily.com/articles/9266.html%0A">在今日应用栏目中也为之做了介绍</a>。
+</p>
+<p>
+	而后，尽管 Agar.io 没有做什么宣传，它却获得了像 PewDiePie、Markiplier 这样<span>YouTube 上</span>大牌的游戏频道为它做解说。这也产生了社交网络上病毒营销的效应，至少为它赢得了早期玩家。
+</p>
+<p>
+	随着这个游戏在全世界范围内快速传播，它还吸引了大量国内玩家。为此开发者不得不专门开设了中国区服务器，来保证体验的流畅。
+</p>
+<p>
+	根据 Alexa 的流量统计，在其移动应用商上架的前几日，Agar.io 在全球排名已有单日过百的增长。本月 7 日就已达到了 1700 多名。作为一个几乎连 3D 效果都没有的网页游戏能取得如此成绩，实在不可思议。
+</p>
+<p>
+	为此，《好奇心日报》询问了游戏开发者——来自巴西的 Matheus Valadares，他告诉我：“当你看到一个比你更大的家伙的时候，你会想变得像它那么大。所以你不会停下来，直到将它打败。” 在他看来人的征服欲，正是人们乐此不疲的原因。
+</p>
+<p>
+	<img src="/uploads/image/201507/ae74199d4f57.jpg" width="563" height="239" title="alexa 排行" alt="alexa 排行" /> 
+</p>
+<p>
+	移动端发布后，这个游戏很快延续了网页版的成功，单周的下载量也破了千万。在过去的半个月的时间里，它牢牢占据了近 30 个国家 App Store 和 Google Play 第一的位置。毕竟不管用哪个平台，来自人性的内在欲求总不会有多少变化。
+</p>
+<h2>
+	人人都在做手机游戏，但网页游戏依然可以成功
+</h2>
+<p>
+	但真正让人惊讶的并非它所取得的成绩，而是这个游戏在移动化的热潮下，却首先发了一个网页版。
+</p>
+<p>
+	而且，那时的 Agar.io 却几乎不能在手机上玩。它不仅没有原生的手机应用，而且如果用手机浏览器玩，移动起来也不方便，更无法使用靠键盘才能发挥的技能。
+</p>
+<p>
+	事实上，这是因为当时这个游戏仅有 Matheus Valadares 一名开发者。此前，他告诉《好奇心日报》，尽管他有意开发移动端，但是这势必要花费相当长的时间。
+</p>
+<p>
+	然而见 Agar.io 大热，很快就有大量的山寨应用冒了出来。它们不仅玩法高度相似，而且还都是打着 Agar.io 的旗号。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/419d80cb666c.jpg" width="1080" height="808" title="Appstore上搜索Agar.io的部分结果" alt="Appstore上搜索Agar.io的部分结果" /><span>App Store上搜索 Agar.io 的部分结果</span> 
+</p>
+<p>
+	在移动化大趋势下慢一拍并没有对它有多大影响。当 Valadares 通过游戏代理商 Miniclip 做出了它的移动应用后，后来的事大家也都知道了。这个官方版本势如破竹，一下子就击败了所有的“对手”。
+</p>
+<p>
+	同时，网页版的流量疯狂增长。目前的流量排名已达到了 1071 名，而且还在继续提升。这也意味着，它已经超过了国内如当当网、起点中文、携程，以及&nbsp;12306 铁道部订票中心的网站流量。
+</p>
+<h2>
+	大麻烦，也会是大机会
+</h2>
+<p>
+	不过，如此成就并不意味着它的成长过程一帆风顺。甚至曾因为它简单的设计还给它带来了“危机”。
+</p>
+<p>
+	由于它根本不需要注册账号或者选择角色什么的，任何人只要输入一个昵称就能加入，这就相当于一个完全匿名的网络。再加上而后推出的组队的玩法。Agar.io 俨然是滋生<a href="https://zh.wikipedia.org/zh/%E9%9B%86%E7%BE%A4%E8%A1%8C%E4%B8%BA">集群行为</a>的温床。比起在百度贴吧之类的地方<a href="http://www.baidu.com/link?url=gDIp6iiDo1M0jxTH4h5nbiSlkJQhqqOZY6uzrITPlCUXaPy_6rP94FQFFx4Hiv9zX1rqrpXngG8agP9ErzuV9a">爆吧</a>，用这种游戏的方式来支持某个对象要有趣的多。
+</p>
+<p>
+	譬如在今年的土耳其大选前，Agar.io 就被用在了某种政治用途。<a href="http://www.hurriyetdailynews.com/web-game-becomes-latest-battlefield-in-turkish-politics.aspx?pageID=238&amp;nID=83041&amp;NewsCatID=338">一些政党开始在自家的海报上使用了游戏中的截图</a>，用来表现在某个选区的实力。这也吸引了更多的土耳其玩家加入到了线上的政党对抗中。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/e42f44330d8f.jpg" width="626" height="355" title="土耳其大选海报" alt="土耳其大选海报" /> 
+</p>
+<p style="text-align:center;">
+	土耳其共和人民党海报
+</p>
+<p>
+	不过这并没有给 Agar.io 惹到什么政治麻烦，而且这还让它在土耳其火了一把。其目前在土耳其的流量排名也基本保持在 150 名左右。
+</p>
+<h2>
+	Agar.io 能火多久？
+</h2>
+<p>
+	像 Agar.io 这样简单的游戏，曾经已经出现过不少了。比如当年的 Draw something （你画我猜）和 FlappyBird，但是它们火了一把之后很快就被更新的游戏取代，几乎销声匿迹。
+</p>
+<p>
+	Agar.io 并没有走社交或者虐心的老路，而是在玩法上不断更新。从让玩家快速分身到多人组队玩法，再到可以建立和好友单独玩的私密链接，让这个游戏非但没有死掉，反而通过快速迭代，获得了越来越多的玩家。
+</p>
+<p>
+	但大部分手机游戏的存活时间都不会很久。尽管 &nbsp;Agar.io 至今成绩看上去还不错，不过，它目前已失去了相当一部分国家应用商店下载榜首的位置。
+</p>
+<p>
+	目前，广告依然是这款游戏在各个平台上的唯一收入来源。在手机上，它只会在你每失败五次后才会显示。虽然已经让一些玩家产生了抱怨，相比出售付费道具，纯广告的做法或许更适合这样的游戏。
+</p>
+<p>
+	<br />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="8744">
+				<span data-id="8744">页游</span>
+			</li>
+			<li class="tag item" data-id="13338">
+				<span data-id="13338">网游</span>
+			</li>
+			<li class="tag item" data-id="13339">
+				<span data-id="13339">agar.io</span>
+			</li>
+			<li class="tag item" data-id="13340">
+				<span data-id="13340">miniclip</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12494" data-title="《吞噬世界的游戏 Agar 是如何火起来的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12494/medium/12494.jpg?1437642416" data-url="http://www.qdaily.com/mobile/articles/12494.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9266.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9266/medium/9266.jpg?1436687094" alt="今日应用：感受弱肉强食的残酷，来玩这游戏">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">今日应用：感受弱肉强食的残酷，来玩这游戏</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">61</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27220.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27220/medium/27220.jpg?1463992075" alt="">
+                        <h1 class="title">耐克和巴萨续天价合约，阿迪想靠便宜跑鞋吸引美国人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27207.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27207/medium/27207.jpg?1463979170" alt="">
+                        <h1 class="title">癌症这个超级复杂的命题，被这个葡萄牙人变成了信息图</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27222.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27222/medium/27222.jpg?1463995142" alt="">
+                        <h1 class="title">时隔19年，“香港小虎队”草蜢又发了一张国语专辑</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12494">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12494" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">84</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12551.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

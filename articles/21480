@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道。织网的是微信。好奇心日报为您呈现当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 局域网 微信 腾讯 阿里巴巴 百度 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="i+Vk44eDjAlF3wJNEBMezyNaI7LcvCfmdVw5LVAhz0I=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3910/small/3910.png?1418028195" alt="">
+					</span>
+				<span class="name">唐怡园 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-29 08:30:39 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/21480/medium/21480.jpg?1454027837" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21480" data-title="《当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21480/medium/21480.jpg?1454297926" data-url="http://www.qdaily.com/mobile/articles/21480.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				织网的是微信
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“我在朋友圈看到一事……”这样的开场白，你肯定听身边人说起过。微信朋友圈已经变成越来越多人获取新信息的来源。
+</p>
+<p>
+	截止 2015 年 12 月，中国有 <a href="http://cnnic.cn/gywm/xwzx/rdxw/2015/201601/W020160122639198410766.pdf" target="_blank">6.2 亿</a>手机用户。过去 1 年，<a href="http://cnnic.cn/gywm/xwzx/rdxw/2015/201601/W020160122639198410766.pdf" target="_blank">即时通信</a>继续成为使用率最高的互联网服务。而微信自己早先公布的<a href="http://tech.qq.com/a/20151023/057238.htm#p=1" target="_blank">《2015 年微信生活白皮书》</a>中透露，每天有 5.7 亿人打开微信，而一位典型微信用户每天至少打开微信 11 次。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/1dcb072870a6.jpg" width="1080" height="413" title="中国网民用的最多的是即时通信" alt="中国网民用的最多的是即时通信"><span><em>中国网民使用率最高的互联网服务是即时通信 单位：％</em></span> 
+</p>
+<p>
+</p>
+<p>
+	去百度刷新闻、搜资料忽然间成了上一个十年的事情。取代它成为中国互联网新入口的，是微信。
+</p>
+<h2>
+	2015 年，微信的影响力正变成腾讯的未来收入
+</h2>
+<p>
+	“微信，是一个生活方式。”这句广告词在 2015 年成为现实<span>，你已经不太容易碰到不用微信的人</span>。微信渗入一切的时间恰好是腾讯最需要的时候。
+</p>
+<p>
+	在 QQ 、QQ 空间成长初期，会员和黄钻曾是腾讯最主要的收入。
+</p>
+<p>
+	2009 年，QQ 会员收入上涨缓慢，但穿越火线、QQ 炫舞等网页游戏迅速流行，游戏收入头一次成为腾讯的主要收入。腾讯已经是全球最大的游戏公司。
+</p>
+<p>
+	2015 年，游戏增长放缓，到 2015 年第二季度，腾讯网络游戏收入同比增长率下降了 11%。这时候，广告接了上来。
+</p>
+<p>
+</p>
+<p>
+	2015 年 1 月，你一定看到过关于宝马、Vivo、可口可乐广告的讨论。有没有在朋友圈看到广告，一度成为朋友间讨论的话题。这三家公司每家的投入都超过 500 万。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/177b999ff7b8.jpg" width="1080" height="541" title="早期朋友圈广告" alt="早期朋友圈广告"><span><em><a href="http://ad.weixin.qq.com/" target="_blank">早期朋友圈广告</a></em></span> 
+</p>
+<p>
+</p>
+<p>
+	之后赶着冲进朋友圈的广告还有奢侈品品牌 Dior、通用汽车旗下的凯迪拉克、电影《何以笙箫默》、演员白百合……同样，这些早期广告主，每一家都至少要为这个信息流广告支付 500 万元，还会根据展示效果加价。
+</p>
+<p>
+	之后，朋友圈广告与腾讯自己的广告投放系统广点通整合在一起。8 月，朋友圈广告官网正式上线，投放门槛降到 20 万。到今年第一季度，只要 5 万就能在朋友圈展出一张图片、一段文案和一个 H5 链接。相比只要几百块就能打广告的 Google、百度和微博，微信还是贵了几百倍。
+</p>
+<p>
+	这不妨碍腾讯靠它赚钱。从 2015 年第二季起，同期相比，这类广告带来的收入每一季度能翻一番。腾讯 2014 年全年网络广告收入 83.08 亿。2015 年前三个季度，网络广告营收已经达到 116.99 亿，带动增长的主要就是微信。&nbsp;
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e2035496a311.jpg" width="1080" height="251" title="用不了多久，腾讯还会是中国最大的广告公司" alt="用不了多久，腾讯还会是中国最大的广告公司"><span><em>用不了多久，腾讯还会是中国最大的广告公司</em></span> 
+</p>
+<p>
+</p>
+<p>
+	按照这样的速度，腾讯超过百度成为中国最大的广告公司也就是几年之后的事。
+</p>
+<p>
+</p>
+<h2>
+	微信广告卖得好，是因为腾讯建立了一个局域网
+</h2>
+<p>
+</p>
+<p>
+	未来决定腾讯广告收入超过百度的不只是数量庞大的广告受众。更重要的是，微信护住了每一个广告位。
+</p>
+<p>
+	微信公众号有一个属于微信自己的后台编辑器。在这里，一切都得遵循微信的标准：在这里，不能有外部超链接、不能用腾讯视频以外的视频。
+</p>
+<p>
+	当蒂姆·伯纳斯·李发明万维网的时候，定义的主要是两个东西：网页和超链接。如今，腾讯干掉了其中之一，对信息的传播建立了绝对控制权。
+</p>
+<p>
+	除了不让人离开以外，微信公众号的限制还包括还不能接入其它网盟系统。这意味着百度的自动广告投放系统，摆不到微信公众号的页面里。在 PC 时代，这是百度重要的收入来源之一。到了移动时代，这些吸引读者的公众号对接的是腾讯自家广告投放平台广点通的客户。
+</p>
+<p>
+	不但百度在微信里做不了广告，就连企业自己做病毒营销也不行。朋友圈里疯狂转发的“H5 测试”、游戏或者广告，一般只要点击量超过 1 万后，链接就再也打不开。列出的理由往往是“被举报恶意营销”或者<span>“</span>诱导分享”。
+</p>
+<p>
+	去年春节当你忙着抢红包时，支付宝的口令红包也被禁止分享到朋友圈里。当时微信<a href="http://tech.sina.com.cn/i/2015-02-03/doc-icczmvun5728935.shtml" target="_blank">的回应是</a>，“微信的朋友圈是一个由熟人关系链构建而成的小众、私密的圈子，微信红包则是好友之间的一种趣味互动，表达情感的方式，我们绝不容许有人打着红包的名义进行朋友圈恶意营销，破坏朋友圈体验。”
+</p>
+<p>
+	然而，本周你刚被微信自己的<a href="http://www.qdaily.com/articles/21330.html" target="_blank">马赛克“红包照片”刷了屏</a>。
+</p>
+<p>
+	总之，到底谁能在微信里赚钱，完全由微信”最终解释“决定。用到的办法，和你在中国打不开 facebook.com 也没什么本质区别——这里被变成了一个大局域网。
+</p>
+<h2>
+	腾讯的局域网不仅限于微信
+</h2>
+<p>
+	过去 1 年，除了携程并购去哪儿，中国主要互联网公司的合并背后都有腾讯的身影。它的影响力已经延伸到微信以外。
+</p>
+<p>
+	2015 年情人节，为了应对海外竞争对手 Uber，滴滴打车和快的打车走到了一起。腾讯和阿里一起占股新的滴滴快的，而滴滴出行中至今仍在使用腾讯地图。从早期投资滴滴打车到追加投资新公司，腾讯至少投入了<a href="http://www.crunchbase.com/organization/tencent/investments" target="_blank"> 27 亿美元</a>。
+</p>
+<p>
+	4 月，58 同城战略入股赶集网。腾讯 4 亿美元增持 58 同城新发股票，声称帮助两家公司完成整合之余，也成为了占股 25.1%的大股东。
+</p>
+<p>
+	10月，美团和大众点评合并。一个月后，腾讯花 10 亿美元投资了合并之后的新公司，阿里则卖掉了原本持有的美团股份。
+</p>
+<p>
+	另外，腾讯在 2015 年还投资了 76 家国内外公司，包括问答社区知乎。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6af8131fc53f.jpg" width="1080" height="305" title="腾讯 2015 年投资了更多公司" alt="腾讯 2015 年投资了更多公司"><span><em>腾讯 2015 年投资了更多的公司，来源为各公司公开信息 单位：个</em></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	互联网改变做生意的方式之时，也改变了你的生活方式。而今天外卖、打车、电商、团购等等这些新型的互联网服务都被腾讯控制住了。
+</p>
+<p>
+	阿里巴巴、百度其实也都不缺钱，但创业公司看中的不只是钱，还有用户量和对信息流动的控制能力。
+</p>
+<p>
+	如今这种靠用户量一决胜负的互联网公司较量愈发多见了。它们通常是把原本在线下完成的流程移植到线上，通过减少或者改变渠道盈利。其中的技术差异其实很小。干掉同类产品的唯一办法，就是吸引更多的用户。
+</p>
+<p>
+	于是，微信作为腾讯的新武器显得格外有吸引力。除了帮躺在微信钱包的第三方应用导流之外，腾讯还帮着自家公司打击竞争对手。
+</p>
+<p>
+	滴滴打车和快的打车还是竞争对手时，朋友圈里见不到快的的打车券。
+</p>
+<p>
+	滴滴出行和 Uber 补贴大战打的火热，2015 年年末微信又清算了一次和 Uber 相关的所有公众号，至今搜索“Uber”不会返回任何公众号内容。
+</p>
+<p>
+	2015 年 2 月，微信在朋友圈封杀网易云音乐和阿里投资的虾米音乐。8 个月后，网易分享恢复——在网易向 QQ 音乐购买 150 万首歌的版权授权以后。
+</p>
+<p>
+	早就不支持支付宝支付的京东，2014 年最终靠出售 15% 的股份得到了腾讯的支持。到今年，你仍然无法在微信里直接分享天猫或者淘宝的商品链接。
+</p>
+<h2>
+	太依赖这圈住的几亿用户，腾讯可能正在错失更大的机会
+</h2>
+<p>
+	2016 年，微信的野心大概是成为一个操作系统。年初的微信公开课中，微信负责人张小龙还打算推出应用号。
+</p>
+<p>
+	他在当天的公开演讲中提到，“我相信每个人做的工作都是围绕一点，怎么样黏住用户，怎么样让用户尽可能待在我的产品里头，不要离开产品。”
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/cd6e6dd8233f.jpg" width="1080" height="413" title="2015 年第三季度财报收入来看，腾讯从每个用户身上赚钱的能力是最强的" alt="2015 年第三季度财报收入来看，腾讯从每个用户身上赚钱的能力是最强的"><span><em>2015 年第三季度财报收入来看，腾讯从每个用户身上赚钱的能力是最强的</em></span> 
+</p>
+<p>
+</p>
+<p>
+	腾讯自己构建的局域网中，它从每个用户身上赚到了更多的钱。这个能力甚至超过了 Facebook 和 Google。
+</p>
+<p>
+	腾讯有钱去做想做的事，但不一定有能力做好。微信有足够庞大的用户基数和无人能比的用户黏度，但为自己产品导入流量之后呢？当流量来得太容易，很多产品失去了改进的动力。
+</p>
+<p>
+	窝在微信钱包里的“理财通”是一个典型的例子。从线上到线下，微信支付抢了到不少市场。上海排名前十的便利店品牌覆盖率上，甚至<a href="http://www.qdaily.com/articles/15028.html" target="_blank">和早起步许多年的支付宝相差无几</a>。
+</p>
+<p>
+	今年 1 月下旬，微信做起了零钱理财的生意，类似阿里巴巴的余额宝。结果，一旦钱存进理财通之后，除了等着收益，既不能微信支付，提现也不是实时完成的。
+</p>
+<p>
+	为什么理财通不能像支付宝和余额宝一样，自动把零钱存进理财产品？这很可能是因为腾讯所谓的“内部竞争机制”。尽管最后和银行结算的都是财付通，腾讯每一个钱包和理财产品背后，都有各自做了一套支付系统——微信钱包、QQ 钱包、理财通、微众银行。账号系统相互独立，无法联通。
+</p>
+<p>
+	浪费开发资源不说，互相不支持，本身聚拢的巨大流量也就被稀释了。
+</p>
+<p>
+	本周，腾讯占股 30% 的微众银行又融到了一笔钱，估值超过 50 亿美元，还不到蚂蚁金服的十分之一。
+</p>
+<p>
+	作为阿里巴巴旗下的独立子公司，蚂蚁金服拥有现在所有的互联网金融产品——面向普通用户的“储蓄卡”支付宝，“理财卡”：余额宝、招财宝、蚂蚁聚宝，“信用卡”蚂蚁花呗；面向中小企业和农村市场的贷款服务：”网商贷“、“蚂蚁小贷”；还有一套信用评级系统：芝麻信用分。
+</p>
+<p>
+	<span>在互联网理财普及过程中，银行的话语权正交给互联网公司。</span>聚集了大量现金和债券的阿里巴巴，未来可能孕育一个次贷繁荣的资本市场，就像美国 1980 年代新生的次级房贷市场一样。
+</p>
+<p>
+	而腾讯还守着微信做起来的零钱，这种迟缓可能让腾讯错过一个极其可观的机会。
+</p>
+<p>
+	<span>依赖控制权体现在腾讯的不同业务中。很长一段时间，QQ 空间是不做营销的，因为经过一些尝试以后，参与者发现营销活动带来的用户相对 QQ 弹窗来说微不足道。但当 QQ 空间需要变现、需要营销的时候，QQ 空间便没有这样的经验积累，尽管 QQ 空间已经有十年历史。</span> 
+</p>
+<p>
+	<span>同样的问题腾讯视频上也可以看到。腾讯视频一直是买视频版权投入最大的公司，但买来的视频却未必能运作好。</span>2015 年 11 月在乐视网和腾讯视频同步首播的《芈月传》，<span>许多人以为只能在乐视上看到。</span> 
+</p>
+<p>
+	根据第三方统计，腾讯靠着 QQ 弹窗、微信、QQ 空间、腾讯娱乐……在这部去年下半年最火的电视剧的播放量上，腾讯不到乐视的 1/3。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/5845aa646209.jpg" width="504" height="398" title="播出 1 月后，《芈月传》显然在乐视网更火" alt="播出 1 月后，《芈月传》显然在乐视网更火"><span><em>播出 1 月后，《芈月传》显然在乐视网更火</em></span> 
+</p>
+<p>
+	当中国视频网站做自制剧吸引用户以后，腾讯视频的问题更明显了。爱奇艺做了最红的《奇葩说》、优酷土豆做了《万万没想到》、搜狐视频也靠《屌丝男士》捧红了大鹏。相比之下，2015 年年中腾讯视频的重磅自制真人秀《我们 15 个》开播后收获的就只有嘲笑——这节目也不缺推广资源。
+</p>
+<p>
+	社交之外的所有领域，腾讯都没有让人看到什么创造力。
+</p>
+<p>
+</p>
+<p>
+	这不禁让人想起当年的百度。桌面时代，搜索引擎作为互联网的入口，它也曾决定你浏览什么网站、使用什么服务、看什么广告。但当技术变迁来临时，百度<a href="http://www.qdaily.com/articles/20891.html" target="_blank">已经失去了改变的能力</a>。
+</p>
+<p>
+	靠着那个大局域网，舒舒服服压着一切竞争对手的腾讯，除了投资更好，和当年的百度又有什么区别呢？
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<em>Top 15 包括：</em><em><a href="http://www.qdaily.com/articles/21340.html" target="_blank">苹果</a>、<a href="http://www.qdaily.com/articles/19623.html" target="_blank">Google</a>、<a href="http://www.qdaily.com/articles/20891.html" target="_blank">百度</a>、<a href="http://www.qdaily.com/articles/21037.html" target="_blank">阿里巴巴</a>、腾讯、<a href="http://www.qdaily.com/articles/20798.html" target="_blank">亚马逊</a>、<a href="http://www.qdaily.com/articles/19530.html" target="_blank">迪士尼</a>、<a href="http://www.qdaily.com/articles/20747.html" target="_blank">麦当劳</a>、星巴克、耐克、<a href="http://www.qdaily.com/articles/21425.html" target="_blank">小米</a>、<a href="http://www.qdaily.com/articles/20367.html" target="_blank">宜家</a>、优衣库、万达和万科。</em><em></em><em>这个名单会随着公司经营、市场和趋势的变化而变化。</em><em></em><em>我们会关注它们，也会关注它们的竞争对手和合作伙伴。</em> 
+</p>
+<p>
+	<em>关于我们为什么要设定 Top 15 报道计划，<a href="http://qdaily.com/display/articles/4591" target="_blank">请点击这里</a>。</em> 
+</p>
+<p>
+	<em></em> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图来自 Pixabay、<a href="http://www.fastcompany.com/3029119/most-innovative-companies/tencent-the-secretive-chinese-tech-giant-that-can-rival-facebook-a">Fastcompany</a>、<a href="http://www.nuvicomlab.it/portfolio/corporate-identity-graphic-design/wechat-brochure/">The Next Web</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="6559">
+				<span data-id="6559">局域网</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="261">
+				<span data-id="261">百度</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21480" data-title="《当其它公司在谈生态的时候，腾讯已经建起了一个局域网｜Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21480/medium/21480.jpg?1454297926" data-url="http://www.qdaily.com/mobile/articles/21480.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20891.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/20891/medium/20891.jpg?1453119069" alt="指望流量解决一切问题的百度，现在被它害了 | 年度被颠覆公司">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">指望流量解决一切问题的百度，现在被它害了 | 年度被颠覆公司</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">128</span>
+				<span class="iconfont icon-heart">860</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/21425.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/21425/medium/21425.jpg?1453922945" alt="坐在风口的小米，2015 年没等到风 | Top 15 年度报道">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">坐在风口的小米，2015 年没等到风 | Top 15 年度报道</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">55</span>
+				<span class="iconfont icon-heart">280</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/21340.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/21340/medium/21340.jpg?1453818983" alt="iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">40</span>
+				<span class="iconfont icon-heart">408</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/21037.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/21037/medium/21037.jpg?1453285544" alt="2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">2015，马云和阿里巴巴的年度鉴定报告 | Top 15 年度报道</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">41</span>
+				<span class="iconfont icon-heart">513</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27154/medium/27154.jpg?1463798236" alt="">
+                        <h1 class="title">持续数年的 Android 专利大战，现在还在争什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21480">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21480" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">680</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21466.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

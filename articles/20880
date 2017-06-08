@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>18 万份来自纽约公共图书馆的免费资料，真的太过迷人_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="18 万份来自纽约公共图书馆的免费资料，真的太过迷人。可以废寝忘食在上面看一整天，以及，只要你有创意，这些资料全部免费让你用作素材。。好奇心日报为您呈现18 万份来自纽约公共图书馆的免费资料，真的太过迷人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约公共图书馆 数字资源 20世纪 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Ai9d5z3d+rHLf1f4p457Y+GJtXabbatQtmZx/YTXd7E=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22291">
+				<span data-id="22291">纽约公共图书馆</span>
+			</li>
+			<li class="tag item" data-id="22292">
+				<span data-id="22292">数字资源</span>
+			</li>
+			<li class="tag item" data-id="16906">
+				<span data-id="16906">20世纪</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">18 万份来自纽约公共图书馆的免费资料，真的太过迷人</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/103970/small/103970.jpg?1431972719" alt="">
+					</span>
+				<span class="name">朱凯麟 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-19 10:00:43 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20880/medium/20880.jpg?1453108685" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20880" data-title="《18 万份来自纽约公共图书馆的免费资料，真的太过迷人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20880/medium/20880.jpg?1453108685" data-url="http://www.qdaily.com/mobile/articles/20880.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				可以废寝忘食在上面看一整天，以及，只要你有创意，这些资料全部免费让你用作素材。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<div>
+	你知道吗？有超过 180,000 种来自<a href="http://digitalcollections.nypl.org/" target="_blank">纽约公共图书馆的数字资源</a>是免费向公众开放的。
+</div>
+<div>
+</div>
+<p>
+	1 月 6 日，它们在网上上传了这些海量的高清图像资源，囊括了珍贵的手稿、地图、照片、乐谱、石版画、明信片、甚至是餐厅的菜单……
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e599cacfe636.jpg" width="1080" height="620" title=" " alt=" " /><img src="/uploads/image/201601/eb2a3ecb169a.jpg" width="1080" height="616" title=" " alt=" " /><img src="/uploads/image/201601/db214a35fb2c.jpg" width="1080" height="602" title=" " alt=" " /><img src="/uploads/image/201601/61fcb820b9c7.jpg" width="1080" height="521" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;">无需许可、没有限制、没有版权，免费向民众开放。这些古老的资料供有兴趣的人在其中探索和再创作。任何人都可以访问<a href="http://digitalcollections.nypl.org/" target="_blank">纽约公共图书馆的网站</a>，随意查看、下载这些图片，它们<a href="http://publicdomain.nypl.org/pd-visualization/" target="_blank">根据年代、色彩、风格或图书馆收藏进行分类</a>。</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<div>
+</div>
+<p style="text-align:left;">
+	这件事只能用“太过迷人”来形容。我们挑选了其中的一些……
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/f28b0b3e820e.jpg" width="903" height="1134" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	曼哈顿第七大道 1935
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/5f7ef96c5487.jpg" width="1080" height="743" title="Klein’s 的菜单 1948／布法罗酒店 1941" alt="Klein’s 的菜单 1948／布法罗酒店 1941" /><span>Klein’s 的菜单 1948／布法罗酒店 1941</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/2ad31ee387c0.jpg" width="1080" height="854" title="阿米特城路上的广告牌，路易斯安那州 1935" alt="阿米特城路上的广告牌，路易斯安那州 1935" /><span>阿米特城路上的广告牌，路易斯安那州 1935</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/63ab0c747f0d.jpg" width="1080" height="542" title="水彩画 La nuit 1875，Soleil couchant 1875（艺术家：布拉克蒙）" alt="水彩画 La nuit 1875，Soleil couchant 1875（艺术家：布拉克蒙）" /><span>水彩画 La nuit 1875，Soleil couchant 1875 (法国铜版画家&nbsp;<span style="text-align:start;">Felix Bracquemond)</span></span> 
+</p>
+<p style="text-align:center;">
+	<span><span style="text-align:start;"></span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c4bb43e0b32e.jpg" width="640" height="449" title="狩猎场景" alt="狩猎场景" /><span>狩猎场景 印度的象夫</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/4b670752da07.jpg" width="760" height="513" title="同志游行 奥尔巴尼，纽约州 1971 (摄影 Diana Davies)" alt="同志游行 奥尔巴尼，纽约州 1971 (摄影 Diana Davies)" /><span>同志游行 奥尔巴尼，纽约州 1971 (摄影 Diana Davies)</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<div>
+</div>
+<p>
+	图书馆还发起了一项名为 Remix Residency 的活动，邀请社会各界人士——艺术家、设计师、数据科学家、记者、数字研究人员，或者任何对这些资料有兴趣和想法的人士，在 2 月 19 日前提交申请，就有机会和纽约公共图书馆的 NYPL Lab 一起工作，研究如何应用这些资料，挖掘它们的价值（目前该项申请仅对美国公民开放）。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/27063cf24ee0.jpg" width="1056" height="809" title="晨浴 阿帕切族 1906 - 摄影师 Edward S Curtis" alt="晨浴 阿帕切族 1906 - 摄影师 Edward S Curtis" /><span>晨浴 阿帕切族 1906 ( 摄影 Edward S Curtis)</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e7bb0c2ba874.jpg" width="1080" height="733" title="United menu 1963" alt="United menu 1963" /><span>United menu 1963</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/99f5a2cba02c.jpg" width="1022" height="1024" title="感恩节宴会，塞西尔酒店，伦敦 1906" alt="感恩节宴会，塞西尔酒店，伦敦 1906" /><span>感恩节宴会，塞西尔酒店，伦敦 1906</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b61879171b06.jpg" width="1080" height="868" title="兰开斯特附近的一家电影院，俄亥俄州 1938 (摄影师：Ben Shahn)" alt="兰开斯特附近的一家电影院，俄亥俄州 1938 (摄影师：Ben Shahn)" /><span>兰开斯特附近的一家电影院，俄亥俄州 1938 (摄影 Ben Shahn)</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/afc5d6c744bd.jpg" width="829" height="1024" title="加利福尼亚州的移民 1936 (摄影 Dorothea Lange)" alt="加利福尼亚州的移民 1936 (摄影 Dorothea Lange)" /><span>加利福尼亚州的移民 1936 (摄影 Dorothea Lange)</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/d42af5909065.jpg" width="812" height="1024" title="冬日运动 花样滑冰，汉诺威，新罕布什尔 1936 (摄影 Arthur Rothstein)" alt="冬日运动 花样滑冰，汉诺威，新罕布什尔 1936 (摄影 Arthur Rothstein)" /><span>冬日的花样滑冰，汉诺威，新罕布什尔 1936 (摄影 Arthur Rothstein)</span> 
+</p>
+<p style="text-align:center;">
+	<span>&nbsp;</span> 
+</p>
+<p>
+</p>
+<div>
+</div>
+<div>
+	为了增加浏览时的趣味，图书馆还特地开发了 3 款数字游戏和工具，帮助你使用这 18 万+ 张图片（点击黄色下划线可跳转链接）。
+</div>
+<div>
+</div>
+<h4>
+	<a href="http://publicdomain.nypl.org/greenbook-map/" target="_blank">绿皮书导览 </a>（Navigating the Green Books）
+</h4>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/d8a4059d1c4b.jpg" width="960" height="261" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<div>
+</div>
+<p>
+	Green Book 是一本在 1936 年至 1966 年间出版的旅游指南。在那个种族隔离的年代，它给众多黑人游客列出了酒店、饭店、酒吧、加油站等去处。这本绿色的小册子成为当时黑人不可或缺的“安全指南”，引领他们找到一个能歇脚而不受歧视的去处。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/11e4928df93e.jpg" width="1080" height="499" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<div>
+</div>
+<div>
+	使用这个工具，你能游览 20 世纪中期的美国，发现当时某家饭店的菜单，甚至为自己策划一场旅行。
+</div>
+<div>
+</div>
+<h4>
+	<a href="http://publicdomain.nypl.org/mansion-maniac/" target="_blank">大厦狂热</a> （Mansion Maniac）
+</h4>
+<div>
+</div>
+<p>
+	使用这款工具，你能够操纵一个蓝色的“吃豆人”，畅游在 20 世纪早期的纽约市中。包含了 1908 年至 1913 年纽约市各处房产的外部照片和平面图。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ea4bb57405cc.jpg" width="800" height="776" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a8a3b8343748.jpg" width="693" height="769" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<h4>
+	<a href="http://publicdomain.nypl.org/fifth-avenue/" target="_blank">1911 第五大道</a>（Fifth Avenue,&nbsp;Then &amp; Now）
+</h4>
+<div>
+</div>
+<p>
+	<img src="http://cms.qdaily.com/uploads/image/201601/7061d0d45d45.jpg" width="1022" height="785" title=" " alt=" " style="text-align:center;" /> 
+</p>
+<p>
+	这款工具能让你回到 1911 年的纽约第五大道。使用方向键操作，你就可以像查看 Google Street 一样，比对 1911 年人们拍下的第五大道，和 2015 卫星图像的不同。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/eec733f69f64.jpg" width="1020" height="782" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<strong>&nbsp;</strong> 
+</p>
+<p style="text-align:center;">
+	<strong>还有一些</strong> 
+</p>
+<p style="text-align:center;">
+	<strong></strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6c756b8b5cef.jpg" width="1080" height="699" title="蓝晒冲印的英国海藻 1843 (摄影 Anna Atkins)" alt="蓝晒冲印的英国海藻 1843 (摄影 Anna Atkins)" /><span>蓝晒冲印的英国海藻 1843 (摄影 Anna Atkins)</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/8c4d5b3c7d4f.jpg" width="1080" height="992" title="Wills 香烟牌上“新发明”，Pratt 的打字机和收银机组件" alt="Wills 香烟牌上“新发明”，Pratt 的打字机和收银机组件" /><span>Wills 香烟牌上“新发明”：Pratt 的打字机和收银机组件</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/71ecb534d6a3.jpg" width="1080" height="862" title="水果广告，Beaufort，南卡罗莱纳州 1936 (摄影Walker Evans)" alt="水果广告，Beaufort，南卡罗莱纳州 1936 (摄影Walker Evans)" /><span>Beaufort 家的<span style="text-align:center;">水果广告</span>，南卡罗莱纳州 1936 (摄影 Walker Evans)</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/62347fa05e68.jpg" width="1080" height="720" title="动物学点刻法版画 海胆与海星，由远征埃及的法国军队中的某名士兵创作 1805-1812" alt="动物学点刻法版画 海胆与海星，由远征埃及的法国军队中的某名士兵创作 1805-1812" /><span>动物学点刻版画 海胆与海星，由远征埃及的法国军队中的某名士兵创作 1805-1812</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a4074cc7857a.jpg" width="811" height="1024" title="奶酪工厂 贝茨维尔，马里兰州 1935 (摄影 Carl Mydans)" alt="奶酪工厂 贝茨维尔，马里兰州 1935 (摄影 Carl Mydans)" /><span>贝茨维尔的奶酪工厂，马里兰州 1935 (摄影 Carl Mydans)</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/178d9c312de6.jpg" width="1080" height="771" title="“我们最新发现的大西洋海图” 1740 (雕刻师 Emanuel Bowen)" alt="“我们最新发现的大西洋海图” 1740 (雕刻师 Emanuel Bowen)" /><span>“我们最新发现的大西洋海图” 1740 (雕刻师 Emanuel Bowen)</span> 
+</p>
+<p style="text-align:left;">
+	＊ 更多来自 NYPL 的公开数字资料，请<a href="http://www.nypl.org/research/collections/digital-collections/public-domain" target="_blank">戳这里</a>、<a href="http://digitalcollections.nypl.org/" target="_blank">这里</a>和<a href="http://publicdomain.nypl.org/pd-visualization/" target="_blank">这里</a>查看
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22291">
+				<span data-id="22291">纽约公共图书馆</span>
+			</li>
+			<li class="tag item" data-id="22292">
+				<span data-id="22292">数字资源</span>
+			</li>
+			<li class="tag item" data-id="16906">
+				<span data-id="16906">20世纪</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20880" data-title="《18 万份来自纽约公共图书馆的免费资料，真的太过迷人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20880/medium/20880.jpg?1453108685" data-url="http://www.qdaily.com/mobile/articles/20880.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20293.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20293/medium/20293.jpg?1451999562" alt="4 种完全不同的移动图书馆，让老地方重获生机">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">4 种完全不同的移动图书馆，让老地方重获生机</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">78</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11063.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/11063/medium/11063.jpg?1436643145" alt="80 美元一本 1/7000 的维基百科实体书，买吗？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">80 美元一本 1/7000 的维基百科实体书，买吗？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">24</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19928.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19928/medium/19928.jpg?1451392346" alt="纽约大街上的免费wifi，终于铺起来了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">纽约大街上的免费wifi，终于铺起来了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">58</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19955.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19955/medium/19955.jpg?1451452918" alt="纽约要把一整条街变成世界上最大的画廊">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">纽约要把一整条街变成世界上最大的画廊</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">90</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26746.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26746/medium/26746.jpg?1463032218" alt="">
+                        <h1 class="title">他打算做世界音乐的孵化器，这种小众音乐可能正在被需要 | 100个有想法的人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26739.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26739/medium/26739.jpg?1463023141" alt="">
+                        <h1 class="title">「这世界」15岁少年发现玛雅古城，科学家们怎么看？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26744.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26744/medium/26744.jpg?1463030083" alt="">
+                        <h1 class="title">马斯克的超级列车首次测试，百公里加速 1.1 秒</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26741.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26741/medium/26741.jpg?1463024373" alt="">
+                        <h1 class="title">这里有本手绘色彩索引，比Pantone还要早270多年</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26754.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26754/medium/26754.jpg?1463038449" alt="">
+                        <h1 class="title">The North Face 要推出一款大衣，蜘蛛丝做的</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20880">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20880" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">215</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20861.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

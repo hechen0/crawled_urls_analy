@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>来看这个瑞典设计，它们能让你在冬天有更明亮的心情_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="来看这个瑞典设计，它们能让你在冬天有更明亮的心情。北欧很多设计工作室都能让你一眼认出他们的风格，而 Note 是其中最优秀的之一。。好奇心日报为您呈现来看这个瑞典设计，它们能让你在冬天有更明亮的心情的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Note Design Studio " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="eyxqxuD/YcDQ5zG3duvS+3ccfLZUdqZA/A1UVtWGVXI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="19566">
+				<span data-id="19566">Note Design Studio</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">来看这个瑞典设计，它们能让你在冬天有更明亮的心情</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-18 19:25:34 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19326/medium/19326.jpg?1450355921" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19326" data-title="《来看这个瑞典设计，它们能让你在冬天有更明亮的心情》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19326/medium/19326.jpg?1450355921" data-url="http://www.qdaily.com/mobile/articles/19326.html?url_type=39&amp;object_type=webpage&amp;pos=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				北欧很多设计工作室都能让你一眼认出他们的风格，而 Note 是其中最优秀的之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	上个月，瑞典最大的商场斯德哥尔摩商场开张营业了。它也是欧洲最大的购物中心之一，容纳了<span> 224 </span>家店，很多店的门面都有两层楼、将近<span> 8 </span>米高。
+</p>
+<p>
+	这个新商场里还别出心裁地开设了一个“餐饮体验空间”，名为“<span>Dining Theatre</span>”，它兼有用餐和烹饪功能，顾客可以直接看见厨师在这里准备食物。商场开发商、欧洲大型商业地产公司<span> Unibail-Rodamco </span>委托设计工作室<span> <a href="http://notedesignstudio.se/" target="_blank">Note </a></span>来设计这个空间的家具与装饰，希望他们打造出一个“有触感、可感知”的用餐环境。
+</p>
+<p>
+	<span>Note </span>是斯德哥尔摩本地的一家设计工作室，主要做家具和家居产品设计，也有不少室内设计和建筑项目。他们为斯堪的纳维亚商场设计的这个空间体现出自己一贯的风格，而且人们一眼便知这是来自北欧的设计：简洁，不用雕花和纹饰，色彩明亮却十分柔和，有亲和力，很好地平衡了形式与功能。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/209a09fd407c.jpg" width="936" height="1402" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	<span>Dining Theatre </span>的主色调为蓝色与暖调的粉色，并以此划分出用餐区和烹饪区。每一个烹饪单元配有洗手池和烤箱，台面由不锈钢或大理石制成。厨师们就现场在这里烹制食物，简洁的设计也是为了让他们尽可能地专注于食物，而不会被环境所打扰。
+</p>
+<p>
+	用餐区摆着木质的长凳与矮桌。本来方正的木桌椅会过于平实普通，但这里的方桌椅巧妙地用<span>“</span>金属管<span>”</span>作为桌腿和凳腿，水粉色的金属管还出现在桌面<span>/</span>长凳表面的边缘，起装饰作用。金属管和椅子表面上覆着浅橙色的皮革。金属、皮革、木、大理石，多样的材质同时出现在这个空间中，但显得很契合，一点也不突兀。
+</p>
+<p>
+	<span>Dining Theatre </span>里还摆着一些有意思的装饰，比如矮桌上的小台灯，像一个个水粉色的蘑菇，从桌面长出来。用餐区立着一个街灯类似物，高高的灯柱使用了跟烹饪区同色系的蓝，上面挂着木质灯罩的聚光灯。
+</p>
+<p>
+	<span>整块区域都很灵活，如果在这里要举办什么活动，这些独立单元的家具完全可以重新组合、规划成适合于那些场合的样子。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/3a2c913e45ea.jpg" width="900" height="409" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/44f8a57074a8.jpg" width="900" height="672" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	<span><a href="http://www.dezeen.com/2015/12/16/note-design-studio-dining-theatre-canteen-europe-largest-mall-of-scandinavia/">Note <span>工作室对自己的这个项目评论道</span></a></span>，“当你坐在那儿，坐在长凳上用餐，同时还能看到一位米其林星级大厨在你面前做好一桌美妙的菜，你就能感到其中的‘品质’，既是食物的品质，也是家具的品质。”
+</p>
+<p>
+	<span>Note </span>有很多出彩的作品，设计师们也很有自己的想法。<span><a href="http://notedesignstudio.se/about/"><span>他们在主页上<span>这样写</span></span></a></span>，“我们喜欢关注自己身边的环境与事物，并且创造出能让别人也像我们这样做的东西。通过发现和强调每个项目的独特性，我们将非物质性的价值观转化为可触摸、可感知的实物与空间。”听着有些抽象，我们还是来看作品吧。
+</p>
+<p>
+	他们设计过一个“神龛（<span>Shrine</span>）”。是的，这是一个宗教词汇，而它其实只是个带拱形的金属框架。这个东西的用途是为了帮助人们强调与纪念那些对自己有特殊意义的东西，保存生命中那些重要的回忆。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/74b4ffc9da02.jpg" width="700" height="350" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/6d38782617ed.jpg" width="700" height="350" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	在今年的斯德哥尔摩家具展上，他们推出了一系列被柔和色彩的纺织品包裹的灯饰。其中的配色灵感源自<span> Note </span>设计团队在斯堪的纳维亚山脉上观察到的自然色调——清晨，黄昏，正午的太阳，闪烁的湖面，野外，花草。<span><a href="http://notedesignstudio.se/elements/"><span>设计师<span>表示</span></span></a></span>，他们并不想要营造强烈的光芒，而是黑暗、漫长的冬日里一抹柔光。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/0572a7e4026d.jpg" width="468" height="390" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/a46c430c8834.jpg" width="965" height="643" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	他们为西班牙家具品牌<span> Sancal </span>设计过一款造型独特的休闲椅，以筒形、弯曲的金属丝笼为基底，设计的灵感源自西班牙东南部<span> Yecla </span>的酿酒产区的酒筒，而此地恰好是<span> Sancal </span>品牌的所在地区。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/c24e343933a9.jpg" width="784" height="560" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	<span>Note </span>的室内设计项目相对少一些，但都跟他们的家具和家居产品一样，很柔和，给人温馨舒适的感觉。
+</p>
+<p>
+	<span><span>比如斯德哥尔摩这家色彩丰富、明亮的小餐馆，早晨到这里吃早餐喝咖啡，一天的心情都会很不错吧。</span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/c25a00858c42.jpg" width="800" height="500" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/0556ac276da4.jpg" width="800" height="533" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	他们最新的室内作品是一个公寓改造项目，翻修了一间 1930 年代的 LOFT 公寓。业主希望这里能改造得有家的感觉，但又可以大大方方展示出来。于是他们就尽可能地少用北欧家居常见的白色，转而使用其他同样温和的色系。此外，这间公寓的家具全都是 Note 自己设计的。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/ef2677b4d923.jpg" width="800" height="389" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/52e32d95d268.jpg" width="800" height="580" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	图片来源：<span><a href="http://notedesignstudio.se/">Note Design Studio</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="19566">
+				<span data-id="19566">Note Design Studio</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19326" data-title="《来看这个瑞典设计，它们能让你在冬天有更明亮的心情》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19326/medium/19326.jpg?1450355921" data-url="http://www.qdaily.com/mobile/articles/19326.html?url_type=39&amp;object_type=webpage&amp;pos=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2349.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/2349/medium/2349.jpg?1436650382" alt="「2014上海国际家具展」北欧风越来越流行">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">「2014上海国际家具展」北欧风越来越流行</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">73</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/14068.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/14068/medium/14068.jpg?1440639523" alt="那个丹麦的设计家具店 HAY 迷倒了纽约人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">那个丹麦的设计家具店 HAY 迷倒了纽约人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">149</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25803.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25803/medium/25803.jpg?1461207453" alt="">
+                        <h1 class="title">COS 发布新一季秋冬男装，以及，春夏婚纱周值得一看｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25813.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25813/medium/25813.jpg?1461210791" alt="">
+                        <h1 class="title">丹麦的这栋大学宿舍，把开放与私密处理得恰到好处</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25811.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25811/medium/25811.jpg?1461214544" alt="">
+                        <h1 class="title">《路边野餐》定档，可能会带来《心迷宫》一样的惊喜</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25789/medium/25789.JPG?1461177262" alt="">
+                        <h1 class="title">除了刷屏祝福，鹿晗生日还收了俩代言</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25817.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25817/medium/25817.jpg?1461214743" alt="">
+                        <h1 class="title">苹果新专利：iPhone 也可以有变焦镜头</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19326">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19326" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">230</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19385.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

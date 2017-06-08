@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来。每一家都试图打造高端产品，并分掉一些苹果笔记本带来的光环。。好奇心日报为您呈现包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 PC 惠普 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Q7+xDYkXem6X83Z1drg/Dt8kUJenb4OwK2NYELXKjlE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3358">
+				<span data-id="3358">PC</span>
+			</li>
+			<li class="tag item" data-id="2119">
+				<span data-id="2119">惠普</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Quentin Hardy</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-05 13:18:30 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/24953/medium/24953.jpg?1459818434" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24953" data-title="《包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24953/medium/24953.jpg?1459818434" data-url="http://www.qdaily.com/mobile/articles/24953.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				每一家都试图打造高端产品，并分掉一些苹果笔记本带来的光环。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class=""><b><i>＊<a href="http://www.nytimes.com/2016/04/04/technology/outshone-by-smaller-screens-pcs-aim-to-be-seen-as-cool-again.html?ref=technology">本文</a>只能在《好奇心日报》发布，即使我们允许了也不许转载＊</i></b><br></p><p align="left">加州帕罗奥图电 - 惠普公司（HP Inc.）首席执行官迪昂·韦斯勒（Dion Weisler）最近把一台在 2012 年被视作骄傲的笨重的笔记本电脑拿了出来，说：“这是我到惠普的时候，我们在用的笔记本。”</p><p>他把它打开，露出了放在它空壳里的另一台惠普笔记本。随后他又打开了内里面的那台，引出了隐藏其中的另一台更小更轻的笔记本。最后，就像一组俄罗斯套娃一样，最后那台更为纤细的笔记本又从刚刚那台的里面露了出来。</p><p>“是不是挺让人惊奇的？” 有点龅牙的、乐观的澳大利亚人韦斯勒问道。</p><p>这是一个让人印象深刻的视觉把戏，但它还带着另一重目的。周二，韦斯勒将向公众发布一台和刚刚那组嵌套机器中最纤薄的那台类似的个人电脑，它采用 13.3 英寸的屏幕，但甚至会比那台小电脑更薄。他表示，这台电脑不到 11 毫米厚（即不到半英寸），打败了苹果在计算机轻薄方面的最佳成果，表明惠普的 PC 依旧是新潮且具有创新性的。事实上，惠普打造了一小批由黄金和钻石制成的超薄笔记本电脑，每台售价为 2.5 万美元，销售额将全数捐给慈善机构，其揭幕则会在于巴黎举行的纽约时报国际奢侈品大会（New York Times Luxury Conference）上进行。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/ac62a18b6926.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">惠普公司的首席执行官迪昂·韦斯勒表示，惠普最新的笔记本电脑证明， PC 依然可以酷、而且具有创新性。图片版权：Dmitry Kostyukov／《纽约时报》</div></figcaption></figure></div><p>惠普名为 Spectre （幽灵）的新笔记本突显了一点，即 PC 制造商如何必须倾尽心力去吸引消费者的注意。除了惠普，戴尔和联想等 PC 制造商同样在台式电脑和笔记本电脑的设计上投入了大笔资金，以打造愈加小巧精致的电脑，以及那种屏幕能够分离出来成为平板电脑的“二合一”式的产品。现在市面上有能被装进口袋的 PC，它能够理解语音和手势，还能察觉出自己何时需要修理，并自己提出远程检修的请求。</p><p>然而，随着越来越多的人倾向于让智能手机和平板电脑解决自己的计算需求，我们逐渐进入了所谓的“后 PC 时代”，PC 制造商在设计和创新上的投入可能终将前功尽弃。根据高德纳咨询公司（Gartner）的数据，去年全球共售出了 <a href="http://www.gartner.com/newsroom/i">2.89 亿台 PC</a>，相较 2014 年下跌了 8%。</p><p>面对作为更酷的替代品的智能手机和平板电脑的冲击，PC 的销量下滑已经延续数年。它的这种衰退预计将于今年趋于平稳，而在 2017 年，PC 的销量甚至预计会开始缓慢攀升。但一个关键问题依然悬而未决，那就是 PC 是否还能重新成为一种看起来很酷的产品。</p><p>甚至那些依赖于 PC 行业的人，现在都对曾经辉煌一时的 PC 失去了激情。高德纳的分析师北川美佳子（Mikako Kitagawa）谈到 PC 时表示：“现在它仅仅是上网的方式之一，大公司基本都在生产差不多的设备。”</p><p>这一观点显然冒犯了整个 PC 行业，引起了业内人士的反弹。</p><p>“我听到‘后 PC 时代’这一说法就想，这简直是胡扯，”戴尔负责客户解决方案的总裁杰夫·克拉克（Jeff Clarke）说道。“我们售出了 2.5 亿台设备，装机客户群为 19 亿。可能人们把它视为理所当然，但我们的创新是首屈一指的。”</p><p>韦斯勒在 11 月成为了<a href="http://www.nytimes.com/2014/10/07/business/hewlett-packard-announces-breakup-plan.html">惠普公司的首席执行官</a>，当时正值原先的<a href="http://www.nytimes.com/topic/company/hewlettpackard-company?inline=nyt-">惠普</a>分解为<a href="http://www.nytimes.com/2015/11/25/technology/hewlett-packard-hp-quarterly-earnings.html">两个实体</a>，一个为 PC 和打印机业务，另一个则是企业技术服务公司。他也同样反对 PC 是枯燥无趣的这一论断。他表示，电脑产品依旧可以成为恋物的对象。</p><p>“总的来说，对 PC、平板和智能手机等设备的需求仍在增长中，但它们同样也在发生转向，”48 岁的韦斯勒先生说道。他的整个职业生涯都在 PC 行业内度过。在加入惠普前，他曾服务于宏碁和联想。“你可以创造新的品类。”</p><p>为了创造新的品类，韦斯勒略微增加了研发开支，并计划去募集这笔资金。他表示，前任首席执行官梅格·惠特曼（Meg Whitman）在任期间，打印机和 PC 业务“并没有得到投资。”他还计划合并惠普的消费类和商用 PC 业务，希望能同时提振 PC 在居家和办公中的声望。</p><p>韦斯勒的愿景中也一直存在障碍。当惠普还是一家巨型公司时，它的市值为 600 亿美元。现在分家了的惠普公司和那个企业技术服务公司（名为 Hewlett Packard Enterprise，即惠普企业）的市值合计约为 530 亿美元。</p><p>很多的愁楚都来自于 PC 业务。不但惠普公司在第一财务季度的营收<a href="http://h30261.www3.hp.com/~/media/Files/H/HP-IR/documents/press-release/earning-release-02-24-2016.pdf">与去年同比下降了 12%</a>，跌至 122 亿美元，它的经营利润率也下滑了半个百分点到了 7.6%，而全国的平均经营利润率为 10.7%。作为回应，韦斯勒加快了在惠普公司 5 万名雇员中裁掉 3000 人的计划。</p><p>即便如此，他坚持公司会有一个光明的未来。在最近的某一天，他展示了自己在公司硅谷总部推动的一些项目的早期结果。一台看起来既像小平板、又像大手机的设备事实上可以是它们中的任意一个，同时也可以是一台桌面电脑或一台笔记本电脑。它既可以独立工作，也可以被置于一个连接了键盘和大显示器的基座上，像台式机一样运作。它也同样可以无线连接一个键盘和可以合上的屏幕，变成一台笔记本电脑。</p><p>房间里的另一台机器只是一台笔记本电脑，但它的边缘隐藏了一系列高级麦克风。这台电脑内置了网络电话控件，并且被设计为能打开到平铺为止。这样它就能用于电话会议，并高效捕捉会议桌周围的一切声音。</p><p>不远处，惠普最新的打印机已经丢弃了它们的移动喷嘴，转而使用一块长 8.5 英寸（约 20.3 厘米）、每秒喷射约 10 亿点的长条型工具。公司方面表示，这款打印机现在能够以两倍的速度和一半的成本实现激光打印机品质的打印，而公司是冲着 3D 打印彻底普及的那一天来打造的这款机器。</p><p>在 PC 行业的其他地方，戴尔最近发布了一款能和 Facebook 旗下的 <a href="http://www.nytimes.com/2016/03/31/technology/personaltech/oculus-rift-virtual-reality-review.html">Oculus 虚拟现实眼镜</a>协同工作的电脑。联想一直在制造更多种类的“二合一”型电脑。开发了支撑着多数 PC 的 Windows 操作系统的微软也进入了 PC 硬件领域，近日推出了自己能够识别手写和语音的电脑。 </p><p>“我们正在带来优雅的设计，”克拉克先生声称，并补充说戴尔计划增加研发开支。</p><p>至于所有的挑战，韦斯勒认为惠普可以在 PC 需求回升时茁壮成长，甚至在最后一台缀满钻石的电脑离开他的办公桌后，惠普还有望得到一些原本围绕于苹果的光芒——当年苹果的市值就是在 iPhone 回归后飙升的。</p><p>“打造人们贴身使用、并能理解面部表情等事物的东西，这些事情是有价值的，”他说道。“如果你专注于打造高端产品，那么你的其他设备也会变得越来越好。”</p><p>翻译 熊猫译社 Ariel Yang</p><p class="">题图来自&nbsp;<a target="_blank" jsaction="mousedown:irc.rl;keydown:irc.rlk" data-noload="" tabindex="0" href="https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjdqZidp_bLAhVB0mMKHVVIBVcQjB0IBg&amp;url=http%3A%2F%2Fwww.techwelike.com%2F2012%2F09%2F06%2Fhp-spectre-xt-touchsmart-ultrabook%2F&amp;psig=AFQjCNG-KGr6ruFkc5dFD0lZZ973ffXuHA&amp;ust=1459904717469556" data-ved="0ahUKEwjdqZidp_bLAhVB0mMKHVVIBVcQjB0IBg" data-href="http://www.techwelike.com/2012/09/06/hp-spectre-xt-touchsmart-ultrabook/">www.techwelike.com</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3358">
+				<span data-id="3358">PC</span>
+			</li>
+			<li class="tag item" data-id="2119">
+				<span data-id="2119">惠普</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24953" data-title="《包括超轻薄笔记本在内，PC 公司试图让自己再次酷起来》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24953/medium/24953.jpg?1459818434" data-url="http://www.qdaily.com/mobile/articles/24953.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22678.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22678/medium/22678.jpg?1456132672" alt="惠普又来做手机了，这次能当 PC 用">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">惠普又来做手机了，这次能当 PC 用</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">49</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22975.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/22975/medium/22975.jpg?1456650659" alt="再见，韦斯利·克拉克，没有你可能就不会有 PC">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">再见，韦斯利·克拉克，没有你可能就不会有 PC</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">59</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26315.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26315/medium/26315.jpg?1462240634" alt="">
+                        <h1 class="title">看看英超新冠军，中国资本家不如再想想到底什么才是正确的投资</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26347.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26347/medium/26347.jpg?1462269493" alt="">
+                        <h1 class="title">没有对手跑不快？Puma 做了一个赛跑机器人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26322.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26322/medium/26322.jpg?1462247818" alt="">
+                        <h1 class="title">奥巴马大女儿上大学之前先“间隔年”，这事儿其实不新鲜</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26338.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26338/medium/26338.jpg?1462262817" alt="">
+                        <h1 class="title">《刀剑乱舞》要来中国了，这个代理公司你满意吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26335.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26335/medium/26335.jpg?1462259827" alt="">
+                        <h1 class="title">为探究气候变化，这位建筑师设计了一个浮动的房子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="24953">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="24953" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">40</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/24957.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

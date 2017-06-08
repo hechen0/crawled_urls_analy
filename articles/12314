@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人。丹说，他现在很喜欢中国带给他的新鲜词汇。好奇心日报为您呈现这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计 Daan Roosegaarde 创意 100个有想法的人 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="gf3uEvKvM3koXoNjuDWjOZAV+up7VaD/CydQQuLvMa0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/17.html" class="category x25" data-id="17">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<h1 class="title">这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">宁卉</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-21 13:48:38 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/12314/medium/12314.jpg?1437365980" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12314" data-title="《这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12314/medium/12314.jpg?1437312763" data-url="http://www.qdaily.com/mobile/articles/12314.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				丹说，他现在很喜欢中国带给他的新鲜词汇
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	你可能在不同场合听说过以下这些天马行空的点子：
+</p>
+<p>
+	某外国设计师研制了巨大吸尘器，将一举吸走北京的 <span>PM2.5</span>；荷兰有一条酷炫的自发光智能高速公路，还有一条能在晚上展现梵高<span>“</span>星空<span>”</span>的自行车道；最近，阿姆斯特丹的一个广场上，夜晚的空中，碧蓝的水光波动，仿若海底<span>……</span>&nbsp;
+</p>
+<p>
+	没错，这些都出自同一个设计师之手。他叫做丹<span>·</span>罗素格地（<span>Daan Roosegaarde</span>），<span>36&nbsp;</span>岁，个子很高、有些清瘦的荷兰设计师，几年前在上海也开了一个工作室，在中国的曝光率层出不穷。他在荷兰的大本营刚刚搬了家，我们去了他的鹿特丹的新工作室转了转。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/a0d7d38c94b0.jpg" width="1050" height="1050" title="1" alt="1" /> 
+</p>
+<p>
+	工作室靠近鹿特丹工业园区，是一个宽敞明亮的玻璃房，目前有数十人，专攻设计、技术等领域。丹给工作室设置的主题是：“未来的城市”（City of
+Tomorrow），但他自己最常用的形容词，还是“技术的诗篇”（ Techno-poetry）。&nbsp;
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/747dca34a2e0.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/c5d1d829ca32.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/ba2a4630a129.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p>
+	首先，那个称将在北京公园安装的<span>“</span>雾霾吸尘器<span>”</span>，吸走&nbsp;<span>PM2.5&nbsp;</span>大麻烦的想法，是真的。这个吸尘器现在看起来是一个圆柱体的黑色小屋子，所以改名叫做了<span>“</span>无霾塔<span>”</span>（<span>Smog Free
+Tower</span>），第一期大概有&nbsp;<span>7&nbsp;</span>米高。丹介绍说，随着媒体对这个项目的关注，工作室已经与北京官方进行了愉快的洽谈与合作，今年&nbsp;<span>9&nbsp;</span>月份，这个<span>“</span>世界上最大的雾霾吸收器<span>”</span>将先在新工作室的后院试行，而北京方面也会派人过来视察。到年底的时候，就可以在北京某公园安装上了。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/d82a8d6405dc.jpg" width="1080" height="1871" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/c05109ad0e5f.jpg" width="1080" height="764" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/cd7e0e5d685f.jpg" width="1080" height="764" title="1" alt="1" /> 
+</p>
+<p>
+	丹说，这个吸尘器的主意，是住在北京时，惊叹央视的大楼可以在眼前因雾霾而忽隐忽现而生出的想法，<span>“</span>那就像是楼顶有一个巨大的吸尘器似的。<span>”</span> 
+</p>
+<p>
+	要是有一个巨大的吸尘器可以将雾霾都吸走就好了，或者很多人都曾做过这样的梦，但把这样看似不着边际的想法实现了的，丹还是第一个。
+</p>
+<p>
+	他很擅长用技术实现鬼马点子。
+</p>
+<p>
+	荷兰大部分地面都处在海平面以下，全凭精湛的海岸堤坝设计，才让这个低地国家不被大海淹没。这个事实生活在荷兰的人都知道，<span>“</span>但是我们都似乎已经忘记了这个事儿，忘记了荷兰文化与自然的相互影响。<span>”</span>丹找出今年&nbsp;<span>5&nbsp;</span>月初在阿姆斯特丹博物馆广场上<span>“</span>水波<span>”</span>（<span>Waterlicht</span>）作品的图片，非常自豪。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/524e7e0022e6.jpg" width="1080" height="720" title="waterlicht" alt="waterlicht" /> 
+</p>
+<p>
+	这一整片电脑设计出的蓝色水波，模拟了海平面的实际高度，投影在空旷的博物馆广场上，蓝光要比地面高出一大截，身处其间，流光在头顶，像水纹、也带着雾气般，场景十分梦幻。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/f720fd64a97d.jpg" width="1080" height="720" title="waterlicht" alt="waterlicht" /> 
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201507/5fb95c9097e2.jpg" width="1080" height="720" title="waterlicht" alt="waterlicht" /> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;">丹最有名气的作品，则是获得了&nbsp;</span><span style="text-align:justify;">2013&nbsp;</span><span style="text-align:justify;">年丹麦</span><span style="text-align:justify;">“</span><span style="text-align:justify;">设计改变生活</span><span style="text-align:justify;">”INDEX&nbsp;</span><span style="text-align:justify;">设计大奖的</span><span style="text-align:justify;">“</span><span style="text-align:justify;">智能高速公路</span><span style="text-align:justify;">”</span><span style="text-align:justify;">（</span><span style="text-align:justify;">Smart Highway</span><span style="text-align:justify;">）。</span><span style="text-align:justify;">“</span><span style="text-align:justify;">有一天，我开着车在荷兰的高速公路上，</span><span style="text-align:justify;">”</span><span style="text-align:justify;">丹回忆说，</span><span style="text-align:justify;">“</span><span style="text-align:justify;">你知道，荷兰人很无趣的，那么宽的高速公路，没有人会超速。</span><span style="text-align:justify;">”</span><span style="text-align:justify;">&nbsp;</span> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;"> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/2c638d722f01.jpg" width="1080" height="684" title="1" alt="1" /> 
+</p>
+<p>
+	“我就觉得，我们花了那么多钱和精力在汽车上，又花数亿万的钱，投资在完全打破了自然风景的高速公路上。而这些高速公路，跟半个世纪前长得一模一样。为什么没有人把它们变得更美一点儿呢？<span>”</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:left;">
+	擅用灯光的丹，于是设计了一条被他叫做“未来&nbsp;66&nbsp;号线”的智能高速公路，下雨雪的时候，地面上雪花的纹路会显现出来，然后随阳光的出现消失；散落在路边的灯，会随着车子驶过，才点亮前路百米，于是会有一波波的光线；而路上常见的线路，则涂上了可以吸收白天日光的夜光漆，在夜晚点亮路面……&nbsp;
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201507/85fa492afcef.jpg" width="1080" height="684" title="1" alt="1" style="text-align:justify;" /> 
+</p>
+<p>
+	在荷兰南部城市埃因霍温（<span>Eindhoven</span>）一条叫做<span>“</span>梵高星道<span>”</span>（<span>Van Gogh Path</span>）的自行车道上，丹试验了夜光漆。这条自行车道，在夜晚就像梵高的名作<span>“</span>星空<span>”</span>那样，发出点点星光，取缔了常见的路灯。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/4045f786b950.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p>
+	“这些不是什么高科技，刚刚有这个想法的时候，我就发现很多大学或科学院都已经做过很多实验，可以直接在现有的路面上实现，我只是去他们的档案馆里，把藏在抽屉里面的研究取了出来。<span>”</span>丹说，<span>“</span>所以说，比起设计，我更感兴趣的是改革想法，我想做商业世界里面的<span>‘</span>嬉皮士<span>’</span>，提出创意。<span>”</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/23f16a57a266.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p>
+	这些<span>“</span>嬉皮<span>”</span>、有趣的想法，吸引了北京官方，也吸引了欧洲最大的公路承建商&nbsp;<span>Heijmans</span>，后者在听说了智能高速公路的设计后，敲响了丹工作室的大门，问：<span>“</span>这智能高速公路要多少钱？<span>”</span> 
+</p>
+<p>
+	从东京，上海，卡塔尔到阿姆斯特丹，这都是丹最常会遇见的一个问题<span>——</span>虽然他更希望人们不要问<span>“</span>这要花多少钱<span>”</span>，而是坐下来问问他，大家各自想要的是什么。但这个看似鲁莽的问题背后，是对这些创意进行大规模尝试的信任，也见证了丹的工作室的成长。
+</p>
+<p>
+	早些年的时候，丹的创意还相对小意很多<span>——</span>至少在规模上。这包括&nbsp;<span>2011&nbsp;</span>年前后，给模特儿做了一件会随情绪改变颜色的衣服，叫做<span>“</span>亲密<span>”</span>（<span>Intimacy</span>）：随着模特儿与他人的接触，原本黑色或白色的衣服会逐渐变得越来越透明。或是一个&nbsp;<span>2006&nbsp;</span>年前后做成的、叫做<span>“</span>沙丘<span>”</span>（<span>Dune</span>）的装置，长长一条通道中设置了互动的灯光和音响设备，人走在其间，随手触碰，就能带动淡淡的灯光，以及像昆虫鸣叫一般的声响。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/3bae2ca77a09.jpg" width="1080" height="660" title="亲密" alt="亲密" /><span>亲密</span> 
+</p>
+<p>
+	“沙丘<span>”</span>也是丹第一个带进中国的作品。<span>“</span>我看到中国孩子们在沙丘里面奔跑玩耍，<span>”</span>丹说，<span>“</span>这与在荷兰展出的时候感觉很不一样。荷兰人会停下来仔细研究一番，为何灯光和音响是可以互动的，那些互动装置又装在哪里。<span>”</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/b8cbe4058efb.jpg" width="1080" height="720" title="沙丘" alt="沙丘" /><span>沙丘</span> 
+</p>
+<p>
+	在中国，丹最常去、也最喜欢的便是上海。这个城市有一点儿欧洲殖民遗留下的记忆，也有中国式的快速变革，让他既熟悉又陌生。
+</p>
+<p>
+	“就像是一个巨大的商场，中间是一架电梯，每一层都有一个主题，可能是新科技产品、可能是爵士乐，你在电梯里的一个按键，就能改变场所，因而改变情绪和感觉。对我而言，这就是中国，一个奇怪的、亢奋的功能性综合体，建立出了一个如此无序的场景，然而又充满了诗意。<span>”</span> 
+</p>
+<p>
+	“中国则对未来充满期望，同时也意识到她可能丢失了一些传统，这个结合，让中国弥漫着重新创造一个现实的氛围。那些固化的美或丑的概念，在这样的情境下变得没什么意义。而且，也许是好事呢？<span>”</span> 
+</p>
+<p>
+	丹举了一个来自中国的创意：一个浮在头顶的无人机，可以发出一些声波，就像一个气泡一样浮在你身周，然后你即便在吵闹的都市中央，都听不到一点儿杂音了。
+</p>
+<p>
+	“未来最大胆的创意，也许是来自中国。<span>”</span>&nbsp;
+</p>
+<p>
+	丹说，他现在很喜欢中国带给他的新鲜词汇，荷兰文化<span>——</span>从百年前就顽固得将海平面锁在了地面之上就能看出<span>——</span>是很有控制欲的，任何事情都有既定的规则。
+</p>
+<p>
+	目前看来，中国的新鲜和荷兰的规则都在助益他的发展<span>——</span>北京<span>“</span>无霾公园<span>”</span>计划的推动，背后有着荷兰外交部门的穿针引线，而在荷兰，他刚刚获得了基建部门的委任，在荷兰史诗般与大海斗阵的堤岸上，用类似的互动技术，给单调的堤岸增添一层魅力。<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="13130">
+				<span data-id="13130">Daan Roosegaarde</span>
+			</li>
+			<li class="tag item" data-id="419">
+				<span data-id="419">创意</span>
+			</li>
+			<li class="tag item" data-id="12066">
+				<span data-id="12066">100个有想法的人</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12314" data-title="《这个荷兰设计师说，未来最大胆的创意也许来自中国｜100个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12314/medium/12314.jpg?1437312763" data-url="http://www.qdaily.com/mobile/articles/12314.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/3692.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/3692/medium/3692.jpg?1436641190" alt="在荷兰骑自行车请注意，脚下有星空">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">在荷兰骑自行车请注意，脚下有星空</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">16</span>
+				<span class="iconfont icon-heart">28</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27189.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27189/medium/27189.jpg?1463937821" alt="">
+                        <h1 class="title">这个游戏跟纸沾点边，特别烧脑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27193.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27193/medium/27193.jpeg?1463957032" alt="">
+                        <h1 class="title">大公司头条：小米要用直播应用发布无人机，马航遇难乘客家属起诉普京</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27196.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27196/medium/27196.jpg?1463965253" alt="">
+                        <h1 class="title">看图：这里是过去那个周末发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27197.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27197/medium/27197.jpg?1463966539" alt="">
+                        <h1 class="title">「票房」内地电影票房突破 200 亿，但别高兴得太早</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27187.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27187/medium/27187.jpg?1463931753" alt="">
+                        <h1 class="title">如果你去墨西哥旅游，不要被这家餐厅的色彩吞没</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12314">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12314" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">114</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12404.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

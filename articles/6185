@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为了情人节，这些互联网公司也是操碎了心_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为了情人节，这些互联网公司也是操碎了心。连公司合并，都要赶上一个甜蜜的时候。。好奇心日报为您呈现为了情人节，这些互联网公司也是操碎了心的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Google Opera 情人节 滴滴 快的 长文章 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="s+m3da5NNXj80ioRj4lvZvtJ85j92cW1RMJYLys+dwM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">为了情人节，这些互联网公司也是操碎了心</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路 王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-02-14 08:45:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/6185/medium/6185.jpg?1423872679" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6185" data-title="《为了情人节，这些互联网公司也是操碎了心》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6185/medium/6185.jpg?1436693886" data-url="http://www.qdaily.com/mobile/articles/6185.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				连公司合并，都要赶上一个甜蜜的时候。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	越是临近情人节，生活在网络上的单身人士越是能够感受到来自整个世界的恶意。不过，在为情侣准备的各种活动中，我们还是能够找到一些普适的善意。
+</p>
+<h3>
+	Google 用 100 件线上艺术品说“爱”
+</h3>
+<p>
+	<a href="http://qdaily.com/display/articles/2175.html" target="_blank">Google 文化学院（Google Cultural Institute）</a>的工程师们为情人节设计了<a href="https://www.google.com/culturalinstitute/project/love" target="_blank">一个特别的页面</a>。这个页面将包含一百件精选的艺术作品，诠释“爱”的各个维度。
+</p>
+<p>
+	<img src="/uploads/image/201502/ba7068fe3aa1.jpg" alt="" /> 
+</p>
+<p>
+	Google 文化学院（Google Cultural Institute）是 Google 20% 创新时间的产物，包括艺术计划、历史性时刻和世界奇观三大项目。2012 年上线至今，已经有了来自 60 多个国家的 500 多个合作伙伴，包括博物馆、艺术馆和艺术机构。超过 190 万独立用户访问过。
+</p>
+<p>
+	爱其实没有那么狭隘，这场线上主题展览选取了蒙克、拉斐尔、扬·付美尔、雷诺阿等艺术家的经典作品，涵盖了情爱、友情、母爱、亲情等多个维度，比如<a href="https://www.google.com/culturalinstitute/asset-viewer/the-sistine-madonna/CgEiMJRg7ZS6DA" target="_blank">下面这幅拉斐尔的著名作品《西斯廷圣母》</a>，就是其中的展品之一。
+</p>
+<p>
+	<img src="/uploads/image/201502/ca6c12ce9d9a.jpg" alt="" /> 
+</p>
+<p>
+	这个页面今日就会上线。对于单身人士来说，拥挤的周末夜，呆在家看看展览，也是挺清静的一种计划。
+</p>
+<p>
+	当然，作为一个生活在中国的 Google 爱好者，一一浏览完这一百件艺术品可能需要耗费一些周折。至少，也可以期待一下<a href="http://qdaily.com/display/articles/5319.html" target="_blank"> Google 今年的情人节 Doodle </a>会是什么样。
+</p>
+<p>
+	<img src="/uploads/image/201502/cf0946d3ae31.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<em>Google 2014 年情人节首页涂鸦</em> 
+</p>
+<h3>
+	淘宝：无论过不过情人节，反正你都得买买买
+</h3>
+<p>
+	今年，淘宝联合商家玩了一场<a href="http://www.taobao.com/market/taojinbi/qqaqdb.php#lc" target="_blank">“爱情众筹”。</a> 
+</p>
+<p>
+	在 2 月 6 日－3 月 12 日期间，用户可以在淘宝上认购这座位于三亚玫瑰岛的爱情地标，众筹金额达到 300 万后，将在 3 月 14 日白色情人节当天于三亚玫瑰岛举办奠基盛典，
+</p>
+<p>
+	你可以选择 1 元、13.14 元、99 元、520 元、1314 元、5200 元、9999 元价格不等的爱情表白信物，比如花 1 元支持，就能获得一份电子爱情证书和某珠宝品牌的 50 元代金券。花 9999 元，则可以在“可能建成”的地标上刻上情侣的名字。从目前情况来看，大多数人还是选择花 1 块钱换一份电子证书。
+</p>
+<p>
+	这让我想起在欧洲，许多城市的老铁索桥上都会挂上色彩斑斓的铁锁，人们将自己与爱人的名字刻在上面，以此祈愿就此锁住爱情。
+</p>
+<p>
+	<img src="/uploads/image/201502/992b40c45480.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<em>位于萨尔兹堡的 Staatsbrucke 老桥，也被称作“同心桥”</em> 
+</p>
+<p style="text-align:left;">
+	除此之外，一同上线的还有<a href="http://www.taobao.com/market/taojinbi/caihongrelian.php?spm=a217e.1703013.1998405692.3.TYQoGn" target="_blank">“彩虹之爱”蜜月旅行活动</a>和<a href="http://www.taobao.com/market/acg/fff.php?spm=a217e.1696277.1998408965.4.ksEj5F" target="_blank">专为单身人士设计的“情侣滚蛋吧”</a>页面。
+</p>
+<p style="text-align:left;">
+	反正，无论你过不过情人节，商家总有让你花钱的理由。
+</p>
+<h3 style="text-align:left;">
+	Uber 想做姑娘们的南瓜马车
+</h3>
+<p>
+	情人节当天，专车服务 Uber 将在北京推出 Beauty Ride 服务，用户只需选择 BEAUTY，系统就会调配最近的彩妆造型师来到用户身边。
+</p>
+<p>
+	尽管 Uber 的本意是让姑娘们打扮地漂漂亮亮去约会，但是即使没有约会，这一段特殊旅程除了包含化妆服务之外，还会附带情人节玫瑰花束一份。
+</p>
+<p>
+	这意思基本上就是：即使你没有情人节可过，也可以和 Uber 一起把节过了。
+</p>
+<p>
+	起码，可以美美的和自己度过一个下午和晚上。
+</p>
+<p>
+	<img src="/uploads/image/201502/814f1dd26181.jpg" alt="" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	在上海使用 Uber 的用户同样也可以使用 Uber 闪送服务，叫一份礼物给自己。
+</p>
+<h3>
+	欧朋浏览器决定唱一支歌来鼓励你
+</h3>
+<p>
+	这个活动也许和欧朋（Opera）浏览器没有太大关系。不过，它们大抵是最重视单身人士的浏览器了。
+</p>
+<p>
+	在这个一部分人幸福，一部分人被晒幸福的日子里，它们邀请好妹妹乐队录了一首歌，送给单身的用户，歌的含义全在歌名里：《祝天下所有的情侣都是失散多年的兄妹》。
+</p>
+<p>
+	先不论这首歌到底能够鼓励到你多少，至少它代表了一个可能是废话的事实：商家总会想尽一切办法，在每一个看似重要的日子里，吸引你的眼球。
+</p>
+<p>
+	欧朋的市场负责人告诉《好奇心日报》，这实际上是为即将上线的后续活动预热准备的。既然选在情人节关爱孤单人士，一笑而过也就算对得起工作到深夜的<a href="http://qdaily.com/display/articles/6002.html" target="_blank">&nbsp;Social Agency </a>了。
+</p>
+<p>
+	<img src="/uploads/image/201502/d65a9e771f8a.jpg" alt="" /> 
+</p>
+<h3>
+	没有女友，微软小冰可以给你伪造一个
+</h3>
+<p>
+	主要生活在微博上的<a href="http://weibo.com/5175429989/C3XGpp9bC?from=page_1005055175429989_profile&wvr=6&mod=weibotime&type=comment#_rnd1423821795581" target="_blank">人工智能“小冰”近日解锁了新技能</a>，只需领养小冰，在和小冰的私信里发送“为我伪造女友”，“她”就会为你临时创造一系列女友存在的证据。
+</p>
+<p>
+	<img src="/uploads/image/201502/b254795d4071.jpg" alt="" /> 
+</p>
+<p>
+	<span style="white-space:normal;">当然，不爱人工智能的话，淘宝上 20 块也可以租一个”虚拟男友/女友“陪你度过几天。他/她会根据你要的类型定制男友/女友的类型。</span> 
+</p>
+<p>
+	只要不入戏太深，这也许会是春节期间摆脱亲戚“终极三问”（有对象了吗？工作怎么样？啥时候结婚？）的必备良品。
+</p>
+<h3>
+	滴滴和快的选择在情人节秀恩爱给你看
+</h3>
+<p>
+	一则“滴滴和快的即将合并”的消息已经流传了一段时间。2 月 12 日晚间，<a href="http://www.wsj.com/articles/chinas-two-largest-taxi-hailing-app-companies-discussing-merger-1423744460?tesla=y" target="_blank">《华尔街日报》援引知情人士消息称</a>，移动打车应用快的打车和滴滴打车正在洽谈合并事宜。
+</p>
+<p>
+	这两家公司的背后分别是阿里巴巴和腾讯，两家公司之间的“补贴大战”从 2013 年一路烧到现在。知情人士称，合并交易可能会在数天内宣布。
+</p>
+<p>
+	2 月 14 日早晨，相信大多数人已经在微信里收到了滴滴和快的合并的消息。两家合并之后的新公司将采用联合 CEO 的制度，滴滴打车 CEO 程维及快的打车 CEO 吕传伟将同时担任联合 CEO。
+</p>
+<p>
+	易到用车 CEO 周航曾在另一次采访时告诉《好奇心日报》，这场补贴大战将会在不长的时间里结束。人人都想到补贴大战不会一直持续，却没有准备好这么快结束。就像宣布老死不相往来的一对冤家，有一天突然手拉手出现在你面前。而且还是在情人节这么一个敏感时期，秀恩爱给全世界。
+</p>
+<p>
+	<img src="/uploads/image/201502/87f0a073fc3b.jpg" alt="" style="font-family:'sans serif', tahoma, verdana, helvetica;" /> 
+</p>
+<p>
+	想想当年的优酷和土豆，合并以后如今也是如胶似漆，前几日，微博用户发现，只要发带有“土豆”的私信给优酷弹幕，都会受到一条自动回复：“我知道，我家的。”
+</p>
+<p>
+	<span style="white-space:normal;">和优酷土豆不同的是，滴滴、快的合并影响的并不只是打车市场，也关系着他们背后腾讯和阿里巴巴正在力推的手机支付。这曾经是我们怀疑究竟合并是否会发生的最大原因。</span>
+</p>
+<p>
+	然而我们更想知道的是，如果滴滴和快的合并，<a href="http://qdaily.com/display/articles/5446.html" target="_blank" style="background-color:#FFFFFF;">改变城市交通的一场革命会不会快一点真正到来</a>。
+</p>
+<h2>
+	Humble Bunble 专门为单身狗准备了恶意向 Galgame
+</h2>
+<p>
+	知名慈善包网站 <a href="https://www.humblebundle.com/weekly" target="_blank">Humble Bunble 也应景的准备了情人节专题的周包</a>。所谓慈善包，就是给玩家一个机会，既便宜的买到游戏，又能够把买游戏钱捐给慈善机构。
+</p>
+<p>
+	不过这一周的慈善包可是恶意满满，名字就叫做&nbsp;Humble Weekly Bundle: For Lovers (of games)，翻译过来就是 Humble Bundle 周包：为了（游戏的）情人。除了名字，游戏包的内容居然全是日本的 Galgame。
+</p>
+<p>
+	Galgame 是一种专门为单身男女设计的，以攻略（追求）异性或同性为目标的，文字对话式单人角色扮演类游戏。摔！情人节就发这种游戏吗？Humble Bundle 编辑们的节操呢？（尽管游戏质量是不错啦..）
+</p>
+<p>
+	当然，对单身狗的恶意不止于此，该慈善包最高价位 8 美元档的游戏居然是&nbsp;Hatoful Boyfriend！35 美元档的礼物居然是此游戏的主题枕套！！！<span style="white-space:normal;">Hatoful Boyfriend 是什么游戏呢？中文名是《鸽子男友》，对，就是鸽子男友！像这样：</span> 
+</p>
+<p>
+	<span style="white-space:normal;"><img src="/uploads/image/201502/a1c3da4faffc.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	这款乙女向（针对女性消费者的）游戏的目标就是攻略鸽子，嗯，找个鸽子做男友是怎么样的猎奇想法啊！虽然这些鸽子都是男生变的，而且贵族、弱气、中二一个不少，品类齐全，但是鸽子毕竟还是鸽子啊。
+</p>
+<p>
+	对着鸽子谈恋爱真的不会让爸爸妈妈担心吗？不过这种跨物种的 Galgame 在日本已经不是第一次了，当然还有<a href="http://news.gamme.com.tw/608993" target="_blank">更猎奇的</a>（慎戳，后果自负！）。看完你会觉得，鸽子嘛，挺好，挺好的。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图摄自 巴黎·爱墙
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="4036">
+				<span data-id="4036">Opera</span>
+			</li>
+			<li class="tag item" data-id="926">
+				<span data-id="926">情人节</span>
+			</li>
+			<li class="tag item" data-id="5095">
+				<span data-id="5095">滴滴</span>
+			</li>
+			<li class="tag item" data-id="5865">
+				<span data-id="5865">快的</span>
+			</li>
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6185" data-title="《为了情人节，这些互联网公司也是操碎了心》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6185/medium/6185.jpg?1436693886" data-url="http://www.qdaily.com/mobile/articles/6185.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26277.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26277/medium/26277.jpg?1462021750" alt="">
+                        <h1 class="title">都卖酒了，怎么在音乐节还赚不到年轻人的钱？｜音乐节上的 4 个人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26274.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26274/medium/26274.jpg?1462007461" alt="">
+                        <h1 class="title">趁着巴菲特开会，我们来看看他的资产和履历</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26235.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26235/medium/26235.jpg?1461907685" alt="">
+                        <h1 class="title">这款彩虹高光，红到让Etsy小店48小时所有货都卖光</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26276/medium/26276.jpg?1462021064" alt="">
+                        <h1 class="title">喜欢蓝染，可以关注The Hill-Side 和 Buaisou 合作系列</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26269.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26269/medium/26269.jpeg?1461978601" alt="">
+                        <h1 class="title">北京龙泉寺开发了一个机器人，它还称不上有智慧</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26270.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26270/medium/26270.jpg?1461981602" alt="">
+                        <h1 class="title">看图：这里是过去48小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="6185">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="6185" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">89</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/6206.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

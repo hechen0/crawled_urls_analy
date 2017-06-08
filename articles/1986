@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>可穿戴不再是小型创业公司独自玩得转的游戏_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="可穿戴不再是小型创业公司独自玩得转的游戏。当手环定价从 1000 块变成 79 块，就不再是创业小团队自己能做的事了。。好奇心日报为您呈现可穿戴不再是小型创业公司独自玩得转的游戏的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="小米 可穿戴 智能硬件 Top 15 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="SvSZC5M8TDVozSzj5c7lpYlqmrTiI4IrydcayzRJUAs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="579">
+				<span data-id="579">小米</span>
+			</li>
+			<li class="tag item" data-id="28">
+				<span data-id="28">可穿戴</span>
+			</li>
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">可穿戴不再是小型创业公司独自玩得转的游戏</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-08-22 14:07:33 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1986/medium/1986.jpg?1436647138" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1986" data-title="《可穿戴不再是小型创业公司独自玩得转的游戏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1986/medium/1986.jpg?1436647138" data-url="http://www.qdaily.com/mobile/articles/1986" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当手环定价从 1000 块变成 79 块，就不再是创业小团队自己能做的事了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<span style="line-height:1.5;">体验</span><span class="s1" style="line-height:1.5;">“</span><span style="line-height:1.5;">可穿戴设备</span><span class="s1" style="line-height:1.5;">”</span><span style="line-height:1.5;">或者</span><span class="s1" style="line-height:1.5;">“</span><span style="line-height:1.5;">智能手环</span><span class="s1" style="line-height:1.5;">”曾经是</span><span style="line-height:1.5;">一件稍微有门槛的事情，除了</span><span class="s1" style="line-height:1.5;">“</span><span style="line-height:1.5;">量化自我</span><span class="s1" style="line-height:1.5;">”、</span><span style="line-height:1.5;">收集身体数据的概念对用户缺少实际意义以外，价格也是一个问题。</span> 
+</p>
+<p class="p1">
+	<span class="s1" style="line-height:1.5;">不论 Nike Fuelband </span><span style="line-height:1.5;">和</span><span class="s1" style="line-height:1.5;"> Jawbone Up</span><span style="line-height:1.5;">，还是国内的</span><span class="s1" style="line-height:1.5;"> Bong </span><span style="line-height:1.5;">等手环定价大多在</span><span class="s1" style="line-height:1.5;">&nbsp;500-1000 </span><span style="line-height:1.5;">元之间，让不少兴趣尝试的人们转为观望的态度。</span> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;"> </span> 
+</p>
+<p class="p1">
+	之前一件没什么大用的东西定价如此之高也是有原因的。<span style="line-height:1.5;">根据原《连线》主编、硬件创业者克里斯·安德森在《创客》一书里的论述，智能硬件产品需要考虑库存、物流、下一代产品研发等问题，因此创业者往往需要将实际产品售价定在成本的两三倍才能维持公司运转。</span> 
+</p>
+<p class="p1">
+	也因此，当价格为 79 元的小米手环面世时，马上便陷入了舆论之中。不久，国内的手环制造商<span class="s1">&nbsp;Bong&nbsp;</span>也将自己的第二代产品定价为<span class="s1">&nbsp;99&nbsp;</span>元，价格只有一代的 1/7。
+</p>
+<p class="p1" style="text-align:center;">
+	<img src="/uploads/image/201408/35852eca564e.png" alt="" /> 
+</p>
+<p class="p1">
+	小米手环并不是小米公司自己打造的产品，而是由它和所投资的公司完成。<span class="s1">2013&nbsp;</span>年年底，小米公司找到了在安徽合肥做智能硬件产品的华恒科技（后改名为华米科技）合作。小米并未直接收购，而是以入股的形式参与华米。
+</p>
+<p class="p1">
+	在接受《好奇心日报》采访时，华米科技的<span class="s1">&nbsp;CEO&nbsp;</span>黄汪说自己想要用<span class="s1">“</span>低价启动一个市场<span class="s1">”，通过<span>大量的卖硬件产品，降低生产成本来获利。</span>为此他的目标是今年卖掉 100 万个手环。</span> 
+</p>
+<p class="p1">
+	但低价格是怎么做到的？
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">小米参与进来以后，接管了销售渠道和售后等需要很高投入的工作。而小米的品牌以及与小米手机的功能整合也为华米的销量提供了保证。这一模式也是小米生态链部门与所投公司常见的合作模式，即被投资公司做产品，小米以品牌和渠道背书。</span> 
+</p>
+<p class="p1">
+	像华米这样通过与第三方公司<span class="s1">“</span>投资<span class="s1">+</span>贴牌<span class="s1">+</span>掌控销售<span class="s1">”</span>的方式，也算是智能硬件厂商合作的一个思路。小米减少了自己直接做可穿戴硬件的风险，而是将主要研发投入集中在手机、平板、电视和路由器等商业前景已经被证明的行产品上。
+</p>
+<p class="p1">
+	一两年前，每个做智能硬件的创业公司都想做自己的<span class="s1">“</span>大数据<span class="s1">”</span>，企图争夺用户信息和数据的入口，建立行业标准。
+</p>
+<p class="p1">
+	但这么做成本很高，也导致产品定价高昂、难以普及。合作降低用户接受门槛成为新的趋势。
+</p>
+<p class="p1">
+	今年<span class="s1"> 6 </span>月，<span class="s1">Pebble </span>与可穿戴设备<span class="s1"> Misfit </span>进行<a href="https://blog.getpebble.com/2014/06/24/pebble-makes-fitness-shine-partners-with-misfit/" target="_blank">深度合作</a>，将<span class="s1"> Misfit </span>的算法嵌入<span class="s1"> Pebble </span>设备当中，等于基于<span class="s1"> Pebble </span>的硬件开发了一个<span class="s1"> Misfit </span>的应用，用户可以通过手表和手机查看卡路里消耗、跑动距离等指标。<span class="s1">Pebble </span>早前还和跑步软件应用<span class="s1"> RunKeeper </span>联动，后者为<span class="s1"> Pebble </span>开发了手表应用，将<span class="s1"> Pebble </span>这个产品衍生成运动检测设备。
+</p>
+<p class="p1">
+	另一个颇受欢迎的智能硬件初创企业<span class="s1"> <a href="https://jawbone.com/blog/jawbone-up-works-with-nest/" target="_blank">Jawbone </a>与被 Google 收购的</span><a href="https://jawbone.com/blog/jawbone-up-works-with-nest/" target="_blank">智能家居厂商</a><span class="s1"><a href="https://jawbone.com/blog/jawbone-up-works-with-nest/" target="_blank"> Nest</a> </span>进行合作，根据用户实时的睡眠状态调整室温，这样，就可以在稍微凉快的环境下入睡，然后在温暖的温度中醒来了。
+</p>
+<p class="p1" style="text-align:center;">
+	<img src="/uploads/image/201408/9db5e236310f.jpg" alt="" /> 
+</p>
+<p class="p1">
+	而根据黄汪透露，在保证用户数据隐私和安全的情况下，小米手环也将会开放<span class="s1"> API </span>接口，方便健康或者运动领域的开发者或者厂商能够调用小米手环的数据，衍生出更多有趣的玩法。
+</p>
+<p class="p1">
+	这样的合作一定程度上解决了可穿戴设备的整体体验问题。只是为了计步，只是为了计算卡路里和看时间，是否需要额外再佩戴一个人们习惯之外的设备？数据准确度还没有保证之时，麻烦的充电方式、仅有几天的续航和糟糕的佩戴体验，还有并不便宜的价格，让这种可穿戴设备处境尴尬。
+</p>
+<p class="p1">
+	而如果这款设备可以做你的私人健康顾问，又或者自动控制家中的设备，甚至进行身份识别等，那么可穿戴式设备的意义就不再相同了。
+</p>
+<p class="p1">
+	<br />
+</p>
+<p class="p1">
+	题图来自：<a href="http://www.mi.com/" target="_blank">Mi.com</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="579">
+				<span data-id="579">小米</span>
+			</li>
+			<li class="tag item" data-id="28">
+				<span data-id="28">可穿戴</span>
+			</li>
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1986" data-title="《可穿戴不再是小型创业公司独自玩得转的游戏》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1986/medium/1986.jpg?1436647138" data-url="http://www.qdaily.com/mobile/articles/1986" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25058.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25058/medium/25058.jpg?1459936166" alt="">
+                        <h1 class="title">这家要在2018年开业的，将会是星巴克全球最大门店</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25053.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25053/medium/25053.jpg?1459934746" alt="">
+                        <h1 class="title">优土成为阿里子公司以后，表示边看边买这事是认真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25034.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25034/medium/25034.jpg?1459920141" alt="">
+                        <h1 class="title">青年旅舍也有精心之作，阿姆斯特丹这家从校舍改造而来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25041.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25041/medium/25041.jpg?1459942393" alt="">
+                        <h1 class="title">魅族发布了新手机魅蓝 Note 3，不同的机型越来越像了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1986">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1986" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">13</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1989.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

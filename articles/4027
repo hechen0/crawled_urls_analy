@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个人痴迷于自家农场里的各种数据，回报可观_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个人痴迷于自家农场里的各种数据，回报可观。对于美国的一部分农场主来说，技术已经成为了整个农场得以生存的命脉，科技的应用可以使他们有效掌控土地给作物种植带来的不确定因素，从而使他们能够逐渐与集约化的农场相竞争。。好奇心日报为您呈现这个人痴迷于自家农场里的各种数据，回报可观的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 农业 数据 科技 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="4sL3R3be8AAzdKywPCs9hRgo3TjWs8KzPUXtuwCWpeY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2153">
+				<span data-id="2153">农业</span>
+			</li>
+			<li class="tag item" data-id="1056">
+				<span data-id="1056">数据</span>
+			</li>
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个人痴迷于自家农场里的各种数据，回报可观</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Quentin Hardy</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-12-02 11:44:13 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/4027/medium/4027.gif?1436644386" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4027" data-title="《这个人痴迷于自家农场里的各种数据，回报可观》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4027/medium/4027.gif?1436644386" data-url="http://www.qdaily.com/mobile/articles/4027.html?from=singlemessage&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				对于美国的一部分农场主来说，技术已经成为了整个农场得以生存的命脉，科技的应用可以使他们有效掌控土地给作物种植带来的不确定因素，从而使他们能够逐渐与集约化的农场相竞争。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;"><br />
+</span> 
+</p>
+<p class="MsoNormal">
+	里斯堡电——奇普·汤姆是家族的第七代农场主，他所经营的现代农业场里收获的作物主要有：种用玉米、饲用玉米、大豆，还有数据。
+</p>
+<p class="MsoNormal">
+	“我对分析数据信息和作物产量十分着迷，”汤姆说道。他坐在满是电脑屏幕的办公室里，办公室中还有一块显眼的白板，上面密密麻麻地写着许多公式和公司计算机网络的规划方案。
+</p>
+<p class="MsoNormal">
+	汤姆今年 59 岁，作为一个农场主，他还身兼农场的技术总监。他的曾曾祖父过去在这片土地上套着骡子种地，而如今，“我们的联合收割机上装有传感器，能够接收卫星发射的 GPS（全球定位系统）数据，自动驾驶的拖拉机上装有微型解调器，我们的 iPhone 上装有灌溉的应用，”他说道。
+</p>
+<p class="MsoNormal">
+	虽然小型家庭式的农场在很久以前就已经被淘汰了，但是对于汤姆这样的农场主来说，技术已经成为了整个农场得以生存的命脉，技术能够有效掌控土地给作物种植带来的不确定因素，从而使他们能够逐渐与集约化的农场相竞争。
+</p>
+<p class="MsoNormal">
+	新型技术应用于农业让一部分人得到了好处，也让一些人失去了竞争优势。一些人认为是硅谷的技术产业破坏了许多古老的农业耕作方式。通过运用最先进的科技，汤姆的农场正在不断扩大，他的家庭农场从 70 年代的 700 亩扩大到了现在的两万亩，但是汤姆邻居的农场规模却在不断缩小。
+</p>
+<p class="MsoNormal">
+	此外，在先进技术上的高昂投入是一些小型农场主难以负担的，农业设备制造商，例如 John Deere 和 AGCO 公司，他们所生产的播种机、拖拉机和收割机上面都配备有传感器，计算机和通信设备。在 2000 年，用一台联合收割机收割庄稼要花费 6.5 万美元；而在今天，由于新增的各种信息技术设备，这个数字已经增长到了 50 万美元，
+</p>
+<p class="MsoNormal">
+	“我们已经发现大型农场的农业产量有了大幅提升，”美国农业部的经济学家，大卫·施麦尔范宁说道，“其实并不是那些小型农场生产力过低，而是大型农场能够负担的起高昂的技术投资。”
+</p>
+<p class="MsoNormal">
+	除此之外，技术投资对于小型农场来说还有另外一个风险。为了达到农业技术应用的最大效果，农场主们会尽可能的大面积种植单一作物。而种植多种作物并且饲养家畜的农场主则需要使用许多不同的技术设备。不具备先进技术的小型农场也可以种植单一作物，但是他们很难在竞争中获得很高的利润。
+</p>
+<p class="MsoNormal">
+	先进农业科技造成的这种单一作物种植，使得农场主们都一拥而上开始走“便利种植”和“便利销售”的路子，如此就可以充分利用先进设备带来的便利，这也使现代农业脱离了多作物种植的传统耕作模式。事实上，按照美国加州大学伯克利分校的一个政策技术研究机构——伯克利食品研究所执行董事安·思若普的说法，土地利用的多样性往往能够提高作物抵抗自然灾害和病虫害的能力。
+</p>
+<p class="MsoNormal">
+	这就是技术应用的弊端所在，但同时科技的应用也确确实实能够让农业耕种变得十分轻松。就像汤姆的农场一样，更多的农场在引进了先进的技术之后都开始了扩张的步伐。
+</p>
+<p class="MsoNormal">
+	在德克萨斯州的里奥格兰德河谷地区的一个大型家庭农场内，布莱恩·布拉斯韦尔使用载有卫星通信设备的拖拉机来犁地，可以十分精确地让垄沟之间相隔1英寸。他农场中的土地在种植之前都经过了电流测试，进而绘制出整个农场的地图，据此计算机控制的农业设备就能够用量精确地对作物施撒化肥。布莱恩的农场还利用先进技术中的尖端设备——无人机来帮助他监测漫灌的情况。
+</p>
+<p class="MsoNormal">
+	“如果能在这些无人机上装备红外摄像机，那么就很容易发现哪个位置的作物出现了问题，”他说道，不过他会格外小心地遵守联邦航空管理局的相关规定。
+</p>
+<p class="MsoNormal">
+	布伦特·施伯尔每三秒钟就会收到来自于他农场中联合收割机发回的数据，在爱荷华州的康拉德，布伦特拥有一个 6000 英亩的农场。在暴雨季节，每三十分钟他会在自己的智能手机上查看一次天气监控的应用。当过了收获季节，从前布伦特会像其他农场主一样开始冬歇并修理设备机器，但现在他要给设备安装更多的传感器，并且还要专心研究上一个季度收集到的数据，从而使他在下一季的种植中获得优势。
+</p>
+<p class="MsoNormal">
+	爱荷华州立大学教授唐烈（音译）希望，他的除草机器人的实验模型明年的春天能够在耕地里投入使用。这种机器人会通过分析红外数据来辨别杂草和作物，并将杂草拔除。
+</p>
+<p class="MsoNormal">
+	在过去，“一个拥有 1000 亩地的农民可以生活的很不错，”汤姆说道，“但这种状况可能不会持续多久了。”
+</p>
+<p class="MsoNormal">
+	汤姆农场种植转基因作物，使用云计算系统，如果他的农场不使用低轨道卫星的激光器的话，那么他可能很快就会引进无人机设备了。这些设备都将把收集到的数据传到云计算系统进行分析，这一系统是汤姆从孟山都和其他公司租用的。
+</p>
+<p class="MsoNormal">
+	“一些农场主依然认为科技就意味着要扩大规模，耗费更多能量，使用更多化肥，”汤姆说道，“他们没有意识到科技的应用可以使信息的利用多样化。”目前玉米的价格水平只有前几年的一半，“我之所以能够盈利是因为还有一些农场主仍将先进的农业技术拒之门外。”
+</p>
+<p class="MsoNormal">
+	汤姆农场的一位名叫厄尼·巴伯林克的雇员可以通过他的 iPad，从自动驾驶的 John Deere 联合收割机发来的即时数据中整理出有关土壤湿度，作物产量和每亩净蒲式耳的数据，并且通过无线调制解调器将这些重要信息传到远程计算机服务器进行分析，据此给下一季的耕种提供参考。
+</p>
+<p class="MsoNormal">
+	“在过去，如果你能转动一个扳手，那么种庄稼你也一定很在行，”巴伯林克说道，“现在你则需要掌握屏幕导航控制，并要能准确判断各项数据应该传给哪些部门，好让相关工作人员据此做好耕种计划和预测。你要和其他工作人员，如种子顾问，农学家和设备管理人员们协调一致。”
+</p>
+<p class="MsoNormal">
+	还值得一提的是：今年 34 岁的巴伯林克离开了他自己的家庭式农场。“我只是为奇普工作，在技术方面，他至少要领先我父亲五年。我家的农场规模太小，只有拥有更大面积的耕地才能负担的起这些先进设备，”巴伯林克说道。巴伯林克毕业于美国普度大学农业经济学专业。
+</p>
+<p class="MsoNormal">
+	算上 6 名家庭成员，汤姆农场共有 25 名员工，全年在不同时节农场的临时雇员最多能达到 600 人。“在收成好的年份，这种规模的农场年产出可以达到 5 千万美元，”汤姆说道。他不会透露具体的盈利数字，但他表明，比起其他许多行业，农场种植的利润空间要小的多。
+</p>
+<p class="MsoNormal">
+	他还记得，在 1980 年代农场遭遇危机时，他曾四处奔走借来了利息高达 21% 的贷款。他把他的幸存和成功归功于技术的使用，而这也正是他能够在玉米价格下跌近一半后仍能盈利的主要原因，目前玉米的价格是每蒲式耳 4 美元（每公斤约为 0.157 美元），只有两年前的一半左右。
+</p>
+<p class="MsoNormal">
+	汤姆说，去年对数据分析的更好利用让他的投资收益率从 14% 增长到了 21.2%。其他比如多种灌溉技术和自动农机设备，也使总的收益率增长了 4%。
+</p>
+<p class="MsoNormal">
+	像许多其他农场主一样，汤姆对其他大公司盗取耕种数据十分警惕，例如，他与孟山都公司分享一部分数据，但他对关于数据保留的其他一些条款都会格外留心。同时汤姆也担心，在他把农场交付给子孙后代时，先进技术的应用可能已经抹去了农场的原来面貌。
+</p>
+<p class="MsoNormal">
+	“我们和其他的农场主能够实时的将我们所有的收割数据综合到一起，”他说道，“你觉得那些大公司会希望我们这样做吗？他们当然愿意，但是农场主们并不这样想，因为他们是相对独立的，而你的邻居同时也是你的竞争对手。”
+</p>
+<p class="MsoNormal">
+	卡桑德拉·罗兰德是汤姆五个子女的其中之一，她负责管理人事部门和农场与其他农场还有公司的合作事宜，同时她还负责更新农场的 &nbsp;Twitter，Facebook，Instagram 和 Pinterest 等社交网站上的信息。她九岁正在上小学的女儿还参加了一个机器人开发俱乐部。
+</p>
+<p class="MsoNormal">
+	“那是另外一个重大的转变，”汤姆 84 岁的母亲，玛丽说道，“我们的女儿去参加农业会议，她们发言并且受到尊重，这已经不像是我记账的那个年代了，那个时候农业只与在田间耕种有关。”
+</p>
+<p class="MsoNormal">
+	汤姆的 87 岁的父亲仍然负责饲养牲畜。“好多人觉得种植并不是一个产业，”汤姆的夫人说道，“我刚刚结婚的时候，我告诉我的丈夫，‘你永远都不要邋里邋遢的去城里；因为城里的人以为农民就是那个样子的。’我们是生意人，如果你对自己放松了，那你可能就永远赶不上别人了。”
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	翻译 is译社
+孙一
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2153">
+				<span data-id="2153">农业</span>
+			</li>
+			<li class="tag item" data-id="1056">
+				<span data-id="1056">数据</span>
+			</li>
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4027" data-title="《这个人痴迷于自家农场里的各种数据，回报可观》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4027/medium/4027.gif?1436644386" data-url="http://www.qdaily.com/mobile/articles/4027.html?from=singlemessage&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24701.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24701/medium/24701.jpg?1459318171" alt="">
+                        <h1 class="title">《深夜食堂》华语版，请个会做饭的黄磊来就管用吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24691.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24691/medium/24691.jpg?1459306365" alt="">
+                        <h1 class="title">「酸汤鱼经济学」为什么你成不了“网红”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="4027">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="4027" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">12</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/4036.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

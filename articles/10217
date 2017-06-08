@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「现场」除了新系统，Google年度大会还有啥好玩的？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「现场」除了新系统，Google年度大会还有啥好玩的？。尽管大部分人只看到又大又全的主题演讲，但这其实是个挺好玩的开发者大会。。好奇心日报为您呈现「现场」除了新系统，Google年度大会还有啥好玩的？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 VR Cardboard Android Auto Google I/O Google " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="tZFa36IR5EkUDpRHPuHnGfaPQx4igLOwKW3s3VAkhJw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="9078">
+				<span data-id="9078">Cardboard</span>
+			</li>
+			<li class="tag item" data-id="3307">
+				<span data-id="3307">Android Auto</span>
+			</li>
+			<li class="tag item" data-id="1334">
+				<span data-id="1334">Google I/O</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「现场」除了新系统，Google年度大会还有啥好玩的？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-01 08:42:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/10217/medium/10217.JPG?1436650723" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10217" data-title="《「现场」除了新系统，Google年度大会还有啥好玩的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10217/medium/10217.JPG?1436650723" data-url="http://www.qdaily.com/mobile/articles/10217.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				尽管大部分人只看到又大又全的主题演讲，但这其实是个挺好玩的开发者大会。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“接下来这很好玩：我每天骑自行车，路上开着 Moto 360 的地图导航。因为屏幕会熄灭，我的手也没有空重启屏幕，你们知道我是怎么解决的吗？”一位卷发的 Etsy 女工程师说到。围在一起的开发者们把脖子伸长，期待着听一些开发技巧。于是这位工程师就把带着手表的右手抬起来，将屏幕凑到鼻头上左右摩擦，本来即将熄灭的 Moto 360 屏幕又亮了起来，大家哄堂大笑。
+</p>
+<p>
+	这就是一年一度的 Google I/O 开发者大会上休息区的某一个角落的随意聊天。也许你的印象对 Google I/O 大会是一群 Google 公司的高管们轮番站台的 3 小时演讲，但那仅仅是一活动的一部分而已。
+</p>
+<p>
+	除了能见证 Google 发布的最新产品发布之外，开发者们还有很多东西可以玩：荡秋千、和其他开发者社交、睡懒人沙发、玩跷跷板、现场设计新应用、上车体验 Android Auto、听 Google 员工办的开发讲座，甚至是抓住在现场走动的名人聊天，例如 Google X 的总负责人 Astro Teller，或者是《黑客》、<i>In the plex&nbsp;</i>的书作者 Steven Levy。
+</p>
+<p>
+	随《好奇心日报》一起在 Google I/O 上逛逛吧：
+</p>
+<h2>
+	一堵墙告诉你程序员有多不容易
+</h2>
+<p>
+	在莫斯康展览中心的二楼有一面屏幕墙，上面是 50 多块不同的手机和平板设备屏幕，从常见的 iPhone 5 到联想“有脚的” Yoga 平板都能看到。这是 Google I/O 大会的一个特色的“网站检测站”，只要输入你公司所在的网址，就可以同时看到几十款不同设备上这个网站的显示样子，哪些设备上有问题一目了然，最下方的屏幕还给你显示着网站打开的时间、UI 设计的分数等等。
+</p>
+<p>
+	<img src="/uploads/image/201505/f3c81c84d231.jpg" alt="" /> 
+</p>
+<p>
+	《好奇心日报》向工作人员询问当初做这面墙的目的，对方称主要可以让开发者们快速看到自己网站的问题并且获得建议。
+</p>
+<p>
+	“你现在知道开发者有多么不容易了吧？毕竟要适配这么多的设备，哈哈。”
+</p>
+<h2>
+	体验专门为身体不便的人们而设计的硬件
+</h2>
+<p>
+	本届 Google I/O 还有一个 Google.org 的专区，展示的并不是 Google 自己的产品，而是来自世界各地初创公司的新尝试——帮助身体不便的人们生活得更加容易。
+</p>
+<p>
+	例如这个我们曾经报道过的给帕金森患者使用的电动勺子，它能根据人手颤抖的情况给予反向的震动，因此勺子里面的食物就不会这么容易掉出来了。
+</p>
+<p>
+	<img src="/uploads/image/201505/ff53e37231a2.jpg" alt="" /> 
+</p>
+<p>
+	这个正在研发的原型机，专门给视觉障碍的人们使用震动衣服。具体的原理是，在接收到外界物体靠近的时候，把这些靠近的声音转化为衣服震动，这样就能感知到有物体或者人在靠近了。
+</p>
+<p>
+	<img src="/uploads/image/201505/44b07d2ed187.jpg" alt="" /> 
+</p>
+<p>
+	另外这只是通过肌肉收缩和舒张来控制的机器手，这只手除了可以握手之外，最新的版本还能绑鞋带了。
+</p>
+<p>
+	<img src="/uploads/image/201505/1404ccc55ea7.jpg" alt="" /> 
+</p>
+<h2>
+	现场玩第二代 Cardboard<span style="font-size:20px;background-color:transparent;">&nbsp;</span> 
+</h2>
+<p>
+	展台上挂着一个和<span style="white-space:normal;">人类一样高的纸皮 VR 玩具的就是 Cardboard 团队的展台，这也</span>是全场最热闹的一个，因为现场提供 Cardboard 视频的体验效果，还有包括由 16 个 GoPro 组成的 JUMP 拍出来的 360 度全景摄像。
+</p>
+<p>
+	<img src="/uploads/image/201505/8f0b7a01c0ce.jpg" alt="" /> 
+</p>
+<p>
+	新版的纸皮 Cardboard 相对于上一代改进了不少，除了可以容纳 6 吋屏幕的手机之外，现在你也不需要自己自己花十几分钟自己折叠了，因为只要打开盒子翻转几下，放入手机，把魔术贴贴上就行，这个过程只需要不到 10 秒。
+</p>
+<p>
+	<img src="/uploads/image/201505/0250e97ed2f8.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	这是 Google 现场派送的人手一个的 Cardboard VR“设备”
+</p>
+<p>
+	JUMP 其实是由一个支架、一个麦克风和 16 个 GoPro 相机组成，底座是 3D 打印十个小时做出来的，但加上支架之后并不轻，至少有 5-6 斤。
+</p>
+<p>
+	<img src="/uploads/image/201505/d3826cc4da12.jpg" alt="" /> 
+</p>
+<h2>
+	上 Google Maps 大巴转一圈
+</h2>
+<p>
+	这是 Google I/O 大会这次唯一的一个户外展台，一辆带有 Google Maps 的 Logo 的蓝色大巴，这其实是 Google 的一辆穿行美国做宣传的大巴 Code the Road。
+</p>
+<p>
+	<img src="/uploads/image/201505/3eb2ddc92ad6.jpg" alt="" /> 
+</p>
+<p>
+	在车内，你可以看到 Google Maps 街景车之前用来拍摄用的球形摄影机，还有专门针对开发者 Google Maps API 应用展示。
+</p>
+<p>
+	<img src="/uploads/image/201505/5a9fab6b1d0b.jpg" alt="" /> 
+</p>
+<h2>
+	坐上汽车，体验车载系统 Android Auto
+</h2>
+<p>
+	在莫斯康展览中心的三楼，Android Auto 专门帮几家合作的汽车厂商把车搬到大会上来了，分别是桑塔纳、奥迪、雪佛兰和大众。
+</p>
+<p>
+	<img src="/uploads/image/201505/0e0465073a01.jpg" alt="" /> 
+</p>
+<p>
+	车内驾驶座已经有 Google 的工程师坐在里面，专门为开发者们解答 Android Auto 的相关问题还有做 Demo 演示，使用十分简单，只需要把装有 Android Auto 应用的手机通过 USB 线接上车辆，车内的导航屏幕就会变成 Android Auto 的画面（其实更像是 Google Now 的界面）。
+</p>
+<p>
+	<img src="/uploads/image/201505/564997b4b494.jpg" alt="" /> 
+</p>
+<p>
+	当《好奇心日报》的记者坐上一台 2015 款的桑塔纳的时候，工程师还专门给我们展示了在 Android Auto 上接受微信的效果，有一条颜色突出的横条在屏幕上方跳出，然后车辆语音系统就会提示你，称收到一条新消息，这时候，只要按一下方向盘中的录音键，就能够和 Google Now 对话，让其读出微信消息了，不仅仅是微信，普通的短信、Whatsapp、Line 等常用的即时通讯软件都可以接入提醒消息的范畴。
+</p>
+<h2>
+	听都听不完的技术分享会
+</h2>
+<p>
+	对于大会的主要目标——Google 平台的开发者来说，主题演讲只是“演讲”的一小部分。这个为期两天的大会上有几十个时长半小时到 1 小时的主题分享可听，一般同时一个小时会同时展开 3、4 个演讲，对于选择困难症患者来说十分痛苦。
+</p>
+<p>
+	跟我们在视频看到的主题演讲并不一样，这些后续分享都只针对某一个特定的主题，非常垂直：例如 VR 游戏的设计当中应该注意什么；Android Auto 媒体应用怎样开发才能不干扰驾驶者。
+</p>
+<p>
+	<img src="/uploads/image/201505/f8cd2e242aab.jpg" alt="" /> 
+</p>
+<p>
+	上图就是其中一个主题演讲的场地，因为现场开发者太多，这些演讲如果不提前 10-15 分钟到现场就会十分拥挤。
+</p>
+<p>
+	<img src="/uploads/image/201505/3a8db32c3b5a.jpg" alt="" /> 
+</p>
+<p>
+	这就是 Google 神秘部门 Google X 的负责人 Astro Teller 的主题演讲，讲无人驾驶汽车、Project Loon 等气球计划在一开始是多么“不靠谱”。跟我们平常看到的 Google X 充满“黑科技”的感觉不同，Astro Teller 在演讲当中直言不讳：“其实我们很多时候也不知道怎么做，这是人之常情，只不过我们先最快地试一个方法，最快失败，然后再调整。”
+</p>
+<h2>
+	懒人沙发、秋千、游戏机、还有吃不完的零食
+</h2>
+<p>
+	但现场更多的人们并非都在认真听演讲，多数时候我们在现场看到的情景是这样的：
+</p>
+<p>
+	<img src="/uploads/image/201505/7ffee475337c.jpg" alt="" /> 
+</p>
+<p>
+	对，就躺在懒人沙发上睡觉、吃零食、玩手机。现场环境非常“宽松”，除了几个上述主题分享会的围起来的讲台之外，其他地方都铺上了软软的地毯，放了大量的懒人沙发和小桌子，还有秋千、跷跷板和游戏机任供游玩。
+</p>
+<p>
+	<img src="/uploads/image/201505/06e3afb0cafb.jpg" alt="" /> 
+</p>
+<p>
+	整个 Google I/O 大会的气氛是，推动世界进步当然重要，但是同时也得玩得好。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="9078">
+				<span data-id="9078">Cardboard</span>
+			</li>
+			<li class="tag item" data-id="3307">
+				<span data-id="3307">Android Auto</span>
+			</li>
+			<li class="tag item" data-id="1334">
+				<span data-id="1334">Google I/O</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10217" data-title="《「现场」除了新系统，Google年度大会还有啥好玩的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10217/medium/10217.JPG?1436650723" data-url="http://www.qdaily.com/mobile/articles/10217.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27038.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27038/medium/27038.jpg?1463605083" alt="">
+                        <h1 class="title">Android 之后，Google 找的未来是给一切加上人工智能 | Google IO 大会</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27033.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27033/medium/27033.jpg?1463579763" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27041.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27041/medium/27041.jpg?1463600878" alt="">
+                        <h1 class="title">Google 的虚拟现实“白日梦”来了，它有什么背景？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27047.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27047/medium/27047.jpg?1463620016" alt="">
+                        <h1 class="title">今日娱乐：科林·费斯回归《王牌特工 2》，DC换Logo</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10217">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10217" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">53</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10015.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

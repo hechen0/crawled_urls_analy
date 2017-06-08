@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>药企到底付给医生多少钱？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="药企到底付给医生多少钱？。美国政府公布了美国每一家制药和医疗器械制造商支付给医生的费用明细，非营利性民间新闻网站 ProPublica 根据收集来的相关数据，对此做了几个很棒的猜测。。好奇心日报为您呈现药企到底付给医生多少钱？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 医药 回扣 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="YCJxRpxBm58U1KbCdEtakO98Wjj64MwJcE5P+qwv10w=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3342">
+				<span data-id="3342">医药</span>
+			</li>
+			<li class="tag item" data-id="3343">
+				<span data-id="3343">回扣</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">药企到底付给医生多少钱？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/16232/small/16232.jgp?1419796799" alt="">
+					</span>
+				<span class="name">Charles Ornstein, Ryann Grochowski Jones and Eric Sagara</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-04 09:13:15 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2678/medium/2678.jpg?1436653397" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2678" data-title="《药企到底付给医生多少钱？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2678/medium/2678.jpg?1436653397" data-url="http://www.qdaily.com/mobile/articles/2678" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				美国政府公布了美国每一家制药和医疗器械制造商支付给医生的费用明细，非营利性民间新闻网站 ProPublica 根据收集来的相关数据，对此做了几个很棒的猜测。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em><em><strong><span style="background-color:#CCCCCC;"></span></strong></em> 
+</p>
+<p class="MsoNormal" align="left">
+	<em><strong><span style="background-color:#CCCCCC;"><br />
+</span></strong></em> 
+</p>
+<p class="MsoNormal" align="left">
+	9 月 30 号，美国政府公布了美国每一家制药和医疗器械制造商支付给医生的费用明细。
+</p>
+<p class="MsoNormal" align="left">
+	这一信息是根据 2010 年的《平价医疗法案（Affordable Care Act）》中的规定披露的。这一法案强制要求披露医生、牙医、按摩师、足疗师和验光师由于进行推销式谈话、咨询、用餐、教育和研究，而从企业那里得到的费用。
+</p>
+<p class="MsoNormal" align="left">
+	目前，还不知道这些数据将会说明什么问题——一部分是因为第一批数据是不完整的，只覆盖了截至 2013 年底几个月的支出情况——但非营利性民间新闻网站 ProPublica 有几个很棒的猜测。那是因为它在过去 4 年里开展了一个“给医生的美元（Dollars for Docs）”项目，该项目一直在深挖医生和药企之间的关系。
+</p>
+<p class="MsoNormal" align="left">
+	ProPublica 整合了一些大型药企网站公布的信息。联邦监管机构会就药企不恰当营销和给医生回扣，向法院提起对它们的诉讼，而作为解决案件的一个条件，药企要在其网站上公布他们支付给医生的费用。通过与医生回扣调查网站 PharmaShine 的合作，ProPublica 整理出了 2013 年的医生回扣数据，涉及到的 17 家药企的销售额占到 2013 年全美药品销售额的一半。患者还可以通过其网站上的搜索工具，查看自己的医生收受回扣的情况。
+</p>
+<p class="MsoNormal" align="left">
+	以下是 ProPublica 从数据中发现的几个事实：
+</p>
+<h1>
+	<strong>许许多多医疗从业人员和制药行业有关系</strong> 
+</h1>
+<p class="MsoNormal" align="left">
+	“给医生的美元”项目现在包括了从 2009 年以来的 340 万次费用支付，支付费用总额超过 40 亿美元，其中 25 亿美元是给研究用的。仅 2013 年一年就有 120 万次费用支付，总计支付资金近 14 亿美元。
+</p>
+<p class="MsoNormal" align="left">
+	计算出收受回扣的医师的精确人数是不可能的，因为药企还没有使用跨公司的统一唯一识别码。但很清楚的一点是，总的人数应该有数十万人。
+</p>
+<p class="MsoNormal" align="left">
+	去年一年内，除掉支付研究费用以外，制药企业辉瑞制药（Pfizer）和医疗保健专家之间的互动次数是最多的——大约有 14.26 万次。阿斯利康制药（AstraZeneca）以 11.12 万次名列其后，强生（Johnson &amp; Johnson）和森林实验室公司（Forest Labs）每家各有近 10 万次。在全美范围内，预计有 80 万到 90 万名医生涉及其中。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201410/6276d11e9fa5.jpg" alt="" />
+</p>
+<p class="MsoNormal" align="left">
+	“大多数脱离公立医院工作的医师都会以某种形式被制药行业接触到，”PharmaShine 创始人之一、Obsidian HDS 的联合创始人乔治·邓斯顿（George Dunston）说。“把这些加起来，你会得到一个非常可观的数字。”
+</p>
+<p class="MsoNormal" align="left">
+	分别在 2004 年和 2009 年进行的两次调查显示，超过四分之三的医生和药品或者医疗器械企业有过至少一种类型的财务往来。埃里克·坎贝尔（Eric Campbell）是哈佛大学医学院医学教授，也是马萨诸塞综合医院（Massachusetts General Hospital）芒根健康政策研究室（Mongan Institute for Health Policy）主任，他主要撰写了这次的调查报告。他说，2004 年，和药企有财务往来的医生比例是 94%，到了 2009 年，这一数字下降到了 84%。
+</p>
+<p class="MsoNormal" align="left">
+	坎贝尔一直在批评医生和药企之间的关系。他说他并没有进行后续调查，但他猜测从 2004 年开始，接受费用支付的医生的比例很有可能已经有所下降。
+</p>
+<p class="MsoNormal" align="left">
+	“老办法就是去尽量多地和许多医生取得联系，广撒网，和他们建立关系，”他说。“我觉得他们的目的性和具体性一直都要强得多。”
+</p>
+<h1>
+	<strong>有些医生与许多药企保持联系。</strong> 
+</h1>
+<p class="MsoNormal" align="left">
+	读过医学杂志文章附带的、印刷精美的披露手册的人都知道，医生往往会同时和几家在同一领域（比如心血管病或者精神分裂症治疗领域）竞争的药企达成共识。ProPublica 的数据也证实了这一点。
+</p>
+<p class="MsoNormal" align="left">
+	一些非常受欢迎的重要意见领袖由于其在业界有一定知名度，所以有些年份，他会同时为 6 家或者更多家企业工作。
+</p>
+<p class="MsoNormal" align="left">
+	马克·科恩（Marc Cohen）是纽瓦克贝思以色列医学中心（Newark Beth Israel Medical Center）心血管科主任，他去年就靠为 6 家企业说好话或者提供咨询，拿到了 27 万多美元。而他本人还是一个多产的研究者和作者。
+</p>
+<p class="MsoNormal" align="left">
+	在一次采访中，科恩说他只和有大规模临床实验做支撑的药企合作。“总地来看，产品的科技含量非常重要，”他说。“这些药企则会成为我选择合作的对象。”
+</p>
+<p class="MsoNormal" align="left">
+	ProPublica 的数据显示，古斯塔夫·阿尔瓦（Gustavo Alva）是加州的一位精神病科医生，2013 年，他靠为 4 家企业说好话和做咨询，挣到了 19.1 万美元。阿尔瓦并没有就本文打回过电话，但去年他和 ProPublica 的记者说：“实际上，我很喜欢告诉病人在某一领域有新的发展。”
+</p>
+<h1>
+	<strong>规模最大的企业也并不总是花钱最多的。一些较小的药企在这方面的花销也很大。</strong> 
+</h1>
+<p class="MsoNormal" align="left">
+	以森林实验室为例，它是一家中等规模的制药企业，7 月刚刚被总部位于都柏林的阿特维斯公司（Actavis）收购。根据健康信息公司 IMS
+Health &nbsp;统计，2013 年，森林实验室在美国本土的药品销售方面花了 38 亿美元，这让它勉强跻身前 20 位。
+</p>
+<p class="MsoNormal" align="left">
+	它的产品销售额比去年排名前两位的瑞士诺华公司（Novartis）和美国辉瑞制药（Pfizer）小得多，但它在推广说服事件策划方面的花销，截至 2014 年 9 月底已经轻轻松松超过了这两个竞争者。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201410/6aac66ef4979.jpg" alt="" />
+</p>
+<p class="MsoNormal" align="left">
+	2013 年，森林实验室花了 3230 万美元来鼓励医生有倾向性地与患者谈话，而诺华公司和辉瑞制药在这方面的花费分别是 1279万美元和 1260 万美元。
+</p>
+<p class="MsoNormal" align="left">
+	阿特维斯公司一位发言人拒绝就公司战略做任何评论，但森林实验室的发言人说，去年，该公司花了更多的钱在帮自己推销的医生身上，因为它没有用昂贵的、直达消费者的电视营销方式。它在去年推出的新药也比其竞争者更多。
+</p>
+<p class="MsoNormal" align="left">
+	那些推出了新药，或者以前的药有了新的用途被批准的公司，往往会花费更多。那些没有太多新产品，以及失去（或者即将失去）自家药品专利保护的公司，在这方面的花销倒会和其他公司持平。
+</p>
+<p class="MsoNormal" align="left">
+	“许多钱都是这些公司在新药或者有前途的产品的研发周期内花掉的，这并不是制药行业才特有的现象，”制药行业贸易组织美国药物研究与生产联合会（Pharmaceutical
+Research and Manufacturers of America）副总顾问约翰·默菲（John Murphy）说。
+</p>
+<p class="MsoNormal" align="left">
+	在药企和医生之间，一起吃饭的次数超过了所有其他形式的互动，但它涉及的金额却比其他形式小得多。
+</p>
+<p class="MsoNormal" align="left">
+	在美国安进公司（Amgen）2013 年 55000 次支付清单中，除去研究费用，食品占到了将近 50000 次，大约为总数量的 91%，但所有食品的费用只花了&nbsp; 310万美元，只占到总支出额的大约 20%。与此形成对比的是，安进公司在区区 600 位为它说好话的医生身上，就花了将近 2 倍于上述食品费用的钱（600 万美元）。
+</p>
+<p class="MsoNormal" align="left">
+	其他公司花销的模式也差不多，为药企做推销的医生的每次推销都能拿到 2000 到 3000 美元，甚至更多。
+</p>
+<p class="MsoNormal" align="left">
+	美国药物研究与生产联合会的律师默菲说，鉴于医生接待患者的日程很满，因此吃饭时间往往是接近他们的唯一机会。公司的销售代表带去的不仅是药品的信息，而且还有一顿饭。“许多医生的办公室都会在午饭时间关上门，”他说。“在患者看护时间，我们想让他们去见患者（好帮我们说话）。”
+</p>
+<p class="MsoNormal" align="left">
+	研究人员说，无论动机如何，即使是小礼物或者一顿饭也能影响一个医生对一种药的看法，并让他更多地开那种药。
+</p>
+<p class="MsoNormal" align="left">
+	那这种披露支付信息的做法有用吗？
+</p>
+<p class="MsoNormal" align="left">
+	嗯……这要看你对“有用”的定义是什么了。
+</p>
+<p class="MsoNormal" align="left">
+	在过去 4 年里，“给医生的美元”项目曾经进行了超过 800 万次咨询，一些患者告诉项目组说，制药企业给医生的费用会让他质疑医生开某种药的原因。其他患者则说，这会让他们对自己的医生更有信心，觉得他们真的是专家（所以才会有药企愿意给钱）。
+</p>
+<p class="MsoNormal">
+	在联邦数据公布之前的几年里，ProPublica 报道了许多企业削减了付给为自己做推销的人的钱。但纽约一位为制药企业做法律顾问的律师斯科特·利布曼（Scott Liebman）说，到底是支出披露导致了这一后果，还是商业因素在起作用，现在下定论还为时过早。
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3342">
+				<span data-id="3342">医药</span>
+			</li>
+			<li class="tag item" data-id="3343">
+				<span data-id="3343">回扣</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2678" data-title="《药企到底付给医生多少钱？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2678/medium/2678.jpg?1436653397" data-url="http://www.qdaily.com/mobile/articles/2678" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24987.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24987/medium/24987.jpg?1459843965" alt="">
+                        <h1 class="title">有人花了 5 万美元，做了一个和寡姐长得特别像的机器人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24988.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24988/medium/24988.jpg?1459846694" alt="">
+                        <h1 class="title">SpaceX将发射充气型居住舱，这会是太空酒店的雏形么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24972/medium/24972.jpg?1459842289" alt="">
+                        <h1 class="title">「这世界」突然，澳大利亚有好多金·卡戴珊的裸体涂鸦</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24975.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24975/medium/24975.jpg?1459834011" alt="">
+                        <h1 class="title">比利时这座日式度假小屋，简单但是非常精致</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2678">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2678" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">10</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2689.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

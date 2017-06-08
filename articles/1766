@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>商业剪报：携程获5亿美元投资，Surface亏17亿了_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="商业剪报：携程获5亿美元投资，Surface亏17亿了。我们每天早上为你摘取最重要的新闻──它们的共同特点是也许你不会花很长时间知道它的来龙去脉，但你会很关心它的发生和进展。一切可能改变我们生活的公司都在其列。。好奇心日报为您呈现商业剪报：携程获5亿美元投资，Surface亏17亿了的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="苹果 微软 罗森 三星 Top 15 中国移动 阿里巴巴 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="biKR6DnmHTtzPW0UnJM2+JKRb2nlXEvdv5cmFo7Rnas=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="2197">
+				<span data-id="2197">罗森</span>
+			</li>
+			<li class="tag item" data-id="536">
+				<span data-id="536">三星</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2198">
+				<span data-id="2198">中国移动</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">商业剪报：携程获5亿美元投资，Surface亏17亿了</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1065/small/1065.jpg?1414574279" alt="">
+					</span>
+				<span class="name">李会娜 黄俊杰</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-08-07 10:29:18 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1766/medium/1766.jpg?1436645599" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1766" data-title="《商业剪报：携程获5亿美元投资，Surface亏17亿了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1766/medium/1766.jpg?1436645599" data-url="http://www.qdaily.com/mobile/articles/1766" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们每天早上为你摘取最重要的新闻──它们的共同特点是也许你不会花很长时间知道它的来龙去脉，但你会很关心它的发生和进展。一切可能改变我们生活的公司都在其列。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span style="line-height:1.5;background-color:#FFE500;">美国最大的在线旅游公司 Priceline 5 亿美元投资携程</span> 
+</p>
+<p class="p1">
+	<a href="http://www.ft.com/intl/cms/s/0/badcd496-1db3-11e4-b927-00144feabdc0.html#axzz39euWyKxA" target="_blank">据《金融时报》报道，</a>美国最大的在线旅游公司 Priceline 周三宣布斥资 5 亿美元投资携程，增加在中国市场的占有率。
+</p>
+<p class="p1">
+	Priceline将通过可转换债券的形式对携程投资，并有权于明年在公开市场收购携程股票，使得持有携程的股份至多达到10%。
+</p>
+<p class="p1">
+	两家公司还扩大了在 2012 年首次达成的的商业协定，为彼此的客户预留更多客房。携程用户可以使用 Priceline 租车和订餐服务，而 Priceline 则能够使用携程的航空和票务服务。
+</p>
+<p class="p1">
+	携程股价在盘后交易中上涨 8.16 美元至 68.61 美元，涨幅为 13.50%
+</p>
+<p class="p1">
+	法国里昂证券预计，到 2020 年底，每年将有 2 亿中国游客出国旅行，在旅游上的支出增加一倍。Priceline CEO 达伦·休斯顿(Darren Huston)称，尽管欧美市场 40% 至 50% 的旅行订票通过在线完成，但是中国只有 10% 至 15%，这为 Priceline 等服务商提供了重大机遇。
+</p>
+<span style="background-color:#FFE500;">微软已经在 Surface 产品上亏损了 17 亿美元，但还是要第五大道建旗舰店</span> 
+<p>
+	根据微软 7 月 22 日提交给 SEC 的 8-K 文件，截至 6 月 30 日的 2014 Q4 财季中，Surface 产品线给微软带来了 4.09 亿美元营收。但它的营收成本为 7.72 美元，算下来亏损了 3.63 亿美元。
+</p>
+<p>
+	这是 Surface 自 2012 年发布，该业务亏损最大的一个季度。 加上上一财年的亏损，Surface 业务已经亏损了 17 亿美元。
+</p>
+<p>
+	新一代平板 Surface Pro 3 将会在 8 月 28 日登陆包括中国在内的 25 个国家发售，此前的六七月份仅在美国、加拿大和日本销售，所以 Surface Pro 3 可能不会对 2014 财年的收入做出太多的贡献。
+</p>
+<p>
+	而根据<a href="http://9to5mac.com/2014/08/06/microsoft-wants-to-make-a-retail-splash-near-apples-iconic-5th-ave-cube/">《纽约每日新闻》报道</a>，微软将在纽约第五大道上建造旗舰店，将座落在第五大道 677 号，离苹果著名的玻璃自营店仅几步之遥。
+</p>
+<p>
+	今年早些时候，微软在零售店中开展了 Macbook Air 置换 Surface Pro 3 的优惠活动，更早些时候，微软还为带 iPad 走进零售店的用户提供免费 Office 365 服务。如果这家店真的开起来，微软和苹果在零售上的竞争，还有得看。
+</p>
+<div>
+	<p class="p1">
+		<a href="http://www.bloomberg.com/news/2014-08-06/china-said-to-exclude-apple-from-procurement-list.html" target="_blank"><span style="background-color:#FFE500;">政府采购剔除 iPad、Macbook 等 10 项苹果产品</span><br class="Apple-interchange-newline" />
+据彭博社报道，</a>7 月下发的中国政府采购名单剔除了 10 款苹果产品，包括 iPad、iPad Mini，MacBook Air 和 MacBook Pro；这些产品 6 月份还在中国国家发改委和财政部的采购名单上。
+	</p>
+	<p class="p1">
+		苹果上个季度在大中华区的销量增长 16% 至 374 亿美元，iPad 增长 51%，Mac 销量增长了 39%。
+	</p>
+	<p class="p1">
+		自“斯诺登”事件以来，中国政府出于安全考虑，对美国科技公司的态度变得相当谨慎。本周一也已经被爆出美国赛门铁克和俄罗斯卡巴斯基杀毒软件被排除在中国政府采购名单。
+	</p>
+	<p class="p1">
+		<a href="http://www.ftchinese.com/story/001057626" target="_blank">昨日传出的消息称，</a>微软(Microsoft)在四个城市的经营场所受到工商执法人员的突击检查，作为上周发起的反垄断调查的一部分。
+	</p>
+</div>
+<p>
+	<span style="background-color:#FFE500;">金建杭上任阿里巴巴总裁</span> 
+</p>
+<p>
+	<a href="http://tech.163.com/14/0806/15/A2VNGI2N000915BD.html">据网易科技消息</a>，阿里巴巴在集团内新设了总裁一职，由公司元老金建杭担任，直接向 CEO 陆兆禧汇报。阿里巴巴尚未透露这一职位的具体职责。
+</p>
+<p>
+	金建杭是阿里巴巴的 18 名创始人之一，在此之前负责过阿里巴巴的公关、政府事物和市场活动。这次调整被视为最近阿里巴巴内部高管变动的一部分。原首席人才官戴珊转任首席客户服务官，海外团队亦先后引进两名高管。
+</p>
+<p>
+	<span style="background-color:#FFE500;">三星和苹果同意在美国之外和解专利纠纷</span> 
+</p>
+<p>
+	苹果和三星<a href="http://www.bloomberg.com/news/2014-08-05/apple-samsung-agree-to-end-patent-suits-outside-u-s-.html">发布联合声明称</a>，双方已经同意在美国以外撤销所有针对对方发起的专利诉讼，包括澳大利亚、日本、韩国、德国、荷兰、英国、法国和意大利。
+</p>
+<p>
+	苹果指控三星抄袭 iPhone 的设计，而三星则反诉苹果使用了该公司的无线传输技术。 这一协议表明，苹果和三星之间这场旷日持久的专利大战可能即将结束。伴随着触屏智能手机的发展，苹果和三星的专利纠纷也日渐加剧。
+</p>
+<p>
+	“苹果和三星已经同意撤销两家公司在美国之外，针对彼此发起的所有诉讼。”这两家公司在声明中说，“这份协议并不涉及任何专利授权，而双方仍将继续推进在美国的官司。”
+</p>
+<p>
+	<span style="background-color:#FFE500;">中国移动洽谈收购马来西亚无线网络运营商 Axiata 股权</span> 
+</p>
+<p>
+	中移动正与马来西亚市值最大无线电讯运营商 Axiata&nbsp;<a href="http://www.bloomberg.com/news/2014-08-06/china-mobile-said-to-have-held-talks-about-axiata-stake-purchase.html">商谈收购其 20 %股权</a>，按昨日收市价计算相关股份约值 37 亿美元。目前双方还未达成任何协议。
+</p>
+<p>
+	Axiata 今年股价上涨了 0.7 %，市值约为 186 亿美元。Axiata 最大股东 Khazanah 持有其 38.8 %的股份，后者是马来西亚国家投资公司。
+</p>
+<p>
+	如果中移动最终以 37 亿美元收购 Axiata 公司 20% 股份，这将是该公司最大笔海外交易，也是东南亚地区 2007 年以来最大的一笔通信行业的交易。而中移动发言人 Rainie Lei 以公司即将发布财报、正处于缄默期为由，拒绝评论该公司是否与 Axiata 进行了入股谈判。
+</p>
+<p class="p1">
+	<span style="background-color:#FFE500;">优酷土豆、华为等公司联手打造未来游戏机</span> 
+</p>
+<p class="p1">
+	优酷土豆集团、华为、国广东方（CIBN）、Unity 四家公司联手发起了“TV Entertainment Alliance”(“智慧家庭娱乐联盟”，简称 TEA 联盟 ）。
+</p>
+<p>
+	TEA 联盟将为互联网电视游戏制定软、硬件标准，让更多厂家能够用低廉的成本做出自己的游戏主机，目前已有首批10家成员加盟，包括从牌照授权到游戏、视频内容提供，从硬件到芯片的产业链环节。
+</p>
+<p class="p1">
+	同时，联盟试图打造下一代娱乐主机，四季度将推出第一批产品。未来，TEA 联盟将形成游戏为主视频为辅的新业态，并进军海外。
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1" style="background-color:#FFE500;">华人文化基金 3 亿元投向影视娱乐业</span> 
+</p>
+<p class="p1">
+	8 月 6 日，乐华娱乐在北京宣布完成B轮融资，融资额近 3 亿元人民币，投资方为华人文化产业投资基金（CMC）。CMC 及其伙伴企业引力传媒成为乐华娱乐的战略股东。
+</p>
+<p class="p1">
+	乐华娱乐以音乐业务起家，旗下业务还包括大型活动、影视经纪等，并于 2012 年开始涉足影视业。签约艺人包括韩庚、安又琪、胡彦斌、阿杜、阿兰、黄征、周笔畅等。
+</p>
+<p class="p1">
+	完成融资之后，乐华娱乐将增加在影视业上的投入。乐华娱乐 CEO 杜华表示，未来一年将投资 10 部影视作品。在此之前，乐华娱乐跟投的《致我们终将逝去的青春》收获了 7 亿票房。
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p3">
+	<span class="s1" style="background-color:#FFE500;">Ralph Lauren 狂开旗舰店</span> 
+</p>
+<p class="p3">
+	在其它奢侈品品牌增长乏力时进行战略收缩时，&nbsp;RALPH LAUREN 却在扩张。
+</p>
+<p class="p4">
+	<a href="http://fashionista.com/2014/08/ralph-lauren-polo-for-women" target="_blank">据 FASHIONISTA报道</a>，Ralph Lauren 周三公布的第一季度财报 总销量增长 3% 至 17 亿美元，超过此前分析师预期，其中海外市场销量取得了双位数增长，但并未公布具体数字。
+</p>
+<p class="p3">
+	东汉普顿旗下已经拥有非常丰富的品牌，包括 Ralph Lauren Collection, Polo, Black Label, Purple Label, Blue Label 等，这个月底，Ralph Lauren 将会上线女装系列。
+</p>
+<p class="p3">
+	同时，8 月 28 日，将会在纽约第五大道开设 Polo 旗舰店，同时打算在东汉普顿和新泽西开两个。
+</p>
+<p class="p3">
+	今年秋季，Ralph Lauren 在香港的开设的 2000 平米的豪华旗舰店预计也会开张。
+</p>
+<p class="p5">
+	<span class="s1"></span> 
+</p>
+<p class="p6">
+	<span class="s1" style="background-color:#FFE500;">罗森进军娱乐业</span> 
+</p>
+<p class="p7">
+	今日，日本连锁便利店企业<a href="http://variety.com/2014/film/news/lawson-acquires-united-cinemas-in-japan-1201276738/" target="_blank">罗森</a>宣布收购日本联合影城公司（United Cinemas），拓展娱乐业务。
+</p>
+<p class="p6">
+	此次收购额金额可能会达到 1 亿美元。日本联合影城公司在日本 36 个城市拥有 331 块银幕，在日本影视行业排名第三。
+</p>
+<p class="p6">
+	罗森在日本市场的 6400 万会员也会因此受益，比如购买 UC 电影院影票时获得更低折扣。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="2197">
+				<span data-id="2197">罗森</span>
+			</li>
+			<li class="tag item" data-id="536">
+				<span data-id="536">三星</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2198">
+				<span data-id="2198">中国移动</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1766" data-title="《商业剪报：携程获5亿美元投资，Surface亏17亿了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1766/medium/1766.jpg?1436645599" data-url="http://www.qdaily.com/mobile/articles/1766" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24897.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24897/medium/24897.jpg?1459674606" alt="">
+                        <h1 class="title">我们充满热情购买维生素，是因为科学，还是因为恐惧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24913.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24913/medium/24913.jpg?1459753962" alt="">
+                        <h1 class="title">这个世界好污：政客们为了自己的钱都做了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24907.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24907/medium/24907.jpg?1459704384" alt="">
+                        <h1 class="title">为什么金像奖没有直播，大多数人不觉得缺了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1766">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1766" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">5</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1762.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

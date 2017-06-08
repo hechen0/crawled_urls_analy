@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter 9岁了，我们用推文告诉你它经历了什么_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Twitter 9岁了，我们用推文告诉你它经历了什么。曾经它得到什么，后来它就失去什么。。好奇心日报为您呈现Twitter 9岁了，我们用推文告诉你它经历了什么的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="推文 社交网站 Twitter Facebook Jack Dorsey Evan Williams Biz Stone Noah Glass 奥巴马 Ellen DeGeneres Wael Ghonim " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MDQDYNk9ey0NtiYv69tvXdRi/ArVJ9A13zesWyZ71tU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8171">
+				<span data-id="8171">推文</span>
+			</li>
+			<li class="tag item" data-id="1867">
+				<span data-id="1867">社交网站</span>
+			</li>
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="8172">
+				<span data-id="8172">Jack Dorsey</span>
+			</li>
+			<li class="tag item" data-id="7568">
+				<span data-id="7568">Evan Williams</span>
+			</li>
+			<li class="tag item" data-id="8173">
+				<span data-id="8173">Biz Stone</span>
+			</li>
+			<li class="tag item" data-id="8174">
+				<span data-id="8174">Noah Glass</span>
+			</li>
+			<li class="tag item" data-id="3462">
+				<span data-id="3462">奥巴马</span>
+			</li>
+			<li class="tag item" data-id="8175">
+				<span data-id="8175">Ellen DeGeneres</span>
+			</li>
+			<li class="tag item" data-id="8176">
+				<span data-id="8176">Wael Ghonim</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Twitter 9岁了，我们用推文告诉你它经历了什么</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-25 12:42:20 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7742/medium/7742.jpg?1436693104" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7742" data-title="《Twitter 9岁了，我们用推文告诉你它经历了什么》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7742/medium/7742.jpg?1436693104" data-url="http://www.qdaily.com/mobile/articles/7742.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				曾经它得到什么，后来它就失去什么。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	2006 年 3 月 21 日，Jack Dorsey 经过几个月的努力后，终于在当天晚上 9 点 50，测试性的发出了自己的第一条推文，这也被视为 Twitter 的生日，而成为互联网的标志性事件之一。
+</p>
+<p>
+	9 年后，Twitter 早已经是全球访问量最高的前十个网站，<a href="https://about.twitter.com/zh-hans/company" target="_blank">有将近 3 亿的月活跃用户，每天发送 5 亿条推文</a>。它常常被定义为社交网站，但它的价值却远远不仅止于此，从它被认证的国家数就可见一斑。
+</p>
+<p>
+	Twitter 代表了后现代主义的风潮，亦即去中心化的新闻传播方式。它促进了网络信息民主化，由下而上的信息传播方式，成为了民众表达自我需求，形成社会变革动力的手段。
+</p>
+<p>
+	此外，由于它的信息源来自于个人，所以比传统媒体更高效直接。它也成为了社会热点、公共事件的布谷鸟钟，覆盖娱乐、政治、灾难等各个方面。除了 Google 外，它无疑是互联网上公共性最强的服务。
+</p>
+<p>
+	在此，好奇心日报挑选出我们认为这 9 年来最具价值的推文，且以此为线索略述一番 Twitter 的发展史，缅怀一下这个薛定谔的网站。
+</p>
+<h4>
+	2006 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/165ca4bcab51.jpg" alt="" /> 
+</p>
+<p>
+	3 月 21 日，在最早的一条推文内，<a href="https://twitter.com/jack/status/20">Dorsey 说道</a>：“刚刚设置好我的 Twitter”。
+</p>
+<p>
+	彼时 Twitter 还是播客网站 Odeo 下面的一个实验项目，最初的创始人有 Jack Dorsey，Evan Williams，Biz Stone 和后来被踢出团队的 Noah Glass，他们中每个人都身兼数职，包括运营、写代码、提供创意等等。不过值得一提的是， Twitter 这个名字是 Noah Glass 贡献的。
+</p>
+<p>
+	<img src="/uploads/image/201503/d3e296cbde4f.jpg" alt="" /> 
+</p>
+<p>
+	11 月 2 日，<a href="https://twitter.com/rsa/status/55281">这条推文</a>的重要性在于它首次使用 @ 符号来标记需要提醒的对象，这后来成为 Twitter 最重要的设计之一，被其它网站广泛使用。而<a href="https://www.linkedin.com/in/robertsandersen">这时 Robert Andersen 还是自由设计师，后来他加入了苹果，现在他在 Square 跟着 Dorsey 干活</a>。
+</p>
+<h4>
+	2007 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/e09dd6aeb1fe.jpg" alt="" /> 
+</p>
+<p>
+	4 月 12 日，这一天是 <a href="http://laughingsquid.com/twitter-wins-sxsw-web-award/">Twitter 获得 2006 年 SXSW 网站奖的日子</a>，他们的获奖感言是，“<a href="https://twitter.com/foxbok/status/25473791">我们想要用不到 140 字来表示感谢—而我们做到了！</a>”
+</p>
+<p>
+	这一届 SXSW 期间，Twitter 首次充当了实时新闻播报平台。它的<a href="http://gawker.com/243634/twitter-blows-up-at-sxsw-conference">每日推文数量从 2000 上升到 6000</a>，疯涨的用户数也给服务器带来前所未有的压力，<a href="https://twitter.com/tinyau/status/19058421">有人戏称这几天的 Twitter 从 Beta 版本倒退回到 pre-Alpha 版本了</a>。
+</p>
+<p>
+	<img src="/uploads/image/201503/d2138f15b82a.jpg" alt="" /> 
+</p>
+<p>
+	8 月 23 日，<a href="https://twitter.com/chrismessina/status/223115412">用户 Chris Messina 在推文中首次倡议用 # 符号来标记“话题”</a>，它赋予处于混沌状态的推文信息一种有效的组织方式。这以后，Twitter 管理员可以通过计算 # 标记相同话题的数量，来为当前的热门事件进行排序。
+</p>
+<p>
+	@、# 这两个符号的使用并列为 Twitter 中最重要创新，有趣的是，这些创意都是由用户提出，而非官方设计的。这也在某种程度上反映出 Twitter 作为一种自组织系统，从混沌到有序不断的涌现过程。
+</p>
+<h4>
+	2008 年
+</h4>
+<p>
+	这一年 Twitter 上既没有发生创造性的改变，也没有破纪录的推文，但这却是 Twitter 用户数增长最迅速的一年。独立访问用户数从年初的约 50 万窜升到年底的 443 万，<a href="http://mashable.com/2009/01/09/twitter-growth-2008/">完成了 752％ 的跨越式增长</a>。
+</p>
+<h4>
+	2009 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/28199cc29ad5.jpg" alt="" /> 
+</p>
+<p>
+	1 月 15 日的这条推文做了关于全美航空 1549 号班机事故的报道，当时这架飞机在在纽约哈德逊河紧急迫降，全机乘客奇迹生还。
+</p>
+<p>
+	它的独特意义在于这条<a href="https://twitter.com/jkrums/status/1121915133">推文的作者 Jānis Krūms 在推文内附上了关于这条重要新闻的第一张现场照片，并且他通过 Twitter 就整个事件进行了全程报道</a>。Twitter 用比传统媒体快得多的信息传播速度，证明了它在突发事件中不可取代的作用。
+</p>
+<h4>
+	2010 年
+</h4>
+<p>
+	这一年对于 Twitter 本身来说是重要的一年。2009 年 Evan Williams 就任 CEO 后，第一件事就是探索 Twitter 的商业化道路，而这些努力在 2010 年初见成效。
+</p>
+<p>
+	<a href="https://about.twitter.com/milestones">Twitter 于该年 4 月、6 月和 10 月分别推出了推广推文、推广趋势，以及推广账号这三种不同的广告方式</a>。它允许商家购买用户 Twitter 界面中的推文栏、趋势栏和新用户的推荐栏进行广告宣传，这也在 2010 年为 Twitter 带来了 4500 万美元的首笔广告收入。
+</p>
+<h4>
+	2011 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/81a3553ae440.jpg" alt="" /> 
+</p>
+<p>
+	1 月 25 日，在埃及爆发政治抗议的当天，<a href="https://twitter.com/ghonim/status/30422467805716480">该国民主运动的重要推动者 Wael Ghonim 在推特上表示</a>，他一年前就预言到了互联网的力量终将改变政治面貌。
+</p>
+<p>
+	2010 年末至 2011 年初，北非和西亚地区的国家相继兴起了以“民主”和“经济“为主题的社会运动，这些国家的民众要求政治改革，因为主要发生在阿拉伯国家，所以有称作阿拉伯之春。
+</p>
+<p>
+	在这场横跨多个国家和地区的政治运动中，Twitter 成为了异议民众相互沟通的重要渠道。<a href="http://ictlogy.net/bibliography/reports/projects.php?idp=2170">还有学者专门对 Twitter 等社交网站所起的作用进行了研究</a>，肯定了它们在形成共识，组织游行和传播民主观念上的关键地位。
+</p>
+<p>
+	不过，此事件也开启了国家大规模封锁社交网络的先例，至今在该地区许多国家，Twitter 和 Facebook 依然是禁止访问的。
+</p>
+<p>
+	<img src="/uploads/image/201503/ce701b304bc2.jpg" alt="" /> 
+</p>
+<p>
+	3 月 11 日下午 2 点 46 分，<a href="https://twitter.com/conaxsilver/status/46084466241843200">这条推文的地震两个字，分秒不差的传出了 2011 年日本大地震的消息</a>。
+</p>
+<p>
+	在这一次地震中，部分地区的基础设施损毁，通讯不畅，依靠网络的 Twitter 担起了为机构发布信息、普通民众共享数据提供平台的关键作用。高峰时，<a href="http://www.examiner.com/article/twitter-records-smashed-during-women-s-world-cup-final">每秒钟发布推文可达 5530 条</a>，这些生死攸关的情报为抗震救灾作出重要的贡献。
+</p>
+<p>
+	这一年的 Twitter 做了两件大事，前一件和政治相关，后一件和生活相关。但都体现了新媒体在大型事件中所发挥的，传统信息渠道无法取代的作用。
+</p>
+<h4>
+	2012 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/ed19596e9a6c.jpg" alt="" /> 
+</p>
+<p>
+	11 月 6 日，<a href="https://twitter.com/BarackObama/status/266031293945503744">奥巴马在第二次总统竞选获胜后，用推文写下了”另一个四年“，并附上与妻子拥抱的照片来为自己庆祝</a>。这条推文在当时打破了转推数最高的记录，目前为止已有 75 多万条转推。
+</p>
+<p>
+	在奥巴马这一代美国政治人物的身上，可以很清晰的看到技术进步带来的改变。他们善于使用社交网络来为自己造势，在各个社交网络上都有专人负责运营帐号，不同社交网络也会因为受众不同而采用不同的宣传方式。
+</p>
+<p>
+	虽然都是在政治上使用 Twitter，但这与阿拉伯之春的使用方式是完全不同的。奥巴马把 Twitter 当成一个可以拉近关系的传声筒，但在阿拉伯民众手里，它却是对讲机、大喇叭、寻呼机的统一体。
+</p>
+<h4>
+	2013 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/4f6054562269.jpg" alt="" /> 
+</p>
+<p>
+	9 月 12 日，<a href="https://twitter.com/twitter/status/378261932148416512">这条官方推文公布了 Twitter 正式 IPO 的消息</a>。
+</p>
+<p>
+	从 2006 年上线以来，前几年 Twitter CEO 走马灯一样换个不停，后几年虽然不换 CEO 了，但四位创始人全都离开公司，另行创业去了。Twitter 本身定位也从聊天室向媒体转变，并逐渐学会怎么赚钱。
+</p>
+<p>
+	与 Facebook 在 Mark Zuckerberg 个人带领下一路走来不同，Twitter 就像它的名字那样，一路伴随着叽叽喳喳的争吵，最终走到 IPO 可是非常不容易。
+</p>
+<h4>
+	2014 年
+</h4>
+<p>
+	<img src="/uploads/image/201503/12c7615e88af.jpg" alt="" /> 
+</p>
+<p>
+	3 月 2 日，<a href="https://twitter.com/TheEllenShow/status/440322224407314432">美国脱口秀主持人 Ellen DeGeneres 在推特上贴出了 2014 自拍之年最著名的自拍照</a>。这张好莱坞大牌挤做一堆的照片创下了转推和收藏双项记录，目前已有 330 多万的转推和 200 多万的收藏数。
+</p>
+<p>
+	后来证实这是三星在奥斯卡植入的广告之一，据说它为此花费了 2000 万美元，当然这条推文的爆红对于三星来说应该是意外之喜，Twitter 也借此证明了它用户的活跃度。
+</p>
+<h4>
+	2015 年
+</h4>
+<p>
+	3 月 21 日，Twitter 进入了它的第九个年头。
+</p>
+<p>
+	如今的 twitter 面临着用户增长缓慢，发展遇到瓶颈的一系列问题，而<a href="http://www.qdaily.com/display/articles/3568" target="_blank">在 2014 年底的分析师日上，Twitter 公布了它进行社交媒体化的尝试</a>。这种类似于新浪微博的运营方式重视其媒体属性而非社交属性。
+</p>
+<p>
+	Twitter 不是第一个这么做的社交网站，Facebook 老早推出的 News Feed 就试图把用户的主页变成独一无二的报纸。或许，这种对初衷的背离就是社交网站必然的发展趋势。
+</p>
+<p>
+	最后让我们看看 Biz Stone 在 2006 年为 Twitter 录制的介绍视频，听听那时后他是怎么介绍 Twitter 的吧。
+</p>
+<p>
+	<iframe height="498" width="640" src="http://player.youku.com/embed/XOTE5Mzc2MzQ4" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://nymag.com/daily/intelligencer/2013/11/twitters-founder-feuds-explained.html" target="_blank">nymag</a>、<a href="www.cruiselawnews.com" target="_blank">cruiselawnews</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8171">
+				<span data-id="8171">推文</span>
+			</li>
+			<li class="tag item" data-id="1867">
+				<span data-id="1867">社交网站</span>
+			</li>
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="8172">
+				<span data-id="8172">Jack Dorsey</span>
+			</li>
+			<li class="tag item" data-id="7568">
+				<span data-id="7568">Evan Williams</span>
+			</li>
+			<li class="tag item" data-id="8173">
+				<span data-id="8173">Biz Stone</span>
+			</li>
+			<li class="tag item" data-id="8174">
+				<span data-id="8174">Noah Glass</span>
+			</li>
+			<li class="tag item" data-id="3462">
+				<span data-id="3462">奥巴马</span>
+			</li>
+			<li class="tag item" data-id="8175">
+				<span data-id="8175">Ellen DeGeneres</span>
+			</li>
+			<li class="tag item" data-id="8176">
+				<span data-id="8176">Wael Ghonim</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7742" data-title="《Twitter 9岁了，我们用推文告诉你它经历了什么》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7742/medium/7742.jpg?1436693104" data-url="http://www.qdaily.com/mobile/articles/7742.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24876/medium/24876.jpg?1459526792" alt="">
+                        <h1 class="title">碧昂斯的个人品牌终于来了，走的是运动风</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7742">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7742" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">50</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7759.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

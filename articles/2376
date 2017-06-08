@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>都说陈坤卖智能手环，它其实是个计步器_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="都说陈坤卖智能手环，它其实是个计步器。陈坤推出 K.Band 智能手环，或许标志着他个人职业生涯的转型。。好奇心日报为您呈现都说陈坤卖智能手环，它其实是个计步器的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="陈坤 可穿戴设备 东申童画 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="tVlHg/1/jQCilsOKdnEWr/MHQWM6hegQJElLltX5Tn4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="3">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/3.html" class="category black clearfix x25" data-id="3">
+			<img class="black" src="/system/categories/iconblacks/3/medium/3.png?1411569578" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2978">
+				<span data-id="2978">陈坤</span>
+			</li>
+			<li class="tag item" data-id="1146">
+				<span data-id="1146">可穿戴设备</span>
+			</li>
+			<li class="tag item" data-id="2979">
+				<span data-id="2979">东申童画</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">都说陈坤卖智能手环，它其实是个计步器</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/73/small/73.jpg?1415670876" alt="">
+					</span>
+				<span class="name">俞斯译</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-16 11:11:35 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2376/medium/2376.jpg?1436650606" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2376" data-title="《都说陈坤卖智能手环，它其实是个计步器》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2376/medium/2376.jpg?1436650606" data-url="http://www.qdaily.com/mobile/articles/2376.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				陈坤推出 K.Band 智能手环，或许标志着他个人职业生涯的转型。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	陈坤在京东卖计步器这事，你很有可能已经知道了。
+</p>
+<p class="p2">
+	当然了，陈坤的公司<span>东申童画（K.PICTURE）、这个计步器的设计方把这个叫做 K.Band 的产品称为智能手环，<span>售价 299 元。</span>只不过“刻意减少了它的功能”：没<span>有屏幕、实体按键，也没有 App 和它相连，甚至不能用来看时间，唯一的功能就是记录你的行走步数、距离和消耗的卡路里。<span>制造商是一家叫做乐心（LIFESENSE）的公司，以生产各种和健康相关的仪器为人所知，比如智能体重称和血压计。</span></span></span> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">与手环搭配的是一个微信的公共账号，通过蓝牙连接登录之后，你可以在公众号中查讯你的运动数据，同时还提供了一个“行者榜“——一个显示你在全网和微信好友中的运动排名的榜单，以此激励大家“多走两步”。通过接入微信，减少了获取用户的成本，同时引入“排名”利用社交关系把大家“粘”住。</span> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;"><span>299 的售价并不能算便宜，当然陈坤的个人品牌已经多少让这个产品脱离了市场定价体系。如果你在京东商城搜索“智能手环”，会出现 2082 个产品结果，其中最便宜的 29.9 元，最贵的 1999 元，它们的功能远不止计步器这么简单。</span><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201409/2dcd6156d82b.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">K.Band 是陈坤在 2010 年发起的公益项目“行走的力量”的衍生产品之一，另外还有一款名为 K.Cam 的随身拍摄像头。K.Band 在雷锋网旗下的 KNEWBI 第二批预售获得了 61833.2 元的预售款，第一批 100 支手环在 9 月 9 日就已经悉数售罄。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201409/294879e2cda5.jpg" alt="" /> 
+</p>
+<p class="p1">
+	陈坤几年前发起的“行走的力量”倡导人们通过行走的方式和时间静下心来思考和反思。当时这个项目更多被人理解为“作秀装文艺”或“名人慈善”而已。除了陈坤本人连续发售了几本畅销书和一些商业赞助，并没有其他更多商业上的新尝试。陈坤和他的团队东申童画似乎也意识到了这一问题，因而修正了方向。
+</p>
+<p>
+	在过去几年，她们一直在尝试通过各种不同的方法吸引不同的人群，包括推出拍摄“行走”系列纪录片和推出 MOOK 书。
+</p>
+<p class="p1">
+	“可穿戴设备在年轻人当中已经成为了一个趋势和潮流，” 东申童画宣传总监徐时芬对《好奇心日报》说，“我们希望通过研究和了解年轻人真正喜欢什么，去和他们建立一个联系，让他们明白‘行走’要传达的东西”。
+</p>
+<p class="p1">
+	手环特别的外型或许会为 K.Band 吸引到一部分年轻用户。手环的主体部分采用了不规则的多边型设计，灵感来源于自然界中的石头，之所以采用“石头”作为设计元素，官方的说法是，一方面是因为石头简单、质朴，同时还因为石头的自然状态稳定，无论外界如何变化，它都以自己独有的姿态存活着——这与“行走”想要传递的理念相吻合。
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201409/9895fc8d3acc.png" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">这款产品 9 月 15 日<a href="http://item.jd.com/1220936.html" target="_blank">在京东商城开始预售</a>，12 小时内预定人数接近4000，这个数字在 24 小时之后达到了&nbsp;1.5 万。</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2978">
+				<span data-id="2978">陈坤</span>
+			</li>
+			<li class="tag item" data-id="1146">
+				<span data-id="1146">可穿戴设备</span>
+			</li>
+			<li class="tag item" data-id="2979">
+				<span data-id="2979">东申童画</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2376" data-title="《都说陈坤卖智能手环，它其实是个计步器》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2376/medium/2376.jpg?1436650606" data-url="http://www.qdaily.com/mobile/articles/2376.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25203.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25203/medium/25203.jpg?1460157898" alt="">
+                        <h1 class="title">ASOS 退出中国，为什么时尚电商在中国总是行路艰难？ </h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25201.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25201/medium/25201.jpg?1460133594" alt="">
+                        <h1 class="title">上海时装周开幕了，未来一周这些事情值得关注</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25202.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25202/medium/25202.jpg?1460137483" alt="">
+                        <h1 class="title">京东与日本黑猫宅急便合作，直邮最快四天可到</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25166.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25166/medium/25166.jpg?1460099175" alt="">
+                        <h1 class="title">“我是歌手”决赛，阿里巴巴说它能用人工智能听出冠军</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25171.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25171/medium/25171.jpg?1460106010" alt="">
+                        <h1 class="title">这家新锐“荷兰设计”店，将混搭的手艺做到了极致</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2376">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2376" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">2</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2350.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

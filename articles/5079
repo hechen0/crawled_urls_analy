@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「酸汤鱼经济学」为什么读书时间的统计是无效的_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「酸汤鱼经济学」为什么读书时间的统计是无效的。从功利的角度看，读书效率才是读书追求的关键，和时间的关系并不线性相关
+。好奇心日报为您呈现「酸汤鱼经济学」为什么读书时间的统计是无效的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="酸汤鱼经济学 理财 投资 读书 时间管理 效率 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xDbSLrfjMexjDhxTYFO828yfrVeQJWvHDBBqt02SdMk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3737">
+				<span data-id="3737">酸汤鱼经济学</span>
+			</li>
+			<li class="tag item" data-id="3959">
+				<span data-id="3959">理财</span>
+			</li>
+			<li class="tag item" data-id="664">
+				<span data-id="664">投资</span>
+			</li>
+			<li class="tag item" data-id="3104">
+				<span data-id="3104">读书</span>
+			</li>
+			<li class="tag item" data-id="4302">
+				<span data-id="4302">时间管理</span>
+			</li>
+			<li class="tag item" data-id="146">
+				<span data-id="146">效率</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「酸汤鱼经济学」为什么读书时间的统计是无效的</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3891/small/3891.jpg?1418027288" alt="">
+					</span>
+				<span class="name">酸汤鱼</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-09 10:14:02 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5079/medium/5079.jpg?1436675689" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5079" data-title="《「酸汤鱼经济学」为什么读书时间的统计是无效的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5079/medium/5079.jpg?1436675689" data-url="http://www.qdaily.com/mobile/articles/5079.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				从功利的角度看，读书效率才是读书追求的关键，和时间的关系并不线性相关
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	看到前两天好奇心日报说到<a href="http://www.qdaily.com/display/articles/4915" target="_blank">都市白领人士大概有超过 60% 的人每个星期读书时间在两个小时以下</a>，那就是说如果只有每天读书的时间超过 18 分钟就可以比大多数白领人士要强。我看了这个消息开始的感觉是欣喜——我除了体重终于有一项比我所处群体的大多数人强了。
+</p>
+<p class="p1">
+	但是之后就是更加复杂的担心，比如，如果假设城市白领人士总体上是理性的，那他们为什么会这么少的读书呢？很可能这种集体选择是更有效的。而我虽然每天的读书时间远远超过 18 分钟，但是财富水准——包括货币财富和社会财富——却不一定能达到对绝大多数人的优势地位。所以，不读书是一种市场偏见还是集体理性真的很难断定。
+</p>
+<p class="MsoNormal" style="color:#222222;line-height:normal;letter-spacing:normal;font-family:arial, sans-serif;font-size:14px;margin-top:0px;margin-bottom:0px;white-space:normal;">
+	<span style="font-family:宋体;">而且，我觉得如果一个人是想通过看书消遣，<wbr>那么这种看书也不应该算在看书之列。这倒不是轻视娱乐类书籍，<wbr>而是娱乐类的书应该和电影或者美剧更像。或者反过来，<wbr>把看电视剧、电视节目和电影也统计在看书项下，<wbr>那么看上去城市白领人士的阅读时间就会很长。</span>&nbsp;
+</p>
+<p class="MsoNormal" style="color:#222222;line-height:normal;letter-spacing:normal;font-family:arial, sans-serif;font-size:14px;margin-top:0px;margin-bottom:0px;white-space:normal;">
+	<span style="font-family:宋体;">另外关于看书，我最近还有一个发现。那就是虽然都是看书，<wbr>但是人和人之间的差距真的难以想象的大。<wbr>我所指的是对于一本书的吸收率。这有点像大家都吃饭，<wbr>吃同样的饭有的人吸收的就好，有的人吸收率却极低。</span> 
+</p>
+<p class="MsoNormal" style="color:#222222;line-height:normal;letter-spacing:normal;font-family:arial, sans-serif;font-size:14px;margin-top:0px;margin-bottom:0px;white-space:normal;">
+	<span style="font-family:宋体;">我身边的大多数人，其实在名义上还是读书的。<wbr>但是其中大多数人对读过的书基本只模糊的记得书的大概主旨，<wbr>其实这一点对书的吸收率只看一下百度上的介绍就可以了。<wbr>我有时也会出现类似的情况：制定了读书速度计划，<wbr>然后为了完成计划，<wbr>很多页书虽然看了但没明白是怎么回事也翻过去了。这种“<wbr>读书时间计划强迫症”<wbr>我不知道是不是在很多读书较快的人身上也有。</span> 
+</p>
+<p class="MsoNormal" style="color:#222222;line-height:normal;letter-spacing:normal;font-family:arial, sans-serif;font-size:14px;margin-top:0px;margin-bottom:0px;white-space:normal;">
+	<span style="font-family:宋体;">所以关于读书时间的统计，<wbr>要加上以上这些参考量的矫正的统计结果才会真正有效。而且，<wbr>从功利的角度看，读书效率才是读书追求的关键，<wbr>和时间的关系并不线性相关。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p class="p1" style="padding:0px;margin-top:0px;margin-bottom:16px !important;white-space:normal;">
+	<em>关于作者</em> 
+</p>
+<em style="margin-top:14px !important;margin-bottom:12px !important;display:block;white-space:normal;">酸汤鱼，一个孜孜不倦的价值投资推广者。他最大的爱好是胡思乱想和寻找市场的漏洞。这个专栏很希望启发你的好奇心，如果你有不同观点，欢迎理性和有价值的批评。<span style="font-style:normal;"></span></em> 
+<p>
+	<br />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3737">
+				<span data-id="3737">酸汤鱼经济学</span>
+			</li>
+			<li class="tag item" data-id="3959">
+				<span data-id="3959">理财</span>
+			</li>
+			<li class="tag item" data-id="664">
+				<span data-id="664">投资</span>
+			</li>
+			<li class="tag item" data-id="3104">
+				<span data-id="3104">读书</span>
+			</li>
+			<li class="tag item" data-id="4302">
+				<span data-id="4302">时间管理</span>
+			</li>
+			<li class="tag item" data-id="146">
+				<span data-id="146">效率</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5079" data-title="《「酸汤鱼经济学」为什么读书时间的统计是无效的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5079/medium/5079.jpg?1436675689" data-url="http://www.qdaily.com/mobile/articles/5079.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25058.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25058/medium/25058.jpg?1459936166" alt="">
+                        <h1 class="title">这家要在2018年开业的，将会是星巴克全球最大门店</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25034.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25034/medium/25034.jpg?1459920141" alt="">
+                        <h1 class="title">青年旅舍也有精心之作，阿姆斯特丹这家从校舍改造而来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25041.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25041/medium/25041.jpg?1459942393" alt="">
+                        <h1 class="title">魅族发布了新手机魅蓝 Note 3，不同的机型越来越像了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25016/medium/25016.jpg?1459903086" alt="">
+                        <h1 class="title">YSL 新上任的设计总监，也是个待不久的设计师</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5079">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5079" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">21</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5080.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

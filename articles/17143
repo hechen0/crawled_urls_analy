@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>世界如此凶险，我却如此内敛丨好奇心研究所_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="世界如此凶险，我却如此内敛丨好奇心研究所。人夸我霸气内敛，高冷性感，I know！我不说话是因为世界太笨。。好奇心日报为您呈现世界如此凶险，我却如此内敛丨好奇心研究所的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心研究所 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="1MFiAW4/wK8UmOeTp1s3DN2Cn8oFLNY3cRPbcSpuUpU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">世界如此凶险，我却如此内敛丨好奇心研究所</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112316/small/112316.JPG?1442220004" alt="">
+					</span>
+				<span class="name">罗芊 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-05 17:37:31 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17143/medium/17143.png?1446715980" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17143" data-title="《世界如此凶险，我却如此内敛丨好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17143/medium/17143.png?1446715980" data-url="http://www.qdaily.com/mobile/articles/17143.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				人夸我霸气内敛，高冷性感，I know！我不说话是因为世界太笨。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	好奇心研究所的微博（<span>@</span>好奇心研究所）和微信公众号（<span>ID</span>：<span>QLab42</span>）全面上线啦，关注就可以与所长亲密接触。
+</p>
+<p>
+	有研究说，大约 <span>10% </span>的人生来就害羞。害羞比例最高的是日本和中国台湾地区，最低的是以色列。<span><a href="http://www.qdaily.com/mobs/549.html"><span>为了对广大所员进行更深入的了解<span>，</span></span><span>本报「好奇心研究所」做过一次<span>“</span></span><span>为什么说我是个羞涩内敛的人？<span>”的投票，我们收获了共</span></span> 8135 <span>次表态。</span></a>以下是羞涩内敛的表现，看看有没有你：</span> 
+</p>
+<p>
+	<strong>1. &nbsp;</strong><span style="text-align:start;"><strong>路上碰到许久不见的人，面对面不到一分钟就开始翻白眼，脸部僵笑，欲落荒而逃。完全不知道要说什么，知道再挺下去自己必然出丑，所以内心默默咆哮求对话赶紧结束。（@大文子）</strong></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/b22ba0fdefa3.gif" width="500" height="219" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>2. &nbsp;结束</strong><span style="text-align:start;"><strong>的那一刻，我的天空，星星都亮了。（@已然成疯）</strong></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/2c184e7f27ba.gif" width="431" height="255" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<strong>3. &nbsp;不自觉地在摸头发。</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/6b46b556a6cc.gif" width="500" height="292" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>4. &nbsp;</strong><span><strong>会经常性假装没接到电话，花了整整一下午对着镜子模拟好了对白再联络人家。</strong></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/404d71c8dcba.gif" width="500" height="191" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>5. &nbsp;</strong><strong>在出门吃饭与饿着之间常选择饿着。（</strong><span style="text-align:start;"><strong>Luna_Cres</strong></span><strong>）</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/07026594ad1e.gif" width="1080" height="695" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>6. &nbsp;</strong><span style="text-align:start;"><strong>买东西会换不同家买，老在一家会尴尬。（@豆杀）</strong></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/082ee6a77920.gif" width="500" height="250" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<strong>7. &nbsp;说话时不敢直视对方的眼睛，不小心对视了感觉脑子被火烧了一样要跳脚。</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/76a7c40a3265.gif" width="500" height="281" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>8. &nbsp;一直在发作尴尬症。</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/016547572c91.gif" width="460" height="260" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>9. &nbsp;出去吃饭总是不好意思吃菜导致吃不饱，出去玩一天回家就躺上两天。（</strong><span><strong>@&nbsp;</strong></span><strong>樊歌）</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/6e9c6b7e88b2.gif" width="498" height="295" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>10. &nbsp;跟动物说话。</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/d68b90a6d0cb.gif" width="500" height="276" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>11. &nbsp;跟植物说话。</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/e5581cec9125.gif" width="320" height="240" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>12. &nbsp;一个人待着，便觉得拥有全世界了。（@&nbsp;</strong><span><strong>Dada</strong></span><strong>）</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/45d96f6ecd11.gif" width="600" height="387" title="1" alt="1" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span><a href="http://www.qdaily.com/labs.html"><i><span>好奇心研究所</span></i></a></span><em>是好奇心日报的一个调查栏目，这是一个探讨各种生活方式问题的互动平台，它针对的可能是生活方式的变化和潮流，也可能是某个品牌的服务。你可以在这里投票、吐槽、表明态度。</em> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17143" data-title="《世界如此凶险，我却如此内敛丨好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17143/medium/17143.png?1446715980" data-url="http://www.qdaily.com/mobile/articles/17143.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/mobs/549.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/549/indexLargePc2/549.jpg?1442896019" alt="为什么说我是个羞涩内敛的人？">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/2/medium/2.png?1451033320" alt="我说">
+            </p>
+            <div class="count" data-publishDate="2015-10-08 11:31:50 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">8885</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">为什么说我是个羞涩内敛的人？</h1>
+                <p class="description">蛇精病只是想亲近这世界的伪装。</p>
+            </div>
+        </div>
+    </a>
+
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/papers/381.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/381/indexLargePc2/381.jpg?1436634206" alt="羞涩内敛的人适合做什么工作？">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/1/medium/1.png?1451033329" alt="投票">
+            </p>
+            <div class="count" data-publishDate="2015-06-01 06:00:00 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">4401</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">羞涩内敛的人适合做什么工作？</h1>
+                <p class="description">呐，首先要搞清楚是社交恐惧症还是真的内向，前者还能治！</p>
+            </div>
+        </div>
+    </a>
+
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/papers/618.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/618/indexLargePc2/618.jpg?1446557091" alt="新时代不做到这些能说关系铁吗？">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/1/medium/1.png?1451033329" alt="投票">
+            </p>
+            <div class="count" data-publishDate="2015-11-05 08:39:26 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">6550</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">新时代不做到这些能说关系铁吗？</h1>
+                <p class="description">一旦以“亲爱的”作为开场白，就说明你俩的关系跟“铁”毫无关系。</p>
+            </div>
+        </div>
+    </a>
+
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26271.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26271/medium/26271.jpg?1461988439" alt="">
+                        <h1 class="title">那些你在音乐节迷上的乐队，他们都在想什么？| 音乐节上的 4 个人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26264.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26264/medium/26264.jpg?1461927583" alt="">
+                        <h1 class="title">「本周新片」《北京遇上西雅图 2》，合格的文艺爱情片</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26193.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26193/medium/26193.jpeg?1461833173" alt="">
+                        <h1 class="title">这个展览公司把自己的办公室整个“放”进了画框里</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26263.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26263/medium/26263.jpg?1461925927" alt="">
+                        <h1 class="title">终于有一个汽车厂商要跟 Google 合作做无人车了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26268/medium/26268.jpg?1461949860" alt="">
+                        <h1 class="title">经过研究，科学家说一半英国男人的祖先是同一个人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17143">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17143" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">122</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17072.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

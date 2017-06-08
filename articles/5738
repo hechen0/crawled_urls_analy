@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google 公布 2014 业绩，广告价值缩水，Android 来救火_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google 公布 2014 业绩，广告价值缩水，Android 来救火。2014 年是 Google 过去十年来，新产品最少的一年。好奇心日报为您呈现Google 公布 2014 业绩，广告价值缩水，Android 来救火的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 Google 财报 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="9Qsv4NBsaH0o19nr1MGWdphVmiULe0+BIOP4PowUIZs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">Google 公布 2014 业绩，广告价值缩水，Android 来救火</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/172/small/172.png?1400638799" alt="">
+					</span>
+				<span class="name">夏雨青 王民超</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-30 14:18:38 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/5738/medium/5738.jpg?1422598657" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5738" data-title="《Google 公布 2014 业绩，广告价值缩水，Android 来救火》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5738/medium/5738.jpg?1436689788" data-url="http://www.qdaily.com/mobile/articles/5738.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				2014 年是 Google 过去十年来，新产品最少的一年
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	北京时间今天早上，Google 发布了 2014 年第四季度财报。在华尔街永恒的“打败还是赢过分析师预期”游戏中，Google 输了。除去分给第三方的部分，它的季度营收为 145 亿美元，每股收益落在 6.88 美元——这离分析师们平均预期的 147 亿和 7.11 美元差距不小。
+</p>
+<p>
+	比起去年，Google 的营收和利润仍然保持了近 15% 的增长。我们对 Google 太苛刻了吗？
+</p>
+<h2>
+	最主要收入来源前景不明
+</h2>
+<p>
+	影响这个季度收益的一部分原因是不利的外汇条件，然而广告业务才是令人担忧的主因。广告一直是 Google 最重要的收入来源，2014 年占总营收的 89%。
+</p>
+<p>
+	继第三季度广告业务增长放缓之后，这一趋势延续了下去。这第四季度中，在 Google 及其下属网站上投放广告的成本同比和环比都下跌了 8%。这意味着广告商们不愿意为它的广告花钱，Google 每个广告点击的价值缩水了 8%。
+</p>
+<p style="text-align:center;">
+	<img alt="" src="/uploads/image/201501/0c9441abeaca.jpg" /> 
+</p>
+<p style="text-align:center;">
+	<img alt="" src="/uploads/image/201501/e6c68f385356.jpg" /> 
+</p>
+<p>
+	另一个信号是第三方广告合作的下滑。Google 自己网站上的付费点击同比增长了 25%，而第三方网站上的付费点击下跌 11%。记得你在各种小网站上看到的“广告联盟”豆腐块广告吗？现在这种方法开始失效了。
+</p>
+<p>
+	然而最重要的也许是，竞争对手 <a href="http://www.qdaily.com/display/articles/5709.html">Facebook 的移动广告成绩</a>太亮眼了。2014 年，Facebook 从移动广告上获得 74.3 亿美元，与 2013 年对比增长了 136%。目前移动已经占 Facebook 总营收的 65%，而这个趋势仍在不断上升。Facebook 已经完成了从桌面到移动的转型。
+</p>
+<p>
+	Facebook 的广告高度依赖它的两个社交平台，Facebook 自身和 Instagram。社交网站上的广告被放在朋友的信息流中，位置更好、更容易被看到。Instagram 则吸引了很多品牌进驻，发布产品和公司的图片做品牌宣传。Burberry 的秀场照片和 GE 的工厂实景是两个大受欢迎的例子。
+</p>
+<p>
+	Google 最常做的边栏广告相较之下不够醒目，也显得很粗糙。它尝试过发展自己的社交网络——先有 Wave，后来被 Google+ 替代，两个失败的产品。Google 的首席商务官 Omid Kordestani 不愿意透露 Google 的营收有多少来自移动端。然而<a href="http://www.bloomberg.com/news/articles/2014-12-04/google-facebook-mobile-ad-share-ebbing-as-rivals-woo-marketers">从 EMarketer 做出的统计和预测</a>来看，广告行业更好看 Facebook。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/d5085f72dab9.jpg" /> 
+</p>
+<p style="text-align:center;">
+	移动广告市场份额，2013 年之后为预测值 | 数据来自 EMarketer，图片来自 <a href="http://www.bloomberg.com/news/articles/2014-12-04/google-facebook-mobile-ad-share-ebbing-as-rivals-woo-marketers" target="_blank">Bloomberg</a> 
+</p>
+<h3>
+	新产品数量最少的一年
+</h3>
+<p>
+	Omid Kordestani 在财报会议上表示，Google 一直在持续改变自己的业务，以反映向移动端转移的趋势——移动现在不仅是关于手机设备，更关于用户行为。
+</p>
+<p>
+	你不用仔细寻找，也能明白他说的业务改变是什么。2013 年以前，Google 每年都推出数个不同平台的新产品。如果不计与 Android 直接相关的，它没有对消费者推出任何令人印象深刻的新产品。Project Loon、无人汽车等“未来项目”也多是在现有的基础上进一步发展。2014 年是 Google 推出新项目最少的一年——从 Density Design 绘制的这张 Google 业务时间线上，这个趋势变得很明显。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/7bc01356915c.jpg" /> 
+</p>
+<p style="text-align:center;">
+	Google 业务变化时间线 | <a href="http://www.densitydesign.org/">Density Design</a> 制作，点击<a href="http://en.wikipedia.org/wiki/File:Google_timeline.svg" target="_blank">看大图</a> 
+</p>
+<p>
+	<a href="http://www.qdaily.com/display/articles/4628.html">回顾 Google 的 2014 年</a>，它所发布的产品全都和移动平台有关——Android 5.0 系统，Android One 系统，Nexus 系列移动设备，Inbox 应用，Android TV 和 Android Auto。它最受人关注的两个收购，智能温度监控 Nest 和智能摄像机 Dropcam 都与“智能家居”有关——同样是为 Android 生态系统。
+</p>
+<p>
+	Google 的策略看起来越来越集中，Android 毕竟是他们在移动端最大的优势。
+</p>
+<p>
+	一个问题是，Android 对广告业务的帮助是间接的。它暂时无法取代传统渠道成为 Google 的主要利润来源，也没能支撑 Google+ 成为下一个主流社交平台。作为一个平台，它对 Facebook 这样逐渐找到移动广告模式的公司帮助更大。
+</p>
+<p>
+	Kordestani 在财报会议上承认，“我们在电脑上花了很久才弄清楚对的（广告形式），移动也需要时间。我们正在与合作伙伴协作。”
+</p>
+<p>
+	为此 Google 发布了<a href="http://www.qdaily.com/display/articles/4551.html">名为 Store Visits 的广告效果统计工具</a>。他们希望能帮广告主衡量线上广告点击到底有多少转化为去实体店消费。这也许能解决一部分焦虑——尽管我们移动广告已经存在很久了，关于它的效果却一直说法不一。在缺乏有效的衡量手段、现有数据又显示广告参与度不够高的情况下，广告商并不那么乐意花钱。Facebook 的策略同样是不断告诉广告商，移动广告确实有效。Store Visits 也许会在未来成为 Google 最大的优势，利用它擅长的数据科学帮助卖广告。
+</p>
+<p>
+	Android Auto 和 Android TV 则把对 Google 未来的想像延伸到汽车和电视上。Google 的计划是，不管是手机、手表、汽车还是电视，在任何能用电子产品的地方你都能用上 Android 操作系统。全平台、统一生态圈是它未来的野心，为了获得更多用户数据、让广告传播更广，为了更好地卖广告。
+</p>
+<p>
+	也许我们对 Google 太苛刻了。谁能对着这张图而不觉得这是家让人惊叹的公司？
+</p>
+<p style="text-align:center;">
+	<img alt="" src="/uploads/image/201501/5c3252be069b.jpg" /> 
+</p>
+<p style="text-align:left;">
+	<span style="white-space:normal;">只是面对广告的天花板，这样的惊叹还能持续多久？</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="70">
+				<span data-id="70">财报</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5738" data-title="《Google 公布 2014 业绩，广告价值缩水，Android 来救火》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5738/medium/5738.jpg?1436689788" data-url="http://www.qdaily.com/mobile/articles/5738.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25276/medium/25276.jpg?1460357878" alt="">
+                        <h1 class="title">一款号称卖给 “95 后”的茶饮料，背后是大公司对年轻人怎样的揣测？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25274.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25274/medium/25274.jpg?1460354893" alt="">
+                        <h1 class="title">17 家媒体要联名告一家浏览器，因为它抢了自己的生意</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25281.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25281/medium/25281.jpg?1460359761" alt="">
+                        <h1 class="title">阿里体育的乒羽平台，暂时还只有比赛报名功能</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25260.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25260/medium/25260.jpg?1460357520" alt="">
+                        <h1 class="title">张达发布新一季的“没边”，还谈了谈“奢侈”｜上海时装周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25272/medium/25272.jpeg?1460353578" alt="">
+                        <h1 class="title">灯越来越重要，北欧家居公司HAY独立一个子品牌专做这个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25285.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25285/medium/25285.jpg?1460366636" alt="">
+                        <h1 class="title">这家做汽水机的公司，总喜欢在广告里诋毁人家做瓶装生意的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25268/medium/25268.jpg?1460346559" alt="">
+                        <h1 class="title">「这世界」那些不睡觉的传说，还是留给真正的天才吧！</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5738">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5738" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">59</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5742.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

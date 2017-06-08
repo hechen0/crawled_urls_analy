@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>开一家生活杂货店，谈成本可能要比谈情怀来得有用_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="开一家生活杂货店，谈成本可能要比谈情怀来得有用。生活杂货买手店越来越频繁出现，但似乎没有人谈及它们的生存问题。
+。好奇心日报为您呈现开一家生活杂货店，谈成本可能要比谈情怀来得有用的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计师买手店 工业设计 店铺设计 RESEE " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="lg9pzxJSRN4NeLBYLAhyHGsaN6ZBDYOX/IhWeDQVQHw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="27531">
+				<span data-id="27531">设计师买手店</span>
+			</li>
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="27640">
+				<span data-id="27640">RESEE</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">开一家生活杂货店，谈成本可能要比谈情怀来得有用</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/451727/small/451727.jpg?1454344526" alt="">
+					</span>
+				<span class="name">华凤仪 胡莹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-05-15 11:16:02 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/26743/medium/26743.jpg?1463027519" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26743" data-title="《开一家生活杂货店，谈成本可能要比谈情怀来得有用》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26743/medium/26743.jpg?1463027519" data-url="http://www.qdaily.com/mobile/articles/26743.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				生活杂货买手店越来越频繁出现，但似乎没有人谈及它们的生存问题。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">从上海无印良品淮海路旗舰店的三层走出来的时候，你多半会看到一个似乎卖各种生活杂货的店铺。门口摆着自行车，里面从铅笔、摆件、水杯到少数几个品牌的服装，都一一陈列在案。</p><p class="">再往里走，陈列的东西越来越多，也不做过多装饰，就放在不锈钢和木板组合成的架子上。你一路走走看看，就可以走到它们的咖啡区。再往里走，则是代理好几个独立自行车品牌的骑行区，那里销售包括 700 bike、Specialized 在内各类单车。</p><p class="">“我们卖的都不是生活必需品。但是你会因为购买、体验这些东西感受到生活的美好。”合伙人孙嘉对《好奇心日报》说。</p><p class="">这家叫做“RESEE（又见）”的店铺很难用“生活杂货店”概括，一般来说，日本和北欧的杂货店小而精致，或者就算是面积大一点，也不太会提供类似自行车骑行体验这样的服务。</p><p class="">“五一”小长假之前，自行车品牌 WKUP 在这里举办 2016 新品发布派对。WKUP 是个年轻的自行车品牌，团队前身曾经参与过“永久 C”，如今在淘宝上聚集了粉丝，但依然没有实体店铺。在被问到为何在这里发布产品的时候， WKUP 负责人的说法是：气质比较契合。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/1e32046ef672.jpg" alt="">
+</figure></div><p>设计师买手店在中国很多城市已算不上新鲜概念，在上海、北京这样的城市，生活杂货铺也不是很罕见的存在。它们也属于买手店的一种，商业模式都是从其他品牌那里订货，然后集合在一个店铺里销售。如何挑选货品和品牌，如何组织陈列是这些买手店的核心竞争力。但进一步说，要生存下去，光会挑选这些还远远不够，和所有的零售商一样，库存是这些店铺的最大成本，也是压力所在，如何让商品快速流转，达到合格的“每平方米销售额”，才是最关键的问题。</p><p class="">在生活杂货店铺异常发达的日本（比如东京、大阪、京都这样的城市），购买小众品牌并不是一件需要被教育的事情。这是一个有机运转的环境：不断有新人寻找市场机会开发自有品牌、不断有买手采购并且提出市场意见、不断有消费者购买。</p><p class="">但在上海和北京，即便越来越多的买手店开设于胡同小巷或者商业街区，这样的环境还远远称不上“有机”。反倒是淘宝，以此起彼伏的状态存在着各种各样的买手店。店主大多是有相当的品味或者海外生活的经历，也知道哪里去购买合理的商品，因为没有实体运营的压力，它们的生存几率要大上很多——同时，也更像一个人的第二职业，而并非一桩有野心的生意。</p><p class="">理论上，这些淘宝店都是 RESEE 的竞争对手。就像书店一样，对这些东西感兴趣的人很可能会去搜一搜淘宝，看看代购的价格是多少。RESEE 的赢面大约在于产品的多样性，以及唤起人们购物冲动的能力。毕竟对于大多数人来说，这里陈列的都是陌生的商品。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201605/af826af2b14c.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/5e19284523be.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/713d595590ec.jpg" alt="">
+</figure></div><p>目前，RESEE 的合作方有 500 多个，店铺销售有近 4000 种商品，其中一半是来自代理商，而另一半则是他们和品牌方亲自联系拿到的授权。大部分品牌皆是国外品牌，中国品牌大概只占 3-5% 左右，这其中国外的合作伙伴中又有大概 3 到 5 成是第一次来中国。比如瑞士 KACO PURE 的糖果笔、德国儿童书包品牌 Scout、CZEVITRUM 捷克手工玻璃制品、STUSSYLIVIN' SORE 帆布公文包、Vitra 工具盒以及 GIVENCHY 陶瓷保鲜碗等等，其中大部分是北欧和日本的品牌，也有中国当地的设计师作品，比如本土创造的水泥系列。</p><p>这些商品库存都不大，而且只会在店铺里停留一至两周的时间。RESEE 目前保持着一周上新一次的速度，孙嘉说，这样做的目的是希望那些回头客每次来逛 RESEE 时都能找到新鲜感。</p><p class="">“让那些趣味相同的朋友喜欢，就要不断有新的商品出来，不断有新的商品去吸引。”RESEE 的创始人王巍也表示，“现在有 10% 的客人一周会来两次，很多都是在周边生活，地理位置比较合适。”</p><p>他不太担心电商的分流：“实体店的体验过程难以取代，尤其对于设计类商品，电商对于标准化的大众必需品有一定效率，因为不需要做太多判断。而对于设计类商品，常常突破想象，场景会激发购买决策，电商很难完成。”<br></p><p class="">王巍之前是个室内设计师，在谈起 RESEE 的时候，他更愿意说的是如何控制成本之类一般买手店店主不会谈及的问题。“如今很多与设计相关的商业还停留在表达设计师的个人诉求上，但设计师的兴趣爱好并不一定能转化为商业价值。而 RESEE 则追求商业化的运营状态，就跟卖萝卜青菜一样。”<br></p><p class="">王巍表示，实体买手店最大的问题在于“过度装修”。为了营造想象中的氛围，店铺本身的成本会把运营风格抬高很多。这也成为许多设计师买手店忽略的地方，在他看来，装修是最应该精打细算的部分，既要表达氛围，又不能增加过多成本。</p><p>目前，RESEE 团队有 20 余人，不仅要面对与 500 多个合作方的沟通与交流，还有日常店铺运营与最核心的决策部门。</p><p class="">对于这些初入中国的新品牌，王巍也没有简单将其看作是商品的买卖关系，“更重要的是，我们会帮助品牌认识这个市场，也帮助市场认识品牌，这是小店不可能完成的。”<br></p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201605/212ae6eb643f.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/76a7bc200ea0.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/c9beb77243f2.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/495502e97e3c.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/2d211656e232.jpg" alt="">
+</figure></div><p>王巍说，RESEE 目前最大的风险在于“执行的时间”，开店的每一天都在承担这种风险，只能用更快地执行来突破这一点。</p><p>当然，他们也想出了一些聚集人气的办法。比如我们在文章开头提到的骑行区。不办活动的时候，这里就是个自行车俱乐部，陈列有各种国内外单车品牌的最新款式，比如前述提到的 WKUP 城市通勤单车、复古型单车 Rideal，城市货运自行车 James Cycle 等等。除了零售展示，这里还提供专业运动型自行车比如闪电供俱乐部骑行训练。</p><p class="">除了零售，举办活动也是 RESEE 的一部分。比如上周的 WKUP 新品发布派对，除了受邀前来的媒体，在那个悠哉的小长假前的周五夜晚，聚集在 RESEE 喝着啤酒吃着三明治一睹 WKUP 新车发布的，大多都是那个所谓单车圈内的爱好人士及周边好友，之前还有和徕卡相机合作的展览、讲座，以及与 KACO 品牌合作的发布会等等，也将摄影发烧友以及文具爱好者等各种不同的群体聚集在一起，使得 RESEE 与消费者之间有了更多互动。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/755e069a70cb.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201605/684b210b18b0.jpg" alt="">
+</figure></div><p>王巍说，在开业之前，他们就没有设定 RESEE 为单一门店。整个 RESEE 的管理体系都是为多门店准备的。它已经计划扩张，今年底或者明年初在上海还会开一家店，未来也有进入别的城市的计划。<br></p><p class="">图片来源：RESEE</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="27531">
+				<span data-id="27531">设计师买手店</span>
+			</li>
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="27640">
+				<span data-id="27640">RESEE</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26743" data-title="《开一家生活杂货店，谈成本可能要比谈情怀来得有用》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26743/medium/26743.jpg?1463027519" data-url="http://www.qdaily.com/mobile/articles/26743.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/26685.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/26685/medium/26685.jpg?1462938427" alt="最成熟的买手店之一进入成都，会给这个城市带来什么？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">最成熟的买手店之一进入成都，会给这个城市带来什么？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">158</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13233.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/13233/medium/13233.JPG?1439276393" alt="会不会因为她的策划，你知道那家叫栋梁的买手店？|100 个有想法的人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">会不会因为她的策划，你知道那家叫栋梁的买手店？|100 个有想法的人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">171</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27218.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27218/medium/27218.jpg?1463990611" alt="">
+                        <h1 class="title">剑桥大学要为领袖开商科博士课程，会是个噱头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27222.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27222/medium/27222.jpg?1463995142" alt="">
+                        <h1 class="title">时隔19年，“香港小虎队”草蜢又发了一张国语专辑</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="26743">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="26743" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">542</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/26809.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

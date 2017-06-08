@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>《黑客军团》开播，是《黑客帝国》以来最燃剧_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="《黑客军团》开播，是《黑客帝国》以来最燃剧。这位博主说他听到主人公讨论操作环境 GNOME 和 KDE，他就燃了。好奇心日报为您呈现《黑客军团》开播，是《黑客帝国》以来最燃剧的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Mr. Robot 美剧 LINUX 拉米·马雷克 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="3">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/3.html" class="category black clearfix x25" data-id="3">
+			<img class="black" src="/system/categories/iconblacks/3/medium/3.png?1411569578" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="12043">
+				<span data-id="12043">Mr. Robot</span>
+			</li>
+			<li class="tag item" data-id="107">
+				<span data-id="107">美剧</span>
+			</li>
+			<li class="tag item" data-id="12044">
+				<span data-id="12044">LINUX</span>
+			</li>
+			<li class="tag item" data-id="12045">
+				<span data-id="12045">拉米·马雷克</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">《黑客军团》开播，是《黑客帝国》以来最燃剧</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/117425/small/117425.?1433669313" alt="">
+					</span>
+				<span class="name">王珊珊</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-28 08:09:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11314/medium/11314.jpg?1436640807" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11314" data-title="《《黑客军团》开播，是《黑客帝国》以来最燃剧》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11314/medium/11314.jpg?1436640807" data-url="http://www.qdaily.com/mobile/articles/11314.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这位博主说他听到主人公讨论操作环境 GNOME 和 KDE，他就燃了
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:center;">
+	<span style="text-align:start;">又有一部美剧可以追了。北京时间&nbsp;</span><span style="text-align:start;">6&nbsp;</span><span style="text-align:start;">月&nbsp;</span><span style="text-align:start;">25&nbsp;</span><span style="text-align:start;">日，由环球有线电视制作公司</span><span style="text-align:start;">(Universal Cable Productions)</span><span style="text-align:start;">制作的《黑客军团》（</span><i>Mr. Robot</i><span style="text-align:start;">）在美国&nbsp;</span><span style="text-align:start;">USA&nbsp;</span><span style="text-align:start;">电视台开播，截至&nbsp;</span><span style="text-align:start;">26&nbsp;</span><span style="text-align:start;">日中午&nbsp;</span><span style="text-align:start;">12&nbsp;</span><span style="text-align:start;">点，</span><span style="text-align:start;">IMDB&nbsp;</span><span style="text-align:start;">上共有&nbsp;</span><span style="text-align:start;">14,793&nbsp;</span><span style="text-align:start;">位用户为第一集打出了&nbsp;</span><span style="text-align:start;">9.4&nbsp;</span><span style="text-align:start;">分。</span> 
+</p>
+<p style="text-align:start;">
+	<span>谢耳朵和福尔摩斯都证明了一个道理：</span><span>Smart is the new sexy. Geek is the new cool.</span><span>本剧的主人公埃利奥特是</span><span>一个有反社会障碍的年轻程序员，白天是一位网络安全工程师，晚上化身为一位小心谨慎的黑客。当一个地下黑客组织的神秘首领招募了他并指使他来摧毁雇佣他的公司时，他发现自己处于一个两难的境地：受个人信仰的迫使，他抗拒拿下他雇主的机会；同时，他又坚信这样一个跨国集团在不断操纵和毁坏这个世界。</span><span></span> 
+</p>
+<p style="text-align:start;">
+	<span>曾出演过《暮光之城》《博物馆奇妙夜&nbsp;</span><span>3</span><span>》的拉米</span><span>·</span><span>马雷克饰演</span><span>埃利奥特</span><span>。</span><span></span> 
+</p>
+<p style="text-align:start;">
+	<span>事实上，近年欧美影视作品有数不清的极客，先不说几乎每部刑侦剧中都起码有个技术员小哥</span><span>/</span><span>妹，</span><span>2011&nbsp;</span><span>年大卫·芬奇的悬疑电影《龙纹身女孩》中，少女莎兰德被视作有心理障碍，却是天才黑客，帮助调查全国案件。在由&nbsp;</span><span>CBS&nbsp;</span><span>制作，诺兰与&nbsp;</span><span>J</span><span>·</span><span>J</span><span>·艾布拉姆斯共同打造的《疑犯追踪》中，软件天才芬奇发明了一个程序，通过观测已有模式来识别有可能进行暴力犯罪的罪犯。而去年由光线投拍的《</span><span>蝎子网络》</span>，则讲了一群高手们应国土安全局之邀，成立反黑客小组。<span></span> 
+</p>
+<p style="text-align:start;">
+	<span>今年《黑客军团》的关键词是&nbsp;</span><span>LINUX&nbsp;</span><span>操作系统，科技博主马吕斯·内斯特说，他听到剧里人讨论桌面环境，“啊，你用的是&nbsp;</span><span>GNOME</span><span>，</span><span><span>我知道这好点，但我还是喜欢&nbsp;</span></span><span>KDE</span><span>，习惯问题”，他说这是《黑客帝国》以来影视让他最兴奋的一次。</span><span></span> 
+</p>
+<p style="text-align:start;">
+	<span>USA&nbsp;</span><span>已经续订了第二季。</span> 
+</p>
+<p style="text-align:start;">
+	<span><br />
+</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="12043">
+				<span data-id="12043">Mr. Robot</span>
+			</li>
+			<li class="tag item" data-id="107">
+				<span data-id="107">美剧</span>
+			</li>
+			<li class="tag item" data-id="12044">
+				<span data-id="12044">LINUX</span>
+			</li>
+			<li class="tag item" data-id="12045">
+				<span data-id="12045">拉米·马雷克</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11314" data-title="《《黑客军团》开播，是《黑客帝国》以来最燃剧》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11314/medium/11314.jpg?1436640807" data-url="http://www.qdaily.com/mobile/articles/11314.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27022.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27022/medium/27022.jpg?1463567304" alt="">
+                        <h1 class="title">特斯拉还要出新车，回归敞篷跑车</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27004.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27004/medium/27004.jpg?1463551252" alt="">
+                        <h1 class="title">明星是怎么练习获奖感言的？苹果说我帮你啊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11314">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11314" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">93</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11292.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

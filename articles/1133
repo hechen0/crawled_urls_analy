@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>投行大数据预测世界杯，你信它们还是更信神兽？_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="投行大数据预测世界杯，你信它们还是更信神兽？。上届世界杯因为有了章鱼保罗，让预测胜负这件事情几乎毫无悬念。这会儿，世界杯刚刚开战，投行们的PK战早已打响，拿出建模型、找数据、设变量这些看家本领，纷纷推出自己的赛程解读，免得最后被保罗二代抢去了风头。。好奇心日报为您呈现投行大数据预测世界杯，你信它们还是更信神兽？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="世界杯 冠军预测 投行 大数据 高盛 德意志银行 彭博新闻社 Lloyd&#x27;s " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="oxMRxaq/nQpjaTgWxmM5iLflKxCmUpcaWGeYcuutHXI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="710">
+				<span data-id="710">世界杯</span>
+			</li>
+			<li class="tag item" data-id="1134">
+				<span data-id="1134">冠军预测</span>
+			</li>
+			<li class="tag item" data-id="1135">
+				<span data-id="1135">投行</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="1136">
+				<span data-id="1136">高盛</span>
+			</li>
+			<li class="tag item" data-id="1137">
+				<span data-id="1137">德意志银行</span>
+			</li>
+			<li class="tag item" data-id="1138">
+				<span data-id="1138">彭博新闻社</span>
+			</li>
+			<li class="tag item" data-id="1139">
+				<span data-id="1139">Lloyd&#x27;s</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">投行大数据预测世界杯，你信它们还是更信神兽？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">魏云峰</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-16 09:15:26 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1133/medium/1133.jpg?1436638950" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1133" data-title="《投行大数据预测世界杯，你信它们还是更信神兽？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1133/medium/1133.jpg?1436638950" data-url="http://www.qdaily.com/mobile/articles/1133.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				上届世界杯因为有了章鱼保罗，让预测胜负这件事情几乎毫无悬念。这会儿，世界杯刚刚开战，投行们的PK战早已打响，拿出建模型、找数据、设变量这些看家本领，纷纷推出自己的赛程解读，免得最后被保罗二代抢去了风头。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	上届世界杯因为有了章鱼保罗，让预测胜负这件事情几乎毫无悬念。这会儿，世界杯刚刚开战，投行们的 <span>PK </span>战早已打响，拿出建模型、找数据、设变量这些看家本领，纷纷推出自己的赛程解读，免得最后被保罗二代抢去了风头。<span></span> 
+</p>
+<p class="MsoNormal">
+	高盛在一份长达 <span>67 </span>页的报告中认为，东道主巴西最有可能夺得冠军，几率为 <span>48.5%</span>，并且远远超过排名第二和第三的阿根廷和德国，获胜几率分别为 <span>14.1% </span>和 <span>11.4%</span>。这和很多博彩公司的预测基本一致。高盛给出的理由可以归结为四点。<span></span> 
+</p>
+<p class="MsoListParagraph" style="margin-left:36.0pt;text-indent:-36.0pt;">
+	<span>1、&nbsp;</span>巴西队在其编排的球队技术指数中排名最高。<span></span> 
+</p>
+<p class="MsoListParagraph" style="margin-left:36.0pt;text-indent:-36.0pt;">
+	<span>2、&nbsp;</span>巴西多次夺得世界杯冠军。<span></span> 
+</p>
+<p class="MsoListParagraph" style="margin-left:36.0pt;text-indent:-36.0pt;">
+	<span>3、&nbsp;</span>主场优势。<span></span> 
+</p>
+<p class="MsoListParagraph" style="margin-left:36.0pt;text-indent:-36.0pt;">
+	<span>4、&nbsp;</span>以往在拉丁美洲举办的世界杯上，欧洲球队从未拿过冠军。<span></span> 
+</p>
+<p class="MsoListParagraph" style="margin-left:36.0pt;text-indent:-36.0pt;">
+	<img src="/uploads/image/201406/4a78fa92886d.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	而德意志银行在最近发布的一份《 <span>2014 </span>世界杯黑客手册》中预测，英格兰才会是今年世界杯最后的王者。虽然在德意志银行的模型数据中同样显示巴西最有可能夺冠，但他们依然力挺英格兰获胜，原因则是他们相信世界杯基本上遵循“风水轮流转”的原则。他们是这么解释的：“夺取过世界杯的强队，未来必然还会夺取世界杯或至少打入一次决赛，可能夺冠的七支球队（德国、法国、阿根廷、荷兰、葡萄牙、乌拉圭和英格兰）当中，唯一的例外就是英格兰了，英格兰就在 <span>1966 </span>年夺过一次冠军，此后至今从未进入过决赛，这极大增强了英格兰在 <span>2014 </span>年夺冠的可能性。”另一个重要的原因是本届英格兰队中有 <span>6 </span>名球员来自利物浦，这对英格兰队是极大的利好，利物浦是英国最牛的俱乐部，赢得的顶级比赛比任何其他俱乐部都多，曾五次赢得欧冠冠军，也正是在利物浦球员最多的 <span>1966 </span>年，英格兰获得了历史上唯一一次世界杯冠军。不过，在报告中没有提到的是，主笔自己本人就是个利物浦铁杆球迷。<span></span> 
+</p>
+<p class="MsoNormal">
+	彭博新闻社通过大数据还一次性给出了所有比赛比分的预测。<span></span> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201406/d13b81b6403b.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	连保险公司也加入进来。全球最大的专业保险公司 <span>Lloyd’s </span>得出的结论是德国将会赢得这次世界杯的冠军，因为他们的国家队最值钱。<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>Lloyd’s </span>上周四同经济与商业研究中心（<span>Centre
+for Economics and Business Research</span>）共同发布了一项针对本届世界杯所有参赛球队保险价值的排名报告。所有参赛球队价值总额高达 <span>62 </span>亿英镑。其中排名前四的球队分别为德国、西班牙、英格兰和巴西，前三名球队的总价值超过了排名垫底的 <span>20 </span>支球队价值的总和，一个英格兰球员的平均保险价值甚至超过了整个哥斯达黎加球队的价值。 <span>G </span>组将会是出线形势最为微妙而艰难的一组，这个小组内的四支球队加起来的总价值超过 <span>12 </span>亿英镑，而最为轻松的则是 <span>C </span>组，球队总价值加起来不过就 <span>3.4 </span>亿英镑。把分组情况考虑进去，<span>Lloyd’s </span>预测今年的冠军将会在德国和西班牙两支球队中产生。<span></span> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201406/26cff80cde05.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201406/3d5254d4196b.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<span>Lloyd’s </span>是根据球员身价以及其所效力的俱乐部收益得出上述结论的，球员的保险价值意味着当他们遇到意外或者伤病时所能得到的保险收益，并结合他们的年龄、位置以及国籍。前锋无疑是平均最有价值的位置。<span>Lloyd’s </span>巴西办公室的负责人 <span>Marco Castro </span>认为以保险价值来衡量球队表现的好处在于不仅能够反映球员当前的价值，并且能预测他们未来的状态潜力。<span></span> 
+</p>
+<p class="MsoNormal">
+	不过当你看完了这些经过数据分析精确计算得出的球队从小组出线到最后决赛的路径，一下子让看球这件事都不太那么带感了呢。更何况，每年总有那么几匹黑马，谁说只有球员在欧洲五大联赛效力的球队才被看好呢？贝克汉姆还说中国队早晚会拿世界杯冠军的。<span></span> 
+</p>
+<p class="MsoNormal">
+	题图来自：Sky Sports
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="710">
+				<span data-id="710">世界杯</span>
+			</li>
+			<li class="tag item" data-id="1134">
+				<span data-id="1134">冠军预测</span>
+			</li>
+			<li class="tag item" data-id="1135">
+				<span data-id="1135">投行</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="1136">
+				<span data-id="1136">高盛</span>
+			</li>
+			<li class="tag item" data-id="1137">
+				<span data-id="1137">德意志银行</span>
+			</li>
+			<li class="tag item" data-id="1138">
+				<span data-id="1138">彭博新闻社</span>
+			</li>
+			<li class="tag item" data-id="1139">
+				<span data-id="1139">Lloyd&#x27;s</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1133" data-title="《投行大数据预测世界杯，你信它们还是更信神兽？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1133/medium/1133.jpg?1436638950" data-url="http://www.qdaily.com/mobile/articles/1133.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24917.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24917/medium/24917.jpg?1459787336" alt="">
+                        <h1 class="title">一年花六千元租衣服穿，这能成为一个生意吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24913.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24913/medium/24913.jpg?1459753962" alt="">
+                        <h1 class="title">这个世界好污：政客们为了自己的钱都做了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24946.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24946/medium/24946.jpg?1459808207" alt="">
+                        <h1 class="title">为了死去的儿子，一位父亲也想让苹果解锁 iPhone</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24938.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24938/medium/24938.jpg?1459786584" alt="">
+                        <h1 class="title">日本新型特快列车，车身可以和周围环境融为一体</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24926.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24926/medium/24926.jpg?1459779427" alt="">
+                        <h1 class="title">在文具店里办公，这主意听起来怎么样？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1133">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1133" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">2</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1115.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

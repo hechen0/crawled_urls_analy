@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一份起源于音乐博客的杂志可能会刷新你的印象_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一份起源于音乐博客的杂志可能会刷新你的印象。让音乐家通过语言、图片和其他方式慢慢地讲述自己的故事。。好奇心日报为您呈现一份起源于音乐博客的杂志可能会刷新你的印象的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="音乐 杂志 多媒体 Yours Truly Coolhunting " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="8M6Whzh9ap4D2hMnKgmN3flU9PNMs1lQv514eBW0Byw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="414">
+				<span data-id="414">音乐</span>
+			</li>
+			<li class="tag item" data-id="2443">
+				<span data-id="2443">杂志</span>
+			</li>
+			<li class="tag item" data-id="14392">
+				<span data-id="14392">多媒体</span>
+			</li>
+			<li class="tag item" data-id="14393">
+				<span data-id="14393">Yours Truly</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一份起源于音乐博客的杂志可能会刷新你的印象</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/121376/small/121376.jpg?1434268095" alt="">
+					</span>
+				<span class="name">Nara Shin</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-16 08:01:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13391/medium/13391.jpg?1439341754" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13391" data-title="《一份起源于音乐博客的杂志可能会刷新你的印象》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13391/medium/13391.jpg?1439341754" data-url="http://www.qdaily.com/mobile/articles/13391.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				让音乐家通过语言、图片和其他方式慢慢地讲述自己的故事。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<b><a href="http://www.coolhunting.com/culture/yours-truly-new-music-journalism" target="_blank"><em><strong>本</strong></em><em><strong>文</strong></em></a><em><strong>由 Coolhunting 授权《好奇心日报》发布，即使我们允许了也不许转载。</strong></em></b> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	最近，音乐杂志界感觉像是被一整套由新闻改写、专辑曲目发布和生活方式评述所组成的流程所取代，其中偶尔点缀着一些访谈。随处可见相同的背景资料、重复的描述以及名人效应。经过最新改造的评论平台&nbsp;<a href="http://yourstru.ly/">Yours Truly</a>（YT）勇敢地接受了为我们提供一些不同东西的挑战，而且我们敢说，这个最初只是一个音乐博客、后来发展成为创意工作室的机构追求的是点击率之外更有意义的东西。这个起源于旧金山市、总部位于洛杉矶的网站并没有固定的模板，它们每周只讲述一个音乐家的故事，而且介绍的内容和表达的方式都由这名音乐家说了算：可以是一系列的自画像、日常手记、电子邮件截屏、T 恤图案的设计、录在手机上的音乐测试带，等等。这些当然都附有原创的文字和照片。在推文（Tweets）和 SoundCloud 如尼亚加拉大瀑布般汹涌地从我们身边呼啸而过时，这个网站可以作为一个歌迷休息和恢复的地方。
+</p>
+<p>
+	在融合了长期以来的印刷计划和灵活的数字化的创作之后，Yours Truly 今年夏天刚刚重启时便推出了&nbsp;<a href="http://yourstru.ly/stories/kindness">with Kindness</a>。网站的访问者可以浏览采访、观看简短的视频、看看音乐家个人的宝丽来照片、听一段特别混合的录音，甚至读到音乐家和他固定的合作者 Dev Hynes 之间的短信往来。看完这些，你会对音乐家的创作过程有更深的了解，你会知道他们的想法如何、他们为什么要做现在在做的事，以及他们是如何做的。只有有意义的故事才能保持生命力，而 YT 则为这样的故事专门营造了一个空间。我们与 YT 的创立者之一 Will Abramson 以及主编 Frannie Kelley 聊了聊，以了解他们的想法——以及为什么要这么做。
+</p>
+<p>
+	<img src="/uploads/image/201508/febd86c4e850.jpg" width="1080" height="720" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<span>YT 的创立者之一 Will Abramson 和主编 Frannie Kelley</span> 
+</p>
+<p>
+	<b>创办 《</b><b>Yours Truly》&nbsp;</b><b>的缘由是什么？</b> 
+</p>
+<p>
+	Will Abramson：我的合作伙伴是我高中时的一个好朋友。我们六年前在开始在旧金山市创立这个网站。（我们从 14 岁起就是好朋友了，所以我们已经是 17 年的好朋友了。）当时它是一个有着原创内容的音乐博客，我们在上面发布新歌、音乐视频和其他东西——但一直以来，我们都以发布原创[视频]而为人所知。我们的网站还有许多演唱会的东西，以及纪实性的资料。我们与 Nowness 合作制作了一个名为《<a href="https://www.nowness.com/series/sunrise-sunset">日出，日落</a>》（<a href="https://www.nowness.com/series/sunrise-sunset">Sunrise, Sunset</a>）的系列；我们与&nbsp;<a href="http://www.dazeddigital.com/user/yourstruly">Dazed</a>、MTV、Pitchfork 网站合作过一些系列。我们发现除了乐队表演之外，我们挖掘出了更多人物内心和纪实性的东西。
+</p>
+<p>
+	<b>你们是什么时候觉得网站的内部运行到了一个转折点，需要重新考虑&nbsp;</b><b>Yours Truly&nbsp;</b><b>的发展方向的？</b> 
+</p>
+<p>
+	WA：可能是在七个月前。我们在编辑 Yours Truly 时需要做很多品牌推广和宣传工作。那样很好，因为可以使大家关注我们，但也使我们背离了我们的初衷——音乐评论。我们意识到，我们将不再把重点放在音乐评论上面，但我们非常渴望做这件事。于是我们有了改变 Yours Truly 的形式这个想法——这是应付大量涌现的素材的一个方法。我们的基本理念是制作一本慢杂志，而且我们三四个月前请了 Frannie 来担任我们的主编。
+</p>
+<p>
+	<b> </b> 
+</p>
+<p style="text-align:center;">
+	<b><img src="/uploads/image/201508/a798f12a575f.jpg" width="1080" height="720" title="2" alt="2" /> </b> 
+</p>
+<p>
+	<b>Frannie</b><b>，他们是如何向你宣传&nbsp;</b><b>YT&nbsp;</b><b>的新发展方向，并说服你加入他们的？</b> 
+</p>
+<p>
+	Frannie Kelley：老实说，这其中还蛮曲折的。我们一直以来坚持的一个理念就是要慢下来——而且有一点我们很清楚，那就是我们一直以来都被各种信息、其他人的观点以及假新闻所包围。我刚开始到美国全国公共电台（NPR）工作时，那里只有一个小组在做这个电台的音乐节目，这个节目现在早就不存在了。2007 年之后，NPR 电台改变了很多，部分原因是它取得了成功。我想回到早期的那种感觉，那时没有人会看到你。这就是我为什么愿意配合这两个人的原因：他们有点像是在走第三条道路（大笑）。他们并不是纯粹的隐士——他们知道外面都发生了什么——但他们同时也不是回音壁，这在某种程度上确实使我的工作难以取得成效。
+</p>
+<p>
+	我想，音乐杂志的观众真的非常非常聪明，也确实常常为周围满布着种种劣质而平庸的东西而感到沮丧。
+</p>
+<p>
+	我们不是为我们自己而写，也不是为我们的家人而写——你得为你从未谋面的人而写，你只能在脑子里想象他的样子，你得从自己的思维和圈子中跳出来……Will 和 Bab 解决这种绕圈子的方式真是太令人兴奋了。最后，我认为音乐杂志的观众真的非常非常聪明，也确实常常为周围满布着种种劣质而平庸的东西而感到沮丧。为什么我们不将焦点聚集在我们一次能够聆听到的音乐家身上呢？也就是说……一次只做一个音乐家。
+</p>
+<p>
+	<b> </b> 
+</p>
+<p style="text-align:center;">
+	<b><img src="/uploads/image/201508/fe5eb56b82c0.jpg" width="1080" height="720" title="3" alt="3" /> </b> 
+</p>
+<p>
+	<b>Will</b><b>，你对目前面临的选择是怎么看的？</b> 
+</p>
+<p>
+	WA：我们认为音乐博客的时代已经消失了——它已经过时了。对我们来说，我们现在的音乐博客就是我们的 SoundCloud。任何一首我们喜欢的歌，我们都会把它发布在 SoundCloud 上。音乐博客本质上就是一个 SoundCloud 的链接，再加上你想对这首歌做的一些评论。但事实是，每一条赞美专辑的评论和专辑评审的结果[都一样]。因此我们有点像是，我们不想再那样下去了。我们能为现在的音乐界做些什么别人没有做过的事情呢？在这种清一色的生态系统（写同样的人物，做同一类型的报道）中，我们能为音乐做些什么新鲜和有价值的事情呢？为什么我们不将焦点聚集在我们一次能够聆听到的音乐家身上呢？也就是说……一次只做一个音乐家。在深度挖掘他们内心的同时，我们也颠覆了传统的记者-音乐家的角色，因为我们会问艺术家：“你想展示哪些方面？”
+</p>
+<p>
+	以 Chaz [Bundick] 为例，我们谈到了他的设计工作，因为那是他感兴趣的话题。你和 Toro y Moi 有什么新的合作吗？他已经出了四张专辑了，人们把他的各个方面都已经写得七七八八了。那就让我们来写写他感兴趣的东西吧；我们正是以这个角度来展开我们的故事的。还有来自纳什维尔（Nashville）的&nbsp;<a href="http://yourstru.ly/stories/bully">called Bully</a>——一支传统的摇滚乐队——乐队的鼓手 Stewart [Copeland] 是一名导演。我们的谈话是这么开始的，“要不你来导演这个东西，然后我们再进行编辑并一起合作吧。”我们确实还为他们制作了一张可供出售的限量版海报。这个过程就像是，“让我们来做些你真正感兴趣并且真正想表达的东西吧，我们会帮你做。”
+</p>
+<p>
+	<b> </b> 
+</p>
+<p style="text-align:center;">
+	<b><img src="/uploads/image/201508/46b59e3e8b62.jpg" width="1080" height="720" title="4" alt="4" /> </b> 
+</p>
+<b>你们是如何选择音乐家的？</b> 
+<p>
+	WA：方法一直没变：如果我们喜欢，那就值得去做。而且，他们总是会有些有趣的事情可以分享。这些人要么媒体报道得还不够多，要么至今仍未被正确报道过。有些人的报道是错的：你会看到一篇关于他们的报道出来了，然后他们会在推特上说：“他们这是断章取义。”或者说：“这么说完全不对。”
+</p>
+<p>
+	<b>你希望&nbsp;</b><b>Yours Truly&nbsp;</b><b>一年后发展成什么样子？</b> 
+</p>
+<p>
+	WA：我希望这些项目更加有创意。我们现在每一次做的都是纪实性工作，跟着他们到处走等等。我真正希望的是，艺术家们能够将 Yours Truly 看成一个使他们的创意梦想变得活跃起来的地方——如果你愿意的话，可以把 Yours Truly 看成一个每周一次的艺术家平台。现在我们做的都是些纪实性的工作，因为这是我们力所能及的工作（同时也是一个证明平台价值的很好开端）。但最理想的做法是每周做一段音乐视频和一些有关艺术家的其他资料，下周做一个纪录片，再下周做一张海报。真正地把每一次合作看成是艺术家希望被谈论的话题和想做的事情的集合点。我们想让每个星期都显得不一样：反映艺术家的想法，以及他们是什么样的人。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/56465bd29618.jpg" width="1080" height="771" title="5" alt="5" /> 
+</p>
+<p>
+	本周的&nbsp;<a href="http://yourstru.ly/">Yours Truly</a>（从今天上午&nbsp;9&nbsp;点开始）将会深度介绍歌手&nbsp;Miguel，包括一段七年前&nbsp;YT&nbsp;首次遇到他时拍摄的摄像镜头。我们还推荐你阅读&nbsp;<a href="http://yourstru.ly/stories/yours-truly">Kelly&nbsp;的一篇文章</a>，内容是关于&nbsp;YT&nbsp;为什么存在。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 &nbsp; &nbsp;is译社 曾小楚
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="414">
+				<span data-id="414">音乐</span>
+			</li>
+			<li class="tag item" data-id="2443">
+				<span data-id="2443">杂志</span>
+			</li>
+			<li class="tag item" data-id="14392">
+				<span data-id="14392">多媒体</span>
+			</li>
+			<li class="tag item" data-id="14393">
+				<span data-id="14393">Yours Truly</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13391" data-title="《一份起源于音乐博客的杂志可能会刷新你的印象》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13391/medium/13391.jpg?1439341754" data-url="http://www.qdaily.com/mobile/articles/13391.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24897.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24897/medium/24897.jpg?1459674606" alt="">
+                        <h1 class="title">我们充满热情购买维生素，是因为科学，还是因为恐惧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24907.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24907/medium/24907.jpg?1459704384" alt="">
+                        <h1 class="title">为什么金像奖没有直播，大多数人不觉得缺了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24896.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24896/medium/24896.jpg?1459607361" alt="">
+                        <h1 class="title">可口可乐要在美国推歌词瓶了，能继续玩得转么？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13391">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13391" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">29</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13237.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

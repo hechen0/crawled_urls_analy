@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2016，年轻人都去了Uber，你呢？_广告_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="2016，年轻人都去了Uber，你呢？。。好奇心日报为您呈现2016，年轻人都去了Uber，你呢？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心日报 好奇心 Qdaily 商业新闻 设计 智能 时尚 城市 生活方式 娱乐 电影 音乐" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="OZMoUYiCz0vklTYGdbZ5jGRrxSDwUxfDAJAbBxZsksQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="10">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/10.html" class="category black clearfix x25" data-id="10">
+			<img class="black" src="/system/categories/iconblacks/10/medium/10.png?1439393961" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/10/medium/10.png?1440737499" alt=""/>
+			<span>广告</span>
+		</a>
+		<ul class="tags items clearfix">
+		</ul>
+	</div>
+	<h1 class="title">2016，年轻人都去了Uber，你呢？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name"></span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-22 16:03:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25670/medium/25670.jpg?1461031091" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25670" data-title="《2016，年轻人都去了Uber，你呢？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25670/medium/25670.jpg?1461031091" data-url="http://www.qdaily.com/mobile/articles/25670.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	前不久Uber去了好奇心大会。Uber中国中区总经理汪莹在会上说：有好奇心的年轻人们都有一个共同特质，就是喜欢“解决问题”。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/d67b6242bb45.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/9a45ff4ea765.jpg" width="1080" height="711" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	先是由一个想要解决人们出行问题的美国年轻人在巴黎的街头受到启发而诞生了一个伟大的解决方案.
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/c1e4545a47be.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	然后一群全世界的具有强大好奇心的年轻人靠拢、汇聚到了一起，共同推动这一未来趋势的伟大创新——一种更便捷、更节约能源的出行方式的可能。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/b060f1694fc6.jpg" width="613" height="453" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	这群年轻人有自己独特的行为方式，有着对同类认知的敏锐触觉，在Uber这座星球上的他们甚至有了自己的“语言体系”。好奇心日报总结现在年轻人的一大特质就是“容易找到组织”。于是，这个神奇的星球在短短的时间里从最初的十几人增长到中国300多、全球5000多人的规模。&nbsp;
+</p>
+<p style="text-align:left;">
+	<b>聪明又勤奋的年轻人都在这里</b><b></b> 
+</p>
+<p style="text-align:left;">
+	对Uber中国团队做了一个简单采访：让员工用形容词来形容身边同事，被提到率最高的几个词是“年轻”、“聪明”和“勤奋”。这个世界也许并不缺乏聪明的年轻人，但聪明又勤奋那可就无敌了。
+</p>
+<p style="text-align:left;">
+	硅谷科技公司的扁平化架构管理、鼓励极致创新的开放式文化，同时还有全球最顶尖的科技团队支持，这里是一个非常适合年轻人施展的舞台。这座星球不仅出现了史上最年轻互联网行业领导人，同时还有各路你意想不到的酷骚年。
+</p>
+<p style="text-align:left;">
+	<b>张严琪</b><b> | </b><b>85后大区总经理的火箭式成长</b><b></b> 
+</p>
+<p style="text-align:left;">
+	作为Uber最年轻的大区总经理，张严琪总是特别容易被外界谈及，这位自称“IT肌肉男”的85后加入Uber后用15个月的时间完成了从Launcher到成都总经理，再到北京总经理，直至担任<span>Uber</span>中国北区和西区总经理的火箭式成长，现在的他负责<span>Uber</span>中国<span>9</span>个城市的业务。
+</p>
+<p style="text-align:left;">
+	别看他平时出入商务场合是这样的：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/d113b536a966.jpg" width="633" height="449" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	但实际在生活中是这样的：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/f19045d88e1e.jpg" width="960" height="1280" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	<b>Candice
+| </b><b>福布斯亚洲</b><b>“30</b><b>岁以下领导人</b><b>”</b> 
+</p>
+<p style="text-align:left;">
+	在美国加入Uber后Candice做了半年International
+launcher，之后成为大中国区expansion团队的总负责人，开始把Uber的业务带到亚洲各个城市，在本地生根。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/3d14ac2547d8.jpg" width="720" height="480" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	喜欢旅行和周游世界的她在不断的去到各城市和地区的过程中，发现要深入当地，结合本土文化及商业模式，才可以真正的帮助Uber在那里成长。这份看似辛苦、整天满世界跑的工作却让她激情澎湃，在过去的三年里，她走遍了超过20个城市、8个国家、5大时区，是枚十足的“空中女飞人”。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/4b26052fd229.jpg" width="800" height="536" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	今年被福布斯最新发布的”30岁以下领导人”榜单提名上榜，Candice成为亚洲区的杰出代表。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/4d499abd5b70.jpg" width="1080" height="600" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	<strong><b>闻</b><span style="text-align:start;">一龙</span></strong><strong> | </strong><strong>88年学霸攻城狮转型城市总经理</strong> 
+</p>
+<p style="text-align:left;">
+	来Uber之前，闻一龙是一名“非典型性工科男”，先后在上海交大和美国密歇根大学读了本科与双硕士，毕业后在奔驰北美做研发工程师。但好奇心驱动他想要探索商业的世界，从小熟读《孙子兵法》的他总希望可以投身创业公司，做一番影响世界的事业。于是他在2014年加入了Uber，那时Uber全中国只有不到20位员工。12个月后，他完成了从运营经理到资深运营经理，再到城市总经理的角色转换。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/dacb954854c7.jpg" width="674" height="342" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	他认为，对于喜欢的工作要像寻找喜欢的人一样，必须真爱，不能妥协。
+</p>
+<p style="text-align:left;">
+	<b>充满好奇心、爱冒险的年轻人都在这里</b> 
+</p>
+<p style="text-align:left;">
+	郭庆 | 好奇心带我去了NASA
+</p>
+<p style="text-align:left;">
+	花了2年时间环游世界，仅仅处于一个简单好奇——“想知道和全世界不同国家的人一起踢足球是什么感受？”之后郭庆参加了一个全球百万人甄选去外太空的比赛，成为唯一一名被选出的中国人。他去了NASA集训，还见到了巴兹·奥尔德林 （Buzz
+Aldrin）。
+</p>
+<p style="text-align:left;">
+	问他为什么这么爱折腾，他的回答很简单——“就是好奇”。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/d5eb4379f062.jpg" width="599" height="317" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+	Cindy | 好奇心让我人生无边界
+</p>
+<p>
+	Cindy的人生是一个大写的“跨界无边”：曾深入中东为当政府做国家与行业发展战略，作为团队中唯一的女性，在被大多数人认为有安全风险的地区生活了三年，每天周旋于战地记者、外交军事圈等特殊身份的人之间。身为国家二级运动员的她也酷爱户外运动，踏遍了80个国家，深入危地马拉古巴，到过冰雪覆盖的极地冰川，爬过三座5000米以上的高山；理科系毕业的她文科艺术天赋也相当了的，考进了耶鲁大学Art School最难的摄影系，精修摄影和平面设计，有个人的摄影网站。
+</p>
+<p>
+	Cindy认为好奇心是驱动她对未知领域的探索源动力，来Uber做marketing之前她从未有过Marketing的工作经历，但不喜欢跟随别人走过的路的她就是认为：人生的职业道路不一定是要曲线向上的，打开这个界限，你可以走向更开阔的无限可能。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/8a44a5d1e952.jpg" width="960" height="586" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/8e306105160c.jpg" width="1080" height="742" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	Vivienne | 趁年轻就要尝试一切
+</p>
+<p style="text-align:left;">
+	从小学习12年舞蹈的Vivienne其实在最初并不喜欢运动，2011年在美国生活的她受到新的审美文化影响，开始关注器械与健身，师从于印度瑜伽大师，从此她开始了不断挑战自我的人生体验。大三那年她与闺蜜来了一次说干就干的创业：在三个月里用自己的积蓄开了一家生活美学奶茶店，并赚回成本。
+</p>
+<p style="text-align:left;">
+	在每天快节奏生活中瑜伽和运动教会她的是一种遵从内心的自然力量：任何事情都有它的timing，当机会来临，就要勇敢抓住。享受当下、关注自我的成长。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/c50d4fe23766.jpg" width="1002" height="484" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	春花 | 90后网红的公益梦想
+</p>
+<p style="text-align:left;">
+	她曾在简书上开设女性情感专栏，一个月赢得8000粉丝，并创下2、3天里破十几万流量记录。春花并不喜欢大家给自己贴90后的标签，热心公益的她内心的梦想就是自己在40岁经济独立后能够成立一个基金会，专门帮助女性与儿童。她说：做一件事情就是要做到极致。精力可以是无穷尽的。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/002cd22cb5f6.jpg" width="1080" height="810" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	Uber星球的故事还有很多，这些年轻人们被好奇心驱使来到了这家全球估值最高的独角兽公司，试图用集体的力量来解开“人类新的出行方式”之谜题。
+</p>
+<p style="text-align:left;">
+	如果你也自认为是Uber星球的人类，无畏冒险，敢于挑战。请接受我们真诚的邀请，加入我们，和我们一起感知这不断变化的世界，改写人类出行的未来。
+</p>
+<p style="text-align:left;">
+	登录www.uber.com.cn/careers查看最新热门职位。或投递简历到joinchina@uber.com。
+</p>
+<p style="text-align:left;">
+	想要竞聘城市总经理？北京、上海、深圳等多个城市虚位以待。请投递简历到专门的邮箱：
+</p>
+<p style="text-align:left;">
+	北京: <span><span><a href="http://mailto:beijingGM@uber.com">beijingGM@uber.com</a></span></span> 
+</p>
+<p style="text-align:left;">
+	上海：<span><span><a href="http://mailto:shanghaiGM@uber.com">shanghaiGM@uber.com</a></span></span> 
+</p>
+<p style="text-align:left;">
+	深圳：<span><span><a href="http://mailto:shenzhenGM@uber.com">shenzhenGM@uber.com</a></span></span> 
+</p>
+<p style="text-align:left;">
+	当然，也欢迎雷达敏锐的你帮助我们发现Uber星球同类人。
+</p>
+<p style="text-align:left;">
+	推荐城市总经理成功者有奖——Uber请你全国免费坐车一年！这是来自Uber CEO Travis Kalanick的承诺。
+</p>
+<p style="text-align:left;">
+	*免费乘车包括1年以内500次免费搭乘Uber（每单抵扣20元），中国地区有效。活动最终解释权归 Uber 所有。
+</p>
+<p style="text-align:left;">
+	现在就加入吧，我们在等你！
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201604/d7c271e83495.jpg" width="1080" height="720" title=" " alt=" " /> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25670" data-title="《2016，年轻人都去了Uber，你呢？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25670/medium/25670.jpg?1461031091" data-url="http://www.qdaily.com/mobile/articles/25670.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26373.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26373/medium/26373.jpg?1462330940" alt="">
+                        <h1 class="title">除了大银幕，IMAX 这家公司在电影行业里的生存机会要比你想得多</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26403.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26403/medium/26403.jpg?1462352937" alt="">
+                        <h1 class="title">国家电网自己做了个应用，以后没法用支付宝和微信交电费了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26375.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26375/medium/26375.jpg?1462333144" alt="">
+                        <h1 class="title">「这世界」英国王室的孩子穿得是否有些......太复古了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26383.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26383/medium/26383.jpg?1462346202" alt="">
+                        <h1 class="title">运动场上女性没法很好表现，因此她去设计了运动装</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26408.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26408/medium/26408.jpg?1462354198" alt="">
+                        <h1 class="title">用餐盘纸录一首歌？麦当劳想让你多来店里坐坐</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25670">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25670" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">225</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25564.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>技术驱动的创业公司重新获得风投青睐_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="技术驱动的创业公司重新获得风投青睐。社交媒体已经用不到风投了，风投资本该去寻找下一个方向。。好奇心日报为您呈现技术驱动的创业公司重新获得风投青睐的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 风投 科技 创业 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="WKAoAyQPdMh+uAQpoi7CVn+1ldb4A6EAv8vkqyK7WSw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">技术驱动的创业公司重新获得风投青睐</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Hiroko Tabuchi</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-14 09:00:26 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2834/medium/2834.jpg?1436654947" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2834" data-title="《技术驱动的创业公司重新获得风投青睐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2834/medium/2834.jpg?1436654947" data-url="http://www.qdaily.com/mobile/articles/2834.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				社交媒体已经用不到风投了，风投资本该去寻找下一个方向。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em><em><strong><span style="background-color:#CCCCCC;"></span></strong></em> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	Vestaron 公司从蜘蛛毒液中提取出了环保型杀虫剂；Bagaveev 公司使用 3D 打印机制造纳米卫星火箭引擎；而 Transatomic 电力公司（Transatomic Power）正在研发的下一代核反应堆，其运转靠的是核废料。
+</p>
+<p class="MsoNormal">
+	这三家公司有一个共同的特点：它们的资金都来自硅谷的风投资本家。
+</p>
+<p class="MsoNormal">
+	在之前许多年里，投资者都避免向科技、工程和清洁技术创业企业投资，现在，他们开始重新对这些企业提起了兴趣，这让这些领域的创业者们松了口气，长期的滑坡终于结束了。但这些初创企业面临的压力很大，它们要证明和 Snapchat、Uber 等热门科技公司相比，它们的科技向利润转化的速度可以更快。
+</p>
+<p class="MsoNormal">
+	8 月，在 Facebook、Yammer 等社交网站以及音乐在线播放服务 Spotify 均有投资的 Founders Fund 宣布，向马萨诸塞州剑桥市的 Transatomic 电力公司投资 200 万美元。就在几天前，以资助互联网和移动应用初创公司（如社交新闻网站 Reddit 和游戏制作商 Omgpop）而著名的 Y Combinator 向氦能源（Helion Energy）注入了 150 万美元的早期投资，这家公司正在研发一种用核聚变做动力的引擎。
+</p>
+<p class="MsoNormal">
+	&nbsp;<img src="/uploads/image/201410/da267e7be439.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" style="text-align:center;">
+	<em>核电站，无废物。</em><em>Transatomic </em><em>电力公司的莱斯莉·德万（</em><em>Leslie Dewan</em><em>），这家公司正在研发小型核反应堆。</em> 
+</p>
+<p class="MsoNormal">
+	而在上个月，Google 宣布收购一家位于旧金山、名叫 Lift Labs 的生物科技初创企业，这家企业在做的是一种专给有手抖症状的患者使用的高科技勺子。
+</p>
+<p class="MsoNormal">
+	“我们正在努力为杀虫剂市场带来革命，”曾经的遗传学研究员、Vestaron 的首席执行官约翰·索伦森（John Sorenson）说。在看到 Snapchat、Square 和其他初创企业都筹到了数百万美元以后，索伦森也花了好几年时间寻找投资者。上个月，Vestaron 终于结束了第三轮融资。“谢天谢地，风投们又开始给真实的、正儿八经的科技和创新投钱了，”索伦森说。
+</p>
+<p class="MsoNormal">
+	根据全美风投协会（National Venture Capital Association）的统计，总地来说，2014 年上半年，工业和能源领域的初创企业吸引了总计 12.4 亿美元的风险资本，同比前一年增长了一倍还多。但投资依然低于 2008 年的最高点，当时工业和能源初创企业在一年内吸引到了 46.4 亿美元的投资。
+</p>
+<p class="MsoNormal">
+	2014 年上半年，对于生物科技初创企业的投资同比一年前增长了 26%，达到了 29.3 亿美元，并且有望突破 2008 年 51.4 亿美元的高点。
+</p>
+<p class="MsoNormal">
+	但和涌到其他类型科技公司、特别是和投向互联网和移动服务方面的钱相比，这些投资仍然算是小钱。去年，软件初创企业吸引到了 112 亿美元的风投资助，比 2008 年获得的投资增长了 85%。
+</p>
+<p class="MsoNormal">
+	在清洁技术热潮起潮落的过程中，投资者们亏损了数十亿美元，这让他们觉得有点儿被背叛的感觉。当时支持太阳能电池板、藻类生物燃料和极型电池的人都承诺要改变世界，但那些公司大部分都倒掉了。这种经历让投资者们对这些研发周期较长的科技初创企业有所警惕，担心它们是不是还处在新兴的、监管严重不足的市场环境里。
+</p>
+<p class="MsoNormal">
+	但还是有一种氛围越来越浓了起来，投资者说，硅谷一直在回避一些难度很大的问题。Founders Fund 遵奉的格言就很好地反映出了这种情绪：“我们本来想要会飞的汽车，结果最后得到了 140 个字符（结果最后去做了 Twitter）”。
+</p>
+<p class="MsoNormal">
+	加剧这种不安情绪的，还有消费者互联网企业极度拥挤的现状。投资者说，为了成功，一家企业必须杀出重围才行。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201410/56a2885d96ec.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	“我就是对任何可以让我离钢铁侠的战甲更近的东西非常感兴趣，”Boost VC 创始人、首席执行官亚当·德拉珀（Adam Draper）说。Boost 公司曾经指导过 Bagaveev，它是一家用 3D 打印机制造火箭引擎的公司，它制造的引擎用来发射可能只有几磅重的纳米卫星，将其送入轨道。“社交媒体已经用不到风投了，风投资本该去寻找下一个方向。”
+</p>
+<p class="MsoNormal">
+	2011 年由麻省理工学院的核物理科学家创立的 Transatomic 电力公司，还处在小型熔盐反应堆研发的早期阶段，它可以产生可靠的、清洁的能源，而不会制造核废料。这种技术源自 1960 年代，但 Transatomic 电力公司正在研究一种新的设计方案，使用投资来对不同的物质和模式进行测试。这家初创企业要想开始反应堆的建造，还需要更多的资金，或者需要一个合伙人。
+</p>
+<p class="MsoNormal">
+	“世界需要稳定而廉价的电力，而新形式的核电似乎是一个显而易见的解决方案，”Transatomic 电力公司联合创始人、首席执行官莱斯莉·德万说。“但从投资者那里得到 3 亿美元是件需要窍门的事，”她说。“也许我们得做一个 iPhone 应用才行。”
+</p>
+<p class="MsoNormal">
+	Vestaron 是一家创办于 2001 年的杀虫剂制造企业，它在农业和食品方面也有类似的远大目标，而且恰巧也赶上了硅谷对科技企业的重新关注。Vestaron 说，它从蜘蛛毒液里提取出来的杀虫剂可以在不伤害到其他动物的情况下，杀灭甲虫、毛毛虫和其他害虫。公司说，这种杀虫剂可以减少农业的生态足迹（一个测定人类对环境影响的指标，指需要多少土地和水来生产所需资源和吸纳废物），让农民工作起来更安全，并克服多年以来害虫体内形成的抗药性。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201410/6d01d7bfca68.jpg" alt="" />&nbsp;
+</p>
+<p class="MsoNormal" style="text-align:center;">
+	<em>Vestaron </em><em>首席执行官约翰·索伦森希望减少农业的生态足迹，提高农业的安全性。</em> 
+</p>
+<p class="MsoNormal">
+	今年，美国环保局（Environmental Protection Agency）批准了 Vestaron 从毒液里提取出来的活性成分，给这家初创企业亮了绿灯，它们于是可以在 2015 年开展杀虫剂的商业销售，把它推向蔬菜和大棚种植户。Vestaron 第一年的销售目标是 100 万美元，它将使用最新一轮的投资来向农民推广自己的产品。Vestaron 的首席执行官索伦森说，最终他们还会把产品推向家庭和园艺界。
+</p>
+<p class="MsoNormal">
+	但即使科技初创企业吸引到了资金，它们还是从一开始就有盈利的压力。
+</p>
+<p class="MsoNormal">
+	对于位于加州莫哈韦（Mojave）的 Xcor Aerospace 来说，它的长期目标是建造亚轨道飞行的空天飞机，但迫于盈利压力，它要把这个目标放在一边，转而去专注研发火箭引擎点火装置，然后把它卖给 NASA 和航空航天企业。有了稳定的收入，Xcor 就能把引擎装在一架实验飞行器后面，测试它空天飞机的概念了。5 月，在通过航空航天领域天使投资机构 Space Angels Network 筹措到 1420 万美元以后，Xcor 终于完成了它的空天飞机的机身。
+</p>
+<p class="MsoNormal">
+	“他们知道投资者不可能送上 10 亿美元来让你造一架空天飞机，”Space Angels Network 总经理查德·安德森（Chad Anderson）说。“所以他们就从可以制造的最小的部件入手，利用它的商业价值一步一步慢慢来。”
+</p>
+<p class="MsoNormal">
+	Bagaveev 能指望的也就只有类似这样的找钱模式。4 月时，它只从一群投资者那里得到了 53.5 万美元的种子资金，这些资金将会用来研究将重量只有 22 磅的微型卫星送到外太空的发射技术。公司创始人、首席执行官纳迪尔·贝加维夫（Nadir Bagaveyev）说，这种技术将为负担不起数百万美元的卫星的小企业打开外太空的大门。
+</p>
+<p class="MsoNormal">
+	“我们就像太空里的 UPS 快递，”贝加维夫说。“你把东西交给我们，我们承诺在数周到一个月的时间里把它送上去。”
+</p>
+<p class="MsoNormal">
+	贝加维夫说，Bagaveev 将利用这笔种子资金，努力证明他的想法是有前途的。这家初创企业正在计划年底进行它的第一次测试发射，贝加维夫希望这次发射帮助公司吸引到更多的投资。
+</p>
+<p class="MsoNormal">
+	&nbsp;“我们会展示我们的实力，然后再回来找更多的投资，”他说。“我想投资者们已经厌倦了投钱给另一款消息类应用了吧。我们的想法不但足够疯狂，而且可能行得通。”
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	翻译 is译社
+葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2834" data-title="《技术驱动的创业公司重新获得风投青睐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2834/medium/2834.jpg?1436654947" data-url="http://www.qdaily.com/mobile/articles/2834.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25053.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25053/medium/25053.jpg?1459934746" alt="">
+                        <h1 class="title">优土成为阿里子公司以后，表示边看边买这事是认真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25034.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25034/medium/25034.jpg?1459920141" alt="">
+                        <h1 class="title">青年旅舍也有精心之作，阿姆斯特丹这家从校舍改造而来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25058.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25058/medium/25058.jpg?1459936166" alt="">
+                        <h1 class="title">这家要在2018年开业的，将会是星巴克全球最大门店</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25016/medium/25016.jpg?1459903086" alt="">
+                        <h1 class="title">YSL 新上任的设计总监，也是个待不久的设计师</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2834">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2834" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">9</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2824.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

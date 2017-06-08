@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>苹果电脑上也有流氓软件，而且还会敲诈你_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="苹果电脑上也有流氓软件，而且还会敲诈你。这是一种名为“勒索软件”的流氓软件，黑客给你的 Mac 电脑上的文件加密，以此要挟要求赎金。。好奇心日报为您呈现苹果电脑上也有流氓软件，而且还会敲诈你的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 Mac KeRanger 勒索软件 Palo Alto Networks " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="LvnMmsiTSXRPj59ndexIdHb5OYZ8y84tRStX5l29QQc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1612">
+				<span data-id="1612">Mac</span>
+			</li>
+			<li class="tag item" data-id="24483">
+				<span data-id="24483">KeRanger</span>
+			</li>
+			<li class="tag item" data-id="23509">
+				<span data-id="23509">勒索软件</span>
+			</li>
+			<li class="tag item" data-id="24484">
+				<span data-id="24484">Palo Alto Networks</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">苹果电脑上也有流氓软件，而且还会敲诈你</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1375/small/1375.jpg?1432819025" alt="">
+					</span>
+				<span class="name">徐弢 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-07 13:22:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23400/medium/23400.jpg?1457323364" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23400" data-title="《苹果电脑上也有流氓软件，而且还会敲诈你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23400/medium/23400.jpg?1457323364" data-url="http://www.qdaily.com/mobile/articles/23400.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这是一种名为“勒索软件”的流氓软件，黑客给你的 Mac 电脑上的文件加密，以此要挟要求赎金。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">          </p><p>          </p><p class="">过去的这周末，较少出现安全事件的 Mac 电脑又遭受到了新的攻击。</p><p><a href="http://www.businessinsider.com/r-apple-users-targeted-in-first-known-mac-ransomware-campaign-2016-3">根据路透社报道</a>，网络安全公司 Palo Alto Networks 上周五发现，苹果电脑 Mac 遭受到了一种名为&nbsp;KeRanger 的流氓软件的攻击，不过目标不是你的银行账户，或者社交网站的账号密码，直接是敲诈机主。</p><p class="">这次安全事件的主角 KeRanger 被归类为“勒索软件”（ransomware），其攻击方式就跟敲诈勒索没有区别：黑客黑入用户电脑对部分文件进行加密后，再以解密的秘钥为要挟，要求机主交付“赎金”。</p><p>能在 Mac 电脑上确实地实行这种敲诈勒索的流氓软件，这款 KeRanger 似乎还是第一个。Palo Alto <a href="http://www.businessinsider.com/r-apple-users-targeted-in-first-known-mac-ransomware-campaign-2016-3">威胁情报主管 Ryan Olson 称</a>：“这是（市场上）第一个确定有效的（勒索软件），能加密你的文件并且索求赎金。”Olson 还说，这款软件会在电脑感染 3 天后开始对电脑文件进行加密。<br></p><p>在传播方式上，这起安全事件跟去年<a href="http://www.qdaily.com/articles/3381.html">“麦芽地事件”</a>类似，黑客利用 KeRanger 的软件感染已有的软件在网上进行传播。这次受感染的是一款名为 Transmission 的 BT 开源下载工具（2.90 版本），可以用来下载视频、音乐等。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/388593b2a721.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;"><i>Transmission 下载工具提醒用户升级，并且告知用户如何判断是否受到流氓软件感染</i></div></figcaption></figure></div><p class="">不知道是不是因为去年“麦芽地事件”的前车之鉴，各方在这个周末都开始采取了措施。苹果发言人称，他们已经移除了开发上述软件的应用开发者的授权，希望能阻止用户安装这款流氓软件，而 <a href="http://9to5mac.com/2016/03/06/first-os-x-ransomware-detected-in-the-wild-will-maliciously-encrypt-hard-drives-on-infected-macs/">Transmission 也提醒用户尽快升级</a>，并告诉用户如何辨别是否已经受感染。</p><p>          </p><p class="">过去的一年间，较少出现安全事件的 Mac 电脑逐渐变成了黑客攻击的热门对象。<a href="http://www.qdaily.com/articles/16926.html">据安全公司 Bit9 的研究数据</a>，2015 年的病毒数量是之前 5 年总和 5 倍多。而且，Mac 电脑遭受的攻击似乎也在多样化。<br></p><p class="">不过，在苹果官方应用商店下载应用程序相对来说还是比较安全的，如果不出现应用开发者图方便，<a href="http://www.qdaily.com/articles/15154.html">让不越狱的 iPhone 也被黑</a>的类似事件的话。</p><p>          </p><p>题图来自：Flickr@<a href="https://www.flickr.com/photos/121483302@N02/14072845007" style="background-color: rgb(255, 255, 255);">Global Panorama</a>&nbsp;文中图来自：<a href="http://9to5mac.com/2016/03/06/first-os-x-ransomware-detected-in-the-wild-will-maliciously-encrypt-hard-drives-on-infected-macs/">9to5Mac</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1612">
+				<span data-id="1612">Mac</span>
+			</li>
+			<li class="tag item" data-id="24483">
+				<span data-id="24483">KeRanger</span>
+			</li>
+			<li class="tag item" data-id="23509">
+				<span data-id="23509">勒索软件</span>
+			</li>
+			<li class="tag item" data-id="24484">
+				<span data-id="24484">Palo Alto Networks</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23400" data-title="《苹果电脑上也有流氓软件，而且还会敲诈你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23400/medium/23400.jpg?1457323364" data-url="http://www.qdaily.com/mobile/articles/23400.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/3381.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/3381/medium/3381.jpg?1436638521" alt="连接 iPhone 和电脑的那根线成了病毒的入口">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">连接 iPhone 和电脑的那根线成了病毒的入口</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">13</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16926.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16926/medium/16926.jpg?1446436513" alt="研究说，2015 是 Mac 病毒最多的一年">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">研究说，2015 是 Mac 病毒最多的一年</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15154.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15154/medium/15154.jpg?1442572312" alt="9/21 更新 | 没越狱的 iPhone 也被黑客攻破了，原因有点滑稽">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">9/21 更新 | 没越狱的 iPhone 也被黑客攻破了，原因有点滑稽</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">26</span>
+				<span class="iconfont icon-heart">107</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24886.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24886/medium/24886.jpg?1459556493" alt="">
+                        <h1 class="title">「日本語」“农民有必要协助旅游业吗？”</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23400">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23400" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">27</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/23295.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

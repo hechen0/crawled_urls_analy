@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>腾讯的第二款血糖仪，一边测血糖一边给你卖保险_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="腾讯的第二款血糖仪，一边测血糖一边给你卖保险。通过和丁香园、糖大夫的合作，这款血糖仪本质上变成了众安保险卖保险的设备。。好奇心日报为您呈现腾讯的第二款血糖仪，一边测血糖一边给你卖保险的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 血糖仪 众安保险 丁香园 糖大夫 腾讯 李天天 邱凯 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="kMVCTemBGYFu6WNApstYockTDkIt+5ozTWQ8Ej1Z2uk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="6290">
+				<span data-id="6290">血糖仪</span>
+			</li>
+			<li class="tag item" data-id="19004">
+				<span data-id="19004">众安保险</span>
+			</li>
+			<li class="tag item" data-id="12817">
+				<span data-id="12817">丁香园</span>
+			</li>
+			<li class="tag item" data-id="19005">
+				<span data-id="19005">糖大夫</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="19006">
+				<span data-id="19006">李天天</span>
+			</li>
+			<li class="tag item" data-id="19013">
+				<span data-id="19013">邱凯</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">腾讯的第二款血糖仪，一边测血糖一边给你卖保险</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1375/small/1375.jpg?1460641790" alt="">
+					</span>
+				<span class="name">徐弢 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-20 18:55:32 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17813/medium/17813.jpg?1447918038" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17813" data-title="《腾讯的第二款血糖仪，一边测血糖一边给你卖保险》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17813/medium/17813.jpg?1447918038" data-url="http://www.qdaily.com/mobile/articles/17813.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				通过和丁香园、糖大夫的合作，这款血糖仪本质上变成了众安保险卖保险的设备。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	昨天下午，腾讯联合众安保险、丁香园推出了新款血糖仪“腾爱·糖大夫 2.0”，希望提供血糖检测之余，还为患者提供保险和医生诊断服务。
+</p>
+<p>
+	这款血糖仪外形长得像手机（似乎也确实是用手机改的），配备了 4 英寸的触摸屏，加上一支取血笔和 25 片试纸和取血针，用户的血糖检测结果可以通过微信公众号传输到手机端，售价 299 元。销售则是通过糖大夫官网和京东商城。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/64f69f7d071f.jpg" width="1080" height="951" title="糖大夫 2.0" alt="糖大夫 2.0" /><em>糖大夫 2.0，左边是血糖采集，右边的是血糖分析</em>
+</p>
+<p>
+</p>
+<p>
+	而腾讯所谓的 2.0，最主要的功能更新是加上了合作伙伴的健康保险和医生远程诊断服务。
+</p>
+<p>
+	腾讯和众安保险将会为 1 万份血糖仪提供总额 2 亿元的保额，以及一项名为“糖小贝”的类似游戏奖励的计划，在这项计划中，患者会获得 1000 块的基础保额，每次血糖检测正常都会加上 100 块的保额，如果血糖不正常则会丢失一定保额。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/dc3f2ed363b0.jpg" width="1080" height="810" title="糖大夫 2.0 的界面" alt="糖大夫 2.0 的界面" /><em>糖大夫 2.0 的界面</em> 
+</p>
+<p>
+	国内医疗健康网站丁香园准备了一支 20 名临床背景的护士人员和分级诊疗的制度，为患者提供 7/24 的人工服务。这些医护人员能够在后台看到数据，包括一周血糖检测、患者的感受等，这部分数据目前也已经跟 7 家医院对接。患者一旦出现病情严重，会给后台提醒，再经过程序判断、丁香园的医护人员的人工诊断，最后到专家诊断这样的分级流程。
+</p>
+<p>
+	但这次其实就是腾讯系的联合合作。众安保险、糖大夫的背后都是腾讯，国内的医疗健康网站丁香园去年拿到了腾讯 7000 万美元的投资，当时腾讯就表示，丁香园将和微信在内的平台合作，所以这次合作基本可以看作是腾讯对资源的调配。
+</p>
+<p>
+	《好奇心日报》在现场体验了糖大夫 2.0，丁香园方面的医护人员为用取血针刺破皮肤后，擦去了第一滴血，然后靠近设备上的试纸，随后取血针的针头会被封住，一分钟不到的时间，血糖检测结果就出来了。设备显示还没有吃晚饭的情况下，血糖水平还不错。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/e2c9fd4b5a55.jpg" width="1080" height="810" title="测验血糖" alt="测验血糖" /><em>测验血糖，糖大夫上醒目的 Tencent</em> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/da5674235e9a.jpg" width="1080" height="810" title="血糖检测结果" alt="血糖检测结果" /><em>血糖检测结果</em> 
+</p>
+<p style="text-align:center;">
+	<em></em> 
+</p>
+<p style="text-align:center;">
+	<em><img src="/uploads/image/201511/5c76822b04f9.jpg" width="1080" height="810" title="新手保险礼包" alt="新手保险礼包" />新手保险礼包</em> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	在发布会后的采访中，糖大夫的产品经理邱凯也说，有了数据和商业保险之后，人们不用太关心硬件的部分，这部分到后面可能交给供应链的上下游消化掉。
+</p>
+<p>
+</p>
+<p>
+	正如众安保险副总经理姜兴在发布会上说的那样，腾讯的糖大夫其实就是基于血糖检测的保险业务。
+</p>
+<p>
+</p>
+<p>
+	题图来自：<a href="http://www.torange.us/Objects/medicine/College-of-Medicine-19700.html" target="_blank">torang.us</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="6290">
+				<span data-id="6290">血糖仪</span>
+			</li>
+			<li class="tag item" data-id="19004">
+				<span data-id="19004">众安保险</span>
+			</li>
+			<li class="tag item" data-id="12817">
+				<span data-id="12817">丁香园</span>
+			</li>
+			<li class="tag item" data-id="19005">
+				<span data-id="19005">糖大夫</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="19006">
+				<span data-id="19006">李天天</span>
+			</li>
+			<li class="tag item" data-id="19013">
+				<span data-id="19013">邱凯</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17813" data-title="《腾讯的第二款血糖仪，一边测血糖一边给你卖保险》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17813/medium/17813.jpg?1447918038" data-url="http://www.qdaily.com/mobile/articles/17813.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/1493.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/1493/medium/1493.jpg?1436641790" alt="请不要再说眼泪不值钱，它可能拯救血糖检测">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">请不要再说眼泪不值钱，它可能拯救血糖检测</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">12</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26504.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26504/medium/26504.jpg?1462510306" alt="">
+                        <h1 class="title">玩这个插画师画的扑克牌，差不多能了解半部当代建筑史</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26512.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26512/medium/26512.jpg?1462516975" alt="">
+                        <h1 class="title">伟大的人值得穿好点，爱因斯坦、达尔文都被吐槽了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26515.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26515/medium/26515.jpg?1462522881" alt="">
+                        <h1 class="title">「本周新片」《美队 3》：我懂，你们就想看超级英雄打群架</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17813">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17813" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">56</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17877.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

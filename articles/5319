@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为了哄用户开心，你知道 Google 有多努力吗_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为了哄用户开心，你知道 Google 有多努力吗。为了一个除了让你开心别无他用的产品，Google 准备了一个 16 人的团队。好奇心日报为您呈现为了哄用户开心，你知道 Google 有多努力吗的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 Google Doodles 彩蛋 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vbKUfL4kL/epLEl5Nh8Bqx65FSgEWzGGMzQsYS6f7ok=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="6187">
+				<span data-id="6187">Doodles</span>
+			</li>
+			<li class="tag item" data-id="3638">
+				<span data-id="3638">彩蛋</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为了哄用户开心，你知道 Google 有多努力吗</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-17 08:03:13 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5319/medium/5319.jpg?1436681111" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5319" data-title="《为了哄用户开心，你知道 Google 有多努力吗》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5319/medium/5319.jpg?1436681111" data-url="http://www.qdaily.com/mobile/articles/5319.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				为了一个除了让你开心别无他用的产品，Google 准备了一个 16 人的团队
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<p>
+		时不时出现在 Google 首页的 Doodle 插画有什么用？即使是每天负责他的首席设计师 Ryan Germick 也难以回答。在接受《好奇心日报》的采访时，这位在科技公司的艺术从业者分享了许多 doodle 实际制作的故事，在 Google doodles 团队看来，通过每一个 Doodle 给用户一些乐趣，也许就是最大的意义了。
+	</p>
+Google 的 Doodles 原本只是两位创始人一时兴起放在首页上的涂鸦，如今已经成为一些粉丝每天打开 Google 的理由。在特定的节日、纪念日乃至活动日将首页 logo 涂鸦成各种创意已经成了 Google 的传统。
+</p>
+<p>
+	<p style="white-space:normal;margin-bottom:16px !important;">
+		<img alt="" src="/uploads/image/201501/325029e48129.gif" style="width:679px;" />
+	</p>
+	<p style="white-space:normal;margin-bottom:16px !important;">
+		<span style="white-space:normal;">在 Ryan 加入 Google Doodles 之前，整个 Google 只有一个人在为Google 的 logo 设计变形记。如今，这个团队已经拥有 10 位插画师， 4 位工程师以及两名制片人。<span style="white-space:normal;">从仅有一个人画图标，到拥有 16 个人的团队，Doodles 在 Google 也变成了一个越来越被严肃对待的产品。</span></span>
+	</p>
+	<p style="white-space:normal;margin-bottom:16px !important;">
+		<span style="white-space:normal;">在过去的 2014 年里，Ryan 和他的团队在全球推出了 400 个 doodles，其中有 100 个左右是动画形式，大约还有 20 个用户可以交互的 doodle。</span>
+	</p>
+	<p style="white-space:normal;margin-bottom:16px !important;">
+		2014 年最受欢迎的 doodle 应该是世界杯主题的一系列产品。整个团队在巴西待了 35 天，一边观看比赛一边看新闻，一边实时制作出&nbsp;<a href="http://qdaily.com/display/articles/1170" target="_blank">63 个&nbsp;doodle</a>，呈现比赛热点。在 2014 年年底，<a href="http://qdaily.com/display/articles/4860" target="_blank">他们制作了一个 doodle 动画来回顾整年的搜索趋势</a>。
+	</p>
+</p>
+<p>
+	现在，它可能是一种表达，也可以说是一种艺术形式，又或者，它们是科技公司希望给用户的一个礼物。在大多数时候，制作团队在一个看似简单的&nbsp;Doodle 上所花的时间，比我们能想象的多得多。
+</p>
+<p>
+	Google Doodles 团队在画家伦勃朗诞辰 407 周年之际推出了以伦勃朗画像为基底绘制的 Doodle，为了向画家致敬，团队在画布上一笔一笔画出了这幅油画，再用高清相机拍摄制作出来。即使如此，与绝大多数 doodle 设计一样，这个 doodle 也只在 Google 首页上存在了 24 个小时。<span style="white-space:normal;">这么说起来，1998 年就出现的 Google Doodles，可以算是最早的“阅后即焚”产品。</span>
+</p>
+<p>
+	事实上，还有看起来是用电脑绘制出的特效 doodle，实际上是在真实世界中拍摄而成。
+</p>
+<p>
+	制作团队想传递给用户的乐趣，不仅表现在最终的作品里，还包括在制作 Doodle 的整个过程中。2011 年的万圣节，Google 的首页上出现了六个巨大的南瓜雕，这些每个重达 1000 磅的南瓜都是制作团队亲自从遥远的 Half Moon Bay 采摘、切割、运送到 Google 位于 Mountain View 的总部楼下的，他们在 Google 楼下一边雕刻成万圣节主题的南瓜灯，一边把制作工地办成了整个公司的热闹派对。最终，团队将一整天的经历制作成了<a href="http://www.google.com/doodles/halloween-2011" target="_blank">这段万圣节 Doodle 视频</a>。
+</p>
+<p>
+	<img src="/uploads/image/201501/ddeaa74a47b7.jpg" alt="" />
+</p>
+<p>
+	Google 历史上最成功的一个交互 doodle 应该是 2010 年 2 月为纪念吃豆人游戏诞生 30 周年推出的一款。如果你愿意，可以停留在 Google 的首页一直玩下去，这个有 256 关的游戏甚至以被玩次数最多的免费游戏获得世界吉尼斯纪录，话说回来，要打通关也不容易。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/65bbde91dfbc.jpg" /> 
+</p>
+<p>
+	这个 doodle 已经被 Google 永久保留，到目前为止，已经有 1.25 亿个可以用来做点正事的时间被花在这个游戏上。或者用 Ryan 的话来说，这个 doodle 已经为这个世界打发了 1.25 亿小时的无聊，增加了 1.25 亿小时的乐趣。
+</p>
+<p>
+	Ryan 自称是一个有些 Nerd 精神的艺术家，虽然一位在科技公司工作的艺术家身份常常被外界质疑。当然，这不重要，重要的是让呈现在大家面前的东西越简单越好。Google 的首页一直没有多少单词，doodle 则是存在于搜索首页上的一个变量。
+</p>
+<p>
+	下面这个<a href="https://www.google.com/doodles/robert-moogs-78th-birthday" target="_blank">纪念电子合成器之父 Robert Moog 设计</a>的原型是 Ryan 在公共汽车上画出来的，最终完成却花了团队五个月的时间。这个只在首页上呆了 24 小时的 doodle 其实是一个真正使用的电子合成器，每一个旋钮、每一个琴键都可以发出声音。由于当时浏览器交互技术的差异，制作团队为 Chrome 浏览器和其他浏览器分别设计了适配版本。
+</p>
+<p>
+	另一个类似的吉他电子乐&nbsp;doodle 是为纪念 <a href="https://www.google.com/doodles/les-pauls-96th-birthday" target="_blank">Les Paul 九十六岁生日</a>而设计，在 YouTube 上还有用户自发制作了用这个效果器制作的音乐。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/c0782dfe2853.jpg" /> 
+</p>
+<p>
+	而在 2011 年推出的第一个真人演出的视频 doodle，则是由 doodle 设计团队自己演出、制作的<a href="https://www.google.com/doodles/122nd-birthday-of-charlie-chaplin" target="_blank">卓别林诞生 122 周年纪念 doodle</a>。在这个视频中，你可以在房屋、报纸以及画板等细节发现 Google 图标，而其中卓别林手中拿着的报纸也是团队特地排版制作的 Google 小报。在许多时候，这个团队明显带有艺术家的气质，他们不太计较效率，也不太计较是否会被称为艺术，在 doodle 有限的尺寸和配色框架里，多年以来，这个团队都玩得挺大，也挺开心。有些创意一时难以表达，制作团队也不纠缠。<a href="https://www.google.com/doodles/rubiks-cube" target="_blank">2014 年 5 月上线的 3D 魔方 doodle </a>其实是一个等待了很久的概念，直到最近网页上的 3D 互动技术成熟，团队才将它制作出来。为了适配移动端的效果，团队花了比预想更多的时间来测试，确保魔方能够像现实中那样流畅的转动。
+</p>
+<p>
+	关于 doodle 的未来，Ryan 认为搜索首页仍然是 doodle 天然的一个舞台，在用户打开 Google 的时候，给你一点乐趣，如果它成功地激发了你的好奇心，点击一下就可以进入搜索页面了解更多。
+</p>
+<p>
+	至今为止，<a href="https://www.google.com/doodles#archive" target="_blank">Google 已经制作了超过 2500 个 doodles</a>，doodles 档案就像是一个世界各地“豆知识”数据库。对于用户来说，doodle 更像一个不定时出现的彩蛋，每天需要搜索知识或信息的时候，你也许会看到这份礼物，也许不会。
+</p>
+<p>
+	除此之外，Google 还有一些定时或不定时的彩蛋，给你面前冰冷的电子屏幕，多一些乐趣。
+</p>
+<h3>
+	愚人节
+</h3>
+<p>
+	每年愚人节，都会有不少人被 Google “整蛊”。这一传统始于 2000 年的脑波扫描器。
+</p>
+<p>
+	2013 年 4 月 1 日，<a href="http://www.google.com.hk/intl/zh-TW/landing/nose/" target="_blank">Google 宣布推出气味搜索</a>，通过 Google 街景车记录空气中的气味并创建索引，用户在 Google 首页搜索想要闻的气味，点击“试闻”就可以开始嗅闻，如果你没有闻到，请先升级操作系统或者硬件。在那一天，Google 成功地让许多人对着笔记本电脑的扬声器疯狂辨识那些可能存在的气味。2014 年，Google 地图则发起了神奇宝贝大挑战，用户可以在全世界的地图中抓捕 150 种神奇宝贝。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/f917e56554dc.jpg" /> 
+</p>
+<p>
+	另外，Gmail 也是一款在愚人节推出的产品，2004 年的愚人节，大多数人不相信这是一款严肃的产品，如今，这地球上也有不少用户不能相信 Gmail 是个严肃的产品。
+</p>
+<h3>
+	圣诞节
+</h3>
+<p>
+	圣诞节的时候，如果在 Google 的搜索框中输入 Christmas karo，就会跳出卡拉 OK 版的圣诞歌曲。
+</p>
+<h3>
+	搜索
+</h3>
+<p>
+	用 Chrome 浏览器科学地打开 Google ，输入 Do a barrel roll，面前的 Google 网页分分钟会滚给你看。搜 let it snow，屏幕上就会结雾、下雪，搜 Zerg Rush 会出现什么？不如自己试试看。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/1bc4f3218c6c.jpg" /> 
+</p>
+<p>
+	<span style="white-space:normal;">这世界给人的恶意往往来的太过容易，而那些微小的善意，常常也在程序员顺手留下的角落等你。</span> 
+</p>
+<p>
+	对了，Google doodle 现任首席设计师&nbsp;Ryan Germick 曾经设计了美国首个关于 Poop 的 Emoji，在 Google 街景的小人图标里，也有他顺手留下的彩蛋。
+</p>
+<p>
+	题图来自 <a href="https://www.google.com/doodles/rembrandt-van-rijns-407th-birthday" target="_blank">Google Doodles</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="6187">
+				<span data-id="6187">Doodles</span>
+			</li>
+			<li class="tag item" data-id="3638">
+				<span data-id="3638">彩蛋</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5319" data-title="《为了哄用户开心，你知道 Google 有多努力吗》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5319/medium/5319.jpg?1436681111" data-url="http://www.qdaily.com/mobile/articles/5319.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24789/medium/24789.jpg?1459407016" alt="">
+                        <h1 class="title">有个工厂仓库改的住宅，理想化得不可思议</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5319">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5319" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">46</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5315.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「好莱坞报告一」为什么中国复制一个好莱坞是不可能的_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「好莱坞报告一」为什么中国复制一个好莱坞是不可能的。因为它不但不是一个被规划出来的组织，它连个组织都不能算，如果非要为它按个体系，它比较像“元胞自动机”。。好奇心日报为您呈现「好莱坞报告一」为什么中国复制一个好莱坞是不可能的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 好莱坞 元胞自动机 项目制 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ONf84udUXH8phbLw5V2Tc/vQEFaz5gmSwGx1xpI2dF8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/3.html" class="category x25" data-id="3">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<h1 class="title">「好莱坞报告一」为什么中国复制一个好莱坞是不可能的</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/99238/small/99238.jpg?1435570983" alt="">
+					</span>
+				<span class="name">孙今泾 温欣语</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-24 08:06:26 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/13905/medium/13905.jpg?1440372424" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13905" data-title="《「好莱坞报告一」为什么中国复制一个好莱坞是不可能的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13905/medium/13905.jpg?1440372302" data-url="http://www.qdaily.com/mobile/articles/13905.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				因为它不但不是一个被规划出来的组织，它连个组织都不能算，如果非要为它按个体系，它比较像“元胞自动机”。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:start;">
+	Tamar Shaham 在 2014 年底拿到了一份二十世纪福斯 (20th Century Fox) 的合同，在福斯即将上映的新片 “Deadpool” 里担任“特效协调员”。
+</p>
+<p style="text-align:start;">
+	她的这个工作要追踪散落在世界各地的 5 家外包公司是否能准时完工，要在导演、特效指导和制片厂之间传达意见，最后会有 21 个主创人员出现在片尾一闪而过的演职员表中。
+</p>
+<p style="text-align:start;">
+	这已经是 Tamar 与二十世纪福斯公司最接近的一次了。几年前 Tamar 在一家独立特效公司接手过福斯的项目。像福斯这样的大制片厂总是会把成百上千个特效镜头拆分、外包给几家后期特效公司。这些公司里的特效师只需保证如期交货，他们甚至不一定会和制片厂的人见上一面。
+</p>
+<p style="text-align:start;">
+	但拿着福斯公司 Offer 的 Tamar 远远算不上福斯的员工。这个制片厂内部的工位也不会为 Tamar 长久保留。她和大多数在好莱坞的“人才”一样，本质上不属于任何机构。待到 “Deadpool” 制作完成，她就得起身离开，去寻找下一份雇佣合同。“不可能 20 年呆在同一个地方，总是做完一个项目换下一个。” Tamar 说，“特效行业熙熙攘攘，好莱坞也是这样”。
+</p>
+<p style="text-align:start;">
+	当我们提起好莱坞的时候，总是会想到好莱坞的六大制片厂（如果不是只对那个比弗利山的路牌和星光大道有印象的话），好像大部分从业者都属于这几个巨头名下。实际情况并非如此。
+</p>
+<p style="text-align:start;">
+	导演 Mark Roseman 记得，像迪士尼这样的大制片厂在 1980 年代还乐于签订长期合约，为导演提供连续几年的设备和办公室。可等到 2004 年 Roseman 拍“A cinderalla story”的时候，华纳就只在项目期内提供办公室了。 Roseman 不得不自己掏钱在西好莱坞租下一间小屋，把自己定义为一名“个体户”。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/e75ddfb0df78.jpg" width="1080" height="720" title="导演 Roseman" alt="导演 Roseman" /><span>导演 Mark Roseman</span> 
+</p>
+<p>
+	<span style="text-align:start;">我们已经习惯了一个高效率的机构运转中产生的力量，这机构通常由愿景、使命之类将一群人聚集在一起，他们拥有相近的价值观，在一个宏大的战略指导下，完成一个又一个（盈利）任务。这种高效率的机构通常被称为公司。</span> 
+</p>
+<p style="text-align:start;">
+	IMDb Pro 最初也是这么想的。这家亚马逊旗下的电影数据库网站，拥有 20 万的注册用户，它们计划做“娱乐产业中的 LinkedIn”——与 LinkedIn 一样试着以“公司”作为参数把用户进行关联，并提供服务。在运行一段时间之后发现好莱坞并非如此：因为频繁地调换工作机构，有 80% 以上的用户可以在三级之内取得关联，可实际上他们彼此并不相熟。这至少说明了一个问题，把这 20 万人联系在一起的，并非是公司。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/0dd9c7cc7520.jpg" width="877" height="510" title="IMDb Pro 网站" alt="IMDb Pro 网站" /><span>IMDb Pro 网站首页</span> 
+</p>
+<p>
+	<span style="text-align:start;">在去年 3 月上线的新版本中， IMDb Pro 选择了基于电影项目的用户关联模式。“整个行业都是跟着项目走的。” IMDb Pro 前软件工程师王珏解释说，如果在同一部电影中有过合作，那么关系自然非常紧密。Tamar 的故事验证了这个说法。她解释自己之所以可以加入到 “Dead Pool” 的项目中，是因为这部电影的特效指导在此前的影片中和她有过合作。“是他带我来的。” Tamar 说。</span> 
+</p>
+<p style="text-align:start;">
+	《纽约时报》记者&nbsp;Adam Davidson 在一篇名为《好莱坞模式带给未来经济的启发》的报道中总结了他所认为的“好莱坞模式”：区别于过去传统公司倡导的长期保障和凝聚力，好莱坞更习惯这种短期、以项目为中心的商业运作模式，“确定项目、组队、完成项目、解散”。
+</p>
+<p style="text-align:start;">
+	与年轻的二十世纪福斯员工 Claudia 想的一样，这种项目结束就解散的方式“会有更多的可能性”，她所看到的好莱坞，稳定工作大都存在于那些事务性非常强的工作当中——制片厂的市场部里总是坐着不少工龄 20 年以上的前辈——但这可不是好莱坞最有价值的那一部分。这个充满创意的产业里，最稀缺的永远是创造力。
+</p>
+<p style="text-align:start;">
+	Claudia 刚刚参加了一位市场部同事的加盟福斯 40 年的 Party，这位老员工真可以算得上是元老了，你要知道在这期间，福斯的主席也已经换了三任。Claudia 在这个本来是强调“归属感”的晚会上，想得更多的是如何离开。她打算重回学校，学习如何打理电影前期的财务预算和项目开发——加入到令人兴奋的影片制作中去。很可能，最后她会和 Tamar Shaham 一样过上“居无定所”的生活。
+</p>
+<p style="text-align:start;">
+	似乎六大制片厂也并不希望把这些活力或者创造力垄断在自己手中。你会看到，大制片厂宁可再成立一个独立电影公司，也不要把那些导演拴在自己的官僚机构里。那些专业性的岗位更是如此，一个独立的、专业分工明显的小公司或者个人，应该更有创造力。没有什么机构或人能管好创造力，那就索性把这些留在体外。
+</p>
+<p style="text-align:start;">
+	Adam Davidson，这位《纽约时报》记者能够发现好莱坞的商业模式也有赖于“项目制”给了他在一部影片中“金融技术顾问”的身份。而让他兴奋起来的不仅仅是商业模式，而是这种没有中心甚至没有人具体指挥的“项目制”居然可以运转得如此顺畅：
+</p>
+<p style="text-align:start;">
+	“这些人以前从未合作过，而当天拍摄的一些场景相当复杂，要求各方默契配合：灯光、化妆、发型、服饰、布景、道具、表演。然而他们没有时间磨合；每个人迅速投入合作，配合天衣无缝。布景设计师向我介绍他把墙漆成几近纯白的色度，如此可以烘托场景气氛。服装设计师对于主角应该穿什么样的凉鞋也要反复斟酌。他们一一向我介绍，却无需向彼此解释。他们刚开始合作，却能神奇地让一切都显得恰到好处。”
+</p>
+<p style="text-align:start;">
+	如果把大公司中心制理解成那种有 CPU，有存储有运算的计算机体系，这个顺畅的场面更像是另外一种计算模式——一种叫<a href="http://en.wikipedia.org/wiki/Cellular_automaton" target="_blank">“元胞自动机”</a>的玩意儿。你不用理解它到底是怎么回事，你只要想想蚁群是如何工作的，大脑中的神经元是如何工作的——它们只遵循一些简单的规则，只针对相邻的相仿单位的动作做出反应，从而完成复杂的使命。
+</p>
+<p style="text-align:start;">
+	Adam Davidson 的片场是这样运转的，整个好莱坞看起来也是如此。<span style="text-align:center;">TCL 中国剧院董事长 Alwyn Hight kushner&nbsp;</span><span style="text-align:start;">过去是一位独立制片人，她谈到好莱坞时说，正是这些个体的电影制片人和影院才让好莱坞成为好莱坞。“不然，好莱坞还会是什么？”</span> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;"> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/18786bfc20df.jpg" width="1080" height="721" title="TCL 中国剧院董事长 Alwyn Hight Kunshner" alt="TCL 中国剧院董事长 Alwyn Hight Kunshner" /><span>TCL 中国剧院董事长 Alwyn Hight Kunshner</span> 
+</p>
+<p style="text-align:start;">
+	没有谁会扮演那个强大的 CPU 的角色，制片厂也不是。在被问及和好莱坞的关系时， Alwyn Hight kushner 的回答恰好用来解释这个机器内部的自动化，她说：“我不觉得我是为了好莱坞工作，我当然是为了我自己工作。”她当然也不是为了制片厂工作。
+</p>
+<p style="text-align:start;">
+	我们回过头来再看好莱坞这个项目制模式的流程，“确定项目、组队、完成项目、解散”，就会发现这个运转模式的不可复制性。跟那个蚁群工作原理一样，大量的人才储备和相关工作人员的聚集，保证这个体系运转正常。过去，人们声称，在洛杉矶只要 15 分钟的车程之内，就能找齐剧组里的所有人。现在，IMDb Pro 上有 20 万个注册用户（王珏相信，这只是好莱坞电影人的一小部分），随时可能被召唤起来。当某个比如类似于 “Deadpool” 这样的项目出现在这个网站上的时候，很快就有超过 200 人开始协作运转。
+</p>
+<p style="text-align:start;">
+	更重要的是，这里有源源不断的电影学院毕业生。《好莱坞报道者》每年会评选出全美最顶尖的 25 所电影学院。位于洛杉矶市中心的南加州大学 (USC) 已经连续三年位列第一。曾经在南加大讲课的演员和制片人 Jennifer Warren 说，学生会从和好莱坞的互动中受益，比如邀请像她这样的人来学校开课。
+</p>
+<p style="text-align:start;">
+	至于这些“相仿元胞”的真实面貌，刚从南加州大学电影学院硕士班毕业的 Rafeal Moreas 说得更好。他说：“在洛杉矶的人都想拍片子，他们也许和你没有同样的观念，但他们和你一样专业。”
+</p>
+<p style="text-align:start;">
+	还有更多为了电影而来到洛杉矶的人。比如我们曾经报道过的<a href="http://www.qdaily.com/articles/11613.html" target="_blank">俄罗斯作曲家 Sergei Stern</a> 。
+</p>
+<p style="text-align:start;">
+	现在，你大概不会再问那个愚蠢的问题了：能否在中国复制一个好莱坞。在雄心勃勃的中国，这是一个经常出现的（看起来好像还很迫切）要解决的问题。过去几年里，我们不时听说有公司希望通过某个主题乐园在中国复制出一个好莱坞，有地方政府希望通过更优惠的文创税收政策让城市郊区变成好莱坞……而那个走得最激进的也最有实力的万达呢——王健林试图在青岛打造一个全球最大规模的影视产业基地“青岛东方影都”，这个投资&nbsp;500 亿元的项目会和几家电影制片厂合作，还和全球四大艺人经纪公司签署了协议，打算把好莱坞的明星请到中国来拍摄电影。
+</p>
+<p style="text-align:start;">
+	它们都想成为未来中国好莱坞的“引擎”，或者我们一直在用的那个隐喻—— CPU 。
+</p>
+<p style="text-align:start;">
+	问题是，好莱坞没有 CPU。它只有一个生态，那些人、项目所组成的生态。生态并非不可能复制，但显然需要更长的时间。
+</p>
+<p style="text-align:start;">
+	最初，在犹太人大规模移民纽约这段时期，一群社会底层的拾荒者、毛皮加工工人、屠夫、二手货小贩发现了一种可能成为谋生手段的工具——电影。于是，他们开始制作那种几分钟的小电影，渐渐从街头转向室内。然而，电影这个时候虽然在艺术和娱乐消遣方面还上不得台面，但毕竟集合了若干新技术，托马斯·爱迪生的通用电气、乔治·伊士曼的柯达等公司希望立法收取专利保护费——纽约州和马萨诸塞州已经通过了法律，这些草莽的欧洲移民、最初的电影从业者好日子到了尽头。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/49573343c721.jpg" width="792" height="400" title="好莱坞第一家制片厂 Netro" alt="好莱坞第一家制片厂 Netro" /><span>好莱坞第一家制片厂 Nestor Studios</span> 
+</p>
+<p>
+	<span style="text-align:start;">然后，这些犹太人逃到了远离东北部的对角线的另一端。事后很多分析会说加州的阳光宜人，加州更适合拍电影，但实际原因只有一个，这里天高皇帝远，实在躲不起的时候，还可以逃到更远的墨西哥。</span> 
+</p>
+<p style="text-align:start;">
+	接下来的一百年，这里长成了好莱坞；在很高很高的层面上看，这里长出了六大（制片公司）或者四大（经纪公司），每年生产超过 300 亿票房的电影。这些大公司们分分合合，形成垄断然后被拆分，被收购或者重组，这里是全球的娱乐业中心；但在一个更广阔的层面上，这一百年里产生了数以百万计的电影从业者和数不清的工作室、小公司，他们在成千上万个“项目”的组织下生生不息，成为不可复制的一种存在。
+</p>
+<p style="text-align:start;">
+	<br />
+</p>
+<p style="text-align:start;">
+	<em>那么这些个体的人，这些公司，项目制，细胞一样的存在，借助什么在运转，《好奇心日报》下一篇报道将介绍：经纪人。</em> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="1041">
+				<span data-id="1041">好莱坞</span>
+			</li>
+			<li class="tag item" data-id="14927">
+				<span data-id="14927">元胞自动机</span>
+			</li>
+			<li class="tag item" data-id="14930">
+				<span data-id="14930">项目制</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13905" data-title="《「好莱坞报告一」为什么中国复制一个好莱坞是不可能的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13905/medium/13905.jpg?1440372302" data-url="http://www.qdaily.com/mobile/articles/13905.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27048.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27048/medium/27048.jpg?1463625301" alt="">
+                        <h1 class="title">Nike 与切尔西签十年期合约，以及，星巴克配色球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27072.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27072/medium/27072.jpg?1463636731" alt="">
+                        <h1 class="title">全美国精酿啤酒品牌联合起来，推出了一款啤酒</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27066.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27066/medium/27066.jpg?1463634723" alt="">
+                        <h1 class="title">「这世界」这个人怎么可以在地铁上看这么污的书！</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27056.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27056/medium/27056.jpg?1463628315" alt="">
+                        <h1 class="title">一本中东本土诞生的男性时尚杂志，会关心什么内容？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27047.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27047/medium/27047.jpg?1463620016" alt="">
+                        <h1 class="title">今日娱乐：科林·费斯回归《王牌特工 2》，DC换Logo</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27067.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27067/medium/27067.jpg?1463633134" alt="">
+                        <h1 class="title">2016威尼斯建筑双年展下周揭幕，7个主题你值得关心</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27063.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27063/medium/27063.jpg?1463630012" alt="">
+                        <h1 class="title">小米要去美国卖盒子了，说要卖给米粉</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13905">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13905" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">524</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13900.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

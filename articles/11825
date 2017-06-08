@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>对初创公司来说，有多少天使投资人算是过量了？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="对初创公司来说，有多少天使投资人算是过量了？。毕竟“吃人嘴短拿人手软”，融资太多太快也不好。。好奇心日报为您呈现对初创公司来说，有多少天使投资人算是过量了？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="初创公司 天使投资 纽约时报 风投 管理 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="jhRk3EDu5lk05oSMVw7eNKVI9oUkPfFpSrsaTc8IMCU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5875">
+				<span data-id="5875">初创公司</span>
+			</li>
+			<li class="tag item" data-id="10022">
+				<span data-id="10022">天使投资</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="3999">
+				<span data-id="3999">管理</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">对初创公司来说，有多少天使投资人算是过量了？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Mike Isaac</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-10 15:50:04 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11825/medium/11825.jpg?1436636418" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11825" data-title="《对初创公司来说，有多少天使投资人算是过量了？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11825/medium/11825.jpg?1436636418" data-url="http://www.qdaily.com/mobile/articles/11825" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				毕竟“吃人嘴短拿人手软”，融资太多太快也不好。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	南希·华在会议上向潜在的投资者们介绍了自己的初创公司。会后不久，她就受到了热切的投资者们的狂轰滥炸。48 个小时刚过，这位硅谷企业家就从被人们称之为天使投资人的富人们手中募集到了 200 万美元。
+</p>
+<p>
+	向华小姐进行投资的天使投资人一共有 21 位。而且要不是华小姐拒绝了一些投资者，她本来还会有更多的天使投资人。
+</p>
+<p>
+	去年，29 岁的华小姐宣布要为自己的初创公司 Apptimize 募集资金。在提到那次资金募集的经历时，她说：“我刚对我们公司介绍了三十秒钟，就有三人发邮件给我，说他们想要投资我的公司。我们拒绝了大概几十个想要投资我们公司的人。”对创业者来说，争取大量优秀的天使投资人已经变得像是在收集奖杯一样，已然成为了一场会为初创公司带来一些风险的角逐。而对许多投资新手来说，在硅谷的文化资本下，在热门的初创公司身上押注成功也能为他们带来丰厚的收益。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/b502352c05b4.jpg" width="675" height="429" title="d" alt="d" style="text-align:center;" /><span>南希·华是可视化移动应用测试平台 Apptimize 的首席执行官。这家初创公司短短几天内就从 21 名天使投资人那里募集到了大约 200 万美元。去年有将近 3000 名天使投资人进行了类似投资，其中还包括几位硅谷的重要人物。</span> 
+</p>
+<p>
+	据研究风险投资的调研公司 CB Insights 的数据显示，去年，参加过一轮融资的天使投资人共有超过 2960 位，是 2010 年参加过一轮融资的天使投资人数（822 位）的三倍还多。人们甚至还给那些有大量天使投资人参与、却没有主要投资人的融资轮次起了一个绰号：派对轮融资（party rounds）。
+</p>
+<p>
+	“种子投资是硅谷的身份象征，”YCombinator 董事长山姆·奥尔特曼（Sam Altman）说道，“大多数人都不想要法拉利，他们只想赢得一笔种子投资。”YCombinator 是一家创业孵化器，孵化过空房出租服务 Airbnb 和社交新闻网站 Reddit 等公司。
+</p>
+<p>
+	现在或许是募集风险资本的最佳时机，年轻的公司创始人们正纷纷利用这一机会募集资金，但这其中也存在着一些严重的问题。比如说，如果有许多天使投资人同时投资一家公司，那么可能就不会有任何一位投资人认为自己有义务在公司陷入困境时伸出援手。
+</p>
+<p>
+	此外，拥有十来个甚至更多的天使投资人，也意味着在公司战略上可能会出现十来种甚至更多种不同的意见。
+</p>
+<p>
+	商业情报公司 Mattermark 的首席执行官丹妮尔·莫里尔（Danielle Morrill）通过亲身经历认识到了这一点。2013 年，她成立了这家跟踪了解私营企业发展情况的初创公司。她说，公司共收到 160 笔来自个人的投资，其中许多人写下的支票金额约在 50000 美元左右。据她所言，这些投资者常常会提出自己对 Mattermark 产品方向的看法，为了保持礼貌，她总会鼓励他们。
+</p>
+<p>
+	“你想要发挥他们的集体智慧，因此你就只能一直说‘谢谢您的反馈’，这样一来他们就会不停地告诉你他们的意见，”莫里尔说道，“但接下来你就要凌晨三点独自一人坐在那儿，还得决定你的小团队要把精力集中在哪一件事上。你的大脑飞速转动，就好像是喝多了酒但仍然完全清醒时那样。”
+</p>
+<p>
+	莫里尔说，为了处理这些泛滥成灾的建议，她得对其中许多提议置若罔闻。”Beats 耳机的广告里，篮球队员打开音乐，不去理会周围所有其他的事，然后赢得了比赛。我很喜欢那些广告，”她说道，“我所做的就和这广告一样。”
+</p>
+<p>
+	硅谷过去五年来创造了巨额的财富，这刺激了天使投资人，他们的队伍像气球一样不断膨胀增大。Facebook、Twitter、软件提供商 Workday 以及 LinkedIn 等公司的 IPO造就了大量科技领域的百万富翁，他们中有不少人都将手中充裕的现金投在了下一代新兴企业家身上。
+</p>
+<p>
+	比如戴夫·莫兰（Dave Morin）和凯文·克莱兰（Kevin Colleran），这两位前任 Facebook 雇员现在就是相当活跃的天使投资人。其他优秀的天使投资人诸如马克斯·莱文奇恩（Max Levchin）和玛丽莎·梅耶尔（Marissa Mayer）等，则将他们在Google、雅虎这些较为老牌的网络公司任职时赚到的数千万美元投了进来。Pinterest、Uber 和 Lyft 等硅谷知名公司，最近几个月也因<a href="http://www.nytimes.com/2015/05/11/technology/uber-valuation-highlights-the-speedy-pace-of-investments.html">启动新一轮融资，准备募集数十亿美元</a>而备受关注。其实，这一科技初创公司热潮起源于更早的阶段——当时这些公司中有许多不过就是由寥寥几个人和他们的 MacBook Pro 组成的。
+</p>
+<p>
+	现在，这一热潮已经到了小型初创公司都拥有史无前例的大量天使投资人的程度。和编程相关的初创公司 CodeFights 和数据分析公司 Amplitude 称，他们两家公司去年各吸引了大约 30 名天使投资人。根据 CB Insights 的数据，2013 年，手机购物初创公司 Spring 第一轮融资共有 45 名投资人参与。另一家自称为人际关系软件初创公司的 ZenPayroll 则拥有 56 名天使投资人。之前 CodeFights 的联合创始人兼首席执行官蒂格兰·斯洛言（Tigran Sloyan）正在寻求今年的投资，他希望能让一位知名的天使投资人做出投资承诺。他联系了 Facebook 早期雇员、问答社区 Quora 联合创始人亚当·狄安杰罗（Adam D’Angelo）。
+</p>
+<p>
+	斯洛言说：“当我把我的想法告诉亚当时，他非常感兴趣。”三月，狄安杰罗同意投资一个月后，CodeFights 就从三十多位投资者手中募集到了 250 万美金。“看到信赖的人的名字后，他们每个人都想要投资，”斯洛言说道。
+</p>
+<p>
+	将资金从 Facebook 抽出后，狄安杰罗就开始做起了天使投资。在一封电子邮件中他说，CodeFights 创始人的经历、消费者们已经开始使用这家初创公司的产品的事实，以及如果一切顺利的话，这家公司可能会拥有的潜在市场这三大因素吸引了他。“这家公司有很大的潜力，”他写道。
+</p>
+<p>
+	这和以前初创公司一般只有五到十位天使投资人的情况大不相同。“2006 年我刚开始运作公司的时候，天使投资人大概有 30 或 50 个，其中非常活跃的投资人有三到五位，”关注早期阶段投资状况的硅谷公司 Felicis Ventures 的创始人兼常务董事艾丁•森库特（Aydin Senkut）说道，“现在每个人、他们的家人和他们的宠物，只要手里有些钱的人，都想要参与到天使投资中来。”
+</p>
+<p>
+	天使投资人数量的增长刺激了投资人争相和公司签订协议，从而催生了一些不当行为。Amplitude 联合创始人兼行政长官斯宾塞·司盖茨（Spenser Skates）说，一些天使投资人特别想把钱投给初创公司，他们很少会看协议条款。
+</p>
+<p>
+	“他们不会在这上面花费（和投资金额）相当的精力，” 司盖茨说道，“他们就是听你讲故事，然后你把文件寄给他们就好。”
+</p>
+<p>
+	据 Apptimize 的华小姐所言，拥有太多天使投资人同样也会伤害初创公司，天使投资人数量过多，可能会让人认为公司没有足够的实力吸引一位“主要”投资人。在被问及他们投资的公司具体的健康状况时，许多天使投资人可能也并不清楚，这会给人一种公司状况不佳的感觉。
+</p>
+<p>
+	“我事先并没有考虑到这些交流沟通可能会给公司带来的问题，”华小姐说道。
+</p>
+<p>
+	现在也慢慢开始有了一些为可能成为天使投资人的人提供帮助的项目。阿尔特曼的YCombinator 正在教导新的个人投资者。先前，公司还在位于加利福尼亚州山景城的总部举办了一场针对天使投资的速成课。这一活动采取邀请制，时长四小时，活动内容包括一些关于如何评估公司创始人和他们的想法的讲座，以及有关天使投资者如何帮助他们所投资的公司等方面的小建议。活动还重点强调了天使投资并不是一件容易的事，新手应该做好赔钱的准备。
+</p>
+<p>
+	同时，YCombinator 也警告年轻企业家不要过快募集过多的资金。“我们非常明确地告诉他们，他们应该少选一些投资者。”阿尔特曼说道。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 &nbsp;is译社 钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5875">
+				<span data-id="5875">初创公司</span>
+			</li>
+			<li class="tag item" data-id="10022">
+				<span data-id="10022">天使投资</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3212">
+				<span data-id="3212">风投</span>
+			</li>
+			<li class="tag item" data-id="3999">
+				<span data-id="3999">管理</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11825" data-title="《对初创公司来说，有多少天使投资人算是过量了？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11825/medium/11825.jpg?1436636418" data-url="http://www.qdaily.com/mobile/articles/11825" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25276/medium/25276.jpg?1460357878" alt="">
+                        <h1 class="title">一款号称卖给 “95 后”的茶饮料，背后是大公司对年轻人怎样的揣测？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25272/medium/25272.jpeg?1460353578" alt="">
+                        <h1 class="title">灯越来越重要，北欧家居公司HAY独立一个子品牌专做这个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25285.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25285/medium/25285.jpg?1460366636" alt="">
+                        <h1 class="title">这家做汽水机的公司，总喜欢在广告里诋毁人家做瓶装生意的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25274.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25274/medium/25274.jpg?1460354893" alt="">
+                        <h1 class="title">17 家媒体要联名告一家浏览器，因为它抢了自己的生意</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25268/medium/25268.jpg?1460346559" alt="">
+                        <h1 class="title">「这世界」那些不睡觉的传说，还是留给真正的天才吧！</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11825">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11825" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">47</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11798.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

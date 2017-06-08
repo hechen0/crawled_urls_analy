@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>了解一下这个叫寨卡的病毒，它有可能来势汹汹_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="了解一下这个叫寨卡的病毒，它有可能来势汹汹。在拉丁美洲和加勒比海地区，该病毒已经蔓延到超过 20 个国家和地区。。好奇心日报为您呈现了解一下这个叫寨卡的病毒，它有可能来势汹汹的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 寨卡病毒 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="bPMZbWWmbowGxsBthr9oHQ0A+/NnJzQzkTtB3DvaUf8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="22890">
+				<span data-id="22890">寨卡病毒</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">了解一下这个叫寨卡的病毒，它有可能来势汹汹</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/41601/small/41601.jpg?1421797941" alt="">
+					</span>
+				<span class="name">Sabrina Tavernise</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-30 08:42:11 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21524/medium/21524.png?1454063261" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21524" data-title="《了解一下这个叫寨卡的病毒，它有可能来势汹汹》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21524/medium/21524.png?1454063261" data-url="http://www.qdaily.com/mobile/articles/21524.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				在拉丁美洲和加勒比海地区，该病毒已经蔓延到超过 20 个国家和地区。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	周二，<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/w/world_health_organization/index.html?inline=nyt-org" target="_blank">世界卫生组织</a>在全球范围内拉响了针对寨卡（Zika）病毒的警报，称该病毒在美洲呈现“爆炸式蔓延”，年内可能导致多达&nbsp;400&nbsp;万人感染。
+</p>
+<p>
+	<span>世界卫生组织总干事陈冯富珍（</span><span>Dr. Margaret Chan</span><span>）称，她正在召集一场将在周一召开的紧急会议，以商讨当前寨卡病毒流行是否够构成</span><span>“</span><span>一场公共卫生的紧急事件</span><span>”</span><span>。由于在应对上一个全球性公共卫生危机</span><span>——</span><span><a href="http://topics.nytimes.com/top/reference/timestopics/subjects/e/ebola/index.html?inline=nyt-classifier" target="_blank">埃博拉</a>病毒的时候</span><span>没有及时采取协调、有效的策略而导致疫情在数月内持续发酵，世界卫生组织深受诟病，因此，作为一个信号，此次世卫组织的举动反映出了这个全球性健康组织这次应对<span>寨卡</span><span>病毒</span>的严肃程度。</span> 
+</p>
+<p>
+	自去年春天起，已有 20 多个国家报道称在本国内发现的<span>寨卡病毒</span>案例。这是一种由蚊子传播的病毒而且有可能造成<a href="http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/birth_defects/index.html?inline=nyt-classifier" target="_blank">出生缺陷</a>。
+</p>
+<p>
+	<span>“</span><span>警报的级别非常高。</span><span>”</span><span>陈冯富珍在日内瓦的一次发言中说。</span> 
+</p>
+<p>
+	<span>陈冯富珍称，颇受关心的问题就是不断增长的<a href="http://www.nytimes.com/health/guides/symptoms/microcephaly/overview.html" target="_blank">小头畸形儿（又称小头症）</a>案例，这是一种罕见的症状，婴儿出生的时候大脑受损且头颅很小。有报道称，随着寨卡病毒在传播，<a href="http://health.nytimes.com/health/guides/symptoms/microcephaly/overview.html?inline=nyt-classifier" target="_blank">新生儿小头症</a>在<a href="http://www.nytimes.com/2015/12/31/world/americas/alarm-spreads-in-brazil-over-a-virus-and-a-surge-in-malformed-infants.html" target="_blank">巴西呈现戏剧性的激增</a>。有专家称，现在要确认寨卡病毒就是小头症的诱因还为时过早，但已经有证据显示二者之间存在联系。萨尔瓦多共和国政府甚至<a href="http://www.nytimes.com/2016/01/26/world/americas/el-salvadors-advice-on-zika-dont-have-babies.html" target="_blank">出台了建议</a>，希望女性不要在&nbsp;</span><span>2018&nbsp;</span><span>年前怀孕。</span> 
+</p>
+<p>
+	<span>但即便国际健康权威机构发布了强力警报，美国健康卫生部门的官员还在试图安抚国人，他们称，暴露在病毒感染区的绝大多数人并没有生病，而且疫情在国内爆发的可能性极低，部分原因是因为有效的蚊虫防控。</span> 
+</p>
+<p>
+	<span><span><a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/centers_for_disease_control_and_prevention/index.html?inline=nyt-org" target="_blank">联邦疾病控制与预防中心</a>的首席副主任安妮</span><span>·</span><span>舒查特（</span><span>Anne Schuchat</span><span>）说，</span><span>“</span><span>那些并不会到这片区域旅行的普通美国人并不必担心。</span><span>”</span></span> 
+</p>
+<p>
+	<span>“</span><span>就目前而言我得说，寨卡病毒在美国绝大多数地方传播的可能性是很低的，</span><span>”</span><span>《医学昆虫学报》（</span><span>Journal of Medical Entomology</span><span>）的编辑威廉</span><span>·</span><span>瑞森博士（</span><span>Dr. William Reisen</span><span>）说。</span> 
+</p>
+<p>
+	<span>瑞森认为，美国城市没有那么拥挤，而且广泛使用空调设备和窗玻璃，所以病毒在美国不会像在欠发达的中美、南美国家那样快速扩散。他补充说，相比那些疫情快速蔓延的热带城市，美国的市政服务也做得更好。</span> 
+</p>
+<p>
+	<span>然而美国官员还面临着一个紧急问题。疾控中心的负责人托马斯</span><span>·</span><span>弗雷登（</span><span>Thomas R. Frieden</span><span>）博士本周向奥巴马总统做了简报，还有一群来自疾控中心的专家正在与巴西当地机构共同协作。</span> 
+</p>
+<p>
+	<span>世界卫生当局有一项棘手的任务。他们必须就病毒爆发的严重性向公共部门和决策者施压，以便让政府和全球性的健康机构及时采取应对措施，然而在<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/e/ebola/index.html?inline=nyt-classifier" target="_blank">埃博拉</a>病毒蔓延期间，有些变化来的太晚了些。</span> 
+</p>
+<p>
+	<span>不过两次的病毒非常不同：</span><span>埃博拉病毒是致命的且通过体液传播</span><span>，</span><span>而目前并没有充分证据表明寨卡病毒是导致出生缺陷的直接原因，健康官员可能会更小心，以免把形势描述得太过糟糕。</span> 
+</p>
+<p>
+	<span>“‘密切</span><span>关注</span><span>’</span><span>当然是最合适的用语，</span><span>” </span><span>世界卫生组织助理总干事布鲁斯</span><span>·</span><span>埃尔伍德（</span><span>Bruce Aylward</span><span>）在日内瓦说，</span><span>“‘</span><span>警告</span><span>’</span><span>绝对不是合适的措辞。</span><span>”</span> 
+</p>
+<p>
+	<span>自 </span><span>2015 </span><span>年以来，<span>寨卡病毒</span>已经在包括哥伦比亚特区在内的&nbsp;</span><span>11&nbsp;</span><span>个州区发现了&nbsp;</span><span>31&nbsp;</span><span>例感染病例，但所有感染者都是在疫情暴发的国家感染的病毒。政府官员并未透露其中是否有怀孕者。同时在波多黎各也有</span><span>19</span><span>个病例，另外还有一个来自美属维尔京群岛。</span> 
+</p>
+<p>
+	<span>巴西卫生主管部门在周三称，自去年</span><span> 10 </span><span>月以来，小头症病例已经攀升到</span><span> 4180 </span><span>例，与上周数据相比增长了</span><span> 7% </span><span>。在疫情爆发前，巴西平均一年的小头症病例仅为</span><span> 150 </span><span>例。</span> 
+</p>
+<p>
+	<span>这引起了普遍的恐慌，因为研究者称该病毒只是在最近才蔓延到巴西，由于医生报告的小头症病例出现大幅增长，医院和其它医疗官员随后紧密跟进。</span> 
+</p>
+<p>
+	<span>但是要证明寨卡病毒就是导致这一现象的原因也没那么容易。</span> 
+</p>
+<p>
+	<span>“</span><span>搞清楚相关性和诱因之间的区别非常重要，</span><span>”</span><span>埃尔伍德说，目前，对于寨卡病毒与小头症的相关性还有很多问题存疑。</span> 
+</p>
+<p>
+	<span>他随后说：</span><span>“</span><span>基于目前的信息来看，越来越多的倾向是认为两者之间的确有因果关系，但是目前在进行的很多工作都只能排除其他可能的诱因。</span><span>”</span> 
+</p>
+<p>
+	<span>巴西卫生部周三称，他们已经对</span><span> 700 </span><span>个上报的病例进行了检查，仅在</span><span> 6 </span><span>名婴儿身上发现了寨卡病毒</span><span>——</span><span><a href="http://www.nytimes.com/2016/01/28/world/americas/reports-of-zika-linked-birth-defect-rise-in-brazil.html" target="_blank">然而我们并不清楚这究竟意味着什么</a>。</span> 
+</p>
+<p>
+	<span>传染病专家警告说，巴西的测试方法已经过时，可能会遗漏寨卡病毒案例。他们还认为，在某些案例中，母亲可能感染了寨卡病毒，从而导致她的新生儿患上小头症，但该病毒却不一定会感染到婴儿。</span> 
+</p>
+<p>
+	<span>在拉丁美洲和加勒比海地区，该病毒已经蔓延到超过</span><span> 20 </span><span>个国家和地区。陈冯富珍说，她</span><span>“</span><span>对这种迅速变化的局势深表关注</span><span>”</span><span>。由于携带病毒的蚊子几乎无处不在，而几乎没有人对其有免疫能力，她还对该病毒进行进一步国际传播的潜力发布了警告。这一病毒最初在</span><span> 1940 </span><span>年代的乌干达被发现，鲜少在美洲检测到病例。</span> 
+</p>
+<p>
+	<span>“</span><span>关注水平高，不确定性也很高，</span><span>”</span><span>她说。</span><span>“</span><span>问题比比皆是。我们需要迅速找到答案。</span><span>”</span> 
+</p>
+<p>
+	<span>当被问及世卫组织是否会建议人们不要赶赴巴西参加奥运会时，埃尔伍德回答说：</span><span>“</span><span>如果仅就受感染的区域和范围来说，我认为这是非常、非常不可能的。</span><span>”</span> 
+</p>
+<p>
+	<span>一些专家此前批评陈冯富珍，说她没有立刻召集一个委员会，对是否宣布寨卡病毒为公共卫生紧急事件提供建议。周三在《美国医学会杂志》中，两位专家呼吁召开紧急会议，他们说，世卫组织的犹豫不决和&nbsp;</span><span>2014 </span><span>年针对埃博拉病毒爆发时应对的迟缓如出一辙。</span> 
+</p>
+<p>
+	<span>“</span><span>召集专门委员会的举动将促进各国对此事的关注、资助和研究，</span><span>”</span><span>他们写道。</span> 
+</p>
+<p>
+	<span>周四上午，文章作者之一、乔治城大学医学院（</span><span>Georgetown University School of Medicine</span><span>）研究全球病毒爆发的专家丹尼尔</span><span>·</span><span>路希（</span><span>Daniel Lucey</span><span>）博士对世卫组织宣布周一召开紧急会议的声明表示满意。他说：</span><span>“</span><span>我非常、非常的高兴。</span><span>”</span> 
+</p>
+<p>
+	<span>陈冯富珍说，她正在就</span><span>“</span><span>提请国际社会给予适当程度的关注</span><span>”</span><span>以及世卫组织应当建议受感染国家采取哪些措施这两点咨询委员会的意见。她说，她会请委员会确定研究的优先顺序。</span> 
+</p>
+<p>
+	<span>陈冯富珍指出，目前令人担心的问题在于还没有针对这种病毒的疫苗，也没有相应的快速诊断试剂来确定一个人是否感染。美国国家过敏与传染病研究所（</span><span>National Institute of Allergy and Infectious Diseases</span><span>）主任安东尼</span><span>·</span><span>弗契（</span><span>Anthony S. Fauci</span><span>）博士在本周一次采访中说，美国国立卫生研究院（</span><span>National Institutes of Health</span><span>）曾经进行过这两方面的研究。</span> 
+</p>
+<p>
+	<span>“</span><span>我们已经就疫苗研发进行了初步的探索，</span><span>”</span><span>他说。</span><span>“</span><span>我们也已经开始研发诊断方法，以确认一个人是否被感染。</span><span>”</span> 
+</p>
+<p>
+	<span>但弗契在一次新闻发布会上说，今年不大可能实现疫苗的大规模应用，甚至在接下来几年里都不大可能。</span> 
+</p>
+<h1>
+	寨卡病毒和怀孕
+</h1>
+<p>
+	<span>寨卡病毒的感染通常是温和的，但该病毒对怀孕女性和她们腹中胎儿的影响正在引起人们的关注。关于这些问题的详细解答，请看下面的<a href="http://www.nytimes.com/interactive/2016/health/what-is-zika-virus.html" target="_blank">问答</a>。</span> 
+</p>
+<p>
+	<span><strong>孕妇应当避免去哪些国家？</strong></span> 
+</p>
+<p>
+	<span>寨卡病毒正在大约 </span><span>20 </span><span>几个国家传播，大多数在拉丁美洲和加勒比海地区。<a href="http://www.nytimes.com/interactive/2016/health/what-is-zika-virus.html" target="_blank">完整名单请看这里</a>。</span> 
+</p>
+<p>
+	<span><strong>寨卡病毒会引起哪些出生缺陷？</strong></span> 
+</p>
+<p>
+	<span>科学家们已经通过间接推测发现，巴西发生的小头症病情和寨卡病毒感染之间存在着相当确凿的联系。疾控中心已经表示一些暴露在<span>寨卡病毒中的新生儿必须检查是否患有<a href="http://www.nytimes.com/2016/01/27/health/zika-testing-is-urged-for-some-newborns.html" target="_blank">视觉以及听觉障碍</a>。</span></span> 
+</p>
+<p>
+	<span><strong>暴露在寨卡病毒中的孕妇该怎么办？</strong></span> 
+</p>
+<p>
+	<span>一些女性应当接受血检，大部分女性应当接受超声波检查。不幸的是，通常情况下小头症无法在怀孕的前三个月里检出。</span> 
+</p>
+<p>
+	<span><strong>在怀孕期间感染了寨卡病毒之后，最让人担忧的是什么？</strong></span> 
+</p>
+<p>
+	<span>在怀孕的最初三个月里，一些女性意识不到自己已经怀孕，而这一阶段似乎是最危险的时期。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>翻译：熊猫译社 饮墨 葛仲君</span> 
+</p>
+<p>
+	题图版权：<span style="text-align:start;">Felipe Dana</span>/美联社
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="22890">
+				<span data-id="22890">寨卡病毒</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21524" data-title="《了解一下这个叫寨卡的病毒，它有可能来势汹汹》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21524/medium/21524.png?1454063261" data-url="http://www.qdaily.com/mobile/articles/21524.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/4299.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/4299/medium/4299.jpg?1436647285" alt="《时代》周刊年度人物：埃博拉抗击者">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/12/medium/12.png?1433892245" alt="Best on the Web">
+				<span>Best on the Web</span>
+		</p>
+		<h1 class="title">《时代》周刊年度人物：埃博拉抗击者</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">4</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24951.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24951/medium/24951.jpg?1459817189" alt="">
+                        <h1 class="title">今日娱乐：姚明入选 NBA 名人堂，张柏芝复出拍电影</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24946.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24946/medium/24946.jpg?1459808207" alt="">
+                        <h1 class="title">为了死去的儿子，一位父亲也想让苹果解锁 iPhone</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24938.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24938/medium/24938.jpg?1459786584" alt="">
+                        <h1 class="title">日本新型特快列车，车身可以和周围环境融为一体</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24949.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24949/medium/24949.jpeg?1459815039" alt="">
+                        <h1 class="title">大公司头条：新 Kindle 下周发布，迪士尼第二把手离开</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21524">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21524" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">86</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/cards/21013.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

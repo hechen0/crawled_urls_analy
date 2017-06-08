@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>五个人做一本杂志，就把生活方式卖给了全世界_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="五个人做一本杂志，就把生活方式卖给了全世界。全球化时代，“小而美” 也可以走得很远。。好奇心日报为您呈现五个人做一本杂志，就把生活方式卖给了全世界的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="kinfolk 生活方式 杂志 Ouurs Q Business " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ADFtPH8/LLxGst1ox6n//jyuNhoehH8O5M7Ql704IB8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6822">
+				<span data-id="6822">kinfolk</span>
+			</li>
+			<li class="tag item" data-id="1112">
+				<span data-id="1112">生活方式</span>
+			</li>
+			<li class="tag item" data-id="2443">
+				<span data-id="2443">杂志</span>
+			</li>
+			<li class="tag item" data-id="7314">
+				<span data-id="7314">Ouurs</span>
+			</li>
+			<li class="tag item" data-id="7018">
+				<span data-id="7018">Q Business</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">五个人做一本杂志，就把生活方式卖给了全世界</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/37533/small/37533.jpg?1421717946" alt="">
+					</span>
+				<span class="name">唐冰蕊</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-02 08:38:22 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/6892/medium/6892.jpg?1436697432" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6892" data-title="《五个人做一本杂志，就把生活方式卖给了全世界》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6892/medium/6892.jpg?1436697432" data-url="http://www.qdaily.com/mobile/articles/6892.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				全球化时代，“小而美” 也可以走得很远。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	倘若你有个公开的博客或社交账号，有事没事发一组照片，配几笔文字，那么接下来的故事，你也许会喜欢。
+</p>
+<p>
+	和你一样，这个叫 Nathan Williams 的加拿大年轻人最初也只是随便写写。2008 年开始，他在杨百翰大学夏威夷分校（Brigham Young University–Hawaii）——这所全美最大教会大学的小分校念书，追随父亲的脚步攻读经济学。夏威夷时光闷热绵长，Nathan 于是做了个博客，在上面贴一点花园晚餐或外出聚会的照片，比如给餐盘来一个完美的俯拍，或者发一张女友 Katie Searle 在树下美丽的倩影。
+</p>
+<p>
+	<img src="/uploads/image/201502/f00a5febe647.jpg" alt="" /> 
+</p>
+<p>
+	Nathan Williams, Kinfolk 杂志主编及创始人。
+</p>
+<p>
+	<img src="/uploads/image/201502/487af9e78052.jpg" alt="" />
+</p>
+<p>
+	Kinfolk 式俯拍。
+</p>
+<p>
+	到了 2011 年，这个博客的固定阅读人数超过了 60,000 人，Nathan 也在不知不觉中形成了自己的风格——引人凝视的肖像，以及看似不经意的静美瞬间。Nathan、Katie 及好朋友 Bischoff 兄妹逐渐意识到，这个博客所提供的风格和内容，在目前的出版界似乎未曾发生。
+</p>
+<p>
+	他们决定放手一试。
+</p>
+<p>
+	很快，这本叫做 Kinfolk 的杂志第一期出炉于乱糟糟的学生宿舍。此时恰逢毕业，四人各奔东西，Nathan 甚至搭飞机去了纽约高盛银行入职。不过两周以后，他又掉头飞回西部，并邀请朋友们一起搬到波特兰，开始全职经营 Kinfolk，把他们钟情的生活方式扎扎实实做进纸质书里。
+</p>
+<p>
+	<img src="/uploads/image/201502/15c45801db5a.jpg" alt="" />
+</p>
+<p>
+	Kinfolk 波特兰办公室陈列着最近几期出版物。
+</p>
+<p>
+	<img src="/uploads/image/201502/7ebf32de50aa.jpg" alt="" />
+</p>
+<p>
+	Kinfolk 杂志内页。
+</p>
+<p>
+	接下来的故事顺利得有点无聊。也许是因为这种混杂着斯堪的纳维亚风情的轻颓质感与<a href="http://qdaily.com/display/cards/6479.html#/card/2" target="_blank">日式美学</a>不谋而合，很快，Kinfolk 风格席卷全球，杂志订阅量达到令主创人员感到疯狂的地步。由 Nathan 开始的俯拍餐桌风格在 Instagram 上大受追捧，而这一热潮甚至延续到了今天。
+</p>
+<p>
+	听起来很像一个“我为什么放弃投行高薪自主创业”的热血故事，不过这位外形典雅、言语轻柔的加拿大人也许最开始并没有“改变世界”的雄心。 Kinfolk 这个名字，由英文单词 Kinsfolk (亲戚，眷属) 脱胎而来，而 Kinfolk 杂志倡导的，不过是“慢一点、美一点，吃餐好饭，再多陪陪家里人”。
+</p>
+<p>
+	<img src="/uploads/image/201502/394c555ad4cc.jpg" alt="" />
+</p>
+<p>
+	来自 Kinfolk 的 “美好夏日早餐”。
+</p>
+<p>
+	与多数杂志不同，Kinfolk 以季刊形式出版。每期有一个主题，图文内容共 144 页，无任何广告，定价 16 美元。内容涵盖面则非常广，照片、散文、诗歌、专访甚至菜谱，一切关于生活方式的内容都可能囊括其中。
+</p>
+<p>
+	坚持纸质出版的同时，Kinfolk 有自己的网站及各类社交账号，在上面发布一些视频，或网络独家版内容。此外，为了适应大量海外的读者需求，他们先后在日本、韩国、俄罗斯和中国推出了本地版杂志。除原版杂志内容翻译，还在其中夹带一份“本地别册”，介绍与当地文化相关的内容。
+</p>
+<p>
+	<img src="/uploads/image/201502/63839530ab20.jpg" alt="" />
+</p>
+<p>
+	Kinfolk 中文版《四季》内页。
+</p>
+<p>
+	这么大的工作量，五个人怎么做？社区总监 Jessica 告诉我们，Kinfolk 能够走向世界，多亏了互联网时代的顺畅沟通。总部“蜗居”在波特兰的同时，借由网络，遍布全球的大量作者、摄影师、美食家、设计师等得以与 Kinfolk 协同工作，而 Kinfolk 的许多线下活动也得到了当地热心读者和志愿者的帮助。
+</p>
+<p>
+	“当然了，在波特兰办公室，我们的工作重叠也非常多，写文章和刷马桶的基本是同一群人。” Jessica 笑道。这个带有厨房和卫生间的工作室是他们的半个家，在这里，你能够看到最日常的 Kinfolk 式生活。
+</p>
+<p>
+	<img src="/uploads/image/201502/d14e75e28db4.jpg" alt="" /> 
+</p>
+<p>
+	Kinfolk 办公室一隅。
+</p>
+<p>
+	号召人们崇尚简约、放慢脚步的同时，Nathan 认为，活动 (Event) 才是 Kinfolk 生活方式的核心，比起隔着距离的美学欣赏，更重要是身体力行。Kinfolk 在波特兰本地及全球许多城市举办了一系列聚会及活动，许多人慕名而来，享受美食美酒，也结交同好。在一些创意人士高度聚集的城市，如纽约、旧金山，Kinfolk 活动甚至变成了一个社区，人们借由这个平台展开跨界合作。
+</p>
+<p>
+	<img src="/uploads/image/201502/52a7492a2474.jpg" alt="" /> 
+</p>
+<p>
+	世界各地的人们拍摄的 Kinfolk 式餐桌。
+</p>
+<p>
+	如今的 Kinfolk 已经不仅仅是一本杂志。去年，Kinfolk 与日本一家公司推出合作品牌 Ouurs，主营男装及女装。目前，Ouurs 门店仅在日本开设，我们只能通过工作室展示区的部分样品感受它与 Kinfolk 一脉相承的风格。Jessica 透露，之后 Ouurs 还将向家具类产品拓展，并在今年春天开通线上订购业务。相信很快，中国的读者也能够买到 Ouurs 的衣服了。
+</p>
+<p>
+	<img src="/uploads/image/201502/a8069c95d25f.jpg" alt="" />办公室前的展示区陈列了一部分 Ouurs 样品。
+</p>
+<p>
+	由一个“小而美”的生活博客开始，Kinfolk 一步步迈向杂志、社区和实体，未来似乎还不止于此。杂志卖向全世界也许带来了更大的工作量，但并未影响他们的生活方式。多数时候，Nathan 夫妇和其他三位成员聚集在波特兰市区东北部的办公室里，一同工作，一同午餐，也一同生活。所谓 “不忘初心，方得始终”，他们做出了极好的诠释。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6822">
+				<span data-id="6822">kinfolk</span>
+			</li>
+			<li class="tag item" data-id="1112">
+				<span data-id="1112">生活方式</span>
+			</li>
+			<li class="tag item" data-id="2443">
+				<span data-id="2443">杂志</span>
+			</li>
+			<li class="tag item" data-id="7314">
+				<span data-id="7314">Ouurs</span>
+			</li>
+			<li class="tag item" data-id="7018">
+				<span data-id="7018">Q Business</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6892" data-title="《五个人做一本杂志，就把生活方式卖给了全世界》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6892/medium/6892.jpg?1436697432" data-url="http://www.qdaily.com/mobile/articles/6892.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27048.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27048/medium/27048.jpg?1463625301" alt="">
+                        <h1 class="title">Nike 与切尔西签十年期合约，以及，星巴克配色球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27050.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27050/medium/27050.jpg?1463621755" alt="">
+                        <h1 class="title">早上九点或者凌晨三点，都是这个内衣品牌不同的产品名</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27047.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27047/medium/27047.jpg?1463620016" alt="">
+                        <h1 class="title">今日娱乐：科林·费斯回归《王牌特工 2》，DC换Logo</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27045.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27045/medium/27045.jpg?1463619296" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="6892">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="6892" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">213</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/6906.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个设计了不起之今日最佳_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个设计了不起之今日最佳。我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。。好奇心日报为您呈现这个设计了不起之今日最佳的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计 滑轮车 手套 粘钩 凳子 运动相机 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hNGdnoL0EuayK24houo5feA4bcJ20o/Sjg2Va6GrBlg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3914">
+				<span data-id="3914">滑轮车</span>
+			</li>
+			<li class="tag item" data-id="3915">
+				<span data-id="3915">手套</span>
+			</li>
+			<li class="tag item" data-id="3916">
+				<span data-id="3916">粘钩</span>
+			</li>
+			<li class="tag item" data-id="2913">
+				<span data-id="2913">凳子</span>
+			</li>
+			<li class="tag item" data-id="3917">
+				<span data-id="3917">运动相机</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个设计了不起之今日最佳</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-03 07:58:21 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3220/medium/3220.jpg?1436637270" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3220" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3220/medium/3220.jpg?1436637270" data-url="http://www.qdaily.com/mobile/articles/3220.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<h2>
+	Sound Stripp by WKRMN
+</h2>
+<p>
+	我们的桌面上需要归置太多东西，电脑、鼠标、键盘、杯子等等好多生活杂物，如果再加一个占地方的头戴式耳机，是不是感觉更麻烦了？设计团队 WKRMN 日前带来一款名为 Sound Stripp 的直角形状粘钩，造型及其简洁，可以将其粘贴在电脑显示屏的一侧，顺手挂耳机。Sound Stripp 可承重约 1 磅，足以应对市面上近 95% 的耳机。此外，Sound Stripp 的好处还在于将其从电脑上取下时，不会留下任何粘贴痕迹。黑白两色可选，定价 7.5 美元，<a href="http://workerman.storenvy.com/collections/1353-featured/products/10425885-sound-stripp" target="_blank">点击这里尝试购买</a>。
+</p>
+<p>
+	<img src="/uploads/image/201411/755db37b98b3.jpg" alt="" /><img src="/uploads/image/201411/516eb4a362da.jpg" alt="" /><img src="/uploads/image/201411/ab04733bf0c2.jpg" alt="" /><img src="/uploads/image/201411/fdc1081f9e9d.jpg" alt="" /> 
+</p>
+<h2>
+	PIXPRO SP360 by Kodak
+</h2>
+<p>
+	老牌相机品牌柯达日前带来一款 360 度全景拍摄运动相机 PIXPRO SP360。PIXPRO SP360 的外形就像是头上顶着颗圆弧镜头的方形运动相机，可支持 212 度的前景、214 度圆顶角度、180 度前后分割为上下画面以及完整 360 度的圆形视角模式。这些拍摄模式在不同的分镜运用下可以有很多变化。此外，PIXPRO SP360 也配置了 Wi-Fi 功能，亦能提供遥控的功能。当然，作为一款运动相机，包括防水、防尘、摄氏 -10 度防冻的功能它都具备，2 米高度之内的掉落也在承受范围之内。定价 349 美元，<a href="http://kodakpixpro.com/Americas/cameras/activeCam/sp360.php#" target="_blank">点击这里尝试购买</a>。
+</p>
+<p>
+	<img src="/uploads/image/201411/ca13338b94de.jpg" alt="" /><img src="/uploads/image/201411/20f633dbb7d5.jpg" alt="" /><img src="/uploads/image/201411/133dcdfe0fb3.jpg" alt="" /> 
+</p>
+<iframe height="498" width="640" src="http://player.youku.com/embed/XODE1NTU3MjM2" frameborder="0">
+</iframe>
+<h2>
+	<span style="line-height:1.5;">Refined Touchscreen Gloves by MUJJO</span> 
+</h2>
+<p>
+	可触屏手套早就不是新鲜事了，但是荷兰设计品牌 MUJJO 发布的这个产品可能是考虑最周全的一款。这双针织手套衬里为羊毛材质，保证了保暖这一基础功能，手腕部分，设计团队还使用了黑色皮质的扣带，凸显质感。而掌心部分的防滑颗粒设计则是专为手机一族的设计，增强使用者拿握时的稳定性。据官方介绍，这款手套可兼容现如今市面上的大多数电容触屏设备，定价 20.62 欧元，<a href="http://www.mujjo.com/touchscreen-gloves/refined-touchscreen-gloves" target="_blank">本月 20 日正式开始发售</a>。
+</p>
+<p>
+	<img src="/uploads/image/201411/ee5634ac0b21.jpg" alt="" /><img src="/uploads/image/201411/3f12f2c10fc1.jpg" alt="" /><img src="/uploads/image/201411/7027f63ac471.jpg" alt="" /><img src="/uploads/image/201411/343bdc80ce21.jpg" alt="" /><img src="/uploads/image/201411/96447c63907c.jpg" alt="" /> 
+</p>
+<h2>
+	Collapsible Belt-scooter by Adam Torok&nbsp;
+</h2>
+<p>
+	毕业于匈牙利西部大学应用艺术学院的设计师 Adam Torok 的毕业作品是一款可以折叠作为腰带的单轮滑行车。将交通工具变为一件随身的饰物，Adam Torok 的这一设想可谓大胆。一般而言运输工具都是不方便携带的，但这款单轮滑行车满足了携带的便捷性，折叠后可以转变成为随身佩戴的腰带。不过，鉴于其是用胶合板与铁制作而成， 1.7 千克的重量，对于一般女士来说显然有些过重了。但是作为一款单轮滑行车，它的可折叠与方便佩戴的特性还是很值得称道。
+</p>
+<p>
+	<img src="/uploads/image/201411/d32d8edaaa6d.jpg" alt="" /><img src="/uploads/image/201411/77c3a4687535.jpg" alt="" /><img src="/uploads/image/201411/7529f64d50c5.jpg" alt="" /><img src="/uploads/image/201411/0005f234fb64.jpg" alt="" /><img src="/uploads/image/201411/cf528e69a1a3.jpg" alt="" /> 
+</p>
+<h2>
+	Yodessa Stool by Tizumuka
+</h2>
+<p>
+	这款名为 Yodessa 的凳子是新加坡设计工作室 Tizumuka 的作品，由塑料凳面、实木凳腿以及阀门旋钮三个独立的物件组合而成。组装时，使用者无需借助任何其他道具，白色塑料圆形凳面下面有四个圆形的小插孔，两个板凳腿可以交叉套在插孔里面，然后将阀门旋钮穿过凳腿横梁与凳面的螺丝孔拧紧，一款时尚的小凳子便组装完成了。Yodessa 的优势在于从运输、存储到组装各个环节的便利性，它还收获了今年的德国红点奖。
+</p>
+<div>
+	<img src="/uploads/image/201411/e5325f36408d.jpg" alt="" /><img src="/uploads/image/201411/9b9b741edbdf.jpg" alt="" /><img src="/uploads/image/201411/0eaeb140d5bf.jpg" alt="" /><img src="/uploads/image/201411/c5e3e70b5a53.jpg" alt="" /><img src="/uploads/image/201411/6da812e60e2f.jpg" alt="" /><br />
+</div>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3914">
+				<span data-id="3914">滑轮车</span>
+			</li>
+			<li class="tag item" data-id="3915">
+				<span data-id="3915">手套</span>
+			</li>
+			<li class="tag item" data-id="3916">
+				<span data-id="3916">粘钩</span>
+			</li>
+			<li class="tag item" data-id="2913">
+				<span data-id="2913">凳子</span>
+			</li>
+			<li class="tag item" data-id="3917">
+				<span data-id="3917">运动相机</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3220" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3220/medium/3220.jpg?1436637270" data-url="http://www.qdaily.com/mobile/articles/3220.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24867.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24867/medium/24867.jpg?1459514506" alt="">
+                        <h1 class="title">「万物简史」二度“消失”的苏联副统帅朱可夫</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24876/medium/24876.jpg?1459526792" alt="">
+                        <h1 class="title">碧昂斯的个人品牌终于来了，走的是运动风</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3220">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3220" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">32</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3217.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

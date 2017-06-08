@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>曾经有那么一段日子，Android 在 Google 内部都混得很艰难_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="曾经有那么一段日子，Android 在 Google 内部都混得很艰难。10 年前，Android 刚开始的时候。它最大的敌人不是苹果，而是 Google 的同事。好奇心日报为您呈现曾经有那么一段日子，Android 在 Google 内部都混得很艰难的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 Android iOS iPhone Google 苹果 Larry Page Steve Jobs Andy Rubin " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="1Eu4CBKth618zwPrJcAL0C70/CCWLoom21PaN9OVfQ4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">曾经有那么一段日子，Android 在 Google 内部都混得很艰难</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/113378/small/113378.jpg?1435590009" alt="">
+					</span>
+				<span class="name">周韶宏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-14 15:27:49 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/12045/medium/12045.jpg?1436858802" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12045" data-title="《曾经有那么一段日子，Android 在 Google 内部都混得很艰难》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12045/medium/12045.jpg?1436859496" data-url="http://www.qdaily.com/mobile/articles/12045.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				10 年前，Android 刚开始的时候。它最大的敌人不是苹果，而是 Google 的同事
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<span></span> 
+<p>
+	很难想象，这个世界如果不曾出现过 Android，会是什么样子。你买手机的选择是 iPhone、诺基亚和微软也说不定。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	今年是 Android 团队被 Google 收购十周年的日子。<span style="text-align:start;">安迪·鲁宾（</span>Andy Rubin）创办的一间小公司被两位 Google 创始人看中，加入搜索巨头领导手机业务。
+</p>
+<p>
+	<span>三天前，当年和<span style="text-align:start;">鲁宾</span>一起开发 Android 的伙伴、现 Google Ventures 合伙人的 Rich Miner&nbsp;</span><a href="https://twitter.com/richminer" target="_blank">在 Twitter 上说</a><span>：“Google 收购 Android 已经十年了，Android 的创始团队成员们，纪念日快乐！”</span> 
+</p>
+<p>
+	<img src="http://www.qdaily.com/uploads/image/201507/0b1280c71d4c.jpg" alt="" /> 
+</p>
+<p>
+	我们来回头看看，今天进驻数十亿部电子产品的 Android，在 10 年前是怎么开始的。
+</p>
+<h3>
+	遇到 Google 之前，三星对 Android 说：“你喝高了吧？”
+</h3>
+<p>
+	和 21 岁就创办了苹果公司的 Steve Jobs 相比，鲁宾早年的工作经历就中规中矩的多了。
+</p>
+<p>
+	1980 年代，计算机科学专业毕业的鲁宾到蔡司担任机器人工程师，开始职业生涯。1989 年，鲁宾加入斯卡利时期的苹果。第二年他所在的部门被拆分出来，成立了一间单独的公司 General Magic 来开发手机操作系统。尽管这家公司在 1995 年上市，但由于太过超前，运营商的支持跟不上，很快便销声匿迹。
+</p>
+<p>
+	<span>此后鲁宾加入了另一家公司 Artemis Research，开发互联网电视产品，这家公司后来被微软收购，鲁宾在微软经历了短暂的工作之后决定离开。</span> 
+</p>
+<p>
+	2000 年，37 岁的鲁宾开始了创业生涯，<a href="http://www.fortunechina.com/column/c/2011-05/13/content_57201.htm" target="_blank">Danger 是他的第一家公司</a>。他和其他两位创始人的想法简单而又宏大：让每个人手上都有一台微型计算机。Danger 的产品就是一部能上网的智能手机 Sidekick，这部使用全键盘的手机看起来非常诡异，操作方法是掀开屏幕，然后旋转 180 度。尽管难以大卖，但 Sidekick 在一些小众群体里受到广泛好评，尤其是青少年、饶舌歌手和硅谷工程师。
+</p>
+<p>
+	<img src="/uploads/image/201507/f66d97c28ebc.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<span>Sidekick</span> 
+</p>
+<p>
+	随着公司的发展，Danger &nbsp;的投资者们希望物色一名新的管理者，2003 年，<span>鲁宾</span>带着失望离开了首席执行官的职位，并于同年创办了 Android 公司。
+</p>
+<p>
+	<span>鲁宾</span>对机器人有着极大的热忱，Android 的命名就证明了这一点。这个词最早出现在法国作家利尔亚当（Auguste Villiers de l’Isle-Adam）在 1886 年发表的科幻小说《未来夏娃》（L'ève future）中。他将外表像人的机器起名为 Android。2013 年离开 Android 团队后，Robin 也开始在 Google X &nbsp;实验室里潜心研究机器人。
+</p>
+<p>
+	2005 年，<span>鲁宾</span>带着 Android 的原型机来到 Google，见到了 Google 的创始人 Larry Page。<span>鲁宾</span>在白板前滔滔不绝地阐述自己对移动市场的信心。他说，Android 系统只要能说服运营商和手机厂商，他们无需花钱开发自有的软件就可以解决问题。随后，消费者会一拥而上购买这种功能更前的手机，开发者也会响应需求为这个平台开发应用。一个可以自我强化的软件生态诞生了。
+</p>
+<p>
+	<span>此时的 Page 早已心中有数，在后来的采访中他表示：“我们有先见之明，我们知道就该干这个。”数周之后，Google 便用 5000 万美元外加股权激励买下了 Android。</span> 
+</p>
+<p>
+	在投靠 Google 之前，Robin 也找到了手机厂商三星，三星的态度和 Google 截然相反，这也许是三星史上最后悔的决定了：他们拒绝了 Android。
+</p>
+<p>
+	“你手下只有 6 个人，你该不是喝高了吧？”在听完了<span>鲁宾</span>改变手机业的演讲之后，一位三星高管这样评论说。这件事仅仅发生在 Google 宣布收购 Android 的两周之前。
+</p>
+<p>
+	消息公布后的第三天，三星给<span>鲁宾</span>打来电话：“我们想马上召开会议，讨论一下您那天在首尔给我们讲的那个非常、非常有趣的提议。”
+</p>
+<h3>
+	第一部 Android 手机死于 iPhone
+</h3>
+<p>
+	第一部 Android 手机叫 Sooner，这个项目在 Google 内部得到高度保密。它看上去和黑莓机没什么两样，有一个 <span style="text-align:start;">320 x 240 非触控屏幕，用着直板全键盘。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201507/fc87184bf446.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	Sooner
+</p>
+<p>
+	Sooner 是一个具备上网功能的智能手机：除了浏览器，Sooner 还可以运行搜索引擎、地图和 YouTube 等应用。更为重要的是，Sooner 的应用可以在任何智能手机、笔记本电脑、台式机上运行，同时也能同时运行多个程序。
+</p>
+<p>
+	这是最早的应用市场，彼时的初代 iPhone 需要定期连接 iTunes，而且每次不能运行超过 1 个应用，苹果在发布了 iPhone 之后才想到要做应用市场。
+</p>
+<p>
+	尽管如此，2007 年 1 月发布的 iPhone 也还是让 Android 项目的负责人鲁宾大吃一惊。乔布斯用一块触摸屏彻底改变了手机的交互方式，虚拟键盘让每一个程序有自己独特的控制按钮。“我想我们还是不要开发那款（Sooner）手机了。” Robin 说。相比于 iPhone，Sooner 实在是太丑了：它并没有使用触摸屏，而是像黑莓那样搭载全键盘。
+</p>
+<p>
+	数周之后，Android 团队彻底转变方向，重新规划项目，取名 Dream 的触屏手机项目开始进入早期开发阶段。这部手机搭载了触摸屏幕，把 iPhone 能做的东西都搬了进去。
+</p>
+<p>
+	Android 正式发布前，媒体已经就嗅到了 Google 做手机的想法。Google 主动泄露，邀请了《纽约时报》记者 John Markoff 写下了关于 Robin 的长篇报道<a href="http://www.nytimes.com/2007/11/04/technology/04google.html?pagewanted=all" target="_blank">《I, Robot: The Man Behind the Google Phone》</a>，在 Android 正式发布前一天见诸报端。
+</p>
+<p>
+	2007 年 11 月 5 日，Google 正式向外界展示了名为 Android 的操作系统。然而这场发布并没有任何硬件现身，Google 在这天宣布建立一个全球性的联盟组织，该组织由 34 家手机制造商、软件开发商、电信运营商以及芯片制造商共同组成，并与 84 家硬件制造商、软件开发商及电信营运商组成开放手持设备联盟（Open Handset Alliance），共同研发改良 Android 系统。
+</p>
+<p>
+	这个所谓联盟其实脆弱不堪，这些公司之所以加入，多数是因为 Google 给他们付了钱。HTC 虽然是 Google 的长期合作伙伴，但 Google 也是支付了数百万美元请了他们生产第一部 Android 手机。
+</p>
+<h3>
+	匆忙上市的 G1
+</h3>
+<p>
+	在和 Google 合作之前，HTC 是微软的长期合作伙伴，关系深厚，它为微软生产搭载 Windows Phone 的手机。为了让 HTC 加入联盟，Google 需要克服很多困难。
+</p>
+<p>
+	就在发布 Android 之后的两周，Google 放出了一条视频，片中展示了一个类似 iPhone 的原型机，它有着触摸屏和 3G 连接。从 2007 年联盟成立，到 2008 年 11 月正式发布，这台名叫 G1 的手机仅有十多个月的时间进行开发和优化。
+</p>
+<p>
+	传统互联网服务开发可以先上线一个不太完善的版本，再继续修改，因此时间压力相对没那么紧迫。但 Android 不行，它一定得赶上 2008 年年底圣诞节前的销售旺季。
+</p>
+<p>
+	G1 开发期间，鲁宾在团队内部实行非常严格的铁腕政策，不仅给项目设定最后期限，甚至用严格的等级制度来敦促员工完成任务。
+</p>
+<p>
+	不过与严格要求对应的慷慨的奖励。鲁宾会为员工包下往返机票，送员工去拉斯维加斯参加 CES 展会，也会自掏腰包为年终奖添上一砖半瓦。
+</p>
+<p>
+	<img src="http://www.qdaily.com/uploads/image/201507/21b6c91ac2db.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	HTC G1
+</p>
+<p>
+	最终，G1 赶在了圣诞购物季前正式发售。这台手机同样具备侧滑键盘，还有一个和 iPhone 类似的触摸屏。但当时搭载着 Android 1.0 的它存在各种问题，比如不能竖着输入文字，这个功能到 Android 1.5 才得以实现。
+</p>
+<h3>
+	Android 最大的敌人是其它 Google 团队
+</h3>
+<p>
+	至少一开始是这样。
+</p>
+<p>
+	对 Android 最为反感的人当属 Vic Gundotra，他是 Google 2007 年从微软重金外来的高管。而 <span>Gundotra&nbsp;</span>负责的，正是 Google 和 iPhone 的合作。
+</p>
+<p>
+	<span>Google 和苹果在当时是非常密切的合作伙伴，Google 内部研发 Android 的同时，也秘密地和苹果合作，将搜索引擎、地图和 YouTube 预装在 iPhone 上。</span> 
+</p>
+<p>
+	<span>Gundotra 认为 Google 在移动业务中的未来完全取决于 iPhone，它有着美观的外形，而且足够强大能运行 Google 的应用。Gundotra 对 iPhone 支持的同时也排斥其他手机，他决定停止对 Windows Mobile 以及诺基亚手机的应用开发。</span> 
+</p>
+<p>
+	对鲁宾和他的团队来说，iPhone 并不仅仅是个竞争对手，他们要面临更为复杂的现实问题。
+</p>
+<p>
+	2007 年，iPhone 发售并为 Gundotra 带来数百万用户。但 Android 仍然需要一年时间才能完成产品化。Gundotra 曾在内部指责 Android 开发的必要性，他觉得这是一个不和谐的音符，会搞砸和苹果的关系。
+</p>
+<p>
+	而<span>鲁宾</span>却明确地表示：“如果我们还想让 Android 取得成功，就必须停止把最好的东西给苹果。”
+</p>
+<p>
+	在 HTC G1 正式面世之前，鲁宾和他的团队在 Google 其他团队那也没得到好脸色。Android 是 Google 一个秘而不宣的项目，尽管投入巨大，但不得不金屋藏娇。这和 Google 一向倡导的共享和互动背道而驰。在 Google，为了避免暗箱操作，任何一个工程师都可以看到所有产品的代码，但 Android 是个例外。
+</p>
+<p>
+	对 Google 来说，保密是不得已的办法，如果项目信息泄露出去，竞争对手就可以分分钟秒杀 Google。鲁宾为此拒绝了几位非常资深的业内人士，他们曾要求查看 Android 的源代码。
+</p>
+<p>
+	Google 的其他部门和 Android 关系一度紧张，以至于他们找到 Gmail 团队表示希望接入，却得到拒绝的回应，Android 团队不得不使用普通公司外开发者所用的接口。同样的事情也发生在和 Google Talk、日历等其他团队的沟通上。
+</p>
+<p>
+	后来的事情，你就非常清楚了。虽然 G1 销量不尽如人意，但后来者&nbsp;Droid、Galaxy 等厂商开始大量进驻 Android。2010 年的 Droid X 甚至成为美国市场上销量第二的手机，仅次于 iPhone 4。
+</p>
+<p>
+	三星，这家曾经拒绝鲁宾的制造商，使得搭载着 Android 的 Galaxy S 系列手机风靡全球，到 2012 年，Galaxy 的手机销量超过了 iPhone，直到今天，三星仍然是智能手机出货量第一的厂商。Android 也经过了系统的快速迭代，功能不断完善，最终走到了今天的模样。
+</p>
+<p>
+	这个过程中，Android 成为 Google 最重要的业务之一，<span>而苹果与 Google 也从亲密无间的合作伙伴，变成最直接的竞争对手。</span> 
+</p>
+<p>
+	而在 2014 年 10 月 29 日，51 岁的安迪·鲁宾正式离开 Google，<span style="text-align:start;">创办了一家孵化器公司，专门扶持有志于硬件创业的公司。这一年，超过 10 亿部装有 Android 系统的电子产品上市。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自&nbsp;<a href="http://phandroid.s3.amazonaws.com/wp-content/uploads/2013/03/andy-rubin.png" target="_blank">phandroid</a>&nbsp; 本文大量信息来自<a href="http://www.amazon.cn/%E7%A7%BB%E5%8A%A8%E9%A3%8E%E6%9A%B4-%E8%8B%B9%E6%9E%9C%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%9A%84%E7%A7%91%E6%8A%80%E4%B9%8B%E6%88%98-%E7%BE%8E-%E5%BC%97%E9%9B%B7%E5%BE%B7%E2%80%A2%E6%B2%83%E6%A0%BC%E5%B0%94%E6%96%AF%E5%9D%A6/dp/B00HTX1RRG/ref=sr_1_1?ie=UTF8&qid=1436856153&sr=8-1&keywords=%E8%8B%B9%E6%9E%9C+%E8%B0%B7%E6%AD%8C" target="_blank">《移动风暴》</a>一书，推荐阅读
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="568">
+				<span data-id="568">Android</span>
+			</li>
+			<li class="tag item" data-id="533">
+				<span data-id="533">iOS</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="7916">
+				<span data-id="7916">Larry Page</span>
+			</li>
+			<li class="tag item" data-id="2860">
+				<span data-id="2860">Steve Jobs</span>
+			</li>
+			<li class="tag item" data-id="8632">
+				<span data-id="8632">Andy Rubin</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12045" data-title="《曾经有那么一段日子，Android 在 Google 内部都混得很艰难》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12045/medium/12045.jpg?1436859496" data-url="http://www.qdaily.com/mobile/articles/12045.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24897.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24897/medium/24897.jpg?1459674606" alt="">
+                        <h1 class="title">我们充满热情购买维生素，是因为科学，还是因为恐惧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24913.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24913/medium/24913.jpg?1459753962" alt="">
+                        <h1 class="title">这个世界好污：政客们为了自己的钱都做了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24907.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24907/medium/24907.jpg?1459704384" alt="">
+                        <h1 class="title">为什么金像奖没有直播，大多数人不觉得缺了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24896.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24896/medium/24896.jpg?1459607361" alt="">
+                        <h1 class="title">可口可乐要在美国推歌词瓶了，能继续玩得转么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12045">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12045" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">85</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12081.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

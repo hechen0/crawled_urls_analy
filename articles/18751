@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？。完全不同，并不代表一定会成功。。好奇心日报为您呈现任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="NX 3DS Wii U PS4 任天堂 索尼 微软 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xl01dEXGrfCTHQCN9wXk2qyLmW6MKXgcIECxI44BdXg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="10986">
+				<span data-id="10986">NX</span>
+			</li>
+			<li class="tag item" data-id="7242">
+				<span data-id="7242">3DS</span>
+			</li>
+			<li class="tag item" data-id="7236">
+				<span data-id="7236">Wii U</span>
+			</li>
+			<li class="tag item" data-id="759">
+				<span data-id="759">PS4</span>
+			</li>
+			<li class="tag item" data-id="916">
+				<span data-id="916">任天堂</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-12 08:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/18751/medium/18751.jpg?1449894860" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18751" data-title="《任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18751/medium/18751.jpg?1449894860" data-url="http://www.qdaily.com/mobile/articles/18751.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				完全不同，并不代表一定会成功。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span>从今年 &nbsp;3 月公布 NX 的消息之后，围绕着这款任天堂新一代主机有太多的未知和猜测。除了对游戏机本身，人们也想要知道，这款新的主机能不能挽回上一代主机大战中，</span><span>&nbsp;Wii U&nbsp;</span><span>的惨败。</span> 
+</p>
+<p>
+	“NX&nbsp;决不会成为&nbsp;Wii和&nbsp;Wii U&nbsp;的续作。”在接受《时代周刊》采访的时候，任天堂现任社长君岛达说。它可能是这家老牌游戏公司未来几年最重要的一款产品，公司对它寄予厚望。
+</p>
+<p>
+	Wii U 是这一代主机中最早面世的一款，2012 年 11 月面世，但是知道今年 7 月底才突破了 1000 万的销量。比它晚一年的 PlayStation 4 的同期销量是其两倍多，Xbox 也早在去年 11 月就突破了 1000 万。相比上一代 Wii 全球销量超过 1 亿的数据，Wii U 实在有点惨不忍睹。
+</p>
+<p>
+	作为老牌主机厂商的任天堂当然不甘心，<span>NX 成了必须要成功的翻身之作</span>。前任社长岩田聪就称其为一个“新概念”，君岛达己也说与前代不同。从目前看来，这款主机的新概念，或许在于任天堂想要依托<span>&nbsp;NX </span>建立起一个跨越多平台的游戏生态。<span></span> 
+</p>
+<h1>
+	它可能不再是一个主机盒子
+</h1>
+<p>
+	今年<span> 9 </span>月份的时候，有消息称<span> NX </span>不再是单单是一个主机盒子，而是将分为家用机和掌机两个部分。在家的时候，玩家可以在客厅里坐着看着电视玩<span> NX </span>主机，把掌机部分当做手柄控制器之类的；然后出门则直接用掌机当便携式游戏机。<span></span> 
+</p>
+<p>
+	类似的概念在<span> Wii U </span>中也有体现。<span>Wii U GamePad </span>可以不借助电视，直接再为玩家提供一个第二屏幕，但是不管从续航、画面质量以及电阻屏幕的设置上，<span>GamePad </span>的实际实用性很差。现在看来，任天堂似乎想把这个第二屏幕升级为“第二游戏机”。<span></span> 
+</p>
+<p>
+	任天堂完全有理由这样做：任天堂目前的掌机<span> 3DS </span>虽然一再更新各种版本，但是总体从性能上和操作体验上都已经有些过时了。今年<span> E3 </span>前后，有传闻任天堂传闻将开发下一代掌机<span> XDS</span>，这或许就是和<span> NX </span>配套的一部分。<span></span> 
+</p>
+<h1>
+	一个账户管理起你的跨平台游戏
+</h1>
+<p>
+	除了在硬件上配套，软件方面任天堂也着力构建一个任天堂平台，使玩家可以在不同的场景下，使用同一身份体验任天堂的不同游戏——新的任天堂账户系统就是任天堂想要在各个平台上抓住用户的先一步尝试。<span></span> 
+</p>
+<p>
+	玩家可以用自己的<span>&nbsp;Facebook</span>、<span>Twitter</span>、<span>Google&nbsp;</span>账户，以及邮箱和此前拥有的任天堂网络<span>&nbsp;ID</span>进行账户注册。这个任天堂账户将同步你在各款任天堂产品，包括<span>Wii U</span>、<span>3DS</span>、<span>NX </span>、手机和<span> PC</span>上的游戏购买列表、成就记录、好友列表等。<span></span> 
+</p>
+<h1>
+	成功关键是第三方游戏的支持
+</h1>
+<p>
+	不过，所谓硬件配套、平台搭建之类的话对游戏玩家来说永远不是最重要的。游戏机的贩卖永远都要靠其上的游戏，<span>Wii U </span>失败的重要原因是缺乏第三方游戏，光靠马里奥和塞尔达，实在不足以支撑<span> Wii U </span>和<span> PS4</span>、<span>Xbox One </span>上的车枪球竞争。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/912cc4a30b52.jpg" width="1080" height="608" title="NX 能够达到甚至超越 PS4 这几年缔造的神话吗？" alt="NX 能够达到甚至超越 PS4 这几年缔造的神话吗？" /><span>NX 能够达到甚至超越 PS4 这几年缔造的神话吗？</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	所有的人都看到了这一点。上个月，韦德布什证券公司的分析师 <span>Michael Pachter </span>称<span> NX </span>如果缺乏第三方游戏支持将寸步难行。这位分析师在游戏界算是半个知名的人物，曾经成功预言过掌机市场的衰弱，也曾因为“游戏主机必亡论”和索尼总裁吉田修平有过争论。<span></span> 
+</p>
+<p>
+	任天堂并没有对其发表任何回应，但是从任天堂的行动上来看，他们也正在逐渐尝试改进：在岩田聪还在世的时候，他曾发表言论希望第三方厂商对<span> Wii U </span>不要太过于悲观，并试图为<span> Wii U </span>引入更多地方游戏。而对于新一代主机<span> NX</span>，任天堂和<span> EA </span>在上个月月初进行了接触。后者称将谨慎评估新一代主机<span> NX </span>的价值，并表示自己和任天堂关系良好，存在合作可能——这是几乎在<span> Wii U </span>没发行过任何新版大作，还在愚人节开<span> Wii U </span>玩笑的 <span>EA</span>。
+</p>
+<p>
+	当然除了硬件配套、平台建设和第三方游戏软件，游戏机性能也将比上一代<span> Wii U </span>领先很多。至于是否领先<span> PS4</span>，现在的说法众说纷纭。单从目前主机配件，比如芯片、处理器等来看，<span>NX </span>能够采用的硬件至少会相当于高配版的<span> PS4</span>。不过，一向强调成本控制的任天堂不一定会采用最高配的技术。<span></span> 
+</p>
+<p>
+	这样看来，<span>NX </span>相对于<span> Wii </span>和<span> Wii U </span>确实会是一款不一样的游戏机。概念是新的，前景确实也不错。但一部不一样的游戏，不代表会是一款成功的游戏机。<span></span> 
+</p>
+<h1>
+	为了吸引开发者，任天堂需要变得更开放
+</h1>
+<p>
+</p>
+<p>
+	任天堂是否能让<span> NX </span>的平台拥有更多好玩的游戏？<span></span> 
+</p>
+<p>
+	任天堂自己的游戏当然可以保证。虽然主机大战中败下阵来，但是任天堂的游戏一直还是精品的代表。今年大火的《超级马里奥制造》和《喷射战士》想必会移植到<span> NX </span>上，而任天堂和<span> DeNA </span>开发的手机游戏也可以更方便地移植掌机。<span></span> 
+</p>
+<p>
+	那么其他的游戏厂商呢？从《超级马里奥》和红白机时代走过来的任天堂，对自家游戏的过分倚重似乎已经成为了一种偏见。当索尼和微软正在极力为各种游戏开发商提供便利，使得自家游戏机能够匹配其他游戏软件的需要的时候，任天堂依旧是以游戏机为先，要求其他人按照他们的想法开发游戏。<span></span> 
+</p>
+<p>
+	这个问题在<span> Wii U </span>的时候十分严重。《辐射<span> 4</span>》的开发商<span> Bethesda </span>的副总裁 <span>Pete Hines </span>曾指责任天堂不愿意就<span> Wii U&nbsp;</span>事先和游戏开发商沟通，告诉他们任天堂的计划。“任天堂必须要像索尼和微软做的那样……告诉开发者‘我们在做什么，我们在计划什么，我们觉得这些事情如何实现’，并且听取开发者的想法。”<span></span> 
+</p>
+<p>
+	不知道任天堂方面是否就此作出一些改变——尤其重要的是态度上的改变。这个曾经靠着自家游戏称霸游戏机市场的老牌公司应该意识到开放的重要性，这是<span> App Store </span>和<span> PlayStation </span>成功的原因。任天堂不可能再像上世纪<span> 90 </span>年代之前那样，自己圈一个第三方游戏厂商联盟自己做霸主。<span></span> 
+</p>
+<p>
+	从目前<span> EA </span>对任天堂的态度来看，任天堂在<span> NX </span>的开发阶段已经开始和第三方厂商进行接触，但最后究竟会成功多少，还是要等到明年春<span> NX </span>问世的时候。要是还是像<span> Wii U </span>那样，相信没有人会去买一个昂贵的机器盒子——就算你能拆出十八个部分也没用。
+</p>
+<p>
+	任天堂对此还是挺有信心的：有传言称任天堂 NX 的机器已经投入生产并预计生产 2000 万——这个数字超过了 3 年来 Wii U 的销量。看样子，任天堂是有信心通过 NX 打个翻身仗了。
+</p>
+<h1>
+	还要防范新的竞争对手：智能手机和平板
+</h1>
+<p>
+	回头来看看任天堂的在新一代&nbsp;NX&nbsp;主机上的策略：横跨掌机和家用机不同平台确实是一个改变，但本质上是要通过增加便携式的游戏机部分。作为一台试图同时取代&nbsp;Wii U&nbsp;和&nbsp;3DS&nbsp;的产品，NX&nbsp;面临的最大问题来自于智能手机和平板电脑的竞争，而不是索尼的&nbsp;PlayStation Vita。
+</p>
+<p>
+	前任社长岩田聪曾经把平板电脑的快速崛起列为&nbsp;Wii U&nbsp;的失败原因之一。平板电脑的游戏体验比&nbsp;Wii U GamePad&nbsp;要好很多，Wii U&nbsp;本身也覆盖了&nbsp;GamePad&nbsp;的游戏功能，使得&nbsp;GamePad&nbsp;成为食之无味弃之可惜的鸡肋。
+</p>
+<p>
+	新一代&nbsp;NX&nbsp;的掌机部分也面临这个问题。在掌机市场逐渐被手机蚕食的当下，便携性已经不是掌机竞争的优势——更精致的画面、更流畅的游戏体验和更多的游戏才是掌机抓住那些核心玩家的关键。强调分离式或者便携性部分并不能让&nbsp;NX&nbsp;看上去更吸引人一些：为什么要随身带一个沉重的多功能游戏手柄，而不是直接在手机或者平板上玩呢？
+</p>
+<p>
+	为了体现和手机平板的差异，NX 的掌机部分将会在性能上有很大的提升，在画面表现上可能会达到 720P 的效果，并且其他性能上也将会超过目前索尼的 PlayStation Vita。看样子，至少不会重蹈 GamePad 的悲剧。
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201512/e355e9af7907.jpg" width="961" height="640" title="Wii U GamePad 可谓生不逢时的一款产品，" alt="Wii U GamePad 可谓生不逢时的一款产品，" />Wii U GamePad 可谓生不逢时的一款产品
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="10986">
+				<span data-id="10986">NX</span>
+			</li>
+			<li class="tag item" data-id="7242">
+				<span data-id="7242">3DS</span>
+			</li>
+			<li class="tag item" data-id="7236">
+				<span data-id="7236">Wii U</span>
+			</li>
+			<li class="tag item" data-id="759">
+				<span data-id="759">PS4</span>
+			</li>
+			<li class="tag item" data-id="916">
+				<span data-id="916">任天堂</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18751" data-title="《任天堂口中那款“完全不同”的新主机 NX，究竟会是什么样子？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18751/medium/18751.jpg?1449894860" data-url="http://www.qdaily.com/mobile/articles/18751.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18681.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18681/medium/18681.jpg?1449543165" alt="Wii U 终于迎来了Minecraft，不过有点晚">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/54/medium/54.png?1433891512" alt="游戏">
+				<span>游戏</span>
+		</p>
+		<h1 class="title">Wii U 终于迎来了Minecraft，不过有点晚</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18102.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18102/medium/18102.jpg?1448511344" alt="PS4 卖了3000万台破纪录，索尼又能坚持下去了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">PS4 卖了3000万台破纪录，索尼又能坚持下去了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">36</span>
+				<span class="iconfont icon-heart">63</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26157.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26157/medium/26157.jpg?1461811680" alt="">
+                        <h1 class="title">H&amp;M 开第 4000 家店，以及，Madewell 夏季穿搭手册不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26083.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26083/medium/26083.jpg?1461745652" alt="">
+                        <h1 class="title">优衣库和 KAWS 的联名系列开卖，KAWS自己怎么看？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26152.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26152/medium/26152.jpg?1461802501" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26154/medium/26154.jpg?1461803599" alt="">
+                        <h1 class="title">在这个网页上写笔记，比 Simplenote 更简洁</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26156/medium/26156.jpg?1461807585" alt="">
+                        <h1 class="title">今日娱乐：篮协公布 CBA 改革方案，Wii U 后年停产</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18751">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18751" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">45</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18950.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

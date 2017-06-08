@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>信息无障碍_设计词典_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="信息无障碍。。好奇心日报为您呈现信息无障碍的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心日报 好奇心 Qdaily 商业新闻 设计 智能 时尚 城市 生活方式 娱乐 电影 音乐" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="LrzABA0e4rPCVyIIg3ntmQMbf18hJUZBHyDC9Wch/z8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/13.html" class="category x25" data-id="13">
+			<img src="/system/categories/iconwhites/13/medium/13.png?1411569785" alt=""/>
+			<span>设计词典</span>
+		</a>
+		<h1 class="title">信息无障碍</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">李如一</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-07-16 08:55:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/1486/medium/1486.jpg?1410152510" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1486" data-title="《信息无障碍》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1486/medium/1486.jpg?1436641714" data-url="http://www.qdaily.com/mobile/articles/1486" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	信息无障碍（accessibility）首先是一种权利。
+</p>
+<p class="p1">
+	不论生理能力是否完整，任何人都应有使用一个软件或硬件产品的全部功能的权利，这就是信息无障碍。换言之，信息无障碍要求你把产品做到盲人、聋哑人、弱视人、色盲和其它残障人士都能顺利使用的程度。
+</p>
+<p class="p1">
+	信息无障碍是<a href="http://qdaily.com/display/articles/880">用户体验</a>的一部分。
+</p>
+<p class="p1">
+	这句话看似简单，但真正做到了的产品屈指可数。产品经理往往把信息无障碍视为产品中的一个「功能」。但凡功能总有优先级，换言之，功能未必是非有不可的。而如果你把信息无障碍视为用户体验的有机组成部分，就必须从定义用户、构思产品的初期将它纳入设计流程。
+</p>
+<p class="p1">
+	对信息无障碍的思考会刷新你对用户体验的理解。我们习惯于把用户体验视为蛋糕上的拉花；某种面向「高端用户」的「附加价值」。但哪怕从字面意思也能看出，用户体验包括用户使用你的产品时感受到的一切。它是价值本身，而非附加价值。
+</p>
+<p class="p1">
+	因此，以优秀用户体验著称的苹果恰好也是在信息无障碍方面最下功夫的科技公司之一，就显得顺理成章了。盲人用户、信息无障碍推手克里斯·霍夫斯塔德（Chris Hofstader）在一篇评论 iOS 与 Android 的信息无障碍表现的<a href="http://chrishofstader.com/android-ios-and-accessibility/">文章</a>中指出，iOS 在信息无障碍方面的设计令盲人可以使用 iPhone 与 iPad 的全部功能，而在 Android 设备上，盲人只能使用「Google 认为盲人需要的一部分功能」。换言之，在 Android 的世界里，信息无障碍被当作一种锦上添花的功能，而不是用户体验的一部分。「对我而言，如果操作系统厂商不能像苹果在 iOS 7 里做的那样，让系统 100% 的功能都做到信息无障碍，那么它或许是可用的，但不能算无障碍。同时，对于 Google 这种公然替盲人决定他们需要哪些功能的做法，我彻底反对，」霍夫斯塔德写道。
+</p>
+<p class="p1">
+	平心而论，Google 并非不重视信息无障碍。<a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/iPhoneAccessibility/Introduction/Introduction.html#/apple_ref/doc/uid/TP40008785-CH1-SW1">苹果</a>、<a href="http://www.microsoft.com/enable/">微软</a>、<a href="http://www.google.com/design/spec/usability/accessibility.html">Google</a> 等科技巨头都有各自的信息无障碍指南与文档供第三方开发者参考。不过，立法和执法是两回事。关于信息无障碍的建议与规范具体能执行到哪一步，取决于厂商和第三方开发者对用户体验的重视程度。与此同时，霍夫斯塔德也指出，虽然苹果在信息无障碍方面的表现超越了其它科技大厂，但仍有改善空间。举例来说，用来在网页和其它文档中插入数学公式的标记语言 <a href="http://en.wikipedia.org/wiki/MathML">MathML</a>，目前就无法用 Mac 和 iOS 中的 <a href="https://www.apple.com/accessibility/ios/voiceover/">VoiceOver</a> 功能读出。这意味着盲人丧失了用苹果的设备学习这类公式的权利。
+</p>
+<p class="p1">
+	从伦理道德上说，容纳残障用户是天经地义之事。但从商业道德上说，为残障用户投入设计与开发资源有时并不能见到明显回报。故此信息无障碍问题不应该纯粹靠市场机制解决，政府应通过立法来确保残障用户能够享有和健全用户同样的信息访问权利。正如美国的「电视解码电路法案」（Television Decoder Circuitry Act）要求电视节目必须包含隐藏字幕（closed caption），让听觉受损的观众也能顺利观看一样，软件与硬件产品的信息无障碍也不能单纯依赖科技公司的善意与推手们的呼吁。
+</p>
+<p class="p1">
+	个人电脑如今还不到 40 岁，而移动设备才刚刚 7 岁。考虑到美国国会直到 1991 年——电视机发明之后 70 年——才通过了电视解码电路法案，信息无障碍在 21 世纪的今天已经获得了更高的社会认受度和普及率。个人电脑革命源自 1960 年代美国的反文化运动，「赋权」（empowerment）是其核心理念之一。相信在科技公司与第三方开发者的共同努力下，信息无障碍会有更加美好的明天。
+</p>
+<p class="p1">
+	<img src="/uploads/image/201409/dc6fda065889.png" alt="" />
+</p>
+<p class="p1">
+	延伸聆听：<a href="http://www.itgonglun.com/episodes/50">IT 公论——你的网站盲人能用吗？</a>，本文作者与盲人用户、<a href="http://www.zdsr.net/">争渡读屏</a>软件创始人杨永全讨论信息无障碍。国内用户用<a href="http://www.lizhi.fm/35242/i4KC4P_NJ">此链接</a>收听速度较快。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1486" data-title="《信息无障碍》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1486/medium/1486.jpg?1436641714" data-url="http://www.qdaily.com/mobile/articles/1486" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25674.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25674/medium/25674.jpg?1461037421" alt="">
+                        <h1 class="title">乔布斯、佩吉、贝索斯的老师去世了，他是谁？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25680.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25680/medium/25680.jpg?1461041129" alt="">
+                        <h1 class="title">英特尔可能要进 iPhone 7 了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25684.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25684/medium/25684.jpeg?1461043373" alt="">
+                        <h1 class="title">权志龙在济州岛开的咖啡馆，颜值值得你去看一看</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25689.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25689/medium/25689.jpg?1461048992" alt="">
+                        <h1 class="title">难民危机摄影获得普利策奖，揭示辛酸世界的一角</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25682.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25682/medium/25682.jpg?1461044985" alt="">
+                        <h1 class="title">脸盲症患者的地狱，日本游戏《偶像大师》要被拍成韩剧了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25686/medium/25686.jpg?1461046862" alt="">
+                        <h1 class="title">消费是和商品对话，Raf Simons说他想找出“那个所以然”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25696.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25696/medium/25696.jpeg?1461054552" alt="">
+                        <h1 class="title">霉霉又为苹果音乐卖蠢了，Pandora 则找了20个普通人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1486">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1486" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">7</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1489.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

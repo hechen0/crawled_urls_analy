@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>地图怎么做才准？Google 告诉你_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="地图怎么做才准？Google 告诉你。算法、人工和群众，Google 为了优化地图什么都用。。好奇心日报为您呈现地图怎么做才准？Google 告诉你的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Google Google 地图 Top 15 地图 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Tj1WspM7dcD8Hdl5Cc4N8kexaVvR1+EPNgoDdxvhbKY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="2177">
+				<span data-id="2177">Google 地图</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14">
+				<span data-id="14">地图</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">地图怎么做才准？Google 告诉你</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-12-10 08:24:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/4244/medium/4244.jpg?1436646676" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4244" data-title="《地图怎么做才准？Google 告诉你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4244/medium/4244.jpg?1436646676" data-url="http://www.qdaily.com/mobile/articles/4244.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				算法、人工和群众，Google 为了优化地图什么都用。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<span class="s1">这十年间，网络极大地改变了人类的衣食住行。单就行这一方面而言，2005 年，免费的 Google 地图服务毫无疑问是最为重要的一步。今天，手机地图应用已经是全世界使用率最高的应用之一，每年方便数十亿人次出行。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">但做地图绝对不是一件简单的事情，强如苹果公司都在上面栽了跟头。2012 年推出的苹果地图初期错漏百出、饱受诟病就是直接的体现。那么 Google 是如何完善它的地图服务，提升其精确度的呢？</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1"><a href="http://chinese.engadget.com/2014/09/03/google-maps-taiwan-ground-truth/" target="_blank">Ground Truth（地面实况）</a>就是 Google 为解决这一问题所作的努力之一，该项目自 2008 年大部分时间都是处于非公开状态。通过算法来整理从卫星、空中和街景提取出的信息<a href="http://www.wired.com/2014/12/google-maps-ground-truth/" target="_blank">就是其主要手段</a>。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h2>
+	<span class="s1">街景的信息</span> 
+</h2>
+<p>
+	<span class="s1"><img src="/uploads/image/201412/48c53a0f2cf5.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	图片来自 Wired
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">2007 年的街景服务本意是为用户提供地图上特定位置的实景体验。“但很快我们就意识到，通过世界上各个街道的图像记录来作为地图校正的参考，是做出最好地图的绝佳方法”，Google 地图团队副总裁 <a href="http://www.wired.com/2014/12/google-maps-ground-truth/" target="_blank">Brian McClendon 对连线杂志这样说道</a>。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">街景图片中拍摄的交通标志和街道标牌都是重要的信息来源。例如，禁止右转的标牌就给 Google 地图提供了重要信息，当为用户设计出行路线时，此种途径就不能被纳入进去。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">但是各个国家的交通标志各有不同，对于街道的称呼也会有一些缩写和特殊写法。地图团队的工作人员为了能够有效地识别这些信息做了很多工作。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h2>
+	<span class="s1">卫星和空中图像</span> 
+</h2>
+<p>
+	<span class="s1"><img src="/uploads/image/201412/36cf2f57a902.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1"><a href="http://www.techbang.com/posts/10872-this-is-a-3d-map-google-maps-added-more-3d-maps-and-high-resolution-satellite-images" target="_blank">2012 年，Google 地图的推出了 3D 版</a>，它使用户能够直观立体的把握一个城市。尤其是它的教育意义，足不出户的人们也能够通过 Google 3D 地图来参观如比萨斜塔、斗兽场等历史古迹。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">这些 3D 模型也是通过算法生成的，<a href="http://www.wired.com/2014/06/googles-new-satellites-have-amazing-potential-and-potential-for-abuse/" target="_blank">通过卫星和高空图像的数据</a>，地图团队就能够得到建筑物的地基面积、形状和建筑高度。在通过对这些数据精细的打磨，一个建筑物的 3D 模型就构建出来。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h2>
+	<span class="s1">人工的作用</span> 
+</h2>
+<p>
+	<span class="s1"><img src="/uploads/image/201412/e1d094e849ff.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	图片来自 Wired
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1" style="text-align:left;">
+	<span class="s1">虽然说 Google 是一个依靠算法运作的公司，且这个企业的“工程师文化”力图避免人工参与产品的实际运作。但算法毕竟不能解决一切问题，Google 地图的很多微调部分还是由一小个团队来操作的，具体人数没有透露。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">他们通过一个叫 Atlas 的程序来工作，这个程序界面有些类似于旧版 Google 地图的卫星图层。具体的道路是由鲜艳线条呈现，当道路线条与卫星图像捕捉到的道路不吻合时，就需要人工操作来移动线条。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h2>
+	<span class="s1">群众的力量</span> 
+</h2>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">除此之外，在街景小车到不了的地方，卫星地图不易察觉的路线，Google 就需要依靠每个用户的帮助。2011 年，地图团队为公众提供了一个 MapMaker（地图制作）的程序。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">每个人都可以把自己身边常用但没有出现在 Google 地图上的道路添加到自定义地图中，例如公园内的、小巷子和城市林地。这些数据并不会及时更新到 Google 地图中，而是先进行小范围测试，没有意义的数据才会被并入主要程序库中。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">Google 提供了一种公众参与的平台来提升产品。除了以上方法外，Google 还承认他们利用了个人手机的 GPS 信号来反映交通状况。这些涉及到敏感的隐私问题，地图团队不愿多说，但他表示<a href="http://www.wired.com/2014/12/google-maps-ground-truth/" target="_blank">个人信息也可以被用来提升精确度</a>。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><br />
+</span> 
+</p>
+<p class="p1">
+	题图来自：<a href="http://gallery.usgs.gov/photos/10_07_2009_ch8JbnmAYt_10_07_2009_12" target="_blank">usgs.gov</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="2177">
+				<span data-id="2177">Google 地图</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14">
+				<span data-id="14">地图</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4244" data-title="《地图怎么做才准？Google 告诉你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4244/medium/4244.jpg?1436646676" data-url="http://www.qdaily.com/mobile/articles/4244.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25571.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25571/medium/25571.jpg?1460797877" alt="">
+                        <h1 class="title">从“恋爱禁止”，到“秀恩爱”大赛，明星的爱情是怎么回事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25562.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25562/medium/25562.jpg?1460775335" alt="">
+                        <h1 class="title">「日本語」日本绿茶饮料市场是如何变成今天这个样子？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25543.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25543/medium/25543.jpg?1460716632" alt="">
+                        <h1 class="title">微软要把单手键盘带给 iPhone，扇形的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25558.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25558/medium/25558.jpg?1460765334" alt="">
+                        <h1 class="title">在米兰，这两处地方眼里只有年轻人｜米兰设计周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25581.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25581/medium/25581.jpg?1460816473" alt="">
+                        <h1 class="title">达美乐去了意大利，在披萨老家混可没这么容易</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="4244">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="4244" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">10</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/4247.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

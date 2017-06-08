@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>专访伊藤穰一：投资人如何管理麻省理工媒体实验室？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="专访伊藤穰一：投资人如何管理麻省理工媒体实验室？。《好奇心日报》和伊藤穰一谈及他觉得能够为世界带来改变的项目，伊藤在接管麻省理工媒体实验室前做过投资人、创业者、DJ，并在 Mozilla、索尼等多家公司董事会任职。。好奇心日报为您呈现专访伊藤穰一：投资人如何管理麻省理工媒体实验室？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="MIT Joi Ito 伊藤穰一 MIT Media Lab MIT 媒体实验室 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="73k6uy2fdEHUTL6p6XL9+Qq7F77thz6Y+Zzq9b//vSw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="98">
+				<span data-id="98">MIT</span>
+			</li>
+			<li class="tag item" data-id="851">
+				<span data-id="851">Joi Ito</span>
+			</li>
+			<li class="tag item" data-id="852">
+				<span data-id="852">伊藤穰一</span>
+			</li>
+			<li class="tag item" data-id="853">
+				<span data-id="853">MIT Media Lab</span>
+			</li>
+			<li class="tag item" data-id="854">
+				<span data-id="854">MIT 媒体实验室</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">专访伊藤穰一：投资人如何管理麻省理工媒体实验室？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/14/small/14.jpg?1399504790" alt="">
+					</span>
+				<span class="name">徐涛</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-05-28 10:35:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/884/medium/884.jpg?1436637614" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="884" data-title="《专访伊藤穰一：投资人如何管理麻省理工媒体实验室？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/884/medium/884.jpg?1436637614" data-url="http://www.qdaily.com/mobile/articles/884.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				《好奇心日报》和伊藤穰一谈及他觉得能够为世界带来改变的项目，伊藤在接管麻省理工媒体实验室前做过投资人、创业者、DJ，并在 Mozilla、索尼等多家公司董事会任职。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在成为麻省理工媒体实验室主管之前，<span>伊藤穰一（Joi Ito）</span>是投资者、创业者和 DJ。现在也依然是索尼、纽约时报公司、奈特基金会、Mozilla 基金会等公司和基金会的董事会成员。他丰富的经历为他提供了多样化的视角。《好奇心日报》在旧金山举行的 Solid 大会上对他进行了专访。
+</p>
+<p>
+	<span style="line-height:1.5;">Q：在麻省理工媒体实验室，哪些项目你觉得相当有趣，启发了你，并觉得能给这个世界带来一些改变？</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：我们有一个项目是通过“脑机”接口，让大脑来控制外在的东西，例如计算机界面或者机械臂。这个项目未来也许能让大脑受到损失的人重新获得操作计算机或者活动的能力。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">一个是我们专注于可视化的教授和研究神经的教授一起合作，将大脑中神经活动进行可视化的一个项目。我们能够用跨学科的力量去实现单个学科不可能实现的东西。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">另外一个我很感兴趣的方向是和“学习”有关。传统的学习方式有问题，无法激励人们去学。在我们的实验室里，我们正在研究如何才能有效的教授，以及如何才能让人们“想要”去学。这个方向，其实在麻省理工媒体实验室的合伙创始人 Seymour A. Papert 起就对这个方向很感兴趣。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">Q：作为一个投资者和创业者，为什么会接手麻省理工媒体实验室这个角色。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：我对很多事情都很感兴趣，对创新也很感兴趣。投资和创业都是一种有趣的方式，来观察这个世界正在发生的变化。再麻省理工媒体实验室我看到的是，把研究带到现实的社会中也很重要，会对这个世界的变化起到很大作用。这个地方有着很特殊的 DNA，能将设计和新想法转换成现实，所以对我而言非常有诱惑力。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">他们询问了我，看我是否感兴趣，然后他们让我和他们呆在一起了两天。他们对我非常感兴趣，我也对他们很感兴趣，我只用了2天就做了决定。当然他们在筛选人选以及考察方面花了很长时间。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">Q：你就职的时候曾说要让麻省理工媒体实验室不仅仅个容器，而是个平台和网络，那你之后做了一些什么。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：我试图让实验室能和外界的机构以及人建立起更多的联系。例如在中国，我想做也正在做的一个事情是让实验室能和深圳制造业建立起联系，而且是长期的。你知道很多深圳的年轻人被认为是像海盗一样，做一些山寨的东西，但事实上他们非常聪明也非常有才能，还很有趣。如果不发挥出他们的创造力，我觉得中国是在错过一个巨大的机会，因此我们有一些项目和 Workshop，希望能够有些碰撞。我也在试图向他们学习，我们一些学生已在和深圳的厂商进行合作，和工人以及工厂里的设计师去交谈，了解他们。我觉得有趣的地方是，在深圳，设计师就在工厂里面，他们和最终产品的关系非常直接。但在美国，设计师却从设计到最终的产品有着很多环节要经过。所以如果将两个地区的设计师来做对比，深圳的设计师就像软件工程师那样高效，他们能够迅速看到结果，这是我们之前不知道的。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">在这之前，当然有些学生会和外界联系更多一些，但大多数事情还是发生在实验室内部。所以我的确是试图将多样性、活跃、以及和外界的联系带到了实验室中。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">除了深圳，我们在非洲，南美，印度等地方也都有项目和活动。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">Q：在加入麻省理工媒体实验室之后，你学到了些什么新东西，有些什么新想法。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：在我加入之前，我不了解硬件，我也不懂生物学。但现在这成为我最关注的主要的东西。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">事实上，生物学、硬件、软件，这些如何交叉在一起，是个非常令人兴奋的领域。我自己现在也在很努力的去了解基因和生物学方面的东西。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">Q：你所涉猎的领域丰富，是如何做到这一点的？</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：我觉得我和麻省理工媒体实验室的很多孩子都很像，对于我感兴趣的东西我就很用功。我小时候不是那种好学生，但我通常通过自己动手做来学习。但我一旦学到了，就会接着转移到下一件事情，这就是我为什么做了很多事情。但现在在 MIT 媒体实验室，因为那么多聪明人做了那么多不同的项目，我想一时半会我不会觉得无聊了。</span>
+</p>
+<p>
+	<span style="line-height:1.5;">Q: 是否鼓励麻省理工媒体实验室的学生创业？</span>
+</p>
+<p>
+	<span style="line-height:1.5;">伊藤：我们有给已毕业学生的创业基金和孵化器，但不是给其它学生的。我们还是希望我学生将精力投入在研究上。但我们也有一个规则，如果商业方面的东西能有助于研究，那你可以去做。我们有个学生是 Jie Qi，她在深圳花了些时间去了解制造业，看如何能够制造出可以打印的纸电路。这是一个例子，她的兴趣并不在商业方面，但这将有助于她的研究，那她就能得到授权花时间在商业的方面。</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自&nbsp;<a href="http://www.fotopedia.com/items/jmhullot-c6573eccf610529214e252c49b2b3aec" target="_blank">Jean-Marie Hullot</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="98">
+				<span data-id="98">MIT</span>
+			</li>
+			<li class="tag item" data-id="851">
+				<span data-id="851">Joi Ito</span>
+			</li>
+			<li class="tag item" data-id="852">
+				<span data-id="852">伊藤穰一</span>
+			</li>
+			<li class="tag item" data-id="853">
+				<span data-id="853">MIT Media Lab</span>
+			</li>
+			<li class="tag item" data-id="854">
+				<span data-id="854">MIT 媒体实验室</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="884" data-title="《专访伊藤穰一：投资人如何管理麻省理工媒体实验室？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/884/medium/884.jpg?1436637614" data-url="http://www.qdaily.com/mobile/articles/884.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25053.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25053/medium/25053.jpg?1459934746" alt="">
+                        <h1 class="title">优土成为阿里子公司以后，表示边看边买这事是认真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25058.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25058/medium/25058.jpg?1459936166" alt="">
+                        <h1 class="title">这家要在2018年开业的，将会是星巴克全球最大门店</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25079.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25079/medium/25079.jpg?1459960513" alt="">
+                        <h1 class="title">FENDI 罗马新旗舰店，像陈列艺术品一样陈列商品</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25080.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25080/medium/25080.jpg?1459967796" alt="">
+                        <h1 class="title">Stampd 首家实体店在洛杉矶，和衣服长得一样酷</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="884">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="884" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart"></a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/880.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

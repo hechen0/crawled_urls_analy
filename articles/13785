@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>优步真的在北京拼车了，我们去体验了一次_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="优步真的在北京拼车了，我们去体验了一次。6.5 元是“打车”的新起步价。好奇心日报为您呈现优步真的在北京拼车了，我们去体验了一次的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 人民优步 拼车 Uber 优步 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="npdBrkEE4v4OK19UtuBLIS6YNm/9joPNIjgo38YvSls=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14815">
+				<span data-id="14815">人民优步</span>
+			</li>
+			<li class="tag item" data-id="2187">
+				<span data-id="2187">拼车</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+			<li class="tag item" data-id="7442">
+				<span data-id="7442">优步</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">优步真的在北京拼车了，我们去体验了一次</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-20 13:23:12 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13785/medium/13785.jpg?1440045149" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13785" data-title="《优步真的在北京拼车了，我们去体验了一次》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13785/medium/13785.jpg?1440045149" data-url="http://www.qdaily.com/mobile/articles/13785.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				6.5 元是“打车”的新起步价
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	Uber 公司在中国总算开始“拼车”了。
+</p>
+<p>
+	今天，优步公司在北京试点<a href="http://mp.weixin.qq.com/s?__biz=MzI4NDAzOTIwMQ==&mid=207857085&idx=1&sn=db6909051a955812a7dcc8676bf8b850&scene=2&srcid=N5ArWzDlhj45ZV6AM3mN&from=timeline&isappinstalled=0&key=dffc561732c22651c825acdcb316cd575e6705839e142e31d25f346520bbead26f17e184b6c37fe87d2d724fcc633658&ascene=0&uin=NTgwMzg1NTYw&devicetype=iMac+MacBookAir5%2C2+OSX+OSX+10.10.2+build(14C109)&version=11020113&pass_ticket=o2frfqpNJXpfuHzi7gHNBlHdKEeMcf9hiWcxwtas86ojgz4kULwevClklVEaaHNs" target="_blank">“人民优步+”打车服务</a>，使用了之后，你将会和一或二位陌生人共同坐一台车，而作为补贴，你的乘车费用也会降低 35%，也就是从 6.5 元人民币起步。如果身在北京国贸、三里屯、中关村以及五道口附近，那么你今天就可以使用服务<span>了。</span> 
+</p>
+<p>
+	<span>《好奇心日报》今天早上也去体验了一次“人民优步+”。这个服务和普通 Uber 叫车唯一的不同，就是点击叫车按钮之后，并不是直接跳转叫车确认页面，而是让用户先填写旅途目的地。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/43893a12b640.jpg" width="715" height="551" title="人民优步+" alt="人民优步+" /><span>人民优步+</span> 
+</p>
+<p>
+	<span>而根据 Uber 的说法，他们将会匹配路线相近的乘客跟我们共享车辆，而两边的乘客都可以带一名朋友一起坐车，所以理论上最拥挤的时候，Uber 车上会有 4 个乘客。</span> 
+</p>
+<p>
+	我们填写的起步价格的距离，然后 Uber 给了我们两个选择，一个是 6.5 折拼车的“人民优步+”，另一个是原价的“人民优步”。选择了“人民优步+”之后，司机也就开始来接人了，而我们 Uber 应用页面上多了这么一条信息：正在帮你寻找另一位乘客。而如果找到另外一名乘客，Uber 会显示对方的账号中填写的名字。
+</p>
+<p>
+	很可惜，今天我们并没有在路上遇到同道的乘客。尽管没有真正拼车成功，Uber 还是按照承诺给我的出行打了 6.5 折。
+</p>
+<p>
+	而今天也第一次执行拼车任务的计师傅告诉我们，这个新的服务模式对于他们来说并没有不同：载客的方式一样通过派单导航，他在接到乘客前看不到对方的目的地，连优步给他们的提成也没有改变，按照距离收费——今天我们走的路程原价为 10 元，计师傅拿到了 8 元，而我们只支付了 6.5 元。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/7b444d7539f2.jpg" width="633" height="375" title="UberPOOL 拼车接客示意图" alt="UberPOOL 拼车接客示意图" /><span>UberPOOL 拼车接客示意图</span> 
+</p>
+<p>
+	Uber 从去年就开始在旧金山测试拼车服务 UberPOOL，乘客只要支付 7 美元就可以跨越整个市区，同样的距离换作出租车，则需要两至三倍的费用。而即使没有找到同道乘客，Uber 依旧收取 7 美元的费用。
+</p>
+<p>
+	UberPOOL 让我们在旧金山的行程节省了不少出行费用，同时还能遇到一些有趣的乘客，因为 Uber 会显示对方的名字而不显示姓氏，所以乘客间就避免了开口重头介绍的尴尬，同时也会保留一些隐私。
+</p>
+<p>
+	而当然拼车服务也有不让人愉悦的一面。在旧金山使用 UberPOOL 时，有时候另外一名乘客走错位置，司机花了很多时间去找（尽管官方称只等乘客 2 分钟）；还有一些时候，另外一位乘客的路段刚好堵车，也让你花费了一些等待的时间。总之，决定坐 UberPOOL 的日子，我们一般会比原定出行时间多预留 20 分钟。在人多车堵、而且 GPS 定位经常出现问题的北京？恐怕我们还需要预留更加充足的时间。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14815">
+				<span data-id="14815">人民优步</span>
+			</li>
+			<li class="tag item" data-id="2187">
+				<span data-id="2187">拼车</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+			<li class="tag item" data-id="7442">
+				<span data-id="7442">优步</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13785" data-title="《优步真的在北京拼车了，我们去体验了一次》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13785/medium/13785.jpg?1440045149" data-url="http://www.qdaily.com/mobile/articles/13785.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26437.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26437/medium/26437.jpg?1462412604" alt="">
+                        <h1 class="title">Farfetch 获 1.1 亿美元投资，以及，去沙滩度假可以这样穿｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26466.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26466/medium/26466.jpg?1462437735" alt="">
+                        <h1 class="title">肯德基推出炸鸡味指甲油，可以舔的那一种</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26469.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26469/medium/26469.jpg?1462439952" alt="">
+                        <h1 class="title">什么家电都得联网，连戴森也带来智能空气净化器</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26449.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26449/medium/26449.jpg?1462425686" alt="">
+                        <h1 class="title">「这世界」英国首相想用足球套近乎，反而被糗了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26435.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26435/medium/26435.jpg?1462409850" alt="">
+                        <h1 class="title">毒舌 Met Gala 红毯秀：这些人穿的和科技真的有关吗</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13785">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13785" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">26</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13742.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

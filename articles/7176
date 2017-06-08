@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「万物简史」折扣的秘密_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「万物简史」折扣的秘密。通过打折，你能卖出更多东西。。好奇心日报为您呈现「万物简史」折扣的秘密的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="万物简史 折扣 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="TOq7/fW27PWq2MnAWg5Db9Zag6uTa+mLUnXTL5qPPyE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1217">
+				<span data-id="1217">万物简史</span>
+			</li>
+			<li class="tag item" data-id="7542">
+				<span data-id="7542">折扣</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「万物简史」折扣的秘密</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4696/small/4696.jpg?1418030328" alt="">
+					</span>
+				<span class="name">苏琦 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-07 10:23:34 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7176/medium/7176.jpg?1436688195" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7176" data-title="《「万物简史」折扣的秘密》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7176/medium/7176.jpg?1436688195" data-url="http://www.qdaily.com/mobile/articles/7176.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				通过打折，你能卖出更多东西。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" style="padding:0px;margin-top:0px;white-space:normal;margin-bottom:16px !important;">
+	<em>一个物品如何成为一个全球化商品，一个物品如何促进全球化，一个物品又是如何实现全球化制造？「万物简史」这个栏目将从“物品”出发，去看这些“物品”如何渗透进我们的生活，并改变了我们的世界。</em> 
+</p>
+<p class="p1" style="padding:0px;margin-top:0px;white-space:normal;margin-bottom:16px !important;">
+	<em>它近期将会关注的内容包括，</em><a href="http://qdaily.com/display/articles/1990"><em>集装箱</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/3046"><em>铁路</em></a><em>，水，<a href="http://www.qdaily.com/display/articles/4572" target="_blank">迪士尼</a>，气候，T恤，</em><a href="http://www.qdaily.com/display/articles/3960"><em>航海图</em></a><em>，武夫，</em><a href="http://www.qdaily.com/display/articles/2177"><em>茶</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/2088"><em>香料</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/2325"><em>鸦片</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/2473"><em>咖啡</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/2782"><em>木材</em></a><em>，</em><a href="http://www.qdaily.com/display/articles/2914"><em>旧衣服</em></a><em>，贸易，大豆，<a href="http://www.qdaily.com/display/articles/4768" target="_blank">宜家</a>，玉米，</em><a href="http://qdaily.com/display/articles/3580"><em>酒店</em></a><em>，黄金，白银，<a href="http://www.qdaily.com/display/articles/5530.html" target="_blank">皮毛</a>，<a href="http://www.qdaily.com/display/articles/5995.html" target="_blank">石油</a>，天然气，</em><a href="http://www.qdaily.com/display/articles/3374"><em>汽车</em></a><em>，奢侈品，抗生素，</em><a href="http://www.qdaily.com/display/articles/4166" target="_blank"><em>瑞士旅游业</em></a><em>，有线电视，广告，</em><a href="http://www.qdaily.com/display/articles/3211"><em>探索频道</em></a><em>，商人，传教士，<a href="http://www.qdaily.com/display/articles/5766.html" target="_blank">鸟粪</a>，<a href="http://www.qdaily.com/display/articles/6206.html" target="_blank">安利</a>，冒险家，<a href="http://www.qdaily.com/display/articles/4344" target="_blank">蒸汽机</a>，<a href="http://www.qdaily.com/display/articles/5330" target="_blank">瘾</a>，航线，</em><a href="http://www.qdaily.com/display/articles/2598"><em>棉花</em></a><em>，</em><em><a href="http://www.qdaily.com/display/articles/3783">湖广填四川</a>，<a href="http://www.qdaily.com/display/articles/5105" target="_blank">尼加拉瓜运河</a>，<a href="http://www.qdaily.com/display/articles/6946.html" target="_blank">一汽大众</a></em><em>……</em><span style="font-family:'sans serif', tahoma, verdana, helvetica;"></span> 
+</p>
+<br />
+<p class="MsoNormal">
+	沃尔玛现在已成为零售帝国的代名词。像一切帝国一样，沃尔玛草创阶段也没有一个清晰的路线图，更不会想到以后会做成那么巨大的规模。但沃尔玛的创始人抓住了促销的本质——折扣，并将其做到极致，从而成就了自己的霸业。<span></span> 
+</p>
+<p class="MsoNormal">
+	一开始的时候，沃尔玛的店铺看起来一点儿也不专业。比如设在阿肯色州莫里尔顿的沃尔玛第&nbsp;<span>8&nbsp;</span>分店，是租的一间老旧的可口可乐灌装车间。这个车间被分隔成&nbsp;<span>5&nbsp;</span>个房间，然后第&nbsp;<span>8&nbsp;</span>分店的人又花了&nbsp;<span>3000&nbsp;</span>美元从一家倒闭的吉布森店那里买了一些旧货架。然而人们用打包钢丝把它们吊在天花板下面，然后固定到墙上。服装就层层叠叠地挂在管道上，一直挨到顶棚。
+</p>
+<p class="MsoNormal">
+	除了硬件不行之外，沃尔玛的“软件”也不太成。除了没有基本的货物分类制度，他们也没有真正的补货体系，甚至有些分店一开始连存货目录也没有。没有固定的批发商，也没有贷款。<span></span> 
+</p>
+<p class="MsoNormal">
+	此外，在那些日子，沃尔玛不像现在这样强调商品的质量。他们最关心的一个问题是，如何使他们的价格比其他任何店都要低。他们的理念很简单，当顾客想到沃尔玛时能够非常确定，自己不可能在别的任何地方找到更低的价格。沃尔玛的创始人山姆·沃尔顿很早就意识到，以&nbsp;<span>80&nbsp;</span>美分的价格买进一件东西，如果将它的售价定为&nbsp;<span>1&nbsp;</span>美元，卖出的数量会是定价为&nbsp;<span>1.2&nbsp;</span>美元的三倍之多，总的利润会多很多。这就是折扣销售的精髓所在：通过打折，你能卖出更多东西。<span></span> 
+</p>
+<p class="MsoNormal">
+	最大的挑战是以低价购进保健品和美容产品并保证货源充足，因为这些东西实际上是几乎每个早期折扣销售商销售策略的核心所在。通过将这些商品——牙膏、牙刷、止痛片、肥皂、洗发水——的标价压低到进价水平来吸引顾客光顾。这些商品就是那些早期的折扣经销商称之为“代言形象”的东西，也就是人们会在报纸广告中大肆推销的东西。<span></span> 
+</p>
+<p class="MsoNormal">
+	沃尔玛会把这些商品堆得高高的，以吸引人们注意到它们卖得有多好。店里的其他商品价格也很低，但都预留了&nbsp;<span>30%&nbsp;</span>的利润，而保健品和美容产品则是彻底让利的。最后的结果是人们会口口相传说沃尔玛的价格确实低廉。因此去沃尔玛淘便宜货便逐渐成为人们的生活方式。<span></span> 
+</p>
+<p class="MsoNormal">
+	尽管在那么多的地方做得很不到位，沃尔玛在最初的十年里以良好的势头不断发展，在较小的市场里持续不断的提高销量。<span></span> 
+</p>
+<p class="MsoNormal">
+	等到羽翼渐渐丰满，沃尔玛便开始加大在物流配送和信息技术方面的投入，其先进程度甚至走在时代的前面。巨大的规模加上先进的软硬件配置，使得沃尔玛得以尝试一些创意营销手段，比如“整合订货”。过去沃尔玛各家分店都是直接从厂商那里订货，然后由承运商将货物直接运送到商店。通过“整合订货”，各家分店的订单信息被集中起来，然后通过内部通讯网络系统传递到集团配送中心，进行整合后统一向供应商订货。<span></span> 
+</p>
+<p class="MsoNormal">
+	这种集团采购令沃尔玛居于更为有利的买方地位，从而得以进一步压低购进成本，进而可以向消费者送出更多的折扣。更多顾客的到来不仅带来了更多的现金流，更重要的是加快了货品更新的速度，从而令沃尔玛在下一轮集团采购中继续占据有利位置。<span></span> 
+</p>
+<p class="MsoNormal">
+	沃尔玛的成长给人们的启示是，比路线图和雄伟的目标更重要的是一个清晰的可持续的盈利模式，等做到一定的规模，再来捅破那些妨碍你成为参天大树的天花板，并琢磨如何造成一个通天塔。<span></span> 
+</p>
+<p class="MsoNormal">
+	推荐阅读：<a href="http://www.amazon.cn/mn/detailApp/ref=asc_df_B00840TWY81421312/?asin=B00840TWY8&tag=douban-23&creative=2384&creativeASIN=B00840TWY8&linkCode=df0" target="_blank">《促销的本质》</a>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1217">
+				<span data-id="1217">万物简史</span>
+			</li>
+			<li class="tag item" data-id="7542">
+				<span data-id="7542">折扣</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7176" data-title="《「万物简史」折扣的秘密》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7176/medium/7176.jpg?1436688195" data-url="http://www.qdaily.com/mobile/articles/7176.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/6946.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/6946/medium/6946.jpg?1436697967" alt="「万物简史」大众是如何进入中国的">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">「万物简史」大众是如何进入中国的</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">79</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26827.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26827/medium/26827.jpg?1463187225" alt="">
+                        <h1 class="title">我们搜集了观众对《欢乐颂》的 46 个吐槽，编剧袁子弹都回应了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26839.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26839/medium/26839.jpg?1463199107" alt="">
+                        <h1 class="title">脉动做了个脑洞大开的病毒视频，你觉得好玩么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26828.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26828/medium/26828.jpg?1463202824" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26808.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26808/medium/26808.jpg?1463124431" alt="">
+                        <h1 class="title">在 emoji 里找不到什么来代表职业女性？以后要好一些</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26814.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26814/medium/26814.jpg?1463131700" alt="">
+                        <h1 class="title">这个夏天我们要和这些美剧告别，哪一部你舍不得？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7176">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7176" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">146</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7177.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史。不管方向盘这事，已经不太远了。好奇心日报为您呈现无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 自动驾驶 好奇心商业史 Google 通用 BMW " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="NAI6bYl302pBUoWnrA0HZKoxQznDiiRDjd8M8TrjoAU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 钟舒婷</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-28 08:33:29 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/10057/medium/10057.jpg?1432669876" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10057" data-title="《无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10057/medium/10057.jpg?1436652289" data-url="http://www.qdaily.com/mobile/articles/10057" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				不管方向盘这事，已经不太远了
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在硅谷，方向盘前没有人的汽车从你身边驶过已经不是什么新鲜事。比如前两天我在 Google 总部所在地山景城街头碰到的这辆：
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/9c8ad41211f0.jpg" /> 
+</p>
+<p>
+	它们一般都不是完全“无人”，副驾位置上坐着一位测试人员。
+</p>
+<p>
+	<span>在即将举行的 Google 公司年度</span><span>开发者</span><span>大会 Google I/O 上，如无意外我们将会看到汽车操作系统 Android Auto 的重大更新，对于无人驾驶汽车来说，有一个像智能手机一样可以升级、扩展软件功能的操作系统将是第一步</span><span>。</span> 
+</p>
+<p>
+	在迈向无人汽车的过程里，我们已经看到了互联网公司、汽车厂商、芯片公司让汽车越来越智能的尝试，除了 Google，传统厂商宝马推出了半自动驾驶 i3、特斯拉跟进了最新的 Model S 半自动驾驶汽车、甚至连做芯片的高通和英伟达都开始向汽车厂商提供自动驾驶技术的芯片了。
+</p>
+<p>
+	但无人驾驶汽车走到今天一共经历了多长时间？我们得从 76 年前算起。
+</p>
+<h2>
+	1939 年，最早的自动驾驶展览
+</h2>
+<p>
+	你没有看错，就在 1939 年的世界博览会上，通用公司就建了一个名为 Futurama（未来世界）的未来科技展览，展示他们对于汽车未来演进的想法——他们幻想着 1960 年时的美国高速公路都会配有类似火车轨一样设计，汽车将会配有自动驾驶系统，走到高速上就会自动生效，按照铁轨的轨迹和一定的速度高速行进，直到在高速公路的出口才会恢复成人类驾驶。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/e1466f2ed43e.jpg" /> 
+</p>
+<p style="text-align:center;">
+	1939 年，排队进入通用 Futurama 展馆的人流
+</p>
+<p>
+	在 1939 年，人们对于自动驾驶的想象是汽车和高速公路同时搭配的。因为在 1920 年左右，德国和意大利才刚刚开始修建世界上最早的汽车高速路，在这之前，地球上最高速的道路依然是火车的铁轨。这也是通用展览馆的设计师 Norman Bel Geddes 的灵感所在，根据 1920 年德国建造的 1 号公路 Antobahn，他设计了 Futurama 的展馆，里面还有一个假的“高空观赏台”，让人们来看未来的带有轨道的高速公路系统将会如何覆盖城市和农村。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/745922e4e4ec.jpg" /> 
+</p>
+<p style="text-align:center;">
+	通用 Futurama 里面的高空展览馆，图片来自通用公司
+</p>
+<p>
+	但通用和 Norman Bel Geddes 的理想并没有变为现实，在 Futurama 展览过去 80 年之后，自动驾驶技术和高速道路并没有重大的进展和改变。
+</p>
+<p>
+	相关的概念车依然在推出：1958 年，通用还发布了名为 Firebird 3 的自动驾驶概念车（飞机），这就是当时的广告语：
+</p>
+<p>
+	想要坐着放松一下？好，设定好想要的速度，然后调成自动导航状态吧。放开手柄，Firebird 3 会自己搞定。”
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/39d49c131179.jpg" /> 
+</p>
+<p style="text-align:center;">
+	Firebird 3 概念图，图片来自通用公司
+</p>
+<h2>
+	2004 年，重新推动自动驾驶技术的 DAPRA
+</h2>
+<p>
+	2004 年，美国政府和军方也开始重新研究自动驾驶技术。为了在 10 年后至少三分之一的军用车辆能够自动驾驶，美国国防部高等研究计划局 DARPA 就每年举办 100 万美元的悬赏比赛，吸引各地的人们来建造自动驾驶汽车。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/e2caff0c12bf.jpg" /> 
+</p>
+<p>
+	这个比赛的质量每年都在提升。2004 年，最好的自动驾驶车队伍能走几公里就自己撞毁了；第二年，各种样式的自动驾驶的汽车也来参赛，他们当中已经有车辆能跨越加州 Mojave 沙漠，车身而毫发无损。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/128f897935c3.jpg" /> 
+</p>
+<p>
+	这就是 2005 年赢得大奖的队伍 Stanley，中间穿着蓝色外套的就是时任斯坦福人工智能实验室的总监 Sebastian Thrun。在他年轻的时候，他在一场车祸中失去了他的朋友，而在此之后，Sebastian Thrun 就开始研究自动驾驶技术。
+</p>
+<p>
+	2009 年，Sebastian Thrun 加入 Google X 部门从事 Google 无人驾驶车的研究，他也是目前 Google 自动驾驶汽车项目的负责人。
+</p>
+<h2>
+	半自动驾驶汽车已经来了
+</h2>
+<p>
+	与 Google 一心要迈进完全自动化不同，汽车厂商们更多是采取了逐步迭代的方法：为汽车配置硬件，加入智能系统，使得这些汽车实现部分自动、有条件自动驾驶。那么现在有哪些能做到一定程度自动驾驶汽车已经上市了呢？
+</p>
+<p>
+	<a href="http://www.ftchinese.com/story/001061891#s=p" target="_blank">戴姆勒自动驾驶卡车</a> 
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/44fb586e1f15.jpg" /> 
+</p>
+<p>
+	德国戴姆勒（Daimler）与内华达州达成协议，批准自动驾驶卡车上路。但这种新型卡车仍会拥有一名驾驶员，在某些复杂局面出现是接管车辆运作，例如车辆驶入和驶出调度中心时，以及车辆在繁忙的市区内行驶时，所以主要在长途公路上行使，避免疲劳驾驶。
+</p>
+<p>
+	<a href="http://www.volvocars.com/us/cars/new-models/all-new-xc90" target="_blank">沃尔沃 XC90</a> 
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/528da03c8a3f.jpg" /> 
+</p>
+<p>
+	配置沃尔沃的城市安全系统（City Sfaety），新增冲出路面防护系统和十字路口自动制动系统，帮助司机避免常见的追尾事故。
+</p>
+<p>
+	<a href="http://www.autohome.com.cn/use/201409/838115.html" target="_blank">宝马 i3</a> 
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/0e42ac91293b.jpg" /> 
+</p>
+<p>
+	宝马 i3 在车身安装了 4 个 IBEO 激光感应器，能够准确判别警示柱等阻碍物，在多层的停车场当中理解环境状况，可以躲开立柱、自动刹车，车辆静止下来与障碍物的距离也可以控制在几厘米的范围，实现自动停车。
+</p>
+<p>
+	<a href="http://www.theverge.com/2015/3/19/8257933/tesla-model-s-autopilot-release-date" target="_blank">特斯拉最新版的 Model S</a> 
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/c60f6755e483.jpg" /> 
+</p>
+<p>
+	去年 10 月，特斯拉宣布其最新版的 Model S 将加入 Autopilot 模式，通过远程雷达、影像识别以及超声波声等设备，让使车辆可以自动倒车、识别路上的障碍物，以及高速公路上半自动驾驶等。
+</p>
+<p>
+	<a href="http://www.caradvice.com.au/320876/mercedes-benz-s500-intelligent-drive-review/" target="_blank">奔驰的 S500</a> 
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/12027a53b43a.jpg" /> 
+</p>
+<p>
+	配备 Intelligent Drive 系统，可以防碰撞、让车保持在车道中央，探测到行人并自动刹车，以免在时速超过 50 公里时发生完全碰撞，以及在堵车时自动跟随前车。
+</p>
+<h2>
+	Google 的无人驾驶汽车
+</h2>
+<p>
+	2012 年，DAPRA 无人车比赛的参与者 Sebastian Thrun 在 GoogleX 实验室带队开发的 Google 无人驾驶汽车开始在美国内测。
+</p>
+<p>
+	那到底 Google 的自动驾驶汽车是怎么运作的呢？运行的核心是各种传感器和 Google 的数据地图，这是 Google 上一代自动驾驶汽车的样子：
+</p>
+<p>
+	<img alt="" src="/uploads/image/201505/40a291c7feee.jpg" /> 
+</p>
+<p style="text-align:center;">
+	图片摄于山景城计算机历史博物馆
+</p>
+<p>
+	Google 无人驾驶汽车用到的各种组件：
+</p>
+<ul>
+	<li>
+		激光束（laser）：360 度感知汽车周围的环境，保证汽车能同时、持续地感知到前方、侧方、后方的物体。同样帮助汽车进行定位，这是激光束拆下来之后的样子：<img alt="" src="/uploads/image/201505/b525d757f409.jpg" /> 
+	</li>
+	<li>
+		位置传感器（Position Sensor）：安装在车轮毂内，对车辆进行定位。
+	</li>
+	<li>
+		方向传感器（Orientation sensor）：位于汽车内部，类似于人的内耳，掌握人体运动平衡，引领汽车前进的方向。
+	</li>
+	<li>
+		雷达（Radar）：安装在防撞栏上，用来测量车辆和多个障碍物间的距离并可作用于系统令车辆减速，就是车前方黑色的小盒子：<img alt="" src="/uploads/image/201505/2f3d5b4aeba6.jpg" /> 
+	</li>
+</ul>
+<p>
+	根据官方描述，这些雷达和传感器配合能探测到距离汽车两个足球场距离远的交通情况，这些传感器获得的数据都会马上反馈到 Google 的服务器上，然后从中挑选出最佳的路线，指导汽车前进。
+</p>
+<h2>
+	自动驾驶汽车离我们还有多远？
+</h2>
+<p>
+	限制自动驾驶汽车上路的首要问题是法律。
+</p>
+<p>
+	目前，硅谷所在的美国只有四个州支持自动驾驶汽车上路，而人们更为担忧的问题，例如如何监管自动驾驶汽车、发生事故时的责任界定、用户隐私和安全问题更是迟迟未得到解决。Google 在 2012 年便推动加州政府出台修改自动驾驶汽车监管的规定，但截至今年（已经错过了该法案的最终期限），相关的法律草案仍未出台。
+</p>
+<p>
+	但好消息是，联合国近期对《维也纳道路交通公约》进行了修改，包括欧洲和美洲在内的 72 个国家可以实施法规，允许汽车在特定期间自主驾驶。但是道路交通法律仍然要求司机有能力控制车辆，手动超越自动驾驶功能。
+</p>
+<p>
+	即使法律问题解决了，技术和成本问题依然还在：
+</p>
+<p>
+	高昂的传感器成本限制了厂商，使得他们去制造“部分自动”的车。在今年的 CES 大会上，宝马在所演示的 i3 概念车就使用了 4 个 IBEO 制造的激光传感器。根据<a href="http://www.srfsolutions.com/srfsolutionsautonomoussolutions.html" target="_blank">公开资料</a>，这种传感器的价格在每个 2 万美元以上。
+</p>
+<p>
+	目前的传感器价格不适合进行量产，但&nbsp;Google&nbsp;无人车项目负责人 Chris&nbsp;Urmson 认为传感器的成本很快就会降下来，卡耐基梅隆大学教授 Ragunathan Rajkumar 则估计，未来 3 年，Google 的自动驾驶技术成本将降低到每辆汽车 <a href="http://www.ft.com/intl/cms/s/0/bbea6a02-ab92-11e4-8070-00144feab7de.html#slide0" target="_blank">1 万-1.5 万美元的水平</a>，这是把自动驾驶汽车拉进主流市场最有力的强心针。
+</p>
+<p>
+	除此以外，让汽车的操作系统变得像智能手机一样能升级、能扩展将是自动驾驶汽车的基础，而 Android Auto 是目前看上去进展最快的一个系统。在这次 Google 开发者大会上，我们很可能能看到 Android Auto 的新形态，例如不需要再接入手机就可以在汽车上使用完整的 Google 服务，而桑塔纳很可能成为第一款搭载新 Android Auto 的量产车型；而 Google 改进了 6 年的自动驾驶技术，最新版的原型车也会在今年夏天上公路测试。
+</p>
+<p>
+	对于 Google 来讲，Android Auto 和自动驾驶技术之间交融的临界点越来越近了。更多信息，请期待明天早上《好奇心日报》在 Google 开发者大会上的现场报道。
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="3206">
+				<span data-id="3206">自动驾驶</span>
+			</li>
+			<li class="tag item" data-id="18125">
+				<span data-id="18125">好奇心商业史</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="1473">
+				<span data-id="1473">通用</span>
+			</li>
+			<li class="tag item" data-id="2608">
+				<span data-id="2608">BMW</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10057" data-title="《无人汽车已经驶过 76 年，我们一起看看它的过去与现在 | 好奇心商业史》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10057/medium/10057.jpg?1436652289" data-url="http://www.qdaily.com/mobile/articles/10057" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/5094.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/5094/medium/5094.jpg?1436679657" alt="2014 年风光进驻的苹果已经不再是智能汽车的主角">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">2014 年风光进驻的苹果已经不再是智能汽车的主角</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">18</span>
+				<span class="iconfont icon-heart">26</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24867.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24867/medium/24867.jpg?1459514506" alt="">
+                        <h1 class="title">「万物简史」二度“消失”的苏联副统帅朱可夫</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24876/medium/24876.jpg?1459526792" alt="">
+                        <h1 class="title">碧昂斯的个人品牌终于来了，走的是运动风</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10057">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10057" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">83</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10052.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

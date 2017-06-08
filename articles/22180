@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个游戏，就可以让各种人都来规划 Ta 的城市吗？_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个游戏，就可以让各种人都来规划 Ta 的城市吗？。城市规划向来意味着一小群人决定绝大多数人生活，但这个游戏却让底层的对话成为可能。。好奇心日报为您呈现一个游戏，就可以让各种人都来规划 Ta 的城市吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="城市游戏 深圳 模拟城市 Ekim Tan " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="6TIzF7Cz8aagh1dWHrmz9oSDalXnsQI1sfEP18RQwGE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="23298">
+				<span data-id="23298">城市游戏</span>
+			</li>
+			<li class="tag item" data-id="2548">
+				<span data-id="2548">深圳</span>
+			</li>
+			<li class="tag item" data-id="23300">
+				<span data-id="23300">模拟城市</span>
+			</li>
+			<li class="tag item" data-id="23299">
+				<span data-id="23299">Ekim Tan</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个游戏，就可以让各种人都来规划 Ta 的城市吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">宁卉</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-02-14 17:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/22180/medium/22180.jpg?1455431086" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="22180" data-title="《一个游戏，就可以让各种人都来规划 Ta 的城市吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/22180/medium/22180.jpg?1455431086" data-url="http://www.qdaily.com/mobile/articles/22180.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				城市规划向来意味着一小群人决定绝大多数人生活，但这个游戏却让底层的对话成为可能。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>          </p><p>大浪，以前是一个村子，现在是深圳市龙华新区下辖的一条街道。这条年轻的街道，与深圳很多地区一样，几十年内经历了翻天覆地的城市化建设，如今已有 50 万居民。2015 年夏天的一天，深圳大浪街区文化部的官员联系上了伊京·谭（Ekim Tan）。</p><p>伊京是一名来自土耳其伊斯坦布尔、生活在荷兰阿姆斯特丹的年轻建筑师，她在八年前创立了一个叫做“城市游戏”（City Gaming）的项目。大浪的官员，希望伊京把这个游戏带到深圳。</p><h2><b>城市如此重要，不是“专家”说了就算</b></h2><p>这个世界将很快被城市占领。2015 年，全球 54% 的人口都生活在城市之中；来自联合国的最新预言说，2015 到 2030 年这个世界绝大多数新增的人口——约有 11 亿——都将出生在城市之中。</p><p>一心渴望成为杰出建筑师的伊京，在家乡伊斯坦布尔迅速扩张、逐渐成为一个超级大都市的时候，来到了有着顶级城市规划专业的荷兰，攻读建筑学博士。她随即开始着迷于当下城市化建设中的尖锐矛盾，并意识到传统城市建设将每一棵树种在哪里都规划就位的方法不再可行。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/96f4c1d63a56.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">扎塔利（Al Zaatari）难民营里，难民们把集装箱搬到他们真正需要的地方去</div></figcaption></figure></div><p>塞塞尼亚（Seseña），距离西班牙首都马德里仅 35 公里，曾计划建造 1.3 万套公寓、吸引 3 万郊区居民；现在，这是一座有名的“鬼城”，只有 5000 余套公寓建成，学校医院一列基础设施，都已经废弃。扎塔利（Al Zaatari）是约旦与叙利亚边境的一座难民营，自 2012 年开放至今，已经有 8 万多叙利亚难民生活在这里；当联合国的救援机构运来用作住宿、市集空间的集装箱，安置妥当之后，难民们却自行发明了一个滚轴，把集装箱搬到他们真正需要的地方去……投巨资建城的地方却无人愿去，既定的方案却不遭使用者的待见，这样的例子还有很多，从发达国家到发展中国家，都是如此。</p><p>“我们都觉得这个世界是很复杂的，现实很难抓在手中；所以，在建设城市这件重要又复杂的事情上，我们依赖专家，这些专家决定着整个社会应该怎样生活，在哪里居住、哪里上班、哪里进行娱乐……”伊京说，“但很显然，那个年代已经过去了。”今天的城市规划，充满了可持续、宜居、绿色等批判语境，比起上世纪二战后重建、有一个公寓便可安居乐业的时代，已经区别太大。</p><p>受“模拟城市”（Sim City）电子游戏和战略推演中常见的“严肃游戏”的启发，伊京借助乐高（LEGO）拼接玩具，设计了一个旨在将社区参与带入城市规划的“城市游戏”项目。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/50fd3062a5fa.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">伊京在八年前创立了“城市游戏”</div></figcaption></figure></div><p>“这是一个很简单、却能将持份者有效聚集在一起的方法。”她的方法，是一张用来游戏的桌子，桌面上，铺了一张城市规划图，伊京的团队参照规划涉及的现实规章秩序，设计游戏规则。围在桌子边的“玩家”，除了政府、规划师，还有开发商、投资商、工程方，以及公民、社会活动家、商家等等。</p><p>城市规划图给人一个很不一样的视角，在这张图纸上，“玩家”们能够辨别出熟悉的生活场景，常去的公园，街角的咖啡馆；这些熟悉的去处成为了他们手中的玩具，可以进行重新布置。而当他们对生活中这些关键场所的变化与规划有了话语权之后，对话和协商便自然产生。</p><h2><b>“严肃游戏”的利弊</b></h2><p>游戏作为工具，在今天社会诸多领域的应用，已有些时候。医生们用游戏来为手术做训练、教育机构花大钱投资“寓教于乐”的教育工具、模拟突发状况更是紧急救援的基础项目……这些游戏的功用，多以培训玩家为目的。IBM 在几年前也开发了一个叫做 “City One” 的城市游戏，通过游戏介绍运营一个城市所需的复杂数据系统，用来给 IBM 自己的智能大数据工具做宣传。</p><p class="">不过，“模拟城市”（Sim City）游戏发明者在 1980 年代末四处寻找游戏发布商的时候，曾收到过很多拒信，因为当时市面上的游戏，几乎都以毁灭些什么为目的；最终，“模拟城市”却以“创造些什么”吸引了大量的玩家。</p><p class="">“人们渴望并值得赋权，而将城市空间最优化这个目标，是有可能在各个持份者之间得到共赢的。”伊京说。<br></p><p>对“城市游戏”而言，培训意味要弱很多（并没有将公民培养成城市设计师的目的）、也没有透过游戏给出“最终解决方案”的雄心，而是将游戏本身作为一个新鲜的切入口。</p><p>三年前，伊京的团队在南非开普敦的一个黑人居住区（Township），看到了城市游戏的力量。</p><p>这个有着近 40 万人口的 Khayelitsha，是在上世纪八十年代，南非种族隔离制度下诞生的一个典型居住区，几乎所有的设施都以集装箱为中心存在。“城市游戏”将原本对投资迟疑不决的开发商带了回来——开发商看到了当地社区与政府、与规划者一起协商的可能性，也看到了当地居民的需求和潜力。街头无店铺的卖家，也在这个设计中找到了自己的位置：一个以卖鸡肉为生的大娘，与这些规划者一起，不仅得以看到居住区中心进行商业开发之后的景象，也把她的期待与想法也在游戏中提出。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/923e538badee.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">在南非开普敦的一个黑人居住区 Khayelitsha，“城市游戏”顺利进行</div></figcaption></figure></div><p>四次游戏之后，参与 Khayelitsha 中心区设计的 120 多人，就达成了共识，做出了一个规划。“这简直就像奇迹一样，”伊京说，“你想象一下，这百来人都是有着完全不一样的利益和诉求的，然而仅仅四场游戏之后，他们便能够达成一个关注每个人生计未来的共识。”</p><p>“这个计划实施后，我想是不会有街头抗议的。”</p><p>但是，并不是所有城市设计者都对“游戏”的玩乐性质感冒。回忆八年来对城市游戏的开发、运营，伊京说，常会遇见人们对游戏所能承载的“严肃性”的质疑。“他们会觉得花钱买一份游戏，不如花钱买一份蓝图。”这时候她会把城市游戏描绘得更像是一个互动性的工具，而非玩乐场所。</p><p>对城市游戏持怀疑态度的人还担心，游戏带来的协同、反思，要能够反映在实际城市建设上，还有很大的距离，而且也收到游戏召集方的限制。这也是伊京这些年来在世界各处玩转城市游戏后，做出的最大变化，“我现在意识到游戏应该是一个长期规划，并非一两次协商就会有效果。游戏本身，需要成为进驻在城市中的，一个全新的持份者，与城市建立起一种长期的联系。”</p><p>“城市游戏”长期进驻一个城市的尝试，有可能最先在中国深圳的大浪街区，成为现实。</p><h2><b>深圳，大浪涌动</b></h2><p>深圳大浪的城市化规划里，藏着一股暗流。这个数十年都以包括富士康在内的大工厂及廉价劳力为经济驱动力的城市，近些年来，渴望向创意文化类产业转变。大浪街道，就花了 10 年时间，100 亿元的投资，建出了一个占地 146 万平米的“时尚之谷”创意城区，用来吸引时尚品牌企业。</p><p>这个请来知名建筑师设计地标、光鲜亮丽的“时尚之谷”里，有一块尚未被开发的土地，属于大浪石凹片区。石凹片区的五百余名村民从这片土地上获得的收益，将基于土地的使用方式。伊京在 2015 年 9 月受邀来到大浪进行调查，她解释了政府与村民之间的矛盾：“譬如说，村民们会希望这个规划是极其高密度的，而政府则希望有其他的辅助设施规划进来，学校、医院等等。”</p><p>大浪还有一个更“显性”的问题——这里大多数的居民，都是极其年轻的外来务工者（青工），有 40 万之众，一半以上都在 30 岁以下，多不会在大浪久居。大浪街区文化部的官员希望伊京的城市游戏，将这些青工的需求，也包含进来——“我想，文化部的官员觉得规划部的官员没能够听取外来务工者的意见。”伊京说。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/277250313df2.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">伊京向大浪的外来务工者们解释“玩转大浪”的游戏</div></figcaption></figure></div><p>伊京为大浪设计了两场游戏，在 2015 年 12 月的深圳建筑双年展展会上进行，称作“玩转大浪”。第一批来的是青工代表。“这些年轻的打工者，可能每天要工作 13 个小时，他们不会天然得去考虑城市规划这件事情。”伊京说，“所以我们并没有丢给她们一堆复杂的规则，而是询问她们空闲时候都做些什么，她们也许从未能够对周边环境做出改变，但却是公共空间的主要使用者，比如吃中饭的地方，街头的网吧，台球场。”</p><p>第二批，包括石凹片区村民，大浪城市规划官员，企业、商户、居民以及公民社会的代表，他们和外来务工者一起，对位于大浪石凹片区的一栋闲置建筑物以及一块占地 12 万平方米的土地进行了城市规划设计游戏。</p><p>城市规划图涉及复杂的权力与利益纠葛过程，持有者、使用者和投资者对一个空间的优先需求大相近庭，现时的规划过程，或者几方完全不碰面，或者遇到却不敢言，“可当这件看似复杂的大事件，变成了桌面上的一个游戏的时候，”伊京说，“参与者的注意力，则会从人与人之间的紧张感，转移到了桌面上。”</p><p>这在村民身上完全体现出来。伊京第一次见到这些村民的时候，说他们都保持着礼貌的距离，一听这个游戏是政府请来的，马上就说他们都听政府的。但是在游戏桌上，手持拼接玩具的村民们，变得更激进，桌面上的楼房被他们堆得越来越高——因为他们最想要的，就是在自己所持的土地上，获得最大可能的收益。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/c171676251b6.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">伊京说，城市建设的各方持份者对待“玩转大浪”游戏时，尤为严肃认真</div></figcaption></figure></div><p>兴致高昂的外来务工者，不知不觉透露心声的村民代表，以及年轻的城市规划处官员们……透明有效的“对话机制”并不是一个轻易能够寻得的工具，跨越中外东西都是如此。伊京的游戏给了一个入口，降低了对话的门槛。这些仅仅发生在概念探讨的层面，实际情况如何，则进入另一种未知。</p><p>两场“玩转大浪”游戏之后，伊京收到了大浪官员的后继邀请，这些游戏将在大浪继续下去。“春节后，我会再去一次深圳，并希望在外来务工者之间选出一个‘游戏调解员’（Game Master），让他们能够在大浪的城市建设中，慢慢、持续地提出意见。”伊京说。</p><p class="">文中图片来自&nbsp;Play the City 工作室</p><p class=""><br></p><p class="">题图来源：<a jsaction="mousedown:irc.rl;keydown:irc.rlk" data-noload="" href="http://www.tested.com/tech/gaming/453186-simcity-vs-suburban-sprawl/" data-ved="0ahUKEwi78eKRzfbKAhXHEpQKHSq_D94QjB0IBg">tested</a>、<a href="http://creative.vcg.com/9057614">视觉中国</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="23298">
+				<span data-id="23298">城市游戏</span>
+			</li>
+			<li class="tag item" data-id="2548">
+				<span data-id="2548">深圳</span>
+			</li>
+			<li class="tag item" data-id="23300">
+				<span data-id="23300">模拟城市</span>
+			</li>
+			<li class="tag item" data-id="23299">
+				<span data-id="23299">Ekim Tan</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="22180" data-title="《一个游戏，就可以让各种人都来规划 Ta 的城市吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/22180/medium/22180.jpg?1455431086" data-url="http://www.qdaily.com/mobile/articles/22180.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20879.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/20879/medium/20879.jpg?1453713690" alt="她觉得，建筑师不能再为珠三角不合理的城市化做“帮凶”了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">她觉得，建筑师不能再为珠三角不合理的城市化做“帮凶”了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">14</span>
+				<span class="iconfont icon-heart">169</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26631.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26631/medium/26631.gif?1462855598" alt="">
+                        <h1 class="title">忘掉《华尔街之狼》和《大空头》，交易员这工作其实是这样的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26661.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26661/medium/26661.jpeg?1462886480" alt="">
+                        <h1 class="title">这个在希腊的考古博物馆，像三个巨大的鹅卵石</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26649.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26649/medium/26649.jpg?1462876397" alt="">
+                        <h1 class="title">为了玩虚拟现实不头晕，有人塞了一堆 LED 灯</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26670.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26670/medium/26670.jpg?1462897309" alt="">
+                        <h1 class="title">这个朋克乐队为新歌《一万个反抗的方式》发了一支MV</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26626.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26626/medium/26626.jpg?1462854316" alt="">
+                        <h1 class="title">「这世界」做着做着数学题，咋就被人当成恐怖分子了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="22180">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="22180" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">263</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/22228.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

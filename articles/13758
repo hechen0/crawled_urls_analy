@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>七夕反秀恩爱指南丨好奇心研究所_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="七夕反秀恩爱指南丨好奇心研究所。最高级别的秀恩爱就是无秀胜有秀。。好奇心日报为您呈现七夕反秀恩爱指南丨好奇心研究所的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="报告 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">七夕反秀恩爱指南丨好奇心研究所</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112316/small/112316.JPG?1442220004" alt="">
+					</span>
+				<span class="name">罗芊 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-20 11:29:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13758/medium/13758.jpg?1440007151" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13758" data-title="《七夕反秀恩爱指南丨好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13758/medium/13758.jpg?1440007151" data-url="http://www.qdaily.com/mobile/articles/13758.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				最高级别的秀恩爱就是无秀胜有秀。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	秀恩爱怎样才不会被讨厌？你可以感受一下下面几位秀恩爱&nbsp;max&nbsp;：
+</p>
+<p style="text-align:left;">
+	李健的妻子<a href="http://www.weibo.com/mengxiaobei">孟小蓓的微博</a>是教科书级别的《高逼格秀恩爱指南》，这位小贝壳同学把生活过成了诗：
+</p>
+<p style="text-align:left;">
+	“回家去厨房看见，爱干净先生已将自己午餐和下午喝茶的壶碗清洁归位了，每当我上班的那天都是这样。”
+</p>
+<p style="text-align:left;">
+	“我在小园浇水，昨晚回来的出差先生隔着纱窗说，与你在一起的日子才叫时光，否则只是始终无意义的游摆……风儿吹过來，小花草纷纷跳起舞～”
+</p>
+<p style="text-align:left;">
+	金庸小说秀恩爱也很巧妙，比如赵敏那句“你是汉人，我也是汉人，你是蒙古人，我也是蒙古人”。
+</p>
+<p style="text-align:left;">
+	但印象最深刻的却是令狐冲那段。
+</p>
+<p style="text-align:left;">
+	突然之间，四下里万籁无声。少林寺寺内寺外聚集豪士数千之众，少室山自山腰以至山脚，正教中人至少也有二三千人，竟不约而同的谁都没有出声，便有人想说话的，也为这寂静的气氛所慑，话到嘴边都缩了回去。似乎只听到雪花落在树叶和丛草之上，发出轻柔异常的声音。令狐冲心中忽想：“小师妹这时候不知在干什么？”
+</p>
+<p style="text-align:left;">
+	但人生往往不是这样。
+</p>
+<p style="text-align:left;">
+	<a href="http://www.qdaily.com/papers/433.html">本报「好奇心研究所」此前做过一次“你最烦哪种秀恩爱？”的投票，我们收获了共 3827 次表态。</a> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/08c1e034c81f.jpg" width="1000" height="632" title="1" alt="1" /> 
+</p>
+<p style="text-align:left;">
+	结果表明：人们对秀恩爱这件事情容忍度极低，不管你引用诗句说上一声陌上花开缓缓归矣（14.0%）；还是秀出你们自认为美轮美奂到没有朋友的合影（11.6%）；亦或是异地恋晒礼物说一声哈尼真好（11.5%）；甚至穿上宣誓主权的情侣装使劲蹦跶（7.2%），都只有一个结局，那就是“讨厌，起开”。
+</p>
+<p style="text-align:left;">
+	秀恩爱这件反人类的事情，极其考验双商，不仅要秀出来秀到位秀得对象满意，还要让看的人祝福、开心。下面是一些错误示范，欢迎模仿，如有雷同，纯属巧合：
+</p>
+<p style="text-align:left;">
+	一唱一和的秀——你两这是演话剧呢！<br />
+两个人一起秀——一模一样的东西看两遍，能倒着背出来。<br />
+把说给对方听的私密话秀出来——嗯哼，我要去洗眼睛。<br />
+为了证明感情、惹人羡慕而秀——讲真，不装&nbsp;X&nbsp;我们还是好朋友。
+</p>
+<p style="text-align:left;">
+	看着这些刷屏的“我们”，单身汪心中只想大喊：愿你们年年岁岁花相似，岁岁年年人不同。
+</p>
+<p style="text-align:left;">
+	其实也能理解，适度的秀恩爱有利于身心健康，那种就是想告诉全天下“这个人被我承包了”的喜悦一年一两次就好了。
+</p>
+<p style="text-align:left;">
+	调查显示，“公开展示感情”（Public&nbsp;Display&nbsp;of&nbsp;Affection）原因有两个，一个是“自我形象管理”，希望将自己受欢迎、好、优秀的一面展示给他人，公开展示恩爱这种行为也是自我形象建构的一部分——至少是有人要的、受欢迎的、有吸引力的。
+</p>
+<p style="text-align:left;">
+	还有一个就是“社交提升”和“社交补偿”——高自尊的、更外向的人获得更多自信心，得到心理提升；低自尊的、更内向的人通过社交“炫耀”让自己得到心理补偿。
+</p>
+<p style="text-align:left;">
+	如果恩爱秀的不够好看，那还是别秀了，看起来怪惨的。
+</p>
+<p style="text-align:left;">
+	而且今天那么多人秀，竞争多激烈啊，别怪我没提醒你。
+</p>
+<p style="text-align:left;">
+	不用谢。
+</p>
+<p style="text-align:left;">
+	<br />
+</p>
+<p style="text-align:left;">
+	<a href="http://www.qdaily.com/labs.html"><em>好奇心研究所</em></a><em>是好奇心日报的一个调查栏目，这是一个探讨各种生活方式问题的互动平台，它针对的可能是生活方式的变化和潮流，也可能是某个品牌的服务。你可以在这里投票、吐槽、表明态度。</em> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13758" data-title="《七夕反秀恩爱指南丨好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13758/medium/13758.jpg?1440007151" data-url="http://www.qdaily.com/mobile/articles/13758.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27016/medium/27016.jpg?1463561406" alt="">
+                        <h1 class="title">阿里音乐发布了一个“粉丝游乐场”，它是不是想得太好了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27022.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27022/medium/27022.jpg?1463567304" alt="">
+                        <h1 class="title">特斯拉还要出新车，回归敞篷跑车</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13758">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13758" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">52</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13752.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

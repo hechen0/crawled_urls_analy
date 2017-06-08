@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>苹果又开发布会了，除了智能手表还有什么？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="苹果又开发布会了，除了智能手表还有什么？。除了 Apple Watch 还有什么可看？。好奇心日报为您呈现苹果又开发布会了，除了智能手表还有什么？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Apple Watch WWDC Macbook Air iPad beats " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="LEd0pZpcH+2XxEIK8cPWmi1hKpyYDn6RGKT3T85wTlM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2871">
+				<span data-id="2871">Apple Watch</span>
+			</li>
+			<li class="tag item" data-id="747">
+				<span data-id="747">WWDC</span>
+			</li>
+			<li class="tag item" data-id="69">
+				<span data-id="69">Macbook Air</span>
+			</li>
+			<li class="tag item" data-id="382">
+				<span data-id="382">iPad</span>
+			</li>
+			<li class="tag item" data-id="411">
+				<span data-id="411">beats</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">苹果又开发布会了，除了智能手表还有什么？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-08 09:14:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7178/medium/7178.jpg?1436688209" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7178" data-title="《苹果又开发布会了，除了智能手表还有什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7178/medium/7178.jpg?1436688209" data-url="http://www.qdaily.com/mobile/articles/7178.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				除了 Apple Watch 还有什么可看？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在距离上一次发布会半年之后，苹果将在 3 月 9 日（北京时间 3 月 10 日凌晨）举行一场名为“Spring Forward”的新品发布会。这场发布会的主角无疑是苹果智能手表 Apple Watch。这个价格从 2000 元到 3 万元人民币不等的可穿戴设备，将在 4 月正式搬上货架。除了 Apple Watch 之外，那些你所关心的产品，例如苹果的手提电脑 Macbook Air、甚至是传闻已久的 12.9 寸 iPad 又会不会出现？我们根据目前外媒的信息做了一个汇总。
+</p>
+<h2>
+	心率监测、5 小时续航……Apple Watch 细节提前看
+</h2>
+<p>
+	由于关注度太高，苹果的产品基本上无法逃脱提前被曝光的命运，这次的 Apple Watch 也不例外。离发布会还有 2 天，垂直的苹果新闻网站<a href="http://9to5mac.com/2015/03/06/sources-offer-hands-on-apple-watch-details-battery-life-unannounced-features-and-more/"> 9to5Mac </a>和 <a href="http://techcrunch.com/2015/03/06/the-apple-watch-is-time-saved/#ovv7jR:rVaf">TechCrunch</a> 等多家国外科技媒体上已经有了长篇的新功能叙述。
+</p>
+<p>
+	<strong>电池续航：5 个小时</strong> 
+</p>
+<p>
+	早前有外媒报道，Apple Watch 如果重度使用，电池续航可能只能维持最低 2.5 个小时。本次披露的新消息指，重度使用时间在 5 个小时左右，就像给 iPhone 每天充电那样，也许你还需要常备数据线给手表也充电。
+</p>
+<p>
+	<img src="/uploads/image/201503/e45f903a83c1.jpg" alt="" /> 
+</p>
+<p>
+	根据<a href="http://www.nytimes.com/2015/03/02/technology/apples-new-job-selling-a-smartwatch-to-an-uninterested-public.html">纽约时报</a>早前的报道，Apple Watch 会带有一个低电量的模式（Power Reserve Mode），会在电量只有 20% 启用，手表只留有核心的功能。而 9to5Mac 引述知情人消息指，这个低电量模式随时可以在任何电量模式时被激活。还有消息指，Apple Watch 屏幕如果 2 秒之内无操作则会熄灭，即使与 iPhone 进行联动，iPhone 电量消耗也没有明显的增加。
+</p>
+<p>
+	<strong>漂亮的心率监测功能</strong> 
+</p>
+<p>
+	这个功能全名叫做 Heart Rate Glance，通过手表内置的心跳监测装置，你可以在按下监测键之后看到自己实时的心跳速度。这个实时的反馈，可能会像下图一样在表面呈现一个漂亮跳动的心形。
+</p>
+<p>
+	<img src="/uploads/image/201503/3e2a73b251d1.jpg" alt="" /> 
+</p>
+<p>
+	心跳的数据可以通过社交应用分享出去，或者发送到运动监测应用中，计算目前消耗的卡路里。这些交互都会在数据传送到 iPhone 之后完成。
+</p>
+<p>
+	<strong>为了音乐，Apple Watch 储存容量可达 8 GB</strong> 
+</p>
+<p>
+	这也是来自 9to5Mac 的消息，称 Apple Watch 的储存空间达到 8GB，可以独立储存和播放音乐，而不需要事事通过 iPhone 联动。虽然，导入音乐还需要使用 iPhone——用户可以通过一个 Apple Watch 相伴相生的 iPhone 应用来将音乐导到手表上，然后音乐可以使用蓝牙技术输出到外接的蓝牙音响和耳机上。
+</p>
+<p>
+	<img src="/uploads/image/201503/03ce4d579518.jpg" alt="" /> 
+</p>
+<p>
+	8GB 除了减少长时间蓝牙传输音乐时的电力损耗以及让你在手机没电的时候也能听音乐以外，还能装大约 200 个智能手表应用，虽然目前体验过的人称卡顿明显。
+</p>
+<p>
+	<strong>通知中心以及 Glance 功能</strong> 
+</p>
+<p>
+	Glance 也许是 Apple Watch 新体验的最重要的功能了，因为它可以改变你使用手机、甚至低头操控手表的频率。Glance 从字面理解就是指“一瞥”，根据 9to5Mac 的消息指，包括运动状态、活动状态、时间、天气、音乐、快速设置、日历、地图、电量以及心率等多个应用场景都会有适配 Glance 功能，在用户开启不同的服务的时候，相关的重要消息可以经过简缩直接呈现在表盘首页。
+</p>
+<p>
+	当然，Apple Watch 还会保留像 iPhone 那样的通知中心，操作方式也类似：从表盘顶部下滑即可调出。TechCrunch 引述知情人消息指，有体验过的操作者表示，这种更加不打扰的通知方式，减少了他们打开手机的频率。
+</p>
+<h2>
+	新款 Macbook Air 也会现身
+</h2>
+<p>
+	根据<a href="http://www.wsj.com/articles/apple-suppliers-told-to-mass-produce-larger-ipad-pro-in-second-half-1425530886?tesla=y" target="_blank">《华尔街日报》</a>最近的消息，3 月 9 日发布会出现的可能还有从去年 10 月就开始传闻的 12 英寸屏幕的新 Macbook Air 手提电脑。
+</p>
+<p>
+	目前对于这款 12 英寸屏幕的设备还没有非常细节的信息，只知道这款设备会将 12 英寸的显示屏“压缩”在 11 寸 Macebook Air 大小的机身当中，也就意味着比目前 13 寸的版本小和轻薄一些。
+</p>
+<p>
+	据悉，苹果为了更加简化设计，还减少了新 Macbook Air 上的 USB 接口，从两个减少到一个。
+</p>
+<h2>
+	12.9 英寸的 iPad 要推迟了
+</h2>
+<p>
+	想等大屏 iPad 的人们，或许要等到今年下半年了。2014 年 10 月左右，有消息指称苹果正在做一台最大屏幕的 iPad，屏幕尺寸将达 12.9 英寸。根据<a href="http://www.bloomberg.com/news/articles/2015-03-04/apple-said-to-delay-larger-ipad-production-on-panel-challenges" target="_blank">彭博社</a>的消息，苹果的原计划是在 2015 第一季度发布这款大屏幕 iPad，用此进军生产力工具领域。
+</p>
+<p>
+	但看到平板设备的销售增长缓慢，苹果可能会将推迟发布这款名为 iPad Pro 的产品。
+</p>
+<h2>
+	苹果的流媒体音乐服务？等 6 月吧
+</h2>
+<p>
+	同样不会在 3 月 9 日发布会出现的，是苹果旗下 Beats 公司的音乐流媒体服务。
+</p>
+<p>
+	根据<a href="http://www.pcmag.com/article2/0,2817,2462236,00.asp" target="_blank"> PCMag</a> 日前挖出来的一份疑似苹果开发者大会（WWDC）的 Keynote 草稿，这项音乐服务已经准备好了，并且将会在 6 月 8 日发布。每月收取 7.99 美元（比 Spotify 的 9.99 美元还要便宜些），然后让消费者无限量听流媒体音乐。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="fortune.com" target="_blank">Fortune</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2871">
+				<span data-id="2871">Apple Watch</span>
+			</li>
+			<li class="tag item" data-id="747">
+				<span data-id="747">WWDC</span>
+			</li>
+			<li class="tag item" data-id="69">
+				<span data-id="69">Macbook Air</span>
+			</li>
+			<li class="tag item" data-id="382">
+				<span data-id="382">iPad</span>
+			</li>
+			<li class="tag item" data-id="411">
+				<span data-id="411">beats</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7178" data-title="《苹果又开发布会了，除了智能手表还有什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7178/medium/7178.jpg?1436688209" data-url="http://www.qdaily.com/mobile/articles/7178.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25032.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25032/medium/25032.jpeg?1459918358" alt="">
+                        <h1 class="title">同样是看美剧，这个西班牙设计师还原出了室内平面图</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25042.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25042/medium/25042.jpg?1459925826" alt="">
+                        <h1 class="title">《真三国无双》系列推出新作，这次不是割草游戏了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25035.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25035/medium/25035.jpg?1459920713" alt="">
+                        <h1 class="title">「这世界」为防止被外星人袭击，我们把地球藏起来吧！</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25033.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25033/medium/25033.jpg?1459919821" alt="">
+                        <h1 class="title">新的 Kindle 是什么样？更轻更薄，还有充电外壳</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7178">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7178" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">44</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7176.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

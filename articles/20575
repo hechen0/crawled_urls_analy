@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>百度贴吧的商业化，不可以靠把用户当肉鸡来实现_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="百度贴吧的商业化，不可以靠把用户当肉鸡来实现。作为一个可以影响无数人的大公司，你的道德感在哪里？。好奇心日报为您呈现百度贴吧的商业化，不可以靠把用户当肉鸡来实现的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 贴吧 UGC 广告 医疗 百度 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Cyh2zk19dy+vHJ15HAdsp4yvBbj53QDnV44G4tSLTGY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">百度贴吧的商业化，不可以靠把用户当肉鸡来实现</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/99037/small/99037.jpg?1428742661" alt="">
+					</span>
+				<span class="name">钟舒婷 崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-12 16:03:23 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/20575/medium/20575.jpg?1452581958" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20575" data-title="《百度贴吧的商业化，不可以靠把用户当肉鸡来实现》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20575/medium/20575.jpg?1452581867" data-url="http://www.qdaily.com/mobile/articles/20575.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				作为一个可以影响无数人的大公司，你的道德感在哪里？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	上周四，发现自己的百度贴吧吧主权限被撤了之后，韩骑亮慌了。
+</p>
+<p>
+	<span>以“山东老八路”的 ID 被百度贴吧用户所熟知的韩骑亮是</span><a href="http://tieba.baidu.com/f?kw=%E8%A1%80%E5%8F%8B%E7%97%85&ie=utf-8&tp=0" target="_blank">“血友病吧”</a>的吧主。这位血友病患者日常在贴吧维护帖子、写写疾病基础知识的普及，这事情已经持续了 12 年。但就在两个月前，百度贴吧给血友病吧空降了一个新的官方吧主。
+</p>
+<p>
+	1 月 7 日，韩骑亮和<span>二吧主“蚂蚁菜”的</span>权限被撤销。3 天后，“血友病吧”里的许多精品帖子开始被陆续被删。韩骑亮接受《好奇心日报》采访时说道：“1 月 9 日，我看到血友病吧还有很多精品贴，昨天下午就几乎删光了”。
+</p>
+<p>
+	而自称是“血友病专家”的新任吧主，上周也被曝光和陕西一个从事血友病治疗的民营机构有关。
+</p>
+<p>
+	“蚂蚁菜”上周末在<a href="http://www.zhihu.com/question/39322261" target="_blank">知乎上写了揭露吧主被换的回答</a>，一夜之间得到了近 2 万人关注。本来只有 8 千多人关注的血友病吧，也在短时间内引来了大量前来围观的帖子。针对百度的道德指责也随之而来。
+</p>
+<p>
+	<span>作为退让，<a href="http://3g.163.com/ntes/special/0034073A/wechat_article.html?docid=BD4BJUG0000915BF&s=newsapp&w=10&f=wx" target="_blank">百度 1 月 12 日表示</a>，愿意撤销商业合作的新吧主，同时宣布“所有病种类吧全面停止商业合作，只对权威公益组织开放。”</span> 
+</p>
+<h2>
+	血友病吧不是个例
+</h2>
+<p>
+	血友病吧的事情并不是个例。自从 2009 年开始商业化之后，百度贴吧就接受第三方代运营公司的服务，吧主、广告和运营早就已经成了能被商业公司认证和购买的服务了。
+</p>
+<p>
+	<span>而这次</span>，血友病吧被卖的事情引起激烈的讨论，不过是因为疾病和医疗内容更加具有公共服务性质而已。
+</p>
+<p>
+	去年 1 月，百度贴吧就曝出过类似贴吧买卖的争议。那时，一款日本网页游戏贴吧<a href="http://www.qdaily.com/articles/5346.html" target="_blank">“</a><span style="text-align:start;"><a href="http://www.qdaily.com/articles/5346.html" target="_blank">舰队 collection 吧</a>”</span>在无端吧主在被撤之后，换成同类型国产游戏“舰娘国服”的管理者，置顶的帖子也换成了舰娘中国的消息。还有流言称，“舰娘国服”团队用了 70 万人民币购买了这个贴吧接管权。
+</p>
+<p>
+	尽管真实数字并不能确认，舰娘国服团队也否认接管贴吧，这个事情激起不少贴吧用户的不满。他们不仅发水帖来刷屏“爆吧”，还<span>去白宫网站请愿了；</span>“70 万都没有，还想当吧主”也成了一段时间内贴吧用户的流行语，“<span>70 万买贴吧”的搜索项也曾经登上过上百度热搜榜。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/90ea1c7e378f.jpg" width="550" height="380" title="“舰娘国服”官网被黑" alt="“舰娘国服”官网被黑" /><span>“舰娘国服”<a href="http://chanye.178.com/201501/215407095699.html" target="_blank">官网被黑时的截图</a></span> 
+</p>
+<p>
+</p>
+<p>
+	<span><span>对于将此作为生意的百度来说，把血友病吧、<span style="text-align:start;">舰队 collection 吧的</span>经营权卖给其他公司，与把小米贴吧卖给小米公司来做企业认证和代运营，性质没什么不一样。</span></span> 
+</p>
+<p>
+	<span><span>只是这一次，因为涉及关系重病救治，百度的商业化又一次成为外界焦点。</span></span> 
+</p>
+<h2>
+	百度贴吧的商业化就是百度搜索生意的延续
+</h2>
+<p>
+	在 2003 年开始经营的“百度贴吧”，一开始只是百度旗下的一个用户自制内容论坛。贴吧的结构，和百度的搜索机理类似，都是以“关键字”为单位，用户可以创建某一个关键字的贴吧（形式为网络论坛），然后在这个主题底下更新帖子和讨论。
+</p>
+<p>
+	到 2013 年，贴吧 10 周年庆时，它已经成为一个中国互联网上的庞然大物：注册用户 6 亿、活跃用户超过 2 亿。更重要的是，贴吧成了<span>中国互联网文化和新词最大的产出地，</span>我们至今熟悉的网络用语，“屌丝”、“翔”等最早都是出自贴吧。
+</p>
+<p>
+	<span>“贴吧最好的时代还没有来临，我保证大家会更加喜欢未来的贴吧。”这是百度公司主席李彦宏在 2013 年亮相贴吧 10 周年庆典时说的一句话。</span> 
+</p>
+<p>
+	<span>我们等来的是不是更好的贴吧不太好说，但一定是“更商业化的贴吧”。</span> 
+</p>
+<p>
+	2014 年，百度贴吧推出“企业平台”，这是直接在贴吧广告之上的赚钱新方式：企业需要缴纳最低 3&nbsp;万元的认证费用，首批入驻的企业名单中，包括了特斯拉、网易游戏、天猫这样的品牌，企业贴吧带有蓝色“V”字，和纯民间运营、不带标记的“兴趣吧”区分开来。
+</p>
+<p>
+	在企业贴吧的日常管理中，绝大多数企业都将贴吧的管理委托给“代运营机构”负责。说白了，就是企业花钱获得一个自家名字贴吧的全部管理权限，以及在页面上各种位置添加各种广告的机会，还有人专门管理。百度和企业签订的合同一般都是以年为单位的，如果第二年不续约，贴吧认证就会取消，运营团队也会走。
+</p>
+<p>
+	根据《好奇心日报》的了解，这类机构在全国已经有超过 30 家。
+</p>
+<p>
+	前百度贴吧运营团队的“季哥”（化名）在接受《好奇心日报》采访时表示，百度虽然不直接提供代运营服务，但大多数代运营公司都与百度合作，运营公司赚取的是百度和企业之间的价格差。
+</p>
+<p>
+	而对于“化妆”、“骑行”、“手机”这类主题更宽泛、利益也更难界定的行业贴吧，百度则在 2015 年推出了“贴吧合伙人”制度，申请成功的企业将可以像运营自家品牌的企业贴吧一样，独占一整个垂直领域的推广渠道。
+</p>
+<p>
+	简单来说，贴吧合伙人一旦看上哪个粉丝量大的贴吧，就能花钱在上面打广告：三个普通的置顶帖、一个会员专属自营贴、一个话题贴、精品区，四个首页焦点图，四个右侧图片轮播图，四个右侧视频轮播位、一个右侧公告位、客户端消息推送等……都是广告位。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b8beb54fd32f.jpg" width="1080" height="737" title="脑瘫吧的首页广告位" alt="脑瘫吧的首页广告位" /><span><a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E8%84%91%E7%98%AB&fr=search" target="_blank">脑瘫吧</a>的首页广告位</span> 
+</p>
+<p>
+</p>
+<p>
+	血友病吧就是类似于“合伙人制度”发布后的事件：空降的吧主就是来自代运营公司，接管贴吧后，他们除了有权限发布广告外，还能删帖、禁言。
+</p>
+<p>
+	权力是中立的，好坏都看使用者的想法。但当吧主直接就是企业花钱换来的以后，会怎么用也就可想而知了。
+</p>
+<p>
+	就像百度搜索的竞价排名，在贴吧的生意上，百度一样是让企业花钱买到控制内容的机会。
+</p>
+<h2>
+	百度并没有肩负起大公司的责任
+</h2>
+<p>
+	百度早年的成功构建在它的搜索份额之上，去年一季度，他们依然占据国内八成搜索引擎份额。早期，百度贴吧也是靠搜索结果引流，建立起来今天 10 亿的用户量。<span>而现在，<span>贴吧对于百度来说，是和搜索引擎一样的生意。</span></span><span></span> 
+</p>
+<p>
+	在很长一段时间以来，民营医院的医疗广告都是百度关键字搜索的收入大头。因为病人与医生所掌握的医疗信息极度不对称，患者很容易根据搜索引擎的广告和推荐来决定到哪里就诊。自负盈亏的民营医院，就是在百度投放关键字引导用户。
+</p>
+<p>
+	<span>今年 3 月，莆田系的民营医院在竞价广告的恶性循环中和百度撕破脸皮，暂停了广告的购买。但这个事件中上当受骗的患者及其家属，却没有可靠的申诉路径。百度也并未因此承担任何责任，这些也是写在百度的条款里的事情。</span><span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	事情对于 Google 来说也是类似。2010 年前后，美国联邦调查局（FBI）曾调查过 Google 的广告投放系统 Adwords。后来 Google 承认自己为一些未通过第三方验证的售药网站打广告。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/ae159f34c532.jpg" width="900" height="503" title="Google 和百度的高价关键词" alt="Google 和百度的高价关键词" /><span>Google 和百度的高价关键词</span> 
+</p>
+<p>
+</p>
+<p>
+	付了 5 亿美元和解后，Google&nbsp;<a href="http://searchengineland.com/google-sues-rogue-pharmacies-to-block-advertising-51378" target="_blank">告了几个违法广告</a>商，雇佣了一个新的严格的第三方验证。仅 2011 年，Google 就撤掉 1.3 亿虚假广告。
+</p>
+<p>
+	Google 对此案的评论很简洁。“我们对我们的行为负责。回头看，我们不应该允许这些广告存在。”
+</p>
+<p>
+</p>
+<p>
+	是，用户依然可以用知乎、丁香园、或者想办法上 Google 获取信息。但从实际用户数量就可以看出，中国 6 亿多互联网用户，大多数人只知道百度。
+</p>
+<p>
+	今天<span>百度在搜索、贴吧社区所占据的垄断地位，让它成为了一个事实上的公共服务。</span> 
+</p>
+<p>
+	<span>就像杰伦·拉尼尔在《互联网冲击<span>》</span>一书里说的：“有些公司还没有成为可持续发展公司，就已经变得不可或缺了。”</span> 
+</p>
+<p>
+</p>
+<p>
+	现在百度已经在为了获取更多收入改变贴吧运作，让广告主直接干预用户可以看到的信息——这些社区里的信息并不是百度生产的，这些信息全部来自用户。
+</p>
+<p>
+	随着搜索在移动环境下的重要性下降、百度糯米持续投入而不见回报，百度的收入压力只会越来越大。相应的，它通过现有垄断产品盈利的驱动力也会越来越大。
+</p>
+<p>
+	百度能在这样的压力下，找到自己的操守么？
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图来自 <a href="http://www.washingtonpost.com/national/health-science/you-need-surgery-so-how-do-you-find-the-right-doctor/2015/07/20/0122e132-2a62-11e5-bd33-395c05608059_story.html" target="_blank">washingtonpost</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="21949">
+				<span data-id="21949">贴吧</span>
+			</li>
+			<li class="tag item" data-id="6830">
+				<span data-id="6830">UGC</span>
+			</li>
+			<li class="tag item" data-id="64">
+				<span data-id="64">广告</span>
+			</li>
+			<li class="tag item" data-id="675">
+				<span data-id="675">医疗</span>
+			</li>
+			<li class="tag item" data-id="261">
+				<span data-id="261">百度</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20575" data-title="《百度贴吧的商业化，不可以靠把用户当肉鸡来实现》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20575/medium/20575.jpg?1452581867" data-url="http://www.qdaily.com/mobile/articles/20575.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11837.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/11837/medium/11837.jpg?1436636321" alt="「Top 15 之百度」矛盾中的贴吧，会给百度带来它所希望的未来吗？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">「Top 15 之百度」矛盾中的贴吧，会给百度带来它所希望的未来吗？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">59</span>
+				<span class="iconfont icon-heart">217</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11356.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/11356/medium/11356.jpg?1436640393" alt="关于百度的竞价广告，来自消费者、代理商和行业的 9 个问题">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">关于百度的竞价广告，来自消费者、代理商和行业的 9 个问题</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">23</span>
+				<span class="iconfont icon-heart">237</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27207.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27207/medium/27207.jpg?1463979170" alt="">
+                        <h1 class="title">癌症这个超级复杂的命题，被这个葡萄牙人变成了信息图</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27220.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27220/medium/27220.jpg?1463992075" alt="">
+                        <h1 class="title">耐克和巴萨续天价合约，阿迪想靠便宜跑鞋吸引美国人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27218.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27218/medium/27218.jpg?1463990611" alt="">
+                        <h1 class="title">剑桥大学要为领袖开商科博士课程，会是个噱头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27222.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27222/medium/27222.jpg?1463995142" alt="">
+                        <h1 class="title">时隔19年，“香港小虎队”草蜢又发了一张国语专辑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20575">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20575" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">422</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20594.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

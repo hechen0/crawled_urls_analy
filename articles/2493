@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>老牌图片社想免费给图，不过他们也没想好怎么做_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="老牌图片社想免费给图，不过他们也没想好怎么做。在数码照片出现后的二十年里，出售图片的生意遭受了相当大的冲击。当老牌图片社决定让你免费使用它们的图片，商业模式会是怎么样的？。好奇心日报为您呈现老牌图片社想免费给图，不过他们也没想好怎么做的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="图片社 商业模式 iOS 8 app " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="bUK6Qg51OBMtJeCoVjZQdvZlK7owyGwrmz4yG4ktWqU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3091">
+				<span data-id="3091">图片社</span>
+			</li>
+			<li class="tag item" data-id="3092">
+				<span data-id="3092">商业模式</span>
+			</li>
+			<li class="tag item" data-id="535">
+				<span data-id="535">iOS 8</span>
+			</li>
+			<li class="tag item" data-id="360">
+				<span data-id="360">app</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">老牌图片社想免费给图，不过他们也没想好怎么做</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-22 14:25:31 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2493/medium/2493.jpg?1436651591" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2493" data-title="《老牌图片社想免费给图，不过他们也没想好怎么做》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2493/medium/2493.jpg?1436651591" data-url="http://www.qdaily.com/mobile/articles/2493.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				在数码照片出现后的二十年里，出售图片的生意遭受了相当大的冲击。当老牌图片社决定让你免费使用它们的图片，商业模式会是怎么样的？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	图片社的生存模式在互联网时代受到的挑战并不小：有价值的图片越来越多，而来源却日渐多元化，许多新闻线索可能直接来源于 Facebook 或是微博用户用手机拍摄的一张背影。以出售图片作为收入来源的图片社的收益则日渐减少。
+</p>
+<p>
+	<a href="www.gettyimages.com" target="_blank">华盖图库（Getty Images）</a>是美国的新闻照片提供商，你应该在很多新闻的图片附注里看到过它们的名字。<span style="line-height:1.5;">1995 年创立之初，华盖图库仅有 3 万付费用户和一个拥有 7 万张图片的数据库，每一次用户的大规模增长，带来的都是图片单价的降低。而发展到今天，这个拥有超过 1 亿张图片、130 万付费用户的图片业巨头已经不得不把</span><span style="line-height:1.5;">兴趣从出售照片版权盈利，转移到新的盈利模式上。</span> 
+</p>
+<p>
+	早些时候，Getty 图片社已经悄悄转为半免费模式，用户可以在网站上浏览、下载带有水印的图片，如果想要获得更高分辨率的无水印大图，则需要登录和付费。&nbsp;<span style="line-height:1.5;">最近，</span><span style="line-height:1.5;">Getty Images 又发布了一款 iOS 的免费应用。</span> 
+</p>
+<p>
+	看样子，是要把免费一路进行到底了。
+</p>
+<p>
+	这个名叫 <a href="https://itunes.apple.com/us/app/getty-images-stream/id916562262?mt=8" target="_blank">Stream</a>&nbsp;的应用为个人使用设计，用户可以查看那些集成在 Getty Images 的网站上的专业摄影作品，无论是历史经典一刻的老照片，还是当日新闻、娱乐、体育等分类下的图片，都可以从这里免费观看并分享给朋友。
+</p>
+<p>
+	<img src="/uploads/image/201409/f3274d8b0de1.png" alt="" /> 
+</p>
+<p>
+	在<a href="www.gettyimages.com/‎" target="_blank">华盖图库</a>的网站还维持传统样貌的同时，Getty 的应用看起来则像一个新闻版的&nbsp;Instagram，只不过，用户在这里看到的图片都来自职业摄影师，当然，也没有上传图片的选项。
+</p>
+<p>
+	华盖图库一直以注重版权、热爱诉讼闻名，就在本月，它们向纽约联邦法院提起<a href="http://www.theverge.com/2014/9/6/6113967/getty-images-sues-microsoft-over-new-bing-tool-for-embedding-photos" target="_blank">诉讼</a>，控告微软的“Bing 图片 Widget”侵权。这个网页工具让用户能够将必应搜索到的图片嵌入到网页中。必应搜索的用户并不多，但是这起诉讼涉及的是华盖图库的 8000 万张图片。因为同样是嵌入图片，用的是必应的代码还是华盖图库自己的代码，这个区别很重要。
+</p>
+<p>
+	<span style="line-height:1.5;">今年的早些时候，华盖图库推出了它的第一款直接针对消费者的产品，它为个人博客以及其他网站提供免费的嵌入式图片，就像你在网页中嵌入来自 YouTube 的视频一样。目前已有超过 60 万张嵌入式图片被使用，这个数字比起华盖图库巨大的图片数量来说，显然还不能算什么，更何况使用这些嵌入式图片的网站大多数是阅读量不高的小网站。</span> 
+</p>
+<p>
+	这款新推出的应用的目的之一当然也是更多嵌入图片的使用。用户使用 Stream 分享的每一张图片都带有与上述嵌入图片一样的代码，于是图片提供商可以便捷地追踪到每一张图片的传播去向。
+</p>
+<p>
+	华盖图库的一名资深高管&nbsp;<span style="line-height:1.5;"><a href="http://www.businessweek.com/articles/2014-09-19/gettys-new-app-is-part-of-plan-to-turn-a-profit-from-free-photos" target="_blank">Craig Peters</a>&nbsp;</span>表示，公司已经开始利用这些图片的追踪数据来进行下一步的决策，而用户在它们的网站上的搜索习惯，也是它们正在纳入监控、分析中来的。
+</p>
+<p>
+	免费只是一件大势所趋的事。<span style="line-height:1.5;">它们要做的事情，在很久以前硅谷巨头们就已经开始运作。但是很显然，走向免费的华盖图库，</span><span style="line-height:1.5;">自己也不知道商业模式在哪里。</span> 
+</p>
+<p>
+	即使华盖图库希望能够像嵌入网页视频一样，令用户在使用图片的同时也自动刊登与图片库合作的商业广告，盈利的空间也不是很大。但是就像 Craig Peters 在接受<a href="http://www.businessweek.com/articles/2014-09-19/gettys-new-app-is-part-of-plan-to-turn-a-profit-from-free-photos" target="_blank">彭博新闻周刊</a>采访时所说的：“如果我们不是华盖图库，而是湾区的一家小创业公司，没有人会追问我们的盈利模式是什么。”
+</p>
+<p>
+	就让他们试试看。
+</p>
+<p>
+	而我们，每天可以看看免费的高清新闻图片。反正这个事情，没有 Getty Images，我们也一样每天都在做。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自<a href="http://www.businessweek.com/articles/2014-09-19/gettys-new-app-is-part-of-plan-to-turn-a-profit-from-free-photos" target="_blank"> Business Week</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3091">
+				<span data-id="3091">图片社</span>
+			</li>
+			<li class="tag item" data-id="3092">
+				<span data-id="3092">商业模式</span>
+			</li>
+			<li class="tag item" data-id="535">
+				<span data-id="535">iOS 8</span>
+			</li>
+			<li class="tag item" data-id="360">
+				<span data-id="360">app</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2493" data-title="《老牌图片社想免费给图，不过他们也没想好怎么做》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2493/medium/2493.jpg?1436651591" data-url="http://www.qdaily.com/mobile/articles/2493.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26827.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26827/medium/26827.jpg?1463187225" alt="">
+                        <h1 class="title">我们搜集了观众对《欢乐颂》的 46 个吐槽，编剧袁子弹都回应了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26808.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26808/medium/26808.jpg?1463124431" alt="">
+                        <h1 class="title">在 emoji 里找不到什么来代表职业女性？以后要好一些</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26814.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26814/medium/26814.jpg?1463131700" alt="">
+                        <h1 class="title">这个夏天我们要和这些美剧告别，哪一部你舍不得？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26828.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26828/medium/26828.jpg?1463202824" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26811.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26811/medium/26811.jpg?1463128874" alt="">
+                        <h1 class="title">阿迪做了一本生活方式类的数字杂志 ，你要看吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2493">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2493" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">11</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2497.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

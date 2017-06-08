@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>精密度不输电脑的手绘地图是怎么做出来的？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="精密度不输电脑的手绘地图是怎么做出来的？。“只要绕着整片山区转过一遍，我就能在脑海里勾勒出一张完整的地图。”。好奇心日报为您呈现精密度不输电脑的手绘地图是怎么做出来的？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="手绘 艺术 Coolhunting 地图 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="EP5lEffQ1SctF/Y1Y+N+Y3ycDutHPMYv8KnoJ7eKHDk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8865">
+				<span data-id="8865">手绘</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="14">
+				<span data-id="14">地图</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">精密度不输电脑的手绘地图是怎么做出来的？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112309/small/112309.png?1431932479" alt="">
+					</span>
+				<span class="name">Coolhunting Key O&#x27;Rey</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-20 09:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9687/medium/9687.jpg?1436674947" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9687" data-title="《精密度不输电脑的手绘地图是怎么做出来的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9687/medium/9687.jpg?1436674947" data-url="http://www.qdaily.com/mobile/articles/9687" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“只要绕着整片山区转过一遍，我就能在脑海里勾勒出一张完整的地图。”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<span><strong style="outline:none;white-space:normal;text-align:justify;"><span style="background-color:#CCCCCC;"><em><strong><a href="http://www.coolhunting.com/culture/interview-artist-jim-niehues" target="_blank">本文</a></strong></em></span><span style="outline:none;background-color:#CCCCCC;"><em style="outline:none;"><strong style="outline:none;">由 Cool Hunting 授权《好奇心日报》发布，即使我们允许了也不许转载。&nbsp;</strong></em></span></strong><span style="white-space:normal;">&nbsp;</span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">如果你有拿到过滑雪酒店里放的、或者空中吊椅扶手上贴的那种彩色的滑雪路线图，那你就很有可能看过</span><span style="text-indent:24pt;">——</span><span style="text-indent:24pt;">并且用过风景画家</span><span style="text-indent:24pt;"><a href="http://www.jamesniehues.com/">詹姆斯·尼许斯</a></span><span style="text-indent:24pt;">（</span><span style="text-indent:24pt;">James Niehues</span><span style="text-indent:24pt;">）的作品。有那么一小部分人，他们擅长为登山者绘制山脉全景，而尼许斯（接下来的访谈中我们会称他为吉姆）正是其中之一。他和比尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">布朗（</span><span style="text-indent:24pt;">Bill Brown</span><span style="text-indent:24pt;">）、哈尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">谢尔顿（</span><span style="text-indent:24pt;">Hal Sheldon</span><span style="text-indent:24pt;">）一样，都是这一行的个中翘楚。在这个信息化的时代，他却促使滑雪地图绘制由电脑作图转向了手工绘制，为有潜力的年轻艺术家铺平了道路。吉姆和妻子（她是一名技艺精湛的裁缝）一同住在科罗拉多州拉夫兰市（</span><span style="text-indent:24pt;">Loveland, CO</span><span style="text-indent:24pt;">），家里的地下室就是他的工作间。我们前去拜访了他，希望能对他有更多的了解。他带着我们领略了滑道路线图绘制的全过程，从乘着塞斯纳绕山飞行、绘制草图，一直说到了和客户合作共同绘制出最漂亮、最实用的山峰滑雪路线图。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/ad5fc3f76652.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>要画一座山时，你是如何</strong></span><span style="text-indent:24pt;"><strong>“</strong></span><span style="text-indent:24pt;"><strong>捕获</strong></span><span style="text-indent:24pt;"><strong>”</strong></span><span style="text-indent:24pt;"><strong>它的全景的呢？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">通常我会坐小型塞斯纳飞机去拍照片，有时我也会坐直升机，不过我还是比较喜欢小型飞机。小型飞机能够更好地绕山飞行，而且在上面拍摄景物的角度也比较多；而直升机就只能盘旋打转，有的时候在直升机上你只能拍到某个固定视角的图像，拍不到整座山区的全景。在飞机上你要做的就是拍下所有信息，我就是那样做的。拍摄的时候我完全不在意构图，我就只是收集所有之后要用到的信息。我有一个数码相机，我们拍了一大堆照片。我照的都是山上某个位置的滑雪道上的细节，有的时候镜头会拍到缆车，有的时候则会拍到某个看上去挺有意思的区域。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你用的是哪种数码相机呢？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我本来用的是佳能（</span><span style="text-indent:24pt;">Canon</span><span style="text-indent:24pt;">），最近刚换成尼康（</span><span style="text-indent:24pt;">Nikon</span><span style="text-indent:24pt;">）。尼康&nbsp;</span><span style="text-indent:24pt;">D7100&nbsp;</span><span style="text-indent:24pt;">有动态&nbsp;</span><span style="text-indent:24pt;">D-lighting&nbsp;</span><span style="text-indent:24pt;">功能，每次拍摄前都能调节曝光度，使得照片的动态范围达到最佳状态，阴影和高光部分的曝光程度都刚刚好。在雪的映衬下，我拍出来的照片反差度总是偏高，所以有这么一款可以在摄影的时候调节曝光度的相机真的是太好了，这样我就不用事后再在工作室里处理调整每一张照片了。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>用乘飞机绕山飞行的方式捕获山区实际地图和所要绘制的内容，这是一种你独创的方式吗？还是一代一代传下来的？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我觉得不是，有很多人都会来问我，我是用什么软件绘图的，我用的软件就在这儿（吉姆指指自己的头），这才是真正有用的“软件</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">。我之前的艺术家们就是这么作图的，而且这也是最好的作图方式。跑到你要画的景物所在的地方，好好看一看，拍些照片，这样就行了。绘图其实就是把你看到的东西表现出来。我不在乎要画得多精确。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/b7eac3fbd837.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>那么你是跟着之前做这个的艺术家学习过呢，还是说你是直接接手了他的工作？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我也算不上跟他学习过。恩，没错，我可以说是直接接手了这份工作。当时比尔（即比尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">布朗）想要退休了，而他手头正好有一个项目要做，需要绘制一份佛罗里达州温特帕克市&nbsp;</span><span style="text-indent:24pt;">Mary Jane&nbsp;</span><span style="text-indent:24pt;">滑雪山区背面的滑雪地图。一天我偶然拜访了他的办公室。我们聊了起来，我给他看了我的作品集，他说：</span><span style="text-indent:24pt;">“</span><span style="text-indent:24pt;">唔，我这里确实有一个项目，而且我时间也很多。要是你画得不好，到时候我可以接手继续来画。</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">于是他就把项目给了我。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/b18e2a8ab3d1.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你当初是怎么决定要做这类工作的？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">一直以来我都很想做一个风景画家。我一直很喜欢风景，也一直很喜欢哈尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">谢尔顿、比尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">布朗绘制的滑雪地图，所以我搬到了丹佛。找工作的时候，我决定去拜访一下比尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">布朗。当时我觉得自己该去碰碰运气。我不知道</span><span style="text-indent:24pt;">——</span><span style="text-indent:24pt;">说不定他手头工作太多的时候，会需要一些人帮忙上色呢？所以我想我该去见见他。而事实证明我确实撞上了一个完美的时机。而且当时《</span><span style="text-indent:24pt;">Snow Country Magazine</span><span style="text-indent:24pt;">》还是一本全新的杂志。我和比尔会面后没几个月，这本杂志联系了比尔，想请他绘制杂志中间的跨页，比尔就向他们推荐了我。所以我刚进入这一行就马上有了一本刊登我作品的杂志，我的声名通过它直接传向了未来我将要服务的那些客户。突然之间我就成了一个大忙人，忙得晕头转向的。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>在你成长的过程中，你是不是一直都在画画和描画风景呢？</strong></span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">哦，没错。九年级的时候我得了肾炎，不得不在床上躺三个月。因此我妈妈给我买了一组油画工具，我就趟在床上画油画，结果床上被我搞得一团糟。我没有照片（可以照着画），就只是随便画画打发时间。自那以后我就开始迷上了油画。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/dd650e3907e1.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你拍下山区的照片后又是如何绘制地图的呢？能介绍一下你的绘图过程吗？</strong></span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">现在我基本都利用&nbsp;</span><span style="text-indent:24pt;">Google Earth&nbsp;</span><span style="text-indent:24pt;">来确定角度和正在绘制的山区的正面。我会截取&nbsp;</span><span style="text-indent:24pt;">Google&nbsp;</span><span style="text-indent:24pt;">上的图像，然后重新画。我会改变缆车的角度，画出大致的滑雪路线，确保自己把每一条滑道都画进去了。接着我会改进它，改变缆车的方向，得到一张大多数滑道都从山顶向下的图像，从而显示出山的陡峭程度。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">一旦修改完毕，我就会把图像从电脑里打印出来，把它放到一张同样大小的纸上，大致画出我要画的东西。接着，我会拿一张透明描图布，把它放在草图上。我会透过它一边看着草图，一边绘制我的图像，并且开始参考我所拍的照片，从山顶往山脚逐一完成每块区域的绘制。最后我会在山脚下添上城镇——其实我不太喜欢画建筑物，我喜欢山。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">所有工序都完成后，就需要把图拿给客户，看他们是否满意。我刚刚得到了一个客户对我绘制的&nbsp;</span><span style="text-indent:24pt;">Solitude&nbsp;</span><span style="text-indent:24pt;">滑雪山区的反馈。反馈非常具体全面——大多数人都不会给我这么全面的反馈。客户回复了我，在我绘制的滑道路线图上做了标记，告诉我在那些区域里要画点什么，以及他想要我修改些什么。客户在图上添加了一些我先前没能看到的山崖缺口。很多时候，你从空中向下俯瞰是没办法看到悬崖带的，而&nbsp;</span><span style="text-indent:24pt;">Solitude&nbsp;</span><span style="text-indent:24pt;">滑雪山区恰好有很多有悬崖的斜坡。所以客户参与进来，给了我一些指导，告诉我他希望我把这些斜坡放在哪里。客户还会给出一些其他意见，比如某个地方不够陡峭，要画得更陡峭一些；又或者他们认为某个山峰应该画得更高一些等等。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/0c8e82549535.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>一张地图的有效期限是多久？随着景物的变化，地图多久需要更新一次呢？</strong></span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我对这个问题的看法也承袭自比尔</span><span style="text-indent:24pt;">·</span><span style="text-indent:24pt;">布朗。</span><span style="text-indent:24pt;">2008&nbsp;</span><span style="text-indent:24pt;">年，我绘制了&nbsp;</span><span style="text-indent:24pt;">Mammoth&nbsp;</span><span style="text-indent:24pt;">滑雪山区的地图，（现在客户还没找我重画过，）所以这些图的有效期还是挺长的。如今&nbsp;</span><span style="text-indent:24pt;">Mammoth&nbsp;</span><span style="text-indent:24pt;">滑雪山区的地图可能在我原先绘制的地图的基础上做过一些改动，不过甚至都不会有人把这些小改动告诉我。这些改动很可能就只是某个画家在图上添了一条新的滑道而已。这种事情经常发生。你没办法了解图的每一个改动。而且除了这些滑雪山区，我还画过一些我称之为</span><span style="text-indent:24pt;">“</span><span style="text-indent:24pt;">滑雪场</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">的地区的地图，不过这些图我都跟客户说不要署我的名字。它们被修改过很多次，看上去糟糕极了，一点都不像我的作品。有些客户还会试图把</span><span style="text-indent:24pt;">“</span><span style="text-indent:24pt;">滑雪场</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">的冬季地图改成夏季地图，但其实根本没办法这么改。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>我看到过你写的一个帖子，里面的内容是关于画不同类型的树的。那也很重要吗？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">是的。我认为对滑雪者来说，了解自己在什么样的地形上滑雪相当重要。此外，树还可以帮助你辨别自己身在哪种森林里，所以区分阔叶树和针叶树很重要。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你还可以通过什么来区分不同的地形？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我会在一些山区上运用一种技法。（你看）现在我把图调成卫星视角，距离稍微拉远一些，缩放比不算很大，不过你可以看到，从这个距离看过去，针叶树颜色要偏蓝一些，而稍微把距离拉近一些，你就会发现他们的颜色变得绿了一些。现在我就是这样来分辨地形的。以前我会把山顶涂成蓝色，等画到山脚的时候我则会选用偏绿偏暖色系的颜色。我还用过另一种方法。</span><span style="text-indent:24pt;">Heavenly&nbsp;</span><span style="text-indent:24pt;">滑雪山区地图是我运用卫星视角画的第一张图。绘制那张图时，我用了很温暖的颜色来画山顶，而山谷则用了冷色调，因为暖色调会让人觉得景物离自己很近，而冷色调则会让景物显得比较遥远。我运用这种方法画过一些由山脚向上的滑道，一眼看过去，单靠上面的色彩关系，滑雪者就能知道哪里是上坡，哪里是下坡。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/61ee69047453.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你是否认为必须靠手绘才能画出准确的图像？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">我认为是的。我是说，我没法想象自己能单靠电脑就绘制出准确的路线图。问题是，和另一个同行聊天的时候，我发现他用电脑的时间和我手绘的时间一样多，甚至要更多。我觉得，确实有人心理上会认为</span><span style="text-indent:24pt;">“</span><span style="text-indent:24pt;">电脑画出来的图更好，用电脑画图更方便</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">，但只要绕着整片山区转过一遍，我就能在脑海里勾勒出一张完整的地图，我知道它应该是怎么样的。我们的大脑里有着神奇的工具，我们应该要把它利用起来。有时我们有点犯懒，会依赖电脑。而大型滑雪场居然会选用比较差的图像作为自己的路线图，这一直以来都令我十分困惑。电脑生成的图像一点美感也没有。我认为大多数时候，添上一点画家自己的诠释，山道看上去就会比它实际的样子更美。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>你会滑雪吗？</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">刚开始做这行的时候，我不会滑雪。事实上，我在绘制&nbsp;</span><span style="text-indent:24pt;">Alta&nbsp;</span><span style="text-indent:24pt;">滑雪山区地图时就发生过一个有趣的故事。</span><span style="text-indent:24pt;">Alta&nbsp;</span><span style="text-indent:24pt;">滑雪山区地图是我最早期的作品之一，当时我才入行没多久，因此就去了那座山滑雪——</span><span style="text-indent:24pt;">——</span><span style="text-indent:24pt;">但其实那时我不会滑雪。我坐缆车上了&nbsp;</span><span style="text-indent:24pt;">Collin</span><span style="text-indent:24pt;">山顶，几乎就下不来了。那里前一天晚上积起了六英尺深的雪。接下来就是一个关于没有经验的滑雪者如何在教练的帮助下下山的故事了。我抓着滑雪板的边刃，地面高低不平，我每滑&nbsp;</span><span style="text-indent:24pt;">100&nbsp;</span><span style="text-indent:24pt;">码就要摔下来一次。最后教练跟我生气了，说：</span><span style="text-indent:24pt;">“</span><span style="text-indent:24pt;">我本来还以为一个画滑雪地图的人肯定会滑雪呢！</span><span style="text-indent:24pt;">”</span><span style="text-indent:24pt;">不，我不会。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><img src="/uploads/image/201505/f1b03c28019e.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;"><strong>有没有什么地方是你特别喜欢或者觉得特别漂亮的？</strong></span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span style="text-indent:24pt;">没有哪个地方的景色会比&nbsp;</span><span style="text-indent:24pt;">Alta&nbsp;</span><span style="text-indent:24pt;">滑雪山区和&nbsp;</span><span style="text-indent:24pt;">Snowbird&nbsp;</span><span style="text-indent:24pt;">滑雪山区更美了。</span><span style="text-indent:24pt;">Snowbird&nbsp;</span><span style="text-indent:24pt;">滑雪山区地图是我最喜欢的作品之一。那是一个充满活力的地方。同样，如果你爬上&nbsp;</span><span style="text-indent:24pt;">Alta&nbsp;</span><span style="text-indent:24pt;">的华盛顿山（</span><span style="text-indent:24pt;">Washington</span><span style="text-indent:24pt;">），你也会觉得那里的景色真的特别富有活力。</span><span style="text-indent:24pt;">Crystal Mountain&nbsp;</span><span style="text-indent:24pt;">滑雪山区地图也是我非常喜欢的一幅作品。</span><span style="text-indent:24pt;">Rainer&nbsp;</span><span style="text-indent:24pt;">山就在那儿。它实在是</span><span style="text-indent:24pt;">……</span><span style="text-indent:24pt;">我只能用“哇哦”来形容它。你可以到&nbsp;</span><span style="text-indent:24pt;">Crystal Mountain&nbsp;</span><span style="text-indent:24pt;">东后方看看，那里有几座山我在绘制地图的时候特别喜欢，比如基林顿山（</span><span style="text-indent:24pt;">Killington</span><span style="text-indent:24pt;">）。这些山不像我们科罗拉多州这边的山那么崎岖不平，但它们都很美。</span> 
+</p>
+<p class="MsoNormal" style="text-indent:24.0pt;">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	翻译 &nbsp;i<span>s</span>译社 钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8865">
+				<span data-id="8865">手绘</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="14">
+				<span data-id="14">地图</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9687" data-title="《精密度不输电脑的手绘地图是怎么做出来的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9687/medium/9687.jpg?1436674947" data-url="http://www.qdaily.com/mobile/articles/9687" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24852/medium/24852.jpg?1459491636" alt="">
+                        <h1 class="title">没有苹果的平行世界，你猜会发生什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24858.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24858/medium/24858.jpg?1459495677" alt="">
+                        <h1 class="title">爱奇艺进入台湾图啥？听听台湾的导演和制作人怎么说</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24851.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24851/medium/24851.jpg?1459490634" alt="">
+                        <h1 class="title">「这世界」这10个知识看起来有点假，其实都是真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9687">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9687" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">35</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9792.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

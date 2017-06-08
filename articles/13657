@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个设计了不起之夏末单车_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个设计了不起之夏末单车。我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。。好奇心日报为您呈现这个设计了不起之夏末单车的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="自行车 贴纸 花瓶 车篮 耳机 运动鞋 雨伞 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hT+gZ6AIeBjtMflKBWvStPfE/454CZddA5pdH5FHdQA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="34">
+				<span data-id="34">自行车</span>
+			</li>
+			<li class="tag item" data-id="256">
+				<span data-id="256">贴纸</span>
+			</li>
+			<li class="tag item" data-id="2559">
+				<span data-id="2559">花瓶</span>
+			</li>
+			<li class="tag item" data-id="14671">
+				<span data-id="14671">车篮</span>
+			</li>
+			<li class="tag item" data-id="413">
+				<span data-id="413">耳机</span>
+			</li>
+			<li class="tag item" data-id="990">
+				<span data-id="990">运动鞋</span>
+			</li>
+			<li class="tag item" data-id="1327">
+				<span data-id="1327">雨伞</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个设计了不起之夏末单车</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/49585/small/49585.jpg?1422286480" alt="">
+					</span>
+				<span class="name">马安琪 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-18 08:06:06 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13657/medium/13657.jpg?1439830239" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13657" data-title="《这个设计了不起之夏末单车》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13657/medium/13657.jpg?1439830239" data-url="http://www.qdaily.com/mobile/articles/13657.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span></span> 
+</p>
+<p>
+	<span>立秋已经过去，夏天也渐渐就要过去了，你有没有骑车出行？今天我们介绍一款自行车和五款适合骑车时使用的产品，希望它们能帮助你获得更好的骑行体验。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h3>
+	Happarel Bike by Eberhard Schilling &amp; Antoine Capeyron
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>三年前，设计师 Eberhard Schilling 和 Antoine Capeyron 开始着手设计能够在夜里发光的自行车，他们经过三年的研发，最终推出了一款反光油漆，它们把这种特殊定制的油漆涂在自行车架上，再在表面刷上一层厚厚的清漆，可以防止锈蚀和脱落，以及意外的刮伤和磨损。此外，它们还生产了一系列反光的贴纸，<a href="http://happarelbicycles.berlin/" target="_blank">点击这里</a>可以查看详细信息。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201508/56f9efe26c5e.jpg" alt="" /><img src="/uploads/image/201508/edfda20d6f37.jpg" alt="" /><img src="/uploads/image/201508/a9f878a6d23b.jpg" alt="" /><img src="/uploads/image/201508/b0a7c75ccd77.jpg" alt="" /><img src="/uploads/image/201508/93a8f86aa364.jpg" alt="" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h3>
+	Phone-brella&nbsp; by KT Design&nbsp;
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>来自韩国的 KT Design 推出的这款雨伞本意是让“都市低头族”更加方便地使用手机，但是本着不应该纵容“低头族”的“顽固思想”，我们觉得在骑车时使用是个不错的选择。骑车打伞需要单手扶车把，容易带来危险。而如果将雨伞挂在手臂上，这样两只手就都可以用来扶稳车把了。这款设计曾获得 Red Dot Design Award 红点设计大奖，这是<a href="http://soho.olleh.com/ProductDtl.do?pcd=156" target="_blank">购买链接</a>。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201508/05c039fef8be.jpg" alt="" /><img src="/uploads/image/201508/185daff6bcf2.jpg" alt="" /><img src="/uploads/image/201508/b8c64d1e5e47.jpg" alt="" /><img src="/uploads/image/201508/79275802fb2e.jpg" alt="" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h3>
+	Combat+ Sync by Soul Electronics&nbsp;
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>这是一款运动耳机，它的特殊之处在于可以同时当作对讲机来使用，从而帮助你在运动中享受音乐的同时，如果有需要，能够轻松自如地和一起骑行的伙伴对话，而避免大声喊叫带来的尴尬和粗鲁。同时，你还可以通过它来和朋友分享音乐。另外，你可以自定义 LED 灯的颜色，让它和你出行时的装扮颜色更搭配。目前产品正在 Kickstarter 众筹，<a href="https://www.kickstarter.com/projects/970535950/combat-sync-the-ultimate-wireless-sports-headphone" target="_blank">点击这里</a>可以查看详细信息。</span> 
+</p>
+<p>
+	<span><img src="http://www.qdaily.com/uploads/image/201508/993e479ca1f1.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<img src="/uploads/image/201508/2a2a510875e0.jpg" alt="" /><img src="/uploads/image/201508/42af7a70a84b.jpg" alt="" /> 
+</p>
+<p>
+	<img src="http://www.qdaily.com/uploads/image/201508/cec33cb7be3c.jpg" alt="" /><img src="/uploads/image/201508/a00b38325fb7.jpg" alt="" /><img src="/uploads/image/201508/d2b7b89153ef.jpg" alt="" /><img src="/uploads/image/201508/006c198a0786.jpg" alt="" /> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h3>
+	Geometric Handlebar Vase by Wearable Planter
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>夏日里在自行车上带点儿花花草草，简直是凹小清新利器。如果载不了大花束或是花篮，插两枝小花小草也不错。这是一个 3D 打印做成的花瓶，刷上了清漆保证可以见水以及保持颜色的稳定，大小基本适合所有的自行车，可以被固定在车把上。同时，它的底部是平的，当没有出行时，也可以拿下来放在桌子上。<a href="http://www.wearableplanter.com/shop/geometric-handlebar-vase" target="_blank">点击这里</a>可以购买。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201508/51f417486e4e.jpg" alt="" /><img src="/uploads/image/201508/6fae1bed075b.jpg" alt="" /><img src="/uploads/image/201508/4d0d3ba9a28c.jpg" alt="" /><img src="/uploads/image/201508/271e0e9b14ea.jpg" alt="" /><img src="/uploads/image/201508/63b6b3e80806.jpg" alt="" /><img src="/uploads/image/201508/fd973c9d6935.jpg" alt="" /><br />
+</span> 
+</p>
+<h3>
+	Bent Basket by Faris Elmasu &amp; David Haddad
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>来自纽约的两位设计师 Faris Elmasu 和 David Haddad 推出的这款篮子可以被固定在自行车上，它们采用木质材料，上面设计了四条两两交叉的固定带，篮子虽浅，但带子可以保证东西不会落下来。更重要的是，这样浅浅的设计和可以自由搭配的五颜六色的带子，让整个篮子看起来比普通的自行车篮子美丽了许多。<a href="http://bentbasket.com/products/bent-basket" target="_blank">点击这里</a>可以购买。</span> 
+</p>
+<p>
+	<span><img src="http://www.qdaily.com/uploads/image/201508/adde797ff7b7.jpg" alt="" /><img src="http://www.qdaily.com/uploads/image/201508/f45d2680ce7a.jpg" alt="" /><img src="http://www.qdaily.com/uploads/image/201508/ae7b56a9ce01.jpg" alt="" /><img src="http://www.qdaily.com/uploads/image/201508/0f2009791478.jpg" alt="" /><img src="http://www.qdaily.com/uploads/image/201508/6913bb990b98.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201508/f0753e62dc9d.jpg" alt="" /><img src="/uploads/image/201508/e91a37a6181b.jpg" alt="" /><img src="/uploads/image/201508/56fd0a7bbf3c.jpg" alt="" /><br />
+</span> 
+</p>
+<h3>
+	Nike Roshe One iD by Nike
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>最后一件作品是 Nike 新推出的 Nike Roshe One iD 新配色系列， NikeiD 用户可以在选购这款鞋子的时候，在十几种颜色中挑选自己最喜欢的两种颜色搭配，材料上也有网格和羊毛可以选择。同时，还有迷彩、蛇纹等更加具有个性的图案，还可以印上自己的大 Logo，也是蛮拉风的。<a href="www.nike.com/" target="_blank">点击这里</a>可以购买。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201508/082eec5ea1db.jpg" alt="" /><img src="/uploads/image/201508/bb57540120c7.jpg" alt="" /><img src="/uploads/image/201508/b66b405b83d4.jpg" alt="" /><img src="/uploads/image/201508/d13211b12cb7.jpg" alt="" /> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="34">
+				<span data-id="34">自行车</span>
+			</li>
+			<li class="tag item" data-id="256">
+				<span data-id="256">贴纸</span>
+			</li>
+			<li class="tag item" data-id="2559">
+				<span data-id="2559">花瓶</span>
+			</li>
+			<li class="tag item" data-id="14671">
+				<span data-id="14671">车篮</span>
+			</li>
+			<li class="tag item" data-id="413">
+				<span data-id="413">耳机</span>
+			</li>
+			<li class="tag item" data-id="990">
+				<span data-id="990">运动鞋</span>
+			</li>
+			<li class="tag item" data-id="1327">
+				<span data-id="1327">雨伞</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13657" data-title="《这个设计了不起之夏末单车》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13657/medium/13657.jpg?1439830239" data-url="http://www.qdaily.com/mobile/articles/13657.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25937.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25937/medium/25937.jpg?1461548899" alt="">
+                        <h1 class="title">莎士比亚逝世 400 周年，我们在这里怀念他带来的一切</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25953.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25953/medium/25953.jpg?1461560629" alt="">
+                        <h1 class="title">有人做了个 T 台走秀搜索引擎，想要赚设计师的钱 </h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25943.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25943/medium/25943.jpeg?1461552498" alt="">
+                        <h1 class="title">纽约这个建在天桥上的游泳池，风景绝佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25951.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25951/medium/25951.jpg?1461558108" alt="">
+                        <h1 class="title">以后用空气发电可好？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25972/medium/25972.jpg?1461570481" alt="">
+                        <h1 class="title">W 酒店又耍新花招，这次想把演唱会开进来</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13657">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13657" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">34</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13647.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

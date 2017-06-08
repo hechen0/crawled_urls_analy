@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>接下来，苹果打算重新发明汽车_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="接下来，苹果打算重新发明汽车。对无人车感兴趣的不只是 Google。好奇心日报为您呈现接下来，苹果打算重新发明汽车的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="苹果公司 无人车 Apple CarPlay CES " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="0hK88/jmTL6G0zh+ZFZaJ4GIRN/cdiUj06DJRy+t9HM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="783">
+				<span data-id="783">苹果公司</span>
+			</li>
+			<li class="tag item" data-id="775">
+				<span data-id="775">无人车</span>
+			</li>
+			<li class="tag item" data-id="7106">
+				<span data-id="7106">Apple CarPlay</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">接下来，苹果打算重新发明汽车</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/172/small/172.png?1400638799" alt="">
+					</span>
+				<span class="name">夏雨青</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-02-15 13:23:19 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/6274/medium/6274.jpg?1436694520" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6274" data-title="《接下来，苹果打算重新发明汽车》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6274/medium/6274.jpg?1436694520" data-url="http://www.qdaily.com/mobile/articles/6274" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				对无人车感兴趣的不只是 Google
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	继手表之后，苹果的下一个“智能”目标会是什么？这家颠覆了智能手机业的公司，很快也许要来拯救你的智能汽车了。
+</p>
+<p>
+	按照苹果最近几年产品提前半年曝光的趋势，这次的汽车计划也被泄露了个干净。2 月 11 日<a href="http://www.reuters.com/article/2015/02/13/us-apple-car-idUSKBN0LH24P20150213">《金融时报》</a>首先报道苹果正在为一个“超级机密”的实验室招汽车专家。这个实验室于 2014 年底成立，为此苹果已经挖走了梅赛德斯在北美地区的研发负责人，去年加入苹果设计团队的<a href="http://www.qdaily.com/display/articles/2184" target="_blank">著名设计师 Marc Newson</a> 也有为福特设计概念车的经验。
+</p>
+<p>
+	如果说这篇报道还不足以让你确信苹果是在造一辆车的话，2 月 12 日<a href="http://www.reuters.com/article/2015/02/14/us-apple-autos-idUSKBN0LI0IJ20150214">《华尔街日报》</a>以一贯的风格援引“不愿透露姓名的知情人士”称，苹果已经组建了一个数百人的团队研发自己的电动汽车，项目代号为“泰坦”。
+</p>
+<p>
+	这个团队由负责产品设计的高级副总裁 Steve Zadesky 带领，而他在漫长的苹果职业生涯前曾是一位福特工程师。他有权限从公司各处搜罗人才，组建一支 1000 人的团队。2 月 14 日，<a href="http://www.reuters.com/article/2015/02/14/us-apple-autos-idUSKBN0LI0IJ20150214">路透社</a>的新报道说，汽车业的知情人士表示，苹果正在研发自动驾驶。
+</p>
+<p>
+	<img src="/uploads/image/201502/7841ef3d2258.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	图片来自：<a href="http://fortune.com/2015/02/12/about-that-apple-self-driving-car/" target="_blank">Fortune</a> 
+</p>
+<p>
+	在这一系列的报道中，苹果的发言人都拒绝作出评论。苹果 CEO 蒂姆·库克在去年与 Charlie Rose 的访谈上曾经说过，“没人知道我们正在开发的一些产品。”一辆自动驾驶的电动车？听起来是特斯拉正在研发的产品。
+</p>
+<p>
+	如果说苹果手表还在它所擅长的移动设备领域，那么汽车则真正跳出了苹果的舒适区。尽管有 Apple CarPlay 车载娱乐系统的经验在前，制造一辆汽车、研发目前仍在实验阶段的自动驾驶功能都需要完全不同的技术和人才。
+</p>
+<p>
+	那么苹果为什么要做智能汽车？这些不同报道的消息人士给出了他们了解的理由。《华尔街日报》的信源表示，苹果希望占领电动车市场，就像它当初用 iPhone 切入智能手机市场一样。路透社采访的汽车业高管认为，“苹果对所有能改变汽车的技术感兴趣，这也包括自动驾驶。”
+</p>
+<p>
+	《好奇心日报》在 2015 年初的 CES 上<a href="http://qdaily.com/display/articles/5094.html">曾经采访过一系列</a>正在研发或推出智能汽车的厂商。当时汽车产业给人的印象是，以苹果 CarPlay 为代表的车载娱乐系统已经不再是人们关注的焦点。所有人都为量产半自动驾驶汽车、开发无人驾驶而兴奋。
+</p>
+<p>
+	<img src="/uploads/image/201502/5a0fd278ec8b.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	奥迪在 2014 年 CES 上展出多款新车 | 图片来源：<a href="http://articles.latimes.com/2014/jan/07/business/la-fi-tn-ces-2014-autos-hottest-new-gadgets-20140107" target="_blank" style="text-align:center;white-space:normal;">LA Times</a> 
+</p>
+<p>
+	最终，苹果和 Google 这两家最大的科技公司也参与到了无人驾驶的竞争中。以目前智能汽车发展的趋势，今后它将是你身边性能最强大的电脑。在移动操作系统上垄断的两家公司自然不会放过这个机会。除了昂贵的传感器，无人驾驶的关键在于软件，苹果不会比这个领域的竞争对手缺乏经验。
+</p>
+<p>
+	但最重要的是，它希望能够以从手机、手表、桌面到汽车全面包围你的生活。Google 在这么做，苹果不会放弃这场竞争。就像使用苹果手机的消费者慢慢带来 Mac 笔记本电脑的销量增长，汽车将是苹果整个生态系统的重要一环。
+</p>
+<p>
+	这也意味着苹果和特斯拉会成为真正意义上的竞争对手。不久前特斯拉 CEO Elon Musk 表示，他专门从苹果挖自己的员工。根据<a href="http://www.forbes.com/sites/timworstall/2015/02/09/elon-musk-has-raided-150-people-from-apple-for-tesla/">彭博社报道</a>，至少有 150 名苹果雇员跳槽去特斯拉，是其最大的招聘来源。而传言中苹果汽车与特斯拉的产品风格、目标人群也高度重合。
+</p>
+<p>
+	坐拥 1800 亿美元现金，苹果不开发智能汽车也很奇怪。我们什么时候能真的开上它则是一个更大的疑问。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://www.todayonline.com/business/eu-launch-formal-investigation-apples-irish-tax-deal-tv" target="_blank">todayonline</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="783">
+				<span data-id="783">苹果公司</span>
+			</li>
+			<li class="tag item" data-id="775">
+				<span data-id="775">无人车</span>
+			</li>
+			<li class="tag item" data-id="7106">
+				<span data-id="7106">Apple CarPlay</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6274" data-title="《接下来，苹果打算重新发明汽车》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6274/medium/6274.jpg?1436694520" data-url="http://www.qdaily.com/mobile/articles/6274" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24876/medium/24876.jpg?1459526792" alt="">
+                        <h1 class="title">碧昂斯的个人品牌终于来了，走的是运动风</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="6274">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="6274" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">19</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/6283.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

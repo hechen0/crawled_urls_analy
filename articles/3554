@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>沃尔玛为了阻止收入下滑，开始整顿生鲜质量_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="沃尔玛为了阻止收入下滑，开始整顿生鲜质量。沃尔玛为了阻止长期下滑的销售而和全美店长签署了一份“特急”备忘录，从这份备忘录里能看到它们如今面对的问题。。好奇心日报为您呈现沃尔玛为了阻止收入下滑，开始整顿生鲜质量的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 沃尔玛 生鲜 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="XozKpT6kPR520spFfuoMl+NJUuzce4H3kcxGkBFjE1k=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="357">
+				<span data-id="357">沃尔玛</span>
+			</li>
+			<li class="tag item" data-id="4264">
+				<span data-id="4264">生鲜</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">沃尔玛为了阻止收入下滑，开始整顿生鲜质量</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3121/small/3121.jpg?1440471388" alt="">
+					</span>
+				<span class="name">Steven Greenhouse and HirokoI Tabuchi</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-14 09:06:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3554/medium/3554.jpg?1436639926" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3554" data-title="《沃尔玛为了阻止收入下滑，开始整顿生鲜质量》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3554/medium/3554.jpg?1436639926" data-url="http://www.qdaily.com/mobile/articles/3554.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				沃尔玛为了阻止长期下滑的销售而和全美店长签署了一份“特急”备忘录，从这份备忘录里能看到它们如今面对的问题。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em><em><strong><span style="background-color:#CCCCCC;"></span></strong></em><em><strong><span style="background-color:#CCCCCC;">&nbsp;</span></strong></em> 
+</p>
+<br />
+<p class="MsoNormal">
+	纽约州谷溪镇电 - 镇上的沃尔玛就在皇后区边界另一边，它的奶制品区的货品堆得稀稀拉拉的。一些一加仑的牛奶罐子上有凹痕，其他上面似乎还落了尘土。肉品区的牛肉饼和牛排都卖光了，架子上只留下它们存在过的痕迹。
+</p>
+<p class="MsoNormal">
+	这一家店里无序摆放和售空的货品，似乎说明了更大的问题，而沃尔玛正在向门店经理们施压，让他们说明一下情况。
+</p>
+<p class="MsoNormal">
+	上个月，沃尔玛和全美店长签署了一份“特急”备忘录，推动他们改善奶制品、肉品和农产品等“冷冻和新鲜”货品的质量。这也是沃尔玛为了阻止长期下滑的销售而采取的一系列措施中的一个。它也反映出，随着近几年来沃尔玛在扩大有机食品和农产品的供应，并且提供比竞争对手更低的价格的同时，也收到了来自顾客的投诉。
+</p>
+<p class="MsoNormal">
+	这份备忘录被标记为“高度敏感”，它告诉沃尔玛的营销经理们把全美国 4965 家门店里正在变旧的肉类和烘焙食品都打折出售，以确保它们在过期前售出。这份备忘录之所以被泄露，是因为一位沃尔玛的店长对店里人手不足不满。备忘录还让门店确保“轮换”奶制品和农产品，也就是挪走过期货品，并把新货放在货架的底部和后部。
+</p>
+<p class="MsoNormal">
+	<span><img src="/uploads/image/201411/f8696acd6667.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal" style="text-align:center;">
+	<em>在谷溪镇的一家沃尔玛里，农产品区的上架情况十分惨淡。</em> 
+</p>
+<p class="MsoNormal">
+	在提到农产品时，备忘录告诉店长们要“确认每家店都全面执行‘我会买吗？’的口号”——它的目的是确保每家店都把发霉或者腐烂的水果和蔬菜下架。
+</p>
+<p class="MsoNormal">
+	10 月 2 日发出的这份备忘录提醒所有店长，他们必须首要关注销售额。在过去一年半里，沃尔玛开业一年以上的门店的销售额一直在下滑。这份备忘录还催促店长们减少后备存货以削减成本，并警告他们不要超出店里的预算。
+</p>
+<p class="MsoNormal">
+	一些零售业的分析师说，这些问题都是因为沃尔玛的门店里没有足够的员工，以致日常例行的工作——比如标记变旧的货品、轮换牛奶或者把所需的商品从仓库搬到货架上——都受到了影响。
+</p>
+<p class="MsoNormal">
+	“劳动时间被削减得太少，所以他们没有人来做这么多事情，”零售业顾问伯特·弗里金格说。“他们并不会每天、每个班都做这些事情，这也说明沃尔玛在人员和培训上完全都瘫痪了。”
+</p>
+<p class="MsoNormal">
+	<span><img src="/uploads/image/201411/688e8134cb74.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal" style="text-align:center;">
+	<em>在谷溪店里，店里一盒盒的牛奶都凹陷并落了灰。</em> 
+</p>
+<p class="MsoNormal">
+	在上月发布的一份投资分析报告中，Wolfe Research 说，“如果沃尔玛在未来几年内，美国国内员工的增长要想和门店面积增长匹配的话”，它还需要再招 20 多万人。沃尔玛现在有 130 万名美国雇员。
+</p>
+<p class="MsoNormal">
+	沃尔玛首席执行官道格·麦克米伦在上月的一次会议上告诉分析师们说，公司意识到了很多此类问题，比如，“有些地方的门店，我们需要延长门店的营业时间”。他强调说，“在架上存货方面，我们有提升的空间”，他还说要“改进我们的结账”。
+</p>
+<p class="MsoNormal">
+	8 月时，沃尔玛美国公司的首席执行官格雷格·弗兰说，公司正在对熟食、烘焙、夜间盘货和现金收银等区域的员工分配更长的工作时间。
+</p>
+<p class="MsoNormal">
+	沃尔玛的发言人德伊莎·巴内特证实了备忘录的存在，而且承认了列在其中的一些问题。她一开始就指出，去年，对于因为买到不太新鲜的产品而不满意的顾客，沃尔玛做出了 100% 退款的承诺。
+</p>
+<p class="MsoNormal">
+	“当然，我们关注生鲜货品已经有很长时间了，而且我们的 CEO也一直在强调要改善这一品类的质量。我们已经取得了许多进步，但也一直在努力做到更好，”巴内特说。
+</p>
+<p class="MsoNormal">
+	但美国南部的一位助理店长由于害怕打击报复，坚持要匿名，他说，沃尔玛不让他增加员工的工作时间来完成必要的日常工作——比如给旧的肉或蛋打折。所以他说，他的门店一直在被迫扔掉比前几年多得多的牛奶、鸡蛋和农产品。
+</p>
+<p class="MsoNormal">
+	实际上，正如 YouTube 上明显是由员工拍摄的各类视频所显示的那样，走到谷溪店的后面，就能看到大量被杂乱堆放的东西，以及数千个等待上架的盒子。
+</p>
+<p class="MsoNormal">
+	一些分析师说，沃尔玛承认这些问题，是走在了正确的方向上。“他们似乎意识到了，”康涅狄格州零售业顾问公司 Customer Growth Partners 总裁克雷格·约翰逊说。“他们知道自己在生鲜这块儿做得比较差。如果农产品快过期或者没货的话，人们就会去别的超市。”
+</p>
+<p class="MsoNormal">
+	“但改正这些问题肯定不是一夜之间的事儿，”他又说。
+</p>
+<p class="MsoNormal">
+	备忘录要求对 32 个门类进行全面大减价，并鼓励门店寻找有创意的办法来推销清货的商品。它还说，门店应该保留肉类和禽类“完整的日常丢弃记录”。
+</p>
+<p class="MsoNormal">
+	备忘录说，肉品的减价应该在早上 7 点开始，并且一天要进行数次。备忘录还指出了其他一些没有被遵守得很好的做法，比如“确认每周 7 天都要给店内植物浇水”，以及“确保炸熟食用的油每天都进行检测和过滤”。
+</p>
+<p class="MsoNormal">
+	与此同时，备忘录还警告店长不要超过分配给门店的每周工作时间。它告诉店长们要检查自己是否向员工分配了过多的工作时间或者加班时间，从而超出了公司拨给门店的工资预算。
+</p>
+<p class="MsoNormal">
+	沃尔玛经营着全美 20% 的非生鲜百货生意，但只经营了 15% 的生鲜生意，这说明它在此门类里的竞争力不强。
+</p>
+<p class="MsoNormal">
+	詹妮特·斯巴克斯是洛杉矶一家沃尔玛的客服经理，她也是由工会支持、推动提高薪资和工作条件的员工组织 OUR Walmart 的成员。她说：“从销售团队到前端的人员不足已经严重影响了门店的经营。”她说，实质上的减员是从 2010 年开始的。
+</p>
+<p class="MsoNormal">
+	斯巴克斯说，过去每班会有 5 个客服经理，他们会经常帮助收银员处理问题，而现在只有一个。她说，这有些时候会导致结账的队伍过长，而且当很多收银员都遇到提问或者问题时，顾客结账必须等半个小时。
+</p>
+<p class="MsoNormal">
+	50 岁的奥德雷·莱索罗是 4 个孩子的母亲，她说，在沃尔玛谷溪店购物的体验越来越差了。“他们应该努力让店里保持整洁，”她说。
+</p>
+<p class="MsoNormal">
+	莱索罗走路不方便，她说，经常没有足够的员工来帮她找辆踏板车或者在店里指方向。最近一次购物，她在店里等了 15 分钟。
+</p>
+<p class="MsoNormal">
+	“而且它们还经常没有洋蓟卖，”她说。“我还得去别处才能买到。”
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	翻译 is译社
+葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="357">
+				<span data-id="357">沃尔玛</span>
+			</li>
+			<li class="tag item" data-id="4264">
+				<span data-id="4264">生鲜</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3554" data-title="《沃尔玛为了阻止收入下滑，开始整顿生鲜质量》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3554/medium/3554.jpg?1436639926" data-url="http://www.qdaily.com/mobile/articles/3554.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25994.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25994/medium/25994.jpg?1461610932" alt="">
+                        <h1 class="title">都说汽车已经是科技界的事，但中国最大的车展上还不太看得出来 | 北京车展 2016</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25998.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25998/medium/25998.jpg?1461634549" alt="">
+                        <h1 class="title">今日娱乐：赵薇新片公布演员阵容，迪士尼地铁试运营</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25995.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25995/medium/25995.jpeg?1461628372" alt="">
+                        <h1 class="title">大公司头条：飞利浦卖灯的部分要单独上市了，苹果手表第一年可能卖了 1200 万块</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25981.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25981/medium/25981.jpg?1461577217" alt="">
+                        <h1 class="title">想借音乐节东风，在Instagram上卖的奶昔看起来不一样</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25986.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25986/medium/25986.jpg?1461585922" alt="">
+                        <h1 class="title">开卖迪士尼公主系列玩具后，孩之宝业绩更好看了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3554">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3554" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">7</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3552.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

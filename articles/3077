@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IBM 收益异常，让人想起了 20 年前它的那次尴尬处境_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="IBM 收益异常，让人想起了 20 年前它的那次尴尬处境。而事实上，情况却又不是那么相似。。好奇心日报为您呈现IBM 收益异常，让人想起了 20 年前它的那次尴尬处境的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 IBM Top 15 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="8b2NC3vCKD0vubjah7X3XYEnNpyO5srxX3vfQLIlxRQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">IBM 收益异常，让人想起了 20 年前它的那次尴尬处境</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Steve Lohr</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-27 09:31:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3077/medium/3077.jpg?1436636239" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3077" data-title="《IBM 收益异常，让人想起了 20 年前它的那次尴尬处境》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3077/medium/3077.jpg?1436636239" data-url="http://www.qdaily.com/mobile/articles/3077.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				而事实上，情况却又不是那么相似。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em> 
+</p>
+<p>
+	<br />
+</p>
+<p class="MsoNormal">
+	在周一召开的 IBM 电话会议上，Bernstein Research 的 A·M·萨科纳吉（A.M. Sacconaghi）问了一个关于钱的问题：“IBM 现在面临着危机吗？”
+</p>
+<p class="MsoNormal">
+	IBM 首席执行官罗睿兰（Virginia M.
+Rometty）的回答慎重而热情。她说，科技行业正在经历一个“前所未有的变革期”，尽管公司三季度的财务指标有所下滑，但 IBM 正在采取“一系列大胆的举措”，为长期的转型指明方向。
+</p>
+<p class="MsoNormal">
+	“我们必须进行自我革新，”罗睿兰说。“就像我们之前所做的那样。”
+</p>
+<p class="MsoNormal">
+	当然，她所说的上一次大的革新发生在 1990 年代初，当时 IBM 的支柱业务的利润率骤降，公司情况失控，还好最后局面得以扭转。
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;<img src="/uploads/image/201410/ebfbec85611d.jpg" alt="" /></span> 
+</p>
+<p class="MsoNormal">
+	<em>自 </em><em>1990 </em><em>年代路易斯·</em><em>V</em><em>·郭士纳（</em><em>Louis V. Gerstner Jr.</em><em>）执掌 </em><em>IBM </em><em>开始，公司的利润来源就有两个：金融工程和计算机工程。</em> 
+</p>
+<p class="MsoNormal">
+	本周 IBM 的收益异常，让人们想起了 20 年前 IBM 所处的那次尴尬境地。事实上，情况和大多数人的预想都不一样。1993 年，当路易斯·V·郭士纳成为第一个来自公司外部的 IBM 掌门人时，公司的账务状况就已经很差了。与此形成对比的是，今年，人们仍然预测 IBM 将有 160 亿美元的利润，比去年少了大约 3 亿美元，但还算得上丰厚。
+</p>
+<p class="MsoNormal">
+	我的同事安德鲁·罗斯·索尔金（Andrew Ross Sorkin）写了篇专栏文章，说的是 IBM 大规模的股票回购项目。早在 2002 年，郭士纳接替掌门的时代，IBM 的利润表现就倚重于金融工程和计算机工程。这话不假。回购项目始于郭士纳，后来由他的继任者，2002 年成为 IBM 首席执行官的彭明盛（Samuel J. Palmisano）继续执行，并在罗睿兰手中得到加强。在 2012 年罗睿兰成为 IBM 首席执行官之前 5 年，IBM 年均回购 4.5% 的股票。在她的任期内，这个数字已经提高到了年均 6.5%。
+</p>
+<p class="MsoNormal">
+	所以 IBM 为了达到它的每股收益目标，已经越来越依赖股票回购了。但仅仅凭此就说，IBM 这么做是赌上了自己的前途，倒也有点儿说不过去——没什么证据可以说明这一点。IBM 在研发方面的投入占到了收入的 6%，和它 2000 年时的水平一样。
+</p>
+<p class="MsoNormal">
+	华尔街的一些人建议说，要是没有回购股票的话，IBM 可能已经进行了一次“足以转型的”并购，而不是在它的软件和服务业务上嫁接许多小公司。最能拿来和 IBM 相提并论的公司是惠普。多年来，惠普一直在进行着大手笔并购，包括并购康柏（Compaq）、EDS 和 Autonomy。惠普的做法很像 IBM，但 IBM 的并购更慎重。在罗睿兰的领导下，IBM 已经在各种快速成长的领域投入了数十亿美元，包括数据分析、云计算和它自己的 Watson 人工智能技术。周一，罗睿兰坚称：“公司的战略是正确的。现在需要改进的是我们的执行速度。”
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201410/68765647e11e.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	在周二发布的一份报告中，萨科纳吉写道：“尽管有些人认为 IBM 没什么营养，但‘保持航向’，并把注意力放在保证公司有机增长上（比如大数据、Watson、Softlayer），很可能是正确的路子，不过这也把 IBM 直接划到了‘等着瞧好戏’的阵营里。”（Softlayer 是去年 IBM 花了 20 亿美元收购的云计算公司，IBM 正在投入另外的 12 亿美元，在全世界建立云数据中心。）
+</p>
+<p class="MsoNormal">
+	罗睿兰说得不错，速度确实是 IBM 要关注的问题。这家公司的新业务发展迅速，但都还不够大，不足以弥补其传统的软件、服务和硬件业务所造成的利润空洞。而且像云计算和 SaaS（软件即服务）这样的新业务，还会给旧的业务带来威胁。
+</p>
+<p class="MsoNormal">
+	在企业管理技术里，新事物一般不能全盘代替旧的产品，它们都是通过局部替代，慢慢地达到足够的规模以后，再替换掉旧的业务。PC 式的、以微处理器为核心的计算机替代不了主机。事实上，今天的主机所做的运算比以前要多得多，但它们已经不再是曾经的赚钱机器了。价格的下降和商业的运作模式都发生了改变。
+</p>
+<p class="MsoNormal">
+	1990 年代时也是一样的情况，当时 IBM 转向了更高利润的软件和服务业务。现在，云计算似乎给 IBM 传统的软件业务，以及部分服务业务（比如为公司客户维护和升级软件应用）带来了同样的挑战。
+</p>
+<p class="MsoNormal">
+	可以肯定的是，同一股力量也正在威胁着所有为公司提供计算技术的知名供应商。但这并没有削弱 IBM 所面临的挑战，而清晰地看到问题，也并不一定就能解决它。
+</p>
+<p class="MsoNormal">
+	如果对于 IBM 来说，今天的情况和 1993 年没有什么相似之处的话，那么几年以后，当全面危机来临的时候呢？今年早些时候去世的约翰·F·埃克斯（John F. Akers）是郭士纳的上一任首席执行官。1985 年，我的同事大卫·E·桑吉（David E. Sanger）在杂志上写过一篇关于埃克斯努力重整 IBM 的文章。在文章中，埃克斯声称“在过去 3 到 4 年里，我们确实把公司搞得乱七八糟。”
+</p>
+<p class="MsoNormal">
+	IBM 现在是一个非常不一般的企业文化现象，一部分原因是公司在 1990 年代的濒死体验。正如罗睿兰所说，“执行速度”的提升肯定是件很容易的事，但在她完成任务的同时，也该重温一下历史的回响。
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3077" data-title="《IBM 收益异常，让人想起了 20 年前它的那次尴尬处境》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3077/medium/3077.jpg?1436636239" data-url="http://www.qdaily.com/mobile/articles/3077.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24810.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24810/medium/24810.jpg?1459418914" alt="">
+                        <h1 class="title">愚人节要来了，看全世界都觉得没安好心呐</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3077">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3077" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">6</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3064.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

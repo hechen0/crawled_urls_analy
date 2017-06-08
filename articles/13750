@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「上海书展」你不看书，但也许会想看“世界上最美的书”_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「上海书展」你不看书，但也许会想看“世界上最美的书”。当纸质书渐渐变成小众的时候，书应该承担怎样的使命？最美的书和这种使命之间的关联，至少我们现在还看不出来。。好奇心日报为您呈现「上海书展」你不看书，但也许会想看“世界上最美的书”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="上海书展 纸质书 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="aWdQxO13lOjj+51G+Fwcmxjuhy8nR2GViQgFcAMKAck=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2380">
+				<span data-id="2380">上海书展</span>
+			</li>
+			<li class="tag item" data-id="14781">
+				<span data-id="14781">纸质书</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">「上海书展」你不看书，但也许会想看“世界上最美的书”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/161922/small/161922.jpg?1442322894" alt="">
+					</span>
+				<span class="name">廖婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-20 08:48:14 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13750/medium/13750.jpg?1440027855" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13750" data-title="《「上海书展」你不看书，但也许会想看“世界上最美的书”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13750/medium/13750.jpg?1440027855" data-url="http://www.qdaily.com/mobile/articles/13750.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当纸质书渐渐变成小众的时候，书应该承担怎样的使命？最美的书和这种使命之间的关联，至少我们现在还看不出来。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	上海书展正在举办的<span>“</span>世界最美的书<span>”</span>设计艺术展，从&nbsp;<span>8&nbsp;</span>月&nbsp;<span>19&nbsp;</span>日到&nbsp;<span>25&nbsp;</span>日，来自<span>“</span>世界上最美的书<span>”、“</span>德国最美的书<span>”和“</span>中国最美的书<span>”</span>三个评选活动的&nbsp;<span>132&nbsp;</span>种书籍，在上海展览中心的序馆里上演颜值秀。
+</p>
+<p>
+	<br />
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/5edba569a658.jpg" width="575" height="857" title="2014 年度“德国最美的书”" alt="2014 年度“德国最美的书”" /><span>2014 年度“德国最美的书”</span> 
+</p>
+<p style="text-align:center;">
+	<span> </span>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/f2e6c58c7207.jpg" width="640" height="415" title="2014 年度“世界最美的书”" alt="2014 年度“世界最美的书”" /><span>2014 年度“世界最美的书”</span>
+</p>
+<p>
+	这三个评选活动中，“德国最美的书”历史最久远，从&nbsp;1929&nbsp;年开始举办至今。而“世界最美的书”也是在德国的评选活动，源于 1960&nbsp;年代东德西德两个不同的书籍设计类比赛，在&nbsp;1989&nbsp;年两德统一时合并。如今，它每年能收到来自&nbsp;30&nbsp;多个国家&nbsp;700&nbsp;多本参评书，最终评选出&nbsp;14&nbsp;本，可谓是书籍设计界的最权威。
+</p>
+<p>
+	“中国最美的书<span>”</span>评选活动，是在他们的影响下举办，自&nbsp;<span>2004&nbsp;</span>年起已办了&nbsp;<span>11&nbsp;</span>届。每年评选出的&nbsp;<span>20&nbsp;</span>本书将送往<span>“</span>世界最美的书<span>”</span>，至今已有&nbsp;<span>13&nbsp;</span>本书获得不同等级的奖励。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/622aca9aebdb.jpg" width="600" height="800" title="“世界最美的书”设计艺术展宣传单" alt="“世界最美的书”设计艺术展宣传单" /><span>“世界最美的书”设计艺术展宣传单</span> 
+</p>
+<p>
+	如此多来自世界各地、拥有不同文化背景和设计风格的书要比出“美”的高下没准会出现“公婆之争”。就获奖的中国作品来看，《梅兰芳（藏）戏曲史料图画集》《曹雪芹风筝艺术》《剪纸的故事》《诗经》（2009 年高教版）等涉及传统文化的书籍获得了“世界最美的书”。是不是民族特征和传统文化的书籍更受欢迎，德国艺术基金会主席卡塔琳娜·黑塞对《好奇心日报》的说法是：“需要在出版印刷、内容理念和设计等因素的综合考虑，没有单独的最好标准，而民族和传统文化也需要与现代结合。”
+</p>
+<p>
+	作为中国唯一担任过<span>“</span>世界最美的书<span>”</span>的评委吕敬人教授则说，“评委每年都会改变，有的是艺术家，有的是出版人，有的是艺术指导，有的是制作总监，但评判的标准是一致的<span>”</span>。在评选其他国家的书籍时不仅仅是设计的考量，也有基于不同文化差异的多元理解，相互交流反而能开拓思维。<span></span> 
+</p>
+<p>
+	就“美<span>”</span>的标准吕敬人教授给出了&nbsp;<span>3&nbsp;</span>个更细的依据：主题和形式统一、原创个性和民族性。这也符合他提倡的<span>“</span>从装帧设计到书籍设计<span>”</span>的理念，设计不仅仅是一个简单的封面，还需要在编排上、编辑上结合文本，帮助作者发言。强调原创个性也敏锐地针对了本土市场“所有的书都是创造性的，要拒绝抄袭和山寨<span>”</span>。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/683cc1f64044.jpg" width="686" height="497" title="卡塔琳娜•黑塞主席（左）吕敬人教授（右）" alt="卡塔琳娜•黑塞主席（左）吕敬人教授（右）" /><span>卡塔琳娜•黑塞主席（左）吕敬人教授（右）</span> 
+</p>
+<p>
+	艺术类的书在获奖上有先天优势，一些精品类的书籍甚至具有很强的收藏价值，而考虑市场和成本的大众小说往往与此无缘。随着 kindle&nbsp;等电子载体的普及，信息越来越廉价，传统的纸质书是否会灭亡的疑问一直存在。在场的书籍设计师们则坦然提出了分化，如走在书籍设计前端的朱赢椿，他的《不裁》《设计诗》《肥肉》等书一直被当做经典案例来讨论，认为除了那些市场化的书，依然会存在一部分纸质书在设计上有较高的要求，两者之间的分化会越来越明显。
+</p>
+<p>
+	那些可能成为艺术品的书，则必然对图书出版和设计师提出更高的要求，书籍设计师在职能上也会精细化。我们在书展上已经看到一本图书拥有两位甚至三位设计师，并在封面上标注出不同的分工，体现出精细化设计的趋势，书籍设计越来越不简单。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/f4886f14853d.jpg" width="1080" height="1801" title="《冬至线》" alt="《冬至线》" /><span>《冬至线》</span> 
+</p>
+<p>
+	可惜的是，参展的书都放在了玻璃里，背后只有几行信息简介，没有更多的说明，难以窥见这一百多本以“美”为名的书真正的特色。毕竟一再强调设计不仅仅是封面，纸质书的动人体验之一就是触感。
+</p>
+<p>
+	我们在询问讲解之后注意到朱赢椿和皇甫珊珊设计的《空度》，书中的每一页都是不同状态的小舟和大面积的留白，没有其他文字，让翻书的人安静下来，进行思考。书籍在今日有了除信息分享以外更多的功能和叙述空间，这是在所谓纸质书危机的时代需要的转型。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/38af7042ed64.jpg" width="1080" height="810" title="《空度》现场展示" alt="《空度》现场展示" /><span>《空度》现场展示</span> 
+</p>
+<p style="text-align:center;">
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/c1708e6bf767.jpg" width="495" height="303" title="《空度》页内" alt="《空度》页内" /><span>《空度》页内</span> 
+</p>
+<p>
+	另一个插曲来自入口附近的工作人员，当我们询问<span>“</span>世界最美的书<span>”</span>设计展时，他毫不知情，笑着说：<span>“</span>书都是美的，都是最美的书<span>”。</span>对书籍设计的高追求依然是为了读者受众，“美”的标准也因人而异，重要的还是能够保持一颗读书的心。<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2380">
+				<span data-id="2380">上海书展</span>
+			</li>
+			<li class="tag item" data-id="14781">
+				<span data-id="14781">纸质书</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13750" data-title="《「上海书展」你不看书，但也许会想看“世界上最美的书”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13750/medium/13750.jpg?1440027855" data-url="http://www.qdaily.com/mobile/articles/13750.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13584.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/13584/medium/13584.jpeg?1439737114" alt="上海书展明天开幕，这里有一份不完全阅读指南">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">上海书展明天开幕，这里有一份不完全阅读指南</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">100</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24693.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24693/medium/24693.jpg?1459312206" alt="">
+                        <h1 class="title">《王牌特工》导演：续集没有“百人斩”，不过有别的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24691.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24691/medium/24691.jpg?1459306365" alt="">
+                        <h1 class="title">「酸汤鱼经济学」为什么你成不了“网红”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24696.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24696/medium/24696.jpg?1459310566" alt="">
+                        <h1 class="title">Instagram 要把小视频延长到 60 秒了，还是为了广告</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13750">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13750" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">49</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13756.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

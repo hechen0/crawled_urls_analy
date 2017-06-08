@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>创客市集到了深圳，中国的创客们都在玩什么？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="创客市集到了深圳，中国的创客们都在玩什么？。无人驾驶汽车、装甲机器人、高科技音乐会……但创客派对里面并不只是这些。。好奇心日报为您呈现创客市集到了深圳，中国的创客们都在玩什么？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 创客 Maker Faire 克莱·舍基 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="eWJ3VG8MHQMi50UAD2yeLRh9GIaEMgVzHKb4Yx2EkkA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="216">
+				<span data-id="216">创客</span>
+			</li>
+			<li class="tag item" data-id="279">
+				<span data-id="279">Maker Faire</span>
+			</li>
+			<li class="tag item" data-id="11811">
+				<span data-id="11811">克莱·舍基</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">创客市集到了深圳，中国的创客们都在玩什么？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-20 07:41:12 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11076/medium/11076.JPG?1436643011" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11076" data-title="《创客市集到了深圳，中国的创客们都在玩什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11076/medium/11076.JPG?1436643011" data-url="http://www.qdaily.com/mobile/articles/11076.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				无人驾驶汽车、装甲机器人、高科技音乐会……但创客派对里面并不只是这些。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span>尽管室外气温高达 34 度，深圳南山区软件产业园昨天开始的深圳 Maker Faire（制汇节）还是吸引了到了几万人参加。这是 Maker Faire 在深圳举办的第三年，也是规模最大的一次——15 万平方米，3 天，免费对公众开放。</span> 
+</p>
+<p>
+	“无论 90 年代开源项目 Linux，还是小米，他们的共同的特点并不是出来了一个产品再有社区，而是从有了点子开始就去找这些真正热忱的人，然后决定要做什么样的产品。” 社交媒体畅销书《认知盈余》的书作者<span>克莱·舍基（Clay Shriky）今天在深圳说到</span>。他提醒，尽管在中国硬件企业正在快速崛起，创客运动也吸引了政府、市场和投资者的关注，甚至这个词也和硬件创业者混为一谈，但真正热忱的、很多时候并无商业目的的人们才是这样一个社区的核心。
+</p>
+<p>
+	而正如舍基所讲，尽管这次深圳 Maker Faire 的商业元素甚多——例如到处摆放的 Mini Cooper 轿车和不少摊位都在贩卖的儿童机器人/电路板教育套装。但我们还是碰到了不少热情激动的创客和好玩的事情，以下是《好奇心日报》记者在现场的所见所闻：<span>躺在圆形的天文馆远眺星空以及欣赏初音未来跳舞，看人类装上机器人外骨骼的样子，试坐一回国内出产的无人驾驶汽车，和 68 岁的爷爷辈创客聊硬件制造，或者在路上偶遇“硅谷名人”凯文·凯利（Kevin Kelly）……</span> 
+</p>
+<h2>
+	外骨骼机器人、无人车、立方体 LED……现场的有趣玩意儿
+</h2>
+<p>
+	创客们在现场展示自己的项目，众人围观和提问，这似乎是 Maker Faire 里面最常有的场景了，逛了一圈展会，我们发现这些最好玩。
+</p>
+<strong>身高 3 米的机器人外骨骼</strong><br />
+<p>
+	在 Maker Faire 中心舞台旁边，一架高达 2.8 米的由人进行操控的外骨骼装甲尤为引人注目。顾名思义，外骨骼就是将人体用机器框架包裹起来，这些框架就像骨骼一样，可以根据随着四肢的摆动而移动，并将四肢的力量通过机器成倍的放大。
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XMTI2NjMzMjUxMg==" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	该作品来自两个 23 岁日本男生 Aka 和 Shiroku，它们成立了一个叫&nbsp;<a href="http://en.skeletonics.com/">Team Skeletonics</a>&nbsp;的工作室，这已经是他们研发的第五代外骨骼装甲。与他们在 2011 年完成的第一代作品相比，这一代装甲更易于穿戴，而且续航时间可以达到一个小时。
+</p>
+<p>
+	不过，虽然这套外骨骼装甲能够提供一定的助力，但是他们制造它的主要目的还是为了演出。因此，与军用装甲不同，他们的装机更加高大一些，不过同时为了保持灵活性，不必要的材料也被舍弃。难以想象这个 2 米 8 的大个子重量只有 40 公斤。
+</p>
+<strong>吸管机器人</strong><br />
+<p>
+	<span> </span> 
+</p>
+<p>
+	Maker Faire 上的机器人虽然多，但大部分看起来都像是又重又蠢的一坨金属疙瘩。不过 Strawbees 的机器人却与众不同的身轻如燕，因为它们除了核心电机之外，其他的部分都是由吸管制造的。
+</p>
+<p style="text-align:center;">
+	<img src="http://www.qdaily.com/uploads/image/201506/a744c26aa028.jpg" width="1080" height="715" title="身轻如燕的机器人" alt="身轻如燕的机器人" />身轻如燕的机器人
+</p>
+<p>
+	<a href="http://www.qdaily.com/manager/articles/11075/www.strawbees.com">Strawbees</a>&nbsp;算是 Maker Faire 的常客了，他们产品的核心其实不是机器人，而是连结机器人的吸管骨架的“小卡子”。这些像钥匙一样的小塑料片能够组成各种连结方式，满足你对机器人造型的任何需求。此外，玩家还可以用这些“小卡子”制造房子、风筝，等等等等。Strawbees 为每个人提供了一个支点，至于怎么撬动地球就凭你的想像了。<strong></strong> 
+</p>
+<p>
+	<strong>一个想教小朋友怎么做机器人的 CoffeeBots</strong> 
+</p>
+<p>
+	这次深圳 Maker Faire 比之前的活动都要更加商业化，其中一个例子现场来了很多售卖针对教育市场的机器人或者电路板套装。在教育产品当中，Coffeebots 是我们看到最特别的一个，因为很经济实用，还可以利用废品。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/14bcc3aa6af6.jpg" width="1080" height="720" title="Coffeebots 机器人" alt="Coffeebots 机器人" /><span>Coffeebots 机器人</span> 
+</p>
+<p>
+	Coffeebots 是在教你怎么用家里的废旧物品做成机器人，例如用完的咖啡粉的罐子、晾衣夹、红酒木塞……例如下面这个只稍微复杂的龙形机器人，外壳使用的就是装鸡蛋的纸皮。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/5f904bdbe71c.jpg" width="1080" height="720" title="龙造型的 Coffeebots" alt="龙造型的 Coffeebots" /><span>龙造型的 Coffeebots</span> 
+</p>
+<p>
+	Coffeebots 项目的创造者的朱迪·卡斯特罗（Judy Castro）告诉我们，这种简单的机器人，一个普通的小朋友从废旧的咖啡罐处理到做完，再编程，让机器人能够行走的时候躲避周围的障碍物，过程需要 8 个小时。只要你感兴趣，可以在朱迪·卡斯特罗的网站上下载他们的包括编程代码整套做 Coffeebots 的做法。
+</p>
+<p>
+	“物理概念太沉闷了，小朋友听不下去的。但如果你跟他们说一起来做个机器人玩，可以上下摆动，躲避障碍物，他们一定愿意。等他们在过程中问你物理原理，是最好的办法。”朱迪·卡斯特罗说，我们也觉得这个方法比较聪明。
+</p>
+<strong>节能车 &amp; 无人车，各来一份！</strong> 
+<p>
+	<span>“我们做的电力车，1 度电能跑 300 公里。”湖南大学大二的同学伍庭阳告诉《好奇心日报》。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/5dcf552f41f8.jpg" width="1080" height="720" title="伍庭阳和他队伍所做的节能车" alt="伍庭阳和他队伍所做的节能车" /><span>伍庭阳和他队伍所做的节能车</span> 
+</p>
+<p>
+	这次 Maker Faire 现场摆了几台流线型，只能坐一个人的节能车，上面印着本田的 Logo 和“湖南大学”的字样。这是他们学校社团做的节能车，他们用来参加本田的一个节能汽车比赛的作品，这些车辆都会被要求在肇庆的赛车跑道上绕圈跑来测试成绩，而伍庭阳所在的队伍，在全国的比赛当中拿了第二名，因为他们用 6.8 毫升的燃油跑了 10.5 公里，折算成一升的汽油，这辆椭圆形的车能够跑 1000 公里。
+</p>
+<p>
+	“我大一就加入了这个社团，负责这辆节能车的底盘，也是进来之后自己学的。”伍庭阳对我们说。
+</p>
+<p>
+	现场还来了一辆无人驾驶汽车。这个车辆是由万科和上海交通大学的智能车实验室合作产生，外面看起来比普通的轿车要更高更宽一些，尺寸和普通的 SUV 比较接近。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/127a207bd90d.jpg" width="1080" height="720" title="无人驾驶汽车外观" alt="无人驾驶汽车外观" /><span>无人驾驶汽车外观</span> 
+</p>
+<p>
+	无人车里并没有驾驶座，只有两排对着的乘客座椅，在两排椅子之间有一台显示屏，里面有地图显示车辆目前的位置，还有车内的视频监控画面。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/27ff8fee4c59.jpg" width="1080" height="720" title="无人驾驶汽车里面" alt="无人驾驶汽车里面" /><span>无人驾驶汽车里面</span> 
+</p>
+<p>
+	<span>这辆无人驾驶汽车已经投入使用了，但并不是在我们想象中的公路面，而是在万科东莞的园区里面。也许你也会疑惑这辆车和 Google 的无人驾驶汽车有</span>什么不同？
+</p>
+<p>
+	<span>在现场演示无人车的上海交通大学研究生吕修文告诉我们，其实这是一部比 Google 无人车更加简单的版本：车身前后也像 Google 无人车一样有激光雷达和感应器，在前方有人通过的时候会自动停车，但由于使用的场景并非是行人、自行车和汽车混杂的公路路面，而只是万科的园区，所以线路也是固定的。</span> 
+</p>
+<strong>也许今天的天气也能变成你家里摆放的一块 LED 立体云</strong><br />
+<p>
+	在上一届的 Maker Faire 上，我们还看到一个很特别的小玩意儿，叫 Looking Glass，就是一个玻璃的方块，里面打印了 3D 的立体的照片，旋转小方块还可以看到照片多个角度的样子。
+</p>
+<p>
+	这次 Looking Glass 团队带来了一个更加炫酷的立方体，里面有几百上千个 LED 灯，可以根据不同的程序展示不同的光路和颜色。如果把立方体联网编程，你甚至可以把每天的天气变成 3D LED 立方体里面的立体云和太阳呢。
+</p>
+<p>
+	还是来一个视频更直观：
+</p>
+<iframe src="http://player.youku.com/embed/XMTI2NjM0NDQyNA==" frameborder="0" allowfullscreen="">
+</iframe>
+<strong>想让大家都变成科学家的 OpenTrons</strong><br />
+<p>
+	这个外形像 3D 打印机，但是却插满了试管的 OpenTrons 也把我们吸引住了。负责 OpenTrons 在深圳生产的 Mitch Dunn 告诉《好奇心日报》，其实这是一个帮助研究人员减少麻烦的硬件设备，目前已经把一些样机送到麻省理工学院去给研究人员试用了。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/6dcdc4af9887.jpg" width="1080" height="720" title="Mitch Dunn 和 Open Trons" alt="Mitch Dunn 和 Open Trons" /><span>Mitch Dunn 和 Open Trons</span> 
+</p>
+<p>
+	“原来研究人员需要用很多时间试验，我们做了一个可以自动帮他们处理试验试管的设备。而且我们还在研发一个软件的平台，你不必须读到博士、不需要是专业人士也能够使用。”
+</p>
+<p>
+	Mitch Dunn 给我举了个例子。如果你在家，突发奇想要验一下 DNA，就可以在配套的软件平台 Mix.Bio 上下载一个 ORC 检测程序，然后自己从口腔轻轻刮一下，OpenTrons 就可以帮忙做剩下的事情。
+</p>
+<strong>还有什么硬件产品可以玩？</strong> 
+<p>
+	我们在 PCH 的展台上发现了之前在 Kickstarter 上很火的“非智能”硬件，简称 MP3 播放器 Pono。这款播放器是美国音乐明星 Neil Young 监制的产品，当时有多位明星为其背书，称播放效果一流，尽管我们的“木耳”加上噪杂的环境还听不出来区别。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/0b73fd4046d4.jpg" width="1080" height="720" title="Pano 的实物" alt="Pano 的实物" /><span>Pono 的实物</span> 
+</p>
+<p>
+	<span>如果你养鱼，同时又爱干净，一定会有金鱼缸里面的玻璃擦不干净的痛苦感受。我们在现场还看到了擦金鱼缸用的智能硬件！通过手机可以远程遥控这个清洁器，而且清洁器上还自带了摄像头——如果远在他方又想看看金鱼缸现在内部的情况就可以使用。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/f475eb05883d.jpg" width="1080" height="720" title="MoAI 智能鱼缸清洁设备" alt="MoAI 智能鱼缸清洁设备" /><span>MOAI 智能鱼缸清洁设备</span> 
+</p>
+<h2>
+	我们亲身体验了这些活动：3D 宅男天文馆、高科技音乐会
+</h2>
+<p>
+	我们也不知道为什么，但今天体验的有趣活动，都来自于日本的创客们。
+</p>
+<strong>3D 天文馆，项目创始人是宅男</strong><br />
+<p>
+	如果你是一个 Maker（创客）的同时又是一个 Otaku（宅男），那么这个 3D 天文馆一定不要错过。这个天文馆有些不一样，其一它和天文内容没什么关系，其二这个场馆可是由是塑料袋做的，通过向内部充气才能支撑起来。
+</p>
+<p style="text-align:center;">
+	<img src="http://www.qdaily.com/uploads/image/201506/e90b0cff031e.jpg" width="1080" height="715" title="塑料布“天文馆”" alt="塑料布“天文馆”" />塑料布“天文馆”
+</p>
+<p>
+	展览分为两个部分，前一半是由日本宅文化团体&nbsp;<a href="http://nicopla.wpblog.jp/">Nico Planet</a>&nbsp;旗下的<a href="http://com.nicovideo.jp/community/co2257331">微笑天文馆分部</a>的成员主持的。他们租借了这个塑料天文馆来为初音未来“布道”，方式就是通过鱼眼投影仪来播放初音未来的视频，背景音乐包括《是萝莉控真是太好了》、《彩虹猫》等等。于是你可以体会到成百上千个小初音伴随着“Nyanyanyanyanyanyanya!”的洗脑歌声向你坠落啦。
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XNDU4MDkxNzY4" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p style="text-align:center;">
+	所谓的洗脑歌大概就是这样的
+</p>
+<p>
+	后一部分是由这个塑料布天文馆的所有者<a href="http://www6.nsk.ne.jp/~higekita/index.html">“Higekita 工房”</a>进行的手工 3D 表演，参观者要戴着红蓝眼镜，投影仪将红蓝两束光叠在一起投射在穹顶上，一个工作人员举着 3D 模型从镜头前掠过，模型将红蓝光有层次的遮挡起来形成特别的影子，而这种影子通过红蓝眼镜后就会给人一种看 3D 物体的效果。这种取巧的 3D 效果会给观众带来意想不到的惊喜。
+</p>
+<p style="text-align:center;">
+	<img src="http://www.qdaily.com/uploads/image/201506/d52fe4c78db5.jpg" width="1080" height="715" title="大叔在用模型投影" alt="大叔在用模型投影" />大叔在用模型投影
+</p>
+<strong>雅马哈还孵化了硬件团队</strong><strong> <br />
+</strong> 
+<p>
+	跟 3D 天文馆浓浓的宅男气质相比，这个雅马哈孵化器做的 Show 4 就更加男性气质一些。其实这是一个普通的鼓架、声音和动作传感器配上一个投影仪，鼓手敲击的时候，能够根据鼓点的节奏改变视频的播放——他们想要做到这样的效果，一边看鼓手打鼓，一边出现炫酷的视频变换。视频一看便知：
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XMTI2NjM0NTQ0OA==" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<strong>高科技音乐会</strong><br />
+<p>
+	深圳 Maker Faire 第一天最后也是最大的亮点莫过于明和电机的演唱会了。明和电机是一个来自日本的乐队，他们的最大的特点就是演奏所需的一切乐器都是他们自己制造的，而且大部分都像电机一样需要通过电流控制。跟他们比起来，其它所有所谓的电子乐都弱爆了。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/36eb0f755d1e.jpg" width="1080" height="720" title="明和电机的音乐会现场，手中蝌蚪样子的是乐器" alt="明和电机的音乐会现场，手中蝌蚪样子的是乐器" /><span>明和电机的音乐会现场，手中蝌蚪样子的是乐器</span> 
+</p>
+<h2>
+	还有那些让我们灵感迸发的人们
+</h2>
+<p>
+	除了看智能硬件的趋势以及去听论坛的演讲之外，或许 Maker Faire 最好的玩法就是跟有趣的人们交谈，听听那些在电路板和智能硬件之外的故事。
+</p>
+<p>
+	“这是我第几个业余的项目了？很多个，数不清了。”68 岁的创客李伯伯说。
+</p>
+<p>
+	<span>在逛会场的时候，我们还见到一个有趣的设备——算盘钟，就是用算盘显示数字的方式来告诉你时间。而守着这个设备的并不是年轻人，而是两位老人。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/011b91e362d6.jpg" width="1080" height="720" title="李伯和算盘时钟" alt="李伯和算盘时钟" /><span>李伯和算盘时钟</span> 
+</p>
+<p>
+	<span>“算盘时钟”这个很原创的想法来自于 68 岁的李伯，他原本是一个工程师，很喜欢在业余做点小玩意儿。因为看到 Maker Faire 的活动，所以也想要来申请一个展位，这次的展位，还是几番周折，发了好几次邮件才申请到的。</span> 
+</p>
+<p>
+	<span>李伯为了自己的业余创客事业，还印了个人名片、做了博客、还有一家淘宝店，也是把很多年轻人没做到的事情完成了。“这是我第几个业余的项目了？很多个，数不清了。”李伯伯说到。</span> 
+</p>
+<p>
+	<span>“他就是喜欢这个，”李伯伯的老伴在一旁说到，尽管天气高温不下，但她还是在一旁陪李伯伯守着 Maker Faire 的摊位，而李伯则非常详细地给我们演示怎么给这个算盘时钟调时间，讲得眉飞色舞。</span> 
+</p>
+<p>
+	<span>其实现场各色各样的创客们还不少，即使在路上都能遇到，例如我们就看到这位穿着日本武士服，头上还带着一个“爱”字的女孩子。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/59ffccd075ca.jpg" width="1080" height="720" title="“爱”和武士服" alt="“爱”和武士服" /><span>“爱”和武士服</span> 
+</p>
+<p>
+	<span>在逛到某一个展台的时候，我们还碰到了目前在国内十分受欢迎的“硅谷名人”凯文·凯利（Kevin Kelly），当时，他在看一个可以贴在婴儿纸尿裤上的蓝牙传感器，可以给通过手机提醒服务什么时候需要更换纸尿裤。“挺有趣的”，他说道，旁边的人们都在大笑。</span> 
+</p>
+<p>
+	我们还在 Maker Faire 的论坛演讲间隙争取到这位一直研究社交媒体和协作的书作者聊天的机会，于是他跟我们分享了一些关于未来科技趋势的看法。
+</p>
+<p>
+	“我认为大规模的协作是未来。很长时间以来，人们问我，在 Twitter、Facebook 之后下一个大的趋势是什么，我跟他们说我也不知道，而现在我觉得是大规模的协作，因为他让全球的产品的迭代变得更加快。然后这些本来从工程师中开始的事情，将会入侵传统行业，商业公司、法律还有更多的传统制造业。”
+</p>
+<p>
+	“这不是另一个 1979，不是另一个‘中国成为世界工厂’的年代了。”克莱·舍基对《好奇心日报》说到。
+</p>
+<p>
+	<br />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="216">
+				<span data-id="216">创客</span>
+			</li>
+			<li class="tag item" data-id="279">
+				<span data-id="279">Maker Faire</span>
+			</li>
+			<li class="tag item" data-id="11811">
+				<span data-id="11811">克莱·舍基</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11076" data-title="《创客市集到了深圳，中国的创客们都在玩什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11076/medium/11076.JPG?1436643011" data-url="http://www.qdaily.com/mobile/articles/11076.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11076">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11076" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">183</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11050.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

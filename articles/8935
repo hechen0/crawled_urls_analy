@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>氢能汽车，现实还是童话？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="氢能汽车，现实还是童话？。炒了十多年的下一代清洁能源终于要量产了，但世界真的会因此而改变么？。好奇心日报为您呈现氢能汽车，现实还是童话？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 可再生能源 汽车 丰田 特斯拉 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mvvMeFG/0O39lyH/kKtTZJ0qx2ApE2NQllF+X7FWXG8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">氢能汽车，现实还是童话？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/172/small/172.png?1400638799" alt="">
+					</span>
+				<span class="name">夏雨青</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-28 15:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/8935/medium/8935.jpg?1430204023" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8935" data-title="《氢能汽车，现实还是童话？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8935/medium/8935.jpg?1436689687" data-url="http://www.qdaily.com/mobile/articles/8935" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				炒了十多年的下一代清洁能源终于要量产了，但世界真的会因此而改变么？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	上周末的纳斯卡车赛（NASCAR）上，开路的是一辆其貌不扬的白色丰田车。这辆其貌不扬的小车车身上印着 Mirai，在日语里代表着“未来”。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	和其它同场竞技的赛车不同的是，Mirai 不烧汽油，也不靠电力驱动，而采用氢能驱动——一种曾经像电驱动一样被年年提及，但从未普及的清洁能源技术。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	等到今年 10 月，Mirai 就将在美国上市销售。此次参赛纳斯卡便是丰田为它准备的一次预热营销。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	“这也许是氢能时代的黎明。”今年&nbsp;1 月的国际消费电子展（CES）上，为丰田新闻发布会开场的物理学家加来道雄用这句话总结了他对氢气能源未来的想像。在他眼里，预示氢气能源未来的是展台上刚刚发布的 Mirai。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"><img src="/uploads/image/201501/a5d4bde9c163.jpg" alt="" style="width:601px;" /><br />
+</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">Mirai 在 CES 的一众高端概念车中看起来毫不起眼——普通家用轿车的外型，5.75 万美元的售价与奥迪、宝马的入门车型相当。加来道雄的激动恰恰是因为它的普通，高端昂贵的概念车拥有先锋技术并不足以为奇，能走进普通人生活的科技才算真正普及。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">在对于下一代清洁能源的想像中，氢气是最具诱惑力、最早被研究的一种。它的美妙之处在于“零污染”——如果使用氢能作为燃料，汽车排放的将会只有水和热量。具体到 Mirai，它使用的是燃料电池技术。在车辆行驶过程中，燃料电池按需让氢气和氧气产生化学反应产生能量和水。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">在加来道雄和丰田美国高级副总裁 Bob Carter 的描述中，氢无所不能：氢气在宇宙中无处不在，氢能是真正清洁的零污染能源，氢能驱动的车比内燃机坚固耐用，未来氢能汽车还能直接在紧急情况下给整栋房子供电……他们对氢能的顶礼膜拜只能让人想起一句史前歌词，“你是电，你是光，你是唯一的神话。”</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">但这不是第一次出现这样的乐观。<a href="http://triplehelixblog.com/2014/09/hydrogen-fuel-the-chicken-and-egg-problem/#sthash.S4vAJP6E.dpuf" target="_blank">小布什 2003 年宣布 12 亿美元氢能倡议的时候</a>曾说：“今天出生的孩子开的第一辆车将是氢动力、无污染。”</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">之后十多年的时间里，上百款氢能概念车被拖上各种展台，几乎每个有点名气的汽车厂商都参与其中。2012 年的世界氢能大会上，戴姆勒、丰田、现代、本田都曾宣布要在 2015 年推出氢能汽车，但目前公布了量产计划的只有丰田一家。首批 2015 年的 Mirai 将量产 700 辆，2020 年预计产量上万。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	听起来像个美好的童话？没那么容易。
+</p>
+<h2 style="white-space:normal;">
+	<span class="s1">氢能缺乏经济上的可行性</span> 
+</h2>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">氢元素也许在宇宙中到处都是，但转化成能量为人所用是另一回事。大部分地球上的氢元素存在于水中，需要经过缓慢的电解反应才能制造出氢气。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">目前工业上的主流方法则是用天然气制造氢，这让氢能没那么“清洁”。天然气和石油一样是化石燃料，这种制造方法其实是在用不可再生资源制造我们口中的“可再生资源”。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">2004 年美国物理学家 Joseph Romm 出版了科普作品<a href="http://www.amazon.com/The-Hype-About-Hydrogen-Fiction/dp/1559637048"><span class="s2">《氢的炒作》</span></a>。他的结论与<a href="http://www8.nationalacademies.org/onpinews/newsitem.aspx?RecordID=12222"><span class="s2">美国国家科学院的研究</span></a>相似：氢能所需要的大规模投资让它缺乏经济上的可行性，而在它成为主流之前，短期内能对温室气体排放的帮助几乎可以忽略。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">这也是几乎所有听起来美好的新能源面临的问题：清洁一般意味着很难，或者很贵，或者很难又很贵。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"></span> 
+</p>
+<h2 style="white-space:normal;">
+	<span class="s1">丰田想通过开放专利让其它汽车公司参与进来</span> 
+</h2>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"><img src="/uploads/image/201501/347214066f00.jpg" alt="" style="width:601px;" /><br />
+</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">按照 Bob Carter 的说法，“丰田相信氢能会是未来 100 年的能源”。他们是认真地在赌氢能的未来。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	而表明丰田足够认真的例证是年初丰田宣布它的 5680 个燃料电池相关专利将会在 2020 年前免费供业界使用，其中与氢能加气站相关的 70 个专利会永久免费。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	开放专利降低开发成本、吸引其它汽车制造商加入氢能阵营看起来大胆又很必要。此前<a href="http://www.greencarreports.com/news/1081864_bmw-to-build-hydrogen-fuel-cell-cars-with-toyota-technology" style="background-color:#FFFFFF;"><span class="s2">宝马也在与丰田合作</span></a>利用专利技术开发燃料电池车。
+</p>
+<h2 style="white-space:normal;">
+	<span class="s1">先有车还是先有站？</span> 
+</h2>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"><img src="/uploads/image/201501/7dc11345d1bb.jpg" alt="" style="width:601px;" /><br />
+</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">即使解决了所有技术和环保问题，卖氢能汽车也只是个开始。怎么建立一个像加油站一样的氢气加气站网络才是真正耗资巨大的项目。在加州政府的支持下，目前丰田在加州有 11 个加气站，预计在 2020 年达到 100 个。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">除了在加州政府资助下的西部加气站网络，丰田计划 2016 年之前在美国东海岸建立 12 个加气站。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">即使行驶里程不是问题，它也远没有做到能让购买者方便地补充燃料。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">相比之下，电动车所需的充电桩成本低得多，扩张速度也快得多。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">根据美国国家科学院&nbsp;<a href="http://www8.nationalacademies.org/onpinews/newsitem.aspx?RecordID=12222"><span class="s2">2008 年的估算</span></a>，要全面转型氢能需要政府在 2023 年前投资 550 亿美元，企业投资 1450 亿美元。丰田和其它汽车企业的投资远远不能满足巨大的资金需求。</span> 
+</p>
+<h2 style="white-space:normal;">
+	<span class="s1">用户为什么需要氢能车？</span> 
+</h2>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">氢能并不是没有未来，但成本与收益的差距是整个新能源发展行业困局的缩影。<br />
+</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">这些公司不是丧失了投资新能源的愿望，而是缺少大笔花钱的动力。与更加热门的电动车、智能驾驶相比，氢能听起来太冒险、太遥远，又缺乏明确的未来。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">而在油价屡创新低的现在，用户也少了些购买新能源汽车的动力。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"></span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">丰田对这些风险再清楚不过，毕竟他们是在过去二十年中对氢能投入最大的汽车厂商。出身于能源稀缺的日本，这家公司一直在追求清洁、可持续的替代方案。1997 年开始的丰田普锐斯系列是目前最成功的混合动力车。相比风头更劲的特斯拉，它才是那个开创了新能源汽车领域未来，让普通人也能买得起的选择。</span> 
+</p>
+<span style="white-space:normal;margin-bottom:16px !important;">通过 Mirai，丰田给了一些说服用户购买</span><span style="white-space:normal;margin-bottom:16px !important;"></span><span style="white-space:normal;margin-bottom:16px !important;">氢能汽车的理由</span><span style="white-space:normal;margin-bottom:16px !important;"></span><span style="font-family:'sans serif', tahoma, verdana, helvetica;white-space:normal;">。</span> 
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"></span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">与纯电动车相比，Mirai 确实有一些优势。加满氢气后，它一次能行驶近 500 公里；相比漫长的充电，加气只需要 3 到 5 分钟。首批购买的车主除了 VIP 客服外，还能享受三年免费加气。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1"></span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	此外不少人抱怨的氢能车缺乏动力一也得到了解决。Mirai 的百公里加速度达到 9 秒，和普通的家用汽车差不多。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">但相比同价位的宝马、奥迪，Mirai 在驾驶体验上没有任何优点。换言之，Mirai 不会是那种你试驾了之后会觉得非它不可的座驾。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">在价格和体验上，特斯拉和丰田一直是区间两端的典范。特斯拉提供的不仅是一个环保概念，它还很美、性能媲美超跑。丰田普锐斯则便宜、实用、省油费。不算便宜的 Mirai 卡在了中间，既不足够吸引人，也不足够便宜。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	而更多氢能驱动带来的独特问题、安全考虑，还要等 10 月正式发布之后才能得知消费者反馈。
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">被丰田请来展台的加来道雄则非常乐观。“一般氢能驱动的汽车都要几十万美元，远远超出普通大众的消费能力。这辆车呢？它就在你能承受的 5 万美元左右。当大规模生产和竞争产生规模经济效益，当政府开始补贴氢气加气站的建设，你会看到它的价格进一步降低。想像一辆完美的汽车——嘿，你可能正在看着它。”</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">像所有其它新能源一样，氢能的未来最终由消费者决定。丰田的计划再清楚不过——触手可及的售价和各种优惠、前三年所有车辆免费加气、开放专利使用权，这些都是为了尽早让更多消费者和厂商跳上这条船。</span> 
+</p>
+<p class="p1" style="white-space:normal;margin-bottom:16px !important;">
+	<span class="s1">按照大众成王败寇的逻辑，丰田到底有远见还是爱空想，我们至少五年后才能盖棺定论。在此之前，不如想想你的下一台车会是什么？</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="4777">
+				<span data-id="4777">可再生能源</span>
+			</li>
+			<li class="tag item" data-id="20">
+				<span data-id="20">汽车</span>
+			</li>
+			<li class="tag item" data-id="3812">
+				<span data-id="3812">丰田</span>
+			</li>
+			<li class="tag item" data-id="921">
+				<span data-id="921">特斯拉</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8935" data-title="《氢能汽车，现实还是童话？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8935/medium/8935.jpg?1436689687" data-url="http://www.qdaily.com/mobile/articles/8935" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/cards/26829.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26829/medium/26829.jpg?1463220511" alt="">
+                        <h1 class="title">远行前最后一分钟，还有这 17 个应用要装好再走 | Hack Your Life</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26818.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26818/medium/26818.jpeg?1463148366" alt="">
+                        <h1 class="title">原宿开的这家店，就像给刚吃完快餐的人泼上一盆冷水</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26854.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26854/medium/26854.jpg?1463232976" alt="">
+                        <h1 class="title">电影《盗墓笔记》首款预告，来看鹿晗和井柏然配不配</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26855.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26855/medium/26855.jpg?1463269188" alt="">
+                        <h1 class="title">为了吸引你，麦当劳要把冷冻肉饼换成新鲜牛肉？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26852/medium/26852.jpg?1463223516" alt="">
+                        <h1 class="title">出了一个油耗丑闻后，三菱汽车被日产控股了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26811.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26811/medium/26811.jpg?1463128874" alt="">
+                        <h1 class="title">阿迪做了一本生活方式类的数字杂志 ，你要看吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26850.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26850/medium/26850.jpg?1463218579" alt="">
+                        <h1 class="title">《长乐路》：一个美国记者眼中的上海街市和生活</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8935">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8935" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">57</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8976.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

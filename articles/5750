@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>凡事别都怪公司管理者，有时他们只是替罪羊_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="凡事别都怪公司管理者，有时他们只是替罪羊。把公司的失败归结于管理者身上是个丢不掉的思维定势。。好奇心日报为您呈现凡事别都怪公司管理者，有时他们只是替罪羊的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="管理 企业 Asymco " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="fhJgRv6+YjiMWENDTR33QirRr5w01rce0mUlm0LUxNQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3999">
+				<span data-id="3999">管理</span>
+			</li>
+			<li class="tag item" data-id="6668">
+				<span data-id="6668">企业</span>
+			</li>
+			<li class="tag item" data-id="2074">
+				<span data-id="2074">Asymco</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">凡事别都怪公司管理者，有时他们只是替罪羊</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Horace Dediu</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-30 16:06:41 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5750/medium/5750.jpg?1436689895" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5750" data-title="《凡事别都怪公司管理者，有时他们只是替罪羊》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5750/medium/5750.jpg?1436689895" data-url="http://www.qdaily.com/mobile/articles/5750.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				把公司的失败归结于管理者身上是个丢不掉的思维定势。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<strong style="white-space:normal;">本文由 Horace Dediu 授权《好奇心日报》发布，在这里查看<a href="http://www.asymco.com/2015/01/28/haunted-empire/" target="_blank">原文</a></strong> 
+</p>
+<p>
+	“公司的失败归于愚蠢的管理者”(以及它的推论“公司的成功归于聪明的管理者”[1])理论仍然大受欢迎，它甚至可能是最为人们所接受的管理理论。一本接一本的书，一篇接一篇的深度文章都提及该理论，因而当一个公司被认为表现不佳时，所有人都会对领导层进行指责，刀刀见血。
+</p>
+<p>
+	这并不是一个新现象。人类作为有思考能力的物种，在灾难来临时我们总是要求带头人为此负责牺牲。在铁器时代的欧洲，作物欠收时国王会被<a href="www.irishcentral.com/news/bog-bodies-are-kings-sacrificed-by-celts-says-expert-129289548-237410131.html" target="_blank">当成祭品</a>。出于类似的原因，中美洲和南美洲的领导人也会<a href="en.wikipedia.org/wiki/Bloodletting_in_Mesoamerica" target="_blank">在仪式上受到折磨</a>。
+</p>
+<p>
+	当然，大多数农作物的歉收是由于天气现象，这跟施行了涂油礼的领导者没什么关系。然而古代相关分析却认为，优秀的领导意味着好气候，差劲的领导则意味着坏气候。
+</p>
+<p>
+	这是个有缺陷的平衡。遇上好的时代，领导就能享受奢侈的生活和赞美。当时的社会（跟领导人们）的交易本质上是这样的：我们会在好时代使你富裕，给你闲暇，而一旦遇上坏时代，我们就会杀掉你，作为仪式的一部分。我们会称你为“魔法总监”，把我们所有的信心放在你身上。当然，如果你失败了，我们也会报复的。
+</p>
+<p>
+	这在今天的企业界也是同样一回事。我经常说，公司的治理仍像中世纪般，或者说是蒙昧时代那样理解因果理论。这种说法可能还是太宽容了。就奖惩机制(也被称为人力资源)而言，他们对因果的理解可能还在前新石器时代。我们给领导铺张和优待就是充分的证明。领导人坚持拥有这讽刺的“薪酬福利”而董事会也批准，这是因为领导者一旦受到民众的反对，他们就会变成仪式上的牺牲品。
+</p>
+<p>
+	考虑到与慷慨报酬相连的风险——肯定会被仪式化地牺牲，接受这个交易的管理者是愚蠢的。他们所要求的荒谬的薪水和他们的表现也没有任何关系，因为这薪水不是为了奖励现有的成绩而付，只是为了这武断而公开的牺牲而给。董事会(和股东)故意找来一个替罪羊为未来未知的错误背黑锅。因此，奢侈和暴力在所谓的“高管招聘”上获得了微妙的平衡。
+</p>
+<p>
+	文明社会（也就是企业和政治之外的部分)能跨越这个平衡是出于一个普遍的理解，即我们的命运并不一定与个人行为相关。无论我们的车是正常还是坏了，我们都不需要对奉承、降服、决裂或者抛弃他人来修车。人们已经开始明白，有些自然规律并不受任何已知或者未知的机构控制。复杂的系统，如工厂、农业灌溉，甚至空中交通都不需要魔法就能做到可预测以及可靠。
+</p>
+<p>
+	但我们不愿意承认规则同样适用于社会系统。不仅仅那些已经放弃的外行们，历史学家和社会学家也为这个感到羞愧：我们永远不能做出跟社会相关的因果声明。
+</p>
+<p>
+	因果定论(好人/坏人得出好的/坏的结果的逻辑)被认为是机构没有公信力的表现，只是利用自然法则来创造价值而已。想想最近针对 Tim Cook 的指责，他被指称施法失败。我这样说，是因为他所取代的前一任魔法师是个强力管理者。因为他的能力无法匹敌上一位魔法师，人们对于他的愤怒在 2012 年和 2013 年达到最高点。有人甚至写了一本关于他管理失败的书，标题用了一个恰当的比喻(闹鬼的帝国)。
+</p>
+<p>
+	我知道你想说什么：赞成这些理论的悲痛幻想是错误的。这种理论几乎每天都要被驳倒。假设管理者真有魔法的话，那我们会奖励他们，但管理者并没有。
+</p>
+<p>
+	但《闹鬼的帝国》的作者肯定会因为她的指控而得到丰厚的稿费回报。我们奖励她，是因为我们自己寻找答案却没有收获。否则，我们还有什么方法?
+</p>
+<p>
+	尝试着这样思考：除了涂油礼/牺牲他人，古人还有其他好的管理理论吗？但这持续了几千年。缺乏管理理论的替代品，意味着我们依然相信他们所相信的。
+</p>
+<p>
+	注:
+</p>
+<p>
+	[1]以及“聪明/愚蠢的领导导致国家的成功/失败理论”
+</p>
+<p>
+	<br />
+</p>
+<h3>
+	关于作者：
+</h3>
+<p>
+	Horace H. Dediu 是独立分析公司 Asymco 的创始人，专注于分析移动计算行业进化之路上的成功与失败。Dediu 的分析和评论被《纽约时报》、《金融时报》、彭博电视等媒体频频引用。
+</p>
+<p>
+	除了 Asymco.com，Dediu 也在每周一期的播客 Critical Path 评论移动产业，并著有同名书籍。Dediu 之前在哈佛商学院的导师、《创新者的窘境》的作者克里斯藤森也是 Critical Path 的座上宾。
+</p>
+<p>
+	翻译 徐弢
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://www.businessinsider.com.au/steve-jobs-left-tim-cook-some-problems-2014-5" target="_blank">businessinsider</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3999">
+				<span data-id="3999">管理</span>
+			</li>
+			<li class="tag item" data-id="6668">
+				<span data-id="6668">企业</span>
+			</li>
+			<li class="tag item" data-id="2074">
+				<span data-id="2074">Asymco</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5750" data-title="《凡事别都怪公司管理者，有时他们只是替罪羊》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5750/medium/5750.jpg?1436689895" data-url="http://www.qdaily.com/mobile/articles/5750.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24893.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24893/medium/24893.jpg?1459598722" alt="">
+                        <h1 class="title">硅谷总迷恋长寿和改变世界，这次爱上了一台复杂的榨汁机</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24886.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24886/medium/24886.jpg?1459556493" alt="">
+                        <h1 class="title">「日本語」“农民有必要协助旅游业吗？”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24904.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24904/medium/24904.jpg?1459700110" alt="">
+                        <h1 class="title">去年香港最好的电影，与金像奖失之交臂（附不完整名单）</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5750">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5750" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">82</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5758.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

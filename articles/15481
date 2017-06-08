@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>哎微软，你的娱乐生意为什么总是做不起来？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="哎微软，你的娱乐生意为什么总是做不起来？。盖茨提出“消费电子+”15 年后，今天的微软除了在你工作时出现，基本是个默默无闻的B2B公司。。好奇心日报为您呈现哎微软，你的娱乐生意为什么总是做不起来？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 Xbox Zune 微软 索尼 苹果 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="iv+MJZRR4z64KQpK9OQPngbiNMDG4N5HDGFPhyd+Ng8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">哎微软，你的娱乐生意为什么总是做不起来？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3910/small/3910.png?1418028195" alt="">
+					</span>
+				<span class="name">唐怡园 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-09-24 08:15:57 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/15481/medium/15481.jpg?1443051778" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15481" data-title="《哎微软，你的娱乐生意为什么总是做不起来？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15481/medium/15481.jpg?1443051663" data-url="http://www.qdaily.com/mobile/articles/15481.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				盖茨提出“消费电子+”15 年后，今天的微软除了在你工作时出现，基本是个默默无闻的B2B公司。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	<span>上周，微软 Zune 音乐服务宣布关闭。这款经历 4 代硬件和数次更名的音乐服务在经过将近 9 年时间的经营后被微软放弃。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>音乐服务的关闭只是微软一系列消费失败的最新进展。去年，微软关了要拍自制剧的 Xbox 娱乐工作室、花了 90 亿美元收购的诺基亚手机业务份额跌破 3%，和死了没什么区别。甚至就连曾经承载着微软“客厅娱乐中心”梦想的 Xbox，最新一代主机也被索尼 PS4 甩开。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>微软依然是一个一年能赚 200 亿美元的公司，但赚钱的只剩与个人用户越来越远的办公业务和云计算。今天你听到的微软新闻里，与消费、娱乐沾边的基本都是坏消息。就连平板电脑 Surface Pro 的热卖，也是因为它和 Office 打包卖给了企业。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>今天谁都会说微软错过了智能手机、错过了数字娱乐……但当 2000 年 1 月，比尔·盖茨在 CES 全球消费电子展宣布“消费电子+”（Consumer Electronics - Plus）计划的时候，没有人敢轻视他的帝国。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/d74caed87185.jpg" width="700" height="467" title="2001 年，盖茨在 CES 全球消费电子展上揭幕 Xbox 游戏机" alt="2001 年，盖茨在 CES 全球消费电子展上揭幕 Xbox 游戏机" /><span>2001 年，盖茨在 CES 全球消费电子展上揭幕 Xbox 游戏机</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>2000 年，苹果还没准备推出 iPod，它还仅仅是一个生产高价电脑的小公司，与消费电子没什么关系。而当时尽管收到金融危机的影响，微软依然有近 4000 亿美元市值，是当时最值钱的科技公司。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>那一年，95% 的个人电脑用户，用的都是 Windows 系统，但这并不代表着市场饱和。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>当时的个人电脑基本是微软和英特尔这两家公司联手控制的市场，搭载 Windows 操作系统、Office 办公软件和英特尔处理器的个人电脑成为现代办公室的标配。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>但随着个人电脑成本降低、网景浏览器出现，个人电脑可以解决购物、获取信息、甚至在线听音乐看视频等一系列需求，而不仅仅是办公室里的工具。转变中，这个生意面对的受众也从几百万公司变成数十亿消费者。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>而最先冲向这个更广阔市场的计算机领袖不是今天被人们所膜拜的乔布斯，而是盖茨。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h4>
+	Xbox 差点就成了一个塞满游戏的 PC 机
+</h4>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>“个人电脑去做游戏，能不能做得过索尼 PS2？”1999 年 3 月盖茨见了游戏开发软件 DirectX 的四位工程师后，让他们做了 1 个季度的调查。他们劝自己的大老板去发展游戏业务。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>3 个月后，四个人的调研有了 2 个结论：PS2 是游戏主机中最好的，但 PC 在技术上很容易超过它；PC 做游戏成本没那么高。盖茨终于批准开展游戏业务，前提是：游戏主机跑 Windows 系统。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>发起人之一 Kevin Bachus 回忆道，“我们想要一石二鸟。游戏主机要做，电脑主机的游戏生意还不能丢。“ Xbox 险些变成一台塞满游戏的个人电脑。</span> 
+</p>
+<p>
+	<span>幸好，兼任 Xbox 第一任主管的 Ed Fries 对这个项目并不上心。作为微软游戏发行的副总裁，应付各大游戏开发商就够他忙的了。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这个时候，四人之一的阿拉德（J Allard）接管了项目的技术部分。尽管下属都觉得阿拉德执拗而不太合群，但他成功说服盖茨放弃让 Xbox 搭载 Windows 系统的想法。
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/6c46570514bf.jpg" width="1080" height="713" title="第一代 Xbox" alt="第一代 Xbox" /><span>第一代 Xbox</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“数字之家”是阿拉德最终说服老板的概念：“电视连接游戏主机，连接电脑，连接一切家中数字化的物品。”
+</p>
+<p>
+	来自微软硬件部门的里克·汤普森主管 Xbox。他搞定了游戏主机的内核：图形芯片。2001 年 11 月 Xbox 正式在美国发售。开发期间并不起眼的《光环》（Halo）成为现象级游戏，全球销量超过 2000 万。
+</p>
+<p>
+</p>
+<p>
+	<span>尽管第一代 Xbox 完全没赚钱，但它成功帮助微软冲进了由索尼和任天堂主导的游戏市场，成为微软第一个成功的消费电子产品。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h3>
+	消费电子 ＋ 计划：盖茨要做的不只是游戏
+</h3>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>除了 Xbox，盖茨&nbsp;<span>2000 年宣布启动微软“消费电子+”计划时，</span>还曾宣布用接下来的 15 年时间，带来这些产品：</span> 
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		手机： Pocket PC，Windows Mobile 的前身
+	</li>
+	<li>
+		电子书： Microsoft Reader
+	</li>
+	<li>
+		智能家居： Microsoft Concept Home
+	</li>
+	<li>
+		电视：Microsoft WebTV&nbsp;
+	</li>
+</ul>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>微软确实做出了其中大部分产品。不过，用的全是做个人电脑的思路——自己做收费软件，再找人合作生产硬件。结果是，你可能连听都没听说过它们。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>微软 2000 年 8 月与巴诺书店合作推出电子书服务&nbsp; Microsoft Reader。.LIT 格式的图书文件精美，支持 Windows 电脑和掌上电脑。</span>问题在于，微软像 Kindle 之前的其它早期电子书失败者一样，没有足够多、足够新的书。用户经常抱怨，书不算少，但没有想看的。最终电子书这事被 2007 年的亚马逊 Kindle 真正激活。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/669b9b50e283.jpg" width="1080" height="720" title="微软和 SUUNTO 合作的 SPOT 智能手表" alt="微软和 SUUNTO 合作的 SPOT 智能手表" /><span>微软和 SUUNTO 合作的 SPOT 智能手表，比 Apple Watch 早了 11 年&nbsp;</span> 
+</p>
+<p>
+</p>
+<p>
+	2003 年被盖茨和模特戴着走上 CES 展的 SPOT 智能手表则死于技术不成熟。作为第一个联合 Fossil、Swatch、SUUNTO 等手表品牌推出的智能手表系列，<span>MSN Direct 体型庞大</span>。由于当时移动互联网甚至智能手机都还没普及，它所谓“智能”只能通过无线电波段来接收天气预报和接收股票信息。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h4>
+	做数字音乐，微软输给苹果一次又一次
+</h4>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>与此同时，比微软更晚进入消费市场的苹果，通过 iPod 拉近了自己和用户的距离。2003 年之后 iPod 出现爆发式增长。很重要的一个原因：iTunes 发布了 Windows 版本。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>1 年后，iTunes 歌曲下载量超过 1 亿首，翻了 10 倍。盛怒之下的回应是微软推出了类似 iTune 的软件 Janus。还为这个音乐服务，起了个看起来会卖得不错的名字 ：Playforsure。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>和 Windows Media 10 一起，微软尝试着向消费者提供更简单的服务。2004 年年中微软将 Janus 发布给音乐播放器和网站时，并没有意识到自己既无法控制音乐内容，也无法控制硬件生产细节。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>结果，合作的音乐网站&nbsp; PressPlay 和 MusicNet 坑了微软。它们的音频质量太差了。一旦音乐播放器出现软件问题，用户没法短时间内得到微软技术人员的帮助。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>Playforsure 本身问题也很严重。在名人都在帮着推荐 iPod 时，一部分微软忠实的名人用户却在吐槽 Playforsure。作家 Jason Dunn 当时分享，这个音乐服务让他极其崩溃：莫名其妙地停止播放，还会要求再次授权，这个过程每周要重复 8 到 10 次。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>iPod 越来越受用户欢迎。微软内部为还要不要继续做音乐服务争了起来。一派认为，要在 Windows Mobile 手机上增加音乐功能；另一派认为一定要做硬件，和 iPod 死磕到底。</span> 
+</p>
+<p>
+	<span>结果是后一派获胜，“Argo 计划”诞生。这是 XBox 的主要负责人阿拉德力主的项目。他打算投入 5 亿美元，打造新的音乐播放器 Zune 。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/29de6f2bb640.jpg" width="600" height="330" title="阿拉德与盖茨的合影，他们手里拿着第一代 Zune 音乐播放器，阿拉德参与了一系列微软消费电子项目" alt="阿拉德与盖茨的合影，他们手里拿着第一代 Zune 音乐播放器，阿拉德参与了一系列微软消费电子项目" style="text-align:center;" /><span style="text-align:center;">阿拉德与盖茨的合影，他们手里拿着第一代 Zune 音乐播放器，阿拉德参与了一系列微软消费电子项目，图片来自&nbsp;<a href="http://www.technologytell.com/gadgets/56691/j-allard-rumored-to-be-leaving-microsoft/" target="_blank">Tech Tell</a></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>消费者也不爱 Zune，第一个圣诞季销售结束后，微软 Zune 营销主管 Jason Reindorp 不愿透露销售数字。但 1 年后，NPD 数据显示，Zune 占据了美国 2％ 的音乐播放器市场。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>阿拉德开始动摇，认为 Zune 只是一个中间产品，为 Xbox 提供音乐云服务。在微软 CEO 鲍尔默的坚持下，Zune 还推出了数代音乐播放器，直到 2011 年 3 月停产。付费音乐订阅服务 Zune Music Pass 则继续了下去。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h4>
+	Xbox 360 成了微软娱乐的中心，但微软错过了 PC 的应用商店
+</h4>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>2009 年秋天 Zune Music Pass 加入 Xbox 360。当年阿拉德做 Zune 音乐播放器，CEO 鲍尔默不时会把 Zune 误称为 Xbox 音乐播放器。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>应了早前阿拉德关于 Xbox 的设想，Xbox 360 逐渐成为了微软的娱乐中心。和初代 Xbox 以射击类为主不同，Xbox 360 的游戏商店里则有更多的选择。Xbox Live 的游戏联机和云备份也吸引了不少用户。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>Xbox 360 一度成为全球最畅销的游戏主机，之后推出的 Kinect 体感设备也一直是时任 CEO 鲍尔默拿来宣传公司依然创新的例证。</span> 
+</p>
+<p>
+	<span>到 2007 年，高价的办公软件和游戏，是个人电脑上主要的两类软件。其它软件基本微不足道，浏览器已经取代了一切。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>办公软件贵但数量少，游戏才是品类最丰富的 PC 软件。随着 Xbox 360 的成功，微软试图在 PC 上用 Games for Windows - Live 为游戏提供联网对战服务。但 Games for Windows 不仅体验差劲，而且不能提供从购买、下载开始的完整游戏消费流程。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>在 PC 上实现完美游戏体验的是游戏公司 Valve 推出的 Steam。讽刺的是 Valve 许多核心成员之前也都在微软供职。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h4>
+	&nbsp;Windows Phone 诞生前，微软移动消费的失败
+</h4>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>Steam 打败 Game for Windows 标志着在 PC 上，微软丢失了建立一个有吸引力软件商店的机会。这在微软的手机业务中，显得更为致命。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>微软是最早做手机的公司之一。手机系统 Windows Mobile 的前身 PocketPC 2000 在 2000 年已经推出。主屏全模拟 Windows 系统，甚至还有开始菜单。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>但 2007 年苹果公司发布了初代 iPhone。基于触屏的全新交互方式加上应用商店，这是真正为口袋设计的电脑。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	负责 Windows Mobile 的主管诺科表示，不用和 iPhone 争，我们做的可是商务手机。CEO 鲍尔默以一贯推销员式的夸张回应记者的采访，“这是全世界最贵（500 美元）的手机。而且没有键盘，不再适合发邮件。”
+</p>
+<p>
+	不过很明显 Windows Mobile 的开始菜单、牙签一样的笔并不是智能手机的未来。微软内部也开始筹备反击，但在开始追赶之前，谁做主再次成为一个问题。
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	2008 年阿拉德启动 Project Pink，依靠收购而来的 Danger 公司组成 PMX（顶级移动体验）部门，独立于老旧 Windows Mobile 平台以外设计新手机。
+</p>
+<p>
+	Danger 曾推出广受欢迎的 Sidekick 手机，内建全球首个手机应用商店，其负责人安迪·鲁宾在收购后离职去做新一代手机操作系统，就是之后的 Android。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>但就在追赶 iPhone 的紧要关头，微软的管理层开始纠结谁来追的问题。最后 Windows Phone 部门获胜，负责人 Andy Lees 抢走了项目的控制权。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/d16f4e935194.jpg" width="492" height="378" title="Kin 手机，Project Pink 的成果" alt="Kin 手机，Project Pink 的成果" /><span>Kin 手机，Project Pink 的成果</span> 
+</p>
+<p>
+</p>
+<p>
+	之后为了避免和 Windows Phone 高端机型竞争，2010 年 4 月发布的 Kin 手机，是两款低端功能机。这时推出新的功能机系统已经没有意义。虽然 Kin 还有一些亮点，比如有趣的交互设计、社交网络整合以及比 iCloud 更早的云存储，但它还是在推出不到两个月的时间里被放弃。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>同一年，阿拉德 Courier 平板项目也被否决了。这款有着两块独立屏幕的平板电脑。两块屏幕之间可以互相交互，和苹果 iOS 9 中实现的 iPad 分屏极为相似。不过，Courier 根本没有面世的机会。之后，阿拉德离开微软。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h4>
+	新 CEO 上台后，微软已经和消费没什么关系
+</h4>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>2014 年，鲍尔默退休去做了快船队老板。在微软工作了 22 年的纳德拉晋升微软 CEO。</span>在此之前，纳德拉是把整个微软放到云端的人，包括其主管过的 Bing 搜索、Office 业务、服务器与云计算服务。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>鲍尔默曾坦诚自己做消费业务，是因为担心微软成为 IBM ，被大众遗忘。而纳德拉认知里的微软，本身就是一家以生产力工具为核心的公司。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>上任 5 个月后，<a href="http://www.qdaily.com/articles/1520.html" target="_blank">纳德拉裁去 1.8 万个职位</a>，是微软 34 年来最大规模的裁员，当中 1.25 万人来自 90 亿美元收购来的诺基亚手机业务。<span>加上今年夏天的又一次裁员重组，</span>手机业务已经不再重要。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>而 Xbox 也不再像前辈一样，是一个游离于微软 Windows 体系外的产品。最新推出的 Xbox One 游戏机底层直接就是 Windows 操作系统。而纳德拉在接受《财富》采访时表示，这已经不是微软的核心业务了。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>使用 Windows 系统、运行部分 Windows 应用的后果是 Xbox One 体型庞大、价格昂贵。这是它销售表现失败、被索尼 PS4 反超的一个重要原因。</span> 
+</p>
+<p>
+	<span>办公又变成微软的唯一业务。每一季的财报，微软谈的高增长业务都是 Office 365 在线办公服务和 Azure 云计算业务，这两个也是微软过去几年里少数能维持 100% 以上增长速度的业务。</span> 
+</p>
+<p>
+	<span>除了一个遥遥无期的 Hololens，你今天在微软的发布会上看到的所有东西都围绕着办公而来。</span> 
+</p>
+<p>
+	<span>微软要做“21 世纪的索尼”。2002 年记者 Jay Greene 采访 Xbox 主管 Robbie Bach 后这么写道。</span> 
+</p>
+<p>
+	<span>但盖茨提出“消费电子+”15 年后</span>，除了工作，你很难再想起它。
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2878">
+				<span data-id="2878">Xbox</span>
+			</li>
+			<li class="tag item" data-id="16185">
+				<span data-id="16185">Zune</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15481" data-title="《哎微软，你的娱乐生意为什么总是做不起来？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15481/medium/15481.jpg?1443051663" data-url="http://www.qdaily.com/mobile/articles/15481.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15044.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15044/medium/15044.jpg?1442460960" alt="花了 9 年时间也没做起来，微软终于关掉了 Zune Music">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">花了 9 年时间也没做起来，微软终于关掉了 Zune Music</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">17</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/1520.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/1520/medium/1520.jpg?1436642044" alt="裁员 18000 人造就纳德拉的“一个微软”">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">裁员 18000 人造就纳德拉的“一个微软”</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">66</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24713.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24713/medium/24713.jpg?1459324043" alt="">
+                        <h1 class="title">神游的时候，你的脑袋都在准备世界崩塌</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24716.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24716/medium/24716.jpg?1459326299" alt="">
+                        <h1 class="title">Airbnb 出了个海景房，让你和鲨鱼睡一晚</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24714.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24714/medium/24714.jpg?1459324333" alt="">
+                        <h1 class="title">你有想过《罗马假日》里的小机车可以变成转椅吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24709.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24709/medium/24709.gif?1459321585" alt="">
+                        <h1 class="title">手机防水重要么？三星让你体验一种别样的快感</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15481">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15481" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">210</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15425.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

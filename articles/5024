@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CES 现场：Misfit 想用灯泡让你睡个好觉_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CES 现场：Misfit 想用灯泡让你睡个好觉。当然，最好是和 Misfit 牌手环一起工作。好奇心日报为您呈现CES 现场：Misfit 想用灯泡让你睡个好觉的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Misfit 智能灯泡 智能家居 CES 2015 CES " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vwzF7hjA6CsPO5cmq2YzMlKK7m2oAtM+Yinsh1upnAU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1857">
+				<span data-id="1857">Misfit</span>
+			</li>
+			<li class="tag item" data-id="2463">
+				<span data-id="2463">智能灯泡</span>
+			</li>
+			<li class="tag item" data-id="821">
+				<span data-id="821">智能家居</span>
+			</li>
+			<li class="tag item" data-id="5774">
+				<span data-id="5774">CES 2015</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">CES 现场：Misfit 想用灯泡让你睡个好觉</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/172/small/172.png?1400638799" alt="">
+					</span>
+				<span class="name">夏雨青</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-07 14:49:32 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5024/medium/5024.jpg?1436675327" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5024" data-title="《CES 现场：Misfit 想用灯泡让你睡个好觉》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5024/medium/5024.jpg?1436675327" data-url="http://www.qdaily.com/mobile/articles/5024" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当然，最好是和 Misfit 牌手环一起工作
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	2015 年国际消费电子展（CES）上聚集了众多可穿戴设备厂家。2013 年以 Shine 手环让人眼前一亮的 Misfit 也在这里推出了他们的新产品，智能灯泡 Misfilt Bolt。
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	<img alt="" src="/uploads/image/201501/06a0e77f5dbc.jpg" /> 
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	这款 LED 灯泡设计很特别，规格与市面上的高端智能灯泡类似。它拥有很好的颜色显示能力，能够快速变化色彩、遥控开关。50 美元的价格在这种灯泡中并不算贵——飞利浦的 Hue 灯泡套装（3 个）需要 200 美元。如果对是否购买智能灯泡犹豫不决，从一个 Bolt 买起就没那么多负罪感。
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	规格上并不突出的 Bolt 胜在它与 Misfit 其它产品结合。
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	人的睡眠状态有深浅的周期，如果你在深度睡眠期间被叫醒，身体会感到不适。<span style="white-space:normal;">据 Mistfit 工作人员介绍，Bolt 将直接利用 Shine 手环收集的数据，了解用户的睡眠状态，在浅度睡眠时模拟阳光叫醒你。</span> 
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	<span style="white-space:normal;">从手环转向智能家居的 Misfit 多少让人有点意外。Misfit 负责软件工程的副总裁 Wallace 告诉《好奇心日报》，“其实我们今年七月就已经出了智能家居产品（睡眠检测传感器 Beddit），未来还是准备在智能家居领域发展，继续关注健康和节能领域。”</span> 
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	Misfit 目前的 iOS 应用就能完成大部分灯泡的智能控制，不过他们还将推出单独的 Misfit Home 应用。从这点联想，Misfit 的智能家居计划应该不止是灯泡这么简单。
+</p>
+<p style="color:#3D3C40;line-height:19.2px;letter-spacing:normal;font-family:Lato, sans-serif;font-size:15px;margin-top:0px;margin-bottom:1rem;white-space:normal;box-sizing:border-box;">
+	最后是 Misfit 制作的视频演示：
+</p>
+<p>
+	<iframe height="498" width="640" src="http://player.youku.com/embed/XODY2NDU2ODU2" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<p style="white-space:normal;">
+		<strong><br class="Apple-interchange-newline" />
+你身边的电子设备还会发生什么变化？请看《好奇心日报》其它 CES 现场报道：</strong>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		家居：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/manager/articles/5107/edit" style="background-color:#FFFFFF;">理想的未来厨房应该有什么？这里有 4 个例子</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5091" style="background-color:#FFFFFF;">怎么养花都养不死的花盆来了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5024">Misfit 想用智能灯泡让你睡个好觉</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4978">手机被颠覆之后，三星打算通过智能家居发起反击</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4973">LG 出个长得像冰箱的智能洗衣机</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		汽车：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5094">2014 年风光进驻的苹果已经不再是智能汽车的主角</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5014">在福特的实验里，你也许不需要买车了</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		穿戴：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5061">7 个为女性而生的智能硬件值得推荐</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5058">你觉得手环太难看？再看看这些智能服装吧</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5055">施华洛世奇带来智能珠宝，目标中国</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5013">Apple Watch 还没开始卖，配件已经到了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4981">那么多设备在追踪你的数据，然后呢？</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		娱乐：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5027">虚拟现实终于到你眼前了，但未来还没到来</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/display/articles/5028">Beats 的前任至今还没放下它</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5095">以后你的手机可能连数据线都用不着了</a>
+	</p>
+<span style="white-space:normal;"></span>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1857">
+				<span data-id="1857">Misfit</span>
+			</li>
+			<li class="tag item" data-id="2463">
+				<span data-id="2463">智能灯泡</span>
+			</li>
+			<li class="tag item" data-id="821">
+				<span data-id="821">智能家居</span>
+			</li>
+			<li class="tag item" data-id="5774">
+				<span data-id="5774">CES 2015</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5024" data-title="《CES 现场：Misfit 想用灯泡让你睡个好觉》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5024/medium/5024.jpg?1436675327" data-url="http://www.qdaily.com/mobile/articles/5024" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26071.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26071/medium/26071.jpg?1461724951" alt="">
+                        <h1 class="title">Coach 大规模重组，以及，“中指猫”春夏系列不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26084.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26084/medium/26084.jpg?1461735838" alt="">
+                        <h1 class="title">「这世界」麦当劳汉堡十年不烂的俗梗和肯尼亚女孩</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26088/medium/26088.jpg?1461737444" alt="">
+                        <h1 class="title">《北京折叠》入围科幻大奖雨果奖了，它说了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26095.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26095/medium/26095.jpg?1461746305" alt="">
+                        <h1 class="title">全球最长最高滑梯将在伦敦迎客，你要去试试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26080.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26080/medium/26080.jpg?1461733067" alt="">
+                        <h1 class="title">香港中环 28 平米公寓，浴缸、猫和基本需求都放得下</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5024">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5024" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">15</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5023.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

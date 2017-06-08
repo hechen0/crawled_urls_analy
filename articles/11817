@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>又一个做了很多吃货设计的工作室！我们看看它是如何起步的_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="又一个做了很多吃货设计的工作室！我们看看它是如何起步的。朋友通常是第一个甲方，作品是最好的“活广告”。。好奇心日报为您呈现又一个做了很多吃货设计的工作室！我们看看它是如何起步的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 店铺设计 室内设计 芝作室LukStudio 陆颖芝 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="PFiYbbuYRaagVkzWQxS7kMeE58B3giv0ui3tGD2KZ6g=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/17.html" class="category x25" data-id="17">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<h1 class="title">又一个做了很多吃货设计的工作室！我们看看它是如何起步的</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-08 15:50:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/11817/medium/11817.jpg?1436339280" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11817" data-title="《又一个做了很多吃货设计的工作室！我们看看它是如何起步的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11817/medium/11817.jpg?1436636469" data-url="http://www.qdaily.com/mobile/articles/11817.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				朋友通常是第一个甲方，作品是最好的“活广告”。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“除了一部分对中国有保留意见的和傻子，能来的都来了。”库哈斯说。你已经看过无数明星建筑师盖过的摩天大楼，那么一间外国小事务所应当如何起步？
+</p>
+<p>
+	在上海愚园路镇宁路一带的里弄里，隐藏着一间围绕一棵老树的设计工作室芝作室（LukStudio）。我们找到创立这间事务所的负责人陆颖芝 （Christina Luk），跟她聊了聊那些有趣小项目的故事。
+</p>
+<p>
+	陆颖芝是香港人，早年在加拿大读书工作了 10 年，做的都是与建筑设计相关的事。后来她所在的公司将业户拓展到了亚洲，她顺势也得到了可以来上海工作的机会，做了 4 年之后，陆颖芝决定创立自己的工作室。
+</p>
+<p>
+	刚刚起步的那段日子，被陆颖芝称作“幸运的”。比如有朋友需要装修一下办公室或是房子，就会找她来做。而帮助芝作室树起口碑的第一个项目当属上海 Lab 酒吧。
+</p>
+<p>
+	这间威士忌&amp;鸡尾酒酒吧 Lab 在武定路上名气不小。一楼的主酒吧区有一面倚墙而立的整面酒架，仅从视觉观感上来看便给人很强的冲击力，各式酒瓶被不同色调的酒装满，配合着柔和的背景灯光，营造出一种在实验室内品威士忌的氛围。沿着楼梯向上走还有一个可以俯瞰整个酒吧的夹层，未经修饰的斑驳墙面也是整体设计的别致之处。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/fc1a10c36e14.jpg" title="1" alt="1" height="600" width="900" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/035dd0121e0d.jpg" title="1" alt="1" /> 
+</p>
+<p>
+	对于很多设计师或是工作室来说，作品可能是最好的广告。
+</p>
+<p>
+	陆颖芝告诉我们，“很多人都喜欢到这个酒吧去喝上一杯，而酒吧的老板人也很好，如果有谁问起来这个空间是谁做的，他就会说是 Christina 做的，然后很多人就会来找我。”
+</p>
+<p>
+	Coquille 法式海鲜餐厅的老板就是因为常去 Lab 酒吧，才找到芝作室，帮他们做了位于蒙自路的餐厅。为了区隔出大楼本身比较枯燥的红砖和玻璃外墙，设计团队创作了一幅富有欧陆风情的背景墙，餐厅门头和百叶窗口的设计元素灵感取自法国北方小镇，原来的玻璃墙被替换成为可以全面打开的双层玻璃门，天气晴好时可以摆一些户外小餐桌，自然地带着客人从普通的街道过度到装饰较为雅致的店内空间。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/22bde32abda8.jpg" title="1" alt="1" />
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/2bea0ce9498f.jpg" width="900" height="600" title="1" alt="1" />
+</p>
+<p>
+	口口相传帮助芝作室在上海的餐饮圈子里建立起了不错的声望，很多人都是认识的，互相介绍再加上作品就摆在那里，自成一个推广平台。
+</p>
+<p>
+	我们第一次关注到芝作室，是在去年年底。在上海九江路与山东中路的十字路口，一家名为「Baker One」的加拿大烘焙坊开业颠覆了传统面包坊给人的印象，芝作室用灰色的水泥墙与回收的旧木板不仅将周边街景的喧嚣繁杂区隔开，还将店铺的内饰与外观连接起来。
+</p>
+<p>
+	陆颖芝将其称作是“怀旧的工业风”，“它看上去就像是在街边，突然有一个木头的东西塞进去一样，这样在视觉上就会一下子跳出来。”
+</p>
+<p>
+	更特别地是，设计师在顶部区域集结了各式各样的烘焙模具的模型，铺满整个天花板，同时又把顶部灯罩做成了打蛋器的模样。用陆颖芝的话说，这其实是为了弥补烘焙店本身可能会出现的问题，“它一般卖的东西都很小，比如面包，但它需要吸引人进来，店铺本身就需要一个可以怎样才能吸引到人的装饰设计。”
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/c7f45fa59c01.jpg" title="1" alt="1" height="380" width="640" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/bfa67938ed51.jpg" title="1" alt="1" height="425" width="640" /> 
+</p>
+<p>
+	在她看来，这间烘焙店成功的地方就是把整个角落开放了出来，然后运用各种烘焙模具使得整个店铺烘焙的元素再跳出来一点，“如果人家很远处看知道这里是做烘焙的，一留意整个顶子都是这样就会觉得挺特别的，就会走进去。”
+</p>
+<p>
+	类似于这种与食物相关的空间设计，挑逗起顾客整体的感官体验很重要，比如说看到怎样的装饰会联想到某一种味道，陆颖芝觉得如果能做到这一点那设计基本就是成功的。
+</p>
+<p>
+	又如甜品品牌 Aimé Patisserie 落户上海时，在淮海路的一片小台阶上做的旗舰店，为了突出马卡龙本身明丽多样的色彩，芝作室干脆就把这家新店化身为一个全白色的礼品盒，就如同创造一种拆开 Aimé Patisserie 包装盒的过程，一层层地打开透亮的白色包装纸，让色彩缤纷的马卡龙本身变得更具吸引力。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/2317255a3fce.jpg" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/9da551fabae7.jpg" title="1" alt="1" height="1440" width="960" /> 
+</p>
+<p>
+	派悦坊的创始人 Mark 和王倞正是因为看到了 Aimé Patisserie 与 Lab 酒吧两个方案，才找到了芝作室。
+</p>
+<p>
+	在看到品牌 logo 上的小鸟和一些卡通手绘后，陆颖芝觉得这是个比较清新的品牌，能够吸引到的顾客类型也应该是 25－35 岁的女生，或是比较年轻的喜食甜品的人群。
+</p>
+<p>
+	但位于尚嘉中心的店铺空间也给芝作室提出了设计挑战，一是怎样解决空间内大立柱的问题，二是怎样既符合商场内对各店铺的一些设计限制，又赋予其一个强烈的主题概念。最终，他们决定以立柱为核心，把这个柱子变身成为一棵从地面延伸到顶部的大树干，在空中展开成为一个蜿蜒盘曲的“大树荫”，模拟蛋糕的糖霜顶部装饰。内嵌不同蛋糕图片的“观察孔”高高低低地分布在树干上，好像啄木鸟留下的痕迹。而在另一家位于 K11 购物中心的分店，“树”的概念得到延续，在 14 平方米的小空间里，设计团队尝试用一簇簇木圆管从屋顶延伸下来，有高有低，在蛋糕柜顶上形成一个茂盛的“树荫”。而从吧台向上升起的木圆管成为了展示蛋糕的平台。&nbsp;
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/7cac57bf5b36.jpg" title="1" alt="1" height="396" width="960" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/e1d5b521bd8a.jpg" title="1" alt="1" height="639" width="960" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/120a50b84722.jpg" width="960" height="708" title="1" alt="1" /> 
+</p>
+<p>
+	在陆颖芝的理解中，店铺设计的难处就在于怎样赋予它一个能够出彩的点，又要保证其功能性。所以与甲方的前期沟通十分重要，“我们跟甲方的沟通是非常彻底的，我是很喜欢问问题的一个人，然后我想到的都会问，我不管它是聪明的问题，还是不聪明的问题，世界上没有蠢的问题，就是你什么都要想到都要问。”
+</p>
+<p>
+	此外，芝作室亦强调对一个项目负责到底这一点，设计到最后终究是要看细节是否做得到位，“很多设计师都是做了设计就不管它了，但交出去施工的话，设计师就永远没办法控制最后的效果了，虽然跟到底又有很多事情要去考虑，但是每一个员工做完一个都会觉得挺骄傲挺开心的，这个满足感是不一样的。”
+</p>
+<p>
+	在做了这么多作品后，陆颖芝最满意的还是自己的办公室。
+</p>
+<p>
+	当初恰是撞见了镇宁路上这座看上去像似“被遗忘的庭院”，里面藏着一棵老腊梅树，她才决意把工作室的新家搬来这里。“我就特别喜欢外面有一个小庭院，因为我养小狗，有时候会带它们来工作室，觉得能让它们出去透透气，我们也可以看到户外，感觉很好。”
+</p>
+<p>
+	在这里，老建筑与市井生活相融，弄堂的格局还被完整保留，很多从国外搬来上海工作定居的设计师都偏好于上海的弄堂文化，他们拒绝把工作室开在写字楼里，多会选择里弄，比如我们曾报道过的<a href="http://www.qdaily.com/display/articles/9899" target="_blank"> LINEHOUSE</a> 和 <a href="http://qdaily.com/display/articles/5809.html" target="_blank">Dariel 设计事务所</a>，后者就曾自行改造了一幢坐落于常德路的上海老建筑 The Villa 621 ,作为事务所的办公空间，亦是公司最重要的作品之一。
+</p>
+<p>
+	芝作室也是一样，陆颖芝告诉《好奇心日报》，在工作室做过的众多项目中，团队自己改造的这间办公室是他们最希望做下去的方向，“我们觉得它简单，但是功能性很强，我们不仅保护了一棵树，而且给到人家一个惊喜。”
+</p>
+<p>
+	此前，它们也看过几家不同的带有庭院的空间，但都是已经装修好的环境，且对于室内与室外的关系处理得不是很好，直到找到这间镇宁路的老宅。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/e6a6f8c3aa95.jpg" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/cfa8323c6be6.jpg" title="1" alt="1" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/f57cc0dc82b0.jpg" title="1" alt="1" height="661" width="1000" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/639f1bca1115.jpg" title="2" alt="2" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/51dfe254ec9d.jpg" width="1000" height="693" title="1" alt="1" /> 
+</p>
+<p>
+	在设计过程中，陆颖芝尽可能多的考虑到了如何创造空间的纵深感，以及如何让树的各种形态成为工作室的一部分。从过入口处的大玻璃门进去，再走过门厅处的展示区与储藏室后，藏在内部庭院里的这棵腊梅树才会露出真身，以这棵老树为庭院里的中心， 设计团队在其周围搭起了一个 L 型的工作空间，使得会议室与办公室围绕着它，透过三面落地玻璃窗，这一醒目的自然元素便时时刻刻融入了工作空间。而在室内色调的选择上，浅色系列材质的大面积运用让空间变成了一个“多面投影屏”，捕捉着腊梅树的影子，树荫错落有致，随着一天中不同光线的变化，树的形态与光影也在改变着工作室的风景。
+</p>
+<p>
+	“其实我觉得我们设计师都是喜欢给人家惊喜，在做空间的时候能够给人一种‘原来是这样子’的小小惊喜就已经是我们的回报了。”陆颖芝表示，“在做一些商业空间的时候，我们其实也在很努力去做这个惊喜了，但有时因为需要去考虑展示等一些功能性的东西，往往就不能达到最理想的效果。”
+</p>
+<p>
+	目前，芝作室做的大部分项目都是与消费相关的商业空间，这与前期作品的积累相关，因为类似的作品收获的好评，也总是会带来相似的客户。但从本心出发，陆颖芝更希望做一些“不那么商业的空间”。比如有关教育、艺术的空间，幼儿园、孤儿院都可以，画廊、展厅这些艺术性强一点的空间也想做，“其实就是想跟不同的人去交流，有可能会有不同的机会做一些不只是牟利的东西，那应该会挺有趣的。”
+</p>
+<p>
+	但六个人的团队毕竟还是小公司，在市场竞争激烈的上海，陆颖芝也在慢慢去认识不一样的人，等一些特别的机会，计划去做一些类似图书馆、艺廊等可以让公众参与其中的体验型场所，而非一个单纯的消费空间。
+</p>
+<p>
+	题图来自 LukStudio
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="435">
+				<span data-id="435">室内设计</span>
+			</li>
+			<li class="tag item" data-id="12631">
+				<span data-id="12631">芝作室LukStudio</span>
+			</li>
+			<li class="tag item" data-id="12632">
+				<span data-id="12632">陆颖芝</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11817" data-title="《又一个做了很多吃货设计的工作室！我们看看它是如何起步的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11817/medium/11817.jpg?1436636469" data-url="http://www.qdaily.com/mobile/articles/11817.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/5809.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/5809/medium/5809.jpg?1436690424" alt="在上海，一个法国设计师走街串巷“玩”了10年设计">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">在上海，一个法国设计师走街串巷“玩”了10年设计</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">169</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9899.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9899/medium/9899.jpg?1436654285" alt="她为吃货做设计，比如上海那间很酷的海鲜店">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">她为吃货做设计，比如上海那间很酷的海鲜店</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">562</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26631.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26631/medium/26631.gif?1462855598" alt="">
+                        <h1 class="title">那些传说中赚了大钱的交易员们，到底是怎样一群人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26674.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26674/medium/26674.jpg?1462926283" alt="">
+                        <h1 class="title">200台古董苹果电脑，即将组成一座 Mac 博物馆</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26671.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26671/medium/26671.jpg?1462911731" alt="">
+                        <h1 class="title">纽约设计周进行时，这些精彩作品值得一看</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26677.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26677/medium/26677.jpg?1462932478" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26675.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26675/medium/26675.jpg?1462929103" alt="">
+                        <h1 class="title">今日娱乐：口袋妖怪新作 11 月发售，58 同城也要拍电影</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26648.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26648/medium/26648.jpg?1462892029" alt="">
+                        <h1 class="title">不同的夏日白色牛仔造型，适合自信的女生</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26673.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26673/medium/26673.jpeg?1462925071" alt="">
+                        <h1 class="title">大公司头条：亚马逊做视频分享平台，百威改名“美国”</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11817">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11817" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">303</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11810.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

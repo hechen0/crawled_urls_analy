@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天。昨天说的 1 元钱水秀没能看成，度过了一个有点艰难的中秋夜。。好奇心日报为您呈现用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心实验室 微信 支付宝 携程 旅行 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="/vBCtBcgrCl8sf0JbGSQainUUZ8/OtwLJssIH7NzvK8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13905">
+				<span data-id="13905">好奇心实验室</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="2399">
+				<span data-id="2399">支付宝</span>
+			</li>
+			<li class="tag item" data-id="4618">
+				<span data-id="4618">携程</span>
+			</li>
+			<li class="tag item" data-id="2572">
+				<span data-id="2572">旅行</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/26306/small/26306.jpg?1455710291" alt="">
+					</span>
+				<span class="name">宣海伦 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-09-28 20:38:19 +0800"></span>
+	</div>
+	<div class="banner">
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15628" data-title="《用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15628/medium/15628.jpeg?1443439043" data-url="http://www.qdaily.com/mobile/articles/15628.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				昨天说的 1 元钱水秀没能看成，度过了一个有点艰难的中秋夜。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	为了去看武夷水秀<a href="http://www.qdaily.com/articles/15608.html" target="_blank">（前情提要）</a>，昨天我非常努力地赶稿。然后才发现：我其实并不清楚自己追赶的&nbsp;<span>Deadline&nbsp;</span>具体是几点。根据携程的订单说明，<span>19</span>：<span>30&nbsp;</span>入场，具体以景区通知为准。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/cc15b53dbe4c.jpg" width="640" height="451" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	而我接到的短信是这样的，没有具体的开演时间，提供的链接点开是无效的，电话拨过去接通的是携程总机，经过无数个转接后，依然被告知：具体以景区通知为准。<span></span> 
+</p>
+<p>
+	就这样我踩着点跑去等了公交车，心里还抱着一点点希望。
+</p>
+<p>
+	也许演出没那么准时开始呢？也许迟到了也还能入场呢？
+</p>
+<p>
+	<span>9&nbsp;</span>路公交车一直没来。<span>19</span>：<span>58&nbsp;</span>分，我在月光下啃完了出门时前台送我的月饼，最后一点耐心也消失殆尽。<span></span> 
+</p>
+<h1>
+	夜宵-沙县小吃 | 支付宝
+</h1>
+<p>
+	<span></span> 
+</p>
+<p>
+	花费：<span>15&nbsp;</span>元
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/c5d068782e43.jpg" width="640" height="480" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	愤然拐进了附近的美食街，我准备大吃一顿犒劳自己。走了几个路口后，看到一家挺大的饭店玻璃窗上写着：大众点评、美团、糯米、拉手享优惠折扣，赶紧坐进去。
+</p>
+<p>
+	我查了查大众点评，决定壕气地给自己点一条当地特色的红眼鱼（ 68 元/斤），和服务员小哥就“能不能吃完”和“当地有什么特色”的话题磨了半天，最后决定再点半份怀胎豆腐，配一罐椰奶。最后，我也补充了一句：“麻烦给我找一条最小的鱼哈！”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在对比了下大众点评、百度糯米、拉手团购、美团上的优惠力度之后，我准备团一张拉手上面的&nbsp;<span>100&nbsp;</span>元代金券，可以抵&nbsp;<span>20&nbsp;</span>块钱。正准备搓着手享用大餐，老板娘进来同我说，只有最后一条鱼了，是最大的一条，要两斤多。<span></span> 
+</p>
+<p>
+	她遗憾地看着我，“你肯定吃不下，前面&nbsp;<span>3&nbsp;</span>个人都没吃完。”<span></span> 
+</p>
+<p>
+	“我今天晚上就是想吃一条鱼，这附近还有哪里可以吃红眼鱼的么？”我垂死挣扎。<span></span> 
+</p>
+<p>
+	“没有了。”<span></span> 
+</p>
+<p>
+	在老板娘的介绍下，我又走了&nbsp;<span>500&nbsp;</span>米，到底一家沙县小吃，准备点一碗“这里做的很正宗的”、“当地特色”的紫溪粉。<span></span> 
+</p>
+<p>
+	“老板，这里可以用支付宝吗？”<span></span> 
+</p>
+<p>
+	“可以啊。”<span></span> 
+</p>
+<p>
+	“好，我要一碗紫溪粉。”<span></span> 
+</p>
+<p>
+	“没有了。”<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/6520f5b67b1f.jpg" width="640" height="853" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	我吃着拌面和黄豆排骨汤的时候，收到了一条责编的微信：“今天全是违规的。”按照之前商定的规则，我一天不得套现超过&nbsp;<span>200&nbsp;</span>元。但套现其实并不意味着套取现金，而是需要别人替我代付，按照规则我的手不能触摸到钱。
+</p>
+<p>
+	举个例子，我不能事先向前台套现&nbsp;<span>10&nbsp;</span>个&nbsp;<span>1&nbsp;</span>块钱，而应该在公交车上找人为我代付。<span></span> 
+</p>
+<p>
+	带着不满足的肚子和沉痛的心情，我发了一条朋友圈告诉大家自己的惨况，然而这并不能给我多少安慰。<span></span> 
+</p>
+<p>
+	过了一会儿，妈妈在状态下留言：冷静，一定能找到回去的路（因为一直在刷微信，我一度迷路了），父亲在家庭群里发来语音，告诉我正在黄浦江边和妈妈赏月。一个久未联系的同学发来中秋祝福的语音（应该是群发的），听到她有点陌生但又很亲切的声音，我很快地回复她：能够听到你的声音真好。<span></span> 
+</p>
+<p>
+	一个鼻酸眼涩的中秋夜。<span></span> 
+</p>
+<h1>
+	游玩-白云禅寺 | 当地人推荐
+</h1>
+<p>
+	<span></span> 
+</p>
+<p>
+	花费：月饼一枚<span></span> 
+</p>
+<p>
+	购买渠道：<span>N/A</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/0af2a40d9a67.jpg" width="640" height="427" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	白云禅寺依山而建，或者准确的来说，它就坐落在悬崖峭壁之上。这不是常规的旅游景点，在蚂蜂窝、步步行程助手、面包旅行上你搜不到它，在携程上你可以搜到一座宁波的白云禅寺。<span></span> 
+</p>
+<p>
+	这里不收门票，但是来这里的当地人一般都会捐一些香火钱。由于没有现金，我把包里带着的一枚月饼分享给了菩萨。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/ff5a27b58e47.jpg" width="640" height="960" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	这是只有当地人才知道的好去处，在这件事上，可能很难有&nbsp;<span>App&nbsp;</span>可以帮到你。<span></span> 
+</p>
+<p>
+	下面是一段我佩戴&nbsp;<span>GoPro&nbsp;</span>拍摄的的视频，攀爬的过程中，脚边即是悬崖峭壁 （恐高的朋友慎入！慎入！慎入！）
+</p>
+<p>
+	<iframe src="http://www.tudou.com/programs/view/html5embed.action?type=0&code=2zQQ0JlWeAk&lcode=&resourceId=380561142_06_05_99" allowfullscreen="true" frameborder="0">
+	</iframe>
+</p>
+<h3>
+	买了顶草帽 | 支付宝 &nbsp;
+</h3>
+<p>
+	花费：26 元
+</p>
+<p>
+	购买渠道：支付宝转账
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/19933f821ab8.jpg" width="1080" height="810" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	在漂流之前，我发现太阳很大，于是决定在路边的摊点买顶草帽。
+</p>
+<p>
+	女老板看起来有五十多岁，我问她有没有支付宝，她说有支付宝，但是手机没有流量。我询问是否可以用热点分享网络给她，最后我们愉快地用支付宝完成了这笔交易。（编辑补充：看照片这位姐姐只有二十多岁）
+</p>
+<p>
+	她告诉我，之前也有一次，顾客想要用支付宝付钱，但因为没有网络，她就让客人到到附近的银行取款了。
+</p>
+<p>
+</p>
+<h3>
+	游玩-九曲漂流 | 携程
+</h3>
+<p>
+	花费：已包含在套票内<span></span> 
+</p>
+<p>
+	购买渠道：携程<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/3fbb9cb0bf6d.jpg" width="640" height="360" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	之前做攻略的时候，我就知道当地的艄公有收取小费的习惯，而且“不给就黑脸”、“没有段子听了”、“会划得飞快”……所以我一到漂流起始点，就开始各种搭讪路人，但因为人数安排的关系，我眼睁睁地看着之前约定好同行的杭州母子坐上了另外一艘竹筏。<span></span> 
+</p>
+<p>
+	而身边的另一组广州情侣，则很坚决地告诉我：他们不准备交小费。<span></span> 
+</p>
+<p>
+	最后我加了竹筏导游的微信，给他发了&nbsp;<span>20&nbsp;</span>元的红包，请他代付小费。导游师傅也用支付宝，但他觉得“微信转账更方便些吧”，我在武夷山还是头一次遇到这样的情况。<span></span> 
+</p>
+<p>
+	但最后这&nbsp;<span>20&nbsp;</span>块钱还是退了回来。艄公的规矩是：一艘船六个人，必须达成一致（每个人都交），有人不交也行，剩下的人得把钱补上。<span></span> 
+</p>
+<p>
+	<img src="http://cms.qdaily.com/uploads/image/201509/79de3bf0a8b2.jpg" width="640" height="360" title=" " alt=" " style="text-align:center;" /> 
+</p>
+<p>
+	进入讲解地带前，艄公（其实是个挺年轻的姑娘）又提醒了我们一次：没有讲解的话，那你们自己注意看石刻上的字噢！
+</p>
+<p>
+	唔，所以石刻上都有什么讲究！我打开手机，试图从一堆之前下载的福建旅游&nbsp;<span>App&nbsp;</span>中找讲解，无果。又在微信中试图搜索一些相关的微信账号，也没有能派的上用场的。
+</p>
+<p>
+	<img src="http://cms.qdaily.com/uploads/image/201509/7db9ee83cb41.jpg" width="640" height="360" title=" " alt=" " style="text-align:center;" />等我再抬起头的时候，发现已经竹筏已经漂到了“四曲”，瞬间觉得错过太多。<span></span> 
+</p>
+<h3>
+	纪念品-明信片 | 支付宝
+</h3>
+<p>
+	花费：<span>5&nbsp;</span>元
+</p>
+<p>
+	购买渠道：支付宝
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/5baebd628b51.jpg" width="640" height="360" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	“<span>5&nbsp;</span>块钱也要支付宝？”<span></span> 
+</p>
+<p>
+	“所以之前也有客人用支付宝付的钱吗？”<span></span> 
+</p>
+<p>
+	“是啊，但人家买的多啊，买整套的明信片，还有纪念币、邮票，加起来怎么也要&nbsp;<span>100&nbsp;</span>多块吧！”<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/b15252866ea8.jpg" width="640" height="360" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	现场提供一本邮编大全，我花了大约&nbsp;<span>5&nbsp;</span>分钟时间找到了自己家的邮编，但地址好像不怎么对的上，好像还是手机查找更方便些！
+</p>
+<h3>
+	交通-出租车 | 微信红包
+</h3>
+<p>
+	花费：<span>20&nbsp;</span>元<span></span> 
+</p>
+<p>
+	购买渠道：微信红包<span></span> 
+</p>
+<p>
+	因为着急回家写稿，我打算打车回家。我尝试了&nbsp;<span>Uber&nbsp;</span>和滴滴打车（并没有抱什么希望），奇迹般地发现附近有一辆车，但是订单发出后始终没有回应。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/00666e07847f.jpg" width="640" height="1099" title=" " alt=" " /> 
+</p>
+<p>
+</p>
+<p>
+	等待过程中，我试图尝试人力三轮车，但最后还是坐了出租车。<span></span> 
+</p>
+<p>
+	这位司机师傅手机里没有支付宝、没有&nbsp;<span>QQ</span>、没有大众点评。不过，一个月前他刚刚下载了微信，发现用微信充话费挺方便。<span></span> 
+</p>
+<p>
+	我一步步教会他如何接收红包，如何提现。但师傅看起来还是有点担心，不断地问我，这个钱什么时候可以打到？为什么我还没收到银行的短信？<span></span> 
+</p>
+<p>
+	之前有一单生意，还价&nbsp;<span>15&nbsp;</span>元，他没有走。“生意不好做啊，人力车不用油，<span>10&nbsp;</span>块钱就能走了。”他说。有的时候，他等&nbsp;<span>3&nbsp;</span>个小时才能赚&nbsp;<span>20&nbsp;</span>块钱，生意好的时候一天大概一两百。<span></span> 
+</p>
+<p>
+	到旅馆后，我收到他的微信：姑娘你买茶不？来我家喝茶，肉桂、水仙、大红袍……<span></span> 
+</p>
+<h3>
+	突发：明天可能走不了了
+</h3>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/b7801f4ab439.jpg" width="640" height="394" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span>12306&nbsp;</span>的人工服务一直无法接通，求问哪里才可以查到正常运行的班次 QAQ
+</p>
+<h3>
+	<span>&nbsp;编辑点评</span> 
+</h3>
+<p>
+	<span>&nbsp;从今天开始，我们会在每篇更新的末尾，给参加实验的两位一些点评。以下是今天的补刀：</span> 
+</p>
+<p>
+</p>
+<ul>
+	<li>
+		昨晚听着记者从前方发来的语音有些哽咽，编辑其实有些担心。但是，要再重申一遍的是，实验的规则是不可以接触现金，只能请人帮忙代付。比如前台垫付的酒店押金，退房时也应该走支付宝。为了更真实的经历，请把你们的心疼留在评论里！
+	</li>
+	<li>
+		邮编应该可以上网查询，搜索家庭住址附近的路名就可以。&nbsp;
+	</li>
+	<li>
+		福建境内的高铁经常因为天气原因取消班次，建议用旅行相关应用，看看过去的攻略，以及用订票应用查查航班、火车是否正常运转。编辑担心，行程能否顺利继续，以及安全问题。
+	</li>
+	<li>
+		今天的花费总计是 46 元，没有提到的早餐、午餐、晚餐和交通方式，都是由记者在当地热情的朋友一手包办，亲爱的读者你们太热情了，但是同时我们也会思考这是否符合实验要求。蹭吃蹭喝 12 天不是我们实验的目的呀喂！
+	</li>
+	<li>
+		现在记者正在看演出，究竟这个秒杀的演出是怎么顺延到第二天，以及怎么知道了开演时间，编辑也很好奇。
+	</li>
+	<li>
+		记者随身的&nbsp;<a href="http://www.motorola.com.cn/" target="_blank">Moto X Style 手机</a><a href="http://www.motorola.com.cn/" target="_blank">&nbsp;&amp; 新一代 Moto 360</a>&nbsp;智能手表由摩托罗拉赞助。&nbsp;
+	</li>
+</ul>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13905">
+				<span data-id="13905">好奇心实验室</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="2399">
+				<span data-id="2399">支付宝</span>
+			</li>
+			<li class="tag item" data-id="4618">
+				<span data-id="4618">携程</span>
+			</li>
+			<li class="tag item" data-id="2572">
+				<span data-id="2572">旅行</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15628" data-title="《用微信红包付艄公小费，最后还是打赏失败 | 只带手机旅行第 3 天》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15628/medium/15628.jpeg?1443439043" data-url="http://www.qdaily.com/mobile/articles/15628.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+				<div class="gap"></div>
+					<a href="http://ditu.baidu.com/?ie=utf-8&s=" data-locname=" 旧街1号溪岸旅馆" class="map-wrapper">
+						<img class="map" src="http://api.map.baidu.com/staticimage?width=372&height=246&center=117.984532,27.65462&zoom=19&copyright=1" alt="">
+						<img src="/img/mobile/map-marker-x2.png" alt="" class="marker">
+					</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15608.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15608/medium/15608.JPG?1443354914" alt="我靠给人充话费买了大红袍茶叶蛋|只带手机旅行第 2 天">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">我靠给人充话费买了大红袍茶叶蛋|只带手机旅行第 2 天</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">59</span>
+				<span class="iconfont icon-heart">154</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24743.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24743/medium/24743.jpg?1459356067" alt="">
+                        <h1 class="title">中国最大餐饮公司要出售 20% 的股权，谁会买？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24723.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24723/medium/24723.jpg?1459332928" alt="">
+                        <h1 class="title">微软之后，苹果也获得了体育联赛的订单</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24748.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24748/medium/24748.jpeg?1459382569" alt="">
+                        <h1 class="title">大公司头条：iPhone SE 带来的关注不如以往，富智康夏普并购案敲定</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24742.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24742/medium/24742.jpg?1459358675" alt="">
+                        <h1 class="title">九州《鲛珠传》开拍，主演是“太子妃”和“徐太宇”</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15628">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15628" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">109</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15627.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

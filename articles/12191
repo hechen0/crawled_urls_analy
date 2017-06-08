@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>想让孩子别玩儿电子设备，得从父母做起_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="想让孩子别玩儿电子设备，得从父母做起。教育孩子还是要以身作则。好奇心日报为您呈现想让孩子别玩儿电子设备，得从父母做起的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 教育 电子设备 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="2MuA51Ne2sYeqebKllMYj92xBwU1IrQCaPm31VK7BgM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="286">
+				<span data-id="286">教育</span>
+			</li>
+			<li class="tag item" data-id="2994">
+				<span data-id="2994">电子设备</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">想让孩子别玩儿电子设备，得从父母做起</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Jane E. Brody</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-17 09:29:27 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12191/medium/12191.jpg?1437019091" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12191" data-title="《想让孩子别玩儿电子设备，得从父母做起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12191/medium/12191.jpg?1437019091" data-url="http://www.qdaily.com/mobile/articles/12191.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				教育孩子还是要以身作则
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	<span style="text-align:justify;">如果儿童和青少年开始迷恋电子媒体，不和现实世界以及现实世界中的人接触交流，反而每天花很多时间打电子游戏、发短信，那么家长往往负有直接或间接的责任。就像</span><span style="text-align:justify;"><a href="http://well.blogs.nytimes.com/2015/07/06/screen-addiction-is-taking-a-toll-on-children/">上周一篇专栏</a></span><span style="text-align:justify;">中所提到的，过分沉迷数字世界，会给孩子社交、情绪和智力三方面的成长带来负面影响。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	许多儿童发展领域的专家得出的这一结论令人沮丧，但也促使专家们向家长们提出建议，帮助他们在过度伤害出现之前防范或者改正这一问题。<span></span> 
+</p>
+<p>
+	“在这方面没有什么问题是不可以解决的，<span>”</span>在哈佛任职的心理医生凯瑟琳<span>·</span>斯坦纳<span>-</span>亚岱尔（Catherine Steiner-Adair）说道，<span>“</span>而且问题越快解决越好。<span>”</span> 
+</p>
+<p>
+	就如同家庭治疗师苏珊<span>·</span>史蒂夫曼（Susan Stiffelman）<span><a href="http://www.huffingtonpost.com/susan-stiffelman/kids-and-technology_b_2020920.html">在《赫芬顿邮报》（The Huffington Post）上所写的</a></span>那样，如今的家长还没有做好<span>“</span>应对网络世界强大的吸引力和令人上瘾的能力<span>”</span>的准备，<span>“</span>作为家长，我们有机会引领孩子养成一些习惯，帮助他们利用数字世界，而不要被数字世界整个吞没。<span>”</span> 
+</p>
+<p>
+	来自哈佛大学公共卫生学院（Harvard School of Public Health）的两位专家<span><a href="http://www.hsph.harvard.edu/steven-gortmaker/">史蒂文·格特马克尔</a></span>（Steven Gortmaker）和凯利<span>·</span>斯凯宾斯凯（Kaley
+Skapinsky）提供了一份免费的指南<span><a href="http://www.hsph.harvard.edu/prc/2015/01/07/outsmarting-the-smart-screens/">《用计谋打败智能电子设备：能够帮助解决问题的工具——一份为父母准备的指南》</a></span>（<span>Outsmarting
+the Smart Screens: A Parent’s Guide to the Tools That Are Here to Help</span>）。此外，他们还提出了<span><a href="http://www.hsph.harvard.edu/prc/projects/food-fun">一些家长孩子们可以进行的健康活动</a></span>，这些活动能够缓解伴随过度使用电子设备而来的体重增加的问题。他们说，年幼的儿童不应当拥有自己的手机，卧室里也不应该放电视机，父母甚至应该合理限定青少年使用电子设备的时间。
+</p>
+<p>
+	《<span><a href="http://www.nytimes.com/2013/08/19/books/3-books-offer-ways-to-cut-the-cord-if-only-briefly.html">断网大行动：数字时代我们如何保护童年和家庭关系</a></span>》（The Big Disconnect: Protecting Childhood
+and Family Relationships in the Digital Age）一书的作者斯坦纳<span>-</span>亚岱尔医生提到，父母在养育孩子时常常会有两种严重影响孩子滥用电子媒体倾向的行为。一些家长会一直挂念着他们自己的电子设备，对手机和平板电脑的每一下提示音都做出回应，频繁收发会让&nbsp;<span>Miss Manners&nbsp;</span>生气的信息<span>（译注：</span><span>Miss Manners&nbsp;</span><span>是美国记者、礼仪作家&nbsp;</span><span>Judith Martin&nbsp;</span><span>的笔名）</span>。还有一些家长则没能订立并贯彻合适的规定，规范孩子们使用电子媒体的行为。
+</p>
+<p>
+	年幼的儿童会仿效别人，他们通常会模仿成年人的行为举止。我常常看见家长或者照料孩子的人一边打电话或者发短信，一边领着孩子走路或者推着坐在手推车里的孩子——他们没有和自己照管的孩子交流沟通，（反而一心扑在手机上）。斯坦纳<span>-</span>亚岱尔医生说，孩子在身边时，家长在使用移动设备之前应当三思而后行。她建议家长在孩子起床前、在学校时或者上床后再查收电子邮件。
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201507/cef463cb7e5e.jpg" width="592" height="488" title="1" alt="1" /> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;">在为写书做准备时，斯坦纳</span><span style="text-align:justify;">-</span><span style="text-align:justify;">亚岱尔医生曾采访过 </span><span style="text-align:justify;">1000 </span><span style="text-align:justify;">个孩子，其中一个女孩子曾说：</span><span style="text-align:justify;">“</span><span style="text-align:justify;">我觉得我就是个无聊的人。我让我爸爸觉得很无聊，因为不管什么时候他都会回短信、回电话，哪怕是在滑雪场的上山吊椅上也是。</span><span style="text-align:justify;">”</span><span style="text-align:justify;">还有一个 </span><span style="text-align:justify;">4&nbsp;</span><span style="text-align:justify;">岁的孩子则把她父亲的手机叫做</span><span style="text-align:justify;">“</span><span style="text-align:justify;">愚蠢的电话</span><span style="text-align:justify;">”</span><span style="text-align:justify;">。</span> 
+</p>
+<p>
+	波士顿医疗事务中心（Boston Medical Center）的一位儿科医师詹妮·S·拉狄斯基（Dr.
+Jenny S. Radesky）和两名同事一起在快餐店观察了&nbsp;55&nbsp;组父母和孩子，他们注意到，这些成年人中，有 40 位一坐下来就立马拿出移动设备，而且在就餐过程中大部分时间都在使用手机，通常他们花在电子设备上的注意力比花在孩子身上的注意力还要多。
+</p>
+<p>
+	研究者还发现，当家长一心沉浸在自己的电子设备中时，孩子们就更有可能会做出一些类似表演的举动，这显然是在试图吸引家长的注意力。<span></span> 
+</p>
+<p>
+	那些没能在<span>“</span>一天关键的时刻，比如带孩子去学校或者接孩子回家的时候<span>”</span>把注意力集中在孩子身上的错误教养方式，让斯坦纳<span>-</span>亚岱尔医生特别担心。她说，在那些时候<span>“</span>本来应该每个人都放下手机<span>——</span>家长不用蓝牙设备，孩子们也不用电子设备。接孩子回家的那段时间对孩子来说是非常重要的过渡时间，他们可以在那段时间中梳理回想，并与家长交流他们在学校度过的一天。家长不应该说：<span>‘</span>等一会儿啊，我得打完这通电话。<span>’”</span> 
+</p>
+<p>
+	她说，同样地，家长下班回家后，<span>“</span>应该在进门的时候就关掉电子设备，用到家后的第一个小时和家人交流互动。孩子讨厌类似‘我只是看一下有没有信息<span>’</span>这样的话，它们只是家长经常用来为自己粗鲁、令人生气的行为辩解的话<span>”</span>。<span></span> 
+</p>
+<p>
+	这位心理医生说，不管是家长还是孩子，都不应该在全家外出吃饭的时候使用电子设备。<span>“</span>进餐的艺术、美味的食物和有益的谈话之间的联系，正在逐渐被人们抛弃，不只是在饭店，在家也是一样。<span>”</span>她说道。<span></span> 
+</p>
+<p>
+	近来儿科急诊室出现的意外伤害病例增加了 <span>20%</span>，斯坦纳<span>-</span>亚岱尔医生说，这都是因为照料者没能把全部的注意力集中在他们应当照管的孩子（比如浴室里的婴儿和蹒跚学步的孩子、攀爬架上的儿童）身上。“当你在发短信或者打电话的时候，你的反应时间和注意力（和不发短信、不打电话的时候）并不一致。<span>”</span>她说。<span></span> 
+</p>
+<p>
+	<span><a href="https://susanstiffelman.com/books/">《当今育儿》</a></span>（Parenting With Presence）一书的作者苏珊<span>·</span>史蒂夫曼意识到，企图改变孩子使用数码设备的行为可能会让孩子心生抵触。但是她说，保持毫不畏惧、坚定果断、决不妥协相当重要。<span></span> 
+</p>
+<p>
+	“要告诉孩子你知道他们很沮丧，不要长篇大论解释为什么他们不能得到他们想要的东西，<span>”</span>她说道，<span>“</span>孩子们通过经历失望沮丧成长为拥有恢复能力的成年人。如果你的孩子气得发疯、感觉无聊或者因为错过朋友们的网上动态而感到焦虑，那也没什么问题。<span>”</span> 
+</p>
+<p>
+	她和其他专家鼓励家长在一天之中设定几段不使用电子设备的时间，比如放学后的第一个小时或者睡前的一个小时。手机和平板电脑也都不应该出现在晚餐餐桌上。<span></span> 
+</p>
+<p>
+	史蒂夫曼建议家长<span>“</span>腾出时间和孩子一起参加现实生活中的活动，让他们知道他们值得你花时间专心和他们在一起。和孩子一起做事对你们之间的关系有好处。<span>”</span> 
+</p>
+<p>
+	至于控制孩子花在数字媒体上的时间，哈佛大学两位专家给出的指南中着重指出，那是家长的责任：<span>“</span>电子设备可能在任何时候被打开，你作为家长需要监督孩子们对电子设备的使用，掌控他们使用电子设备的时间，确保他们遵守了你们商定的规则。<span>”</span> 
+</p>
+<p style="text-align:left;">
+	&nbsp;
+</p>
+<p style="text-align:left;">
+	翻译 <span>is</span>译社 钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="286">
+				<span data-id="286">教育</span>
+			</li>
+			<li class="tag item" data-id="2994">
+				<span data-id="2994">电子设备</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12191" data-title="《想让孩子别玩儿电子设备，得从父母做起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12191/medium/12191.jpg?1437019091" data-url="http://www.qdaily.com/mobile/articles/12191.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/5844.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/5844/medium/5844.jpg?1436690733" alt="研究说：孩子不满 30 个月，别给他玩 iPad">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">研究说：孩子不满 30 个月，别给他玩 iPad</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">33</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/4082.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/4082/medium/4082.jpg?1436644958" alt="为了你们家孩子，你买过多少 App？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">为了你们家孩子，你买过多少 App？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">14</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26373.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26373/medium/26373.jpg?1462330940" alt="">
+                        <h1 class="title">除了大银幕，IMAX 这家公司在电影行业里的生存机会要比你想得多</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26436.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26436/medium/26436.jpeg?1462409095" alt="">
+                        <h1 class="title">大公司头条：Apple Pay 要和支付宝竞争，百度被立案调查</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26433.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26433/medium/26433.jpg?1462402516" alt="">
+                        <h1 class="title">Radiohead 要发新专辑了，先发了支定格动画</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26420.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26420/medium/26420.jpg?1462368363" alt="">
+                        <h1 class="title">碧昂斯给西瓜汁公司投了一笔钱，果汁行业越来越大了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26425.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26425/medium/26425.jpeg?1462376563" alt="">
+                        <h1 class="title">北京这家做动画的创业公司，在两个“盒子”里办公</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12191">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12191" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">46</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12269.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

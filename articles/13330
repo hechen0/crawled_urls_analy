@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？。这是两位 Google 创始人为了“不做一个常规公司”而做的最新努力。。好奇心日报为您呈现一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 头条终结者 Google Alphabet 拉里·佩吉 谢尔盖·布林 皮蔡 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Ie8C590b9GftdQd4GzWU9bjAE8DsJC+CodJpuR36Og8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14321">
+				<span data-id="14321">头条终结者</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="14322">
+				<span data-id="14322">Alphabet</span>
+			</li>
+			<li class="tag item" data-id="14323">
+				<span data-id="14323">拉里·佩吉</span>
+			</li>
+			<li class="tag item" data-id="1544">
+				<span data-id="1544">谢尔盖·布林</span>
+			</li>
+			<li class="tag item" data-id="13611">
+				<span data-id="13611">皮蔡</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 黄俊杰</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-11 11:00:31 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13330/medium/13330.jpg?1439259915" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13330" data-title="《一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13330/medium/13330.jpg?1439259915" data-url="http://www.qdaily.com/mobile/articles/13330.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这是两位 Google 创始人为了“不做一个常规公司”而做的最新努力。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	今天最大的新闻莫过于 Google 创始人拉里·佩吉（Larry Page）宣布 Google 变身为 Alphabet。
+</p>
+<p>
+	在一封题为 <i><a href="http://googleblog.blogspot.com/2015/08/google-alphabet.html" target="_blank">G is for Google</a>&nbsp;</i>的公开信中，佩吉宣布将 Google CEO 一职交给在 Google 负责产品的皮蔡，而自己作为新公司 Alphabet 的 CEO，统管一系列公司，Google 只是其中之一。
+</p>
+<h2>
+	Alphabet 到底是什么东西？
+</h2>
+<p>
+	首先，不要去 <a href="http://www.alphabet.com">alphabet.com</a>，那是宝马公司注册的一个域名、没有任何内容。Alphabet 的网址是 <a href="https://abc.xyz/">abc.xyz</a>，目前也只有那封公开信。
+</p>
+<p>
+	Alphabet 是字母表的意思。但根据佩吉的博客文章，他和布林选择这个名字除了因为 Alphabet 会是一系列公司的组合，也因为它有一流投资的含义（Alpha + Bet）。
+</p>
+<p>
+	一系列公司的组合、一流的投资，这两个关键词让人想到的第一家公司可能会是巴菲特的伯克希尔·哈撒韦（Berkshire Hathaway）多元控股公司，它通过投资和收购同时涉足保险、航空、汽车等多个领域。
+</p>
+<p>
+	而事实上，Alphabet 也确实和伯克希尔·哈撒韦有许多相似之处。
+</p>
+<h2>
+	现在的 Alphabet 包括了什么？
+</h2>
+<p>
+	根据拉里·佩奇的公开信以及 Google 的 SEC 材料信息，Alphabet 将会包括如下几个全资的子公司：
+</p>
+<ul>
+	<li>
+		Google：这就是变小后的 Google。
+	</li>
+	<li>
+		Calico：Google 在 2013 年成立的研究人类寿命延长公司；
+	</li>
+	<li>
+		Fiber：高速光纤网络公司，目前为美国多个地区提供速度高达 1 Gpbs 的网络连接服务，是普通联网速度的 100 倍；
+	</li>
+	<li>
+		Nest：Google 在 2014 年收购的智能家居产品公司，旗下有恒温器、烟雾报警器，家居安防摄像头 DropCam，后来成为了 Google 旗下的智能家居部门；
+	</li>
+	<li>
+		Life Sciences：生命科学相关产品的公司，曾经发布了一款检测血糖用的隐形眼镜；
+	</li>
+	<li>
+		Google X：原 Google 旗下的神秘产品研发部门，无人驾驶汽车、普及互联网的气球计划、无人机送药的 Wing 计划，以及智能眼镜 Google Glass 都是这个部门的作品。
+	</li>
+	<li>
+		Google Capital：投资基金公司，用于投资成熟公司
+	</li>
+	<li>
+		Google Venture：风险投资公司，用于投资早期创业公司
+	</li>
+</ul>
+<p>
+	所以之前我们所熟知的 Google 公司，现在只是 Alphabet 旗下的一个子公司而已。
+</p>
+<h2>
+	谁在管理 Alphabet 公司？
+</h2>
+<p>
+	不过，在成立新公司 Alphabet 之后，原 Google 公司高层管理者并没有什么变化，还是同样的人员组成，只是公司名字变了：
+</p>
+<ul>
+	<li>
+		CEO：拉里·佩奇（Larry Page），原 Google CEO
+	</li>
+	<li>
+		主席：谢尔盖·布林（Segrey Brin），原 Google CEO 特别顾问
+	</li>
+	<li>
+		执行董事长：埃里克·施密特（Eric Schmidt），原 Google 执行董事长
+	</li>
+	<li>
+		首席财务官：露丝·波拉特（Ruth Porat），原 Google CFO
+	</li>
+	<li>
+		高级副总裁，企业发展、法务和秘书部负责人：大卫·德鲁蒙德（David C. Drummond），原 Google 高级副总裁，负责<span>企业发展、法务和秘书部</span> 
+	</li>
+</ul>
+<h2>
+	那 Google 呢？
+</h2>
+<p>
+	原来产品负责人桑达·皮蔡（Sundar Pichai）升任 Google CEO。新 Google 的业务包括：
+</p>
+<ul>
+	<li>
+		搜索业务
+	</li>
+	<li>
+		广告业务
+	</li>
+	<li>
+		Google 地图
+	</li>
+	<li>
+		YouTube 以及其他视频服务
+	</li>
+	<li>
+		手机操作系统 Android&nbsp;
+	</li>
+</ul>
+<p>
+	每一个为 Google 广告业务带来收入的产品都被囊括其中，Google 变成了真正的广告公司。
+</p>
+<h2>
+	改名改组这事情，并不突然
+</h2>
+<p>
+	Google 并不是一夜之间变成了现在的&nbsp;Alphabet。在 Google 成立之初，佩奇和布林请来了更像职业经理人的埃里克·施密特来经营公司，自己则负责雕琢产品。
+</p>
+<p>
+	2011 年，在 Google 的搜索、广告业务发展都十分成熟时，拉里·佩奇重新上任成为 CEO。如果说上一任 CEO 施密特是帮助 Google 建立和巩固了美国互联网广告的霸主地位，那么两位创始人的回归就是在这个基础上寻找 Google 的下一个收入来源。
+</p>
+<p>
+	去年 10 月，佩奇<a href="http://www.qdaily.com/articles/3571" target="_blank">再次改组 Google</a>，这次将负责 Android、Google Apps 的桑达·皮蔡提升到“二把手”的位置，让各个产品线向皮蔡汇报，再转向佩奇，而佩奇则更多负责 CEO 本职的工作，如公司的对外合作和商务运营，以及各种新业务。
+</p>
+<h2>
+	为什么要有 Alphabet？
+</h2>
+<p>
+	“Google 不是一家常规的公司，我们也不想变成这样的公司。”2004 年 Google 上市时，两位创始人致投资人信的第一句话同样出现在今天的公开信中。
+</p>
+<p>
+	但不可否认的是，过去 5 年时间，<a href="http://www.qdaily.com/articles/12251.html">Google 正变得越来越像一个常规的公司</a>。员工自发的创新项目大量中止、著名的“20% 时间”名存实亡、为了三个月一次的财报削减开支。
+</p>
+<p>
+	在几乎所有以业务划分部门的公司中，都会出现管理层倾向于成熟业务的问题。Google 90% 以上的收入来自广告。经常出现在媒体报道中的无人汽车、生物甚至 Nest 智能家居平台等业务都没产生什么收入。
+</p>
+<p>
+	佩吉和布林或许热爱无人车、长生药之类的长征，但 Google 管理层并不是人人都这么想。
+</p>
+<p>
+	曾有人问前 Google CFO Patrick Pichette，他如何在成熟业务和新业务之间分配时间，得到的回答是：“我没有必要在这些实验性项目上花太多时间，比如关心一辆自动驾驶的汽车。”
+</p>
+<p>
+	Alphabet 的组织架构让每一个独立业务成为独立的公司，每个公司有自己的 CEO。独立公司的 CEO 不再是 Google 的众多副总裁之一，他只对自己的公司负责。佩吉自己的说法是：“我们的模式是让每个业务由一个强力的 CEO 负责，布林和我在需要的时候为他们服务。我们会严格分配资本，确保每个业务都能发展良好。”
+</p>
+<p>
+	新架构下，Google 还是那个成熟的、越来越常规的广告公司，在移动广告市场应对 Facebook 的挑战。其它较小的新公司，将有机会像创业公司一样，用一个更小的团队、依靠 Alphabet 的投资去颠覆各自的新市场。
+</p>
+<p>
+	“我们不希望（Alphabet）变成一个巨大的消费品牌、有着各种相关产品。Alphabet 公司集存在的意义是，让它们独立并发展自己的品牌。”佩吉在公开信中这么说道。
+</p>
+<p>
+	新架构为小团队提供了更多激励。当公司业绩表现出色时，独立的小公司有可能独立上市，为员工和它的管理者提供更好的股票回报。比如 Nest 作为 Google 的一个部门一年增长 100%，为 Google 带来的收入增长可能还不到 1%，其团队个人手中 Google 股票价值的增长也是一样。而如果 Nest 独立上市，它的股票增长将是 100% 收入增长的体现。
+</p>
+<p>
+	消息公布后，华尔街的反应非常正面，Google 市值在几小时时间增加了 260 亿美元。Alphabet 解决了投资人长久以来面对的问题：Google 总是尽可能将新业务的开支与其它业务混在一起。而拆分为独立公司后，它们的数字将会公开。
+</p>
+<p>
+	脱离 Google 的保护会使得一些事变得更难，你很难想象 Google+ 如果不是 Google 的产品，还能引起什么动静。而公开数字也意味着新业务不能再躲在庞大广告业务的保护下。最终那些类似科幻的新项目将需要证明自己的存在价值，Alphabet 不能解决这个问题。
+</p>
+<p>
+	Alphabet 的结构调整将在未来几个月时间内完成，具体时间表并未给出。此外还有许多管理和财务分配的细节尚不明确。
+</p>
+<p>
+	不过现在可以肯定的是，拉里·佩吉和谢尔盖·布林的确不是常规的公司管理者。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自 <a href="http://www.mozaaf.com/post/2160970" target="_blank">Mozaaf</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="14321">
+				<span data-id="14321">头条终结者</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="14322">
+				<span data-id="14322">Alphabet</span>
+			</li>
+			<li class="tag item" data-id="14323">
+				<span data-id="14323">拉里·佩吉</span>
+			</li>
+			<li class="tag item" data-id="1544">
+				<span data-id="1544">谢尔盖·布林</span>
+			</li>
+			<li class="tag item" data-id="13611">
+				<span data-id="13611">皮蔡</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13330" data-title="《一夜之间，Google 怎么突然变成了“大赌投资” （Alphabet）？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13330/medium/13330.jpg?1439259915" data-url="http://www.qdaily.com/mobile/articles/13330.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13330">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13330" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">330</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13331.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

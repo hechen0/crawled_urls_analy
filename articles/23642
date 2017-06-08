@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>“不要只谈产品特色，想一想消费者会怎么使用它们”_时尚_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="“不要只谈产品特色，想一想消费者会怎么使用它们”。Everlane 创始人谈了谈做这个品牌的经验，或许可以给时尚行业一些新启示。
+。好奇心日报为您呈现“不要只谈产品特色，想一想消费者会怎么使用它们”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="everlane " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="HguSGDjWZfcbEWyAz/x9jz+3bbH+Wdaacb6ZJmqnpDY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="19">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/19.html" class="category black clearfix x25" data-id="19">
+			<img class="black" src="/system/categories/iconblacks/19/medium/19.png?1411569539" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt=""/>
+			<span>时尚</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16963">
+				<span data-id="16963">everlane</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">“不要只谈产品特色，想一想消费者会怎么使用它们”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/399912/small/399912.JPG?1452046699" alt="">
+					</span>
+				<span class="name">张田小 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-11 10:14:03 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23642/medium/23642.jpg?1457626885" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23642" data-title="《“不要只谈产品特色，想一想消费者会怎么使用它们”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23642/medium/23642.jpg?1457626885" data-url="http://www.qdaily.com/mobile/articles/23642.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Everlane 创始人谈了谈做这个品牌的经验，或许可以给时尚行业一些新启示。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">成立于 2011 年的年轻公司 Everlane 常常被拿来和 J.Crew 相提并论。它们最大的共同点可能是都提供基本款，尽管两者规模完全不在一个量级， J.Crew 业绩走低已经很久了，而 Everlane 成了时尚行业冉冉升起的新星。</p><p class="">2013 年，Everlane 的销售额是 1200 万美元，到 2014 年，这个数字是上一年的两倍。研究公司 Privco 则估计 2015 年 Everlane 的销售额达到了 3500 万美元。</p><p class="">现在，Everlane 被视为时尚行业里最有趣，最有创造力的公司之一。<br></p><p class="">它的创造力体现在很多地方：反快时尚，提供高级耐穿的基本款；创建了透明价格的先例；降低推广成本，不开实体店；还是降低成本，只在社交媒体上做过推广等等。</p><p class="">可能这些都太抽象。如果你不太懂 Everlane 的风格，也许可以找找办公室那些打扮随意，但看起来聪明大方，不会用力过猛的姑娘。可能她的清爽干练，看着质地上乘的衬衣就是来自 Everlane ，或者说她就能代表着 Everlane 提倡的时尚风格。<br></p><p class=""><a href="http://qz.com/630567/everlane-the-san-francisco-clothing-company-that-creates-t-shirts-like-theyre-iphones/">最近，Quartz 采访了 Everlane 的创始人、首席执行官 Michael Preysman，</a>他谈了谈如何让这个品牌走到今天。可能其中有些观点早就有人解读过<a href="http://www.qdaily.com/articles/15869.html">（我们也曾详细写过这个公司）</a>，不过可以看看创始人本人到底是怎么说的。我们摘取了其中一些有趣的部分，重点如下。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/8b3ee9ee0bee.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/ed465dce1ef9.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/da619a46a10e.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/123283f33acc.jpg" alt="">
+</figure></div><h2>1.“我们想要的不是时尚”</h2><p class="">“这些简单的裤装，带有口袋的 T 恤，圆领的羊毛运动衫看起来都是基本款，但对于一家时装公司来说，这背后的理念其实是重造。成为潮流不是我们的目标。我们想要的不是时尚，而是成为一种持久的风格。” Michael Preysman 说。<br></p><p class="">Everlane 不会跟随主流随机上新，而用更多的时间来孵化产品。推出的也都是基本款：夹克，裤装，T 恤，丝绸裙子，鞋子等。<br></p><p class="">在时尚行业，传统的操作方式是以季节为单位推出不同的系列，倚靠时装周的节奏来发布新品，到了下一季还需要把上一季的衣服打折处理。这也是最近美国时装设计师协会最近找来波斯顿咨询公司讨论的问题。但 Everlane 最初就不是用的这种模式，它不按季节推出新品，所有的单品一年四季都有售。<br></p><h2>2.“不要以为用一个商业流程就能代表消费者的想法”</h2><p class="">传统做设计或者说商业流程，就是召集设计师做一个系列，然后卖给零售商，零售商根据历史上的颜色、款式等数据做出决定再挑出来放到商场售卖。<br></p><p class="">“设计师理所当然应该明白消费者在想什么。如果不懂，这是最糟糕的情况。但也不要以为用一个商业流程就能代表消费者的想法。一个好的品牌应该是两者兼具。” Michael Preysman 说。</p><h2>3.“产品发布只是一个开始”</h2><p class="">“我们做的就是尽其所能做出好东西，然后再听听消费者的意见。做一个产品，你先自己掂量是否喜欢，再询问消费者他们怎么看，然后你再做调整。基本上就是发布、调整、发布、调整......” Michael Preysman 说。</p><p class="">举个例子来说，去年刚发布的在广东东莞制作的 The Slim Trouser ，根据消费者的反馈意见，Everlane 又给这条裤子陆续加上了皮带环和衬布。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/e6f50ba1ec8d.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">几经修改的 The Slim Trouser&nbsp;</div></figcaption></figure></div><h2>4.“不要只谈论所谓的产品特色，要想一想消费者会怎么使用它们”</h2><p class="">“在设计一件衣服的时候，我们总是问和消费者相关的问题，比如‘她会怎么来搭配这件衣服？’、‘她会在什么场合穿上这件衣服？’然后才是，‘我们要怎么来设计’。所有的设计都是围绕‘最终用途’来做。”Michael Preysman 说。</p><p class="">比如说，最近发布的一个“street fleece”系列就是为休闲的周末设计。</p><p class="">“我们当时的想法是，周末你赖着床，要不然你要出去锻炼，或者你要见一群朋友一起吃个早午餐。显而易见，你不想花过多时间打扮或者穿得太正式紧绷，但同时又想看起来精神一点，所以你就得穿一些随性的衣服。” Michael Preysman 说。</p><h2>5.“关键看你怎么使用你的媒介”</h2><p class="">Everlane 没有实体店，只在网上售卖。唯一和实体店沾上边的方式也是快闪店的方式。去年 11 月，为了推广新鞋，Everlane 就在纽约，旧金山，洛杉矶租了高级酒店做了展示。但仍然不会在现场售卖，就算当场试鞋成功也需要去网上订购。</p><p class="">除了不做实体店以外，Everlane 也只在社交媒体投放过广告，说省下来的广告费都让利给消费者。<br></p><p class="">“我不认为现在的服装品牌的实体店有很好的购物体验。” Michael Preysman 说，“关键看你怎么使用你的媒介。”<br></p><p class="">题图和文内图来自：s.yimg.com、inmylittlemind.com。<br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16963">
+				<span data-id="16963">everlane</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23642" data-title="《“不要只谈产品特色，想一想消费者会怎么使用它们”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23642/medium/23642.jpg?1457626885" data-url="http://www.qdaily.com/mobile/articles/23642.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15869.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/15869/medium/15869.jpg?1445587504" alt="一个互联网上走红的基本款品牌，可以给大公司什么借鉴？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">一个互联网上走红的基本款品牌，可以给大公司什么借鉴？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">627</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26999.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26999/medium/26999.jpg?1463548490" alt="">
+                        <h1 class="title">把跑步机装在巴士里，是让人在上班路上健个身？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26995.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26995/medium/26995.jpg?1463548164" alt="">
+                        <h1 class="title">「这世界」被英国列为一级毒品的蘑菇，可以帮助治疗抑郁症？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27001.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27001/medium/27001.jpg?1463549098" alt="">
+                        <h1 class="title">《变形金刚 5》开拍，擎天柱向宇宙出发</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23642">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23642" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">178</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/23687.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

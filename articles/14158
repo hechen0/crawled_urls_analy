@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>一群人在网上直播自己怎么写代码，而且还有人爱看_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta property="qc:admins" content="1060427031614114163757" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="renderer" content="webkit">
+  <meta property="wb:webmaster" content="44da4c6e9f808df9" />
+  <meta name="description" content="一群人在网上直播自己怎么写代码，而且还有人爱看--“真人秀”已经无所不在。|《一群人在网上直播自己怎么写代码，而且还有人爱看来自《好奇心日报》，想看更多这样的文章，请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="程序员 网络直播 社交平台 来自 Medium 互联网 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="/assets/components/display2/common/redirect-cae4d6da8cd0914609f3df97f811bfd9.js" type="text/javascript"></script>
+
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/assets/pages/display2/articles/show-eb15e4f5807e8e43660cabfc80aca3e5.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="oP7oS+Wum4txTlOH5N0ftGlykS5ypcIS/T8oFmLNEvM=" name="csrf-token" />
+</head>
+<body class="display articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<!-- 页头 -->
+
+<div class="com-page-header">
+	<div class="page-header-bd clearfix">
+		<div class="section-left">
+			<a href="/" target="_self" class="logo" data-ga-event="pc:click:logo">
+				<h1 class="hidden">好奇心日报官网</h1>
+				<img src="/img/display2/logo-q.png" class="pic" alt="好奇心日报">
+				<img src="/img/display2/logo-text.png" class="text" alt="好奇心日报">
+			</a>
+			<ul class="items main-cates clearfix">
+				<li class="item main-cate ">
+					<h2>
+						<a href="/labs.html">
+							<span class="iconfont icon-1yanjiusuo"></span>
+							<span class="text">好奇心研究所</span>
+						</a>
+					</h2>
+				</li>
+				<li class="item main-cate ">
+					<h2>
+						<a href="/special_columns.html">
+							<span class="iconfont icon-2lanmu"></span>
+							<!-- <span class="text">长文章</span> -->
+							<span>栏目中心</span>
+						</a>
+					</h2>
+				</li>
+			</ul>
+		</div>
+		<div class="section-center">
+			<ul class="items cates">
+			
+				<li class="item cate ">
+					<a href="/tags/1068.html">长文章</a>
+				</li>
+				<li class="item cate ">
+					<a href="/tags/1615.html">10 个图</a>
+				</li>
+					<li class="item cate ">
+						<a href="/tags/29.html">Top 15</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/18.html">商业</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/4.html">智能</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/17.html">设计</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/19.html">时尚</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/3.html">娱乐</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/5.html">城市</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/54.html">游戏</a>
+					</li>
+				<li class="item cate">
+					<a data-ga-event="pc:click:cate" href="#" class="dropdown">全部分类</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section-right clearfix">			
+			<a data-ga-event="pc:click:nav_search" href="#" class="search iconfont icon-search"></a>
+			<div class="ribbon">
+				<div class="user" data-isLogined="false">
+					<a href="#" class="avatar x32">
+						<img src="/img/missing_face.png" alt="默认头像">
+					</a>
+					<a data-ga-event="pc:login:nav" href="#" class="text">登录</a>
+					<a href="/users/sign_out" target="_self" data-method="delete" class="logout hidden">退出</a>
+				</div>
+				<a data-ga-event="pc:click:nav_about" href="/aboutus.html" class="contact-us">关于我们</a>
+				<a data-ga-event="pc:click:nav_app" href="javascript:void(0)" class="app iconfont icon-5app">
+					<div class="app-qrcode" data-text="http://www.qdaily.com/webapp/download">
+						<div class="qrcode"></div>
+						<span>扫码下载好奇心日报APP</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weixin" href="http://weibo.com/qdaily" class="weixin iconfont icon-weixin">
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weibo" href="http://weibo.com/qdaily" class="weibo iconfont icon-weibo"></a>
+			</div>
+		</div>
+	</div>
+	<div class="page-header-ft hidden">
+		<ul class="items cates">
+			<li class="item cate ">
+				<a href="/tags/1068.html">
+					<img class="white" src="/system/categories/iconwhites/1/medium/1.png?1411569002">
+					<span>长文章</span>
+				</a>
+			</li>
+			<li class="item cate ">
+				<a href="/tags/1615.html">
+					<img class="white" src="/system/categories/iconwhites/22/medium/22.png?1411569295">
+					<span>10 个图</span>
+				</a>
+			</li>
+				<li class="item cate ">
+					<a href="/tags/29.html">
+						<img class="white" src="/system/categories/iconwhites/16/medium/16.png?1411569252">
+						<span>Top 15</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/18.html">
+						<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398">
+						<span>商业</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/4.html">
+						<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452">
+						<span>智能</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/17.html">
+						<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501">
+						<span>设计</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/19.html">
+						<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539">
+						<span>时尚</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/3.html">
+						<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578">
+						<span>娱乐</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/5.html">
+						<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637">
+						<span>城市</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/54.html">
+						<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513">
+						<span>游戏</span>
+					</a>
+				</li>
+		</ul>
+	</div>
+	<div class="com-search-popup zoom-anim-dialog mfp-hide white-popup">
+	<div class="search-popup-hd">
+		<form action="/searches" target="_blank">
+			<input type="text" name="key" placeholder="搜索文章">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="search-popup-bd">
+		<p class="tip">大家都在搜</p>
+		<ul class="items hotwords clearfix">
+				<li class="item hotword">
+					<a href="/searches?key=好莱坞">好莱坞</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=亚马逊">亚马逊</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=阿里巴巴">阿里巴巴</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=音乐节">音乐节</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=特斯拉">特斯拉</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=腾讯">腾讯</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=苹果">苹果</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=海淘">海淘</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=百度">百度</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=Google">Google</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=小米">小米</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=时尚">时尚</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=迪士尼">迪士尼</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=万达">万达</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=星巴克">星巴克</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=人工智能">人工智能</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=无人机">无人机</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=华为">华为</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=MUJI">MUJI</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=宜家">宜家</a>
+				</li>
+		</ul>
+	</div>
+</div>
+	<div class="com-devise-popup mfp-hide zoom-anim-dialog white-popup">
+	<div class="devise-popup-bd">
+		<div class="vertical-wrapper">
+			<div class="vertical">
+				<!-- 登录表单 -->
+				<form class="login active" action="">
+					<div class="form-hd">
+						<a href="#" class="spirt icon-login-logo"></a>
+					</div>
+					
+					<p class="small-title"><span>社交账号登录</span></p>
+					<div class="social-login">
+						<a href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo" target="_self"></a>
+						<a href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq" target="_self"></a>
+					</div>
+					<p class="small-title"><span>或者</span></p>
+
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="密码">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:login:account" href="#" class="btn submit ripple">登录</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".findpassword">忘记密码</a>
+							<a href="#" data-toForm=".register">新用户</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤一，注册 -->
+				<form class="register" action="">
+					<div class="form-hd">
+						<p class="title">新用户注册</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="创建密码">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+						</div>
+						<div class="form-control agree" style="display: none;">
+							<input type="radio">
+							<a href="#">我已阅读并同意《用户注册协议》</a>
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">下一步</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login" >已有账号</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤二，个人信息 -->
+				<form class="info" action="">
+					<div class="form-hd">
+						<p class="title">完善资料</p>
+					</div>
+					<div class="form-bd">
+						<div class="preview-uploader nopic">
+							<div class="img-preview"></div>
+							<div class="webuploader iconfont icon-avatar-upload">选取头像</div>
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[username]" placeholder="我的昵称">
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[description]" placeholder="一句话介绍自己">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:sign:account" href="#" class="btn submit ripple">完成</a>
+						</div>
+					</div>
+				</form>
+
+
+				<div class="com-avatar-cropper">
+					<div class="avatar-cropper-hd">
+						<p class="title">上传头像</p>
+					</div>
+					<div class="avatar-cropper-bd clearfix">
+						<p class="tip">拖拽或者缩放虚线框，生成自己满意的头像</p>
+						<div class="cropper">
+							<div class="img-container">
+								<img src="" alt="头像">
+							</div>
+						</div>
+						<div class="cropper-preview">
+							<p class="tip">预览</p>
+							<div class="img-preview"></div>
+						</div>
+					</div>
+					<div class="avatar-cropper-ft">
+						<a href="#" class="btn submit ripple">保存</a>
+						<a href="#" class="btn cancel ripple">取消</a>
+					</div>
+				</div>
+		
+				<!-- 找回密码表单 -->
+				<form class="findpassword" action="">
+					<div class="form-hd">
+						<p class="title">忘记密码</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="输入电子邮箱">
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">发送</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login">返回登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+	<!-- 普通文章 -->
+	<div class="page-content clearfix">
+		<div class="main">
+			<!-- 传入参数：article -->
+
+
+<div class="com-article-detail short" data-articleId="14158" data-categoryId="4">
+		
+<div class="article-detail-hd">
+	<img class="banner" src="/system/articles/articleshows/14158/showMediumPc2/14158.jpg?1440757073" alt="一群人在网上直播自己怎么写代码，而且还有人爱看">
+	<div class="category-title">
+		<p class="category x25">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+		<h1 class="title">一群人在网上直播自己怎么写代码，而且还有人爱看</h1>
+	</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="author-share clearfix">
+			<div class="author">
+		            <a href="javascript:void(0)" class="avatar x32 circle">
+		                <img src="/img/missing_face.png" alt="非正式作者">
+		            </a>
+	            <span class="name">Scott Rosenberg</span>
+	            <span class="date smart-date" data-origindate="2015-09-06 13:00:00 +0800"></span>
+	            <script language="JavaScript" type="text/javascript">
+				    var o='d'+'i'+'v', a=' style=\'disp', b='lay:', c='none\'';
+				    document.write( "<" + o + a + b + c + ">" );
+				</script>
+				<span class="date">2015-09-06 13:00:00</span>
+				<script language="JavaScript" type="text/javascript">
+				    var o='di'+'v';
+				    document.write( "</"+o+">" );
+				</script>
+	        </div>
+
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="14158" data-title="《一群人在网上直播自己怎么写代码，而且还有人爱看》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/14158/medium/14158.jpg?1440757073" data-url="http://www.qdaily.com/articles/14158.html" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/14158.html">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">196</span></a>
+	</div>
+</div>	
+		</div>
+			<h2 class="excerpt">“真人秀”已经无所不在。</h2>
+		<div class="detail">
+				<p>
+	<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+</p>
+<div>
+	<em><b><em><a href="http://medium.com/backchannel/why-instagram-worked-45dbfeaa37c8" target="_blank">本文</a>由&nbsp;</em><em>Medium 和&nbsp;</em></b></em><span style="text-align:left;background-color:transparent;"><em><strong>Scott Rosenberg&nbsp;</strong></em></span><em><b><em>授</em><em>权《好奇心日报》发布。<b><em><em>Scott Rosenberg&nbsp;</em>是一位<em><b><em><b><em>资深</em></b></em></b></em>互联网人士，也是 Medium 的 Backchannel 频道的常驻撰稿人</em></b></em><em><span style="text-align:center;">。</span></em></b></em> 
+</div>
+<p>
+	镜头从来不爱电脑程序。好吧，不止不爱：一碰到任何疑似程序代码的东西，镜头总是尖叫着恐惧地躲开。编程可能是人类发明的诸多事业中最不上镜的一个。跟它比起来，再无聊的事情都变得像《星球大战》一样有趣。
+</p>
+<p>
+	<span>好莱坞对此事已有成规：不可，绝对不可，让计算机程序的出镜时间多过几秒，尤其是大段的实际程序代码。镜头一定要远离键盘<i>。</i>必须赶紧切换到更“性感”的事情上面去。</span> 
+</p>
+<p>
+	<span>那么，为何数千名软件开发者会在一个叫 <a href="http://livecoding.tv/"><span>Livecoding.tv</span></a></span><span> </span><span>的新网站上一连逗留几个小时，在线直播他们在案头编写程序的戏码呢？绝大多数情况下，他们不是为了娱乐观众。（幸亏如此，否则想象一下它成功的可能性有多低吧。）这项服务的创始人说，网站的首要目的是教育——的确，在这里有很大的机会学到干货，不过，对那些在网上直播自己编程的程序员们来说，目的就更简单了：将编程从孤单的、令人苦恼的行为转变成一件欢乐的事情，让编程变得不那么孤独。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201508/9488fccfb42a.jpg" width="800" height="450" title="1" alt="1" /> 
+</p>
+<p>
+	<span>现在， </span><span>Livecoding </span><span>网站上至少有两个流派的直播风格。一类是内向派，他们坐在一间黑屋子里，一边操作键盘和鼠标，一边对着麦克风说一些含糊不清的话，或者干脆一言不发。（可以看墨尔本的游戏开发者 “</span><span>slateytv</span><span>” 来<a href="http://www.livecoding.tv/video/ue4-tower-defence/"><span>体会一下</span></a>）。外向派的表现则相反，他们常常在喧闹的房间里直播，嘴上咕噜个不停，还会把别人甚至不期而至的小宠物拉进他们的镜头。例如这里的一段<a href="http://www.livecoding.tv/video/rails-refactoring/"><span>热闹的深夜档直播</span></a>，主角是美国波特兰市的开源开发者 “</span><span>dogweather</span><span>”（真名 </span><span>Robb Schecter</span><span>），直播的地点是他家里的 </span><span>Santa Cruz </span><span>牌厨房间。在他的直播里，倾泻而出的不只是代码，还有啤酒。</span> 
+</p>
+<p>
+	<span>前几天上午，我在浏览网站时，碰到了网友“</span><span>famed</span><span>”。他的真名叫&nbsp;</span><span>Dmitry Pavlov，</span><span>是乌克兰的哈尔科夫的一位设计师。当时他正致力于将一个静态的图片式的网上商店改造成及时响应的 </span><span>HTML/CSS </span><span>网站</span><span>。</span><span>我感觉 </span><span>Pavlov </span><span>不想被过分打扰：他没开网络视频，没有聊天窗口，也不太说话，只是打开了电子音乐伴奏。他开启直播的目的似乎仅是为了宣布“我在这里”。</span> 
+</p>
+<p>
+	<span>在那里，还有一位来自墨西哥韦拉克鲁斯市的学生，网名叫“</span><span>codehamster</span><span>”，他正在写家庭作业。同样，对于无意间进入的访客来说，他这里也没有什么可看的——做家庭作业有什么好看的啦！不过，对 </span><span>codehamster </span><span>来说，这里相当于 2015 年版的大学图书馆自习室，可以找到跟大家一起学习的感觉。</span> 
+</p>
+<p>
+	<span>还有，像这个直播就精彩了：马里兰州一位网站开发者 </span><span>Elijah Offutt </span><span>正在制作一个个人网站。他给自己倒了一杯咖啡，如果有人进入他的聊天室，他会跟一些常客打个招呼。 他宣布：“我要集中精神了，这段音乐不合适”，然后就将流行音乐伴奏换成了福音音乐，并开始解释他制作的一款技能矩阵的工作原理：它能帮助客户和招聘方迅速判断他是否适合某个开发项目。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/b69a8a2f2943.jpg" width="584" height="599" title="2" alt="2" /><em>Livecoding.tv 的创始人 Garbade 和 Green；</em><em>Steven Levy&nbsp;</em><em>摄于 YC 展演日（ YC Demo Day）演讲之后。</em> 
+</p>
+<p>
+	Livecoding.tv 从去年冬天上线。结识于柏林的两位企业家 Jamie Green 和 Michael Garbade 一开始把它当作一个副业项目在做。去年 12 月份，在得到欧盟一项种子基金的资助之后，他们才认真起来。今年 2 月份， Livecoding.tv 的 beta 版（即公开测试版）上线，然后他们获得了进入 Y Combinator 创业加速器暑期班的机会。今天，他们拥有 6 万名注册用户，平均每天有 400 路直播，即 700 个小时的视频内容。当然，以 YouTube 的标准来看，这不算惊人。但是对于一家创业公司来说，这样的成绩已经相当不错。
+</p>
+<p>
+	“我们开始做这个项目的时候，” Green 说，“我们接触的每个人都说，要让程序员用我们的平台会非常困难，因为他们的薪酬优厚，而且失业率低，他们都很忙。每个人都说，这将是一个问题：他们没有时间玩这个，或者他们会索取很高的报酬。然而结果是，程序员真的有很多时间，他们也愿意花时间来分享他们的工作。”
+</p>
+<p>
+	<img src="/uploads/image/201508/9899ca56c545.jpg" width="1008" height="599" title="3" alt="3" /> 
+</p>
+<p>
+	准确来说，Green 和 Garbade 并非编程录影这一节目的发明人。当他们在酝酿 Livecoding 网站的时候，广受欢迎的游戏直播分享网站 Twitch.tv 就已经开通了一个游戏开发分享区，供程序员分享他们开发游戏的工作；很多游戏玩家在此直播他们的操作，给广大观众带去娱乐。Livecoding 上一些很受欢迎的直播者，如 “<a href="http://www.livecoding.tv/whilke/">whilke</a>”等，就也是 Twitch 的常用用户。他们从 Twitch 社区带来了一些人，也带来了 Twitch 上的一些旧习惯；另外一些人，如网站上现在排名第一的网友 “<a href="http://www.livecoding.tv/jegas/">jegas</a>” （真名 Jason Sage），则把 Livecoding 视作他们的首要平台，抓住机会在这个相对简单的社会环境中打响名气。跟网站上其他明星一样，对 Sage 来说，如果有三十个人进入他的直播，或者一份存档视频获得成百或成千的点击，那么他就算成功了。&nbsp;
+</p>
+<p>
+	<span>口若悬河的 </span><span>Sage</span><span> 是一位具有三十年程序开发经验的老程序员，还是重金属乐队的主唱。我问他，为何更愿意用 </span><span>Livecoding </span><span>而不是 </span><span>Twitch。</span><span>他说：“在</span><span>Twitch</span><span>，你最终会跟一帮游戏玩家混在一起，不过老实说，他们是一帮拖后腿的蠢货。而在 </span><span>Livecoding，</span><span>你遇到的是喜欢编程的人，不是说必须得是天才，但确实是很热爱代码的人。在这里，交流和开玩笑都很容易。每个人都很投入，因为他们确实爱好这个，他们来这里不是说只是为了看你水平怎么样，过来评头论足，惹人讨厌。”</span> 
+</p>
+<p>
+	<span>与 </span><span>Twitch </span><span>不同的是， </span><span>Livecoding 会</span><span>自动存档每一个直播节目，这意味着它正在迅速地积累一个很大的影像库，尽管至今它们还没有被很好地编排起来。（那些直播剪辑的名称里甚至连日期的信息都没有。）这个策略也体现了博客写手 <a href="http://kottke.org/07/03/public-and-permanent"><span>Jason Kottke &nbsp;</span><span>十年前发现的一个现象</span></a>，即很多网站获得成功的秘诀：与&nbsp;</span><span>Blogger，Flickr，YouTube，Twitter </span><span>和诸多其他最终登上成功的顶点的服务网站以及最近的案例 </span><span>Twitch </span><span>一样，</span><span>Livecoding </span><span>同样“做的是每个人都会与朋友一起做的事情，然后将它公开化并永久保存。”</span> 
+</p>
+<p>
+	<span>从这个角度来说，</span><span>Livecoding </span><span>算不上具有开创性，它的命运取决于一些常见的因素：它能否让用户开心并且持续贡献内容？它能否持续引入一些令人瞩目的用户，如 </span><span>Stephen Wolfram</span><span>（他最近在网站上花了两个小时的时间向观众展示了他自创的 </span><span>Wolfram </span><span>氏语言）？它的创始人能否赢得投资人的青睐？（这也是今天他们在 </span><span>Y Combinator </span><span>的展演日上试图要做到的。）他们能否找到盈利模式？（他们最近发布了一个计划，人们可以花钱请直播者开展一对一或小组式的讨论班，讲解一些高级的课题，提供程序审阅，</span><span>bug </span><span>修复，平台搭建，家庭作业及大学课程作业指导，或者产品开发支持等服务。）</span> 
+</p>
+<p>
+	然而，在另一个方面，Livecoding 确有其独特而值得注意的影响：它是编程领域本身一个出人意料的基因变异，很可能改变编程的玩法。
+</p>
+<p>
+	<span>在大众的印象里，软件开发这个职业最难以摆脱的形象就是“反社会”了。程序员都是独行侠，他们总是避免与他人接触。正像人类的大多数根深蒂固的观点一样，大众的这个印象也是有其事实基础的。但是，在程序开发的历史中，也曾有很长的一段可以被称为“亲社会”的：即程序员之间一种坚决的、愈加急迫的希望与人分享的举动。其中的逻辑是，如果想要增强我们编写软件的能力，我们必须将编程的过程更好地捕捉下来并与别人分享。我们必须学会将编程从纯粹的抽象思维的领域中拉出来，让它变得更加清晰、更加具体，无论这有多难，或者看起来有多枯燥。</span> 
+</p>
+<p>
+	这就是 Donald Knuth 在提出 “<a href="http://www.literateprogramming.com/">literate programming</a>” 的概念时的一些内在想法。这个概念鼓励程序员在编程时首先应考虑为其他程序员而写，其次考虑为机器而写。这个概念推动了二十世纪初软件开发论坛和博客的爆发性增长，给这个一直在默默无闻中辛勤劳作的领域赋予了发言的机会。它也促使了结对编程的流行，将软件开发从一桩孤独的事务转变成一项齐心协力的事业。以此观之，Livecoding 不再像是某种有关软件开发的自我沉迷的真人秀，更像编程工作向优化和人性化发展的自然而然的下一步。
+</p>
+<p>
+	但是，等一下：所谓“看我编程”这个形式是不是会带来，呃，干扰？或许。有一天，Sage 对着视频镜头坦陈道：“如果不是在直播的话，我做这些东西要快得多。但是，我喜欢跟你们呆在一起。我爱和你们聊聊天，侃侃大山。如果能帮到一些人，我就很开心。这样才够赞。”
+</p>
+<p>
+	Sage 经常穿着一件印着 “shred neck”（一种电吉他）字样的文化衫，直播的时候，他喜欢抓起一把吉他，来一段独奏（有时是表演重金属主奏吉他，有时是经典曲调），或五分钟，或十分钟，有时一气也玩个二十来分钟。这些音乐插曲似乎没有影响他在 Livecoding 上的人气。他说：“有的人就是想看这个。然后，聊天室里一半的人就跑了。他们会说，去你丫的。剩下的那一半人就高喊，耶！耶！耶！最后，他们就又想回头来继续编程了。”
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201508/2a085d7cf8d1.jpg" width="1060" height="600" title="4" alt="4" /><span style="text-align:justify;"><em>Livecoding 的创始人 </em></span><span style="text-align:justify;"><em>Green </em></span><span style="text-align:justify;"><em>承认不是所有人都适合玩直播，但是他说，有一类用户——与&nbsp;</em></span><span style="text-align:justify;"><em>Sage </em></span><span style="text-align:justify;"><em>相反——发现，实际上直播让他们的工作更有效率。“它帮助他们保持注意力集中。他们知道有人在看着，所以他们不会乱逛 </em></span><span style="text-align:justify;"><em>Facebook，</em></span><span style="text-align:justify;"><em>浪费时间。而且，观众里面甚至有人能帮到你。比方说，他们看到你在一段程序里犯了一个错误，可能会提醒你说，‘哥们儿，这里再看看’。”</em></span> 
+</p>
+<p>
+	不管你看的直播是来自一位沉默寡言的独行侠，还是一个派对狂人，你都会欣赏到很多哈欠、很多清嗓子的动作，还有很多的零食消耗。Livecoding 展示的内容中很大一部分都是枯燥乏味的日常工作，如下载更新，安装补丁，和环境调试。例如，去看看 “<a href="http://www.livecoding.tv/video/oddshottv-front-end-35/">donmildreone</a>” 网友（他是英国的一位网页设计师，真名 Ben Mildren）是怎么挣扎着起床，怎么试着运行一个新的 Mac 电脑。一方面，你会觉得“你就给我看这个？”；另一方面，你会想：不说好坏，大多数程序员正是把大把时间花在这些事上。
+</p>
+<p>
+	谁也不敢保证 Livecoding 不会只是一个短暂的热潮，像只读 CD 或 “All your base” 这句网络流行语一样，成为数字时代稍纵即逝的昙花。到时，你可能会听到有人戏谑地发出怀旧之叹：“还记不记得 2015 年的时候，他们竟然觉得直播编程很有意思。”
+</p>
+<p>
+	更有可能的是，<span>&nbsp;Livecoding&nbsp;</span>网站的成功显示了互联网欲将一切暴露于公众视线之下的态势，互联网正持续侵入新的社会空间，而伴随着它带来的亲近和友情，还有监控，真是既令人激动又叫人担心。无论 Livecoding 的未来如何，不要忘记它正在不断地积累数量惊人的数据。专门研究编程历史的人类学家这下有的看了。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>翻译 Skyearning</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/432.html">程序员</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/15172.html">网络直播</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/15173.html">社交平台</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/7543.html">来自 Medium</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/391.html">互联网</a>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 		
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="14158" data-title="《一群人在网上直播自己怎么写代码，而且还有人爱看》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/14158/medium/14158.jpg?1440757073" data-url="http://www.qdaily.com/articles/14158.html" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/14158.html">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">196</span></a>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+			<!-- 传入参数：relateds, votes, type -->
+<!-- type取值为short, long-article -->
+
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="http://sss.qingting.fm/pugc/introduction/" class="makemoney imgcover">
+				<img src="/img/makemoney/qingtingfm/bottom-qingtingfm.jpg">
+			</a>
+			-->
+			
+		</div>
+	</div>
+
+			<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="14158">
+    <div class="related-comments-hd clearfix">
+        <p class="count">评论</p>
+        <a href="javascript:;" class="avatar x40 circle">
+            <img src="/img/missing_face.png" alt="默认头像">
+        </a>
+        <form action="" class="comment-form">
+            <textarea name="content" placeholder="我有意见"></textarea>
+            <div class="share-submit clearfix">
+                <div class="share hidden">分享至：
+                    <a href="#"><span class="iconfont icon-weibo"></span></a>
+                    <a href="#"><span class="iconfont icon-tengxun"></span></a>
+                </div>
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+        <form action="" class="reply-form hidden">
+            <input type="hidden" name="parent_id">
+            <textarea name="content" placeholder="回复评论"></textarea>
+            <div class="share-submit clearfix">
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="related-comments-bd">
+        <div class="items comments">
+        </div>
+        <div class="nomore-wrapper">
+            <p class="nomore">没有更多啦</p>
+        </div>
+    </div>
+</div>
+
+			<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+                    <div class="packery-item article size1x2">
+                        <!-- 重点文章格子，1x2的占位，智能占位 -->
+<!-- 传入参数：article -->
+<a href="/articles/24658.html"  class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24658/indexLargePc2/24658.JPG?1459243490" alt="9.7 英寸 iPad Pro，不像它的兄长那么“专业”">
+		<p class="category">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+	</div>
+	<div class="grid-key-article-bd">
+		<h1 class="title smart-lines" data-originText="9.7 英寸 iPad Pro，不像它的兄长那么“专业”">
+			<span class="line">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</span>
+		</h1>
+	</div>
+	<div class="grid-key-article-ft clearfix">
+		<span class="smart-date" data-originDate="2016-03-29 18:17:22 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">2</span>
+		</div>
+	</div>
+</a>
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24637.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24637/indexMediumPc2/24637.jpg?1459233739" alt="内衣在移动拖车里卖，你会想去试一试吗？">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-03-29 13:29:23 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">29</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24651.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24651/indexMediumPc2/24651.jpg?1459239643" alt="与其说是户外装置广告，更像邀请你参与一场秀">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt="商业">
+			<span>商业</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-03-29 17:58:08 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">4</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24634.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24634/indexMediumPc2/24634.jpg?1459234270" alt="Calvin Klein 之前以为，他的简洁只适合美国女人">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt="时尚">
+			<span>时尚</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-03-29 16:58:52 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">2</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/24645.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/24645/indexMediumPc2/24645.jpg?1459231311" alt="甲骨文认为 Android 涉嫌“抄袭”，想要 93 亿赔偿">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">甲骨文认为 Android 涉嫌“抄袭”，想要 93 亿赔偿</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-03-29 17:38:44 +0800"></span>
+		<div class="ribbon">
+		</div>
+	</div>
+</a>
+
+                    </div>
+	    </div>
+	</div>
+</div>
+		</div>
+
+		<div class="sidebar">
+			<div class="grid-login-wrapper">
+				<!-- 重点文章格子，1x2的占位，智能占位 -->
+<!-- 传入参数：article -->
+
+<div class="com-grid-login">
+	<div class="grid-login-hd">
+		<img src="/img/display2/missing_login_bg.png" alt="默认背景">
+	</div>
+	<div class="grid-login-bd">
+		<canvas class="radar"></canvas>
+		<a href="#"  class="avatar x64">
+			<img src="/img/missing_face.png" alt="默认头像">
+		</a>
+	</div>
+	<div class="grid-login-ft clearfix">
+		<a data-ga-event="pc:login:side" href="#" class="btn ripple">登录</a>
+		<p class="tip">登录查看你的好奇心指数</p>
+	</div>
+</div>
+			</div>
+			<div class="com-recommend-articles">
+    <div class="recommend-articles-hd">
+        <p>根据你的好奇心指数推荐</p>
+    </div>
+	<div class="recommend-articles-bd">
+	</div>
+</div>
+		</div>
+	</div>
+
+<!-- 页尾 -->
+
+
+<div class="com-page-footer">
+	<div class="page-footer-bd clearfix">
+		<!-- 分类 -->
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/">首页</a></li>
+			<li class="item category"><a href="/tags/1068.html">长文章</a></li>
+			<li class="item category"><a href="/tags/29.html">TOP 15</a></li>
+			<li class="item category"><a href="/tags/1615.html">10 个图</a></li>
+			<li class="item category"><a href="/labs.html">好奇心研究所</a></li>
+			<li class="item category"><a href="/tags/12066.html">100个有想法的人</a></li>
+			<li class="item category"><a href="/tags/7543.html">Medium</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/tags/7294.html">大公司头条</a></li>
+			<li class="item category"><a href="/tags/7018.html">Q Business</a></li>
+			<li class="item category"><a href="/tags/1288.html">今日应用</a></li>
+			<li class="item category"><a href="/tags/1543.html">这世界</a></li>
+			<li class="item category"><a href="/categories/12.html">Best on the web</a></li>
+			<li class="item category"><a href="/categories/18.html">商业</a></li>
+			<li class="item category"><a href="/categories/4.html">智能</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">			
+			<li class="item category"><a href="/categories/17.html">设计</a></li>
+			<li class="item category"><a href="/categories/19.html">时尚</a></li>
+			<li class="item category"><a href="/categories/3.html">娱乐</a></li>
+			<li class="item category"><a href="/categories/5.html">城市</a></li>
+			<li class="item category"><a href="/categories/54.html">游戏</a></li>
+		</ul>
+
+		<!-- 功能区，下载，关于我们 -->
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_app" href="/aboutus.html">下载APP</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:login:ft" href="#"  class="user">登录 / 注册</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_subscribe" href="/feed.xml">订阅</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_weibo" href="http://weibo.com/qdaily">微博</a></li>
+			<li class="item ribbon">
+				<a data-ga-event="pc:click:ft_weixin" href="javascript:void(0)" class="weixin">微信
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+			</li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_protocal" href="/policy.html">用户协议</a></li>
+		</ul>
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_about" href="/aboutus.html#aboutus-qdaily">关于好奇心</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:contact" href="/aboutus.html#aboutus-contact">联系我们</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:job" href="/aboutus.html">工作机会</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:copyright" href="/policy.html">版权声明</a></li>
+		</ul>
+
+		<!-- 搜索 -->
+		<form data-ga-event="pc:click:ft_search" action="/searches" target="_blank" class="search" >
+			<input type="text" name="key">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="page-footer-ft">
+		<div class="copyright">
+			<span class="iconfont icon-logo"></span>
+			<p class="company">2014 北京酷睿奥思科技发展有限公司</p>
+			<p class="icp">京ICP备14027177号-1</p>
+			<p class="gongan" style="display: inline-block;margin-left: 10px;">京公网安备 11010502030071号</p>
+		</div>
+		
+	</div>
+</div>
+  
+  <script src="/assets/pages/display2/common/preexec-dc70eef64fda3ac449a5d84bdf382f49.js" type="text/javascript"></script>
+  <script src="/assets/pages/display2/articles/show-1aa2824c26abc66f8477f2c552bb0b70.js" type="text/javascript"></script>
+  <!-- [if (gte IE 6)&(lte IE8)] >
+  <script src="/assets/pages/display2/common/ie8fix-06af2be7e6665b9ac21375abd1cf4ad5.js" type="text/javascript"></script>
+  <! [endif] -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

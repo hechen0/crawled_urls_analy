@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个设计了不起之今日最佳_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个设计了不起之今日最佳。我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。。好奇心日报为您呈现这个设计了不起之今日最佳的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="工业设计 HIRA Goat Story PURITAAN 560G Altor Siya June Miles Endo Backbone Branding Anze Miklavec Norbert Pap Frank Rettenbacher " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="covS+XdSoZICta5z2jIw40urBcozdbLiyCjvTRQFrLA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="26917">
+				<span data-id="26917">HIRA</span>
+			</li>
+			<li class="tag item" data-id="23746">
+				<span data-id="23746">Goat Story</span>
+			</li>
+			<li class="tag item" data-id="26918">
+				<span data-id="26918">PURITAAN</span>
+			</li>
+			<li class="tag item" data-id="26919">
+				<span data-id="26919">560G</span>
+			</li>
+			<li class="tag item" data-id="26920">
+				<span data-id="26920">Altor</span>
+			</li>
+			<li class="tag item" data-id="26921">
+				<span data-id="26921">Siya</span>
+			</li>
+			<li class="tag item" data-id="26959">
+				<span data-id="26959">June</span>
+			</li>
+			<li class="tag item" data-id="26922">
+				<span data-id="26922">Miles Endo</span>
+			</li>
+			<li class="tag item" data-id="23851">
+				<span data-id="23851">Backbone Branding</span>
+			</li>
+			<li class="tag item" data-id="26923">
+				<span data-id="26923">Anze Miklavec</span>
+			</li>
+			<li class="tag item" data-id="26924">
+				<span data-id="26924">Norbert Pap</span>
+			</li>
+			<li class="tag item" data-id="26960">
+				<span data-id="26960">Frank Rettenbacher</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个设计了不起之今日最佳</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/400262/small/400262.gif?1451567609" alt="">
+					</span>
+				<span class="name">沈非 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-29 07:22:56 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/26178/medium/26178.jpg?1461823798" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26178" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26178/medium/26178.jpg?1461823798" data-url="http://www.qdaily.com/mobile/articles/26178.html?source=sogo" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们尝试推荐一些最近发现的聪明设计。好设计并不只是一种装饰，它还是人们对于生活细节的各种思考，并且综合了包括技术、商业在内的多种力量。我们希望持续关注这些变化，它是美好生活的动力之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>          </p><p>「这个设计了不起」的微信公众号上线啦，直接搜索「BestDesign」或是「Qthings」就可以订阅，关注我们每日发现的新鲜好设计。</p><h2>HIRA by&nbsp;Miles Endo</h2><p class="">Miles Endo 是&nbsp;<a href="http://www.studioendo.com/" target="_blank">STUDIO ENDO</a> 的一名设计师，他的父母都是日本太鼓手。以此为灵感，他设计了这套名为 <a href="http://api.viglink.com/api/click?format=go&amp;jsonp=vglnk_146182645604014&amp;key=6ab1d62aaf9dbafae96546ba3ca1b2ac&amp;libId=injwmbx50100x1tt000DL1ey6e7yoscvks&amp;loc=http%3A%2F%2Fdesign-milk.com%2Fhira-collection-inspired-japanese-taiko-drums%2F&amp;v=1&amp;out=http%3A%2F%2Fwww.studioendo.com%2Fcollections%2Fhira-lighting-series&amp;title=Furnishings%20Inspired%20by%20Taiko%20Drums%20-%20Design%20Milk&amp;txt=HIRA">HIRA</a> 的家具包含了一系列灯具和媒体柜，采用铜和仿乌木作为主要的制作材料，传递出了日系的简约和典雅。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/2be6c16a6c70.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/3bfd9fa58b72.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/b7d554a64e80.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/82c7e599911b.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/0ca71d2715bd.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/880e3fe0e383.jpg" alt="">
+</figure></div><h2>GOAT STORY by&nbsp;Anze Miklavec</h2><p class="">这不是号角，而是由&nbsp;<a href="http://www.goat-story.com/">Anze Miklavec</a>&nbsp;设计的一款名为 GOAT STORY 的咖啡杯。之所以选择山羊角形状，也有它的渊源——根据传说，一位牧羊人发现他的山羊吃了一种植物的种子之后变得非常兴奋，继而发现了咖啡。如果不想拿着杯子，只要将把手卸下倒置放在平面上，就能把杯子支撑起来了。不仅趣味十足，也兼备了实用性。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/723d85f7465e.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/2d1ba85c50d1.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/7f1c9c794f19.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/59256c9e4aa0.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/a15510023d2c.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/21c2961a3a85.jpg" alt="">
+</figure></div><h2>PURITAAN by&nbsp;Norbert Pap</h2><p class="">设计师 Norbert Pap 取材于 MacBook 电脑包，设计出了这款贯彻了极简风格的皮革背包 PURITAAN。黑色皮料搭配金属圆钉，在维持低调的同时又透露出了时尚的气息，无论是通勤还是日常使用都很合适。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/ce213a26f88c.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/00e15f2efb10.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/15c675e6e50a.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/e8330d92dd41.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/3e4bd56c9cf9.jpg" alt="">
+</figure></div><h2>560G by Altor</h2><p class="">如果你打算换一个自行车锁，这款由双人设计组合 Altor 打造的 560G 是个不错的选择。它由五级钛合金制作而成，而重量（正如其名）仅为 560 克，是目前市面上最轻的高安全性自行车锁。目前它正在 <a href="https://www.kickstarter.com/projects/1282151086/560g">Kickstarter</a> 上展开众筹，最低价为 150 美金。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/50ca053fe24d.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/cefa9205e0de.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/4f527e00d604.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/10b39fd6855f.jpg" alt="">
+</figure><figure class="">
+    <img src="/uploads/image/201604/bc8c3ad8a107.jpg" alt="">
+</figure><figure class="">
+    <img src="/uploads/image/201604/75c2b8f677dd.jpg" alt="">
+</figure></div><h2>June by Frank Rettenbacher</h2><p class="">由奥地利设计师&nbsp;<a href="http://www.frankrettenbacher.com/">Frank Rettenbacher</a> 为 <a href="http://www.zanotta.it/en/">ZANOTTA</a> 所设计 June 系列是一组椅背看上去像是悬浮在座位上的椅子，简洁的几何造型以及不同材质之间的结合让人眼前一亮。设计环节中最大的挑战就是如何让椅背不借助可见的螺丝钉与座椅接合在一起，Rettenbacher 在和技术团队经过激烈的沟通之后最终确定了现在所看到的这种隐蔽的接合方法。</p><div class="com-insert-images medium-insert-images-wide"><figure class="">
+    <img src="/uploads/image/201604/2138cbfe8c95.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/20acf6dab203.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/4bb85d863c15.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/f21968f8e999.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/321512ef050e.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/0eb11dbd39d9.jpg" alt="">
+</figure></div><h2>Siya by&nbsp;Backbone Branding</h2><p class="">在到底该如何表现果汁的新鲜程度上，<a target="_blank" href="http://backbonebranding.com/">Backbone Branding</a>&nbsp;有一套自己的想法：这个为 Siya 系列果汁所设计的包装，好像就是一个真实水果被放在了果汁瓶上。巧妙的弧线造型配合精心策划后实际拍摄出的照片，使得它在众多果汁包装中脱颖而出，很好地反映出了“天然”的感觉，像是锁住了盛夏的味道。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/b692b15cded1.jpg" alt="" class="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/b05af10a781a.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/5f990256b821.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/7fae0ee38bc3.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/42d229a7f098.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/28d69af5c6be.gif" alt="">
+</figure></div>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="26917">
+				<span data-id="26917">HIRA</span>
+			</li>
+			<li class="tag item" data-id="23746">
+				<span data-id="23746">Goat Story</span>
+			</li>
+			<li class="tag item" data-id="26918">
+				<span data-id="26918">PURITAAN</span>
+			</li>
+			<li class="tag item" data-id="26919">
+				<span data-id="26919">560G</span>
+			</li>
+			<li class="tag item" data-id="26920">
+				<span data-id="26920">Altor</span>
+			</li>
+			<li class="tag item" data-id="26921">
+				<span data-id="26921">Siya</span>
+			</li>
+			<li class="tag item" data-id="26959">
+				<span data-id="26959">June</span>
+			</li>
+			<li class="tag item" data-id="26922">
+				<span data-id="26922">Miles Endo</span>
+			</li>
+			<li class="tag item" data-id="23851">
+				<span data-id="23851">Backbone Branding</span>
+			</li>
+			<li class="tag item" data-id="26923">
+				<span data-id="26923">Anze Miklavec</span>
+			</li>
+			<li class="tag item" data-id="26924">
+				<span data-id="26924">Norbert Pap</span>
+			</li>
+			<li class="tag item" data-id="26960">
+				<span data-id="26960">Frank Rettenbacher</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26178" data-title="《这个设计了不起之今日最佳》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26178/medium/26178.jpg?1461823798" data-url="http://www.qdaily.com/mobile/articles/26178.html?source=sogo" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/26133.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/26133/medium/26133.jpeg?1461765046" alt="你看，政府机构有什么样的心态，就会建什么样的办公楼">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">你看，政府机构有什么样的心态，就会建什么样的办公楼</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">135</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/26128.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/26128/medium/26128.jpg?1461767576" alt="乐高迷别错过这个真人版的家，还有个无水“泳池”">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">乐高迷别错过这个真人版的家，还有个无水“泳池”</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">82</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26796.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26796/medium/26796.jpg?1463115124" alt="">
+                        <h1 class="title">苹果十亿美元投资滴滴，这笔不同寻常的投资能解决它的什么问题？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26797.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26797/medium/26797.jpg?1463115528" alt="">
+                        <h1 class="title">「这世界」这么多年来，学生的花样作弊方式都差不多嘛</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26792.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26792/medium/26792.jpg?1463111828" alt="">
+                        <h1 class="title">全球最大奢侈品电商发季报，中国市场收入上升 15.9%</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26798.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26798/medium/26798.jpg?1463115553" alt="">
+                        <h1 class="title">这个大四学生，想做一套比宜家还容易拆装的“乐高”家具</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26806.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26806/medium/26806.jpg?1463120898" alt="">
+                        <h1 class="title">「本周新片」陈柏霖这部文艺片，大概只适合小清新观众</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="26178">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="26178" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">25</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/26183.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

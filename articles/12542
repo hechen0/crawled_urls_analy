@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>快看！时尚设计师的网站上除了衣服，还有脑洞_时尚_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="快看！时尚设计师的网站上除了衣服，还有脑洞。Jonathan Anderson 把自己的同名品牌的官网变成了一个线上画廊。。好奇心日报为您呈现快看！时尚设计师的网站上除了衣服，还有脑洞的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Raf Simons J.W.Anderson " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="LXYpnVcxaUp77x6CecpaE6wgSwUq7YYiQo0FhYEIXBM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="19">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/19.html" class="category black clearfix x25" data-id="19">
+			<img class="black" src="/system/categories/iconblacks/19/medium/19.png?1411569539" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt=""/>
+			<span>时尚</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="978">
+				<span data-id="978">Raf Simons</span>
+			</li>
+			<li class="tag item" data-id="9475">
+				<span data-id="9475">J.W.Anderson</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">快看！时尚设计师的网站上除了衣服，还有脑洞</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/75588/small/75588.jpg?1431919455" alt="">
+					</span>
+				<span class="name">张金晶 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-24 08:34:07 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12542/medium/12542.jpg?1437642919" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12542" data-title="《快看！时尚设计师的网站上除了衣服，还有脑洞》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12542/medium/12542.jpg?1437642919" data-url="http://www.qdaily.com/mobile/articles/12542" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Jonathan Anderson 把自己的同名品牌的官网变成了一个线上画廊。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	打开奢侈大牌的网站，看起来有点无聊，菜单中除了售卖的产品外，只有品牌历史、新闻稿和店铺查找工具了。想找点乐子消遣一下，那是来错了地方。但设计师们的网站看起来有点不一样，网页设计显得乖张，除了上述菜单外，你也许还能发现点别的。
+</p>
+<p>
+	比如 Jonathan&nbsp;Anderson，他是 Loewe 的设计师，但他也有自己的同名品牌。近日，他在 <a href="http://j-w-anderson.com" target="_blank">J-W-ANDERSON</a> 网站上挂上了 50 幅黑白照片，作为线上展览并进行售卖。
+</p>
+<p>
+	<img src="/uploads/image/201507/b6d2eed83aac.jpg" alt="" /> 
+</p>
+<p>
+	那是一位英国摄影师的作品，叫做 Ian&nbsp;David&nbsp;Baker。“ David 捕捉到了 80 年代英国的同性恋文化，这很难得——还有布莱顿海边的那些照片，我在其他地方都没有见到过。”Jonathan 表示。每一幅照片价格在 125-180 英镑不等。
+</p>
+<p>
+	网站上不仅有线上展览，还有书店。售卖的书籍除了 Jonathan 和摄影师 Larry&nbsp;Clark 合作出版的摄影集，还有一些颇有年头的旧书和杂志，存货数量都只有一件，据说都是 Jonathan 自己喜欢并受到启发的书刊。Jonathan 解释说，他一直都认为 J.W.Anderson 是一种生活方式，以后想要开一家拥有家具、服装、书籍等各种物品的店铺。
+</p>
+<p>
+	<img src="/uploads/image/201507/1a672d983f0c.jpg" alt="" /> 
+</p>
+<p>
+	如果你觉得摄影展和书店不对你胃口，或许你还愿意看一看 Raf&nbsp;Simons 的网站。除了个人设计品牌，他还是 Dior 的创意总监。
+</p>
+<p>
+	打开 rafsimons.com，全白背景，左侧菜单栏中找到 ARCHIVE，深吸一口气，你将进入脑洞大开的页面。首先是这样：
+</p>
+<p>
+	<img src="/uploads/image/201507/e84f1ea949fe.jpg" alt="" /> 
+</p>
+<p>
+	不要怀疑是不是图片没有刷完整，这个 CLICK 就是这么低像素，同时你听到了一句话“This&nbsp;is&nbsp;going&nbsp;to&nbsp;make&nbsp;you&nbsp;freak.” 毫不犹豫地点击，然后你会看到这些：
+</p>
+<img src="/uploads/image/201507/101f4c74b4b3.jpg" alt="" /> 
+<p>
+	事实上，这些图片是快速翻动的，并且速度越来越快，这只是截了个图拼在了一起。
+</p>
+<p>
+	<img src="/uploads/image/201507/c36943bab243.jpg" alt="" /> 
+</p>
+<p>
+	穿着黑裤子和白裤子的 Simons，所以这是大家来找茬吗？
+</p>
+<img src="/uploads/image/201507/9d63e0979fae.jpg" alt="" /> 
+<p>
+	图片上那些模糊不清的颗粒，会扩散聚拢变来变去。
+</p>
+<p>
+	<img src="/uploads/image/201507/292fe5b85b09.jpg" alt="" /> 
+</p>
+<p>
+	这些字是每点击一下出现下一行的，每一行都配备不同的音乐，以及右边那个图片是什么鬼？
+</p>
+<p>
+	转跳的页面会出现奇怪的数字，还有英文单词。所有内容都分别匹配了一段重复怪异的实验音乐，这感觉就像是一个先锋艺术展，只不过被放在了线上。感兴趣的可以<a href="http://www.rafsimons.com/archive/" target="_blank">点击这里</a>进去看一看，因为上面不过是一部分内容。
+</p>
+<p>
+	我还试图找了一些别的设计师网站：
+</p>
+<p>
+	Tom Ford 和王大仁的网站显得有点无聊；
+</p>
+<p>
+	Marc Jacobs 也售卖书籍，还有一些诸如笔记本、书签、CD、放大镜等小玩意儿；
+</p>
+<p>
+	高缇耶（Jean-Paul Gaultier）的网站上有一个叫做“荣誉墙”的页面，设计看起来挺好玩，但其实只是一个为香水做的营销。
+</p>
+<p>
+	<img src="/uploads/image/201507/bff5ca251080.jpg" alt="" />
+</p>
+<p>
+	还是西太后不会让人太失望，“薇薇安韦斯特伍德的世界”的子菜单中还有“ Climate Revolution ”（气候革命？）。点击通往 Climate Revolution 的官方网站，这是由西太后创建的关于环境保护的网站。
+</p>
+<p>
+	以解构主义为标志的川久保玲，网站设计也不按常理出牌。圆圈内的 12345 并不标示具体的内容，于是我只好全部试了一遍，点 1 回到首页，点 2 是两张看起来使用人物和报纸进行拼贴的图片，点 3 是一些街头照片，点 4 是日本动画、电影和画作的拼贴墙——总之就是没有衣服，唯一相关的只有点 5 弹出的店铺地址和电话。
+</p>
+<p>
+	<img src="/uploads/image/201507/f6a921d98dcf.jpg" alt="" /> 
+</p>
+<p style="text-align:left;">
+	如果你找到更多好玩的设计师网站，也可以给我们留言，拜托要酷一点。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="978">
+				<span data-id="978">Raf Simons</span>
+			</li>
+			<li class="tag item" data-id="9475">
+				<span data-id="9475">J.W.Anderson</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12542" data-title="《快看！时尚设计师的网站上除了衣服，还有脑洞》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12542/medium/12542.jpg?1437642919" data-url="http://www.qdaily.com/mobile/articles/12542" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24852/medium/24852.jpg?1459491636" alt="">
+                        <h1 class="title">没有苹果的平行世界，你猜会发生什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24851.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24851/medium/24851.jpg?1459490634" alt="">
+                        <h1 class="title">「这世界」这10个知识看起来有点假，其实都是真的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24846.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24846/medium/24846.jpeg?1459482674" alt="">
+                        <h1 class="title">这个丹麦学校需要一个活动场，然后就有了三个小岛</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12542">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12542" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">69</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12550.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

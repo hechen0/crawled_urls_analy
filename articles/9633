@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>看新闻不离开社交网络，又有了新的模式_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="看新闻不离开社交网络，又有了新的模式。Facebook 希望通过媒体让用户停留时间更长，媒体希望获得 Facebook 的用户，谁会更有控制权，还真不好说。。好奇心日报为您呈现看新闻不离开社交网络，又有了新的模式的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Buzzfeed 纽约时报 卫报 明镜 Facebook " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="DUA4Wd3u3jWXFdbLu8IGrL/8M+xNxyP09A0gpXV0cas=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="114">
+				<span data-id="114">Buzzfeed</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3467">
+				<span data-id="3467">卫报</span>
+			</li>
+			<li class="tag item" data-id="10209">
+				<span data-id="10209">明镜</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">看新闻不离开社交网络，又有了新的模式</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">刘夕铭</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-15 15:43:52 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9633/medium/9633.jpg?1436675275" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9633" data-title="《看新闻不离开社交网络，又有了新的模式》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9633/medium/9633.jpg?1436675275" data-url="http://www.qdaily.com/mobile/articles/9633.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Facebook 希望通过媒体让用户停留时间更长，媒体希望获得 Facebook 的用户，谁会更有控制权，还真不好说。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<span class="s2">Facebook&nbsp;</span><span class="s1">的用户已经习惯了每天在上边发布并且讨论各种新鲜事，并且在他们想要读一篇文章的时候，点击，</span><span class="s1">然后等待着新页面的载入。而现在，这个过程马上就要发生改变。</span> 
+</p>
+<p class="p1">
+	<span class="s2">5&nbsp;</span><span class="s1">月&nbsp;</span><span class="s2">13&nbsp;</span><span class="s1">日，</span><span class="s2">Facebook&nbsp;</span><span class="s1">正式推出了名为&nbsp;</span><span class="s2">Instant Article&nbsp;</span><span class="s1">应用的 i</span><span class="s2">OS&nbsp;</span><span class="s1">版本。合作者包括《纽约时报》、</span><span class="s2">BuzzFeed</span><span class="s1">、</span><span class="s2">NBC</span><span class="s1">、</span><span class="s2">BBC</span><span class="s1">、《国家地理》、《大西洋月刊》、《卫报》、《明镜》以及《图片报》等九家内容供应商。这些著名的内容供应商，将开始直接在&nbsp;</span><span class="s2">Facebook&nbsp;</span><span class="s1">上发布文章。文章内容将会直接呈现在&nbsp;</span><span class="s2">Facebook&nbsp;</span><span class="s1">的界面中，表面上看起来和刚刚更新的好友状态没什么区别。而当你点开的时候，一个类似于好友个人简介的页面会出现在眼前，而不仅仅是一个外部链接。当然，内容供应商的文章并不会被完全禁锢在&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">的页面中。周二晚间，</span><span class="s3">BuzzFeed&nbsp;</span><span class="s1">宣布参与这一项目，随后《<a href="http://www.wired.com/2015/05/big-publishers-will-now-post-stories-straight-facebook/" target="_blank">连线</a>》转载了其相关负责人&nbsp;</span><span class="s3">Dao Nguyen&nbsp;</span><span class="s1">的解释，“你可以把你在&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">的</span><span class="s3">app&nbsp;</span><span class="s1">上读到的文章分享到其它社交网站上，当你这样做的时候，被分享的那个地址仍然是&nbsp;</span><span class="s3">BuzzFeed.com&nbsp;</span><span class="s1">的&nbsp;</span><span class="s3">URL</span><span class="s1">。”</span><span class="s2">&nbsp;</span> 
+</p>
+<p class="p1">
+	<span class="s2"><img src="/uploads/image/201505/4852c5b3fde2.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">由于&nbsp;</span><span class="s2">Instant Articles&nbsp;</span><span class="s1">直接发布在动态上，因此它的加载速度比过去快了十倍。<a href="http://www.wired.com/2015/05/big-publishers-will-now-post-stories-straight-facebook/" target="_blank">据&nbsp;</a></span><span class="s2"><a href="http://www.wired.com/2015/05/big-publishers-will-now-post-stories-straight-facebook/" target="_blank">WIERD&nbsp;</a></span><span class="s1"><a href="http://www.wired.com/2015/05/big-publishers-will-now-post-stories-straight-facebook/" target="_blank">报道</a>，</span><span class="s2">Facebook&nbsp;</span><span class="s1">宣称，其加载一个网页文章的平均速度是八秒，而现在，那些被缩短的时间将会被用以更好地完善音频、图片、</span><span class="s2">GIF</span><span class="s1">、视频、交互式地图与文章之间的衔接。如今，读者们越来越倾向于通过移动设备消费新闻。</span><span class="s2">Facebook&nbsp;</span><span class="s1">希望通过更快的加载速度与更完整的内容来促使消费者在它们的&nbsp;</span><span class="s2">App&nbsp;</span><span class="s1">上停留更长的时间。</span> 
+</p>
+<p class="p1">
+	<span class="s1">从去年开始，</span><span class="s2">Facebook&nbsp;</span><span class="s1">就开始着力于清除虚假报道，支持外来内容，而如今迈出这一步，</span><span class="s2">Facebook&nbsp;</span><span class="s1">显然憧憬着更大的全球影响力。而内容供应商同样收益不小，一方面，它们可以在自己的文章中售卖广告，得到其中全部的收入，或者让&nbsp;</span><span class="s2">Facebook&nbsp;</span><span class="s1">代为发布广告，得到其中&nbsp;</span><span class="s2">70%&nbsp;</span><span class="s1">的收入；另一方面，它们还可以通过&nbsp;</span><span class="s2">ComScore&nbsp;</span><span class="s1">等分析工具对数据和流量进行追踪。<a href="http://www.ftchinese.com/story/001062030#adchannelID=1500" target="_blank">据&nbsp;</a></span><a href="http://www.ftchinese.com/story/001062030#adchannelID=1500" target="_blank"><span class="s2">Financial Times&nbsp;</span><span class="s1">透露</span></a>，<span class="s2">Facebook&nbsp;</span><span class="s1">已经为《卫报》网站贡献了近&nbsp;</span><span class="s2">20%&nbsp;</span><span class="s1">的流量，为《纽约时报》网站贡献了约&nbsp;</span><span class="s2">15%&nbsp;</span><span class="s1">的流量。</span><span class="s2">BBC&nbsp;</span><span class="s1">和《图片报》拒绝披露它们的数据。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201505/2ecfd2a9d053.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">然而期待之外，</span><span class="s3">Instant Articles&nbsp;</span><span class="s1">同样使得一些内容供应商感到焦虑。随着&nbsp;</span><span class="s3">Instant Articles&nbsp;</span><span class="s1">的推出，原有的传输模式发生了变化，消费者将直接在&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">上进行阅读。在这个过程中，过去的新闻传播渠道发生了变化，也改变了大多数新闻组织对社交媒体的传统依赖方式，这使得内容供应商可能会牺牲一部分的控制权。不过，《纽约时报》的首席执行官&nbsp;</span><span class="s3">Mark Thompson&nbsp;</span><span class="s1">对此则十分乐观，在<a href="http://www.ftchinese.com/story/001062030#adchannelID=1500" target="_blank">接受&nbsp;</a></span><span class="s3"><a href="http://www.ftchinese.com/story/001062030#adchannelID=1500" target="_blank">Financial Times 采访</a></span><span class="s1"><a href="http://www.ftchinese.com/story/001062030#adchannelID=1500" target="_blank">时</a>，他谈到：“《纽约时报》将对出现在&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">信息流上的 “</span><span class="s3">Instant Articles</span><span class="s1">” 文章有完全的控制权。这项协议将让《纽约时报》获得大量的新用户，他们通过广告发现新闻和商业机会。”</span> 
+</p>
+<p class="p1">
+	<span class="s1">而更为复杂的问题是&nbsp;</span><span class="s3">Instant Articles&nbsp;</span><span class="s1">对没有参与这一项目的内容供应商的影响。因为&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">决定其用户能够看到什么。而对于&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">将推广哪些文章，使这些文章被哪些用户看到，以及它们会出现的多么频繁，都是无法被外界所了解的。因此，消息一出，包括英国最大的报纸出版商在内的很多内容供应商，都对&nbsp;</span><span class="s3">Instant Articles&nbsp;</span><span class="s1">表示怀疑，他们认为，这是&nbsp;</span><span class="s3">Facebook&nbsp;</span><span class="s1">在争夺他们新闻网站的原有用户。</span> 
+</p>
+<p class="p1">
+	<span class="s1">当然，赞誉也好，争议也好，这些或许都只是媒体内部的一场变革。对于大量</span><span class="s3">Facebook&nbsp;</span><span class="s1">的用户来说，这种变化可能是悄无声息的。唯一不同的是，在你想要阅读新闻的时候，链接速度更快了一些，而且不必离开&nbsp;</span><span class="s3">Facebook</span><span class="s1">。</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="114">
+				<span data-id="114">Buzzfeed</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3467">
+				<span data-id="3467">卫报</span>
+			</li>
+			<li class="tag item" data-id="10209">
+				<span data-id="10209">明镜</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9633" data-title="《看新闻不离开社交网络，又有了新的模式》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9633/medium/9633.jpg?1436675275" data-url="http://www.qdaily.com/mobile/articles/9633.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9633">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9633" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">30</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9635.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

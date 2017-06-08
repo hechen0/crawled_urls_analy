@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>互联网让冷知识到处都是，当个nerd有什么难的_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="互联网让冷知识到处都是，当个nerd有什么难的。技术在我们的生活中无处不在，极客文化和主流文化之间的界限从未像现在这样渗透进入彼此。。好奇心日报为您呈现互联网让冷知识到处都是，当个nerd有什么难的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 极客文化 技术 书呆子 nerd geek " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="6oLM5C3IVRDQgzYwByinyfJa0/eA8Pu5Ysrd5JoWoy4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2989">
+				<span data-id="2989">极客文化</span>
+			</li>
+			<li class="tag item" data-id="415">
+				<span data-id="415">技术</span>
+			</li>
+			<li class="tag item" data-id="2990">
+				<span data-id="2990">书呆子</span>
+			</li>
+			<li class="tag item" data-id="291">
+				<span data-id="291">nerd</span>
+			</li>
+			<li class="tag item" data-id="2991">
+				<span data-id="2991">geek</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">互联网让冷知识到处都是，当个nerd有什么难的</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">NOAM COHEN</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-16 09:44:37 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2385/medium/2385.jpg?1436650679" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2385" data-title="《互联网让冷知识到处都是，当个nerd有什么难的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2385/medium/2385.jpg?1436650679" data-url="http://www.qdaily.com/mobile/articles/2385.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				技术在我们的生活中无处不在，极客文化和主流文化之间的界限从未像现在这样渗透进入彼此。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em></em> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	2005 年，一位名叫兰德尔·门罗（Randall
+Munroe）的年轻 NASA （美国航空航天局）机器人专家在网上发了个帖子，内容是关于神秘数字
+π 的漫画。在这串无限长的数字里夹杂着一些字母，拼出来以后是一句话：“救命，我困在宇宙工厂里了。（Help I’m trapped in a universe factory.）”
+</p>
+<p class="MsoNormal">
+	他的
+π 漫画飞速传播了开来，将近 10 年后，门罗绘制的《xkcd》成为了一部深受理科学生、计算机程序员和硅谷码农推崇的网络漫画，而他自己则成为了《xkcd》帝国塔尖上的那个人。
+</p>
+<p class="MsoNormal">
+	周三，门罗的第一本书《如果？（What if?）》登上了《纽约时报》非虚构类精装书畅销榜第一名。《如果？》是关于一系列古怪技术问题的问答集，比如如果全世界都把激光笔对准月亮会怎样。（答案是没什么变化，除非你用的是非常、非常粗的激光。）
+</p>
+<p class="MsoNormal">
+	而且你可能也听说了，苹果公司上周推出了一款老式 Geek 标志物件的新版本——智能腕表。在计算机前数百万观众面前，拥有工业工程学位的苹果公司首席执行官蒂姆·库克介绍了这款手表的三个版本，希望把以前只有理科生才戴的玩意儿打造成一款时尚配饰。
+</p>
+<p class="MsoNormal">
+	极客文化和主流文化之间的界限从未像现在这样渗透进入彼此。在门罗的流行和全美国追捧苹果产品之外，还有其他一些例子。无论是电视剧《生活大爆炸（The Big Bang Theory）》、《硅谷（Silicon Valley）》，还是漫画电影，比如今年票房最高的《银河护卫队（Guardians of the Galaxy）》、票房第二高的《美国队长：冬日战士（Captain
+America: The Winter Soldier）》，魔幻小说《权力的游戏（Game of Thrones）》系列（还有它的HBO电视剧版），以及曾经边缘化的、深受书呆子们欢迎的电子玩意儿、漫画书和会喷火的龙，都越来越成为了每个人的心头好。
+</p>
+<p class="MsoNormal">
+	“不是我们成为了主流，而是主流在追赶我们，”演员威尔·惠顿（Wil Wheaton）说。他自封书呆子文化的捍卫者，写过一本回忆录《只是一个怪胎（Just a Geek）》，还在《星际迷航：下一代（Star Trek: The Next Generation）》里露过脸。
+</p>
+<p class="MsoNormal">
+	“技术在我们的生活里无处不在，”他说。“由于技术、个人技术以及可穿戴技术已经是我们日常生活中常见的东西，所以我们就想再多了解它们一些。”
+</p>
+<p class="MsoNormal">
+	工程学文凭也不再是应用技术的必备品了，因为看起来今天的任何一个人都可以装好一台打印机或者上传一段视频。同样地，书呆子身份的另一个代表——了解自己最喜欢的东西的一些不为人知的细节——也变得没有那么流行了。要想知道《辛普森一家（Simpsons）》里总共有多少个角色，或者一个星座的名字，只要上一个维基百科就都搞定了。
+</p>
+<p class="MsoNormal">
+	“成长、前互联网时代、拥有知识都是书呆子的标签，”《生活大爆炸》的联合执行制片人戴夫·戈奇（Dave Goetsch）说。“现在它们都不存在了，互联网把一切特质都扫荡干净了。”
+</p>
+<p class="MsoNormal">
+	过去，书呆子们有足够多的流行文化现象可以追随——他们对《星球大战（Star Wars）》和《指环王（Lord of the Rings）》电影周边的狂热就是两个强有力的例证。今年，这种狂热开始围绕电子游戏展开。上周，微软花了 20 亿美元买下了最后的独立游戏制作公司之一——Minecraft 的制作者 Mojang 公司。就在几周前，亚马逊花了 10 亿美元，买下了可以看朋友或者高手玩游戏的网站 Twitch.tv。Facebook 在 3 月份宣布，以 20 亿美元收购了外形奇怪的头戴式设备 Oculus VR 的制造商，部分原因是 Facebook 笃定虚拟现实将成为游戏界的下一个热潮。
+</p>
+<p class="MsoNormal">
+	但这些为了赢得铁杆游戏玩家的收购战争，似乎并没能打造能抵制竞争对手的杀手锏。“去高中一看，没人鄙视玩游戏——每个男生都在玩游戏，可能一些女生也在玩，”化名“迈克尔·乔丹”的专业游戏玩家丹尼斯·冯（Dennis Fong）说。37 岁的他开了家叫 Raptr 的公司，可以让玩家在线分享他们最好的游戏表现。
+</p>
+<p class="MsoNormal">
+	从电子设备到社交网络，再到电子游戏，不去拥抱最新的技术，就是选择脱离主流。
+</p>
+<p class="MsoNormal">
+	“如果你不是个极客，那你就是个勒德分子（抵制技术进步的人，译注），而这不怎么好，”约翰·霍普金斯大学艺术系教授托马斯·杜比（Thomas Dolby）说。1980 年代起，凭借大受欢迎的歌曲《她用科学迷了我的眼（She Blinded Me With Science）》，他成为了书呆子的代表人物。
+</p>
+<p class="MsoNormal">
+	杜比真名叫托马斯·罗伯特森（Thomas Robertson），之所以跟着杜比实验室起了这个艺名，就是出于他对音响技术的痴迷。他曾说，他决定用他书呆子的外表，把自己和 1980 年代流行文化界那些“帅气的哥们儿”（比如斯汀[Sting]、西蒙·勒·邦[Simon Le Bon]和亚当·安特[Adam Ant]）区别开来。
+</p>
+<p class="MsoNormal">
+	但他也说：“同样是在极客的外表下，现在的我并没有比 1982 年感到更舒服。”
+</p>
+<p class="MsoNormal">
+	相反地，对极客一面的欣然接受似乎把所谓的千禧一代（millennial generation）分离了出来。《如果？》一书的作者门罗下个月就满 30 岁了，他说，他希望吸引到除了科技迷以外的受众。
+</p>
+<p class="MsoNormal">
+	“人们常说，‘我喜欢看你的漫画，尽管我的数学水平还无法让我全部看懂它们’，听起来我这儿像是什么他们加入不了的俱乐部似的，”他说。
+</p>
+<p class="MsoNormal">
+	“但根本就没什么俱乐部，这儿只是有很多喜欢思考、学习、开玩笑，有时喜欢过度分析一件事的人罢了。”
+</p>
+<p class="MsoNormal">
+	门罗说，技术文化已经渗透进了更大的一个文化环境里，这是件好事。他也警告说，技术社区要避免带着“书呆子的骄傲”或者“书呆子的复仇”之类的心态，让自己变得内向。在一封邮件里他进一步阐述了这一点：“这样会很容易不断自我强化这种心态，让这群人变得更加同质化、排他化。”门罗说，他认为这正是为什么“极客文化”一直对女性有性别歧视，而技术圈里的性别和种族多样性一直都很差的原因。
+</p>
+<p class="MsoNormal">
+	本月早些时候，门罗在纽约联合广场（Union Square）的巴诺书店（Barnes &amp; Noble）参加了有数百名粉丝到场的签售会。来自皇后区的 25 岁青年卡塔里·斯波隆（Katari Sporrong）站在人群后面，等着听门罗讲话。她称自己是一个艺术书呆子，不是技术书呆子，还说她是从读研的男朋友那里听说《xkcd》的。她说自己记得漫画里的很多段子。
+</p>
+<p class="MsoNormal">
+	不过斯波隆也说：“真书呆子和假书呆子都有点儿自贬身份。”她还说，“每个人的生活里都有技术，现在我就带着三台设备——我的手机、我的 Kindle、我的 iPod。”
+</p>
+<p class="MsoNormal">
+	以一种“不那么愤青的眼光”来看那些技术迷们，她看到的是一群“正常智商的人”站在自己身边。
+</p>
+<p class="MsoNormal">
+	“世界也许并没有变得更聪明，”她说。“但它确实在努力变聪明。”
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 is译社
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2989">
+				<span data-id="2989">极客文化</span>
+			</li>
+			<li class="tag item" data-id="415">
+				<span data-id="415">技术</span>
+			</li>
+			<li class="tag item" data-id="2990">
+				<span data-id="2990">书呆子</span>
+			</li>
+			<li class="tag item" data-id="291">
+				<span data-id="291">nerd</span>
+			</li>
+			<li class="tag item" data-id="2991">
+				<span data-id="2991">geek</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2385" data-title="《互联网让冷知识到处都是，当个nerd有什么难的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2385/medium/2385.jpg?1436650679" data-url="http://www.qdaily.com/mobile/articles/2385.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24867.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24867/medium/24867.jpg?1459514506" alt="">
+                        <h1 class="title">「万物简史」二度“消失”的苏联副统帅朱可夫</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2385">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2385" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">11</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2357.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

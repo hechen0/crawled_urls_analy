@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这样有 Feel 的小店会让你更想逛吗？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这样有 Feel 的小店会让你更想逛吗？。大卖场和不到 200 平米的小店合作？Target 和 Story 告诉你没有什么不可以，而且虽然商品差不多，但换个地方效果就是不一样。。好奇心日报为您呈现这样有 Feel 的小店会让你更想逛吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="圣诞节 店铺设计 Target 零售 实体店 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="X0SBfJSTaWK+RPY9wuDL+EiHOmjy8wonxGIcHlHcBiE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="925">
+				<span data-id="925">圣诞节</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="4058">
+				<span data-id="4058">Target</span>
+			</li>
+			<li class="tag item" data-id="743">
+				<span data-id="743">零售</span>
+			</li>
+			<li class="tag item" data-id="4251">
+				<span data-id="4251">实体店</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这样有 Feel 的小店会让你更想逛吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">胡晓曦</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-14 08:31:07 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3535/medium/3535.jpg?1436639765" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3535" data-title="《这样有 Feel 的小店会让你更想逛吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3535/medium/3535.jpg?1436639765" data-url="http://www.qdaily.com/mobile/articles/3535" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				大卖场和不到 200 平米的小店合作？Target 和 Story 告诉你没有什么不可以，而且虽然商品差不多，但换个地方效果就是不一样。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	来自电子商务的冲击让 Target 这样的传统零售商遭遇了前所未有的危机感。它们天天都在抱怨如今人们不再像过去那样迷恋在实体商场中闲逛。但如果不是大卖场，而是街边一家布置得超有 Feel 的梦幻礼品小店呢？你会不会更有可能推开门在里面停留一会？
+</p>
+<p>
+	最近，美国第二大零售商 Target 就和位于纽约曼哈顿的概念商店 Story 进行了一次合作，推出了 Home for the Holiday 主题的圣诞礼品店。尽管里面的商品全部来自 Target ，但经过精心的陈列设计，显示出了和传统 Target 大卖场完全不同的效果。
+</p>
+<p>
+	<img src="/uploads/image/201411/88e6d32228f1.jpg" alt="" width="640" height="427" title="" align="" /> 
+</p>
+<p>
+	Story 的创始人同时也是品牌策略专家&nbsp;Rachel Shechtman 称这家店的每一件商品都是他和 Target 的买手们共同到 Target 位于明尼苏达州的仓库内挑选的，这近 200 件来自 120 多个品牌的商品覆盖不同分类，包括吸引吃货们的来自法国 Vosges 的商品；让爱美的女性目不转睛的护肤品礼盒品牌 Birchbox；让小清新爱好者眼前一亮的 TOMS For Target 特别合作款，还有各种美国制造的手工艺品，目的是让每个人都能找到心仪的那件礼物。
+</p>
+<p>
+	<span style="line-height:1.5;"><img src="/uploads/image/201411/c509d075baa9.jpg" alt="" /><img src="/uploads/image/201411/0aa07a6c46b7.jpg" alt="" /></span> 
+</p>
+<p>
+	这些经过精挑心选的商品根据各自的特色在店里陈列出来。店铺和陈列的每一个细节由 Story 的室内设计师&nbsp;Jason Bell 和纽约本地艺术家&nbsp;Nick Bakita&nbsp;和&nbsp;Matthew G. Wells 精心构思。
+</p>
+<p>
+	事实上他们把这家不到 200 平米的小店变成了名媛&nbsp;Aerin Lauder（雅诗兰黛集团创始人的孙女）&nbsp;的滑雪小屋。<span>Nick Bakita&nbsp;</span><span>和</span><span>&nbsp;Matthew G. Wells 设计的山坡装置成为整间店铺的视线焦点，搭配<span>木质材料和浅色石纹壁纸，还有特质的鹿角型吊灯和燃烧得正旺的炉火，充满浓郁的圣诞气息，让人有仿佛置身滑雪圣地的错觉。</span></span> 
+</p>
+<p>
+	<span><span><img src="/uploads/image/201411/e87ab06185f8.jpg" alt="" width="640" height="320" title="" align="" /></span></span><img src="/uploads/image/201411/5896dea0abf2.jpg" alt="" width="640" height="427" title="" align="" /> 
+</p>
+<p>
+	<span style="line-height:1.5;">虽然货架和桌面上摆满了琳琅满目的商品，但小店里每个区域都按照送礼的对象进行区分。比如在“浴室”区域中你能挑选到女性偏爱的礼物，“阳台”是充满现代和阳刚气息的男性空间，而“客厅”里摆放的都是适用于两者的产品。每个区域都有类似一封设计师写给顾客的“信”，提示这些礼品可能适合怎样的人以及它的亮点。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"><img src="/uploads/image/201411/328f4d8f1306.jpg" alt="" width="640" height="427" title="" align="" /><img src="/uploads/image/201411/8897a26b2417.jpg" alt="" width="640" height="427" title="" align="" /><br />
+</span> 
+</p>
+<p>
+	和通常零售商只时不时更新陈列和装饰不同，&nbsp;Story&nbsp;每隔&nbsp;4&nbsp;至&nbsp;8&nbsp;周就会关门歇业，随后全面翻新一次，<span>而每次新开张都是一个全新的主题，以此来制造新鲜感和惊喜。据说这样做的灵感来自于时尚杂志每期都会有新的潮流专题。</span>这次和 Target 合作的滑雪小屋主题会持续到明年&nbsp;1&nbsp;月&nbsp;4&nbsp;日。<span style="line-height:1.5;"></span><span style="line-height:1.5;"></span> 
+</p>
+<p>
+	对于 Target 这样的零售业巨头来说，是时候尝试像一家街边的买手店一样尝试重新拉近同消费者的距离并制造惊喜了。
+</p>
+<p>
+	<img src="/uploads/image/201411/b203cc0bd85e.jpg" alt="" /> 
+</p>
+<p>
+	题图来自：PSFK
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="925">
+				<span data-id="925">圣诞节</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="4058">
+				<span data-id="4058">Target</span>
+			</li>
+			<li class="tag item" data-id="743">
+				<span data-id="743">零售</span>
+			</li>
+			<li class="tag item" data-id="4251">
+				<span data-id="4251">实体店</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3535" data-title="《这样有 Feel 的小店会让你更想逛吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3535/medium/3535.jpg?1436639765" data-url="http://www.qdaily.com/mobile/articles/3535" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25225.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25225/medium/25225.jpg?1460257174" alt="">
+                        <h1 class="title">贴上“第五大时装周”的标签，就算是一场好的时装周吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25224.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25224/medium/25224.jpg?1460248864" alt="">
+                        <h1 class="title">在一个遥远的银河系，姜文举枪扫射帝国冲锋兵</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25217.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25217/medium/25217.jpg?1460195466" alt="">
+                        <h1 class="title">两度和中国伙伴合作失败，日本薯片巨头卡乐比还想再来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25216.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25216/medium/25216.jpg?1460190613" alt="">
+                        <h1 class="title">为了普及自动驾驶，这些卡车花 6 天贯穿了欧洲</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25223.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25223/medium/25223.jpg?1460255705" alt="">
+                        <h1 class="title">即看即买，跨界合作，C.J.YAO 花样有点多 ｜上海时装周</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3535">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3535" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">91</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3536.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

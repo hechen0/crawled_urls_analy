@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>电影节的字幕_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="电影节的字幕。字幕这种细节也会影响电影的观感。好奇心日报为您呈现电影节的字幕的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="magasa 电影法则 字幕 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Uuby0EBKbCKrSjEc6pUSnp9D0pg2P0Cc7mgRPyELQOQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="3">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/3.html" class="category black clearfix x25" data-id="3">
+			<img class="black" src="/system/categories/iconblacks/3/medium/3.png?1411569578" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2100">
+				<span data-id="2100">magasa</span>
+			</li>
+			<li class="tag item" data-id="3065">
+				<span data-id="3065">电影法则</span>
+			</li>
+			<li class="tag item" data-id="4528">
+				<span data-id="4528">字幕</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">电影节的字幕</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4698/small/4698.jpg?1418028103" alt="">
+					</span>
+				<span class="name">magasa </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-17 08:41:42 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/8554/medium/8554.jpg?1436693065" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8554" data-title="《电影节的字幕》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8554/medium/8554.jpg?1436693065" data-url="http://www.qdaily.com/mobile/articles/8554.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				字幕这种细节也会影响电影的观感
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="center" style="text-align:left;">
+	因为北京国际电影节的召开，针对字幕的吐槽又成为网络上的一个热点。年年如此，北京上海皆不能例外，于是想到写一篇文章介绍国际电影节的字幕操作，这只是整个电影节主办的诸多环节中的一个小小细节，但其复杂程度，可能超出影迷的想象。
+</p>
+<p class="MsoNormal">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	字幕问题是国际上所有电影节面临的普遍难题。一个电影节动辄放映几百部电影，这些电影来自几十个不同的国家，操着五花八门的语种，翻译成为必需的工序。翻译存在多种形式，目前以内刻或外投字幕为主，但在过去，至少还有两种翻译形式曾经流行过。一种是每个观众透过耳机接收同声传译，一种就是配音。声音形式的翻译之所以存在，有多种原因。比如有的创作者认为印在画面下方的硬字幕是对构图的破坏，所以他宁愿选择传译或者配音，尽管这又影响了原始声音效果的传达，可能他更在意视觉呈现的完整。此外，有的国家如意大利、德国，有强大的电影配音传统，观众并不习惯看字幕。不过字幕终究取代配音成为今天电影节影片翻译的主流方式，一方面是因为它成本更低，另一方面观众也越来越接受原音加字幕的观赏形式了。
+</p>
+<p class="MsoNormal">
+	<span></span> 
+</p>
+<p class="MsoNormal">
+	再说字幕的形式，这又存在几种不同的操作方式。以八十年代为界，之前的做法是将字幕直接印到胶片拷贝之上。从&nbsp;1984&nbsp;年开始，欧洲人发明了外接电子字幕，这成为后来的主流。
+</p>
+<p class="MsoNormal">
+	对观众来说，将字幕印到拷贝之上，观赏效果肯定更好，它不存在台词和字幕不同步的问题。对于电影节组织者来说，单独的拷贝便于管理，在放映时也不再需要考虑字幕的操作，省事。但硬字幕也存在一些弊端。硬字幕通常是白色字体，出现在画面的底部，如果是黑白片或者背景色为白色时，字幕就难以看清。另外，硬字幕要在拷贝洗印时完成，工序较为复杂，费时费钱，而且一旦生成，就无法修改。一个带有硬字幕的影片拷贝，在一个电影节上可能就放一两次，如果该片不在该国做商业发行，拷贝就没用了，在胶片时代这是不小的浪费。
+</p>
+<p class="MsoNormal">
+	所以当电子字幕发明后，它拥有成本低、可修改、拷贝可重复使用等优点，迅速在电影节圈子里得到推广普及。当然电子字幕也存在缺点，它需要人工操作，存在时间同步的大问题，观众体验不如硬字幕。&nbsp;
+</p>
+<p class="MsoNormal">
+	在戛纳这种最顶级的电影节，常常需要同时使用硬字幕和电子字幕。因为它要求每部影片都能让英语人士和法语人士看懂，比方说一部华语电影，就需要制作一个带英语的硬字幕拷贝，再将法语字幕外投到银幕下方。&nbsp;
+</p>
+<p class="MsoNormal">
+	所以在英语为官方语言的国家或地区，字幕问题相对简单。香港国际电影节的英语片经常是不需要配中文字幕的。至于其他语种的影片，多数都有配好英文硬字幕的拷贝在电影节之间流通，也不需额外操心。中国内地的电影节就无法做到这点。
+</p>
+<p class="MsoNormal">
+	八十年代后开始流行电子字幕，它通常有两种呈现方式，一种是&nbsp;<span>LED&nbsp;</span>字幕器，一种是外接的投影，后者就像放电影一样，直接把字幕打到银幕下方的小屏幕上，还可以调颜色和字体，比&nbsp;<span>LED&nbsp;</span>字幕器的显示效果更好，因此在一线的电影节上，<span>LED&nbsp;</span>基本已被淘汰。
+</p>
+<p class="MsoNormal">
+	随着电子字幕的流行，另一个重大问题相应出现，那就是字幕的同步问题。对此目前有两种解决方案：一种是中国几大电影节和电影资料馆都采用的人工敲字幕，另一种则是运用技术手段自动匹配。&nbsp;
+</p>
+<p class="MsoNormal">
+	人工敲字幕的缺陷不言而喻，它高度依赖于字幕员的临场发挥。许多细节都会影响字幕最终呈现的水准，包括字幕员当天的状态，他在影厅所坐的位置，他对影片的熟悉程度，以及电脑故障等难以预料的因素。此外，电子字幕的制作也是个危机四伏的过程。比较好的片方会提供字幕的台本和影片视频供翻译参考，但有的片方就只提供台本，这会给翻译带来很大困难。很明显，光看台本不看画面常常会误解影片的意思。还有的片方只提供视频却不提供台本，那么就需要电影节找外语好的人来听译，这更是非常困难，如果片中角色说话不清楚，或带方言口音，出错简直不可避免。更糟的情况是，片方什么都不提供，电影节只能自行解决字幕的翻译。这常见于一些较老的经典电影，这类电影又往往有多个版本，如果没时间测试（因为正式拷贝到达得都很晚），放映时就容易出现字幕不匹配的情况。或是有的新片，一直在紧锣密鼓地修改，早期提供的审核样片和最后的定版存在出入，也是家常便饭。因此在大型电影节上，保障所有字幕的完全准确真是一件难度非常大的事。&nbsp;
+</p>
+<p class="MsoNormal">
+	于是有人会问，在电影节实现放映时字幕自动同步，就像我们在电脑和&nbsp;<span>DVD&nbsp;</span>机上看碟一样，这难吗？说难也不难。技术是存在的，而且从胶片时代就可以了。我们知道，电影胶片上的每一格，都有一个独一无二的片边码。那么只要实现了字幕文件和片边码的匹配，放映时当读取到某格胶片时，对应的字幕就会自动跳出来，投射在分离的字幕显示屏上。字幕员只需要在影片开始和更换片盘时额外留心，放映就不会出现问题。到了数字拷贝&nbsp;<span>DCP&nbsp;</span>的时代，匹配字幕文件和视频文件的时间码就更容易了，放映时连留守的人都可以取消。但是，这种方式目前还得不到大规模的推广，因为它需要片方的高度配合，还涉及到第三方技术提供者的介入，需要提前较长时间进行台本翻译和同步匹配的技术准备，也只有最高水准和最强势的电影节，如戛纳、威尼斯等才能办到。<span></span> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;<span style="white-space:normal;"><i style="margin-bottom:16px !important;">关于作者</i><br style="margin-bottom:16px !important;" />
+<i style="margin-bottom:16px !important;">magasa，影评人，电影史研究者，《虹膜》电影杂志主编。</i>&nbsp;</span><span style="white-space:normal;">&nbsp;</span></span>&nbsp;
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2100">
+				<span data-id="2100">magasa</span>
+			</li>
+			<li class="tag item" data-id="3065">
+				<span data-id="3065">电影法则</span>
+			</li>
+			<li class="tag item" data-id="4528">
+				<span data-id="4528">字幕</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8554" data-title="《电影节的字幕》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8554/medium/8554.jpg?1436693065" data-url="http://www.qdaily.com/mobile/articles/8554.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24795.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24795/medium/24795.jpeg?1459410072" alt="">
+                        <h1 class="title">定时定点上天猫抢购奢侈品，你有兴趣么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8554">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8554" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">51</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8613.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

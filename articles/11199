@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我们跟着 Uber 送了一天快递_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="我们跟着 Uber 送了一天快递。想知道 Uber 的营销活动都是怎么做的吗？。好奇心日报为您呈现我们跟着 Uber 送了一天快递的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="营销 生鲜配送 快递 打车 Uber 亚马逊 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="6NHI78qLvvcDt9O+FnVi6D5YPiTKtn7uuafBAK1LAHw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">我们跟着 Uber 送了一天快递</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-25 09:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/11199/medium/11199.jpg?1435153204" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11199" data-title="《我们跟着 Uber 送了一天快递》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11199/medium/11199.jpg?1436641793" data-url="http://www.qdaily.com/mobile/articles/11199.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				想知道 Uber 的营销活动都是怎么做的吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在中国，Uber 除了因它的打车服务而受到广泛关注，这家公司还以它擅长做各种有趣营销活动而经常在各类媒体上抛头露面。
+</p>
+<p>
+	<span>撇开能叫到各种车，此前它还推出过一键叫摇橹船，一键叫人力车，以及一键叫直升机这类的营销活动。</span> 
+</p>
+<p>
+	<span>不仅仅是出行服务，<a href="http://www.qdaily.com/display/articles/9048.html" target="_blank">跨界营销，是它吸引大众眼球的又一看点。</a>例如，在上海有佟大为来为你开车，在北京则有多家企业的高管坐在车上进行招聘，春节期间甚至可以叫来舞狮队表演。</span> 
+</p>
+<p>
+	<span>此外，上门送货也是它常用的招式，送电影票，送冰淇淋，送便当，送 iPhone，这些 Uber 可都干过。当你想要领养宠物猫，这同样也能一键送上门。</span> 
+</p>
+<p>
+	<span>而这一切，可都是通过 Uber 的客户端来完成的。</span> 
+</p>
+<p>
+	<span>尽管隔两周你就能听到一次一键叫 XXX 的 Uber 活动，但其实要想抢到并不容易。</span> 
+</p>
+<p>
+	<span>Uber 具体是怎么做这样的营销的？上周六，我坐上一辆 Uber 为父亲节准备的“生鲜车”，体验了它“食材一键直达”的营销全过程。</span> 
+</p>
+<h2>
+	<span>什么车才能参与配送</span> 
+</h2>
+<p>
+	<span>通常，Uber 做这些营销活动都会找来一个合作伙伴。才上线生鲜电商服务不久的亚马逊中国，则成为了这次活动的商品提供方。</span> 
+</p>
+<p>
+	<span>用户只需像平时打车一样，在 20 日和 21日，这两天正午 12 点到下午 3 点打开 Uber 的客户端，然后在车辆选项中选择 “Feast” 专车即可。当附近有车时，就能下单，系统会自动分配最近的车辆。这样就能获得半价购买牛排和海虾套餐的机会了，而且还是用 Uber 包邮。支付的方式也像平时的打车款一样，在收货后通过 Uber 自动地扣除。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/dd5b656aad82.jpg" width="1024" height="768" title="Uber Feast" alt="Uber Feast" /><span>Uber Feast</span> 
+</p>
+<p>
+	<span>在应用中，Feast 专车的图标也和普通的 Uber 车辆形象不同，它看上去就像一个装满蔬果的卡车。这让人不禁联想起前些日子上海暴雨的时候，Uber 把车辆的图标都换成了船的样子。</span> 
+</p>
+<p>
+	<span>不过，正如一些用户后来在社交网络上抱怨，在手机上根本看不到车。其实本次活动在全北京只有五辆车参与这次活动，其中包括 1 辆别克商务车 GL8 和 4 辆奥迪 A6。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/400a1fde1324.jpg" width="1080" height="810" title="Feast 专车" alt="Feast 专车" /><span>Feast 专车</span> 
+</p>
+<p>
+	<span>显然，这提供的可不是人民优步的服务。据我所搭乘的别克司机介绍，他是一名参与了多次活动的 Uber XL 的老司机。因此这次活动，也就相当于 Uber 向他所在的汽车租赁公司租了全天的车。</span> 
+</p>
+<p>
+	<span>和普通的 Uber 专车不同，在参与活动的每辆车上，除了有一名司机外，还会有一名 Uber 的工作人员跟随。而他们才是负责接单和送货的人。至于其所用的应用，看上去和普通的 Uber 司机端也很相似，只是界面上做了微调而已。</span> 
+</p>
+<p>
+	据 Uber 的工作人员陈子墨介绍，由于参与的车辆并不多，所以北京市被分为了五个大区，每辆车主要就在所负责的区域内活动，以免出现调度上不及时的问题。
+</p>
+<h2>
+	<span>配送生鲜可没那么简单</span> 
+</h2>
+<p>
+	<span>尽管亚马逊和 Uber 在 4 月的读书日的时候，就已做过用 Uber 专车送 Kindle 购书优惠券的活动，但生鲜食品的配送可没那么简单。此前，亚马逊生鲜馆的商品，可都是由供货商自己负责仓储和配送的。</span> 
+</p>
+<p>
+	<span>而这次，亚马逊所提供的大希地套餐包装内均放有干冰，据称能够保鲜 48 小时。而 Uber 则直到活动第一天上午 10：00 才派车前去取货。取货点则是位于通州的一个由亚马逊为活动租赁的冷库。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/9cddc9692a4f.jpg" width="440" height="330" title="Feast套装" alt="Feast套装" /><span>Feast 套装</span> 
+</p>
+<p>
+	当 100 份套装由别克商务车一次从通州运达 Uber 在三里屯的办公地点后，它们又以每天 10 份的量分配到各辆车上。因为每天只有 3 个小时的活动时长，这个量也差不多。
+</p>
+<p>
+	<span>不过，考虑到近期北京正午气温都近 30°C ，Uber 能完成这种生鲜食品的及时配送吗？</span> 
+</p>
+<h2>
+	<span>用 Uber 配送过程是什么样</span> 
+</h2>
+<p>
+	<span>正午十二点前，当我打开 Uber 的客户端，便看到有弹窗跳出，通知我此次活动的大概。当然，这只有北京的用户才能看到。</span> 
+</p>
+<p>
+	<span>有趣的是，实际上这次活动也并非由 Uber 公司统一在各个车辆上开启。用于营销的客户端和司机的客户端一样，Uber 的工作人员其实也需要单独在手机上设置为“上岗“状态。</span> 
+</p>
+<p>
+	<span>不过到了十二点整，我却没有发现附近有可用车辆。可能有太多人刷手机，而车辆太少。询问后，我才知道原来早就有人手快先叫单了。看来这个活动还挺火。</span> 
+</p>
+<p>
+	<span>第一单只是从 Uber 的办公地点———三里屯到呼家楼附近。因为距离很短，十五分钟不到，我们就抵达了目的地。因为地图上的定位还算准确，且没有普通快递签收的环节，用户也是下楼自己取货，配送很快就结束了。</span> 
+</p>
+<p>
+	<span>不过第二单，我们就碰上了小麻烦。尽管在接单后，有通过电话和用户进行确认，不过，当我们到达后，这位着急的女士还是表示自己是第一次使用 Uber 叫车，所以她其实并不是想买什么生鲜，只是想尽快打车而已。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201506/639d9bec7692.jpg" width="1024" height="768" title="Uber Feast" alt="Uber Feast" /><span>Uber Feast</span> 
+</p>
+<p>
+	<span>下一单的用户则是一位黑人女性，尽管她不会用中文交流，Uber 工作人员依然顺利完成了这次配送。但如果只是由一名司机去送货，也许活动中难免要碰到这种小挫折吧。</span> 
+</p>
+<p>
+	<span>拿到第四单的，居然是亚马逊中国的员工。考虑到总共只有五辆车，这还真是巧合。</span> 
+</p>
+<p>
+	<span>接下来的一单则更为巧合。当这位女士和陈子墨见面时，两人立刻惊喜地笑了出来。原来，这次已经是她们在 Uber 活动中的第三次相见了。看来 Uber 还真不乏铁杆又幸运的粉丝。</span> 
+</p>
+<p>
+	<span>取消了一次用户的误叫车后，我们便开始了第七单的配送。由于是较大的商务车，在小路上停车倒是个麻烦事。这时，普通快递用的电动车随处可停的优势倒是体现出来了。好在我们的司机是个老手，很快食品就被送到了用户手中。</span> 
+</p>
+<h2>
+	<span>高效率+低成本，Uber 玩转营销的方式</span> 
+</h2>
+<p>
+	<span>尽管我并没有跟完当天的整个过程。不过，在这 2 个小时不到的时间里，一辆 Uber 就完成了 5 个订单。这种新奇的快递方式，其效率就体现出来了。</span> 
+</p>
+<p>
+	<span>不过，就这次活动而言，它的成本看上去似乎还是有些高。毕竟除了几十万的一部的车辆外，还配备了 2 个人参与。</span> 
+</p>
+<p>
+	<span>虽然 Uber 偶尔有尝试变成长期项目，比如<a href="http://www.qdaily.com/display/articles/9010" target="_blank">纽约的 UberRush 活动</a>，就用通过它的应用分配自行车来送快递。但 Uber 的绝大多数活动都只是营销而已，并不意味着它会进入一个新行当。</span> 
+</p>
+<p>
+	<span>正如前文所<span></span>述，在这些活动中，Uber 都是通过选一个品牌进行合作，双方各出一部分资源，然后在短时间用社交网络来做病毒营销。相对于传统的广告，它投入成本也比较小。</span> 
+</p>
+<p>
+	<span><a href="http://www.qdaily.com/display/articles/9048.html" target="_blank">不打广告，就能低成本地做营销</a>，这可以说是 Uber 长期以来除了打车便利之外的一大特色了。</span> 
+</p>
+<p>
+	<span>至于它下一次还会拿出什么有趣的点子，充满好奇心的我们也会和你一起期待。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://www.hellorf.com" target="_blank">站酷海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="65">
+				<span data-id="65">营销</span>
+			</li>
+			<li class="tag item" data-id="11938">
+				<span data-id="11938">生鲜配送</span>
+			</li>
+			<li class="tag item" data-id="3207">
+				<span data-id="3207">快递</span>
+			</li>
+			<li class="tag item" data-id="1724">
+				<span data-id="1724">打车</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+			<li class="tag item" data-id="85">
+				<span data-id="85">亚马逊</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11199" data-title="《我们跟着 Uber 送了一天快递》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11199/medium/11199.jpg?1436641793" data-url="http://www.qdaily.com/mobile/articles/11199.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27154/medium/27154.jpg?1463798236" alt="">
+                        <h1 class="title">持续数年的 Android 专利大战，现在还在争什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27141.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27141/medium/27141.jpg?1463755928" alt="">
+                        <h1 class="title">提高生活品质，给你几个小物做参考丨这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27152.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27152/medium/27152.jpg?1463795016" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27142.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27142/medium/27142.jpg?1463736643" alt="">
+                        <h1 class="title">星巴克在美国推出超值午餐，里面没有咖啡</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27145.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27145/medium/27145.jpg?1463748896" alt="">
+                        <h1 class="title">新《超能敢死队》预告片里，各种鬼魂占领了时报广场</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11199">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11199" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">63</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11219.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

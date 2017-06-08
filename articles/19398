@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆。不过这么短的参观时间，真的够开发者仔细琢磨吗？。好奇心日报为您呈现为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Hololens 微软 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="CCmpSwFdqv/97v37XJi9B0/hy5YorYZWhQMJjpU0xDQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6359">
+				<span data-id="6359">Hololens</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-21 06:31:14 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19398/medium/19398.jpg?1450448403" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19398" data-title="《为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19398/medium/19398.jpg?1450448403" data-url="http://www.qdaily.com/mobile/articles/19398.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				不过这么短的参观时间，真的够开发者仔细琢磨吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	微软对&nbsp;HoloLens&nbsp;到底重视到什么程度？这里又有个新例子：从&nbsp;12&nbsp;月&nbsp;17&nbsp;号开始，微软在自家旗舰店的楼上，开辟了三间房作为&nbsp;HoloLens&nbsp;的长期展示馆（如果你在纽约，可以上<a href="http://www.hololensevents.com/" target="_blank">这个网站</a>预约个时间去看看）。
+</p>
+<p>
+	这家旗舰店是<a href="http://thenextweb.com/microsoft/2015/10/26/microsofts-new-flagship-nyc-store-is-5-blocks-away-from-apples-heres-how-they-compare/" target="_blank">今年&nbsp;10&nbsp;月</a>微软在纽约曼哈顿寸土寸金的第五大道上新开的，离苹果的旗舰店只隔五六个街区，而且也是同样的玻璃大门、极简的店内设计。微软就在这金贵地皮上带来了&nbsp;HoloLens&nbsp;体验馆，<a href="http://www.hololensevents.com/sessions" target="_blank">公告中还称</a>其目标群体仅仅是软件开发者（在申请入馆参观的登记中必须写明公司或者学校名称）。
+</p>
+<p>
+	本次&nbsp;HoloLens&nbsp;体验馆是微软十月中旬开始的全美“路演”的最后一部分，目的在于让程序员能亲身接触到 HoloLens，从而更好地理解这个还没面世的设备将会带来怎样的“<a href="https://zh.wikipedia.org/wiki/%E6%93%B4%E5%A2%9E%E5%AF%A6%E5%A2%83" target="_blank">增强现实</a>”（Augmented Reality）体验（什么是 AR？点<a href="http://www.qdaily.com/articles/5473.html" target="_blank">这里</a>看《好奇心日报》在 HoloLens 发布时的报道吧），以便改进他们为此开发的应用。
+</p>
+<p>
+	不过在大部分城市，微软的&nbsp;HoloLens&nbsp;展示都只有两三天。而更早前，<a href="http://www.qdaily.com/articles/11093.html" target="_blank">今年&nbsp;6&nbsp;月的&nbsp;E3&nbsp;游戏展上</a>，微软也拿&nbsp;HoloLens&nbsp;展示了几款游戏。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img width="1080" height="518" title="微软全美 HoloLens 展示时间表" alt="微软全美 HoloLens 展示时间表" src="/uploads/image/201512/50c4349f3c40.jpg" /><span><em>微软全美 HoloLens “巡演”时间表</em></span> 
+</p>
+<p>
+</p>
+<p>
+	但在纽约，依托旗舰店，这间体验馆将是半永久性的，目前官网上还没有说明展示结束的时间；而且，体验馆里展示的场景类型也将更加全面。
+</p>
+<p>
+	根据美国科技媒体&nbsp;<a href="http://www.theverge.com/2015/12/17/10314876/microsoft-hololens-experience-showcase-new-york" target="_blank">The&nbsp;Verge</a>&nbsp;和&nbsp;<a href="http://thenextweb.com/microsoft/2015/12/17/sign-up-to-try-the-real-hololens-in-new-york-from-today/" target="_blank">The&nbsp;Next&nbsp;Web</a>&nbsp;记者的体验，在微软给&nbsp;HoloLens&nbsp;开辟的三间房间里，将分别模拟生活空间、工作场景以及展示厅等不同场景。
+</p>
+<p>
+	除去最开始的&nbsp;HoloLens&nbsp;简介，体验馆里展示了微软为&nbsp;HoloLens&nbsp;设计的三款软件——两个生产力工具加上一款游戏：
+</p>
+<p>
+	第一款工具应用正是微软说了很久的&nbsp;HoloStudio。这大约可以看做每个&nbsp;Windows&nbsp;系统自带的画图程序的“增强现实版”，让人可以通过语音和空间按钮在场景中创建、移动物体，然后为物体重新着色等等。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img width="800" height="533" title="HoloStudio 的操作示意，图片来自：TheVerge" alt="HoloStudio 的操作示意，图片来自：TheVerge" src="/uploads/image/201512/038037420149.jpg" /><span><em>HoloStudio 的操作示意，图片来自：</em><a href="http://www.theverge.com/2015/12/17/10314876/microsoft-hololens-experience-showcase-new-york" target="_blank"><em>TheVerge</em></a></span> 
+</p>
+<p>
+</p>
+<p>
+	然后是一个用来做&nbsp;Pre&nbsp;的工具&nbsp;Holographic&nbsp;Storytelling，这倒是微软第一次展示的应用。The&nbsp;Verge&nbsp;记者把它当做是&nbsp;PPT&nbsp;或者动画软件的增强现实版，参观者可以根据语音指示浏览一个有关奢侈品手表的展示。
+</p>
+<p>
+	这个&nbsp;HoloLens&nbsp;版&nbsp;PPT&nbsp;的高级之处在于它可以通过追踪用户的注意力，来移动标签位置、测算消费者对各个板块的感兴趣程度。
+</p>
+<p>
+	而那款游戏则是微软展示了很久的&nbsp;Project&nbsp;X-Ray，在游戏中玩家可以向各种墙壁里“跑”出来的外星人射击，完成任务。这主要能展现&nbsp;HoloLens&nbsp;的三维扫描能力。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img width="1080" height="608" title="Project X-Ray 游戏示意" alt="Project X-Ray 游戏示意" src="/uploads/image/201512/ea124709f552.jpg" /><span><em>Project X-Ray 游戏示意，图片来自：</em><a href="http://www.theverge.com/2015/12/17/10314876/microsoft-hololens-experience-showcase-new-york" target="_blank"><em>TheVerge</em></a></span> 
+</p>
+<p>
+</p>
+<p>
+	微软表示，这个体验馆的用处是帮助软件开发者能直观理解&nbsp;HoloLens&nbsp;的特性，这既包含了微软期待的“卖点”，也包括产品的缺点：比如较为狭小的视野（虽然比&nbsp;Google&nbsp;Glass&nbsp;要宽阔一些）。这样，开发者就能明白在这种缺点的限制下，该如何改进自己的应用来弥补用户体验。
+</p>
+<p>
+	不过，<span>这个体验馆的注册预约迅速爆满。在目前能预约的时间段里，申请者都只能进入“等待列表”。此外体验馆里的参观时间也还太短，去参观过的记者都没能完整地试用过所有的功能，那么开发者要想在那里仔细琢磨自己应用的优劣，似乎就更难了。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	明年第一季度，微软的&nbsp;HoloLens&nbsp;开发者版本<a href="http://www.theverge.com/2015/10/6/9442849/microsoft-hololens-october-2015" target="_blank">就将发售</a>，价格高达 3000&nbsp;美元。到那时有志于做&nbsp;HoloLens&nbsp;应用的开发者就可以去买（或者借）一款放在家里随时适配。
+</p>
+<p>
+	目前的一系列推广便是建立开发者社区的第一步，毕竟没有真正有意义的应用，再酷炫的技术也没有意义——还记得 Google Glass 么？
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<strong>题图来自：</strong><a href="http://www.theverge.com/2015/12/17/10314876/microsoft-hololens-experience-showcase-new-york" target="_blank">The Verge</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6359">
+				<span data-id="6359">Hololens</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19398" data-title="《为了让你接受 AR，微软在第五大道开了个 HoloLens 体验馆》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19398/medium/19398.jpg?1450448403" data-url="http://www.qdaily.com/mobile/articles/19398.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18387.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18387/medium/18387.jpg?1449029641" alt="微软做了个网站，为 HoloLens 找创意">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">微软做了个网站，为 HoloLens 找创意</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18388.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18388/medium/18388.jpg?1449029861" alt="微软的人跑到苹果店门口，合唱了一首《让世界和平》">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">微软的人跑到苹果店门口，合唱了一首《让世界和平》</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">21</span>
+				<span class="iconfont icon-heart">163</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9287.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/9287/medium/9287.jpg?1436686944" alt="微软的 HoloLens 真的是给普通消费者准备的吗？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">微软的 HoloLens 真的是给普通消费者准备的吗？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">26</span>
+				<span class="iconfont icon-heart">85</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25155.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25155/medium/25155.jpg?1460088079" alt="">
+                        <h1 class="title">美味七七倒闭，生鲜电商大战有了第一个重量级的牺牲者</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25149/medium/25149.jpg?1460076549" alt="">
+                        <h1 class="title">「这世界」一个是个程序员都会做的程序卖了 140 万美元</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25166.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25166/medium/25166.jpg?1460099175" alt="">
+                        <h1 class="title">“我是歌手”决赛，阿里巴巴说它能用人工智能听出冠军</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25135.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25135/medium/25135.jpg?1460055084" alt="">
+                        <h1 class="title">图片数据库Pinterest说，今年女生最爱薄荷绿和粉红</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25162.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25162/medium/25162.jpg?1460095566" alt="">
+                        <h1 class="title">《美国偶像》落幕，它最后的衰落是因为忽视了社交网络</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19398">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19398" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">43</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19407.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

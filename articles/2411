@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>老板，如果沃森把这些事儿都做了，我们还要你干嘛？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="老板，如果沃森把这些事儿都做了，我们还要你干嘛？。IBM 的人工智能企业服务沃森分析（Watson Analytics）终于来了。在这个习惯了 Siri 和小冰的世界，沃森能对商业决策带来怎样的影响？。好奇心日报为您呈现老板，如果沃森把这些事儿都做了，我们还要你干嘛？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="IBM 沃森 长文章 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="TFcQaPFYz5nxFIJINdolNQ/Mtaw8ktJcwipzxmQ+ESc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">老板，如果沃森把这些事儿都做了，我们还要你干嘛？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Michael Zhang</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-17 11:13:27 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/2411/medium/2411.jpg?1410925833" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2411" data-title="《老板，如果沃森把这些事儿都做了，我们还要你干嘛？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2411/medium/2411.jpg?1436650907" data-url="http://www.qdaily.com/mobile/articles/2411" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				IBM 的人工智能企业服务沃森分析（Watson Analytics）终于来了。在这个习惯了 Siri 和小冰的世界，沃森能对商业决策带来怎样的影响？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	昨天晚上 11 点，IBM 发布了沃森分析系统（Watson Analytics），有意者已经可以提交申请等待正式上线。
+</p>
+<p>
+	在调戏过苹果的 Siri 和微软小冰之后，IBM 这款完全可以通过自然语言进行交互、全世界最顶级的认知计算系统，姗姗来迟。IBM 不到 2000 字的简短声明给太多的美好图景充分留白……比如，明天，公司就可以炒我上司鱿鱼了。
+</p>
+<p>
+	相信很多人对 IBM 的“沃森机器人”都不感到陌生，2011 年，它在美国的智力问答节目《危机边缘》（Jeopardy！）里打败了两位得分最高的选手。
+</p>
+<p>
+	之后 IBM 推出过一系列由沃森衍生而来的服务。比如“沃森医疗顾问”（Watson Oncology）可以分析医学文献、病例、监测数据，以辅助医疗诊断肿瘤和癌症等疾病——1/3 的医疗事故由误诊引发。“沃森研发顾问”（Watson Discovery Advisor）可以分析药物成分的反应情况、对身体的作用，辅助药品研发。“沃森沟通顾问”（Watson Engagement Adviser）也可以分析复杂的金融、保险、理财数据，设计客户定制的投资组合——因为客户经理只会给你推荐他提成最高的理财产品。
+</p>
+<p>
+	那么沃森分析决策系统的特殊性何在？
+</p>
+<p>
+	<a href="www.watsonanalytics.com">它的官网</a>给出了 6 个例子：
+</p>
+<p>
+	<span style="line-height:1.5;">市场营销经理可以通过数据分析软件商清晰地看出消费者最有可能在何时、何地、何种情境下最容易获得品牌认知——这不稀奇，任何一个可以进行数据分析并输出可被形象解读的分析软件都能完成。但如果沃森分析系统在获取了海量数据之后，任何一位市场营销员工都可以拿着iPad直接问，“哪种营销活动的覆盖率最高，为什么？”——这就是 WOWatson。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">同样，销售可以直接问“哪些订单最可能成？”、“怎么才能提升销量？”或者怎么才能不让客户被竞争对手抢走。沃森会根据各渠道业绩、客户信息进行分析，得出答案。销售人员可以更有效地分配自己的精力和资源，去联系最有可能成功的客户。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">公司的 IT 经理则可以一句话让沃森找出拖延最久的技术问题、解决每一个具体问题可能需要花的时间。</span><span style="line-height:1.5;">运营人员可以直接</span><span style="line-height:1.5;">问，哪些内部流程因素导致该产品市场表现不佳。可以怎么改进环节避免产品在上市后出现问题。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">沃森还可以通过分析员工信息，发现公司里面最近想跳槽的人，帮助人力资源找到有效的办法来留住优秀员工。</span><span style="line-height:1.5;">而财务也可以直接问沃森当前去催哪些帐目最有可能拿到钱，弄清楚丢掉一个客户对下季度营收和利润的损失如何。</span> 
+</p>
+<p>
+	说起来所有这些事都有专门的软件可以实现，但沃森分析要做的是将这些决策整合为一个入口，让不同部门的人不需要学习软件使用，只需用平日的语言问一句话就能定下决策。
+</p>
+<p>
+	如果问一个问题就能搞定这些最核心的商业决策，如果不需要听各个区域、各个业务专员一个一个汇报不知是否已经篡改过的数据，阅读明显带着个人利益痕迹的观点性报告，如果不需要等部门经理拍脑门做下一个季度的计划和决策——那么，我们有多少时间可以喂马、劈柴、周游世界……
+</p>
+<p>
+	不过先别着急，从沃森此前的表现来看，上述状态还有不短的距离。早在 2012 年 3 月，IBM 便和花旗银行合作，让沃森研究花旗的数据，然后为客户推荐最适合对方的理财产品。但这不是在银行建一个新数据中心这么简单。银行需要为沃森提供尽可能详细的信息，进行大量测试。
+</p>
+<p>
+	花旗的服务至今没有上线，该行的一位发言人今年在<a href="http://online.wsj.com/news/articles/SB10001424052702304887104579306881917668654">接受《华尔街日报》采访时称</a>：“银行还在为沃森做识别和测试”。同样的，另一家沃森的早期客户 WellPoint 也说沃森需要很长时间学习和分析公司策略。
+</p>
+<p>
+	但长远来看，利用人工智能解决问题是大势所趋，除了 IBM，微软、Google 等科技巨头也都在大力投入。不管是不是沃森，总会有类似的系统变得足够好用——最终将会改变这个世界的商业形态、甚至公司（至少是大公司）的定义。
+</p>
+<p>
+	让我们从一个非常古老的话题说起——人的思考究竟是怎么一回事。
+</p>
+<p>
+	从1945年，冯·诺依曼领导的设计小组成功地将一组数学过程转变为计算机指令语言，这一电子计算机元年开始，这个问题就变成了：人的认知可以计算吗？
+</p>
+<p>
+	究竟是要存储式的逻辑计算技术，还是模拟人脑结构进行神经计算，两条路线之争从来没有停止过，只不过从 1950 年代到 1980 年代，由于技术挑战过大，模拟人脑的工作并未取得长足进展。
+</p>
+<p>
+	同样的争论也出现在大型商业公司。公司的管理和决策究竟是可以机械量化、系统化、制度化的，还是要感性的情商领导力？一面是戴维·加文（David A. Garvin，哈佛商学院教授）的经典概述：决策，无非是把足够多的选择和衡量决策结果的标准摆在台面。一面是丹尼尔·戈尔曼（Daniel Goleman）的论断：卓越的领导有情商的，知道如何运用心理暗示和掌控团队情绪来达成战略目标。
+</p>
+<p>
+	而这个时代的美妙之处在于，所有的对立和矛盾，都有希望在海量数据分析、深度学习的神经网络计算面前化为乌有。集成了上百种算法从不同维度分析备选假设——时间、空间、类型、结构化数据、语调语意相关、交互动作表情分析——沃森的每种算法分析都产生一些特征或评分，反映了在相应的维度上证据对备选答案的支持程度。
+</p>
+<p>
+	如果在最终系统中去掉任何单个评分器，在上千个问题的测试集上都不会造成显著的影响，实际上没有一个评分器产生的影响超过 1%。今天的沃森分析决策系统实践了人工智能先驱 Marvin Minsky 的理论“智慧的力量源于我们的多样性，而不是从单一完美逻辑推导得出。”
+</p>
+<p>
+	IBM 信息和分析事业部高级副总裁 Bob Picciano 说：“沃森推动的分析能力可以放大人类的认识能力，结合大数据的潜力以及计算机、智能手机和其它设备的云规模交付能力，这具有巨大的转型意义。”
+</p>
+<p>
+	或许我们可以这样理解：IBM 联手小苹果后，明天，手持 iPad 的一线小兵都成了可以指挥战斗的将军；明天，或许“公司”将是一个没有层层汇报等级分明的金字塔、矩阵组织，而是消除了中层管理者的平铺架构。廉颇老矣，领导，您可以安度晚年了。
+</p>
+<p>
+	2014年1月的《哈佛商业评论》中文版发表的一篇文章《认知计算支持决策变革》中提到：“有专家表示，沃森的突破，未来将会带来更为深远的’智能计算支持决策变革’的浪潮”。或许，谁也没有想到，这个浪潮冲击我们的“未来”雏型原来只有短短几个月就这么快的到来了。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+			<li class="tag item" data-id="3020">
+				<span data-id="3020">沃森</span>
+			</li>
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2411" data-title="《老板，如果沃森把这些事儿都做了，我们还要你干嘛？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2411/medium/2411.jpg?1436650907" data-url="http://www.qdaily.com/mobile/articles/2411" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24795.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24795/medium/24795.jpeg?1459410072" alt="">
+                        <h1 class="title">定时定点上天猫抢购奢侈品，你有兴趣么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24789/medium/24789.jpg?1459407016" alt="">
+                        <h1 class="title">有个工厂仓库改的住宅，理想化得不可思议</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2411">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2411" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">10</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2408.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

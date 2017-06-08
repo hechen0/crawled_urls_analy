@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人。对 Lewis 而言，ALL SH 这家店的意义只在于卖有想法的东西，或者说，提供一些与众不同的想法。。好奇心日报为您呈现卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="街头服饰 潮流文化 店铺设计 100个有想法的人 Lewis Chang " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="I6Ub7wYMbq8mb+Ew+rXOD8CoLxqCxfckLnnU3dPfSeg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/17.html" class="category x25" data-id="17">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<h1 class="title">卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-22 09:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/13811/medium/13811.jpg?1440058197" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13811" data-title="《卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13811/medium/13811.jpg?1440057988" data-url="http://www.qdaily.com/mobile/articles/13811.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				对 Lewis 而言，ALL SH 这家店的意义只在于卖有想法的东西，或者说，提供一些与众不同的想法。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	路过上海吴兴路这家名为“<span>ALL SH</span>”的店时，很多人误以为它还处于未装修完成状态。
+</p>
+<p>
+	这里没有传统意义的店铺外墙，只有一面玻璃兼做店门与橱窗，透过玻璃可以看到粗粝斑驳的室内墙壁，商店所售的商品也一目了然。这是一家潮流服饰店，代理国外潮流品牌的球鞋、<span>T&nbsp;</span>恤、太阳眼镜等服饰。
+</p>
+<p>
+	<span>ALL SH&nbsp;</span>的联合创始人<span> Lewis Chang </span>站在入口的收银台边，一身运动休闲打扮，反扣棒球帽，俨然自家商店最合适的模特。《好奇心日报》与<span> Lewis </span>的对话，就从店铺的设计开始。
+</p>
+<p>
+	<span>ALL SH </span>只有<span> 20 </span>平方米大小。为店铺操刀设计的<span> Linehouse </span>工作室巧妙利用镜面和斜角，使室内不仅能腾出足够的地方用作储物间和试衣间，还扭曲在场者的视觉，空间看起来比其真实面积更大。
+</p>
+<p>
+	几面白色金属薄板作为展示架斜向平行摆设，上面陈列的商品成为店铺中最鲜艳的颜色。每两个倾斜的薄板之间安放有镜子，而商店的储物间和试衣间就隐藏在这些镜子之后。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/31564f25be2b.jpg" width="800" height="533" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	ALL SH 店铺门面
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/e8333bd481fe.jpg" width="1000" height="834" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;">几面白色金属薄板作为展示架斜向平行摆设，每两个倾斜的薄板之间安放有镜子</span><span style="text-align:center;"></span> 
+</p>
+<p>
+	<span> 
+	<p style="text-align:center;">
+		<span> </span> 
+	</p>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201508/b5604b324257.jpg" width="1000" height="1500" title=" " alt=" " /> 
+	</p>
+</span>
+</p>
+<p style="text-align:center;">
+	未经打磨的墙壁，纹理清晰可辨；不锈钢架既用来挂衣服，也有装饰的功能
+</p>
+<p>
+	<span>ALL SH&nbsp;</span>的店铺设计十分简约，去除不必要的修饰，突显建筑朴素和原生态的一面；同时因为不加打磨，它也免不了带有时间的印记。当日也在现场的设计师<span> Alex </span>和&nbsp;<span>Briar&nbsp;</span>解释道，她们希望带来的正是这样的对比，一边很原始，似在叙说建筑的历史，另一边则大胆、张扬，带有未来感。
+</p>
+<p>
+	<span>Lewis </span>说这个设计强调意外与不可复制性，正是现在的年轻人所共有的一种态度，“我不要让人觉得‘你好像谁谁谁’，我不做<span> Copy</span>，也不想被复制。”
+</p>
+<p>
+	来自台湾桃园的&nbsp;Lewis ，正在努力了解上海，现在已经学会本地人说话的方式，简体字也写得越来越好。但其实他来到这座城市，也不过一年时间。开这家店之前，毕业于法律专业的 Lewis“顺其自然”地从事起法律行业工作。当一个做球鞋生意的儿时伙伴前来邀请他入伙 ALL SH 时，他很快就答应了。因为这是他小时候曾经想象与期待过的，关于设计、美与创意的事业。
+</p>
+<p>
+	<span>ALL SH &nbsp;</span>的“<span>ALL</span>”取了三个创始人的姓氏首字母。另外两位创始人，一位是球鞋爱好者，专做球鞋生意，一位是个纯粹的商人。如果说&nbsp;<span>ALL&nbsp;</span>这三个合伙人，另外两个处在两极，那么<span> Lewis&nbsp;</span>就是处于中间、掌管店铺创意大方向的那一个。他也负责上海这家店铺的经营，并亲自选购和采购要代理的商品。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/aca06f2a79f5.jpg" width="960" height="1280" title=" " alt=" " /><span> </span> 
+</p>
+<div style="text-align:center;">
+	Lewis Chang 本人
+</div>
+<p>
+	小时候他就很喜欢服饰和运动鞋，就像一种天生的习惯。“我觉得它们很好看。甚至连闻到这个鞋子的味道，我都会很开心。这个味道有一个专有名词，叫做&nbsp;<span>deadstock</span>。”<span>Lewis </span>拿起货架上陈列的一双新鞋说。<span>Deadstock&nbsp;</span>特指完全未被试穿过的球鞋的状态。
+</p>
+<p>
+	<span>Lewis </span>经常上国外网站搜集球鞋和&nbsp;<span>T&nbsp;</span>恤的资料，不止关心产品东西是否外观好看，更关注整个市场的新闻和产业发展趋势，也定期看耐克、阿迪达斯等大公司的财报。过去，他只是在获得足够信息后把心仪品牌的球鞋和衣服买下来，开店后，他便亲自到国外与品牌商谈，试法引进它们的产品，在自己的店里售卖。
+</p>
+<p>
+	<span>Lewis </span>认为，当一个地区有了足够的消费能力，消费者们会先开始热衷于奢侈品，购买像纪梵希、香奈儿这样有鲜明&nbsp;<span>Logo </span>和&nbsp;<span>Icon&nbsp;</span>的品牌；接下来他们的兴趣会转向好用、有想法、有意思的商品；最后一个阶段受到推崇的则变成低调、精致和专业，近似于日本人推崇的匠人制造，价格昂贵，但仍然畅销。
+</p>
+<p>
+	在他看来，中国大陆目前正在一个转型的过程中，处于从喜好奢侈品转向商品优质有想法的阶段。尤其在潮流服饰方面，这是个年轻、有潜力的市场，消费者广泛，“是时候有人出来给他们提供正规的商品了”。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/f01f2dabf256.jpg" width="960" height="1280" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	所陈列的部分商品
+</p>
+<p>
+	这个市场及其成长空间都非常大，淘宝、微商等网上商城里已经有很多人在销售相关产品，但它们可能无法给消费者提供足够的保障。
+</p>
+<p>
+	他希望改变本地人的购物形态，让顾客体验、触摸、感受到产品。由于电商发达、实体店数量不足，<span>ALL SH&nbsp;</span>面对的消费者——喜爱潮流服饰的大陆年轻人依然习惯于网购国外潮流品牌的产品。今年五月，<span>ALL SH </span>的实体店先开张，随后上线自己的网上商城和淘宝店，但几个月下来，到线上购物的顾客却比前来实体店消费的多。
+</p>
+<p>
+	“我做营销的目的就是希望大家都来逛街。但是很多客人都已经来到店里，摸到了衣服，还要问我有没有淘宝店，想在淘宝店买，”<span>Lewis </span>无奈地说道。
+</p>
+<p>
+	在他看来，潮流服饰品牌跟高端时尚最大的不同就在于，它不强调具体材质或者剪裁，而是更侧重于表达品牌对广泛事物、对生活的态度。“这些品牌大多是有故事的，而我们就是说故事的人，要把品牌的文化讲给顾客听。而不是让他买一件花哨鲜艳的衣服，（一开始）很吸引人，但过一阵子很快就不喜欢，脱掉。”
+</p>
+<p>
+	<span>ALL SH</span>代理的主要是美国潮流品牌，包括&nbsp;<span>Publishbrand</span>、<span>Belief</span>、<span>Ripndip</span>、<span>Golden Denim</span>、<span>Nectar&nbsp;</span>等。比如洛杉矶牌子 Ripndip&nbsp;由滑板手 Ryan O'Connor 创立，以一个绿色脑袋的外星人和一只表情贱贱的猫（名为 Lord Nermal）为图腾，它们的动作、表情、姿态充满谐趣和戏谑感。
+</p>
+<p>
+	在介绍&nbsp;Ripndip 时，Lewis 开心地展示起他身上那件 T 恤，这也是整个店铺最畅销的一件单品： Ripndip 的“口袋猫” T 恤。Nermal 猫藏在口袋里探出眼睛和半个脑袋，难辨其喜怒，但把口袋拉下来，却会看到它那“恶意”而不屑的问候。
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/a17b61230278.jpg" width="1080" height="608" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/9c3e2cbce3e1.jpg" width="1080" height="362" title=" " alt=" " /><span> </span> 
+</p>
+<div style="text-align:center;">
+	Ripndip 和 Nermal 猫
+</div>
+<p>
+	这些美国潮流品牌非常重视品牌推广，也很在意经销商是什么样的人。即使能赚很多钱，但倘若经销商不足以让他们信任，他们不会放手把自己的产品让对方售卖。“基本上，最基本的点，你要有个店。那个店要看起来很酷。”
+</p>
+<p>
+	吸引品牌确实是一件难事。即使是像<span> Ripndip </span>这样在美国很小的品牌，为了说服它，<span>Lewis </span>也花了不下&nbsp;<span>10&nbsp;</span>封邮件往来和电话交流。现在，他一年至少要去美国两三次，这是同规模的店很难做到的。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/10b5383cda76.jpg" width="960" height="1280" title=" " alt=" " /><span> </span> 
+</p>
+<div style="text-align:center;">
+	Lewis 用一家看起来很酷的店和自己对店铺的规划“求来”品牌对自己的信任
+</div>
+<p>
+	尽管<span> ALL SH&nbsp;</span>没有自己的产品，但对<span> Lewis </span>而言，它的意义在于为顾客提供有想法的东西，或者说，提供了一些与众不同的想法。
+</p>
+<p>
+	这个设计独特的店铺则是<span> ALL SH&nbsp;</span>最大的招牌。到夜里，<span>ALL SH&nbsp;</span>的店里也不会关灯，以吸引行人的注意。深夜路过的人依然可以透过大块玻璃看到里面陈列的一排排球鞋，以及那似乎未粉刷完工的混凝土墙壁。<span>Lewis </span>已经想好了以后要把玻璃墙用作橱窗，在上面做一些特别的、有个性的橱窗展示，而面积小的服饰店通常不会这样做。
+</p>
+<p>
+	<span>Lewis </span>把法国的<span> Colette </span>和英国的<span> END </span>视为努力的方向，希望<span> ALL SH&nbsp;</span>有一天也像他们那样，不仅有高水准的店铺装潢和商品采购、令高端奢侈品纷纷入驻，更成为设计师的聚集地和潮流的文化地标。
+</p>
+<p>
+</p>
+<p>
+	图片由 Linehouse，ALL SH 提供
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="14851">
+				<span data-id="14851">街头服饰</span>
+			</li>
+			<li class="tag item" data-id="14852">
+				<span data-id="14852">潮流文化</span>
+			</li>
+			<li class="tag item" data-id="3000">
+				<span data-id="3000">店铺设计</span>
+			</li>
+			<li class="tag item" data-id="12066">
+				<span data-id="12066">100个有想法的人</span>
+			</li>
+			<li class="tag item" data-id="14853">
+				<span data-id="14853">Lewis Chang</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13811" data-title="《卖潮牌之前，他决定先开一个看起来足够酷的店 |100 个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13811/medium/13811.jpg?1440057988" data-url="http://www.qdaily.com/mobile/articles/13811.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/cards/26829.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26829/medium/26829.jpg?1463220511" alt="">
+                        <h1 class="title">远行前最后一分钟，还有这 17 个应用要装好再走 | Hack Your Life</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26811.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26811/medium/26811.jpg?1463128874" alt="">
+                        <h1 class="title">阿迪做了一本生活方式类的数字杂志 ，你要看吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26855.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26855/medium/26855.jpg?1463269188" alt="">
+                        <h1 class="title">为了吸引你，麦当劳要把冷冻肉饼换成新鲜牛肉？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26850.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26850/medium/26850.jpg?1463218579" alt="">
+                        <h1 class="title">《长乐路》：一个美国记者眼中的上海街市和生活</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26818.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26818/medium/26818.jpeg?1463148366" alt="">
+                        <h1 class="title">原宿开的这家店，就像给刚吃完快餐的人泼上一盆冷水</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26854.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26854/medium/26854.jpg?1463232976" alt="">
+                        <h1 class="title">电影《盗墓笔记》首款预告，来看鹿晗和井柏然配不配</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26852/medium/26852.jpg?1463223516" alt="">
+                        <h1 class="title">出了一个油耗丑闻后，三菱汽车被日产控股了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13811">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13811" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">466</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13696.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

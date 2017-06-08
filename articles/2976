@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>阻击埃博拉，大公司都做了啥？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="阻击埃博拉，大公司都做了啥？。传染病防控，就是一场经济、科技实力与传染性、致死率和变异速度的比赛。幸好，这次加入埃博拉阻击战队的，除了传统的政府、医疗机构和国际组织之外，还有大公司。。好奇心日报为您呈现阻击埃博拉，大公司都做了啥？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="埃博拉病毒 葛兰素史克 雀巢 好时 玛氏 富士 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="iySWufeom2YBwG/z59Fen+LSa9ti6ZSaO5Sb/BoNZ3U=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2073">
+				<span data-id="2073">埃博拉病毒</span>
+			</li>
+			<li class="tag item" data-id="3105">
+				<span data-id="3105">葛兰素史克</span>
+			</li>
+			<li class="tag item" data-id="1669">
+				<span data-id="1669">雀巢</span>
+			</li>
+			<li class="tag item" data-id="2723">
+				<span data-id="2723">好时</span>
+			</li>
+			<li class="tag item" data-id="3670">
+				<span data-id="3670">玛氏</span>
+			</li>
+			<li class="tag item" data-id="3671">
+				<span data-id="3671">富士</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">阻击埃博拉，大公司都做了啥？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/2007/small/2007.jpg?1408114682" alt="">
+					</span>
+				<span class="name">许冰清</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-22 08:39:29 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2976/medium/2976.jpg?1436654276" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2976" data-title="《阻击埃博拉，大公司都做了啥？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2976/medium/2976.jpg?1436654276" data-url="http://www.qdaily.com/mobile/articles/2976.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				传染病防控，就是一场经济、科技实力与传染性、致死率和变异速度的比赛。幸好，这次加入埃博拉阻击战队的，除了传统的政府、医疗机构和国际组织之外，还有大公司。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	我们确实应该开始正视这种名叫埃博拉的病毒了。
+</p>
+根据 <a href="www.eboladeeply.org" target="_blank">Ebola Deeply</a> 的统计，截止 10 月 18 日，全世界年内共报告累计确诊、疑似和可能感染埃博拉病例 9216 例，其中 4555 人已经死亡，致死率颇高。世界卫生组织称，预测到今年 12 月，西非每周新增埃博拉感染者人数可能达到 10000 人。<br />
+<p>
+	利比里亚、塞拉利昂和几内亚此次受埃博拉病毒影响最为严重，而对抗这一病毒疫情所消耗的人力和经济成本之大，将给医疗体系薄弱、财政水平较低的整个西非地区带来沉重负担。世界银行早先发布的一份报告显示，按照目前的疾控情况，到 2015 年末，西非将因埃博拉损失约 326 亿美元收入；包括科特迪瓦、加纳、尼日利亚和塞内加尔等更富有的国家在内，所有西非国家的 GDP 总额平均将比受影响前低 3.3% 左右。
+</p>
+<p>
+	<span style="line-height:1.5;">微观世界里的感染、扩散、变异；宏观世界里的患者死亡、生活影响和解药研发——埃博拉病毒此次在世界范围内的爆发，简直是反人类游戏《</span><a href="www.ndemiccreations.com/en/22-plague-inc" target="_blank">Plague Inc.</a><span style="line-height:1.5;">》的现实版。不太一样的是，这次请缨加入埃博拉阻击战队的，除了传统的政府、医疗机构和国际组织之外，还有利益攸关或处于研发竞赛中的一批大公司。</span> 
+</p>
+比如，食品业巨头的慷慨解囊，有可能是为了避免自家供应链上可能出现的原料危机。上周，雀巢通过世界可可基金会向红十字会捐出 10 万瑞士法郎，用于抗击埃博拉疫情。而世界可可基金会此次从雀巢、好时、玛氏等巧克力产品大户手上，总共筹集到了 60 万美元捐款。<br />
+<p>
+	他们捐款的目的是：保住占全球可可豆供应量 40% 的科特迪瓦。科特迪瓦与此次埃博拉重灾区利比里亚、几内亚接壤，虽然近期全国仅报告 1 例感染病例，世界卫生组织仍警告其应重点防范埃博拉病毒。
+</p>
+<p>
+	<img src="/uploads/image/201410/0b59d3b04007.jpg" alt="" /> 
+</p>
+受到埃博拉病毒爆发影响，在过去的 1 个月内，全球可可豆期货的价格上涨了 16% 。雀巢集团 CEO Paul Bulcke 在接受<a href="http://www.bloomberg.com/video/ebola-in-ghana-would-have-major-impact-nestle-LwlOvJLaTC637xAITe2nIg.html" target="_blank">彭博电视采访</a>时表示，如果埃博拉扩散至厂区所在的加纳、以及可可主产区科特迪瓦，将对公司业务产生重大影响。<br />
+埃博拉对于西非地区经济作物的影响还体现在咖啡和棕榈油上。根据世界银行的报告，由于大量农民死亡或是逃离灾区避难，几内亚的今年上半年的咖啡产量同比下跌了近 50% ，棕榈油产量更是下跌了近 75% 。<br />
+<p>
+	话说回来，埃博拉虽然猖獗，但在葛兰素史克等一批跨国医药公司的努力下，已经不是完全无药可医。
+</p>
+<p>
+	<img src="/uploads/image/201410/03bb18320655.jpg" alt="" /> 
+</p>
+去年，葛兰素史克以 3.24 亿美元并购医药公司 Okairos ，从而获得了埃博拉疫苗 ZMapp 的后续研发权。葛兰素史克方面表示，相关工作目前正以“前所未有的速度”在推进，如果一切顺利， 2015 年初疫苗试制品就可以被送往西非疫区前线。<br />
+<p>
+	与葛兰素史克共同推进 ZMapp 研发的，还有来自医药公司诺华的研发团队。但富士胶卷公司会参与埃博拉药物的研制，恐怕就很少有人能想到了。《纽约客》杂志近期就<a href="http://www.newyorker.com/business/currency/fujifilm-making-drug-treat-ebola" target="_blank">撰文</a>介绍了他家研发中的埃博拉特效药 Avigan 。
+</p>
+<p>
+	<img src="/uploads/image/201410/6e8747302323.jpg" alt="" /> 
+</p>
+实际上，Avigan 之前只是一种治疗感冒的药物，之所以在理论上对埃博拉病毒同样有效，是因为这种药物可以抑制病毒的复制与转移，相当于直接切断了传播链。同时，较低的成本和大量库存，对于控制西非国家的疫情非常有效。<br />
+至于为什么是富士胶卷公司，原因也很简单：在眼见同样以胶卷起家的柯达倒闭后，他们就开始大力开发其他业务了，而在日本这个 1/4 人口都是 65 岁以上老年人的国家里，卖药无疑是最赚钱的行当之一。1936 年，富士公司就向医院出售过 X 光机； 2013 年，他们的保健品及药品业务已经占到公司总销售额的 16% 。<br />
+《好奇心日报》之前曾<a href="http://qdaily.com/display/articles/2500" target="_blank">介绍过新药的研发过程</a>。根据《自然》杂志的计算，从标靶药物、先导药物、多期临床实验到上市申请，1 个最终成功上市的新药，背后是平均长达 13.5 年的时间投入，以及平均高达 17.8 亿美元的科研投入。<br />
+<p>
+	不过，由于国际上目前对抗埃博拉的药物普遍短缺，所以像 ZMapp 这样仍处于试验阶段、尚未完全确认疗效的药物已经破例进入了量产阶段。据<a href="http://uk.reuters.com/article/2014/10/17/us-health-ebola-usa-zmapp-exclusive-idUKKCN0I624P20141017" target="_blank">路透社报道</a>， 美国政府已在上周下令，相关的三家药物研发实验室需在 11 月 10 日前提交 Zmapp 量产计划。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2073">
+				<span data-id="2073">埃博拉病毒</span>
+			</li>
+			<li class="tag item" data-id="3105">
+				<span data-id="3105">葛兰素史克</span>
+			</li>
+			<li class="tag item" data-id="1669">
+				<span data-id="1669">雀巢</span>
+			</li>
+			<li class="tag item" data-id="2723">
+				<span data-id="2723">好时</span>
+			</li>
+			<li class="tag item" data-id="3670">
+				<span data-id="3670">玛氏</span>
+			</li>
+			<li class="tag item" data-id="3671">
+				<span data-id="3671">富士</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2976" data-title="《阻击埃博拉，大公司都做了啥？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2976/medium/2976.jpg?1436654276" data-url="http://www.qdaily.com/mobile/articles/2976.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24904.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24904/medium/24904.jpg?1459700110" alt="">
+                        <h1 class="title">去年香港最好的电影，与金像奖失之交臂（附不完整名单）</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2976">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2976" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">8</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2979.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

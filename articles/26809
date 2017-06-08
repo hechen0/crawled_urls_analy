@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？。还是为了留住最有原创力的用户。好奇心日报为您呈现豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="版权保护 原创声明 微信 投诉通道 豆瓣 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Ux55keShvGKuNt0XzBz7zhkniWPZlBjQT+nfo6fmhTU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="27601">
+				<span data-id="27601">版权保护</span>
+			</li>
+			<li class="tag item" data-id="27602">
+				<span data-id="27602">原创声明</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="27603">
+				<span data-id="27603">投诉通道</span>
+			</li>
+			<li class="tag item" data-id="1977">
+				<span data-id="1977">豆瓣</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/37534/small/37534.JPG?1421809836" alt="">
+					</span>
+				<span class="name">石玉 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-05-15 08:36:56 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/26809/medium/26809.jpg?1463272782" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26809" data-title="《豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26809/medium/26809.jpg?1463272782" data-url="http://www.qdaily.com/mobile/articles/26809.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				还是为了留住最有原创力的用户
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>5 月 10 号，<a href="https://blog.douban.com">豆瓣发表了一篇公告</a>，宣布将推出保护原创内容的新措施——“站内原创声明”功能即将上线。<br></p><p>“站内原创声明”，指得是豆瓣用户可以为作品申请原创声明，作品发表后，文章下面会显示版权信息。当内容被复制使用时，都会带有版权声明、作者信息和原文链接。文章的转载与改编也都需提前经过作者同意。这个声明正在“日记”板块中测试，将会拓展到书影音评论、相册、小组话题等版块。</p><p>豆瓣称他们目前的注册用户有 1.4 亿。许多用户在豆瓣平台上发表书影音评论、日记、段子等原创内容，但这些内容常常被人侵权转载，这一度让原创者十分困扰。</p><p>比如，在微博上搜索“豆瓣”二字时，会跳出一些非官方的大号，其中一个叫作<a href="http://weibo.com/u/5587553728?refer_flag=1001030201_&amp;is_hot=1#_rnd1462935157079">“豆瓣菌”</a>。这是一个加了 V 的微博账号，粉丝达 31 万，它每天大约发送 3 条状态，如果仔细观察，会发现这些内容都是从豆瓣上搬运过去的。类似的账号还有不少，一个叫<a href="http://weibo.com/u/5220839587?profile_ftype=1&amp;is_all=1#_rnd1462934533218">“豆瓣说</a>”的账号目前已积累了 143 万粉丝，它的做法与“豆瓣菌”如出一辙。</p><p>“像这类账号侵犯的是豆瓣的商标权和用户的著作权。我们的法务联系过微博，发函后，豆瓣菌改过一次名字，但最近又改回来了。‘豆瓣说’的名字则一直没改。” 豆瓣公关部的林敏对《好奇心日报》说，“内容的版权属于用户。我们要先获得用户授权，再进行维权，流程会长一些。”在微信公众平台，也经常出现账号侵权搬运内容的情况。针对微信，去年 11 月，豆瓣建了一个“站外侵权投诉通道”。</p><p>当有人在豆瓣原创的作品被公众号转载，作者可以去<a href="https://www.douban.com/copyright/weixin/">投诉页面</a>提交豆瓣原文和公众号文章地址，微信会优先处理那些来自豆瓣的投诉，投诉成功后，文章会在 24 小时内删除，多次违规的公众号将会被封禁。</p><p>数据显示，这个站外侵权投诉通道上线了半年，已处理了过万条投诉，通过率超过 98%，平均处理时间为 9.6 分钟。</p><p><a href="https://www.douban.com/people/diewithme/notes">王大根算是一位资深的豆瓣用户了，他 2009 年注册豆瓣</a>，有 3.9 万个关注者。他的原创文章曾被侵权转载。从留言状态来看，<b>站外侵权投诉通道</b>上线后确实给他带来了一些帮助：</p><div class="com-insert-images"><p></p><figure style="margin:0;">
+    <img src="/uploads/image/201605/f6dda64a4540.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">截图自豆瓣用户“王大根”豆瓣状态</div></figcaption></figure></div><div class="com-insert-images"><p></p><figure style="margin:0;">
+    <img src="/uploads/image/201605/403f2b1c2a6e.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">截图自豆瓣用户“王大根”豆瓣状态</div></figcaption></figure></div><p>上面提到的维权措施，知乎也都有类似的。</p><p><a href="http://www.geekpark.net/topics/214365">2015 年末，知乎曾单独组建了一个产品开发小组，</a>上线了微信公众号侵权投诉产品。一旦用户提交侵权信息，这个产品会在 24 小时内进行审核，而之前的人工审核，周期是 3 天。光是在内测期，这款产品就处理了 1806 例侵权投诉。他们还曾公布过一个数字——在 3000 个获 500 赞的回答中，约有 99% 的内容都会被人擅自搬运至微信公众平台。后来，他们不断在细节上优化维权功能，包括一些小细节——现在如果有用户选中并复制知乎上的内容，会自动显示“若想转载，先通过私信或评论联系我”的字样。</p><p>从豆瓣和知乎的维权举措来看，用产品代替过去的人工审核似乎成为了一个趋势。产品加快了处理的数量和速度。</p><p>从最简单的层面来看，普通用户独自维权成本大、耗精力，又很难成功，有原创保护可以很好地降低他们的不安全感。</p><p class="">不过豆瓣推出原创保护的时间看上去令人费解。作为一个已经存在了 10 年的 UGC 内容平台，豆瓣刚刚推出这项功能，与其说是保护，不如说是弥补。</p><p class="">“豆瓣生产，微博/微信走红”早已不是什么新鲜的模式。很多在豆瓣发表文章的用户已经自觉加上了微信公众号名称和二维码。对于越来越多的内容创作者来说，豆瓣只是需要维护的内容平台之一，而不具备独特价值。</p><p class="">很显然，这些具备内容原创能力的用户是豆瓣最大的财产之一。然而因为这个机制的缺失，也因为更多原因（比如缓滞的移动端开发），这群用户正在迅速流失。</p><p class="">在豆瓣推出原创内容保护之后，这一状况除了带给用户保护，更显而易见的是豆瓣自身的品牌传播，或者说，人们会对这个平台的存在感有更多感知。</p><p class="">微信公众平台 2015 年 1 月上线原创保护功能，具有原创声明功能的公众号大多也获得了“赞赏”功能，目前不知道豆瓣和知乎会不会推出类似功能。</p><p class="">另外，在豆瓣推出原创保护体系前夕，豆瓣的一个公共事件是用户 meiya 涉嫌抄袭另一位用户 treasure 的文章《为什么中国影视剧只允许男人出轨后回归家庭》，treasure 的抗议和要求道歉的日志在豆瓣广为传播——一部分因为 meiya 在豆瓣和微信公众号皆颇有名气（在豆瓣有超过 16 万人关注），另一部分则因为类似的事情在豆瓣屡见不鲜。</p><p class="">这个事件中关于怎样定义“抄袭”一度也成为争论的焦点。可悲的是，中文互联网的内容平台发展至今，从早年的 bbs 到如今的各大平台，“如何定义抄袭”竟然还是一个没有公认标准的问题。</p><p class="">题图来源：<a href="http://creative.vcg.com/4666666">视觉中国</a><br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="27601">
+				<span data-id="27601">版权保护</span>
+			</li>
+			<li class="tag item" data-id="27602">
+				<span data-id="27602">原创声明</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="27603">
+				<span data-id="27603">投诉通道</span>
+			</li>
+			<li class="tag item" data-id="1977">
+				<span data-id="1977">豆瓣</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26809" data-title="《豆瓣推出原创保护，它怎么刚刚想起来这茬事儿？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26809/medium/26809.jpg?1463272782" data-url="http://www.qdaily.com/mobile/articles/26809.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/26135.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/26135/medium/26135.jpg?1461768191" alt="豆瓣音乐和幕后圈合作，发行了专辑《混出名堂》">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">豆瓣音乐和幕后圈合作，发行了专辑《混出名堂》</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">43</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/24887.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/24887/medium/24887.jpg?1459647043" alt="豆瓣终于决定自己做书了，目前只卖一本书">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">豆瓣终于决定自己做书了，目前只卖一本书</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">34</span>
+				<span class="iconfont icon-heart">177</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22334.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22334/medium/22334.jpg?1455585953" alt="豆瓣 11 年来第一次大做广告，它怎么了？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">豆瓣 11 年来第一次大做广告，它怎么了？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">30</span>
+				<span class="iconfont icon-heart">168</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27154/medium/27154.jpg?1463798236" alt="">
+                        <h1 class="title">持续数年的 Android 专利大战，现在还在争什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27141.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27141/medium/27141.jpg?1463755928" alt="">
+                        <h1 class="title">提高生活品质，给你几个小物做参考丨这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27142.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27142/medium/27142.jpg?1463736643" alt="">
+                        <h1 class="title">星巴克在美国推出超值午餐，里面没有咖啡</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="26809">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="26809" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">133</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/26818.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

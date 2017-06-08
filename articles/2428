@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我们讨论挂号难，也该讨论医院应该长啥样_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="我们讨论挂号难，也该讨论医院应该长啥样。已经朝着中国科技公司总部设计专业户发展的美国建筑设计事务所 NBBJ 现在把目光转向了中国最棘手的公共空间——医院。面对医患关系紧张、患者等待时间过长等中国医疗体制的弊端，它会给出怎样的解决方案？。好奇心日报为您呈现我们讨论挂号难，也该讨论医院应该长啥样的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计 医疗建筑 NBBJ " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="KkfcqbWFKGLLkrP8UU5DkOLug8YcVEUjf0IvMcfqOEs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3037">
+				<span data-id="3037">医疗建筑</span>
+			</li>
+			<li class="tag item" data-id="2535">
+				<span data-id="2535">NBBJ</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">我们讨论挂号难，也该讨论医院应该长啥样</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-19 08:52:34 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2428/medium/2428.jpg?1436651051" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2428" data-title="《我们讨论挂号难，也该讨论医院应该长啥样》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2428/medium/2428.jpg?1436651051" data-url="http://www.qdaily.com/mobile/articles/2428" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				已经朝着中国科技公司总部设计专业户发展的美国建筑设计事务所 NBBJ 现在把目光转向了中国最棘手的公共空间——医院。面对医患关系紧张、患者等待时间过长等中国医疗体制的弊端，它会给出怎样的解决方案？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	一座座拔地而起的欲望高楼正成为越来越多中国城市的地标性建筑，路过的人们举起手机拍照时只注意到了这些疯狂飙高的摩天大楼的堂皇与华丽，却很少有人关心一个城市最需要的公共建筑是什么？
+</p>
+<p class="MsoNormal" align="left">
+	上个月，《好奇心日报》报道了<a href="http://qdaily.cn/display/articles/1961">美国 NBBJ 建筑事务所是如何为阿里巴巴与腾讯这样的科技巨头打造办公大楼的故事</a>，这家全美第二大建筑事务所现在成了中国互联网企业们最推崇的办公楼设计专业户。但在中国，几乎很少有人知道，在门槛很高、专业性极强的医疗建筑设计领域，NBBJ 更有发言权。在医疗建筑领域有着超过 50 年经验的NBBJ 赢得过多项殊荣，连续被 Interior Design 杂志评为“最受欢迎的医疗建筑设计公司”，还被 BD World Architecture 列为全球最大医疗建筑设计公司之一。
+</p>
+<p class="MsoNormal" align="left">
+	在研究了中国医疗体制的种种弊端之后，在中国开展商业建筑设计业务多年的 NBBJ 意识到它们的机会来了。
+</p>
+<p class="MsoNormal" align="left">
+	说起医疗建筑设计，不少人认为在中国这是一种仓廪实而后知礼节的概念。尤其是北上广等一线城市，号都挂不上，谈何医院设计呢？抱怨的声音从未中断，但多归咎于体制、国情等这些老生常谈的原因。关于如何利用设计来改善就医体验，国内只有零星的实践者。
+</p>
+<p class="MsoNormal" align="left">
+	但真正优秀的医疗建筑设计恰好就能帮助医疗机构更高效的运行。“很多的建筑事务所和建筑设计师都能设计出很好看的大楼。但是谈到医疗建筑设计这一行业，它不仅要设计出好看的大楼，同时更重要的是设计出能够高效运行的医疗设施。”NBBJ 合伙人 Joan Saba 告诉《好奇心日报》。身为美国建筑师协会（ AIA ）与美国医院管理人员学会 ( FACHA
+) 的会员，Joan Saba 在全球医疗建筑实践业务方面被看作为一位先锋人物，曾获颁 Healthcare Design 评选的“年度最佳医疗建筑师”。
+</p>
+<p class="MsoNormal" align="left">
+	在 Joan Saba 看来，一个好的医疗建筑项目需要具备三个要素：项目成型后的灵活应变能力、人性化体验以及创新能力。
+</p>
+<p class="MsoNormal" align="left">
+	医院设计包含硬件和软件两个维度，每一个都充满挑战。从硬件角度来说，在所有的建筑类型当中，医院的使用强度与密度是最高的一种，其设计的优劣直接影响到人们的生命健康与安全。“因为它是全年 365 天、7/24 小时全天候运行的楼宇，它要求采用多种先进的科技确保它能够抵挡住飓风、地震这样的自然灾害的影响。”Saba 说。
+</p>
+<p class="MsoNormal">
+	更重要的是，从草图开始，设计师就必须将医院建成使用之后数年的变化和可能发生的各种问题纳入考量。
+</p>
+<p class="MsoNormal" align="left">
+	被誉为中国医疗建筑“拓荒者”角色的建筑师黄锡璆也曾谈到过相关问题，在他看来，医疗建筑最主要的特点是分阶段，而不是一次建成。“医院的总体规划若是考虑不周，后期的更新建设就会产生很多障碍和制约，甚至会让人无从下手。”黄锡璆说。
+</p>
+<p class="MsoNormal">
+	关于怎样使得医疗设施做到更高的灵活性，Joan Saba 提到了位于美国亚利桑那州的旗舰门医疗中心（ Banner
+Gateway Medical Center ）。
+</p>
+<p>
+	<img src="/uploads/image/201409/aa4c1d785dfe.jpg" alt="" /><img src="/uploads/image/201409/2bc255a1e868.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	(旗舰门医疗中心)
+</p>
+<p class="MsoNormal">
+	NBBJ 对旗舰门医疗中心窗户的外立面做了独特的设计，在不同建筑设施之间保留同样的标准，如若之后因就医人数上升需要扩充医院容量的话，扩建工程将不会影响到现有的就医体验。“一个项目之所以好，就是在设计的过程中把未来可能发生的改变考虑进去，使得设计项目成型之后具备很高的灵活性与调整能力。”Saba 说。
+</p>
+<p class="MsoNormal" align="left">
+	而说到创新，NBBJ 从来不是指那些重大医疗技术的突破。它们往往希望从设计角度着手，通过改善医院日常使用中发生的问题来推动创新。“高效”一词是 Saba 面对中国客户时会反复提及的重点。“我们了解到中国医院和医疗系统当中最大的问题就是每一天医院需要去处理的病患数量太大，导致患者等待就医的时间过长。因此一定要围绕高效医疗来展开设计，怎么样在单位时间内更有效地治疗患者。” Saba 说。
+</p>
+<p class="MsoNormal" align="left">
+	NBBJ 提升医疗效率的方法是在充分了解各环节是如何运作的前提下，进行流程管理上的优化。
+</p>
+<p class="MsoNormal" align="left">
+	在 NBBJ 的合作名单里，不仅有医生、护士、医院管理人员和从事医院研究的数据分析专家，亦有商业分析专家、人类学家以及精益流程分析师等。这支专业领域人才配合设计师团队能够帮助医院从更宏大的全局观去考虑建筑设计。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201409/436c8a2c0333.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left" style="text-align:center;">
+	（马萨诸塞州综合医院急诊室）
+</p>
+<p class="MsoNormal" align="left">
+	比如它们最近提出的一项医疗设计的新理念过渡服务就是如此。它其实是一种简化的培训项目，它的诞生是基于每次医院新大楼落成之后，由于功能和构造复杂，内外科医生、护士、药剂师等等往往觉得无法得心应手地使用大楼里的新配备。而 NBBJ 则通过和他们交流，在医院开放之前让他们提前适应新的环境以便于能够过渡到新的建筑的使用方式，同时要摈弃过去那套已经不适合时代发展的旧流程。
+</p>
+<p class="MsoNormal">
+	“我们更多地跟客户强调的一点是要放眼未来，要去了解未来医疗行业的趋势是什么，医疗行业会发生哪些改变。” Saba 说。
+</p>
+<p class="MsoNormal">
+	NBBJ 对中国在 IT 技术和数字技术方面的应用速度印象深刻。在设计腾讯总部大楼时，它们尝试了计算机建模计算遮阳板角度，未来它们希望把这一基于大数据的技术引入医疗领域，在设计阶段旧模拟日后使用中的各种问题和场景进行改进。
+</p>
+<p class="MsoNormal" align="left">
+	近年来，全国各地的医患纠纷层出不穷，NBBJ&nbsp;认为，改善就医体验至少能缓解紧绷的医患关系。
+</p>
+<p class="MsoNormal" align="left">
+	在 NBBJ 美国与欧洲的项目中，除了关注帮助患者治疗疾病之外，NBBJ 考虑更多地是医院能不能为整个社会创造一个类似“学校”的的环境。医院内的每个诊室都成为“教室”，在过道里、候诊区为患者讲解更多的医疗与保健方面的知识，帮助患者更好地预防疾病的发生。
+</p>
+<p>
+	<img src="/uploads/image/201409/73918cbb7548.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	(科威特 Bayt Abdullah儿童医院)
+</p>
+<p>
+	“现在的医疗行业再也不是过去那种简单地把病人的病治疗好了就可以了，而是更多地从全局的角度考虑，为患者提供更好的就医环境与体验，这一点也是建筑设计可以帮助医疗设施做到的一点。”Saba 告诉《好奇心日报》。
+</p>
+<p class="MsoNormal">
+	以马萨诸塞州综合医院重症监护室（ ICU ）为例。在这个设计中，NBBJ 首先考虑的是怎样使得外部花园的阳光最大程度地照射到重症监护室当中。
+</p>
+<p>
+	<img src="/uploads/image/201409/7a8281a349af.jpg" alt="" /><img src="/uploads/image/201409/d579b1402e96.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	（马萨诸塞州综合医院重症监护室）
+</p>
+<p>
+	对于病重的患者来说，没什么比窗外透进来的一缕阳光更教人感到生命的希望和温暖。其次则是确保将病房内的噪音降到最低，考虑的细节甚至具体到医护人员用来通信的呼叫机以及人走动时带来的噪音。第三点是如何让医护人员时时刻刻方便快捷地看到重症监护室当中患者的情况。
+</p>
+<p class="MsoNormal" align="left">
+	目前，NBBJ 已经在中国建成了上海儿童医学中心。Saba 说，她已经注意到了中国正在进行的医疗改革。“我个人非常期待在中国能够见证变革的发生。”
+</p>
+<p class="MsoNormal" align="left">
+	<br />
+</p>
+<p class="MsoNormal" align="left">
+	题图来自：<a href="http://www.nbbj.com" target="_blank">NBBJ</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3037">
+				<span data-id="3037">医疗建筑</span>
+			</li>
+			<li class="tag item" data-id="2535">
+				<span data-id="2535">NBBJ</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2428" data-title="《我们讨论挂号难，也该讨论医院应该长啥样》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2428/medium/2428.jpg?1436651051" data-url="http://www.qdaily.com/mobile/articles/2428" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24645.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24645/medium/24645.jpg?1459231311" alt="">
+                        <h1 class="title">甲骨文认为 Android 涉嫌“抄袭”，想要 93 亿赔偿</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2428">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2428" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">12</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2441.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

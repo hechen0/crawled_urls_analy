@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>西雅图，不想成为下一个被科技公司扎堆害了的旧金山_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="西雅图，不想成为下一个被科技公司扎堆害了的旧金山。科技热潮带来的不只是繁荣，还有生活居住的高成本；在这方面，西雅图有话要说。。好奇心日报为您呈现西雅图，不想成为下一个被科技公司扎堆害了的旧金山的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="西雅图 硅谷 纽约时报 科技热潮 城市建设 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RxTPulGh6hJdAg4zEldmg2FQDIaRNrSdLns10DjANFE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7409">
+				<span data-id="7409">西雅图</span>
+			</li>
+			<li class="tag item" data-id="105">
+				<span data-id="105">硅谷</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="17129">
+				<span data-id="17129">科技热潮</span>
+			</li>
+			<li class="tag item" data-id="11466">
+				<span data-id="11466">城市建设</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">西雅图，不想成为下一个被科技公司扎堆害了的旧金山</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Nick Wingfield</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-20 12:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15968/medium/15968.jpg?1444701360" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15968" data-title="《西雅图，不想成为下一个被科技公司扎堆害了的旧金山》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15968/medium/15968.jpg?1444701360" data-url="http://www.qdaily.com/mobile/articles/15968.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				科技热潮带来的不只是繁荣，还有生活居住的高成本；在这方面，西雅图有话要说。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	近年来，西雅图的商业领袖们一直在潜心研究旧金山地区，想要模仿它那炮制出如此之多科技公司的方式。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	很大程度上来说，那些努力确实起到了作用。但如今，在西雅图的商业领袖们眼中，旧金山湾区已经成为了一个与往昔迥异的模范典型，一个引人警戒的寓言故事。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	近些年来，在蓬勃发展的科技行业的推动下，大量金钱汇聚到了旧金山这座城市，催生了一大群二十来岁的百万富翁和成千上万名拿着六位数工资的高薪人士。虽然这一财富造就了一种令众人艳羡的经济环境，但当地居住成本却也一路飙升，贫富差距更是越拉越大。旧金山一间一居室公寓一个月租金超过 3500 美元，<a href="http://www.zumper.com/blog/2015/09/zumper-national-rent-report-september-2015/">租金之高位列全美之首</a>。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	旧金山居民担心，这座城市正在逐渐失去艺术家、老师和它那一度充满活力的反主流文化。近来，《旧金山纪事报》（The San Francisco Chronicle）刊登了一篇题为“旧金山歧路：从天堂到拙劣模仿的奇怪之旅（San Francisco’s Strange Detour From Paradise to Parody）”的<a href="http://www.sfchronicle.com/bayarea/article/san-francisco-s-strange-detour-from-paradise-to-6489844.php">专题摄影</a>。而上月，在与旧金山隔海相望的奥克兰（Oakland），当 Uber 表示将在当地开设一间全新的大型办事处时，<a href="http://www.sfgate.com/business/article/oakland-residents-freak-out-over-news-of-new-uber-6524585.php">许多居民都抱怨不已</a>。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/a16e5ac73638.jpg" width="600" height="400" title="1" alt="1" /> 
+</p>
+<div style="text-align:center;">
+	<em>艾伦·杜宁（Alan Durning）是负责制定西雅图住房计划的委员会中的一员。他表示，旧金山湾区可负担性住房危机正是小组讨论的一大中心要点。</em> 
+</div>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这一情况在西雅图和美国其他技术中心引发了反响，促使商业领袖思考如何在高科技经济改变这座城市同时，保留城市的经济多样性和灵魂。去年，<a href="http://www.nytimes.com/2014/06/03/us/seattle-approves-15-minimum-wage-setting-a-new-standard-for-big-cities.html">西雅图成为了第一个通过15美元最低时薪法律的大城市</a>。此外，西雅图市长还推行了<a href="http://murray.seattle.gov/wp-content/uploads/2015/07/hala_actionplan_2015.pdf">一项野心勃勃的可负担性住房计划</a>，并下定决心要发展扩张城市的制造业和航海业。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“很长一段时间以来，西雅图一直想要变成旧金山（那样的城市），”旧金山生活长期记录者<a href="http://crosscut.com/author/knute-berger/">克努特·伯杰</a>（Knute Berger）说道，“而现在的情况表明，这可能并不是我们想要的。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在许多城市几乎不惜一切代价想要让当地涌现出大量高科技工作之时，另一些城市却在努力克服伴随飞速发展的经济而来的种种弊端。去年，Google 计划扩张公司在科罗拉多州博尔德市（Boulder, Colo.）的规模，在当地建造一个全新的园区。这一计划引发了一场关于房屋价格和交通的论辩。俄勒冈州波特兰市（Portland, Ore.）则将矛头指向了从旧金山湾区搬来的居民，指责他们抬高了当地的房价。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在以“世界现场音乐之都”为官方格言的得克萨斯州奥斯丁市（Austin, Tex.），一个叫做 Black Fret（黑色烦恼）的慈善组织正向那些努力忍受当地不断上涨的生活成本（继续住在奥斯丁市）的音乐家发放津贴。奥斯丁市一家科技初创公司的销售主管马特·奥特（Matt Ott）是 Black Fret 的联合创始人之一。大约十年前，他就因为旧金山生活成本过高而离开了那座城市。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/6991222ccfa2.jpg" width="600" height="340" title="2" alt="2" /> 
+</p>
+<div style="text-align:center;">
+	<em>有人在俄勒冈州波特兰市屋外的待售标牌上贴了 “不欢迎加州人（No Clifornia）”的贴纸。图片来源：RUTH FREMSON / THE NEW YORK TIMES</em> 
+</div>
+<div>
+</div>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“人们开始厌倦看到财富和消费成为今日话题了，”他说道，“我觉得那才是这里真正的危机。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	从某种程度上来说，西雅图是美国第二大的科技中心。西雅图市民努力想要打造一座类似于旧金山、但又没有旧金山那么多缺点的科技之城。在这方面，没有哪座城市的居民比西雅图人更加齐心协力。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	除了亚马逊和微软，过去十年里还有许多小型科技公司，以及 Facebook、Google 等旧金山科技巨头的技术办公处来到西雅图，共同支撑起了这座城市的科技产业。调查研究公司Community Attributes和华盛顿科技行业协会（Washington Technology Industry Association）的数据显示，今年华盛顿州国王郡（King County）（包括西雅图及其他一些周边城市）科技相关的工作岗位数量从 2005 年的 88000 个左右增加到了近 138000 个。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	迄今为止，给西雅图带来最大改变的还是亚马逊。这家以<a href="http://www.nytimes.com/2015/08/16/technology/inside-amazon-wrestling-big-ideas-in-a-bruising-workplace.html">紧张的工作文化</a>著称的公司让联合湖（Lake Union）附近一个曾是工业区的小区摇身一变，成了佩戴公司蓝色安全徽章的技术职工的聚居地。
+</p>
+<p>
+	西雅图市长埃德·默里（Ed Murray）表扬了亚马逊。但同时，他也表示，西雅图有大型港口和渔船队，甚至还有一个钢厂，因此他希望这座城市工人阶级的根基能够保留下来。去年走马上任后，默里就把提高最低工资视作了当务之急。他还向城市制造业和航海业代表保证，西雅图需要他们。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	去年，默里在一场演讲中说：“西雅图科技产业的强大，绝不等同于这里制造业的灭亡。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	经济的增长通常会推动生活成本的上涨。为了帮助减缓生活成本的增速，默里大力推动住房建设。他树立了一个目标，计划在未来十年内建成 50000 所房屋——其中 40% 的房屋将会是低收入居民能够负担得起的住房。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“但愿我们能够建造足够多居民负担得起的住房，这样一来我们这座城市就不会像旧金山一样，让住在城市里的居民扭曲（我们城市的本来面貌）了。”默里说道。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/0b4b03212fc9.jpg" width="600" height="390" title="3" alt="3" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span><em>约翰·克里斯特洛（</em></span><span><em>John Criscitello</em></span><span><em>）在西雅图国会山（</em></span><span><em>Capitol Hill</em></span><span><em>）一带张贴海报，上面写的是 “欢迎！有钱的孩子们”、“希望你们没来这儿”。图片来源：</em><span><em>RUTH FREMSON / THE NEW YORK TIMES</em></span><em></em></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这一计划是对旧金山所采取的政策的一种抵抗和拒绝——在旧金山，建设审批的程序是出了名的复杂，而且当地建设高密度住房的努力往往会遭到附近居民的激烈反对。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	过去几年间，随着科技热潮从硅谷迁往旧金山这座一度没什么科技创业公司的城市，围绕当地可负担性住房的争论也愈演愈烈。载着居住在旧金山的员工来往于旧金山半岛的公司班车，也成为了活动家抗议下层住宅高档化的目标对象。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	旧金山并未忽视它所面临的问题。旧金山市长李孟贤（Edwin M. Lee）目前正在<a href="http://www.sfchronicle.com/politics/article/s-f-mayor-ed-lee-proposes-deal-to-spur-more-6536271.php">推进一项计划</a>，允许开发商建造较高的大楼——条件是大楼中要有 30% 中低收入家庭能够负担得起的住房。李孟贤的目标是在未来五年时间内建设 10000 套类似的公寓。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	目前，旧金山地区仍然对偏科技类的公司有着强大的吸引力。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“从我个人的角度来说，我希望西雅图能更像旧金山一点，这只是因为（技术工程师）在旧金山更容易找到有趣的工作。”约翰·劳塞（John Rauser）说道。劳塞在旧金山一家数字剪贴簿类网站 Pinterest 工作。最近他搬到了西雅图，因为他觉得这样养家糊口会更加容易一些。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	艾伦·杜宁（Alan Durning）是制定西雅图住房计划的委员会中的一员。据他所言，旧金山湾区可负担性住房住房危机是他们小组讨论的一大中心要点。他说，该地区陷入了一种大多数委员会的成员都极度想要避免的情况。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“我们并不是不希望成为一个蒸蒸日上的科技中心——我们希望西雅图能成为一个蒸蒸日上的科技中心，”杜宁说道，“但问题在于旧金山和硅谷的人们让他们自己陷入了一种困境：社区环境护卫者和当地政策基本上保证了购买一间房至少要花上 100 万美金。而在西雅图，最低购房开销也已经达到了 50 万美金，我们正沿着（旧金山的步子）往前走。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	据旧金山和西雅图计划部门称，去年<a href="http://www.seattle.gov/dpd/cs/groups/pan/@pan/documents/web_informational/dpdd017579.pdf">西雅图新增住房</a>数量超过 7500 间，创下了该市的历史新高；同年，<a href="http://www.sf-planning.org/ftp/files/publications_reports/2014_housing_inventory.pdf">旧金山新增住房</a>数量才刚超过 3500 间。不过，西雅图在一定程度上也受益于较大的占地面积和较少的居民人口（西雅图居民人数比旧金山少约 185000 人）。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	迄今为止，这里掀起的建筑热潮大多建设的是面向高科技职工的高租金公寓。这座城市朝气蓬勃的国会山（Capitol Hill）街区成为了一个争论的焦点——由于房价，一些居民不得不离开了这一地区。大街上、高速公路上交通阻塞的情况越来越严重，当地居民常常谴责当地的公共交通。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	一名艺术家约翰·克里斯特洛（John Criscitello）在整个国会山一带四处张贴海报，抗议新来到的居民给这里带来的变化。一张海报上写着：“欢迎！有钱的孩子们！”另一张海报上则写着：“希望你们没来这儿。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在波特兰等两居室房价等于旧金山一居室房价一半的地区，也有人表达了类似的情绪。
+</p>
+<p>
+	在线房地产经纪公司 Redfin 表示，和去年相比，今年前七个月内，使用公司网站在波特兰买房的<a href="http://www.redfin.com/blog/2015/10/the-second-silicon-valleys.html#.VhgR1RNVhBe">旧金山居民比重</a>已经翻了三倍，达到了 12.6%。上个月在波特兰，有人在当地房屋外的待售标牌上贴了不少贴纸，贴纸用一根斜杠划去了象征着加利福尼亚州的标志。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	西雅图想要成为一个类似处于中间位置的城市。由于西雅图市议会对市长的住房提案存在意见分歧，市长<a href="http://murray.seattle.gov/murray-to-focus-on-housing-affordability-in-denser-neighborhoods/#sthash.3D81IvC1.dpbs">不得不放弃了提案中一项</a>允许在附近所有地区建设高密度住房、以供单亲家庭使用的内容。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	Smart Growth Seattle 是一个提倡高密度住房的宣传组织，受到了开发商的支持。居民对西雅图进一步开发的阻挠抵触，令该组织主管罗杰·瓦尔迪兹（Roger Valdez）相当失望。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“如今我们正站在十字路口处，”他说道，“一条道路通往旧金山，那里的住宅经济受到了令人难以置信的高度监管，始终停滞不前，供不应求。另一条道路则是一条与众不同的道路，一条西雅图自己的道路。”
+</p>
+<p>
+	<span>翻译 &nbsp;</span><span>is</span><span>译社 钱功毅</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7409">
+				<span data-id="7409">西雅图</span>
+			</li>
+			<li class="tag item" data-id="105">
+				<span data-id="105">硅谷</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="17129">
+				<span data-id="17129">科技热潮</span>
+			</li>
+			<li class="tag item" data-id="11466">
+				<span data-id="11466">城市建设</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15968" data-title="《西雅图，不想成为下一个被科技公司扎堆害了的旧金山》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15968/medium/15968.jpg?1444701360" data-url="http://www.qdaily.com/mobile/articles/15968.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15537.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15537/medium/15537.jpg?1443115066" alt="为什么五角大楼也要入驻硅谷？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/12/medium/12.png?1433892245" alt="Best on the Web">
+				<span>Best on the Web</span>
+		</p>
+		<h1 class="title">为什么五角大楼也要入驻硅谷？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">10</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25276/medium/25276.jpg?1460357878" alt="">
+                        <h1 class="title">一款号称卖给 “95 后”的茶饮料，背后是大公司对年轻人怎样的揣测？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25268/medium/25268.jpg?1460346559" alt="">
+                        <h1 class="title">「这世界」那些不睡觉的传说，还是留给真正的天才吧！</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25260.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25260/medium/25260.jpg?1460357520" alt="">
+                        <h1 class="title">张达发布新一季的“没边”，还谈了谈“奢侈”｜上海时装周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25303.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25303/medium/25303.jpg?1460382739" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25305.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25305/medium/25305.jpg?1460383011" alt="">
+                        <h1 class="title">除了《指环王》，还有这些值得关注的新西兰电影</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15968">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15968" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">62</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/16277.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>下一个要上太空的机器人，NASA 想让你来设计它的“手”_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="下一个要上太空的机器人，NASA 想让你来设计它的“手”。提交了作品就有奖，NASA 也不想让任何人白干活，真是个好甲方。。好奇心日报为您呈现下一个要上太空的机器人，NASA 想让你来设计它的“手”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Astrobee 机器人 国际空间站 NASA MIT 威客 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="S119tFi2MSqK2GrghJGweyWS/Uvf9cE7pkpASnMCdt4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22457">
+				<span data-id="22457">Astrobee 机器人</span>
+			</li>
+			<li class="tag item" data-id="4590">
+				<span data-id="4590">国际空间站</span>
+			</li>
+			<li class="tag item" data-id="214">
+				<span data-id="214">NASA</span>
+			</li>
+			<li class="tag item" data-id="98">
+				<span data-id="98">MIT</span>
+			</li>
+			<li class="tag item" data-id="22458">
+				<span data-id="22458">威客</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">下一个要上太空的机器人，NASA 想让你来设计它的“手”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-21 16:28:34 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21055/medium/21055.jpg?1453316161" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21055" data-title="《下一个要上太空的机器人，NASA 想让你来设计它的“手”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21055/medium/21055.jpg?1453316161" data-url="http://www.qdaily.com/mobile/articles/21055.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				提交了作品就有奖，NASA 也不想让任何人白干活，真是个好甲方。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	从<span> 2006 </span>年起，<span>NASA </span>就陆续往国际空间站里派遣了<span> 3 </span>个 <span>MIT </span>太空系统实验室研制的<a href="http://ssl.mit.edu/spheres/" target="_blank">小型漂浮机器人 <span>SPHERES</span></a>。这三个飘来飘去的小球可以算是宇航员的“自拍神器”，能帮忙拍拍工作照；当然同时也执行些舱内环境监测、微重力环境下机器人测试之类的任务。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/041449d3a3d8.jpg" width="1024" height="675" title="SPHERES 在国际空间站，图片来自：维基百科" alt="SPHERES 在国际空间站，图片来自：维基百科" /><span><em>SPHERES 在国际空间站，图片来自：</em><a href="http://en.wikipedia.org/wiki/SPHERES" target="_blank"><em>维基百科</em></a></span> 
+</p>
+<p>
+</p>
+<p>
+	飘了十年之后，<span>NASA </span>开始考虑它们的接班人了，<span>2014 </span>年起就一直在研制下一代 <a href="http://www.nasa.gov/sites/default/files/atoms/files/fs_astrobee_150813.pdf" target="_blank"><span>Astrobee </span>机器人</a>，将在 <span>2017 </span>年前往国际空间站。<span>Astrobee </span>仍是在 <span>SPHERES </span>的基础上稍加改进，执行的任务也基本相似，最大的改变就是在外观上加了条机械“手臂”，以便跟外界沟通、互动。<span></span> 
+</p>
+<p>
+	为了这条手臂，<span>NASA </span>决定举办一场设计比赛。在任务众包网站威客上，他们发布了<a href="http://www.freelancer.com/contest/NASA-System-Architecture-Registration-Contest-329981.html" target="_blank">比赛公告</a>，向所有人公开征集 <span>Astrobee </span>机器人机械手臂的设计思路。<span></span> 
+</p>
+<p>
+	只是要想参加比赛的网友们，首先得完成一份小调查，证明自己有足够的学术能力和空闲时间来完成这项工程，否则就别来浪费精力了。据 <a href="http://www.theverge.com/2016/1/19/10791678/nasa-astrobee-robotic-arm-design-contest-iss" target="_blank"><span>The Verge </span>报道</a>，目前已有<span> 1500 </span>人提交了申请。<span></span> 
+</p>
+<p>
+	之后，<span>NASA </span>会从中挑选<span> 30 </span>人，给予每人<span> 10 </span>美元的小奖励并进入下一关。在这个环节，如果还能做出整个项目的设计终稿，就能获得<span> 100 </span>美元的奖励，总之听起来<span> NASA </span>并不想让任何一个参赛者白干活。<span></span> 
+</p>
+<p>
+	而完成的设计作品都将送往<span> NASA </span>参加评审，最终的赢家能获得什么样的大奖目前还不清楚，<span>NASA </span>也没说在最后环节会跟参赛者如何协作。<span></span> 
+</p>
+<p>
+	当然<span> NASA </span>自己其实已经设计好一个样品，他们只是还想看看网友们有没有更好的想法。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/79af28a55438.jpg" width="625" height="469" title="NASA 给出的 Astrobee 机器人机械臂概念图" alt="NASA 给出的 Astrobee 机器人机械臂概念图" /><span></span><span><em>Astrobee 机器人机械臂概念图</em></span><span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	此前<span> NASA </span>已经举办过无数类似的设计比赛了，去年就有设计宇航员以后会用的“太空智能手表”的项目；而<span> NASA </span>机构里大大小小的徽章图标也都是请网友们设计的。<span></span> 
+</p>
+<p>
+	最后这里有短视频，感兴趣可以看看漂浮机器人在空间站里是怎么卖萌的：
+</p>
+<p>
+	<iframe frameborder="0" src="http://v.qq.com/iframe/player.html?vid=n0181mvrsf1&amp;tiny=0&amp;auto=0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	&nbsp;
+</p>
+<p>
+	<strong>题图来自：</strong><a href="http://www.theverge.com/2016/1/19/10791678/nasa-astrobee-robotic-arm-design-contest-iss" target="_blank">The Verge</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22457">
+				<span data-id="22457">Astrobee 机器人</span>
+			</li>
+			<li class="tag item" data-id="4590">
+				<span data-id="4590">国际空间站</span>
+			</li>
+			<li class="tag item" data-id="214">
+				<span data-id="214">NASA</span>
+			</li>
+			<li class="tag item" data-id="98">
+				<span data-id="98">MIT</span>
+			</li>
+			<li class="tag item" data-id="22458">
+				<span data-id="22458">威客</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21055" data-title="《下一个要上太空的机器人，NASA 想让你来设计它的“手”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21055/medium/21055.jpg?1453316161" data-url="http://www.qdaily.com/mobile/articles/21055.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20469.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20469/medium/20469.jpg?1452241451" alt="NASA 也带着 VR 眼镜来赚人气了 | CES 2016">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">NASA 也带着 VR 眼镜来赚人气了 | CES 2016</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">35</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/8777.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/8777/medium/8777.jpg?1436691017" alt="对美食永不妥协，意大利人把咖啡机带到国际空间站">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">对美食永不妥协，意大利人把咖啡机带到国际空间站</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">12</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20774.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20774/medium/20774.png?1452833932" alt="Adidas 和山本耀司合作的 Y-3 要设计太空服了？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">Adidas 和山本耀司合作的 Y-3 要设计太空服了？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">73</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26985.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26985/medium/26985.jpg?1463540431" alt="">
+                        <h1 class="title">马云不会参会国际反假联盟，以及，Free People 婚纱不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26994.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26994/medium/26994.jpg?1463546849" alt="">
+                        <h1 class="title">联想要去印度卖手机，可能还会取消 Moto X</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26999.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26999/medium/26999.jpg?1463548490" alt="">
+                        <h1 class="title">把跑步机装在巴士里，是让人在上班路上健个身？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21055">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21055" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">18</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21092.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>别以为日历过时了，这些漂亮的设计是日历，也是个好营销_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="别以为日历过时了，这些漂亮的设计是日历，也是个好营销。好的平面设计可以让人对自己原本不需要的东西产生向往和购买欲。纸张的未来莫过于此。。好奇心日报为您呈现别以为日历过时了，这些漂亮的设计是日历，也是个好营销的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="手帐 文化机构 出版 2016日历 未读 单向街 企鹅 故宫 宝丽来 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="/pUld4UaUSbH2CM0RcVAvy8vpw+i43K2wv+EvDcsKBU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6035">
+				<span data-id="6035">手帐</span>
+			</li>
+			<li class="tag item" data-id="19146">
+				<span data-id="19146">文化机构</span>
+			</li>
+			<li class="tag item" data-id="904">
+				<span data-id="904">出版</span>
+			</li>
+			<li class="tag item" data-id="19147">
+				<span data-id="19147">2016日历</span>
+			</li>
+			<li class="tag item" data-id="19148">
+				<span data-id="19148">未读</span>
+			</li>
+			<li class="tag item" data-id="19149">
+				<span data-id="19149">单向街</span>
+			</li>
+			<li class="tag item" data-id="222">
+				<span data-id="222">企鹅</span>
+			</li>
+			<li class="tag item" data-id="14102">
+				<span data-id="14102">故宫</span>
+			</li>
+			<li class="tag item" data-id="2347">
+				<span data-id="2347">宝丽来</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">别以为日历过时了，这些漂亮的设计是日历，也是个好营销</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/37534/small/37534.JPG?1421809836" alt="">
+					</span>
+				<span class="name">石玉 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-23 17:47:02 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17929/medium/17929.jpg?1448243262" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17929" data-title="《别以为日历过时了，这些漂亮的设计是日历，也是个好营销》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17929/medium/17929.jpg?1448243262" data-url="http://www.qdaily.com/mobile/articles/17929.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				好的平面设计可以让人对自己原本不需要的东西产生向往和购买欲。纸张的未来莫过于此。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	<span style="text-align:left;">老干部的办公桌上有三宝——</span><span style="text-align:left;">手撕日历、茶杯和 X 报。</span><span style="text-align:left;">在很多人眼里，纸质版的日历和月历早就过时了，它们携带不便，只有出现在老干部办公桌上时才不违和。许多人也不再喜欢使用纸质的行事历，它们不如手机来的方便。</span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	然而对很多文化出版机构来说，每到年末，出日历和手帐却是他们的大事。<span style="text-align:left;">特别是今年，简直呈现出“百花齐放”的状态。</span>这些日历和手帐用于售卖、用于送礼，也用于强化品牌形象（每卖出一本日历，就在一个家庭里植入了全年的硬广啊）。不管手机和 APP 如何方便，总还是有纸质爱好者存在的，他们享受一页页翻日历的快感，像是一个小小的仪式。还有人习惯把重要事情标注在纸上。
+</p>
+<p style="text-align:left;">
+	在历来出品的日历中，最有发言权的还是<a href="http://item.taobao.com/item.htm?spm=a1z10.1-c.w4024-3595865934.3.W1A5qj&id=522621057091&scene=taobao_shop" target="_blank">《故宫日历》</a>了。《故宫日历》曾出版于&nbsp;1933 至&nbsp;1937&nbsp;年间，那时正值战乱，但仍能在日历下方看到刷印的商号、报馆、办事处等信息。2010&nbsp;年，被遗忘经久的《故宫日历》“复活”了，新版的《故宫日历》以&nbsp;1937&nbsp;年版为蓝本，翻开日历，正面是年、月、周、日及节日、节气，背面则是名家墨宝、金石珠玉等信息。近些年故宫的文创产业不断发展，新版的《故宫日历》也连续推出了好几年。2015&nbsp;年，《故宫日历》发行量至少有&nbsp;18&nbsp;万册，2016&nbsp;年的《故宫日历》早已开始售卖，定价&nbsp;66 元。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/cca59f1729ae.jpg" width="950" height="753" title="1937 年的《故宫日历》" alt="1937 年的《故宫日历》" /><span>1937 年的《故宫日历》</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/69be19850ad0.jpg" width="950" height="417" title="啊" alt="啊" /><span>《故宫日历》2016</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/95409450cc46.jpg" width="748" height="1106" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/45cfbdcf5c98.jpg" width="748" height="1128" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/b9564b73fc0c.jpg" width="748" height="1013" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/a844ba8ab1dd.jpg" width="750" height="1193" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	《故宫日历》2016
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	今年，企鹅图书还与出版品牌“未读”合作，制作了一款企鹅手帐。企鹅图书创始于&nbsp;<span>1935&nbsp;</span>年，在那之前，图书多为精装且价格昂贵，只有贵族才消费地起。为了能让更多人能读得起书，企鹅开启了大众平装书市场。今年，企鹅兰登放弃了往年&nbsp;<span>13&nbsp;</span>页台历的传统（往年，他们将经典图书封面拼制成日历），他们与国内出版品牌“未读”一起，设计了一款<a href="http://detail.koudaitong.com/show/goods?alias=1y8uqlp4tadsx&sf=wx_sm&reft=1444640151648&spm=h109031&redirect_count=1" target="_blank">《企鹅手账&nbsp;<span>2016</span>》</a>，产品中有日历，也有手账，套盒封面采用了企鹅图书典型的三段式设计，价格为 150 人民币。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/4cf9bdc75baf.jpg" width="900" height="644" title="企鹅手帐 2016" alt="企鹅手帐 2016" /> 
+</p>
+<p style="text-align:center;">
+	<span>企鹅手帐 2016</span> 
+</p>
+<p style="text-align:left;">
+	365&nbsp;天的日历分上、下半年，可做手撕日事清单，也有月度计划提醒，与中间的便携式口袋手账合起来，构成了企鹅图书三段式设计。每本都是&nbsp;iPhone6&nbsp;大小，可以装进口袋。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/5106d63b5afe.jpg" width="900" height="1273" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/d912938a6564.jpg" width="900" height="644" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/19328d4b7da1.jpg" width="964" height="783" title="三段式经典封面" alt="三段式经典封面" /><span>三段式封面最初由爱德华·扬设计，企鹅手帐也延续了这种设计</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	今年，单向空间出品了<a href="http://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-10115973648.1.MdTM9u&id=523270725626&amp;ns=1&abbucket=14&amp;scene=taobao_shop#detail" target="_blank">《单向历 2016&nbsp;年桌历》</a>，它的大小规格为 170×100×40，一只手可握，黑色烫银的封面显得有点儿酷，日历里附每日宜忌和佳句、节假日及二十四节气提醒，定价为&nbsp;88&nbsp;元，从十月中旬开始预售的。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/4319e109a5c8.jpg" width="750" height="750" title="单向历 2016" alt="单向历 2016" /><span>单向历 2016</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/c0caaf5b5ae6.jpg" width="750" height="750" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/65efabd5ae4f.jpg" width="750" height="750" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/e7350eb7bf24.jpg" width="750" height="750" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/04eddd36bc89.jpg" width="750" height="750" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	单向历 2016
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+	中信出版社也出品了一本日历，叫作<a href="http://detail.tmall.com/item.htm?spm=a230r.1.14.9.XmMTv8&id=524092943266&cm_id=140105335569ed55e27b&abbucket=8" target="_blank">《不简单的生活》</a>，它主要集结了&nbsp;2015&nbsp;年度畅销书和&nbsp;2016&nbsp;年度重磅新书的预告。与前几家的日历不同，中信的日历使用了液晶显示屏和藏书票的双重插页式设计，带有一点科技感，在淘宝上售价为&nbsp;38&nbsp;元。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/f139a79776c4.jpg" width="790" height="405" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/d0a0027fda6f.jpg" width="790" height="951" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/2e709fde727b.jpg" width="790" height="543" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/593b97699eb7.jpg" width="790" height="597" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	《读库》系列的日历大家就很熟悉了，每年都出。今年的日历叫作《日课&nbsp;2016&nbsp;》，使用的是 120 克特种轻型纸，配套装书盒，96&nbsp;元一套。它分春、夏、秋、冬四册，采用一日一课的体例，收录了清末民初教科书中的课文，以日历本的形式来呈现老课本。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/858e1221d873.jpg" width="790" height="790" title="《日课 2016》" alt="《日课 2016》" /><span>《日课 2016》</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/6b7701070b05.jpg" width="790" height="540" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/6b652ea6e892.jpg" width="649" height="1434" title="《日课 2016》" alt="《日课 2016》" /><span>《日课 2016》</span> 
+</p>
+<p style="text-align:center;">
+</p>
+<div style="text-align:left;">
+	《纽约客》杂志也有自己的日历，名字很朴实，就叫作 New Yorker Gallery Calendar，它是抽取式日历，在这里你可以<a href="http://item.taobao.com/item.htm?spm=a230r.1.14.1.UeqX0t&id=521510347066&ns=1&abbucket=8#detail" target="_blank">买得到</a>，价格为 180 元左右。
+</div>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/930f79189db0.jpg" width="693" height="749" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/35f5ef63d549.jpg" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/c7b2a4ba5c72.jpg" width="689" height="388" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;">&nbsp;New Yorker Gallery Calendar&nbsp;</span> 
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:left;">
+	自&nbsp;2009&nbsp;年开始，德国的&nbsp;Verlag Hermann Schmidt Mainz&nbsp;便会发布一款汇集全世界各地字体的日历。今年，来自 32&nbsp;个国家的 223&nbsp;位设计师提供了 366&nbsp;款字体，他们由此整理编辑了&nbsp;2016&nbsp;年的日历，这款日历<a href="http://item.taobao.com/item.htm?spm=a230r.1.14.1.9EKdtm&id=523900348202&ns=1&abbucket=8#detail" target="_blank">价格差不多是 200 元</a>。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/ec52e9437b50.jpg" width="693" height="378" title="a " alt="a " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/c494e53577bd.jpg" width="694" height="957" title="a " alt="a " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/bf0a30fb50ef.jpg" width="694" height="497" title="a " alt="a " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/576c969b98ed.jpg" width="692" height="766" title="a " alt="a " /> 
+</p>
+<p style="text-align:center;">
+	<span>Typodarium 2016&nbsp;</span>字体日历<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<div style="text-align:left;">
+	<span></span> 
+</div>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	<span>题图来源：企鹅手帐</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6035">
+				<span data-id="6035">手帐</span>
+			</li>
+			<li class="tag item" data-id="19146">
+				<span data-id="19146">文化机构</span>
+			</li>
+			<li class="tag item" data-id="904">
+				<span data-id="904">出版</span>
+			</li>
+			<li class="tag item" data-id="19147">
+				<span data-id="19147">2016日历</span>
+			</li>
+			<li class="tag item" data-id="19148">
+				<span data-id="19148">未读</span>
+			</li>
+			<li class="tag item" data-id="19149">
+				<span data-id="19149">单向街</span>
+			</li>
+			<li class="tag item" data-id="222">
+				<span data-id="222">企鹅</span>
+			</li>
+			<li class="tag item" data-id="14102">
+				<span data-id="14102">故宫</span>
+			</li>
+			<li class="tag item" data-id="2347">
+				<span data-id="2347">宝丽来</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17929" data-title="《别以为日历过时了，这些漂亮的设计是日历，也是个好营销》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17929/medium/17929.jpg?1448243262" data-url="http://www.qdaily.com/mobile/articles/17929.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/3269.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/3269/medium/3269.jpg?1436637633" alt="Google 给你看日历的未来">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">Google 给你看日历的未来</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">19</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2043.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/2043/medium/2043.jpg?1436647562" alt="出版社谈了好几年电子书，但离未来还是很远">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">出版社谈了好几年电子书，但离未来还是很远</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">26</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25997.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25997/medium/25997.jpg?1461637500" alt="">
+                        <h1 class="title">小胖不再是Lanvin董事会成员，以及，VOGUE神话大片令人惊叹｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26013.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26013/medium/26013.jpg?1461645237" alt="">
+                        <h1 class="title">隈研吾在云南腾冲设计的温泉度假酒店，不算精彩之作</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26003.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26003/medium/26003.jpg?1461640305" alt="">
+                        <h1 class="title">虎扑体育要上市了，这家媒体网站还想做点别的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26015.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26015/medium/26015.jpg?1461646517" alt="">
+                        <h1 class="title">第二代 Apple Watch 还能用移动网络了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26009/medium/26009.jpg?1461643625" alt="">
+                        <h1 class="title">这些用菠萝叶做成的包包和鞋子，令人意外地好看</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17929">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17929" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">343</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17949.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

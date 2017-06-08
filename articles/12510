@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>发布半年之后，QQ 物联做得到底怎么样了？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="发布半年之后，QQ 物联做得到底怎么样了？。也许过两年，QQ 还会让你用增值服务来开通智能家居权限了。。好奇心日报为您呈现发布半年之后，QQ 物联做得到底怎么样了？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 智能硬件 物联网 QQ 物联 腾讯 京东 康佳 毛华 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="iTbYelbHiUFCkxF0ir5Ni3tbPYcWzzmuZI+0XqdMY3A=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="2160">
+				<span data-id="2160">物联网</span>
+			</li>
+			<li class="tag item" data-id="13347">
+				<span data-id="13347">QQ 物联</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="4125">
+				<span data-id="4125">京东</span>
+			</li>
+			<li class="tag item" data-id="8129">
+				<span data-id="8129">康佳</span>
+			</li>
+			<li class="tag item" data-id="13348">
+				<span data-id="13348">毛华</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">发布半年之后，QQ 物联做得到底怎么样了？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-23 14:53:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12510/medium/12510.jpg?1437613217" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12510" data-title="《发布半年之后，QQ 物联做得到底怎么样了？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12510/medium/12510.jpg?1437613217" data-url="http://www.qdaily.com/mobile/articles/12510.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				也许过两年，QQ 还会让你用增值服务来开通智能家居权限了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	没有硬件，现在还没了电商，腾讯该怎么做智能硬件？
+</p>
+<p>
+	一年前，他们的答案是微信，向一些智能硬件开放服务号接口；而半年前，腾讯又在答案中加了个“QQ”，在去年&nbsp;10&nbsp;月底发布了&nbsp;QQ&nbsp;物联平台。
+</p>
+<p>
+	最近&nbsp;QQ&nbsp;物联又提出要投入价值&nbsp;100&nbsp;亿元的流量和&nbsp;20&nbsp;亿资源扶持&nbsp;1000&nbsp;家公司，也就是所谓的“亿联计划”，这比起<a href="http://www.qdaily.com/articles/3208.html" target="_blank">去年发布会时说的三年&nbsp;100&nbsp;家公司</a>的目标直接添上了个零。
+</p>
+<p>
+	据悉，从去年发布至今，QQ&nbsp;物联已经收到超过&nbsp;2000&nbsp;家硬件公司的内测申请，但真正上市的还并不多。到&nbsp;7&nbsp;月底，QQ&nbsp;物联终于打算开放公测，据&nbsp;QQ&nbsp;物联副总经理毛华称，到时“任何人都能来接入”，当然他们的策略是“宽进严出”，放行上市前还是会检查设备、服务的品质和稳定性。
+</p>
+<p>
+	根据内测的申请情况来看，QQ&nbsp;物联并不愁找到足够数量的硬件团队，但这个希望让每件智能家居都变成你&nbsp;QQ&nbsp;好友的平台，最后该怎么实现目标似乎还有点迷糊。
+</p>
+<h4>
+	&nbsp;QQ 物联和他的兄弟“微信硬件”到底有啥区别？
+</h4>
+<p>
+	毛华承认他们也还在探索中，这正是腾讯公司内部会同时出现&nbsp;QQ&nbsp;物联和微信硬件两个平台的原因。
+</p>
+<p>
+	表面上看&nbsp;QQ&nbsp;和微信也只是控制入口的区别，但毛华告诉《好奇心日报》，微信硬件平台会做得“比较轻一点”，为已经具备联网功能的硬件提供入口。也因此，用户现在上微信<span>能</span>找到的都是华为、咕咚这些相对成熟的互联网公司。
+</p>
+<p>
+	QQ&nbsp;物联做的事情则会更多一些，比如提供软件开发包（SDK）帮助传统硬件提升联网、通讯等能力。在筹划&nbsp;QQ&nbsp;物联到现在的一年多时间里，他们一直在对冰箱、空调等各类硬件进行适配，目前&nbsp;QQ&nbsp;物联的 SDK 已经能用在&nbsp;95%&nbsp;的硬件上。
+</p>
+<h4>
+	都说到了“物联网时代”，腾讯打天下靠的还是老本行增值服务？
+</h4>
+<p>
+	有了开发包的适配，未来公测之后想必又会接入一批数量可观的智能硬件，再加上手头已有的上亿活跃用户，QQ&nbsp;物联现在的困惑就是如何把这些连接起来，说服用户习惯用&nbsp;QQ&nbsp;和自己的家电“好友”聊天。
+</p>
+<p>
+	QQ 的最大优势其实在于用户的社交关系，但想用社交切入智能硬件难度其实还挺大。尽管腾讯称要重新定义社交的概念，增加“人与设备、设备与设备之间的社交”这一说法，但这其实也就是一种说法而已，其核心仍然是连接，可问题是&nbsp;QQ&nbsp;拿什么来连接？
+</p>
+<p>
+	此前智能硬件领域的模式往往都以一个中心硬件来连接其它家居，例如&nbsp;Google&nbsp;的&nbsp;Nest、苹果&nbsp;HomeKit&nbsp;项目中的&nbsp;iPhone，即便是小米投资了一票硬件团队，其核心仍是自家产的小米手机。
+</p>
+<p>
+	但 QQ&nbsp;物联上&nbsp;70%&nbsp;到&nbsp;80%&nbsp;都是中小团队，目前最重要的一款产品是和康佳合作的智能电视，能实现的功能也就是通过电视来&nbsp;QQ&nbsp;视频。而且作为平台，QQ&nbsp;本身也没有一个中心硬件。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/7d236a5ed468.jpg" width="647" height="462" title="连接 QQ 物联平台的康佳超级电视发布会" alt="连接 QQ 物联平台的康佳超级电视发布会" /><span><em>接入 QQ 物联平台的康佳超级电视在今年 3 月举行发布会</em></span> 
+</p>
+<p>
+	腾讯能用的就是他们上亿用户带来的巨大流量，因此在他们的“亿联计划”中，100&nbsp;亿指的不是资金而是“流量”。毛华称根据他们目前的构想，未来&nbsp;QQ&nbsp;物联的模式大致就是把某种智能硬件的功能包装成付费服务，由&nbsp;QQ&nbsp;向用户推送。
+</p>
+<p>
+	毛华举的例子是摄像头厂商，在未来加入人脸识别、联网能力之后，硬件就可以卖便宜点，而 QQ 可以把“人脸识别”、联网等能力变成一项“人脸识别”的服务，向用户推送。如果用户要使用这项服务，可能就得交 5 元钱 / 月，这 5 元钱再由 QQ、硬件厂商以及人脸识别的软件开发商分账。
+</p>
+<p>
+	这一增值服务的商业模式是不是有点耳熟？那可是 QQ 的老本行啊。
+</p>
+<h4>
+	没有电商，腾讯的流量该如何抵达硬件？
+</h4>
+<p>
+	当年&nbsp;QQ&nbsp;就是靠这套增值服务模式活下来的，这“革命经验”在新时代也许还能派上用场。毛华也倡导&nbsp;QQ&nbsp;物联上的硬件团队能多一点互联网思维，硬件卖便宜点，靠后续的服务赚钱。
+</p>
+<p>
+	曾和腾讯进行过“3Q&nbsp;大战”的奇虎&nbsp;360&nbsp;CEO&nbsp;周鸿祎也在昨天宣布他们家的小水滴摄像头会选择&nbsp;100&nbsp;万用户尝试免费发放，后续靠云服务收费赚钱，这一思路和&nbsp;QQ&nbsp;物联不谋而合。尤其是毛华在接受《好奇心日报》采访时反复举的例子，恰巧也正是摄像头产品。
+</p>
+<p>
+	只是腾讯没有自家的电商渠道，尽管此前投资了京东，但京东本身有自己的智能硬件平台“微联”，毛华也称他们只会把京东作为渠道之一。因此在用户先通过&nbsp;QQ&nbsp;的推送买了智能硬件的服务之后，再让他们去别的电商甚至是实体店里买硬件产品，这就有点像在“逆水推舟”了。当然&nbsp;QQ&nbsp;物联也可以直接嵌入购买链接，可是连微信给京东的导流也不尽如人意，QQ&nbsp;能给他们的硬件团队带来多少流量？
+</p>
+<p>
+	毛华在来到&nbsp;QQ&nbsp;物联担任副总经理前，一直负责腾讯的应用宝业务，他告诉《好奇心日报》在他离开应用宝之前，他们内部曾有过关于应用宝转型成硬件电商的设想，“未来应用宝会怎么走？一定会局限在&nbsp;APP&nbsp;这个领域吗？也不一定。”不过毛华也强调自己已经离开一年，他并不清楚目前应用宝的具体发展策略。
+</p>
+<p>
+	但在去年&nbsp;QQ&nbsp;物联发布时，应用宝一亿的日分发量始终被作为重要渠道，<a href="http://www.cyzone.cn/a/20141030/265026.html" target="_blank">腾讯开放平台副总经理侯晓楠曾称</a>：“（通过这些渠道）我们不仅分发软件产品，更可以通过这个去营销硬件。”
+</p>
+<p>
+	据悉腾讯在筹划&nbsp;QQ&nbsp;物联前曾研究过更早开始涉足智能硬件的京东微联，也许是研究京东多了，决定自己再做一家硬件电商？但腾讯做电商……想想拍拍结局就能猜个一二了吧。
+</p>
+<h4>
+	QQ 物联挺有趣，尽管需要面对的问题不少
+</h4>
+<p>
+	<span style="text-align:justify;">不过如果能忽视以上的诸多问题，腾讯的社交玩法放到智能硬件上还是有不少有趣思路的。</span> 
+</p>
+<p>
+	比如人们在&nbsp;QQ&nbsp;上加了一堆“硬件好友”后，该怎么设置场景？这在腾讯眼里就是个可以挖掘社交关系的地方：当两个人家里连接的硬件设备差不多时，一个人设置的模式就可以被推荐给另一个。甚至还可能会有“尊敬的&nbsp;QQ&nbsp;用户，目前已有&nbsp;80%&nbsp;的全国用户已经设置了‘进门时把空调开到&nbsp;25&nbsp;度同时打开电视机’模式，请问你也想用吗？”当然前提是用户自身选择同意将自己的数据分享出去。
+</p>
+<p>
+	不过这些想法还都没有具体时间表，目前经过一年多软件开发包适配之后，QQ&nbsp;物联会把精力放在接入硬件设备上。
+</p>
+<p>
+	发布半年之后的&nbsp;QQ&nbsp;物联还显得有些迷茫，设想很多，但需要解决和验证的问题更多。最重要的，恐怕还得算上这个：要是我的&nbsp;QQ&nbsp;被盗了怎么办？
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来源：<a href="http://www.hellorf.com/" target="_blank">站酷海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="2160">
+				<span data-id="2160">物联网</span>
+			</li>
+			<li class="tag item" data-id="13347">
+				<span data-id="13347">QQ 物联</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="4125">
+				<span data-id="4125">京东</span>
+			</li>
+			<li class="tag item" data-id="8129">
+				<span data-id="8129">康佳</span>
+			</li>
+			<li class="tag item" data-id="13348">
+				<span data-id="13348">毛华</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12510" data-title="《发布半年之后，QQ 物联做得到底怎么样了？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12510/medium/12510.jpg?1437613217" data-url="http://www.qdaily.com/mobile/articles/12510.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12510">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12510" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">38</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12531.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

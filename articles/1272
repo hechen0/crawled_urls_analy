@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Android L 带来的 11 项改变值得注意_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Android L 带来的 11 项改变值得注意。这个被称为“Android L 开发者预览版”的系统或许是 Android 诞生至今改变最大的一个版本，从外观、设计逻辑再到支持的设备都发生了很大变化。。好奇心日报为您呈现Android L 带来的 11 项改变值得注意的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Google Google I/O Android 智能手机 可穿戴 Android L Top 15 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="SWekISmFq8I/K09SK2P6U/YXztScTfEjJQGD1eexeYc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="1334">
+				<span data-id="1334">Google I/O</span>
+			</li>
+			<li class="tag item" data-id="568">
+				<span data-id="568">Android</span>
+			</li>
+			<li class="tag item" data-id="238">
+				<span data-id="238">智能手机</span>
+			</li>
+			<li class="tag item" data-id="28">
+				<span data-id="28">可穿戴</span>
+			</li>
+			<li class="tag item" data-id="1345">
+				<span data-id="1345">Android L</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Android L 带来的 11 项改变值得注意</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3/small/3.jpg?1399382800" alt="">
+					</span>
+				<span class="name">黄俊杰</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-26 09:42:53 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/1272/medium/1272.jpg?1436639896" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1272" data-title="《Android L 带来的 11 项改变值得注意》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1272/medium/1272.jpg?1436639896" data-url="http://www.qdaily.com/mobile/articles/1272.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这个被称为“Android L 开发者预览版”的系统或许是 Android 诞生至今改变最大的一个版本，从外观、设计逻辑再到支持的设备都发生了很大变化。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	新一代 Android 系统在今天的 Google 开发者大会上公布了，不叫 5.0、也没用甜点来命名，而是“Android L 开发者预览版”。它或许是 Android 诞生<span style="line-height:1.5;">至今改变最大的一个版本，从外观、设计逻辑再到支持的设备都发生了很大变化。</span> 
+</p>
+<p>
+	<b>1. &nbsp;看上去更简单、颜色更鲜亮</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/0abef05394c3.jpeg" alt="" /> 
+</p>
+<p>
+	新的 Material 设计将统一一切 Google 产品：不仅仅是手机、平板、电视、眼镜、手表和汽车这样的硬件设备，也包括所有 Google 在线服务。
+</p>
+<p>
+	Material 的设计加入了更多智能的元素，用户界面里的接近图片的界面元素将会自动变成图片的色调。<span style="line-height:1.5;">除此之外，新的设计语言将利用更多动画特效，特别是通过动态渲染而来的阴影区分不同界面元素的层次——为用户界面加上了景深。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">Google 宣称新 Material 的设计灵感来自纸与墨。Google Design 新上线的页面给出了<a href="http://www.google.com/design/spec/material-design/introduction.html#introduction-goals" target="_blank">新设计的详尽介绍</a>。</span> 
+</p>
+<p>
+	<b>2. &nbsp;网页和应用的界限模糊</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/d8f6d31450e2.jpeg" alt="" /> 
+</p>
+<p>
+	Material 设计语言的一些特性也被融入 Chrome，例如网页的配色会根据图片做出改变，网页中的图库等特效也可以变得像原生应用一样自然而富有生机。
+</p>
+<p>
+	新的移动版 Chrome 将每个网页变成一张卡片。网页不再被锁进浏览器，Android L 的多任务窗口将每个网页与应用同等对待。
+</p>
+<p>
+	改变并不让人意外，Google 设计负责人 Matias Duarte 早年在 Palm 任职时已经在 2009 年的 webOS 上用过这样的逻辑。
+</p>
+<p>
+	<b>3. &nbsp;搜索页面直接打开应用</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/0dd8d58e90ff.jpeg" alt="" /> 
+</p>
+<p>
+	当你在 Google 里搜索时，点击搜索页面结果可以直接在对应的手机应用里打开相应内容。<br />
+Google 在发布会现场用 OpenTable 订位应用做了演示。可以想象以后大众点评、微博、IMDB 支持该功能后会有多么方便。
+</p>
+<p>
+	<b>4. &nbsp;平板会更好用</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/1dd02f0d9c74.jpg" alt="" /> 
+</p>
+<p>
+	嘲笑 Android 平板缺少专门为之设计的应用是苹果发布会上的固定节目。尽管 Google 宣称 Android 的出货量已经超过苹果，但购买后的使用率似乎仍有差距。
+</p>
+<p>
+	作为横跨多平台的操作系统，Android L 将以手机应用为起点，让开发者方便得将手机应用更好的呈现在平板、桌面或者电视上。
+</p>
+<p>
+	或许比不上从一开始便为平板考虑的用户界面，但至少不会像之前那么难看。
+</p>
+<p>
+	<b>5. &nbsp;速度快一倍</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/330e0b17f2bd.jpeg" alt="" /> 
+</p>
+<p>
+	Android L 将拥有新的 ART 运行环境，同时支持 ARM、x86 和不常用的 MIPS 等不同硬件架构。
+</p>
+<p>
+	Google 根据 Nexus 5 的表现宣称 ART 将能让所有应用的速度翻番——不需要应用本身做出任何改变。
+</p>
+<p>
+	此外 Android L 还将支持 64 位运算和更好的图形处理性能。
+</p>
+<p>
+	<b>6. &nbsp;电池多用上 90 分钟</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/161b03aab82f.jpeg" alt="" /> 
+</p>
+<p>
+	电池是智能手机的老问题，Android L 的 Volta 项目能够通过直观的数据告诉你是什么应用在哪些时间用电最快。
+</p>
+<p>
+	Volta 还会根据这些数据在电力不足时自动关闭应用、停用 Wi-Fi、调低屏幕亮度。Google 宣称 Volta 能让手机多使用 90 分钟——听上去很模糊的说法。
+</p>
+<p>
+	<b>7. &nbsp;更安全</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/d1ddc07677c3.jpg" alt="" /> 
+</p>
+<p>
+	几次木马应用的丑闻为 Android 带来了不安全的名声。Android L 开始增强对安全的控制，可以扫描所有应用的安全问题，哪怕应用不是来自 Google Play Store。此外用户也可以像苹果 Find My iPhone 一样远程锁定手机或清空数据。
+</p>
+<p>
+	Android L 的安全补丁升级不再随系统发布，而是跟着 Google Play 推送给用户。这在方便用户的同时也意味着亚马逊、微软以及所有在中国发售的 Android 设备需要厂商自己提供安全升级。在 Android 平台上甩开 Google 的成本又高了一些。
+</p>
+<p>
+	<b>8. &nbsp;安全的同时不烦人</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/40d0eddf82f2.jpg" alt="" /> 
+</p>
+<p>
+	为手机设置锁屏密码是必要的，即便你没有不适合公开的照片，也得防着邮箱、微信、微博被人乱用。不过回到家里还需要不停按解锁密码确实不方便。
+</p>
+<p>
+	Android L 内置了“个性化解锁”（Personal Unlocking）功能，可以根据 Wi-Fi、蓝牙和 GPS 判断手机是不是需要锁屏。比如连在家里的 Wi-Fi 说明手机在自己家、附近有你常戴的蓝牙手表说明手机在身边。这时候点亮屏幕就无需输入解锁码。
+</p>
+<p>
+	<b>10. &nbsp;Android L 将无处不在</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/be017a45c760.jpg" alt="" /> 
+</p>
+<p>
+	Android 手机不是你日常接触的唯一智能设备，还得考虑电脑、电视、汽车、智能家居、可穿戴设备。Android L 将与这些设备有更好的沟通。
+</p>
+<p>
+	<span style="line-height:1.5;">其核心是预测用户行为和语音控制。Google Now 试图在用户提出要求之前给出解决方案，例如根据你的邮件、日程和聊天纪录提前规划路线、提醒路况。在电视、汽车、手表等不便于键盘输入的设备上则利用语音进行录入和搜索。</span> 
+</p>
+<p>
+	<b>11. &nbsp;更快来到低端设备</b> 
+</p>
+<p>
+	<img src="/uploads/image/201406/d8b14b687784.jpeg" alt="" /> 
+</p>
+<p>
+	Google 启动了 Android One 倡议——开始为手机生产商提供低端可用 Android 的成套解决方案。
+</p>
+<p>
+	这些方案的系统为原生 Android，直接来自 Google，系统升级也将由 Google 所控制统——原本 Android 系统升级更多受厂商和运营商的影响。这意味着 Google 将对低端市场施以更多控制，今年上半年微软以及被收购前的诺基亚曾推出两代拿掉 Google 服务的 Android 手机 Nokia X 抢占低端市场。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自 <a href="http://www.google.com/design/" target="_blank">Google Design</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="1334">
+				<span data-id="1334">Google I/O</span>
+			</li>
+			<li class="tag item" data-id="568">
+				<span data-id="568">Android</span>
+			</li>
+			<li class="tag item" data-id="238">
+				<span data-id="238">智能手机</span>
+			</li>
+			<li class="tag item" data-id="28">
+				<span data-id="28">可穿戴</span>
+			</li>
+			<li class="tag item" data-id="1345">
+				<span data-id="1345">Android L</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1272" data-title="《Android L 带来的 11 项改变值得注意》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1272/medium/1272.jpg?1436639896" data-url="http://www.qdaily.com/mobile/articles/1272.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24914.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="">
+                        <h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24980.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24980/medium/24980.jpg?1459837705" alt="">
+                        <h1 class="title">入选篮球名人堂，不只是因为姚明是个好球员</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24988.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24988/medium/24988.jpg?1459846694" alt="">
+                        <h1 class="title">SpaceX将发射充气型居住舱，这会是太空酒店的雏形么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24972/medium/24972.jpg?1459842289" alt="">
+                        <h1 class="title">「这世界」突然，澳大利亚有好多金·卡戴珊的裸体涂鸦</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1272">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1272" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">2</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1266.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

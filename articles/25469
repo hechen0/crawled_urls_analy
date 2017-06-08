@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>魅族开始发行游戏了，第一款产品还是 EVA_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="魅族开始发行游戏了，第一款产品还是 EVA。人人都想做游戏，不管是互联网公司还是卖手机的。。好奇心日报为您呈现魅族开始发行游戏了，第一款产品还是 EVA的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="游戏发行 魅族互娱 魅族 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="7+Z2xYTmWgj52IDOkaCFpyuMjG+/RKDfsoKa2fHmyRg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="12583">
+				<span data-id="12583">游戏发行</span>
+			</li>
+			<li class="tag item" data-id="26254">
+				<span data-id="26254">魅族互娱</span>
+			</li>
+			<li class="tag item" data-id="2732">
+				<span data-id="2732">魅族</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">魅族开始发行游戏了，第一款产品还是 EVA</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-14 14:24:03 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25469/medium/25469.jpg?1460613939" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25469" data-title="《魅族开始发行游戏了，第一款产品还是 EVA》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25469/medium/25469.jpg?1460613939" data-url="http://www.qdaily.com/mobile/articles/25469.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				人人都想做游戏，不管是互联网公司还是卖手机的。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>昨天魅族发布会不仅公布了魅族的新手机 Pro 6，还宣布成立游戏公司——魅族互娱。这个做手机的公司，算是正式开始进入手机游戏的发行工作。 </p><p>魅族科技副总裁杨颜称，新成立的魅族互娱将专注泛型精品手游和 IP（知识产权内容）的开发。他们将为优秀的游戏开发者提供资金、宣传和用户数据方面的支持，甚至还提出在资金上无上限、不封顶的支持政策。 </p><p>魅族互娱发行的第一款产品 《EVA 新世纪福音战士：适格者》将于 5 月 8 日上市。这款由掌聚互动开发的游戏，获得了正版授权的游戏，于去年年底开始测试。 </p><p>不过如果把它称为精品还是有点不够格——本质上，人熟悉的人物和一些所谓“同步率”、“暴走”机制之外，这就是一个类似《刀塔传奇》的卡牌动作游戏。虽然有 EVA 这个响当当的品牌加持，可是看惯了各种 IP 改编的用户并不会买账——看看《航海王》和《银魂》相关手机游戏的下场，不要以为扯上二次元和经典 IP 的大旗就能够让玩家买单。</p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/ae74c140b042.jpg" alt="" class="">
+<figcaption class=""><p style="text-align: center;">“这是 EVA 的手游。”“哦。”</p></figcaption></figure></div><p>不过，虽然这款游戏一般，魅族做游戏发行还是有自己优势：渠道。 </p><p>在国内手游市场渠道为王的年代，谁掌握渠道，谁就在游戏的发行推广上更有优势。这就是为什么除了网易，大大小小的公司都开始找腾讯做发行，他们需要腾讯的 QQ 和微信。 </p><p>相对于腾讯这种互联网公司不同，对于小米、魅族这些公司来说，手机是他们流量的入口：你买了我的手机，你就会用我的应用中心。</p><p>魅族互娱的前身是魅族手机上的游戏中心，根据发布会上给出的数据，成立 18 个月以来，魅族游戏中心流量月均增长 15%。 “Flyme 有质量非常不错的用户，从运营数据可以看得到”，魅族科技副总裁杨颜说。“……还有我们巨大的流量，关系到出货量，有这些基本的优势。” </p><p>然而这个优势并不是特别突出，别说和腾讯比了，魅族甚至比不过做一样事情的小米：2014 年成立的小米互娱，在去年开始也涉足游戏发行业务。去年，小米游戏中心渠道加发行全年的流水达到 <a href="http://mt.sohu.com/20160202/n436703341.shtml">26 亿</a>。同样是靠着手机作为渠道入口，小米手机的用户肯定比魅族的多：<a href="https://en.ctimes.com.tw/DispNews.asp?O=HK02F8RBZHWSAA00NG">根据 IDG 的数据，</a>去年年底魅族手机的中国市场占有率排名在前五之外，小米排名第一。何况，小米互娱从去年开始用更高的分成吸引那些游戏开发者的入驻，<a href="http://news.yesky.com/497/89166997.shtml">给开发者的分成提高至 70%</a>。魅族互娱想要获得更多开发者的青睐，势必更加困难。 </p><p>进军游戏发行，开拓硬件之外更多的增值业务，是硬件公司共同的目标；所有的公司都想靠着做软件的生意补贴卖硬件的业务，魅族肯定也是这么想的。然而，在这个新的市场里，竞争有可能比之前更加激烈。&nbsp;</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="12583">
+				<span data-id="12583">游戏发行</span>
+			</li>
+			<li class="tag item" data-id="26254">
+				<span data-id="26254">魅族互娱</span>
+			</li>
+			<li class="tag item" data-id="2732">
+				<span data-id="2732">魅族</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25469" data-title="《魅族开始发行游戏了，第一款产品还是 EVA》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25469/medium/25469.jpg?1460613939" data-url="http://www.qdaily.com/mobile/articles/25469.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/24506.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/24506/medium/24506.jpg?1458949475" alt="手游市场，未来看起来也是腾讯家的了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/54/medium/54.png?1433891512" alt="游戏">
+				<span>游戏</span>
+		</p>
+		<h1 class="title">手游市场，未来看起来也是腾讯家的了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">125</span>
+				<span class="iconfont icon-heart">358</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27038.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27038/medium/27038.jpg?1463605083" alt="">
+                        <h1 class="title">Android 之后，Google 找的未来是给一切加上人工智能 | Google IO 大会</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27039.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27039/medium/27039.jpg?1463588539" alt="">
+                        <h1 class="title">可口可乐也要在中国卖椰子水，最大对手是Vita Coco</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27040.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27040/medium/27040.jpg?1463594031" alt="">
+                        <h1 class="title">讲谈社漫画大赏公布，又到了记录好漫画的时间了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25469">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25469" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">43</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25466.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

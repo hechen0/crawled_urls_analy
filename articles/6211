@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>爆米花之美，美在科学_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="爆米花之美，美在科学。这篇文章可以手把手教你如何一边嗑米花一边讲科学和艺术。好奇心日报为您呈现爆米花之美，美在科学的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="爆米花 口感 研究 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7084">
+				<span data-id="7084">爆米花</span>
+			</li>
+			<li class="tag item" data-id="7085">
+				<span data-id="7085">口感</span>
+			</li>
+			<li class="tag item" data-id="314">
+				<span data-id="314">研究</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">爆米花之美，美在科学</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4469/small/4469.jpg?1421125271" alt="">
+					</span>
+				<span class="name">胡雪纯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-02-15 08:34:12 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/6211/medium/6211.jpg?1436694167" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6211" data-title="《爆米花之美，美在科学》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6211/medium/6211.jpg?1436694167" data-url="http://www.qdaily.com/mobile/articles/6211.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这篇文章可以手把手教你如何一边嗑米花一边讲科学和艺术
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	法国科学家日前通过高速摄像机研究了爆米花，我们来看看他们都研究了什么：
+</p>
+<h2>
+	<strong>爆米花科学</strong> 
+</h2>
+<p class="p2">
+	<span><a href="https://scholar.google.com/scholar?q=Zea+mays+everta&amp;hl=zh-CN&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart&amp;sa=X&amp;ei=OrDdVPfQGYqyogTi7IGgCQ&amp;ved=0CBwQgQMwAA" target="_blank">Zea mays everta&nbsp;是唯一一种能连续不断爆出米花的玉米</a>，也是爆米花的主要材料。它的玉米仁被淀粉结构包围，还含有少量的水分。玉米仁被加热时，水蒸气迸发出来，形成可以把周围的淀粉加热成蓬松结构的爆破热流。压力足够的情况下，淀粉糊会从玉米壳里破壳而出，然后冷却成我们看到的泡芙状爆米花结构。过去的研究发现外面的壳越坚硬，密封性越好就有越大的 “可爆花性”。</span> 
+</p>
+<p class="p2">
+	<span>“在推销食物上，一个 ‘脆’ 字抵得上一万个形容词……人们天生就对酥脆的食物有好感，” 明星大厨马利欧·巴塔利（Mario Batali）曾这样说。食品行业专家早就专注于打磨出一个完美爆米花的配方。比方说，爆米花食品生产商就坚信爆米花仁应该保持 13－14.5% 的湿度。科学家花在这个零食上的时间可能没有零食行业多，毕竟他们还要研究如何让它更好吃。</span> 
+</p>
+<p class="p2">
+	<span> </span> 
+</p>
+<h2>
+	慢慢来的爆米花
+</h2>
+<p>
+	<span>Virot 和他的同事，法国 CNRS 的研究员 Alexandre Ponomarenko，一开始用一台高速摄像机研究为什么树杈会在特定风速下断掉。而一个突发其想，他们的摄像机对准了另一样东西。</span> 
+</p>
+<p>
+	<span>"我们决定纪录爆米花爆出来的过程," <a href="http://mashable.com/2015/02/12/how-popcorn-pops/" target="_blank">&nbsp;Virot 告诉 Live Science</a>，&nbsp;“然后我们发现很多有意思的特性和生物力学现象。然后它就成了我们的爱好一直继续了下来。”</span> 
+</p>
+<p>
+	<span>这些研究员把玉米放在微波炉里缓慢加热，然后纪录了这些玉米粒的动作。 34% 的玉米粒在 170 摄氏度爆花了，而 96% 会在 180 度爆炸。</span>为了搞清楚这个差异出现的原因，研究团队测量了玉米外壳能承受的最高压力。 比较爆花前后的数据后，他们得到了一些结论。
+</p>
+<p>
+	<span>爆破点大部分程度上取决于温度，但也研究团队发现还有其他因素的影响，比如玉米仁的几何结构。</span> 
+</p>
+<h2>
+	米花之声
+</h2>
+<p>
+	接下来团队想要研究的问题是爆米花爆破时为什么会发出“嘭”的声音。
+</p>
+<p>
+	<span>他们仔细观察了视频片段，并用麦克风捕捉了这个声响，然后发现“嘭”并不是马上发生在玉米壳被爆裂的时刻，而是当内部水蒸气被释放，将内部空洞结构的压力释放时出现的声音。同样的现象还会发生在<a href="http://www.livescience.com/6746-stromboli-volcano-pops-champagne-cork.html"><span class="s2">火山爆发和开香槟酒的时刻</span></a>。</span> 
+</p>
+<p>
+	<span>团队在爆米花空中的优雅转身动作中发现了是体操运动员能在空中做出优美动作的秘诀。内部蓬松结构迸发的瞬间，一条小小的“腿”会从爆米花内部伸出来。然后碰到煎盘底部，通过反作用力，玉米花一跃而起。</span> 
+</p>
+<p>
+	<span>”就好像这些泡沫结构知道怎么生长一样," Virot 说。</span>这个淀粉小腿能让玉米花在翻筋斗的同时跃起 1 厘米。
+</p>
+<h2>
+	完美爆米花
+</h2>
+<h2>
+	<span></span> 
+</h2>
+<p>
+	<span>为什么我们爱吃脆脆的食物呢？食物加热时会促生 “美拉德反应”（Maillard Reaction）——碳水化合物和氨基酸结合，产生一连串的味道和香气（还有焦黄的颜色）。而酥脆食物不光能刺激味觉和嗅觉，还能刺激听觉。同时，“脆” 在本质上与食物其他的特性不同。即使食物本身的味道不可口，它的酥脆性也可以让人愉悦。</span></p>
+<p>
+	<span>总之，米花已经够好吃了，但很遗憾，这项研究也没法告诉你什么是完美的米花。但它可以告诉你如何找一个统一的温度一次性爆出最多的爆米花。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201502/9a1de6afb1ae.gif" alt="">视频中米花神秘优雅地绽放，那一刻仿佛周围的空气都微微震动。如果你也想好好欣赏米花之美，那么你可能会对这个设计感兴趣：米花季风仪（<span>Popcorn&nbsp;</span><span>Monsoon），一台可以在爆花时借力打力收集的机器。&nbsp;</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7084">
+				<span data-id="7084">爆米花</span>
+			</li>
+			<li class="tag item" data-id="7085">
+				<span data-id="7085">口感</span>
+			</li>
+			<li class="tag item" data-id="314">
+				<span data-id="314">研究</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="6211" data-title="《爆米花之美，美在科学》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/6211/medium/6211.jpg?1436694167" data-url="http://www.qdaily.com/mobile/articles/6211.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27004.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27004/medium/27004.jpg?1463551252" alt="">
+                        <h1 class="title">明星是怎么练习获奖感言的？苹果说我帮你啊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27016/medium/27016.jpg?1463561406" alt="">
+                        <h1 class="title">阿里音乐发布了一个“粉丝游乐场”，它是不是想得太好了？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="6211">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="6211" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/6214.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

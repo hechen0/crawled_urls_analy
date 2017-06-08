@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>人人要退市，你知道过去 4 年它做了几十个新产品么？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="人人要退市，你知道过去 4 年它做了几十个新产品么？。基本上，你能想到的热点，它都做过至少一次。好奇心日报为您呈现人人要退市，你知道过去 4 年它做了几十个新产品么？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="退市 社交网络 投资 人人网 千橡 陈一舟 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="FL1rHFWKukJ7MHizacBl3BkCz+uq+OyYUvU7pVVFCeI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">人人要退市，你知道过去 4 年它做了几十个新产品么？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-12 10:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/10721/medium/10721.jpg?1434073507" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10721" data-title="《人人要退市，你知道过去 4 年它做了几十个新产品么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10721/medium/10721.jpg?1436646209" data-url="http://www.qdaily.com/mobile/articles/10721.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				基本上，你能想到的热点，它都做过至少一次
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span>本周三，人人公司收到来自 CEO 陈一舟、COO 刘健提出的初步私有化提议。</span> 
+</p>
+<p>
+	<span>根据这份提议，两人将以每股 4.20 美元的价格收购其尚未持有的人人公司全部发行股。也就是说，这家 2011 年在美国上市的社交网络，将退市成为一家私人公司。</span> 
+</p>
+<p>
+	<span><a href="http://www.bloomberg.com/news/articles/2015-06-10/renren-gets-prelim-offer-4-20-in-cash-ads-from-ceo-coo">根据彭博社的消息</a></span><span>，陈一舟和刘健现拥有公司约 32% 的普通股，并约占股东投票权比重的 49% ，日本软银则为人人的最大股东，占 37.5% 的股份。目前，人人公司已成立特别董事会来处理这一建议。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<div>
+	不管退市是不是为了回内地上市，人人网都已经不再是当年上市之时那个所谓中国的 Facebook 了。
+</div>
+<p>
+	<span>自 2011 年开始，人人网已失去了近 80% 的市值。年轻用户渐渐放弃了这一所谓中国最大的社交网络，转而投向了微博、微信、陌陌等手机平台。目前，它在 Alexa 的流量排名已经早已不是中国的前 18 位，而跌落到了第 131 名。</span> 
+</p>
+<p>
+	<span><span>在过去几年里，人人做了些什么？如果总结为一句话，差不多是什么产品都试过了，但都没做好。</span></span> 
+</p>
+<h2>
+	<span>除了做社交的人人网，人人曾经还有三个主要业务</span> 
+</h2>
+<p>
+	<span>人人公司在上市前，陈一舟就计划将它打造为一个集校园社交、团购、游戏以及职业社交于一体的巨无霸。对应的人人网、糯米团购、人人游戏、经纬网也就是人人公司旗下的主要产品。</span> 
+</p>
+<p>
+	<span><strong>糯米团购：</strong></span> 
+</p>
+<p>
+	2010 年糯米上线后，意味着人人网也加入到了当时火热的团购市场中。不过伴随着“千团大战”尾声的到来，人人也支撑不起不断烧钱的团购市场。2013 年 8 月 ，糯米正面对连续 9 个季度亏损。而百度却伸出橄榄枝，宣布向糯米网投资 1.6 亿美金，并获得其 59% 的股权。直到 2014 年 3 月，百度完全把糯米网收入囊中，糯米网改名百度糯米。
+</p>
+<p>
+	<span><strong>人人游戏：</strong></span> 
+</p>
+<p>
+	<span>自 2007 年，人人推出其第一款网页游戏《猫游记》，游戏就成为这家公司的关注点之一。不过随着移动时代的到来，人人网在手机上的发力明显不足，依然在关注于网页游戏的开发。</span> 
+</p>
+<p>
+	<span>直到 2012 年末，陈一舟开始重视起手机游戏，并宣布为每一款游戏推出手机版本。更巧的是，同年 12 月，人人游戏全系列产品在 Apple Store 上被苹果暂时下架。</span> 
+</p>
+<p>
+	<span>尽管尝试转型，但似乎为时已晚，面对着游戏业的疯狂增长，人人游戏的收入自 2013 年开始却走向停滞。目前人人游戏在 App Store 和 Google Play 中累计已经发布了 100 多款游戏，而其 2014 年的收入却仅为 2012 年的 6 %。</span> 
+</p>
+<p>
+	<span>其中一个明显的例子就是它的红极一时的”开心农场“。这个在 2009 年推出的网页游戏，和美国游戏开发商 Zynga 最为卖座的的 Farmville 高度相似，后者当年也一度蝉联 Facebook 榜首。此后“开心农场”的用户量甚至达到了上亿的级别。但 2013 年 8 月，这款游戏却停止了运营，最终下线。</span> 
+</p>
+<p>
+	<span><strong>经纬网：</strong></span> 
+</p>
+<p>
+	<span>2011 年 3 月，人人推出旗下的商务社交网站经纬网。通过个人实名认证，加上公司信息，让用户以职场为中心进行社交。这不仅仅是要打造成中国版的 Linkedin，同时也是试图解决原有的大学生用户毕业后，从人人网流失的问题。</span> 
+</p>
+<h2>
+	<span>可能你都不知道人人已为你准备了这么多应用</span> 
+</h2>
+<p>
+	<span>2009 年 8 月，人人网的前生——校内网，更名为人人网。而后的它已不再安分于校园社交，于是便向各个领域迈进。不过现在，相当一部分的网站和应用已经死掉。其中许多你可能根本都没有听说过。</span> 
+</p>
+<p>
+	<span><strong>社交</strong></span> 
+</p>
+<p>
+	<span>人人小站：2011 年 7 月 ，人人对外公测了它的轻博客类平台———人人小站。这个主打兴趣社交的内容创造兼社交平台，实际上也无非是国外轻博客 Tumblr 的一个翻版。</span> 
+</p>
+<p>
+	<span>人人私信：2011 年 10 月，智能手机上的即时通讯类应用都还在起步阶段。人人推出了旗下类微信的应用“私信”。虽然这个独立应用旨在取代原本人人客户端的站内信，不过用户似乎并不买账。随着微信用户数量的高速增长，10 个月后，这个应用就已关停。</span> 
+</p>
+<p>
+	<span>人人 K 歌 ：随着唱吧之类的手机 K 歌应用的快速流行，人人又按耐不住了。2012 年 11 月 26 日，人人 K 歌应用发布，不过目前该应用已经下架。</span> 
+</p>
+<p>
+	<span>同学说：尽管人人公司已经不再将自己定位为一个大学生社交的网站。不过，这一转型并不顺利。2013 年 2 月，人人网发布了这款叫做“同学说”的应用。故名思议，这款应用专注于校园社交，并且需要根据手机定位进行身份认证，并且仅向 20 所大学开放。尽管这款应用至今仍可以下载，但它的 iOS 应用在推出一个月后就已不再更新。</span> 
+</p>
+<p>
+	<span>Bibi ：2014 年开始，匿名社交的概念在中国互联网圈中被炒的火热。人人当然不放过这次“机会”。2014 年 5 月，Bibi 推出，标志着这个实名社交网站，又开始玩起了匿名社交的概念。2014 年末后，这款应用再未见更新。</span> 
+</p>
+<p>
+	<span>向右：除了匿名社交，陌生人约会同样也是一个渐渐火起来的概念。2014 年 8 月，一款名为“向右”的应用上线。这款应用中只有两个互相向右滑动屏幕，选择为喜欢的人，才能进行私密的聊天。不用说，这又是抄袭了国外的 Tinder。自发布以来，这款应用在 App Store 上社交应用类的排名便从未进入前 500 位。</span> 
+</p>
+<p>
+	<span><strong>电商</strong></span> 
+</p>
+<p>
+	<span>人人逛街：2012 年 7 月人人网推出了这个购物分享站。不过它看上去并不像是国外大热的 Pinterest ，而更像是国内的导购站蘑菇街和美丽说。2012 年末，其对应的 iOS 应用推出，但是到了 2013 年 3 月，该应用最后一次更新后，便再无更新。</span> 
+</p>
+<p>
+	<span><strong>教育</strong></span> 
+</p>
+<p>
+	<span>人人趣学：2015 年 2 月人人趣学上线，人人网投入了 5000 万进入教育培训领域，并主攻艺术和体育类教育。据称，人人趣学设立了 80 多项目，并通过烧钱，吸引了上百名“大师级”教师。包括乐手、舞蹈家、画家和运动员。</span> 
+</p>
+<p>
+	<span>高学网：此前，人人网已于 2012 年 4 月投资了一家名为“高学网”的考研辅导站。目前该站已无法登陆。</span> 
+</p>
+<p>
+	<span>万门大学：2014 年 4 月，它又收购了在线视频教育网站——万门大学，意图整合人人网自身在教育领域的资源。</span> 
+</p>
+<p>
+	<span><strong>拍照</strong></span> 
+</p>
+<p>
+	<span>友拍：2015 年 3 月，在那个能拍出“大片效果”的足迹火了之后，人人也跟风推出了同类的应用“友拍”。目前在 App Store 上的摄影录像类应用中，始终在 300 名后徘徊。</span> 
+</p>
+<p>
+	<span>啵啵、美美、菲菲：2013 年初，图片社交已经有不少热门的概念。比如像啪啪那样，把在图片上加入声音；像 Instagram 用滤镜对照片进行美化；以及阅后即焚的Snapchat 那种，让照片在好友收到后数秒自动消失。而人人干脆把这些一口气玩了个遍，接连推出了三款相关的应用。不过，它们都没有活过几个月就纷纷下线。</span> 
+</p>
+<p>
+	<span><strong>旅行</strong></span> 
+</p>
+<p>
+	<span>风车网：一款类 Pinterest 的旅游网站。尽管 2012 年 3 月这个产品高调上线，不过 2 个月后，团队便宣告解散。</span> 
+</p>
+<p>
+	<span><strong>流媒体</strong></span> 
+</p>
+<p>
+	<span>人人电台：2011 年，人人网开始在音乐流媒体服务做尝试。它推出的人人电台，可以根据用户喜好推荐更多音乐。不过这依旧是在模仿豆瓣电台。目前该应用已在各大应用市场下架，网页版也无法使用。</span> 
+</p>
+<p>
+	<span>56 视频：2011 年 9 月，人人网斥资 8000 万美元收购了已经上线 6 年的 56 视频。然而，生意显然没那么好做，56 已经成为人人的不良资产。2014 年 10 月，人人便将它以 2000 万美元亏本卖给了搜狐。</span> 
+</p>
+<h2>
+	<span>重新定位社交金融</span> 
+</h2>
+<p>
+	<span>面对这些年的探索不利，陈一舟又为人人找到了新的定位。</span> 
+</p>
+<p>
+	<span>人人分期：2014 年推出人人分期，主要为大学生提供分期贷款来购买，电子产品，服装和化妆品等，据称积累了 27 万的用户。</span> 
+</p>
+<p>
+	<span>人人理财：到了 2015 年，继人人分期后，这家公司又推出了人人理财，主要提供固定收益的理财产品、股票基金类投资产品等。按照陈一舟的说法，人人理财的运营上将会趋于保守，而不是大肆烧钱，冲交易量。同时”在未来进入更多可盈利的互联网金融领域”。</span> 
+</p>
+<p>
+	<span>车易拍：除了金融产品，人人网还表示要由此进入二手车贷款市场。而在 2015 年 2 月，一家做二手车交易的网站——车易拍，就已获得了人人公司领投的 1.1 亿美元。</span> 
+</p>
+<p>
+	<span>其实人人网在金融领域入局已久。2014 年 9 月，它就花了 4000 万美元投资了国内金融服务公司——雪球财经。2015 年 1 月，它又以 4000 万美元投资了美国的社会化选股平台 Motif Investing。并在 3 月，7000 万美元领投旧金山的 P2P 抵押贷款公司 LendingHome。</span> 
+</p>
+<p>
+	除了没做成任何用户喜欢的产品，人人看上去什么都做了一遍。这也解释了它为什么没能在纽交所得到一个好的股价吧。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11437">
+				<span data-id="11437">退市</span>
+			</li>
+			<li class="tag item" data-id="234">
+				<span data-id="234">社交网络</span>
+			</li>
+			<li class="tag item" data-id="664">
+				<span data-id="664">投资</span>
+			</li>
+			<li class="tag item" data-id="721">
+				<span data-id="721">人人网</span>
+			</li>
+			<li class="tag item" data-id="11438">
+				<span data-id="11438">千橡</span>
+			</li>
+			<li class="tag item" data-id="11439">
+				<span data-id="11439">陈一舟</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10721" data-title="《人人要退市，你知道过去 4 年它做了几十个新产品么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10721/medium/10721.jpg?1436646209" data-url="http://www.qdaily.com/mobile/articles/10721.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24830.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24830/medium/24830.jpg?1459441001" alt="">
+                        <h1 class="title">再见，建筑师扎哈·哈迪德</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24810.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24810/medium/24810.jpg?1459418914" alt="">
+                        <h1 class="title">愚人节要来了，看全世界都觉得没安好心呐</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24789/medium/24789.jpg?1459407016" alt="">
+                        <h1 class="title">有个工厂仓库改的住宅，理想化得不可思议</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10721">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10721" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">87</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10709.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>深入敌后，先黑客一步保护网络安全是一种什么样的体验？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="深入敌后，先黑客一步保护网络安全是一种什么样的体验？。所谓“魔高一尺道高一丈”，这些人潜入地下网络，看着罪犯一步步形成他们的阴谋、出售他们的工具。。好奇心日报为您呈现深入敌后，先黑客一步保护网络安全是一种什么样的体验？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="网络安全 信息情报 纽约时报 科创公司 iSight Partners " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="G4lB3NyJJSIyZpuDLfAa8mMSPDRrs1Gj7DGSx8XxYLk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5113">
+				<span data-id="5113">网络安全</span>
+			</li>
+			<li class="tag item" data-id="16199">
+				<span data-id="16199">信息情报</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="16200">
+				<span data-id="16200">科创公司</span>
+			</li>
+			<li class="tag item" data-id="16201">
+				<span data-id="16201">iSight Partners</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">深入敌后，先黑客一步保护网络安全是一种什么样的体验？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Nicole Perlroth</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-09-18 07:44:01 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15057/medium/15057.jpg?1442468871" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15057" data-title="《深入敌后，先黑客一步保护网络安全是一种什么样的体验？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15057/medium/15057.jpg?1442468871" data-url="http://www.qdaily.com/mobile/articles/15057.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				所谓“魔高一尺道高一丈”，这些人潜入地下网络，看着罪犯一步步形成他们的阴谋、出售他们的工具。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	最近一个周三的早上，100&nbsp;名情报分析师挤进了一个没有特征的会议室，并通过拨号接通了群组电话，和来自阿根廷、巴西、塞浦路斯、印度、荷兰、罗马尼亚、西班牙、台湾和乌克兰的&nbsp;100&nbsp;位对手碰了个头。
+</p>
+<p style="text-align:left;">
+	待在会议室里的时候，这些分析师彼此之间通报着“暗网”的最新进展。
+</p>
+<p>
+</p>
+<p>
+	<img src="/uploads/image/201509/10af6f9d6046.jpg" width="675" height="450" title="1" alt="1" /><em>在位于美国弗吉尼亚州尚蒂利的安全公司 iSight 的总部，情报分析师正在电脑前工作。图片来源：Gabriella Demczuk for The New York Times</em> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span></span>巴基斯坦的一家安全公司正在赚着一笔小外快，以最少 500 美元一套的价格出售着它的谍报工具。已经有数家美国公共事业公司遭受了攻击，一个犯罪组织又重施故伎，用一种新型“勒索软件”感染并锁定受害者的电脑，直到收到赎金之后才会解锁。
+</p>
+<p style="text-align:left;">
+	和军事上的侦察员提供敌军情报很像，<a href="http://www.isightpartners.com/">iSight Partners</a>&nbsp;是一家提供计算机安全威胁情报的公司，它的雇员，也就是那些分析师，都很小心地不说出人名或者客户的名字，以防公开线路上的某处有人监听。
+</p>
+<p style="text-align:left;">
+	半小时后，他们就都回到了键盘旁边，监控暗中进行的聊天和隐秘的市场、分析可以造成伤害的计算机代码、监视潜在攻击者所在的网络，并仔细查看社交媒体上有关即将发生的攻击的迹象。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/10017c69808f.jpg" width="427" height="642" title="1" alt="1" /><span style="text-align:left;"><em>对于公司所关注的事情，iSight 的首席执行官约翰·沃特斯用军事术语来形容。</em></span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	&nbsp;在过去 8 年里，iSight 一直在默默组建着可能是这个新兴行业里最大的私人专家团队——这个行业叫作威胁情报业（threat intelligence）。在公司的 311&nbsp;位员工中，243&nbsp;位是所谓的网络情报专家，公司高管说，如果&nbsp;iSight&nbsp;是一家由政府经营的网络情报机构的话，这样的统计数据能让它排进世界前&nbsp;10——不过由于公司行为天然的隐秘属性，这个统计数据是无法查证的。
+</p>
+<p style="text-align:left;">
+	iSight 的分析师每天都在地下网络中挖掘信息，然后拼凑出黑客的意图、目标和技术，从而为他们的客户提供一些信息，比如警告他们即将迫近的攻击，以及被用来侵入计算机网络的最新工具和技术。
+</p>
+<p style="text-align:left;">
+	按照 iSight 的首席执行官约翰·沃特斯（John P. Watters）的说法，公司的关注点在于“防止爆炸的发生”（left of boom），这是一个军事术语，指的是爆炸装置爆炸之前的时刻。沃特斯今年 51&nbsp;岁，是一个高个子的德州人，他的标准制服就是夏威夷短裤和定制的牛仔靴。在谈到网络威胁时，他常常拿战争中的情况来做类比。
+</p>
+<p style="text-align:left;">
+	“当我们进入伊拉克时，导致人员伤亡最多的并非狙击手，”他说。而是因为隐蔽的爆炸装置。“我们一直没能走在威胁的前面，直到我们开始自问：‘谁在制造这些炸弹？他们是如何得到原材料的？他们是如何引爆它们的？我们如何能在炸弹被放置到那些地方之前就进入这个循环里？’”
+</p>
+<p style="text-align:left;">
+	他继续说：“我们的业务就是追踪那些武器商人和炸弹制造者，所以我们能防止爆炸的发生，并避免它造成影响。”
+</p>
+<p style="text-align:left;">
+	到目前为止，iSight 的投资人已经为公司投入了 6000&nbsp;万美元，他们相信公司的服务会在防止威胁发生的战争中填补一大关键空白。大多数安全公司，比如&nbsp;<a href="http://www.fireeye.com/">FireEye</a>、赛门铁克、<a href="http://www.paloaltonetworks.com/">Palo Alto Networks</a>&nbsp;和<a href="http://www.intelsecurity.com/">英特尔的安全部门</a>，它们关注的都是拦截或者检测正在发生的侵入行为，或者在攻击发生之后处理它们。
+</p>
+<p style="text-align:left;">
+	&nbsp;iSight 则直接瞄准了敌人。它的分析师中的很多人都能说流利的俄语、汉语普通话、葡萄牙语和其他 21&nbsp;种语言，他们会潜入地下网络，看着罪犯一步步形成他们的阴谋、出售他们的工具。
+</p>
+<p style="text-align:left;">
+	公司的客户包括 280&nbsp;家政府机构，以及银行和信用卡、医疗、零售和石油天然气公司。分析师的报告会帮助客户确定最迫近的威胁和可能造成毁灭性后果的威胁的先后顺序。
+</p>
+<p style="text-align:left;">
+	安全专家说，现在对此类情报的需求是有史以来最大的。在过去 3 年间，各类公司都一直在“大数据”分析工具上投资，这些工具可以在有人做出非常行为时发出警报——这些非常行为包括获得进入中国一台服务器的权限、建立私人连接，或者从公司网络中抽取数量非同一般的数据。
+</p>
+<p style="text-align:left;">
+	这些工具带来的是持续不断、令人困惑的噪音。“除了一些最成熟的组织以外，其他大部分公司都被淹没在了警报里，”安全公司&nbsp;<a href="http://www.optiv.com/">Optiv</a>&nbsp;的首席安全官杰森·克拉克（Jason Clark）说。
+</p>
+<p style="text-align:left;">
+	根据一月份由追踪数据泄漏的 Ponemon Institute&nbsp;<a href="http://www.ponemon.org/news-2/">发布的研究结果</a>，平均算下来，每个组织每周要收到&nbsp;16937&nbsp;次警报，其中只有&nbsp;19% 被认为是“可靠的警报”，只有 4% 的警报能得到调查。当罪犯制造了足够的噪音、以致终于引发全面调查时，金融服务公司要想发现它们，平均要花 3 个多月，而零售商则要花半年多时间。
+</p>
+<p style="text-align:left;">
+	“制造更多的警报不过是在浪费数十亿的风投资本罢了，”iSight 的一位投资人、Bessemer Venture Partners 的合伙人大卫·科文（<a href="http://www.bvp.com/team/david-cowan">David Cowan</a>）说。他说，负责网络安全的高管最不需要的就是更多的警报，“他们没有时间，他们需要人手，需要可以让人采取应对措施的威胁情报”。
+</p>
+<p style="text-align:left;">
+	科文和其他人都提到了&nbsp;<a href="http://www.nytimes.com/2013/12/21/business/in-apology-and-a-sale-target-tries-to-appease.html">2013&nbsp;年&nbsp;Target&nbsp;连锁超市发生的事故</a>，当时这家零售商忽略了一个警报，从而让罪犯从它的网络上窃取了&nbsp;4000&nbsp;万名顾客的详细支付信息。
+</p>
+<p style="text-align:left;">
+	此前一年，iSight 曾警告它的客户说，罪犯们正在编写和出售专门用来从现金收银机里抓取支付数据的恶意软件。如果 Target&nbsp;听取了那次警告，那它网络中存在的暂时性问题也不会没人重视。
+</p>
+<p style="text-align:left;">
+	“Target 面对的是所有零售商每天都会面对的问题，”沃特斯说，“它们每天都会被淹没在潮水般的严重警报里。如果没有威胁情报，它们从中发现正确警报的概率大概和玩轮盘赌差不多。”
+</p>
+<p style="text-align:left;">
+	研究机构 Gartner 预计，在两年的时间里，iSight&nbsp;所处的威胁情报市场的规模将会从&nbsp;2013&nbsp;年的&nbsp;2.55&nbsp;亿美元增长到&nbsp;10&nbsp;亿美元。Gartner 预计，到 2018 年，60% 的公司会在安全防御策略中包括威胁情报这一项。
+</p>
+<p style="text-align:left;">
+	iSight 正在计划明年上市，它希望自己实现资本化运营——这个市场中充斥着数十家各自业务略有不同的网络威胁情报公司，上市也是它们的目标。
+</p>
+<p style="text-align:left;">
+	初创公司的激增，已经让主管计算机安全的高管们有了新的怨言：他们收到的报告中，有时候能有 40% 的内容是重合的，而且每份报告都不便宜。iSight&nbsp;会依据规模向客户收费，虽然它并没有透露定价信息，但一些客户说，它们每年要为&nbsp;iSight&nbsp;的服务支付&nbsp;50&nbsp;万美元或者更多，大概是低端服务收费的&nbsp;5&nbsp;倍。
+</p>
+<p style="text-align:left;">
+	iSight 90% 的收入都来自于对其六大情报流的订阅费用，这六大情报流中的每一个都专注于某一特定的威胁，包括网络间谍活动和网络犯罪。
+</p>
+<p style="text-align:left;">
+	公司最近遇到的竞争来自于它最老的客户们，特别是银行——它们也一直在招聘曾经的情报分析师来开展内部情报分析。公司曾经的一个客户就说，它取消了对 iSight&nbsp;服务的订阅，因为由公司自己开展的情报项目所需的成本只有订阅费用的一半。由于担心违反保密协议，该客户不愿透露自己公司的名字。
+</p>
+<p style="text-align:left;">
+	但大多数公司并不具备像美国银行（Bank of America）那样的资源——美国银行的首席执行官最近说，它们家的网络安全预算是不封顶的。
+</p>
+<p style="text-align:left;">
+	许多此类公司的网络上还在使用着昂贵的安全技术，而这些技术不断响起的警报声则让这些公司变得麻痹了。
+</p>
+<p style="text-align:left;">
+	在 iSight 的威胁中心，这家公司一位顶级分析师穿的 T 恤上有一个 logo，上面的一句话也许最能总结公司对待自己业务的态度：“Someone should do something”（该有人管管了）。
+</p>
+<p style="text-align:left;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	翻译 &nbsp;&nbsp;<span>is</span>译社
+葛仲君
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5113">
+				<span data-id="5113">网络安全</span>
+			</li>
+			<li class="tag item" data-id="16199">
+				<span data-id="16199">信息情报</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="16200">
+				<span data-id="16200">科创公司</span>
+			</li>
+			<li class="tag item" data-id="16201">
+				<span data-id="16201">iSight Partners</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15057" data-title="《深入敌后，先黑客一步保护网络安全是一种什么样的体验？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15057/medium/15057.jpg?1442468871" data-url="http://www.qdaily.com/mobile/articles/15057.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/8970.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/8970/medium/8970.jpg?1436689399" alt="为适应新时代网络安全，华盛顿开始和硅谷联络感情">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">为适应新时代网络安全，华盛顿开始和硅谷联络感情</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">12</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13457.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/13457/medium/13457.jpg?1439439023" alt="现在黑客连你的静脉都能入侵了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">现在黑客连你的静脉都能入侵了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">31</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26303.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26303/medium/26303.jpg?1462235765" alt="">
+                        <h1 class="title">英国王妃登上 Vogue 百年纪念刊，以及，Chanel 水桶包不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26290.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26290/medium/26290.jpg?1462174598" alt="">
+                        <h1 class="title">这是展厅还是住家，好像不是一个重要的问题</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26288.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26288/medium/26288.jpg?1462182064" alt="">
+                        <h1 class="title">“菲董”和阿迪达斯三叶草的新合作，又会成为大热门？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26295.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26295/medium/26295.jpg?1462180067" alt="">
+                        <h1 class="title">讨论魏则西事件，不要打错板子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26310.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26310/medium/26310.jpeg?1462231000" alt="">
+                        <h1 class="title">大公司头条：比特币创始人现身，苹果股价已经连续跌了三周多</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15057">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15057" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15080.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

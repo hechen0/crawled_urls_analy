@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>超级玛丽成了人工智能的实验田_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="超级玛丽成了人工智能的实验田。要让游戏生产游戏。好奇心日报为您呈现超级玛丽成了人工智能的实验田的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="游戏 超级玛丽 人工智能 AI " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="b+vmVMKy5iwCpuRqOwHfXJvaXeBYeKS6H/YUwDFNyQk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="915">
+				<span data-id="915">超级玛丽</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="1020">
+				<span data-id="1020">AI</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">超级玛丽成了人工智能的实验田</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/113378/small/113378.jpg?1435590009" alt="">
+					</span>
+				<span class="name">周韶宏</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-28 08:10:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11325/medium/11325.jpg?1436640690" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11325" data-title="《超级玛丽成了人工智能的实验田》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11325/medium/11325.jpg?1436640690" data-url="http://www.qdaily.com/mobile/articles/11325.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				要让游戏生产游戏
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	想设计出类似 Flipbird 这样结构简单，但又极具挑战的游戏么？以后可能不用关卡设计师动脑了。
+</p>
+<p>
+	本周，<a href="http://www.cc.gatech.edu/news/418041/georgia-tech-researchers-train-computer-create-games-watching-youtube" target="_blank">佐治亚理工学院</a>对外展示了一个全新的人工智能系统，它能做的可不是开外挂代你打机，而是不断让游戏产生新的、越来越难的关卡。
+</p>
+<p>
+	做到这点，机器人先要观看一段来自 YouTube 或者 Twitch 的游戏视频，学习、分析其中的逻辑和规则，之后它就开始编程了。团队的开发人员首先拿超级玛丽做了测试。
+</p>
+<p>
+	机器人关注的重点在这款游戏的地形和元素设置——水管、砖块金币之间的关系。在学会以后，它就知道板栗仔要在地上跑、章鱼要在水里游这些基本设定，也明白了砖块要设计成多宽，以便让马里奥能跳的过去。
+</p>
+<p>
+	这台机器人根据游戏视频中玩家耗时最多的部分，判定哪个区域的互动性最强，继而进行数据挖掘，编写出新的关卡。
+</p>
+<p>
+	对玩家来说，机器人生产出的新关卡是全新且非随机的，并且难度越来越高。至于这些关卡好玩不好玩我们尚不清楚，不过佐治亚理工学院的研究人员说，他们下一步的打算是评估真实玩家对新关卡的反应，并把这个结果和原生关卡做对比。
+</p>
+<p>
+	作为史上最畅销的电子游戏之一，超级玛丽今年已经 30 岁了。这部任天堂开发的传奇游戏已再发行和复刻了许多次，衍生出数十款新游戏。迄今多个版本的总销量已<a href="https://zh.wikipedia.org/wiki/%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%85%84%E5%BC%9F" target="_blank">突破 4000 万套</a>，主人公马里奥也成为日本游戏产业的标志性符号。
+</p>
+<p>
+	超级玛丽并不是头一回和人工智能扯上关系了，据&nbsp;<a href="http://venturebeat.com/2015/01/17/this-ai-mario-learns-how-to-chase-coins-and-navigate-the-mushroom-kingdom/" target="_blank">Venture Beat 报道</a>，今年初，德国图宾根大学的认知建模小组展示了一个名叫 Mario A.I. 的项目，他们让马里奥学习人类的语音内容，理解大量的英文语言和命令，从而获得过关的经验，自行对游戏做出决策。
+</p>
+<p>
+	在 2013 年，一位名叫&nbsp;<a href="http://arstechnica.com/gaming/2013/04/this-ai-solves-super-mario-bros-and-other-classic-nes-games/" target="_blank">Tom Murphy</a>&nbsp;的开发者利用“字典序（Lexicographic order）”的方法让马里奥具备了人工智能的色彩。这是一个简单而有效的数学算法，可以用来判断一组数值的最佳排序，它常常被用在图书馆整理和字典编纂当中。
+</p>
+<p>
+	Murphy 设计了两个程序，一个用来记录人工玩游戏的关键数据，另一个用算法分析这些数据，从而让马里奥判断怎么跳跃、怎么吃金币。
+</p>
+<p>
+	会自己打游戏的机器人不止马里奥。一家被 Google 收购的公司&nbsp;<a href="http://bits.blogs.nytimes.com/2015/02/25/a-google-computer-can-teach-itself-games/?ref=technology&amp;_r=1" target="_blank">DeepMind Technologies</a>&nbsp;也开发过一套深度学习系统，可以自己操作 49 款小游戏，比如视频弹球游戏 Video Pinball。这个机器人需要人类不断的训练，每次得到高分，机器人就会得到“狗粮”奖励。机器人就这样在试错和鼓励中学习技巧。
+</p>
+<p>
+	不过如果拿来两个人工智能机器人，一个不断设计游戏、一个不断操作游戏，谁会赢呢？
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="https://www.flickr.com/photos/mikeylemoi/">Mikey Lemoi</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="915">
+				<span data-id="915">超级玛丽</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="1020">
+				<span data-id="1020">AI</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11325" data-title="《超级玛丽成了人工智能的实验田》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11325/medium/11325.jpg?1436640690" data-url="http://www.qdaily.com/mobile/articles/11325.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25225.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25225/medium/25225.jpg?1460257174" alt="">
+                        <h1 class="title">贴上“第五大时装周”的标签，就算是一场好的时装周吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25204.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25204/medium/25204.jpeg?1460159423" alt="">
+                        <h1 class="title">有人习惯早上来杯咖啡，但也许你也可以试试这个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25214.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25214/medium/25214.jpeg?1460187913" alt="">
+                        <h1 class="title">遇到这 22 种情况，我只想说我已经尽力了 | 好奇心研究所</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25216.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25216/medium/25216.jpg?1460190613" alt="">
+                        <h1 class="title">为了普及自动驾驶，这些卡车花 6 天贯穿了欧洲</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25224.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25224/medium/25224.jpg?1460248864" alt="">
+                        <h1 class="title">在一个遥远的银河系，姜文举枪扫射帝国冲锋兵</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11325">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11325" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">19</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11314.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

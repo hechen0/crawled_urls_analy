@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这个公司想给游戏作者钱，但是好心办了坏事_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这个公司想给游戏作者钱，但是好心办了坏事。关于游戏，给钱并不一定能催生更好的内容。好奇心日报为您呈现这个公司想给游戏作者钱，但是好心办了坏事的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="上古卷轴 Vavle 付费 Mod Vavle " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="1vhJLBWWrcmaS07e1jhos1kLHDggLdKZbsM/4cxe53c=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9652">
+				<span data-id="9652">上古卷轴</span>
+			</li>
+			<li class="tag item" data-id="9653">
+				<span data-id="9653">Vavle</span>
+			</li>
+			<li class="tag item" data-id="6659">
+				<span data-id="6659">付费</span>
+			</li>
+			<li class="tag item" data-id="9654">
+				<span data-id="9654">Mod</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这个公司想给游戏作者钱，但是好心办了坏事</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-05 07:59:32 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9164/medium/9164.jpg?1436687921" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9164" data-title="《这个公司想给游戏作者钱，但是好心办了坏事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9164/medium/9164.jpg?1436687921" data-url="http://www.qdaily.com/mobile/articles/9164.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				关于游戏，给钱并不一定能催生更好的内容
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	仅仅&nbsp;<span lang="EN-US">4&nbsp;</span>天，<span lang="EN-US">Valve</span>，这个拥有世界上最大的游戏平台&nbsp;<span lang="EN-US">Steam&nbsp;</span>的游戏公司巨头就向玩家低头认错了：他们承认自己关于游戏&nbsp;<span lang="EN-US">Mod&nbsp;</span>的收费是一个不明智的决定。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	在&nbsp;<span lang="EN-US">4&nbsp;</span>月&nbsp;<span lang="EN-US">24&nbsp;</span>日的时候，<span lang="EN-US">Valve&nbsp;</span>在其创意工坊内发布一则通告，宣布允许玩家可以售卖其自行开发的游戏&nbsp;<span lang="EN-US">Mod</span>，并获得收入分成，以对那些制作者表示鼓励。<span lang="EN-US">Mod&nbsp;</span>一词来源于&nbsp;<span lang="EN-US">Modification</span>，一般指玩家借助已有的游戏和游戏编辑器，修改其中的角色、道具、场景甚至任务和剧情，为已有的游戏增添一种新的玩法或元素。国内玩家熟悉的&nbsp;<span lang="EN-US">Mod&nbsp;</span>类型一般是《星际争霸》系列和《魔兽争霸》中的各色各样的地图。<span lang="EN-US">Dota2&nbsp;</span>这一如今世界热门电子竞技游戏从某种意义上来说就是从《魔兽争霸&nbsp;<span lang="EN-US">3</span>》的一个&nbsp;<span lang="EN-US">Mod&nbsp;</span>地图发展而来。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US">Valve&nbsp;</span>这次&nbsp;<span lang="EN-US">Mod&nbsp;</span>付费针对的主要对象是《上古卷轴&nbsp;<span lang="EN-US">5</span>：天际》，这或许是因为这个游戏的&nbsp;<span lang="EN-US">Mod&nbsp;</span>实在是太受欢迎了。<span lang="EN-US">Steam&nbsp;</span>的创意工坊里有超过&nbsp;<span lang="EN-US">2&nbsp;</span>万个《上古卷轴&nbsp;<span lang="EN-US">5</span>：天际》的&nbsp;<span lang="EN-US">Mod</span>，下载次数超过&nbsp;<span lang="EN-US">1.7&nbsp;</span>亿次，最高的一款甚至高达&nbsp;<span lang="EN-US">900&nbsp;</span>万次。在&nbsp;<span lang="EN-US">Valve&nbsp;</span>和《上古卷轴&nbsp;<span lang="EN-US">5</span>：天际》的发行商&nbsp;<span lang="EN-US">Bethesda </span>协商后，决定将&nbsp;<span lang="EN-US">Mod&nbsp;</span>出售所得收入&nbsp;<span lang="EN-US">25%&nbsp;</span>分给制作者，<span lang="EN-US">Valve&nbsp;</span>将获得&nbsp;<span lang="EN-US">30%</span>，<span lang="EN-US">Bethesda </span>将获得&nbsp;<span lang="EN-US">45%</span>。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	然而这马上就引来了非常多玩家包括&nbsp;<span lang="EN-US">Mod&nbsp;</span>制作者在内的抵制。有超过&nbsp;<span lang="EN-US">3&nbsp;</span>万人联名抵制&nbsp;<span lang="EN-US">Valve&nbsp;</span>这一行为，不仅仅是因为这个悬殊的分成比例让很多玩家十分愤怒，更多的是玩家们称此举违反了&nbsp;<span lang="EN-US">Mod&nbsp;</span>所代表的分享、合作的精神，并指责&nbsp;<span lang="EN-US">Valve&nbsp;</span>通过付费&nbsp;<span lang="EN-US">Mod&nbsp;</span>的行为垄断了&nbsp;<span lang="EN-US">Mod&nbsp;</span>的发行平台。一些价格奇高但内容低劣也出现在&nbsp;<span lang="EN-US">Steam&nbsp;</span>平台上，虽然&nbsp;<span lang="EN-US">Steam&nbsp;</span>允许玩家在下载购买&nbsp;<span lang="EN-US">Mod 24&nbsp;</span>小时内可以退货，但是这依旧影响了不少玩家的游戏体验。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	幸好&nbsp;<span lang="EN-US">Valve&nbsp;</span>在一开始公布这项规定的时候就曾说过如果效果不好就会停止，现在既然遭到强烈反对，<span lang="EN-US">Valve&nbsp;</span>也爽快地关闭了这个只试行了&nbsp;<span lang="EN-US">4&nbsp;</span>天内的功能。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	事实上，关于 <span lang="EN-US">Mod </span>的商业化，从&nbsp;<span lang="EN-US">2011&nbsp;</span>年起&nbsp;<span lang="EN-US">Valve </span>就开始实行了，只不过是针对自家的游戏而已。不论是《反恐精英》还是&nbsp;<span lang="EN-US">Dota2</span>，每天创意工坊都会接到一大批玩家自己制作的游戏内游戏道具，<span lang="EN-US">Valve&nbsp;</span>有专门的人对其进行审核和挑选，最终放上平台进行售卖，并向制作者支付报酬。今年&nbsp;<span lang="EN-US">1&nbsp;</span>月&nbsp;<span lang="EN-US">Valve </span>发布声明称，他们已经为全球&nbsp;<span lang="EN-US">75&nbsp;</span>个国家的&nbsp;<span lang="EN-US">1500&nbsp;</span>名游戏内容制作玩家支付了&nbsp;<span lang="EN-US">5700&nbsp;</span>万美元——真的有很多人就靠开发几个&nbsp;<span lang="EN-US">Mod&nbsp;</span>就完成了买车买房的人生理想。同时，为了鼓励更多的玩家自主开发游戏内容，<span lang="EN-US">Valve </span>宣布&nbsp;<span lang="EN-US">Steam&nbsp;</span>将支持非&nbsp;<span lang="EN-US">Valve&nbsp;</span>游戏的&nbsp;<span lang="EN-US">Mod&nbsp;</span>下载和制作。而当&nbsp;<span lang="EN-US">Valve&nbsp;</span>想把同样的商业模式移植到别的游戏的时候，他们遇到了大麻烦。对于一个原本靠着玩家自愿捐助而生存的《上古卷轴》系列&nbsp;<span lang="EN-US">Mod&nbsp;</span>制作群体，金钱对他们来说意味着限制和收买。而且一旦涉及到商业化，本来因免费共享而被忽略的版权问题也会蜂拥而来。无论对制作者还是玩家，这都不是好消息。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	也许&nbsp;<span lang="EN-US">Valve&nbsp;</span>最开始推行&nbsp;<span lang="EN-US">Mod&nbsp;</span>收费的初衷，真的是为了看到更好的&nbsp;<span lang="EN-US">Mod&nbsp;</span>和&nbsp;<span lang="EN-US">Mod&nbsp;</span>制作者的出现。但是他们也许忘记了，互联网和游戏的诞生，使得一些商业法则不再那么有效——有的时候钱不再是一种最重要的驱动力。兴趣，文化共同体和分享的精神，这才是那些&nbsp;<span lang="EN-US">Mod&nbsp;</span>作者，乃至广大游戏玩家所关注的。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9652">
+				<span data-id="9652">上古卷轴</span>
+			</li>
+			<li class="tag item" data-id="9653">
+				<span data-id="9653">Vavle</span>
+			</li>
+			<li class="tag item" data-id="6659">
+				<span data-id="6659">付费</span>
+			</li>
+			<li class="tag item" data-id="9654">
+				<span data-id="9654">Mod</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9164" data-title="《这个公司想给游戏作者钱，但是好心办了坏事》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9164/medium/9164.jpg?1436687921" data-url="http://www.qdaily.com/mobile/articles/9164.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25203.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25203/medium/25203.jpg?1460157898" alt="">
+                        <h1 class="title">ASOS 退出中国，为什么时尚电商在中国总是行路艰难？ </h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25214.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25214/medium/25214.jpeg?1460187913" alt="">
+                        <h1 class="title">遇到这 22 种情况，我只想说我已经尽力了 | 好奇心研究所</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25224.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25224/medium/25224.jpg?1460248864" alt="">
+                        <h1 class="title">在一个遥远的银河系，姜文举枪扫射帝国冲锋兵</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25216.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25216/medium/25216.jpg?1460190613" alt="">
+                        <h1 class="title">为了普及自动驾驶，这些卡车花 6 天贯穿了欧洲</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25204.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25204/medium/25204.jpeg?1460159423" alt="">
+                        <h1 class="title">有人习惯早上来杯咖啡，但也许你也可以试试这个</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9164">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9164" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9160.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

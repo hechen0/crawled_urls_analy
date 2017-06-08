@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4。并不算。好奇心日报为您呈现把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="拖延症 战胜拖延症 好奇心实验室 结构性拖延 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="3ROnDvtyEJJj6fZ3WYBLBlYMSARzZFtbL0Tniuvbu6g=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路 塔拉 大头君</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-05 20:52:49 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/17157/medium/17157.jpg?1446718558" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17157" data-title="《把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17157/medium/17157.jpeg?1455794250" data-url="http://www.qdaily.com/mobile/articles/17157.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				并不算
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<h2>我“觉得”自己已经不需要番茄钟了 | 唐云路-科技记者</h2><p>没错，我又一次没有成功早睡。相比起专心工作，明明很早就躺到床上，一个小时之后还在一边聊天一边喊着“我真的要睡了”，才是拖延症族群中的顽疾。</p><p>有晚睡强迫症的人并不需要觉得孤单，我认识一位朋友已经将近十年，从认识的一开始她就尝试晚睡，但是辗转换了三个国家、五个城市生活以后，她仍然深夜在病友群里喊着，又一天早睡的努力失败了。</p><p>我们之所以晚睡，可能是因为属于自己的时间太少，即使很晚才开始完全私人的时间，也想要尽量延长一些，形成一种能够自由掌控生活的错觉。</p><p>事实证明，一个有相同目标的群体内的互相激励还是有些作用的，如果不是昨晚一直有人在微信群里提醒我该睡了，可能我会玩到更晚才睡。</p><p>早起已经变得不那么痛苦，运动坚持下来也不是难事。如果你也想尝试类似的方法，需要的可能是一个初始的动力和一个激励你坚持的机制。这也是为什么许多心理咨询师都建议采用团体治疗的方法，来改变拖延行为。</p><p>尽管组成一个团体有“看到别人也这么拖，我也继续拖”的风险，但是同样的，对于一些人来说，互相监督和提醒确实能够起到作用。</p><p>一天工作下来，我完成了 11 个番茄钟，但是有多少番茄似乎已经不重要了。我不再需要 25 分钟一个停顿来放松紧绷的精神，而是在一件任务完成之前都保持不去分心。</p><p>即使有临时的消息需要处理，我能够做到处理完之后不再顺手刷一下朋友圈和群消息。前几天的番茄工作法的调节之下，我获得了这样的心理暗示：实时跟进社交网络不会让你获得什么，而远离它一整天，也不会错过什么。</p><p>而在办公环境比较嘈杂的时候，我改用提前设定好的歌单来调节状态。我们曾经讨论过，你需要一个找到一个能让你燃烧的动力，从根本上打败拖延。而合适的音乐，能够在当下让你迅速燃起来，帮你达到“立即行动”的目的。</p><p><img src="http://cms.qdaily.com/uploads/image/201511/def9b44a3642.jpg" width="1024" height="429" title="Rescue Time 统计 " alt="Rescue Time 统计 "><em>Rescue Time 统计</em></p><p>为了不在阅读的时候分心，我尽量使用 Kindle 而不是手机的阅读客户端读书。只有在需要和人进行大段沟通的时候，我才登陆网页版微信。但是比起另一位同事在 Rescue Time 高达 91 的得分，其实我离治愈拖延症还有不太近的距离。</p><p>不过，严格遵循设定好的规则几天下来，我已经到了收获比“立刻完成任务”的短期成就感更容易持久的满足感的时候了。</p><p>我完成了微信公共号内容的编辑与推送，写了一篇令自己满意的文章，保证了阅读时间，为下周准备的选题也推进了下去，还留出了精力和空闲见线人。</p><p>在占据预估工作量四分之一的大任务一直没完成的激励之下，今天四分之三的工作完成地格外高效。剩下的那一项工作，这篇报告发出之后，我会继续把它完成。</p><p>不过最艰难的工作没有启动，这似乎并不算治愈。</p><p>我决定拒绝拖延症患者这个标签，因为如果你认定了拖延者这个角色，在一定程度上就把所有的借口都丢给了这个标签，而心安理得的不去改变。没有人会百分之百不拖延的，与其陷入讨厌自己的低落情绪，不如先试试忘掉拖延症这件事。</p><h2>告诉你资深拖延症是怎么愈陷愈深的 | 塔拉-项目经理</h2><p>今天我打算尝试库克作息法。</p><p>闹钟响的时候，我倒是醒了，但是很快昏睡过去，而且比过去几天起床的时间还要晚。</p><p>昨天跟云路说我要更新公众号，结果依然被一个工作电话+上网+琐碎聊天+吃东西打得碎碎的。醒来之后发现病友们都在按部就班地执行自己的方法，焦虑好像又更严重了。</p><p>大头君问我，你为什么焦虑啊？</p><p>因为第一天定下的目标，到现在还没有全部完成，我好像进入一个熟悉的场景里，重复过去几个月，甚至几年的状态，困在拖延症患者的空间。</p><p>坦白说，我不能把拖延至今的原因单纯归咎于“拖延症”这三个字。</p><p>有几种情况：</p><p><strong>团队的协作，每一个人如果有一步拖延，就会导致多米诺骨牌似的坍塌</strong>。</p><p>比如一张图，文案有一句文案没写好，那设计作图就得推迟，设计推迟，那给到客户就要推迟，客户推迟确认，那资源安排就要推迟，媒介推迟的话，执行就要推迟，对于我而言，这个项目整体就要推迟，在我的 to do list 里面就会有一项延迟。</p><p>在项目里，媒介、设计、品牌合作方、客户等每一项动作，都会是推倒我拖延症的一张骨牌。</p><p>所以比其他工种的童鞋们更复杂的是，项目经理的“拖延症”治愈很大程度会依赖其他人。</p><p>治愈这种拖延症的关键，就是如何让团队里的每一个人进行时间管理，有时候我会借助一些团队协作工具，包括但不限 Action plan/Tower/Teambition，但更多时间主要还是靠“人肉”管控，额，这当然也是我的时间为什么耗费如此严重的原因。</p><p><strong>还有一种是整体的，常见于开会和方案提交。</strong></p><p>大家都知道，广告公司的头脑风暴并不如外面想象那么绚丽，可能是一场你说我杀的 PK 风暴，也可能是一场“最怕空气突然沉默”。在创意上无法达成一致，内部对创意的精益求精（自己不满意内部否掉然后修改)，Big idea的难产，都会让我的 aTimeLogger 饼状图出现一大块纯色的“奶酪切块”（全部都在开会）。</p><p>在这个过程中，如何确保每个人都清晰理解需求，有效快速地产出创意、进行决策，是治愈团体性拖延症的关键。</p><p><strong>而在和外部团队合作的时候，则需要双方有效地达成一致。</strong></p><p>沟通是否清晰，需求是否明晰或者得到满足，双方对品牌和目标认知是否一致，都左右着 deadline 能否按时抵达。</p><p>在这个过程中，大家如果达成目标的一致，甲方的时间管理，都是治愈另一种团体（我认为甲乙方的关系并不是客户与乙方的关系，而是伙伴关系）拖延症的关键。</p><p>而工作的拖延也左右着个人的拖延，我几乎难以开启个人事项。因为几乎没有自己的时间。</p><p>真有个人时间的时候，我开始像很多病友描述的，刷朋友圈刷淘宝刷微博。因为心里对重要事项未完成的焦虑，反而产生了一种逃避情绪，有点像云路提到的情绪性拖延。</p><p>因为积累性的拖延事项，我因为没有办法一下子扫清障碍，而是绕着这座山走。在这个维度里，不管怎么样，“开始”总是最好的方式。</p><p>我总想着需要一个完整的周末一次性处理掉它，但是事实上我只能每天抽出 1 个小时甚至半个小时，而抽不出整块的时间。那么我就半个小时半个小时地做。</p><p>于是我发现，半个小时开启之后，就会不自觉地延伸到 1个小时 2 个小时，任务就完成了。</p><p>就像昨天晚上，我在等待手机充电开启的时间，只打算阅读 10 分钟，却花了 1 个小时把我拖延两个月没有读完的那本书读完。</p><p>最后分享一段，我在昨晚阅读的那本书里看到的一段话：</p><blockquote><p>“现在回想起来 ，我们总将幸福快乐定格在将来时态 ——如果我买了一幢大房子就会快乐 ，如果我追到我的 “女神 ”就会快乐 ，如果我升职位就会快乐 … …然而人的欲望永无止尽 ，世上并没有一劳永逸的快乐 。如果我们总是抱着对未来的期待去生活 ，也便错失了每一个当下片刻的快乐 。”</p></blockquote><p>对于拖延症患者，或者任何一个心里有愿望的人，出发也许就是抵达。</p><h2>完成一个看似不可能的任务 |大头君-设计师</h2><p>大头君在一开始描述拖延症状的时候，就强调了无法早起，磨磨蹭蹭不出门的困扰。昨天他宣布要早起去地坛拍照的目标时，我们都觉得他根本做不到。</p><p>似乎正是因为这种不看好，大头君今天的报告特别美：</p><p>不好意思，编辑同学，你的吐槽已经被我消灭了！</p><p>昨天给自己设定了一个目标，就是去地坛拍摄银杏叶。</p><p>今天 8 点半起床后，发现窗外是阴雨天，心里开始有了抵触情绪。天气这么差，下雨，还带着雾霾，很难拍出好照片。最终我带着怀疑出门了，地坛离我家 20 公里，路程在一个半小时左右。</p><p>路上，我带着一丝抱怨，告诉远方的女友今天的计划。她鼓励我订了计划就去做。可是看到地坛公园门口那一排没有秋天感觉的树，我那一股劲几乎都快泄完了。</p><p>怀着最后一丝希望我买了门票，走进大门。最终，我被那一片美景震撼也治愈了。阴沉沉的天空下，墨绿色的松林中有一抹黄灿灿的银杏树，反而格外的耀眼。</p><p>我并没有拍下整个树林，而是以小景别去渲染一个深秋的气氛：椅子上的银杏，水中的银杏树倒影，一片在水中的银杏叶，银杏树上飞过的鸽子等等......</p><p>一个小时后，我带着不再低落的情绪回公司准备上班。在回去的路上，我用手机调整照片，到公司时已将所有照片已经处理完毕。在朋友圈收获了 50 个赞，女友则表示要把这批照片做成明信片：来自他人的肯定同样有助于治疗拖延。</p><p>今天的计划：</p><p>1，h5demo ；2，logo延展&amp;参考；3，交加班单；4，地坛拍照；5，新项目会议；6，面试会；7，整理电脑桌面（编辑注：这个任务每天都出现在列表里）。</p><p>到现在还未完成的是 Logo 延展&amp;参考和整理电脑桌面，我准备在晚些时候把它们处理完。</p><p>早上拍摄的作品成为了一天不拖延的动力。我想，不论工作和生活，需要制造一些让自己和他人发出一丝惊叹的事情，给自己动力的同时也给别人带来一些动力。</p><p>明天就是实验的最后一天，我得想想，明天还需要做些什么增加动力的事情。</p><h2>那位自愿发来报告的学生，新的报告拖了一天才交</h2><p>QuillBlue 是一名即将毕业的学生，实验室第二天的时候我们<a href="http://www.qdaily.com/articles/17030.html" target="_blank">刊登了他的报告</a>。我们并没有强制要求自愿接受治疗的病友逐日发送报告，于是他以“3 和 4 就应该在一起”的理由，把第三天和第四天的体验并到了这一篇报告里：</p><p>周三和周四是两天截然不同的画风：周三除了为某社团做了两张图之外一天基本上都在安静的写代码，而周四则赶了四五个地方去办各种各样的事儿，大部分时间都花在了路上。</p><p>从某种角度来说，我还是挺喜欢这样的安排——至少不用担心自己需要留给安静工作的时间被分割成太多碎片。</p><p>在记录了使用番茄工作法的一天之后，我更想试验一下，在没有软件辅助的情况下，仅靠自律能够保持多久的专注力？</p><p>周三，我没有打开计时工具，只是把手机放在稍远（工作状态下伸手够不到）的位置，然后开始工作。最后得到的结果是，这的确能克制自己玩手机的冲动，但是思路还是会不可避免的被手机振动提示打断。</p><p>而那一天的实验室环境也比以往要嘈杂，为了减少声音的干扰，我戴上了耳机，放了一些比较舒缓的音乐。</p><p>除了起到隔音的效果之外，我意外的发现，好像带着耳机时更不容易被不重要的事情打断？</p><p>今天的日程安排地很满，相应地，时间也不为我自己所控制。比如去世博展览馆领上马的装备的时候，排了很久的队，接下来的面试差点迟到。不过，我并没有因此拖延。</p><p>或许是因为， Deadline 这个第一生产力的存在。下午实验室主人转发了评论区截图给我，告诉我还有读者惦记我这个没有连续交报告的学生党。在她的督促之下，下午的面试结束之后我就立刻借了个工位坐下，把这篇报告用手机写完，直接发出。</p><p>这么一来，我感觉拖延症还是有救的嘛。</p><h2><b>今日 Tips</b></h2><ul><li>先不要急着设定“不要做 XX”、“不许 XX”的目标，因为这种毫无约束力却又容易引发负面情绪的目标，往往就是拖延的诱因。与其告诉自己“今晚睡前不许看公共号”，不如先约定好“看完好奇心日报的拖延症报告就睡觉”。试试看呗！ 	</li><li>选对音乐很重要。比如，每次有同事播放 My Boyfriend is Gay 这首神曲，大家都会明显感到我敲键盘的速度变快一倍并且富有节奏，而另一些同事听到这首就恨不得跳下 26 楼去。</li><li>如果经常被周围的环境打扰，我们建议你使用入耳式的降噪耳机进行物理隔绝，人声、噪音以及那些在拖延时听起来格外有趣的茶水间八卦，通通都排除到世界之外。《好奇心日报》编辑亲测推荐 Bose QuietComfort 20，测评报告请看<a href="http://thewirecutter.com/reviews/best-noise-cancelling-in-ear-headphones/" target="_blank">这里</a>。</li><li>另外，大可不必为了环境无法保持绝对安静而焦虑。如果环境不能改变，那么需要做的是适应而不是抗拒。就像失眠并不可怕，为了失眠而焦虑才是可怕的。</li></ul><h2>实验报告</h2><p><a href="http://www.qdaily.com/articles/16965.html" target="_blank">学库克四点起床挑战自己的拖延症 | 战胜拖延症实验室 Day 1</a></p><p><a href="http://www.qdaily.com/articles/16975.html" target="_blank">战拖延症实验者 B，画番茄输给了临时加的会 | Day 1</a></p><p><a href="http://www.qdaily.com/articles/16976.html" target="_blank">战拖延症实验者 C，爱做计划的人又做了个没完成的计划 | Day 1</a></p><p><a href="http://www.qdaily.com/articles/17030.html" target="_blank">让人知道你在干活，被打断也别焦虑 | 战胜拖延症实验室 Day2</a></p><p><a href="http://www.qdaily.com/cards/17089.html" target="_blank">拖的理由各不一样，解决办法倒没啥不同 | 战胜拖延症实验室 Day 3</a></p><p>更多的战拖疗法和体验报告，请继续关注本期实验室的每晚更新。</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3633">
+				<span data-id="3633">拖延症</span>
+			</li>
+			<li class="tag item" data-id="18088">
+				<span data-id="18088">战胜拖延症</span>
+			</li>
+			<li class="tag item" data-id="13905">
+				<span data-id="13905">好奇心实验室</span>
+			</li>
+			<li class="tag item" data-id="18359">
+				<span data-id="18359">结构性拖延</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17157" data-title="《把不想做的事情先放一边，也能算治愈么？ | 战胜拖延症实验室 Day 4》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17157/medium/17157.jpeg?1455794250" data-url="http://www.qdaily.com/mobile/articles/17157.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25888.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25888/medium/25888.jpeg?1461319694" alt="">
+                        <h1 class="title">再见，普林斯，我们永远怀念你带来的诱惑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25892.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25892/medium/25892.jpg?1461326116" alt="">
+                        <h1 class="title">「万物简史」三个东印度公司的接力赛</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25886.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25886/medium/25886.jpg?1461315879" alt="">
+                        <h1 class="title">别等了，“龙妈”艾米莉亚和新《终结者》没关系了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25897.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25897/medium/25897.jpg?1461374984" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25874/medium/25874.jpg?1461302470" alt="">
+                        <h1 class="title">比起 Instagram，广告主们没那么喜欢 Snapchat </h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25894.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25894/medium/25894.jpg?1461332433" alt="">
+                        <h1 class="title">高通 CEO 暗示，英特尔真的抢了自己的 iPhone 订单</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25895.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25895/medium/25895.jpg?1461334040" alt="">
+                        <h1 class="title">出门旅行带上这些，又美又解决问题丨这个设计了不起</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17157">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17157" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">105</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17149.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

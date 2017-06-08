@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>人工智能医生和人类医生，你更信哪一个？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="人工智能医生和人类医生，你更信哪一个？。数据已经在发挥效用，人们看到了它稳定可靠的一面，但是它真的能取代人类医生吗？。好奇心日报为您呈现人工智能医生和人类医生，你更信哪一个？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 技术 人工智能 医疗 数据 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="f0qEpn6cxnKDk2ARGmSpuqw/2PLyGOcw3RhPjaZFALA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="415">
+				<span data-id="415">技术</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="675">
+				<span data-id="675">医疗</span>
+			</li>
+			<li class="tag item" data-id="1056">
+				<span data-id="1056">数据</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">人工智能医生和人类医生，你更信哪一个？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/107148/small/107148.jgp?1430578632" alt="">
+					</span>
+				<span class="name">Elisabeth Rosenthal</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-09-25 09:53:21 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2558/medium/2558.jpg?1436652227" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2558" data-title="《人工智能医生和人类医生，你更信哪一个？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2558/medium/2558.jpg?1436652227" data-url="http://www.qdaily.com/mobile/articles/2558" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				数据已经在发挥效用，人们看到了它稳定可靠的一面，但是它真的能取代人类医生吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em><em><strong><span style="background-color:#CCCCCC;"></span></strong></em><em><strong><span style="background-color:#CCCCCC;">&nbsp;</span></strong></em> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;"><br />
+</span> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;">作为曾经的内科医生，当我听闻 Vivek Wadhwa 博士说，他宁愿要一个机器人医生，也不要一个人类医生时，我打了个冷颤。“总有一天，和真的医生相比，我会更愿意相信一个人工智能医生，”最近在旧金山参加一个医疗创新大会时，他表明了自己的态度，因为他觉得人工智能会有“完美的知识体系”。当让台下的人就此投票时，大概有三分之一的参会者同意他的话。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="line-height:1.5;">但他们投票的原因也可以理解：Wadhwa 博士是教授、企业家，对技术有着远见卓识。更何况，这个大会是在旧金山开的，那儿的人对技术和数据在解决问题上的力量的信任，没有人能撼动。</span> 
+</p>
+<p class="MsoNormal">
+	大会在楼顶设了一个名叫“数字里的医疗（Health by the Numbers）”的接待处，那儿展示的肯定都是各种创新的东西：一个连在 iPhone 上的设备把它变成了一只耳镜，让你可以看到孩子耳朵里是否有感染；另一个设备则可以测量备注酒精浓度。参会者可以看到家用胆固醇检测套件，以及一款可以记录呼吸“质量”的可穿戴设备。
+</p>
+<p class="MsoNormal">
+	硅谷正在把一系列新的由数据驱动的技术带到医疗行业，其中许多前景巨大。但在我们急着去实时测量每一个人体指标之前，有两个问题很值得一问：更多的数据什么时候才能真正促进和保障人的健康？以及技术什么时候才能给医疗保健带来真正的价值？对这两个问题的答案十分复杂。
+</p>
+<p class="MsoNormal">
+	“这个领域前景巨大，令人激动，但大家都往往对目前的成果表示失望，”麦肯锡科技和医疗领域研究主管斯蒂芬·J·范库伊肯（Steven J. Van Kuiken）说。“有很多有趣的点子，但如何才能得到对患者、医生或者监管者有用的数据呢？然后如何让他们根据数据采取行动呢？”
+</p>
+<p class="MsoNormal">
+	虽然健康记录设备的激增表明消费者健康数据技术具有商业潜力，但它的应用却受到了限制。“我不怀疑可穿戴设备正在成为让人很快出成绩的商业模式，”基因泰克公司（Genentech）首席执行官伊恩·T·克拉克（Ian T. Clark）说。“我只是不知道它是否会改变人的健康曲线。”
+</p>
+<p class="MsoNormal">
+	上个月，安泰保险（Aetna）宣布中止其面向患者的个性化健康数据平台&nbsp;CarePass，因为其表现未能达到预期。一些研究也表明，买了移动健康记录器的人里，有一半的人在几个月以后就不再用了。范库伊肯说，这很可能是因为大多数戴它们的人都已经十分关注健康了，所以记录他们的行为模式可能就没有太多长远价值。
+</p>
+<p class="MsoNormal">
+	那么我们该如何才能打造出创新的新技术，给健康带来革命性的改变，而不让它成为又一个被抛到一边的圣诞礼物呢？
+</p>
+<p class="MsoNormal">
+	有个大问题在于，这种被我们称为“健康”的状态捉摸不定，并不总能很容易地测量出来。正常血压会根据思考强度、大脑中的水合作用以及压力大小发生上下波动。一些健康的人血小板会偏低，或者肝脏酶有轻微升高。
+</p>
+<p class="MsoNormal">
+	在一些情况下，收集数据的能力已经超过了医学上理解这些数据的能力。对一个老年男性来说，并不存在一个“正常的”睾丸酮水平，但数百万男性被诊断出了“低睾酮（Low T）”，而且正在使用被医学研究证明有害的睾丸激素凝胶。
+</p>
+<p class="MsoNormal">
+	在其他情况下，数据显示一切正常，但实际上患者并不是什么问题没有，因为你测量的指标不一定总是对的。在我上医学院的时候，有一个怨气满满的笑话，说有些患者拿着“哈佛数据（Harvard numbers）”却去世了。就是说他们做的实验室检测一切正常，但患者还是去世了。
+</p>
+<p class="MsoNormal">
+	另一方面，检测结果显示情况特别严重，但患者却好好的。比如脊柱检查显示，许多人的椎间盘都突出，但背却不疼。所以治病到底该听谁的呢？听核磁共振结果的？还是听患者的？
+</p>
+<p class="MsoNormal">
+	做医生要遵守一条核心规则：只收集会影响治疗的数据。现在有可以记录交感神经系统活动的设备，用来测量人受到的压力。但你能根据这些信息做什么呢？其他靠呼吸声来持续监控呼吸的设备不那么引人注意，也听不到。可这有那么重要吗？一些研究表明，持续的监控对支气管感染的小孩并没什么用。
+</p>
+<p class="MsoNormal">
+	如果你在节食，你会每天量 1000 次体重来帮助减肥吗？或者可以想想治疗心率不正常时的办法。持续几天监测心率确实有用，它能非常有效地识别心率规律和诱发心脏病的原因。尽管如此，但对于许多患者来说，随身携带一个心跳记录仪，记录下的可能只是普通人每天都有的正常心跳，但它却增加了许多患者的焦虑感。
+</p>
+<p class="MsoNormal">
+	当然，有用的技术可以拯救生命，这一点所有人都同意。
+</p>
+<p class="MsoNormal">
+	本月在明尼苏达州罗切斯特市，梅约诊所举办了一场“转型（Transform）”研讨会，会上我听英特尔一位名叫埃里克•迪氏曼（Eric Dishman）的总经理发言，他解释了自己是如何利用数据定制个性化抗癌治疗的。十几年前，他得了一种罕见的肾病，而且只有化疗能起到一定疗效。他在计步器的帮助下，找到了诱发他疼痛的原因，后来他请一位理疗医生为自己治病。最近，科学家已经可以分析出他的肿瘤的基因序列，并找到了可以治疗它的药物。现在他的癌症已经痊愈了。
+</p>
+<p class="MsoNormal">
+	同样地，持续的血糖检测仪可以在血糖降到太低的时候发出警报。一些公司也在研发芯片和其他技术，使人们可以用一滴血测出血糖水平——这完美解决了在缺乏消毒针头和完备实验室的偏远地区检测血糖的难题。
+</p>
+<p class="MsoNormal">
+	还有一些应用也能为研究人员提供数据，其中一个应用可以通过监测哮喘病人的运动，发现诱发哮喘的因素。范库伊肯说，它们还能帮助医生更好地理解疾病规律，让他们对药剂进行调整。
+</p>
+<p class="MsoNormal">
+	这可是对技术的高度赞扬了。但它也仅仅是个工具。希望我们能懂得忽略它——就像我们在导航指错路、或者压根指不了路的时候，也会把它忽略一样。
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="415">
+				<span data-id="415">技术</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="675">
+				<span data-id="675">医疗</span>
+			</li>
+			<li class="tag item" data-id="1056">
+				<span data-id="1056">数据</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2558" data-title="《人工智能医生和人类医生，你更信哪一个？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2558/medium/2558.jpg?1436652227" data-url="http://www.qdaily.com/mobile/articles/2558" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24743.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24743/medium/24743.jpg?1459356067" alt="">
+                        <h1 class="title">中国最大餐饮公司要出售 20% 的股权，谁会买？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24723.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24723/medium/24723.jpg?1459332928" alt="">
+                        <h1 class="title">微软之后，苹果也获得了体育联赛的订单</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24748.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24748/medium/24748.jpeg?1459382569" alt="">
+                        <h1 class="title">大公司头条：iPhone SE 带来的关注不如以往，富智康夏普并购案敲定</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2558">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2558" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">5</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2555.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

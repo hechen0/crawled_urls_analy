@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个喜欢说脏话的素食博客是如何红起来的_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个喜欢说脏话的素食博客是如何红起来的。创始人是这样解释他们的意图的：恶棍厨房里的脏话其实是对高贵素食主义的嘲笑，并将素食推荐给像他们这样没钱的人。。好奇心日报为您呈现一个喜欢说脏话的素食博客是如何红起来的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 脏话 素食 博客 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="6NHI78qLvvcDt9O+FnVi6D5YPiTKtn7uuafBAK1LAHw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="17671">
+				<span data-id="17671">脏话</span>
+			</li>
+			<li class="tag item" data-id="5077">
+				<span data-id="5077">素食</span>
+			</li>
+			<li class="tag item" data-id="903">
+				<span data-id="903">博客</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个喜欢说脏话的素食博客是如何红起来的</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1812/small/1812.jpg?1442805498" alt="">
+					</span>
+				<span class="name">Penelope Green</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-26 12:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/16489/medium/16489.jpg?1445565913" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16489" data-title="《一个喜欢说脏话的素食博客是如何红起来的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16489/medium/16489.jpg?1445565913" data-url="http://www.qdaily.com/mobile/articles/16489.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				创始人是这样解释他们的意图的：恶棍厨房里的脏话其实是对高贵素食主义的嘲笑，并将素食推荐给像他们这样没钱的人。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="text-align:left;">
+	<span style="text-align:justify;">洛杉矶电
+- 在恶棍厨房（Thug
+Kitchen，简称 </span><span style="text-align:justify;">TK</span><span style="text-align:justify;">）这个开了三年的纯素食主义博客里，脏话是常见的佐料。读者被告诫吃下该死的蔬菜后变身为厨房恶棍。这是对便宜、健康饮食的一种搞怪宣言，是对睡前恶语，比如“快去睡（脏话，哔哔哔音效处理）的觉”这类幽默的一次发酵壮大。像“吃下这份（脏话，哔哔哔音效处理）的沙拉。看起来像是植物玉米片”这样的话，都只算入门而已。</span> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;"></span>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/5a24d189a2db.jpg" width="1080" height="720" title="1" alt="1" />
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	&nbsp;“TK”的创始人，30 岁的马特·霍洛韦（Matt Holloway）和米歇尔·达维斯（Michelle
+Davis）都是纯素食主义者。三年前，他是一家电影公司里的制片助理，而她则是全食超市（Whole Foods）的一名员工，他们一起启动了这个半严肃的计划：在健康贴士里加入一些玩笑和许多的咒骂。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/a22a62291981.jpg" width="427" height="592" title="1" alt="1" /><span style="text-align:justify;"><em>米歇尔·达维斯和马特·霍洛韦的恶棍厨房位于洛杉矶的一栋房子里，它包含一个博客、几本书以及品牌商品。</em></span> 
+</p>
+<p>
+</p>
+<p>
+	创办一年后，2013 年春天，恶棍厨房突然获得了大量关注。当时格温妮丝·帕特洛把它插进了她自己的博客 <span>Goop </span>里，并在节目《雷瑞秋美食谈》中提到了它。“这个博客就像一个凶神恶煞的素菜厨师，实在是太帅了。”<span></span> 
+</p>
+<p>
+	这两件事情带来的影响太大了：这个 <span>Tumblr </span>博客突然有了超多点击，它后台的&nbsp;<span>Google Analytics </span>都跑崩了。美食杂志《美味》（Saveur）把恶棍厨房评为年度最佳新美食博客。随之而来的还有几百万的忠实粉丝以及一份来自罗代尔出版社的合同。<span></span> 
+</p>
+<p>
+	然而接下来事情变得复杂起来。当《恶棍厨房：像被（脏话，哔哔哔音效处理）了一样吃（&nbsp;“Thug
+Kitchen: Eat Like You Give a [expletive]”）》于去年 <span>9 </span>月出版后，一篇有关作者的文章出现在康泰纳仕的美食网站“蠢蠢欲动”（Epicurious）上，文中还有这俩人的照片。在那之前，达维斯和霍洛韦还都只是路人。不像其他博客，恶棍厨房里并没有“关于我们”这一栏。即使像《华盛顿邮报》和《美味》的采访也是通过邮件完成的。<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/2d5f2579dde9.jpg" width="427" height="641" title="1" alt="1" /><span style="text-align:justify;"><em>当“蠢蠢欲动 ”的一篇文章揭露达维斯和霍洛韦其实是白人后，他们俩被指责在文化上假扮黑人。</em></span> 
+</p>
+<p>
+</p>
+<p>
+	然而这篇对他们的报道导致了又一次网络暴力。达维斯和霍洛韦都是白人，因此被网友指控为在文化上假扮黑人。有人说，恶棍厨房满嘴的脏话俗语听起来就好像“一个白人小子和他马子在令人反胃地唱武当氏（Wu Tang Clan，一支黑人说唱乐队）的歌一样”——或者也许美国高校的普通学生，不管黑人白人，都很爱用些脏话开头的词语作为修饰语，能用多少用多少。而另一部分人则认为，这些俚语是在用愤世嫉俗的方式直指城市里的非裔美国人。<span></span> 
+</p>
+<p>
+	批评者们说，更麻烦的是“恶棍”这个词儿，由于说唱歌手图派克<span>·</span>夏库尔（Tupac Shakur）的原因，在 <span>2000 </span>年后，它不仅成为了黑人势力的代名词，还有着浓浓的种族歧视意味。<span></span> 
+</p>
+<p>
+	面对网民的狂怒，达维斯和霍洛韦傻了眼。愤怒席卷了他们自己的社交媒体页面和像 <span>The Root</span>、Vice 和非洲美食博客 Afroculinaria
+上相关文章的评论区。他们说，恶棍厨房里的那些脏话就是朋友间喝了酒后嚷嚷的那种醉话，并没有蓄谋什么，只不过是些他们自己的表达罢了。
+</p>
+<p style="text-align:left;">
+	霍洛韦来自德克萨斯州，他的爸爸是工人。他说：“在我长大的地方，恶棍就只是一个想要拿第一的坏脾气妈妈。”在一篇博文中，达维斯补充说，这个词的意义是：“我们没打算为吃得健康而道歉。我们也没打算只是给你吃些麦草。”<span></span> 
+</p>
+<p>
+	他们说，恶棍厨房里的脏话其实是对高贵的素食主义的嘲笑，并将素食推荐给像他们这样没钱的人。<span></span> 
+</p>
+<p>
+	这场论战引发了更广泛的争论。今天，当高中生在学习了解特定语句是什么意思时，要对结果有着高度警觉。就像作家爱丽丝·兰道尔（Alice
+Randall ）最近说的那样，“人们不知不觉从非裔美国人的美学中引用了许多修辞，但大家压根儿没想到自己在干什么”。<span></span> 
+</p>
+<p>
+	有多少赞誉就有多少批评，尤其是这些批评在后来都变味了。达维斯和霍洛韦说，他们都收到过死亡和强奸威胁，而一些西海岸的书店甚至取消了书的订单。<span></span> 
+</p>
+<p>
+	与此同时，《恶棍厨房》这本书登上了纽约时报最畅销书籍排行榜的首位。尽管它后来被日本清理大师玛丽·近藤（Marie
+Kondo）打败，但依然在书单上停留了 <span>48&nbsp;</span>周。到目前为止，《恶棍厨房》已经出版了超过 <span>50 </span>万本，并且依然在亚马逊一百大热销书榜上。（就在上周，它的销量甚至超过了哈珀·李的《设立守望者》［Go
+Set a Watchman］。）<span></span> 
+</p>
+<p>
+	“这真是件疯狂的事儿，”霍洛韦说。“就好像一本素菜食谱发誓要永远当畅销书一样。”<span></span> 
+</p>
+<p>
+	上周六，他和达维斯正在完成越南三明治这一章的制作，而他 <span>11 </span>岁的救援犬凤凰对着窗外的松鼠吠。他们的新书《恶棍厨房派对餐：致（脏话，哔哔哔音效处理）的社交活动》将在这周由罗代尔出版社出版。
+</p>
+<p>
+	<span></span><img src="/uploads/image/201510/3268568b73c2.jpg" width="860" height="573" title="1" alt="1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<em>恶棍厨房的新书《派对餐》（Party Grub）</em> 
+</p>
+<p>
+	达维斯和霍洛韦希望狂风暴雨能再次来临，或者有一点儿也好，这样他们能够借势继续走红，维持现在的生活。霍洛韦说：“我觉得能有一份能整天和我的狗厮混在一起的工作，我实在是太幸运了！”
+</p>
+<p>
+	就像第一本书一样，《派对餐》会用毒辣的语言描绘烹饪过程，同时建议读者不用惊讶。比如要想做上面那款越南三明治、烤花菜和蘑菇三明治（164 页），“你需要一小棵花菜，这花菜就像一棵小屁树”，很好吃，就是有点辣。<span></span> 
+</p>
+<p>
+	尽管有了罗代尔出版社的出版许可，恶棍厨房依旧保持了手工作业。尽管已经开始用三脚架和更好的道具，但所有的照片依旧由霍洛韦亲手拍摄。凤凰则依旧以朋友的身份在书中担任模特。（在《派对餐》第 <span>134 </span>页，一哥们教了霍洛韦一个小把戏，用 <span>Everclear </span>酒从口中喷出熊熊烈火。）<span></span> 
+</p>
+<p>
+	达维斯和霍洛韦现在在一个叫中部城市的温馨小区里租了一栋双户住宅中的一户，作为自己的工作室和办公室。由于隔壁那间被拆了，所以租金很低。这个工作空间以及两台新手提电脑和两份健康保险，是恶棍厨房的成功带来的最棒的副产品。“我仍然开着我那辆 <span>16 </span>年车龄的本田思域。实际上我俩都开的思域。”达维斯说。<span></span> 
+</p>
+<p>
+	他们曾经是一对，不过每周一篇博文还有做一本食谱的压力让他们分开了。<span></span> 
+</p>
+<p>
+	他们卖恶棍厨房的周边产品已经有一年半了，比如大号咖啡杯、T 恤和印着脏话式鼓励话语的袋子。去年春天，当他们开始卖这些产品时，他们在 <span>36 </span>个小时内收到了 <span>1000 </span>个订单。<span></span> 
+</p>
+<p>
+	“我们成天工作，只有一件事要退一步，那就是我们的关系。”霍洛韦说。尽管他们现在仍然很亲密（能够了解对方的心思），但这里已经没有其他关系存在的空间了。“当有人说‘嘿，我想和我男朋友一起开个博客’时，我们会说，‘别开！’”达维斯说。
+</p>
+<p>
+	达维斯是在一个湾区的家庭长大的，全家人都吃肉，而她自己从十几岁开始就是个素食者，18 岁以后更是成了一个纯素主义者。“我的家人简直受不了，”她说。“所以我才学会了做饭。我最开始做的是意粉，还在里面加了花椰菜。”
+</p>
+<p>
+	和很多纯素主义者一样，她一开始也喜欢嬉皮士时代的入门读物《枫馆食谱》（Moosewood Cookbook），后来转而看 <span>2005 </span>年出版、由伊萨·尚德拉·莫斯科维茨（Isa Chandra Moskowitz）写的《努力做个纯素主义者》（Vegan With a Vengeance）。伊萨还做了一档社区有线电视台专题节目《后朋克时代的厨房》（<span><a href="http://www.theppk.com/">the
+Post Punk Kitchen</a></span>）以及它的网上论坛——它堪称是新千年版的《枫馆食谱》。当他们刚刚认识的时候，霍洛韦还会喝很多红牛，而且因为胃灼痛，他每天都得喝善卫得（Zantac，一种胃药）。他俩住到一起以后，他开始跟着达维斯吃了素，从此消化上的问题也迎刃而解了。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/9689b824fc3e.jpg" width="700" height="466" title="1" alt="1" /><span style="text-align:justify;"><em>Thug Kitchen 的 Tumblr 上的一张照片</em></span> 
+</p>
+<p>
+</p>
+<p>
+	恶棍厨房的风格处于朋克纯素主义者和后朋克纯素主义者之间，吸收了这两种风格的精华，形成了一种富有魅力的纯素主义文化。如果说他们俩有什么原则的话，那就是严格的素食主义不能矫情、菜不能很难做，也不能太贵。
+</p>
+<p>
+	这个原则在恶棍厨房热情的读者中间产生了共鸣，他们和恶棍厨房在 <span>Facebook </span>上、通过电子邮件保持着联系。一位卡车司机写道，他在路上时也会带着他们做的吃的；一位女士说，她的丈夫现在会和他一起做饭，因为 <span>TK </span>上的文章会让他哈哈大笑。
+</p>
+<p>
+	一位住在美国中西部地区、有消化不良症状的年轻女士说，这个博客救了她的命，而一位澳大利亚的律师希望让全家人变得更健康。坐在新西兰一间中风病房的病床边陪她父亲时，她调皮地跟两位博主要一本签名版的书，说要送给有高血压的弟弟。
+</p>
+<p>
+	“我对人们的期待都是很实际的，”达维斯说。“吃一个菜椒就行。这周你已经吃了两顿素食餐了吗？那这可就是我的成就了。由于一些原因，这些目标的魅力没有那么大，或者说它们都太实际了，不会让人们因此而兴奋。”
+</p>
+<p>
+	讲个历史小故事吧：在比尔·克林顿心脏病发作后开始吃纯素餐、在像洛杉矶的 <span><a href="http://www.crossroadskitchen.com/">Crossroads
+Kitchen</a> </span>这样有 <span>Moby</span>、史蒂夫·韦恩（Steve Wynn）、艾丽西亚·西尔维斯通（Alicia Silverstone）等名人扎堆的餐厅变成严格的素食餐厅、变成连荤素都吃的人都奔着节食跑去那儿吃饭之前很长一段时间，严格的素食主义（以小麦片为标志）就早已在推动这种反主流文化的潮流了。
+</p>
+<p style="text-align:left;">
+	在 <span>1980 </span>年代的正经朋克（不吸毒、不喝酒的朋克）把严格的素食主义作为一种反对把一切都工业化的道德姿态之后，后来的嬉皮士也继承了他们的衣钵，而且在他们所遵循的原则里，有一部分还包含了动物权益。
+</p>
+<p style="text-align:left;">
+	今天，严格的素食主义成了一个大筐，而且有时候还会额外筐住一些东西，而关于谁倡导的严格素食主义更正宗，则成了一个大家争论的话题。
+</p>
+<p style="text-align:left;">
+	布莱恩特·特里（Bryant Terry）是一名食品积极分子，也是一本纯素食主义食谱的作者。（他最近出版的一本书是《非洲的纯素食主义：把新鲜的非洲、加勒比和南部风味放在一起吃》[Afro Vegan: Farm Fresh African, Caribbean,
+and Southern Flavors, Remixed]。）他对 <span>TK </span>的大作提出了可能是最严谨的批评（无论他们的文章会让你笑还是让你烦，它们都可谓是大作）。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/93d6453c6916.jpg" width="600" height="450" title="1" alt="1" /><span style="text-align:justify;"><em>两位博主 2014 年和美食网站 Epicurious 编辑马特·达克（Matt Duckor）合影。</em></span> 
+</p>
+<p>
+</p>
+<p>
+	去年，特里<span><a href="http://www.cnn.com/2014/10/10/living/thug-kitchen-controversy-eatocracy/">为
+CNN 写了一篇文章</a></span>，说在他的耳朵里，恶棍厨房的文字似乎都来自非裔美国人的土话和嘻哈音乐，而不是来自《黑道家族》（The Sopranos）的书房，而且恶棍厨房的幽默也因此来自于一个吃苦耐劳的城市黑人准备健康的纯素食主义饭菜的过程中——他说，正是这种诙谐，提升了人们对非裔美国人饮食习惯的负面成见。
+</p>
+<p>
+	那是他和其他人苦苦努力想要推翻的成见。特里写道：“无论那些被恶棍厨房吸引的潮流人士或者注重养生的人有没有意识到这一点，但素食主义者、纯素食主义者和以吃菜为主文化确实比危害社会的恶棍形象出现得更早。”
+</p>
+<p>
+	和特里一样，爱丽丝·兰道尔（<span><a href="http://www.alicerandall.com/"><span>Alice Randall</span></a></span>）就一直在大力鼓吹非裔美国人在素食方面的传承。（爱丽丝·兰道尔最近的作品是《对灵魂食物的爱》[Soul Food Love]，这是一部她和女儿卡罗琳·兰道尔·威廉姆斯[Caroline Randall Williams]共同用食谱写就的家庭史。）
+</p>
+<p>
+	兰道尔刚刚完成了一次图书推广活动，其中包括到黑人教堂所在社区的花园里做饭，并谈谈她自己对 <span>19 </span>世纪黑人基督复临安息日教众（Seventh Day Adventists）和哈莱姆文艺复兴（Harlem
+Renaissance）中的人物的素食主义的研究。“恶棍厨房是有问题的，”她说。“因为纯正的黑人声音正在对他们所爱的、拥有智慧和共同经历的社区说话，而恶棍厨房盖过了这些声音，并且把人们的注意力从它们身上引开了。我要用一句老派的嘻哈音乐歌词来批评它：骗子永在。它实际上是在假装（自己代表了黑人饮食文化），但其实它并不是（纯正的黑人饮食）。”
+</p>
+<p>
+	韦斯利学院研究美国人的副教授、《恶棍的生活：嘻哈音乐中的种族、性别和意义》（Thug Life: Race, Gender and the Meaning of
+Hip-Hop）的作者迈克尔·杰弗里斯（Michael
+Jeffries）说，这段话背后的意思是，“作为两个为了搞笑而耍着黑人范儿、说着黑人土话的白人，他们可以在自己愿意的时候停止自己的表演，但由于个人的种族或者民族背景，很多人被自己所在的州或者选举出来的官员贴上了“恶棍”标签——对于这些人来说，他们却没有权力停止做自己<span>（改掉自己的肤色或者民族）</span>。
+</p>
+<p>
+	达维斯和霍洛韦会耐心地、顽强地告诉你，恶棍厨房并不是一场表演。他们在努力地经营它，而且以它为傲、以他们在读者厨房中所做出的改变为傲，最重要的是，他们以自己让很多人走进了厨房为傲。他们就是他们自己最好的广告。
+</p>
+<p>
+	“我们所能做的最好的事，就是到路上去告诉别人我们是谁、来自哪里，”霍洛韦说。他们准备再这么做一次。
+</p>
+<p>
+	至于互联网上的争论，他说：“我觉得那是由于人们想加入这场讨论，但互联网上的很多东西都会很快变得有毒。讨论会变得和人无关。”
+</p>
+<p>
+	他又说：“我们不会告诉你该如何感觉，我们只是在努力让人们吃点儿该死的蔬菜。”
+</p>
+<p>
+	他们似乎正在取得成功。在发布的第一周，《恶棍厨房聚会餐》（Thug Kitchen Party Grub）已经在亚马逊的所有图书销售榜上排到了第 <span>23 </span>位。
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	翻译 is 译社 蓝山 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="17671">
+				<span data-id="17671">脏话</span>
+			</li>
+			<li class="tag item" data-id="5077">
+				<span data-id="5077">素食</span>
+			</li>
+			<li class="tag item" data-id="903">
+				<span data-id="903">博客</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16489" data-title="《一个喜欢说脏话的素食博客是如何红起来的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16489/medium/16489.jpg?1445565913" data-url="http://www.qdaily.com/mobile/articles/16489.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13391.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/13391/medium/13391.jpg?1439341754" alt="一份起源于音乐博客的杂志可能会刷新你的印象">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">一份起源于音乐博客的杂志可能会刷新你的印象</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">29</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11477.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/11477/medium/11477.jpg?1436639272" alt="「什么值得买」五年了，一个个人博客如何变成电商的重要入口？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">「什么值得买」五年了，一个个人博客如何变成电商的重要入口？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">155</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27154.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27154/medium/27154.jpg?1463798236" alt="">
+                        <h1 class="title">持续数年的 Android 专利大战，现在还在争什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27142.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27142/medium/27142.jpg?1463736643" alt="">
+                        <h1 class="title">星巴克在美国推出超值午餐，里面没有咖啡</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27145.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27145/medium/27145.jpg?1463748896" alt="">
+                        <h1 class="title">新《超能敢死队》预告片里，各种鬼魂占领了时报广场</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="16489">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="16489" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">126</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/16575.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

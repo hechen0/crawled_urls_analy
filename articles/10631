@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>“新闻”代替“书报亭”，苹果要怎样做一个媒体？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="“新闻”代替“书报亭”，苹果要怎样做一个媒体？。从 Newsstand 到 Apple News ，苹果要对新闻产业做什么？。好奇心日报为您呈现“新闻”代替“书报亭”，苹果要怎样做一个媒体？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 新闻业 Newsstand Apple News 新闻聚合 阅读 苹果 Flipboard " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ANGtscjcw1I1eE0wjNyeJJrdcMT1PZ2LQtvwA6UUDIE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="8182">
+				<span data-id="8182">新闻业</span>
+			</li>
+			<li class="tag item" data-id="11342">
+				<span data-id="11342">Newsstand</span>
+			</li>
+			<li class="tag item" data-id="11343">
+				<span data-id="11343">Apple News</span>
+			</li>
+			<li class="tag item" data-id="11344">
+				<span data-id="11344">新闻聚合</span>
+			</li>
+			<li class="tag item" data-id="1490">
+				<span data-id="1490">阅读</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="7006">
+				<span data-id="7006">Flipboard</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">“新闻”代替“书报亭”，苹果要怎样做一个媒体？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-10 19:17:29 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/10631/medium/10631.jpg?1436646923" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10631" data-title="《“新闻”代替“书报亭”，苹果要怎样做一个媒体？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10631/medium/10631.jpg?1436646923" data-url="http://www.qdaily.com/mobile/articles/10631.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				从 Newsstand 到 Apple News ，苹果要对新闻产业做什么？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在本周的年度苹果开发者大会（WWDC）上，苹果发布了它的最新款 iOS 9 系统。在各类小修小补中，还有一个名为 Apple News（苹果新闻）的新应用，像 Flipboard 或 Zaker 一样汇集了大小媒体的文章供用户阅读。
+</p>
+<p>
+	<span>苹果没有在发布会上明说的是，随着 Apple News 的到来，过去 4 年里，每部 iPhone 和 iPad 都内置的 Newsstand（<span>电子报摊</span>）将默默消失。</span> 
+</p>
+<p>
+	<span>这两件事也意味着苹果和媒体关系上的变化。苹果或将不在只是为媒体应用提供一块地方，而是直接作为一个媒体，将内容放到你的眼前。</span> 
+</p>
+<h3>
+	<span>Newsstand 是怎么回事？</span> 
+</h3>
+<p>
+	<span>2011年，乔布斯在其一生最后一次登台的 WWDC 上， 发布了 iOS 5 系统，随之而来的报刊杂志应用 Newsstand 展现在公众面前。</span> 
+</p>
+<p>
+	<span>这个像书架一样的界面里，收集了 App Store 里各类报刊杂志应用。用户可以通过付费订阅的方式，在 iPad 和 iPhone 上获得喜欢的内容。只要新闻源一有更新，Newsstand 就会自动在后台下载最新内容，并推送提醒。而且，首批就接入了《纽约时报》、《卫报》和《纽约客》这种大牌媒体。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201506/40f2e5f3e67b.jpg" alt="" /></span> 
+</p>
+<p>
+	<span>通过 Newsstand，苹果试图将书报杂志搬到自己的手机和平板上。对于内容发行商而言，Newsstand 给了它们一个接触苹果数以千万计的用户的新渠道，也就有了获得更多的订阅费用的办法。</span> 
+</p>
+<p>
+	<span>当然，作为桥梁的苹果也要参与到订阅收入的分成里去。和其它付费应用一样，入驻 Newsstand 的媒体也要把订阅费的 30% 交给苹果。</span> 
+</p>
+<p>
+	<span>此后，<a href="http://www.adobe.com/aboutadobe/pressroom/pressreleases/201109/090711AdobeDPSiOS5Newsstand.html"><span>Adobe 也为 Newsstand 推出了应用发布和内容托管工具，不过在体验上并无亮点。</span></a>在这样一个照搬纸质媒体的环境下，加上 Adobe 提供的服务，媒体大多也推出了非常传统的产品，比如当你想看一期《连线》<span></span><span>杂志</span>时，就得先下载数百 MB 的巨型文件。而数十分钟下载得到的往往只是一点可有可无的动画效果而已。</span> 
+</p>
+<p>
+	<span>早期，的确有一些更为创新型的产品在 Newsstand 上出现。比如 The Magzaine，一款由稍后待读应用 Instapaper 的开发者开发的电子杂志，就为 iOS 系统做了大量优化，且每期只有几 MB大小，而且更适合在平板上阅读。虽然广受好评，但两年后，它也最终停刊。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201506/3830f094a2ab.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span>本质上看，Newsstand 就是把一堆独立应用强制收纳的一个文件夹里。原本，报刊杂志们一旦有了更新，在 Newspaper 的桌面图标也会像缩略图一样展现出变化。当 iOS 7 把那个文件夹变成一个固定的图标，用户看不到更新以后，Newsstand 就没有意义了。</span> 
+</p>
+<p>
+	<span>逐渐地，新的媒体应用开始逃离这一平台，宁愿上架独立的移动应用，直接在用户的桌面上占据一席之地。</span> 
+</p>
+<p>
+	<span>要想在内容发行领域立足，苹果急需重新审视自己，推出一个新的产品来重新获得大众的认可。</span> 
+</p>
+<h3>
+	<span>News，让苹果自己成为一个媒体</span> 
+</h3>
+<p>
+	<span>在今年的 WWDC 发布的 News 上，我们已经看不到 Newsstand 的影子。在后者里，每一个报刊杂志，其实就类似于一个独立的应用。读者每次阅读都要将它们分别打开。由于，应用的界面风格多样，体验上差别也很大，所以并不方便。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201506/c5608ae2df30.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span>而 News 则不一样，苹果已经将各个新闻源进行重组和整合，在 News 里不同媒体的内容将会以统一的形式展现在读者面前，这显然会更加方便阅读。原本 Newsstand 只是把报刊杂志分为 28 种类型。如今，却进一步细分为<a href="https://www.apple.com/pr/library/2015/06/08Apple-Announces-News-App-for-iPhone-iPad.html"><span>一百万种的话题</span></a>。各种话题在读者的信息流中交织展现，并可以根据用户的阅读喜好，进行智能地推荐。</span> 
+</p>
+<p>
+	<span>在这里，媒体本身的存在感弱化了，读者记住的更多是文章本身。</span> 
+</p>
+<p>
+	<span>智能推荐同样也意味着未成名的媒体有了更多的展示机会，而不是像之前被淹没在 App Store 里难以被发现。同时，苹果也开放了一个全新的内容发布平台<a href="https://www.icloud.com/#newspublisher"><span> News Publisher</span></a>。在这一平台上，内容方可以把自己的内容按照苹果的新闻格式（ Apple News Format）进行<a href="https://www.apple.com/pr/library/2015/06/08Apple-Announces-News-App-for-iPhone-iPad.html"><span>精致的排版和插入图片、视频以及手势动画元素</span></a>。</span> 
+</p>
+<p>
+	<span><span>另外，这套系统同时也支持通过 RSS&nbsp;（简易内容聚合）内容抓取。媒体或者个人作者只需要提交一个链接就能自动在 Apple News 发布内容。</span></span> 
+</p>
+<p>
+	<span><span><span>不同于之前 Newsstand 强调付费订阅新闻。Apple News 通过广告盈利。内容供应方可以获得自己发布在这一平台上广告的全部收益，如果苹果帮助拉到的 iAd 广告，则需要分 30% 的广告收入给苹果。</span><br />
+</span></span> 
+</p>
+<p>
+	<span>不过你可以从苹果给出的回报的方式看到它的目的：只有 Apple News 专属格式的文章才能获得广告收入，而来自 RSS 的内容是赚不到钱的。媒体只有在苹果的发布平台上，按照苹果的规范发布内容才能赚钱。</span> 
+</p>
+<h3>
+	<span>那些受冲击的应用</span> 
+</h3>
+<p>
+	<span>在 Apple News 之前，市场上已经有不少类似的应用，比如：</span> 
+</p>
+<ul>
+	<li>
+		个性化内容聚合应用：如 Flipboard 和 Zaker，一直期望被打造成个性化杂志。
+	</li>
+	<li>
+		基于 RSS 的阅读器：如 Feedly ，它在 Google Reader 关停后，一度成为其重要的替代品。
+	</li>
+	<li>
+		试图成为手机默认新闻来源的应用：如今日头条和各个传统门户。
+	</li>
+</ul>
+<p>
+	这些新闻聚合产品虽然在 App Store 榜上有名，但也危机重重。今年秋天，美国、英国和澳大利亚的数千万 iOS 用户的手机上，就会出现一个名为 News 的应用，未来可能会延伸到更多地区。通过系统预装，会是很有力的竞争手段。
+</p>
+<p>
+	<span>目前，News 上已有 53 家媒体入驻。纽约时报、经济学人、连线杂志这种知名品牌，也让其他内容聚合应用在内容源上占不了太多优势。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201506/94abd0a34196.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	就像 Android 应用商店一样，尽管它们一开始非常分散，市场上也有很多独立的商店。但随着小米、Oppo 等手机厂商开始自己内置商店，并牢牢抓抓用户，独立商店的生存就变得越来越难。这对于新闻聚合应用也是一个道理。
+</p>
+<p>
+	<span>而第三方应用，要想与这种系统默认的 Apple News 抗衡，首先既要提供自己独有的价值。比如</span>强大的品牌认知、远远好过苹果的用户体验。当然，到中国，还有进入这个市场的特殊门槛。
+</p>
+<p>
+	<span></span>Flipboard 移动产品中国区主管赵晶告诉《好奇心日报》，苹果在这一领域的加入，同样让他们很兴奋，至少这证明了资讯阅读已成为移动互联网的一个最根本需求。赵晶称 Flipboard 中国做好了在本地化上迎接来自苹果的竞争。
+</p>
+<p>
+	<span>苹果的新闻进不了中国，就对自己没威胁。相信这么想的远不止 Flipboard 一家。</span> 
+</p>
+<p>
+	<span><br />
+</span> 
+</p>
+<p>
+	<span>题图、封面图来自：<a href="http://www.hellorf.com/" target="_blank">站酷海洛创意</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="8182">
+				<span data-id="8182">新闻业</span>
+			</li>
+			<li class="tag item" data-id="11342">
+				<span data-id="11342">Newsstand</span>
+			</li>
+			<li class="tag item" data-id="11343">
+				<span data-id="11343">Apple News</span>
+			</li>
+			<li class="tag item" data-id="11344">
+				<span data-id="11344">新闻聚合</span>
+			</li>
+			<li class="tag item" data-id="1490">
+				<span data-id="1490">阅读</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="7006">
+				<span data-id="7006">Flipboard</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10631" data-title="《“新闻”代替“书报亭”，苹果要怎样做一个媒体？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10631/medium/10631.jpg?1436646923" data-url="http://www.qdaily.com/mobile/articles/10631.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/10562.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/10562/medium/10562.jpg?1436647586" alt="iOS 9、iPad、手表……关于今天凌晨的苹果发布会，你需要知道的一切">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">iOS 9、iPad、手表……关于今天凌晨的苹果发布会，你需要知道的一切</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">30</span>
+				<span class="iconfont icon-heart">380</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24928.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24928/medium/24928.jpg?1459819220" alt="">
+                        <h1 class="title">Saint Laurent 新创意总监确定，以及，KENZO 推出花花的胶囊系列｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24914.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="">
+                        <h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24946.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24946/medium/24946.jpg?1459808207" alt="">
+                        <h1 class="title">为了死去的儿子，一位父亲也想让苹果解锁 iPhone</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24949.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24949/medium/24949.jpeg?1459815039" alt="">
+                        <h1 class="title">大公司头条：新 Kindle 下周发布，迪士尼第二把手离开</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24956.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24956/medium/24956.jpg?1459822948" alt="">
+                        <h1 class="title">硅谷初创公司对求职者的吸引力正在下降，这是真的吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10631">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10631" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">28</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10647.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

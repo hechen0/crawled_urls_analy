@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>生活就是这么糟糕啊，这个负能量日记本懂你_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="生活就是这么糟糕啊，这个负能量日记本懂你。它叫做“无尽的失望”，用来帮助你扫去无聊而虚幻的乐观主义，记录下生活黑暗、令人失望的一面。。好奇心日报为您呈现生活就是这么糟糕啊，这个负能量日记本懂你的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Asbury &amp; Asbury 日记本 文具 产品设计 Nick Asbury " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="YnWbTYUZ7U1jItfoan6g3IRgp3/4TQfYvFbaQeAXl3s=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22375">
+				<span data-id="22375">Asbury &amp; Asbury</span>
+			</li>
+			<li class="tag item" data-id="22376">
+				<span data-id="22376">日记本</span>
+			</li>
+			<li class="tag item" data-id="2575">
+				<span data-id="2575">文具</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="22377">
+				<span data-id="22377">Nick Asbury</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">生活就是这么糟糕啊，这个负能量日记本懂你</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101857/small/101857.jpg?1429073860" alt="">
+					</span>
+				<span class="name">谢舒敏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-20 08:30:09 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20957/medium/20957.jpg?1453206914" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20957" data-title="《生活就是这么糟糕啊，这个负能量日记本懂你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20957/medium/20957.jpg?1453206914" data-url="http://www.qdaily.com/mobile/articles/20957.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				它叫做“无尽的失望”，用来帮助你扫去无聊而虚幻的乐观主义，记录下生活黑暗、令人失望的一面。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	如果你属于鸡汤过敏症候群，或者习惯看着半杯水说<span>“</span>只剩下了半杯了哎<span>”</span>，或者是那种在新年开始时士气爆棚、过了一段时间回归常态、几个月之后觉得<span>“</span>反正生活就是这样咯<span>”</span>、到了 10 月坐等下一年的人，我想你会喜欢这个日记本的。
+</p>
+<p>
+	日记本被命名为<span>“</span>无尽的失望<span>”</span>（下文简称失望日记），最早于<span> 2013 </span>年推出。它用来帮助你扫去无聊而虚幻的乐观主义，记录下生活黑暗、令人失望的一面。有太多细节值得说了，但每一天不就是充满了各种好笑又糟糕的事嘛。
+</p>
+<p>
+	虽然它是日记本，但剧透之后乐趣也会减半，请三思之后再往下看。
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b5e56384d12f.jpg" width="819" height="819" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	正面
+</p>
+<p>
+</p>
+<p>
+	这本日记没有划分具体的年份，但对星期一可是记得清清楚楚的，蓝色（<span>blue</span>，忧郁而沮丧的）的星期一贴纸已经准备妥当，记得贴在日历上，标注下悲惨的一周正式开始。日历没有注明什么特殊的日子，如果不算上<span>“</span>那些名人曾在这天死去<span>”</span>的话。
+</p>
+<p>
+	日记本里总有些<span>“</span>揭示人生真谛<span>”</span>的格言警句，这里也一样。譬如，<span>“</span>如果无知是种福气，为何你如此悲伤？<span>”“</span>当事情变得艰难时，它就是这么艰难的<span>”“</span>如果一棵树倒下了，却没有任何人注意到，这是否让你想起你的生活？<span>”</span>……的确让我想起了我的生活。
+</p>
+<p>
+	工作为我们的不如意做了很多贡献。失望日记专门有几个区域帮助你记下那些<span>“</span>没实现的创意<span>”“</span>为了一本无聊的小说<span>/</span>一条不会有人看的推文而做的笔记<span>”</span>，画有表格给自己做个<span> SWOT </span>分析（弱点和危机的部分当然是扩大的）。
+</p>
+<p>
+</p>
+<p>
+	在跟日常生活更相关的部分，它有备忘功能。你可以记下一些人的联系方式，比如那些你永远不会打电话给他的人啦，你想象中的朋友什么的。还有银行密码不保护问题（Bank Insecurity Questions），问“看到朋友很成功你感觉如何”“为什么狗会用那种眼神看你”等诸如此类。
+</p>
+<p>
+	最后，为了给旅途中的日记使用者提供便利，它还摘选了一些实用的语句，并翻译成通用语言。这样，当你去旅游时就可以轻松用五门语言跟别人说“我上错了飞机”“我丢了护照”“一位，谢谢”了。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/7f26dfaaadd4.jpg" width="1080" height="1080" title="使用说明" alt="使用说明" /><span>使用说明</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/00984a573034.jpg" width="1080" height="718" title="周一，：（" alt="周一，：（" /><span>周一，：（</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c5f2d984d3d1.jpg" width="1080" height="1080" title="完全不激励人的话" alt="完全不激励人的话" />格言
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/cb9e98f8e660.jpg" width="1080" height="1080" title="那些值得纪念的死期" alt="那些值得纪念的死期" />它不会标注节假日，但会告诉你，这一天哪个名人去世了
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/aae50ec945ec.jpg" width="1080" height="1080" title="实用的话" alt="实用的话" />“实用的句子”
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/1d650a5fc475.jpg" width="1080" height="1080" title="那些你不会给他打电话的人" alt="那些你不会给他打电话的人" /><span>那些你不会给他打电话的人，记住他们的联系方式</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/15d0d1e344fc.jpg" width="1080" height="1080" title="密码不保护问题" alt="密码不保护问题" /><span>密码不保护问题</span> 
+</p>
+<p>
+</p>
+<p>
+	这个日记本由英国创意团队 <span><a href="http://asburyandasbury.tictail.com/">Asbury &amp;
+Asbury</a> </span>设计，他们平时还做创意领域相关的项目，比如品牌包装、创意文案、出版物等等。
+</p>
+<p>
+	最初，联合创始人<span> Nick Asbury </span>只是为了好玩编写一些<span>“</span>格言<span>”</span>（调调急转直下变成负能量的那种）。通常人们的日记里经常出现那些激励人的字词句，他想到如果反过来，日记里出现一堆完全不鼓励人的句子应该会很有趣，而那样就是一本<span>“</span>失望日记<span>”</span>了。
+</p>
+<p>
+	其实，认真地说来，<span>Asbury </span>觉得这是舒缓负面情绪的很好方式。我们平时总跟别人分享快乐，（不得不）在社交网络上看别人的愉快生活，还会看到大量说教<span>——</span>有的是纯鸡汤，有的则<span>“</span>科学地<span>“</span>告诉你，只要有好的态度<span>/</span>方法<span>/</span>姿势就能解决问题、办好一件事<span>——</span>很积极，很正确。
+</p>
+<p>
+	但是，即使你不是本文开头说的那类人，每天也会遇到不开心的事情，一旦累积太多无处纾解，就愈发焦虑和感到压力。倒不如痛快地吐槽，
+嘲笑一下生活中（已经发生或可能发生的）种种不快。
+</p>
+<p>
+	失望日记在<span> 2013 </span>年推出之后就引起了很多关注，<span>Asbury &amp; Asbury </span>完全没想过会大卖，但这个产品最后收到了来自世界各地的订单，看起来各国人民都很有倾诉欲望想要写一写自己的生活。顾客们很配合地加入他们的玩笑，写信来说收到这个日记本太失望了啊，这是自己今年见到的最烂的东西。
+</p>
+<p>
+	<span>“</span>其实这也是我们遇到的一个问题，<span>”<a href="http://www.nytimes.com/2015/01/01/garden/perpetual-disappointments-diary-not-for-pollyannas.html?_r=1">Nick
+Asbury <span>在接受《纽约时报》采访时说</span></a></span>，<span>“</span>大部分情况下可以分辨出他们在说笑，但是现在大家都不带多少感情地说这话，你就会想，<span>‘</span>他们不会是认真的吧？<span>’”</span> 
+</p>
+<p>
+	微笑。
+</p>
+<p>
+	如果感兴趣的话可以点<span><a href="http://asburyandasbury.tictail.com/product/perpetual-disappointments-diary"><span>这里</span></a></span>到他们的官网查看详细信息，<span>13 </span>镑一本。不谢。
+</p>
+<p>
+	图片来源：<a href="http://asburyandasbury.tictail.com/product/perpetual-disappointments-diary" target="_blank">Asbury &amp; Asbury</a>，<a href="http://design-milk.com/happiest-disappointments-diary-weve-seen/perpetualdisappointmentdiary-11/" target="_blank">design-milk</a> 
+</p>
+<p>
+</p>
+<p>
+	<span><a href="http://asburyandasbury.tictail.com/product/perpetual-disappointments-diary"><span></span></a></span><span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="22375">
+				<span data-id="22375">Asbury &amp; Asbury</span>
+			</li>
+			<li class="tag item" data-id="22376">
+				<span data-id="22376">日记本</span>
+			</li>
+			<li class="tag item" data-id="2575">
+				<span data-id="2575">文具</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="22377">
+				<span data-id="22377">Nick Asbury</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20957" data-title="《生活就是这么糟糕啊，这个负能量日记本懂你》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20957/medium/20957.jpg?1453206914" data-url="http://www.qdaily.com/mobile/articles/20957.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19376.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19376/medium/19376.jpg?1450426162" alt="帮文具控找回最初纸笔的感觉｜这个设计了不起">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">帮文具控找回最初纸笔的感觉｜这个设计了不起</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">19</span>
+				<span class="iconfont icon-heart">1046</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20458.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20458/medium/20458.gif?1452307196" alt="这些好设计，会让你更思考时间的存在吗？｜这个设计了不起">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">这些好设计，会让你更思考时间的存在吗？｜这个设计了不起</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">22</span>
+				<span class="iconfont icon-heart">474</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26491.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26491/medium/26491.jpg?1462501078" alt="">
+                        <h1 class="title">Stella McCartney 推出男装线，以及，Nike 又推出“耐克”鞋｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26504.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26504/medium/26504.jpg?1462510306" alt="">
+                        <h1 class="title">玩这个插画师画的扑克牌，差不多能了解半部当代建筑史</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26506.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26506/medium/26506.jpg?1462512753" alt="">
+                        <h1 class="title">一家直播棒球比赛的公司，迪士尼开价 10 亿美元</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26458.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26458/medium/26458.jpg?1462431814" alt="">
+                        <h1 class="title">新兴设计师怎样才能吸引零售商？买手们有话说</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26509.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26509/medium/26509.jpg?1462517137" alt="">
+                        <h1 class="title">「这世界」那个穿梅西同款塑料袋球衣的小男孩，情节也反转了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20957">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20957" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">227</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20954.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>圣诞打折，买点瞬间送货上门的便宜游戏吧_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="圣诞打折，买点瞬间送货上门的便宜游戏吧。20 款各式风格的游戏够玩一阵的了。好奇心日报为您呈现圣诞打折，买点瞬间送货上门的便宜游戏吧的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="游戏 Steam " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="5OVbWsd7E6UOpx9H6qxK+LXV0tQ/8RZstqKkIcLi0aQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="2562">
+				<span data-id="2562">Steam</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">圣诞打折，买点瞬间送货上门的便宜游戏吧</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-12-21 11:52:34 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/4578/medium/4578.jpg?1436650455" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4578" data-title="《圣诞打折，买点瞬间送货上门的便宜游戏吧》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4578/medium/4578.jpg?1436650455" data-url="http://www.qdaily.com/mobile/articles/4578" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				20 款各式风格的游戏够玩一阵的了
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<span class="s1">一年一度的 <a href="http://store.steampowered.com/" target="_blank">Steam 圣诞打折</a>又开始啦，此次活动从北京时间 12 月 19 日凌晨开始到 1 月 3 日凌晨 2 点结束。每年的圣诞季折扣都是一年中最给力的，无论是想买新游戏，或者为原来玩过的盗版游戏补票，这十几天可是下手的好时机。</span> 
+</p>
+<p class="p1">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">Steam 是美国知名游戏开发商 Valve 的在线商店，也是目前为止最大的 PC、Mac 游戏平台。从 2003 年至今，共有 4000 多个游戏通过此平台发售。哪怕在国内你也可以直接通过支付宝或者 VISA 信用卡在线付款，然后下载游戏。只要 Valve 一天不倒闭，你游戏库里的游戏，也就永远不会消失。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">对于一部分想在假日里玩个游戏放松却不知道买什么的朋友，我们推荐 20 款质量不错，价格不贵，年龄不大的小游戏，希望大家喜欢。</span> 
+</p>
+<h3>
+	<span><a href="http://store.steampowered.com/app/233450/" target="_blank">Prison Architect</a> 《监狱架构》- 2 折 5.99 美元</span> 
+</h3>
+<p>
+	<img src="/uploads/image/201412/8df1dbeabb36.jpg" alt="" /> 
+</p>
+<p>
+	游戏的一个好处是它可以让你低成本的体验变成任何人、管理任何事。和经营餐厅、城市、国家的大多数模拟游戏不同。《监狱架构》让你建设并管理一个监狱，关押着各种想着越狱的罪犯。
+</p>
+<p>
+	<br />
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/282070/" target="_blank">This War of Mine</a>&nbsp;《我的这场战争》- 85 折 16.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/cf6721b721e5.jpg" alt="" style="width:640px;" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1"><span>《我的这场战争》有着类似铅笔画的素冷画风和类似<span>《模拟人生》的游戏机制</span>。<span>游戏中，你是快要饿死的平民，在一个被战争摧残多年的城市中挣扎求生。</span><span></span></span></span>和打着战争旗号愉快的杀人的射击游戏不同，《我的这场战争》会让你意识到战争不只是商业大制作中的善恶分明和英雄主义。
+</p>
+<p class="p1">
+	<br />
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/204360/" target="_blank">Castle Crashers</a>《城堡毁灭者》- 1 折 1.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/b8794ea8fa31.jpg" alt="" style="width:640px;" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">又是一款无兄弟不游戏的多人冒险类小游，类似小时候玩过的《快打旋风》。最重要的是便宜，四人包才 4.5 美刀，划到每个人头上才 10 块钱不到，还等什么呢。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/255340/" target="_blank">Escape Goat 2</a>&nbsp;《山羊逃脱 2》 - 5 折 4.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/c6707cc48cca.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">山羊逃脱一代的续作，一代作为一款复古风的动作解谜类游戏获得了不少好评。二代延续了一代的优点，对自己手指和脑子有信心的朋友不要错过。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/269210/" target="_blank">Hero Siege</a>&nbsp;《攻城英雄》 - 6 折 2.39 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/1cf59b2910d2.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">《以撒的结合》太难？那就试试这款游戏吧。可以把它想象成《以撒的结合》似的割草游戏，虽然难度相对简单一点，但是杀时间可是一点都不逊色。想和朋友一起玩，还有多人 DLC 可供购买。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/211820/" target="_blank">Starbound</a>《星界边境》 - 14.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/d77634e2f46f.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">这是一个以宇宙为背景的角色扮演沙盒类游戏。在游戏中，家乡被毁、找到了一个废弃空间站的你所需要做的就是重新踏上征途。为此需要在星球上找资源，和外星人战斗等等。这就像是一个太空版的 Terraria，嗯，什么是 Terraria 呢？就是拍扁了的 Minecraft 吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/244850/" target="_blank">Space Engineers</a>&nbsp;《星际工程师》- 75 折 14.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/ad98595fa227.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">如果对于拍扁了的 Minecraft 很是介意，但又想玩玩 Minecraft 的太空版，那么这款沙盒游戏是一个不错的选择。游戏中，你就扮演宇航员在外太空造太空站、采矿甚至开战。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/240660/" target="_blank">Rain Blood Chronicles: Mirage</a>&nbsp;<span>《雨血：<span>蜃楼</span>》</span>- 9.99 美元</span> 
+</h3>
+<p class="p1">
+	<img src="/uploads/image/201412/c4f5e50e4cad.jpg" alt="" /> 
+</p>
+<p class="p1">
+	<span class="s1">听说过《雨血：死镇》吧，这可是少见的中国独立游戏。这款充满了武侠色彩的角色扮演游戏最初是由一个毕业于清华大学建筑系的学生独立完成。</span> 
+</p>
+<p class="p1">
+	<span class="s1">之后续集《雨血：烨城》发行时也颇受关注。这个是《雨血》系列的第三作《蜃楼》，首次在 Steam 平台发行。不过，可惜的是 Steam 上只有英文版。</span> 
+</p>
+<p class="p1">
+	<br />
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/224460/" target="_blank">Contrast</a>&nbsp;- 5 折 7.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/f084cb5bea85.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">觉得解谜游戏太难却又想尝尝新鲜，那么这款利用 2D／3D 转换完成解谜的游戏一定会合你胃口。更为关键的是，游戏流程不长，也没有想着要为难玩家；留出的空间用来好好品味故事吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/248820/" target="_blank">Risk of Rain</a>《雨中冒险》- 75 折 2.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/ea9e65b4c5ae.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">和其他 2D 横版 Roguelike 类游戏不同，《雨中冒险》更强调多人合作。和两三好友一起扮演各种职业，一路升级打怪，这就是游戏最单纯的目的吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/263420/" target="_blank">Probably Archery</a>&nbsp;- 4.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/e013f32ea4c8.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">不少人可能都玩过一款叫做 QWER 的 Flash 小游。游戏中，玩家需要通过控制一名跑步运动员的四肢来跑步——或者说蠕动。这款游戏就是 3D 版的 QWER 不过运动项目变成了射箭。非常适合抖 M 玩家享用。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/241540/" target="_blank">State of Decay</a> 腐烂国度 - 5 折 9.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/f4b8ce881edd.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">丧尸类游戏玩的太多，好无聊？那么这款游戏应该会给你不同的末世体验。有故事的剧情、能升级的任务，可建设的基地，比那些只知道杀杀杀的游戏好多了。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/277680/" target="_blank">About Love, Hate and the other ones</a>&nbsp;- 75 折 5.24 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/b635e0236568.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">有趣的益智闯关类游戏，玩家需要利用两个不同角色“爱”吸引人的能力和“恨”排斥人的能力完成解谜过关。另外，画面清新可爱也要加一分。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/335790/" target="_blank">Words for Evil</a>&nbsp;- 2.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/2d3531e49034.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">英语学霸的游戏来了。这款游戏不考手速，也不管脑子，你所需要做的就是拼！单！词！单词拼的越长也就越有杀伤力。这个游戏可是《小小大星球》、《植物大战僵尸：花园战争》的制作人 <a href="http://gd18dylan.myvfs.ca/" target="_blank">Dylan Loney</a>利用闲暇时间独立完成。试试言语的力量吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/259410/" target="_blank">Sneaky Sneaky</a>&nbsp;《鬼鬼祟祟》 - 9 折 4.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/b721b99f6126.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">这是一款 Q 版的解谜潜入类游戏。玩家扮演一名萌萌的小盗贼重新取回属于自己的战利品。游戏的设计很巧妙，玩家需要考虑每一步的后果。一旦遇敌，回合制的战斗也让人不禁怀旧起来。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/327410/" target="_blank">A Bird Story</a>《鸟的故事》 - 75 折 3.74 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/22f9d7c36920.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">几年前，一款叫做《去月球》的视觉小说赚去了不少玩家的眼泪。在大家都翘首以待它的续作时，这款《鸟的故事》多少可以解解馋，顺便铺垫一下情感。熟悉第一部故事的玩家都知道，游戏的主线剧情其实就是治病，而这个《鸟的故事》的男主角就是未来第二部的病人对象。所以《鸟的故事》可以算作第二作的前传吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/293740/" target="_blank">Road Not Taken</a>&nbsp;《未选之路》- 5 折 7.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/74d21b3517ef.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">这是一款玩法特别、画风清新的解谜小游。游戏中，玩家扮演一个披着袍子的“游侠”，从恶人那里救出小孩。因为每走一步都会消耗生命，所以玩家要为每一条路线行为都好好思量一番。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/298600/" target="_blank">Lovely Planet</a>《可爱的星球》- 5 折 2.49 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/261cd19c12ea.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">射击闯关类游戏能有多萌，这款日风小游会告诉你。游戏中，你要做的就是跑跑跳跳，顺便用你的mini 小弓箭消灭路上的敌人。别随随便便就被它轻快吸引住，等后期被虐的一塌糊涂时听什么都是哀乐了。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/295750/" target="_blank">The Floor is Jelly</a>《果冻地板》 - 9.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/3f46e975ec39.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">又是一款可爱的小游，这次主题是动作冒险。游戏中的人物生活在一个满是果冻的世界，弹弹弹，弹走不快乐。玩游戏时先备上点果冻吧，否则玩起来再买就迟了。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<h3>
+	<span class="s1"><a href="http://store.steampowered.com/app/260230/" target="_blank">Valiant Hearts: The Great War™</a>&nbsp;《英勇之心：伟大战争》 - 6 折 8.99 美元</span> 
+</h3>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201412/d62ad760fe0f.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">育碧开发的一款以一战为背景的冒险解谜类游戏。和三个游戏类似，玩家都要扮演在战争中经历炮火的士兵。但不同是，之前的游戏自由度更高，这个游戏的剧情相对固定。其实两款游戏可玩成分都不多，安安心心听故事吧。</span> 
+</p>
+<p class="p1">
+	最后还是那句话，上文中部分游戏可能已经打过折，不要着急，最后一天可能会有二次打折的机会。愿大家今年冬天游戏愉快。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="2562">
+				<span data-id="2562">Steam</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4578" data-title="《圣诞打折，买点瞬间送货上门的便宜游戏吧》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4578/medium/4578.jpg?1436650455" data-url="http://www.qdaily.com/mobile/articles/4578" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="4578">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="4578" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">21</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/4577.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

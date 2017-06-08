@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>其实，你也可以用肉眼看到无线网络_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="其实，你也可以用肉眼看到无线网络。以后，或许你的手机需要连接上网的不是 Wi-Fi，而是家里的 LED 灯了。。好奇心日报为您呈现其实，你也可以用肉眼看到无线网络的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="可见光通讯 无线网络 微软 沈国斌 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hsVwZdJ9pjwBfUE/0j8WxDB2BUPQ7KdtrwS7gpOcmKg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9978">
+				<span data-id="9978">可见光通讯</span>
+			</li>
+			<li class="tag item" data-id="10084">
+				<span data-id="10084">无线网络</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="9979">
+				<span data-id="9979">沈国斌</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">其实，你也可以用肉眼看到无线网络</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-13 16:19:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9454/medium/9454.jpg?1436680490" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9454" data-title="《其实，你也可以用肉眼看到无线网络》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9454/medium/9454.jpg?1436680490" data-url="http://www.qdaily.com/mobile/articles/9454.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				以后，或许你的手机需要连接上网的不是 Wi-Fi，而是家里的 LED 灯了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	开着灯，手机便能有电能打电话和上网，这听起来很酷炫，但这项超前的技术一直都在实验室环境当中发生，对于普通人来说，这个项目还有多久走出实验室，会让我们的生活产生什么样的变化？
+</p>
+<p>
+	《好奇心日报》最近和微软亚洲研究院的沈国斌博士聊了聊“可见光通讯”最新的进展。沈国斌博士最早做室内定位的研究，在 2012 年的时候开始研究可见光通讯，就是室内的光源怎样确定人的位置，去年，他所带的团队获得了全球的室内定位比赛 IPSN 的第二名。
+</p>
+<h2>
+	光究竟是怎样传输信息的？
+</h2>
+<p>
+	早在 2004 年，IEEE 杂志上就有论文解释通过发光二极管（也就是 LED 灯管）提供无线网络连接的方法，具体的原理是这样的：
+</p>
+<p>
+	LED 灯本来就是一个半导体芯片，跟传统的灯丝是不一样的是，芯片可以特别快地开关，例如使用交流电的灯是 60 赫兹，人类眼球无法识别灯光闪动。在一开一关的时候，光就有方波了，经过调制就可以传信息了，跟我们平常使用的电话的无线电通讯无异。
+</p>
+<p>
+	目前全球的多所大学都有相关的研究项目，他们大多数都在实验室进行。在 2012 年，通讯业杂志 IEEE 上就曾经发表一篇让可见光传输速率达到 96 Mb/s 的论文。到 2013 年年底，上海复旦大学的实验室里已经可以让光一盏功率为 1W 的 LED 灯珠，提供灯光下的 4 台电脑上网，最高速率可达 3.25 Gbp 每秒，平均上网速率达到 150Mb 每秒。
+</p>
+<p>
+	<img src="/uploads/image/201505/a4b44ce83a58.jpg" alt="" /> 
+</p>
+<p>
+	微软亚研早前也在做这方面的研究。和实验室将把光到设备的传输速率拉峰值极限的尝试不太一样，想要研究这种技术在普通电子设备上的可能性，于是他的团队就在淘宝买了便宜的 LCD 面板，几块钱的太阳能电池板、电路板和可以进行试验。
+</p>
+<p>
+	目前，沈国斌的团队研究了如何用逆向反射器（Retro-Reflector），其实就是一种反光镜，将光线原路反射回到 LED 灯上，形成了LED 和电子设备间相互通讯。他们已经能做到，在灯光 1 兆的开关频率之下，从灯光到设备的下行速度达到 10 kb/s，而从设备反光的上行速度达到 0.5 kb/s。
+</p>
+<p>
+	在微软的亚洲研发中心，我们看到了这个用价格低廉的组件做成的试验品：不需要充电线，也没有 Wi-Fi 信号，只有一块装有 LCD 屏幕、反射镜和太阳能板的类似手机大小的设备。点亮 LED 灯泡的手电筒直射，设备便亮起来，并且开始传输数据。LED 灯变成了一个普通设备的能量源和信息源。
+</p>
+<h2>
+	智能交通路牌、无需充电的物联网设备
+</h2>
+<p>
+	试试想象这样的场景——车灯照到了路边的路牌，路牌马上可以给车辆导航仪传输附近的路况，告诉你到达目的地最通畅的道路；早上起来一开灯，空气检测仪就能会告诉你室外的空气质量、温度和湿度如何，而这检测仪的显示屏就一直挂在床头，不需要充电，也不需要连接 Wi-Fi 或者蓝牙。
+</p>
+<p>
+	<img src="/uploads/image/201505/a5430e76a53b.jpg" alt="" /> 
+</p>
+<p>
+	微软亚研的沈国斌博士告诉《好奇心日报》，智能的路牌、不需要充电的物联网设备上述可能就是他们认为的可见光通讯的未来的样子。听起来很美，但现在依然停留在理论阶段。“我们第一个思路就是想去和产品部门讨论，看看这个东西有没有可能放到微软的大的产品蓝图里面去，无论是我们设计，还是我们的想法，只要他们能够接受，我们就会很高兴。”
+</p>
+<p>
+	但要实现这些其实并不容易，需要推出改造好的 LED 灯具，还需要推出有逆向发射器的电子产品同时推向市场售卖。而对于一个公司来说，光是从技术到产品，需要配合的相关团队有太多。
+</p>
+<h2>
+	研究和产品之间的距离有多远？
+</h2>
+<p>
+	1880 年，加拿大发明家亚历山大·贝尔发现了一个有趣的玩法：通过调节光束的变化，传递语音信号，可以进行双方无线对话——这就是人类第一次实现无线电话，利用的就是可见光通讯。贝尔为此发明申请专利的时候，连电力都没有出现，他也认为这“光电话”没有任何实用价值。
+</p>
+<p>
+	<img src="/uploads/image/201505/77e5a678f058.jpg" alt="" /> 
+</p>
+<p>
+	事实上，无论是什么科研项目，在一个做产品的企业，产品部门依然是主导。产品部门有一些问题待解决的时候，根据此开发的技术是很快可以用到产品之上，而没有相关的产品计划的时候，将基础研究成果转化成产品十分有难度。
+</p>
+<p>
+	“这种情况下，研究院的任务就是把这些很酷的技术通过发论文或者是内部的 demo 让产品部门了解，希望他们在下一次做产品计划的时候会考虑这个技术。”沈国斌这么说。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	图片来自：Wikipedia | <a href="https://www.flickr.com/photos/highwaysengland" target="_blank">Flickr: Highways England</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9978">
+				<span data-id="9978">可见光通讯</span>
+			</li>
+			<li class="tag item" data-id="10084">
+				<span data-id="10084">无线网络</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="9979">
+				<span data-id="9979">沈国斌</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9454" data-title="《其实，你也可以用肉眼看到无线网络》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9454/medium/9454.jpg?1436680490" data-url="http://www.qdaily.com/mobile/articles/9454.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24691.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24691/medium/24691.jpg?1459306365" alt="">
+                        <h1 class="title">「酸汤鱼经济学」为什么你成不了“网红”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24703.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24703/medium/24703.jpg?1459316101" alt="">
+                        <h1 class="title">亚马逊的一键购物按钮要升级了，买买买会更方便吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24702.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24702/medium/24702.jpg?1459314855" alt="">
+                        <h1 class="title">为了体现蜂蜜的不同特点，她做了两种性格的包装</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9454">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9454" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">84</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9462.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

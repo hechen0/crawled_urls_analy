@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>（超）扁平_设计词典_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="（超）扁平。。好奇心日报为您呈现（超）扁平的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心日报 好奇心 Qdaily 商业新闻 设计 智能 时尚 城市 生活方式 娱乐 电影 音乐" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="jBNVdz2qtjaCKW/Bb9rf9A5IIjilu2TIXVvzexQiFN0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/13.html" class="category x25" data-id="13">
+			<img src="/system/categories/iconwhites/13/medium/13.png?1411569785" alt=""/>
+			<span>设计词典</span>
+		</a>
+		<h1 class="title">（超）扁平</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">李如一</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-08-27 14:22:32 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/2048/medium/2048.jpg?1410151070" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2048" data-title="《（超）扁平》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2048/medium/2048.jpg?1436647593" data-url="http://www.qdaily.com/mobile/articles/2048" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	如我在设计词典之「<span><a href="http://qdaily.com/display/articles/1953">拟物</a></span>」中所说，扁平和拟物并不是一对反义词；它们是两种并行的风格。<span></span> 
+</p>
+<p class="MsoNormal">
+	如今谈到扁平化设计，人们首先想到的往往是<span> Windows Phone </span>或<span> iOS 7</span>。把视野放宽一点，才会看到扁平其实是更大的美学和社会趋势中的一部分。从表面看，扁平是将三维空间压成了二维。但这种无阴影、无材质纹理的纯平风格之所以会流行，和当代社会的减法运动有关。让形式跟随功能是现代主义的信条之一，这句话的朴素表达方式就是「不要做没有用的东西」。扁平的种子其实在这里已经种下。<span></span> 
+</p>
+<p class="MsoNormal">
+	按照科幻小说家、加拿大人威廉<span>·</span>吉布森（<span>William Gibson</span>）的说法，日本是「<span><a href="http://www.theguardian.com/books/2001/apr/01/sciencefictionfantasyandhorror.features">全人类关于未来的想象的默认值</a></span>」，要了解未来，就要去看日本。廿一世纪的第一年<span>——</span>扁平化设计风格在<span> UI </span>领域流行前十三年<span>——</span>艺术家村上隆喊出了「超扁平」（<span>Superflat</span>）的口号。<span></span> 
+</p>
+<p class="MsoNormal">
+	超扁平最初是村上隆在洛杉矶当代艺术馆策划的一场群展的名字，随后被成功包装成一个综合性商业<span>/</span>艺术概念。村上所谓的扁平有两层含义，一是日本艺术对二维图像的大量使用，二是战后日本社会阶级界限消失后，高端与低端品味被「压平」。<span></span> 
+</p>
+<p class="MsoNormal">
+	很多人对超扁平系作品的第一反应都是「很动漫」，村上隆也并不掩饰日本动画、漫画以及御宅文化对自己的影响。别忘了，动漫爱好者对动漫的爱称「二次元」只不过是「二维」的日文说法。如果把那个很可能是为了语感的帅气加进去的「超」拿掉，<span>Superflat </span>几乎可以看作对二次元的一种重新包装和<span> curate</span>。<span></span> 
+</p>
+<p class="MsoNormal">
+	我认为诸如青岛千穗、高野绫、<span>Mr.</span>、以及村上隆本人等超扁平系艺术家的作品和<span> iOS 7 </span>在视觉风格上是有逻辑演进关系的。它们的相似是神似而非形似。说乔纳森<span>·</span>艾弗（<span>Jonathan Ive</span>）和他的团队模仿了超扁平系艺术作品是荒诞的，但后者对世界的审美格局有着潜移默化的缓慢影响。扁平是一种全方位的趋势，<span>UI </span>设计的扁平化只是这一趋势的表征之一。扁平是（后）现代病的一种，是人类对「高度冗余」的反弹。在《整理达人万岁》（<span><a href="https://www.jacobinmag.com/2014/07/all-power-to-the-pack-rats/">All Power to
+the Pack Rats</a></span>）一文中，伊安<span>·</span>斯文诺尼（<span>Ian Svenonius</span>）敏锐地指出「苹果硬件<span> + </span>宜家家私<span> + Wi-Fi </span>网络」的生活方式正在消解实体世界。他说：<span></span> 
+</p>
+<p class="MsoNormal">
+	<em>苹果鼓励我们扔掉实体物。音乐？存在</em><span><em> iCloud </em></span><em>上。书？存在</em><span><em> iCloud </em></span><em>上。电影、杂志、报纸、电视</em><span><em>……</em></span><em>统统安全地存放在以太里，而不是我们的脚下或壁橱中</em><span><em>……</em></span><em>与此同时，那些守着实体物件的人被批评、被讥笑、被视为傻子。</em><span></span> 
+</p>
+<p class="MsoNormal">
+	这大概是不少人理想中的生活：桌、椅、笔记本电脑、移动设备和耳机是你的主要物品。你的公寓和你每天以沙拉为食的肠胃一样轻便干净。你用「防干扰」写作软件和无衬线字体，戒烟戒酒，定时运动，坚决不碰大麻。听<span> MP3</span>，读电子书，上视频网站看电影。一个无印良品的<span> CD </span>架就能装下你所有的<span> CD</span>。你用水浴设备（<span><a href="http://www.qdaily.com/display/articles/1933">sous-vide</a></span>）做三成熟的牛排，用支付宝交房租水电费，骑死飞自行车，指着手机上的<span> Uber </span>图标跟朋友说<span> car ownership </span>已经过时了。女朋友告诉你发型和打扮以简单干净为上，「不要搞得那么花里胡哨，你是二次元咩？」（她不知道其实你就是二（<span>chāo</span>）次（<span>biăn</span>）元（<span>píng</span>）。）<span></span> 
+</p>
+<p class="MsoNormal">
+	像你的生活？嗯，你可以开始做扁平化设计了。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201409/614f3913f734.png" alt="" />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2048" data-title="《（超）扁平》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2048/medium/2048.jpg?1436647593" data-url="http://www.qdaily.com/mobile/articles/2048" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25470.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25470/medium/25470.jpg?1460614876" alt="">
+                        <h1 class="title">亚马逊 Kindle Oasis 上手，这是我们的印象</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25475.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25475/medium/25475.jpg?1460617328" alt="">
+                        <h1 class="title">把发布会变成脱口秀后，韩寒公布了新片《三重门》</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25461.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25461/medium/25461.jpg?1460607406" alt="">
+                        <h1 class="title">功能最简单的宜家铝制单车，价格不是太友好</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25466.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25466/medium/25466.jpg?1460613715" alt="">
+                        <h1 class="title">「这世界」消灭种族偏见，应该从纠正搜索结果开始？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25477.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25477/medium/25477.jpeg?1460617579" alt="">
+                        <h1 class="title">可穿戴设备都去拼设计了，Fitbit 也不例外</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25426.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25426/medium/25426.jpg?1460542897" alt="">
+                        <h1 class="title">咖啡、巧克力、红酒和奶酪，减肥的时候也别戒掉它们</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25474.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25474/medium/25474.jpg?1460616651" alt="">
+                        <h1 class="title">星巴克的新会员计划，倒是给了竞争对手示好的机会</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2048">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2048" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">15</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2045.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

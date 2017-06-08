@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>什么样的游戏可能会出现在 Apple Watch 上？_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="什么样的游戏可能会出现在 Apple Watch 上？。苹果的手表会成为游戏商抢夺的新市场吗？。好奇心日报为您呈现什么样的游戏可能会出现在 Apple Watch 上？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 智能手表 苹果 苹果 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="sP3971d6qVsDFimzm4ckA7vB7GUm6ACTyLrBNQ006xc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1233">
+				<span data-id="1233">智能手表</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">什么样的游戏可能会出现在 Apple Watch 上？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-10 17:33:23 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7252/medium/7252.jpg?1436688796" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7252" data-title="《什么样的游戏可能会出现在 Apple Watch 上？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7252/medium/7252.jpg?1436688796" data-url="http://www.qdaily.com/mobile/articles/7252.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				苹果的手表会成为游戏商抢夺的新市场吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	在苹果推出了&nbsp;<span lang="EN-US">Apple Watch&nbsp;</span>以后，游戏开发商和发烧友们当然要开始讨论一下这款新产品上游戏的可能性。虽然穿戴式智能设备早就已经出现，而且并没有对游戏产生多么大的影响。不过这次来的可是苹果，一个常常能颠覆某些概念的品牌。也许这款新型智能手表的出现，真的能让某些游戏变得真正“无处不在”：
+</p>
+<h3>
+	<b><span lang="EN-US">&nbsp;</span></b><b>数十秒钟内就玩一局的游戏</b> 
+</h3>
+<p class="MsoNormal">
+	想象一下这款待机时间比一般手机还要短的手表——所以为了要看时间，你不可能真的捧着&nbsp;<span lang="EN-US">Apple Watch&nbsp;</span>没日没夜的打游戏，游戏的时长因而受到限制。所幸有很多游戏就是为了填充你可能只有数十秒的碎片时间。“考虑人们如何使用这款设备，并从这一点出发来开发游戏才是正确的做法。”&nbsp;<a href="http://www.theguardian.com/technology/2015/mar/09/apple-watch-can-be-games-platform" target="_blank"><span lang="EN-US">Will Luton&nbsp;</span>说</a>。他是智能手表&nbsp;<span lang="EN-US">Pebble</span>上一款很火的游戏&nbsp;<span lang="EN-US">Pixel Miner&nbsp;</span>的开发者。他认为人们使用智能手表的特点就是高频率，低持续时间，要求互动简单，只用点几下就好。这类一分钟就能玩一局的小游戏以往都采用普通的液晶显示，人物形象简化互动十分简单——你可以想象一下以前小学门口卖的那种电子宠物（暴露年龄系列）。目前在智能手表上出现的一款最高级的此类游戏是 Flappy Bird。不过如果在一款&nbsp;<span lang="EN-US">12&nbsp;</span>万元的手表上玩这种游戏，会不会一下丧失了好不容易累积的逼格？<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<h3>
+	<span lang="EN-US">&nbsp;</span><b>健身！让身体动起来？</b> 
+</h3>
+<p class="MsoNormal">
+	没有大屏幕，也没有加很多特技，作为一款手表它的优点在于它和你的身体紧密相连。就像所有的智能手表和手环一样，<span lang="EN-US">Apple Watch </span>可以成为你健身和运动的好伙伴。在之前的其他智能手表上，健身健康类应用是市场关注的焦点。聪明的游戏开发商当然也会抓住机会推出几款运动游戏，让游戏摆脱“宅”的固有形象。<span lang="EN-US">Six to Start </span>曾经在手机上推出过一款&nbsp;<i><span lang="EN-US">Zombies</span></i><i>，<span lang="EN-US">Run</span></i><i>！&nbsp;</i>的游戏，通过耳机的语音提示模拟一个僵尸追赶玩家的情景，然后督促玩家跑步，并记录下玩家的各项身体数据和路程路线。现在&nbsp;<span lang="EN-US">Apple Watch&nbsp;</span>显然更胜任这个功能（再也不用担心跑步的时候手机摔了），不过对于懒癌重度患者，这款游戏的意义大概在于每天早上用僵尸的吼声代替手表闹钟让你起床吧。
+</p>
+<h3>
+	<span lang="EN-US">&nbsp;</span><b>中二病的虚拟世界</b> 
+</h3>
+<p class="MsoNormal">
+	不知道多少人梦想着自己有一款《名侦探柯南》里死神小学生的那块儿手表，然后拿着它各种打&nbsp;<span lang="EN-US">CS&nbsp;</span>一样的到处瞄准射击然后脚步在光滑的地上摩擦。现在游戏开发者们正在考虑如何实现这一点，呃，准确地说是如何把虚拟世界的游戏屏幕和真实世界结合起来。智能手表有能力承担这项任务——因为它小巧便携。还记得&nbsp;<span lang="EN-US">Google&nbsp;</span>那款虚拟现实游戏&nbsp;<span lang="EN-US"><em>Ingress&nbsp;</em></span>么？这款需要你靠在现实世界中步行累计能量，并到特定地点执行任务的游戏，看起来非常适合被用于智能手表这块“第三屏幕”。对于苹果来说，将手表、电脑和手机上的三方数据互通，构成一个庞大的虚拟现实世界网络不成问题。如果硬件技术和软件兼容再进步一点，说不定将来你就能拿着你的手表在街上到处乱扫，并报告“发现目标！请求指示！”（被当成中二病本文作者概不负责。）<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<h3>
+	<span lang="EN-US">&nbsp;</span><b>奇怪的游戏社交工具</b> 
+</h3>
+<p class="MsoNormal">
+	在此之前任天堂曾经让&nbsp;<span lang="EN-US">3DS&nbsp;</span>主机具备一项功能：他们允许在街上擦肩而过的两台游戏机，在社交功能开启的状态下，互相记录下对方的信息，然后在玩家下次打游戏之前选择是否加对方为好友一起玩游戏。现在这种浪漫的邂逅可以交给新的智能手表来完成，毕竟不是谁都会天天包里揣个游戏机到处乱晃。而且，<span lang="EN-US">Apple Watch&nbsp;</span>能够保证你认识的更有可能是一个有着一定经济能力和生活追求的主儿，毕竟，这东西不是人人都想用用得起的——希望以后&nbsp;<span lang="EN-US">Apple Watch </span>还能告诉你，你的游戏友用的手表是&nbsp;<span lang="EN-US">12&nbsp;</span>万元的那款还是&nbsp;<span lang="EN-US">2588&nbsp;</span>元那款。
+</p>
+<h3>
+	<b>如果你不怕撞坏你就来吧</b> 
+</h3>
+<p class="MsoNormal">
+	曾经有一个神奇的线下游戏活动叫做<span lang="EN-US">&nbsp;Johann Sebastian Joust</span>，这个游戏由一位热衷将游戏和现实运动结合起来的设计师<span class="apple-converted-space">&nbsp;</span><span lang="EN-US">Alistair Aitcheson&nbsp;</span>创造。内容是一群人拿着&nbsp;<span lang="EN-US">PlayStation&nbsp;</span>的移动控制手柄，互相追赶打闹着，目的是碰到别人的控制手柄令其出局，并保护自己的手柄不被碰到。这种聚会时的余兴节目看起来还挺好玩的，不过手柄那么大拿起来很不方便，于是有人就打起了&nbsp;<span lang="EN-US">Apple Watch&nbsp;</span>的主意，想让其代替那个像灯泡一样的控制手柄。虽然不是很明白为什么不用布条或者颜料什么的东西来代替这些高精尖的玩意儿，但是能玩得起这种游戏的聚会肯定是土豪们的聚会吧：大概要求至少六七个人都具有&nbsp;<span lang="EN-US">Apple Watch&nbsp;</span>设备。不过从 i<span lang="EN-US">Phone&nbsp;</span>的普及率看来，这肯定会比要求六七个人都有&nbsp;<span lang="EN-US">PlayStation&nbsp;</span>的手柄来得靠谱。
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US">&nbsp;</span>其实不管将来有多么好的游戏会搬上&nbsp;<span lang="EN-US">Apple Watch</span>，更重要的一点是这玩意儿要有人买，才能够有游戏玩，才会有人陪你玩。如果&nbsp;<span lang="EN-US">Apple Watch </span>都不能让游戏发烧友们有点对穿戴式设备游戏的期待的话，那估计就真的没有别人能做到这点了。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1233">
+				<span data-id="1233">智能手表</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7252" data-title="《什么样的游戏可能会出现在 Apple Watch 上？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7252/medium/7252.jpg?1436688796" data-url="http://www.qdaily.com/mobile/articles/7252.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24789.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24789/medium/24789.jpg?1459407016" alt="">
+                        <h1 class="title">有个工厂仓库改的住宅，理想化得不可思议</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24810.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24810/medium/24810.jpg?1459418914" alt="">
+                        <h1 class="title">愚人节要来了，看全世界都觉得没安好心呐</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7252">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7252" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">30</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7248.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

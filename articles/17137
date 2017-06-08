@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一份高冷的艺术小众报纸如何活下去，还得活得好？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一份高冷的艺术小众报纸如何活下去，还得活得好？。《The Brooklyn Rail》的答案是把报纸做成艺术品。。好奇心日报为您呈现一份高冷的艺术小众报纸如何活下去，还得活得好？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="报纸 纸媒 艺术 众筹 纽约时报 The Brooklyn Rail Phong Bui " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RXEVM57F4r10Xq6M4utD4KVa3+a5BJ5udTAI7mQ9Nf8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4099">
+				<span data-id="4099">报纸</span>
+			</li>
+			<li class="tag item" data-id="7923">
+				<span data-id="7923">纸媒</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="817">
+				<span data-id="817">众筹</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="18339">
+				<span data-id="18339">The Brooklyn Rail</span>
+			</li>
+			<li class="tag item" data-id="18340">
+				<span data-id="18340">Phong Bui</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一份高冷的艺术小众报纸如何活下去，还得活得好？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Ravi Somaiya</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-06 07:40:29 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/17137/medium/17137.jpg?1446702428" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17137" data-title="《一份高冷的艺术小众报纸如何活下去，还得活得好？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17137/medium/17137.jpg?1446702428" data-url="http://www.qdaily.com/mobile/articles/17137.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				《The Brooklyn Rail》的答案是把报纸做成艺术品。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	Phong Bui&nbsp;既是一位艺术家同时也是艺术类报纸《The Brooklyn Rail》的创始人兼管理者，其风格与一般的媒体经理人有所不同。
+</p>
+<p>
+	报社总部位于日落公园（Sunset Park）的一个旧厂房内，他办公室的一面墙上贴满了精心绘制的铅笔画像，计划集齐 500 张时为之举办一场展览。另外一个系列名为“冥想”——所有图片都由一根线绘制完成，颇有禅意。他擅长运用寓言、轶事，这方面来看比起出版人倒是更像一位哲学大师。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/c11f051bc271.jpg" width="675" height="400" title="《The Brooklyn Rail》出版人Phong Bui，周四位于布鲁克林。图片来源：Hilary Swift ／《纽约时报》" alt="《The Brooklyn Rail》出版人Phong Bui，周四位于布鲁克林。图片来源：Hilary Swift ／《纽约时报》" /><span>《The Brooklyn Rail》出版人Phong Bui，周四位于布鲁克林。图片来源：Hilary Swift ／《纽约时报》</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	“现在的挑战是如何把报纸做成一件艺术品。”15 年前的这个月，在他的公寓里诞生了这份报纸，说起报纸以及相关的各种活动，在他看来更像是人类行为关系的一种社会速写。
+</p>
+<p style="text-align:left;">
+	他所描绘的目标一听就不像是一般出版公司的套路。但是“<a href="http://www.brooklynrail.org/">The Rail</a>”，这份每月 2 万份订阅量外加 20 万网络浏览量的报纸，与其他小众出版公司一起，向如今的媒体行业发起了挑战。此类出版公司往往锁定小范围、高标准的客户群体，也因此无法套用业已流行的范式——吸引大众、薄利多销、依赖广告。<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span>The Rail&nbsp;</span><span>的现状是三位全职员工的薪水以及其他公司开销都需要多方筹措、拼凑，延迟个把月份也是常有之事。公众捐款、董事会援助、有限的广告收入、融资所得、赞助款项以及偶尔举办的<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/a/art_auctions/index.html?inline=nyt-classifier"><span>艺术拍卖</span></a>所得都是资金来源。下一场拍卖将于 1 月份联合&nbsp;<span><a href="http://www.pacegallery.com/">Pace Gallery</a>&nbsp;</span>展览馆一同举行。</span> 
+</p>
+<p>
+	其他出版公司大都通过忠实伙伴筹措资金。上个月底，伦敦杂志《<a href="http://www.thewhitereview.org/">The White Review</a>&nbsp;》成功通过众筹网站&nbsp;Kickstarter&nbsp;融资 2.5 万美元。对于承诺出资的各方，该杂志提供的回馈是伦敦一日游，并且有小说作家 <a href="http://will-self.com/">Will Self</a>&nbsp;作伴，或者得到艺术家&nbsp;<a href="http://www.luhringaugustine.com/artists/rachel-whiteread/bio">Rachel Whiteread</a>&nbsp;的限量版印刷作品。&nbsp;《<a href="http://www.guernicamag.com/">Guernica</a>》 杂志上个月筹得超过&nbsp;2.2&nbsp;万美元的款项，《<a href="http://bombmagazine.org/">Bomb</a>》、《<a href="http://www.mcsweeneys.net/">McSweeney’s</a>》&nbsp;等杂志也取得了类似的成绩。&nbsp;《The Rail》给出的回馈是捐款超过&nbsp;1000&nbsp;美元者将与报纸编辑、出版作者共进晚餐；款超过 2.5 万美元者将获得一份&nbsp;Bui&nbsp;先生的冥想作品。
+</p>
+<p>
+	“这样一来，我们就能保证文化层面的对话不受利益驱使，”报社总经理&nbsp;Sara Christoph&nbsp;如是说，“我们可以出版各种人的作品，不论长幼，不论议题是否具有争议。”
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/5d0c1f7729f5.jpg" width="600" height="401" title=" " alt=" " /> 
+</p>
+<div style="text-align:center;">
+	<em>Maggie Barrett是报纸</em><em>The Brooklyn Rail,</em><em>的艺术总监，照片摄于周四，布鲁克林工业园报社办公室内。图片来源：</em><em>Hilary Swift/《纽约时报》</em> 
+</div>
+<p>
+</p>
+<p>
+	“多年以来，我一直渴望艺术群体的出现，那种老纽约波西米亚式的智力对话。” <a href="http://www.guggenheim.org/new-york/collections/collection-online/artists/bios/1583">Shirin Neshat</a>&nbsp;是一位艺术家，同时也是《The Rail》的赞助人之一，她认为正是&nbsp;Mr. Bui&nbsp;反其道行之，将艺术家联系起来，使得彼此不再是活动开幕式上混个脸熟而已。
+</p>
+<p>
+	Bui&nbsp;先生&nbsp;1980&nbsp;年从越南来到美国，他厌倦了与友人、艺术家在布鲁克林酒吧里无休止的辩论，于&nbsp;1998&nbsp;年创办了报纸《The Rail》，虽说当时的版本看起来像是免费分发的手册。
+</p>
+<p>
+	“我记得有一句越南谚语说：与智者辩论不会赢；与愚者辩论不会停。既然能够联合起来，不如将这份能量转化成更有益处的成果。”
+</p>
+<p>
+	两年后，他的一张画卖出了 2000 美元，再加上朋友的 500 美元，报纸开始正式投入印刷。Bui&nbsp;说报社的宗旨是给编辑、作者自由。
+</p>
+<p>
+	”我们尊重个体的声音，我们只是做一些文字上的修改，偶尔查证一下例子，从来不改动原意。通过一份作品，你能看出这位作者的年龄。”
+</p>
+<p>
+	<span>每份报纸都包括小说（包括翻译而成的各国作品）和专题访问，有时与某个艺术家的对话可能占据几页版面，也有文章标题诸如</span><span>“</span><span>智力群体的过度产出：美国社会层级的转型</span><span>”</span><span>等。目前报纸拥有两份下属出版物：位于明尼阿波里斯市的《<span><a href="http://thirdrailquarterly.org/">The Third Rail</a>》</span>，以及位于迈阿密的《<span><a href="http://miamirail.org/">The Miami Rail</a>》</span>。</span> 
+</p>
+<p>
+	<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/h/hurricanes_and_tropical_storms/index.html?inline=nyt-classifier">飓风&nbsp;Sandy</a>&nbsp;期间，Bui&nbsp;损失了&nbsp;25&nbsp;年来的作品以及大量报纸的档案文献。为此，他于 2013 年筹办了一场名为“众志成城、战胜 Sandy”（Come Together: Surviving Sandy）的展出，并将焦点集中在飓风中失去作品或蒙受损失的艺术家身上。艺术评论人&nbsp;Roberta Smith&nbsp;在《纽约时报》的文章中写到，“这个以平等主义为宗旨的展出充分体现了纽约艺术核心的伟大之处。”
+</p>
+<p>
+	如今他的目标是确保报纸不再朝不保夕，而是拥有更为长远的规划。他很喜欢画家<a href="http://www.moma.org/collection/artists/3213">Willem de Kooning</a>&nbsp;的故事。
+</p>
+<p>
+	“他很穷，没钱找模特，因此没事儿就去&nbsp;Bowery&nbsp;之类的时尚区溜达。有一天他发现了一个人型模特，因此欣喜若狂。回家后，他给模特穿上衣服、拍好姿势，准备画画。但就在此时他心酸的哭了起来。”
+</p>
+<p>
+	<span>Bui&nbsp;</span><span>认为，贫穷对于创意工作者来说至关重要。虽说这也是相对而言。</span> 
+</p>
+<p>
+	题图来自 &nbsp;<span><a href="http://www.brooklynrail.org/2014/6/criticspage">brooklynrail</a></span> 
+</p>
+<p>
+	翻译 &nbsp;国舅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4099">
+				<span data-id="4099">报纸</span>
+			</li>
+			<li class="tag item" data-id="7923">
+				<span data-id="7923">纸媒</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="817">
+				<span data-id="817">众筹</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="18339">
+				<span data-id="18339">The Brooklyn Rail</span>
+			</li>
+			<li class="tag item" data-id="18340">
+				<span data-id="18340">Phong Bui</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17137" data-title="《一份高冷的艺术小众报纸如何活下去，还得活得好？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17137/medium/17137.jpg?1446702428" data-url="http://www.qdaily.com/mobile/articles/17137.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16638.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16638/medium/16638.jpg?1445912892" alt="觉得纸杂志乏善可陈？那是因为你还没遇到这样的好创意">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">觉得纸杂志乏善可陈？那是因为你还没遇到这样的好创意</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">119</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16127.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/16127/medium/16127.png?1445044132" alt="你以为《花花公子》只是一本情色杂志？它的历史其实是一部流行文化的变迁史">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">你以为《花花公子》只是一本情色杂志？它的历史其实是一部流行文化的变迁史</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">191</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17137">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17137" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">91</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17119.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

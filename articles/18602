@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>在菜单上标注食物的卡路里，可以帮助食客们更节制吗？_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="在菜单上标注食物的卡路里，可以帮助食客们更节制吗？。菜单标注可能是政策制定者们选择的方法，却不一定是恰当的药方。。好奇心日报为您呈现在菜单上标注食物的卡路里，可以帮助食客们更节制吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 卡路里 热量 菜单 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="PLy8jTLfeZd9f/kWAjk6XBJxkETgIK/e3oxc7fHU9Ow=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="771">
+				<span data-id="771">卡路里</span>
+			</li>
+			<li class="tag item" data-id="8127">
+				<span data-id="8127">热量</span>
+			</li>
+			<li class="tag item" data-id="2135">
+				<span data-id="2135">菜单</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">在菜单上标注食物的卡路里，可以帮助食客们更节制吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Aaron E. Carroll</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-07 12:58:49 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/18602/medium/18602.jpg?1449458795" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18602" data-title="《在菜单上标注食物的卡路里，可以帮助食客们更节制吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18602/medium/18602.jpg?1449458795" data-url="http://www.qdaily.com/mobile/articles/18602" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				菜单标注可能是政策制定者们选择的方法，却不一定是恰当的药方。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<a href="http://www.nytimes.com/2015/11/12/health/obesity-rises-despite-all-efforts-to-fight-it-us-health-officials-say.html?_r=0">美国人的超重状况依然严重。</a>依据<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/centers_for_disease_control_and_prevention/index.html?inline=nyt-org">美国疾病控制预防中心</a>的数据，2013-2014&nbsp;年间约<a href="http://www.cdc.gov/nchs/data/databriefs/db219.htm">38%</a>的成人属肥胖，十年前这个数据为&nbsp;32%。这还是在近年来为了让人们饮食更健康、美国做出了大量努力的情况下。
+</p>
+<p>
+	政策制定者一直认为，就是因为知识缺乏，所以人们才会过度吃进高热量食品。他们还推测说，一旦美国人了解了他们在吃什么，就会少吃，或者至少将健康因素考虑进去。出于这个原因，许多健康倡导者呼吁餐馆向人们提供他们所点食物的热量计数。近期的规定则说，到明年年底，所有在美国售卖食品的连锁餐厅与机构均需在菜单中标明热量。
+</p>
+<p>
+	由于许多餐厅已经开始在菜单中标明食物热量，我们可以看看是否有用，并预测一下新规定是否会奏效。例如，研究人员<a href="http://content.healthaffairs.org/content/34/11/1877.full">观察了从 66 家大型连锁餐厅搜集来的数据</a>——包括标出热量的餐厅和不标出热量的餐厅——然后他们发现，平均下来，在标注热量的店里，每样食物的热量要比其他店里低 139 卡。
+</p>
+<p>
+	但这并不代表标出热量会使得餐厅降低其菜品的热量。可能仅仅意味着提供较低热量食物的餐厅更愿意让你知道这件事。
+</p>
+<p>
+	想更好地理解什么举措可以改变人们的行为，或许可以用科学家的方法，比如前瞻性试验。有一个<a href="http://content.healthaffairs.org/content/34/11/1869.full">研究</a>就是这么做的，它分析了沃尔玛的<a href="http://www.nytimes.com/2011/01/20/business/20walmart.html">健康食品运动</a>如何改变人们购买食物的习惯。沃尔玛采取的方法之一，是在达到一定营养标准的食品包装外部加贴标签，并且降低一些较健康的食物的价格。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	多年研究显示，顾客购买的热量数越来越小。但这些改变在项目启动前就正在发生。研究人员的<a href="http://content.healthaffairs.org/content/34/11/1869.full#sec-10">结论</a>是，基于零售商采取的举措不足以改变人们的行为。
+</p>
+<p>
+	本月的另一场<a href="http://content.healthaffairs.org/content/34/11/1893.full">研究</a>也与此相关。纽约从 2008 年起就需要标注菜单。当时人们表示，相较于在不标注餐厅用餐的人而言，他们更多地关注热量。但是一年一年过去，越来越少人关注或考虑食物的热量，顾客也开始忽视这些标注。更重要的是，这些标签从未减少食客所点菜的热量。即便人们注意到了热量计数，他们也<a href="http://content.healthaffairs.org/content/34/11/1893/t3.expansion.html">没有改变</a>自己的行为。
+</p>
+<p>
+	问题是许多研究被包装成新的成果，其实我们很多年前就知道了。纽约城市计划开始之后，就有了针对它的研究。《美国公共卫生杂志》 2012 年<a href="http://ajph.aphapublications.org/doi/full/10.2105/ajph.2013.301218">发表的文章</a>指出，菜单标注似乎增加了人们的热量摄入量，因为人们会选择高热量而非低热量的主食。这么看来，美国政府的措施三年不见效果也没什么可惊讶的。另一个在西雅图进行的标签计划，关于其影响的<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmc3185295/">研究</a>发表在 2011 年的《美国预防医学期刊》上，研究指出，“它强化了人们对营养知识的认知，但并没有减少父母或小孩购买食品的热量。”
+</p>
+<p>
+	今年发布的一篇系统性<a href="http://ajph.aphapublications.org/doi/full/10.2105/ajph.2015.302570">评论</a>回顾了 2013 年 10 月至今所有关于菜单标注的研究，发现各种研究互不相同。许多研究实验并不是在现实情况下进行的。但设置在餐厅的六组对照实验显示，总体而言，菜单标注不会极大地改变人们所点的食物。农业部营养证据库<a href="http://www.nel.gov/evidence.cfm?evidence_summary_id=250519">总结</a>到：“极少有一致性证据显示，菜单热量标签与食品选择或消费相关。”
+</p>
+<p>
+	<span>此外标签是固定的，而厨师则是独立的个体</span><span>——</span><span>记住这点很重要。《美国医学会杂志》</span><span>2011&nbsp;</span><span>年刊登过一个<a href="http://jama.jamanetwork.com/article.aspx?articleid=1104116"><span>报告</span></a>，研究人员购买食物并带到实验室检测其热量含量，然后与菜单标注比对。实验结果发现，菜单大体上是精确的，但也存在差异。购入食物中，约有&nbsp;</span><span>20%</span><span>的实际热量比标注高了至少&nbsp;</span><span>100&nbsp;</span><span>卡。研究人员继续购买食物重复测试实验后，这种差异依然存在。</span> 
+</p>
+<p>
+	更糟糕的是，被标出热量最低的食物——即所谓的最健康食物——十分有可能并不健康。
+</p>
+<p>
+	菜单标注似乎转移了我们的注意力。通过给出一个看起来行得通的方案，却妨碍了人们尝试其它方法，找到更佳的解决方式。《健康事务》此前的研究<a href="http://content.healthaffairs.org/content/31/2/399.full">表明</a>，培训服务人员询问顾客是否要将三份淀粉配菜减少之后，会有最多三分之一的客人接受提议，每餐少摄入 200 卡的热量。该期刊近期的文章则<a href="http://content.healthaffairs.org/content/34/11/1885.full">显示</a>，改变儿童菜单中“流行、特别、默认的健康之选”，将对人们的点菜行为产生持续的影响。
+</p>
+<p>
+	我们可以帮助人们在餐厅做出更健康的选择。菜单标注可能是政策制定者们选择的方法，却不一定是恰当的药方。
+</p>
+<p>
+	<em>Aaron E. Carroll是</em><a href="http://medicine.iu.edu/"><em>印第安纳大学医学院</em></a><em>小儿科的教授。他在</em><a href="http://theincidentaleconomist.com/"><em>The Incidental Economist</em></a><em>开设了关于健康研究与政策的博客，你也可以在Twitter上关注</em><a href="http://twitter.com/aaronecarroll"><em>@aaronecarroll</em></a><em>。</em> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span><span><em>题图来自 Tim Lahan</em></span><em></em></span> 
+</p>
+<p>
+	<span><em>翻译 &nbsp;熊猫译社 </em></span><span><em>Zoeyliu</em></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="771">
+				<span data-id="771">卡路里</span>
+			</li>
+			<li class="tag item" data-id="8127">
+				<span data-id="8127">热量</span>
+			</li>
+			<li class="tag item" data-id="2135">
+				<span data-id="2135">菜单</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18602" data-title="《在菜单上标注食物的卡路里，可以帮助食客们更节制吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18602/medium/18602.jpg?1449458795" data-url="http://www.qdaily.com/mobile/articles/18602" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/14184.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/14184/medium/14184.png?1440958166" alt="购买有机食品一点也不值？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/12/medium/12.png?1433892245" alt="Best on the Web">
+				<span>Best on the Web</span>
+		</p>
+		<h1 class="title">购买有机食品一点也不值？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">17</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18583.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18583/medium/18583.jpg?1449380760" alt="30个食品公司联手让你扫二维码，看看吃的到底是啥">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">30个食品公司联手让你扫二维码，看看吃的到底是啥</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9421.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9421/medium/9421.png?1436680706" alt="进食过快、热量太高？没关系，盘子会提醒你">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">进食过快、热量太高？没关系，盘子会提醒你</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">17</span>
+				<span class="iconfont icon-heart">101</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25398.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25398/medium/25398.jpg?1460525302" alt="">
+                        <h1 class="title">穷游打算商业化，这些苦活累活它做得动吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25401.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25401/medium/25401.jpg?1460526760" alt="">
+                        <h1 class="title">宇航员在太空里如何享受一杯咖啡？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25411.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25411/medium/25411.jpg?1460531927" alt="">
+                        <h1 class="title">在印度，买不起 iPhone SE 还可以租</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25382.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25382/medium/25382.jpg?1460508086" alt="">
+                        <h1 class="title">连秀场选址都在竞争，LV 把下一季发布会选在了里约</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25402.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25402/medium/25402.jpeg?1460527938" alt="">
+                        <h1 class="title">又有一间好品味的公寓，工业风的使用方式并不俗气</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18602">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18602" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">27</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18599.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

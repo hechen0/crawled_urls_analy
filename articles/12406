@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evernote 换 CEO，接下来一百年怎么办？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Evernote 换 CEO，接下来一百年怎么办？。Google X 前高管接任菲尔·利宾，Evernote 会变吗？。好奇心日报为您呈现Evernote 换 CEO，接下来一百年怎么办？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="企业服务 云笔记 Evernote Phil Libin " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vrldPkBbp/pW7rkvwKrpkhthjLYYyS+aFntzg+BGooQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2070">
+				<span data-id="2070">企业服务</span>
+			</li>
+			<li class="tag item" data-id="9376">
+				<span data-id="9376">云笔记</span>
+			</li>
+			<li class="tag item" data-id="527">
+				<span data-id="527">Evernote</span>
+			</li>
+			<li class="tag item" data-id="11614">
+				<span data-id="11614">Phil Libin</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Evernote 换 CEO，接下来一百年怎么办？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-21 14:18:23 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12406/medium/12406.jpg?1437454503" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12406" data-title="《Evernote 换 CEO，接下来一百年怎么办？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12406/medium/12406.jpg?1437454503" data-url="http://www.qdaily.com/mobile/articles/12406.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Google X 前高管接任菲尔·利宾，Evernote 会变吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	2012 年，首次 Evernote 开发者大会在旧金山召开。会上，这家在线笔记服务公司打出了 5/100 的进度条，指向公司 CEO <span>菲尔·利宾（Phil Libin）关于要做百年公司的口号。</span> 
+</p>
+<p>
+	不过在 8/100 的时候，利宾卸任了。&nbsp;<a href="http://blogs.wsj.com/digits/2015/07/20/evernote-crowns-former-google-x-executive-as-ceo/">据《华尔街日报》消息</a>，Evernote 在花了数月寻觅继承人后，选择 Google X 前高管克里斯·奥尼尔(Chris O'Neil) 接任利宾担任新 CEO。但菲尔·利宾仍在公司担任执行董事长。
+</p>
+<p>
+	在 Evernote 创立的 8 年时间里，已经获得了 3 亿美元的融资，更是在全球拥有超过 1.5 亿的用户。 2012 年它就已达到 10 亿美元的估值。
+</p>
+<p>
+	到了 2013 年的时候，利宾就有表示要在 2、3 年上市，并在当时推出了硬件电商业务。这个项目上线<a href="http://www.bloomberg.com/bw/articles/2014-01-23/evernote-market-app-makers-retail-strategy-pays-off"> 3 个月后就占了整体营收的 1/3</a>。而后，Evernote 就一直在想办法增加营收，并通过<a href="http://www.theverge.com/2015/1/7/7511183/evernote-lays-off-20-employees-globally-in-a-partial-restructuring">裁员来降低成本</a>。一切都在奔着上市走。
+</p>
+<p>
+	但如今他的思路却显得模糊，并表示或许这个计划还得搁置几年。而他本人也已决定<a href="http://www.qdaily.com/articles/10887.html">退回到“产品人”的位置</a>。
+</p>
+<p>
+	其实，菲尔·利宾的这种想法由来已久。在 2013 年发表于 <a href="http://www.inc.com/magazine/201303/phil-libin/why-hiring-people-smarter-than-you-is-good-for-business.html">Inc 的一封公开信</a>中，他就有袒露自己用人的理念，就是雇佣比自己聪明的人。只不过如今，他让这个比他聪明的人取代了自己。
+</p>
+<p>
+	但利宾走后，Evernote 的下一步会是怎样呢，它还能保住所谓的“成为百年创业公司”的理想吗？
+</p>
+<p>
+	在公司业务对象上，Evernote 其实早已显示出了某些转变。早年，它只是一个面向普通消费者的服务，而如今的 Evernote 则在向企业服务靠拢，并收获了超过 20000 家企业团队的付费订阅。公司口号也由“让记忆永存”变为了“你的工作空间”。
+</p>
+<p>
+	另一方面，这家公司对数据的态度也在发生转变。<a href="https://blog.evernote.com/blog/2010/04/27/thinkwasabi-interview-with-evernote-ceo-phil-libin/">2010 年利宾就曾在 ThinkWasabi 的采访中表示</a>，他们不会扫描用户存储的数据，也不会借此做出推荐。然而如今的高级版账号里，却已有了针对笔记内容的相关资讯的推荐功能。尽管，推荐的来源只是相对权威的新闻媒体和自己已有的笔记，但这显然也与当年的承诺相悖。
+</p>
+<p>
+	当新的功能越来越多地向着商业用户靠拢，而利宾也给出了他的理由：<a href="http://www.pcmag.com/article2/0,2817,2473557,00.asp">70% 用户用 Evernote 来工作，而不是用于私人用处</a>。
+</p>
+<p>
+	据悉，新上任的奥尼尔此前在 Google X 实验室负责全球业务运营。该实验室因开发了无人驾驶汽车和谷歌眼镜等创新产品而闻名于世。未来，他将主要负责拓展 Evernote 的付费产品业务，并抵御来自微软和前雇主 Google 的竞争。
+</p>
+<p>
+	不过更重要的是，让公司<span>上市才是请来奥尼尔的最终目的。毕竟，这可是利宾所言的这家公司的</span><a href="http://recode.net/2015/07/20/evernote-taps-former-google-glass-executive-chris-oneill-as-new-ceo/" target="_blank">“道德义务”</a><span>。</span> 
+</p>
+<p>
+	在利宾看来，相比自己更专注于产品，奥尼尔更擅长于市场和运营。“我意识到我对领导这家公司上市并没有激情，也因此我在寻找这么一个会热衷于此的人”利宾说。显然奥尼尔就是他心中的这个人。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2070">
+				<span data-id="2070">企业服务</span>
+			</li>
+			<li class="tag item" data-id="9376">
+				<span data-id="9376">云笔记</span>
+			</li>
+			<li class="tag item" data-id="527">
+				<span data-id="527">Evernote</span>
+			</li>
+			<li class="tag item" data-id="11614">
+				<span data-id="11614">Phil Libin</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12406" data-title="《Evernote 换 CEO，接下来一百年怎么办？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12406/medium/12406.jpg?1437454503" data-url="http://www.qdaily.com/mobile/articles/12406.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/10887.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/10887/medium/10887.jpg?1436644850" alt="那个说要把Evernote做成百年创业的CEO要退位了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">那个说要把Evernote做成百年创业的CEO要退位了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">13</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25203.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25203/medium/25203.jpg?1460157898" alt="">
+                        <h1 class="title">ASOS 退出中国，为什么时尚电商在中国总是行路艰难？ </h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25187.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25187/medium/25187.jpg?1460111388" alt="">
+                        <h1 class="title">总统竞选人吃饭的摆拍造型，不是随便来的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25171.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25171/medium/25171.jpg?1460106010" alt="">
+                        <h1 class="title">这家新锐“荷兰设计”店，将混搭的手艺做到了极致</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25201.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25201/medium/25201.jpg?1460133594" alt="">
+                        <h1 class="title">上海时装周开幕了，未来一周这些事情值得关注</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25215.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25215/medium/25215.jpg?1460184223" alt="">
+                        <h1 class="title">Space X 完成水上火箭回收，又一个太空探险的第一次</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12406">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12406" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">21</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12405.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

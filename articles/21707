@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>汉语拼音为什么总是不太好用？｜大象公会_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="汉语拼音为什么总是不太好用？｜大象公会。中国人日常用的汉语拼音屡因拼写规则奇特惹出尴尬。比如，为什么北京有 Peking/Beijing 两个英文拼写而上海只有 Shanghai 一个？。好奇心日报为您呈现汉语拼音为什么总是不太好用？｜大象公会的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="大象公会 汉语拼音 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RfHHrD7aFBCz0A3tc1ej5cpkZxelA0FC2YIUcpSNWgI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="19058">
+				<span data-id="19058">大象公会</span>
+			</li>
+			<li class="tag item" data-id="1541">
+				<span data-id="1541">汉语拼音</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">汉语拼音为什么总是不太好用？｜大象公会</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">郑子宁</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-02-09 08:00:09 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21707/medium/21707.jpg?1454430121" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21707" data-title="《汉语拼音为什么总是不太好用？｜大象公会》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21707/medium/21707.jpg?1454430121" data-url="http://www.qdaily.com/mobile/articles/21707.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				中国人日常用的汉语拼音屡因拼写规则奇特惹出尴尬。比如，为什么北京有 Peking/Beijing 两个英文拼写而上海只有 Shanghai 一个？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">汉语拼音是中国人必不可少的辅助工具。学习语文要用，办理证件要用，出国生活也要用。<br></p><p>但是，它却给很多人带来烦恼——老外似乎并不习惯汉语拼音的读法，如 Xing（刑）先生老外就鲜少能读对。Quan（全）小姐可能被弄成关小姐。北京的“复兴门”最倒霉，Fuxing 的拼写很容易让人产生不好的联想。</p><p>就连著名大学似乎也对汉语拼音有抵触情绪。北京大学不叫 Beijing University 而要叫 Peking University，清华大学则是 Tsinghua University，厦门大学最厉害，直接用了个让人不明所以的 Amoy University。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/1cb632525b45.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">&nbsp; 燕京大学，Yenching University &nbsp;</div></figcaption></figure></div><p>汉语拼音为什么长成这样？而这些大学的拼音又都是如何来的呢？</p><h2>谁在用拼音</h2><p>要想解释拼音为什么这样，首先得要知道拼音是做什么用的。</p><p>各国文字有着不同的书写系统。一旦要和使用不同文字的人群接触，那么出于进行商贸、文化交流乃至学习对方语言的考虑，把本国文字以另一种文字的形态转写就是非常必要的。</p><p>对于多数主要拼音文字来说，字母之间都有相对明确的对应转化关系，设计一套转写方案相对容易。古罗马时期罗马人和希腊人交流频繁，就产生了一套标准化的以拉丁字母书写希腊语词汇的方法，两种文字的转化几乎完全自动化，如希腊字母 Γ、Δ、Η、Θ、Ξ、Ψ 在拉丁文中就分别转为 G、D、E、TH、X、PS。</p><p>但是汉字并不是纯粹的表音文字，在文字上和一种拼音字母建立对应关系并不现实。<br></p><p>直到近代之前，中国人自己鲜少有使用拼音的需求——历史上用拼音文字表示汉语并不常见。一般只出现在由于各种原因游离于主流汉文化外时，如敦煌被吐蕃占领时期当地汉人一度有用藏文字母拼写汉语的，部分西北地区的回族人在内部通信时使用阿拉伯字母拼写的汉语，即所谓“小儿经”。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/3b4d28175df5.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">&nbsp; 唐朝民歌《游江乐，泛龙舟》，使用藏文字母拼写汉语 &nbsp;</div></figcaption></figure></div><p class="">因此，早期汉语拼音的设计者和使用者都主要是外国人。<br></p><p>至迟在汉朝，中国就开始和文字不同的异民族交往。这些异民族将汉语的发音用自己的文字记录，形成拼音的雏形。如往来中国的粟特胡商将“店”拼为 tym，前来广州的天方商人则把广州拼作 khanfu（广府）。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/f79d050b405b.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">&nbsp; 粟特古信札 &nbsp;</div></figcaption></figure></div><p class="">但是这些早期拼音非常零散，并不系统，只是对需要的人名地名或汉语借词进行转写，并没有对汉语进行整体的拼音化。<br></p><p>汉语拼音化真正走上正轨，还是从明朝开始陆续前来中国的西方传教士的功劳。</p><p>为了向中国人传教，西方传教士热衷学习汉语。但汉语可能尚算容易，汉字则学习门槛极高。于是西方传教士想出了用拉丁字母拼写汉语，并编纂字典以便学习的方法。</p><p>最早对汉语进行系统性的拼音化的传教士为利玛窦和罗明坚。他们在 1583 年至 1588 年编写了汉葡字典，并用上了他们设计的汉语拼音方案。该方案奠定了日后传教士汉语拼音的基础，但是自身却传播不广，乃至很快湮没无闻。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/abec05c70569.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">&nbsp; 利玛窦除了发明了拼音，还提高了农历的精度 &nbsp;</div></figcaption></figure></div><p class="" style="text-align: left;">影响力较大的则是 1626 年由传教士金尼阁出版的《西儒耳目资》，反映明朝后期官话的读音。由于是传教士为西方人学习汉语方便所创，因此《西儒耳目资》拼音较为接近法语以及拉丁语的正字法，如“然”的声母用 j 表示，后鼻音韵尾则用 -m 表示（“双”拼写为 xoam）。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/f75e980b5efa.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">《西儒耳目资》是反映明朝中后期南方官话读音的重要材料 &nbsp;</div></figcaption></figure></div><p class="">金尼阁之后，传教士纷纷设计自己的拼音。这些由传教士设计的拼音和金尼阁一样，主要为西方人学习方便而设。因此根据传教士自身来源，在华所在地等因素也有着不同的拼写。同样一个“庄”字，英国人写 chuang，法国人写 tchouang，荷兰人更是能写出 tschoeang 来。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/9ee793635699.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">庄子作品被译成法语，可看到图中作者栏庄子法语名 Tchouang Tseu &nbsp;</div></figcaption></figure></div><p class="">不过这些拼音方案也有共同特征，如汉语的不送气清音和送气清音用附加符号区别，即“波”/“颇”、“多”/“拖”、“戈”/“科”的声母分别写为 p/p’、t/t’、k/k’。在西方语言中一般用来表示浊音的 b、d 等字母因汉语官话中没有严格对应的音则往往弃之不用。<br></p><p>大量在非官话地区的传教士也设计出种种方言拼音。特别在闽语区，传教士设计的福州话平话字和闽南白话字流行甚广，并被用作在当地办学的教学工具。闽语和其他汉语相差较大，写不出字的词很多，用汉字书写口语困难，不少当地民众甚至这些拼音当作了主要的书面交流工具。直到 50 年代林巧稚大夫在进行对台广播时仍然使用传教士创制的闽南白话字撰写讲稿。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/3c2d99ae4e0e.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">海南话版《创世纪》，反映了早期海口/府城口音 &nbsp;</div></figcaption></figure></div><p class="" style="text-align: left;"><span style="text-align: justify;">但是这些拼音的流传都有很大的局限性，往往只能传于一时一地，难堪大用。真正有全国性影响的拼音方案，还要到 19 世纪末才问世。</span><br></p><p>1892 年，英国人翟理斯修订完善了威妥玛于 1859 年设计的拼音，形成了“威妥玛拼音”。威妥玛拼音和现代汉语拼音在不少地方已经相当类似。如用 ao 表示“奥”，ch’ 表示“产”的声母。与之前的诸多拼音方案相比，威妥玛拼音系统简洁统一，表音方便准确，很快成为第一个被广泛使用的汉语拼音。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/a05355473caa.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">威妥玛撰写的《语言自迩集》中讲述了其学习汉语的经验&nbsp;</div></figcaption></figure></div><p class="">虽然威妥玛拼音是现行汉语拼音出现前最普遍的拼音。但是，如果按照威妥玛拼写，北京是 Peiching，厦门是 Hsiamên，清华则应该是 Ch’inghua，并非这些学校现在常用的名称。<br></p><p>那么 Peking、Tsinghua、Amoy 的拼写又是怎么来的呢？</p><p>1906 年，在上海举行的帝国邮电联席会议要求对中国地名的拉丁字母拼写法进行统一和规范以方便通信。在此之前，海关总税务司，英国人赫德已经要求各地邮政主管确定地名的拉丁字母拼写。赫德希望各地能用地方音拼写，但各地邮政局长则往往用已经通行的威妥玛拼音交差。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/7365cd1c1b8c.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">任晚清海关总税务司的赫德爵士，曾自称自己更像是一个中国人。图为刊登于《名利场》上的赫德爵士画像，左上角的“江海關”印错了方向 &nbsp;</div></figcaption></figure></div><p class="">当时中国邮政系统高层由法国人控制。威妥玛拼音英文色彩浓厚，法国人并不乐见，因此在 1906 年的会议上，最终确定了一个混合系统的拼音方案。这个拼音方案引入了大量北京话中已经消失，但是在老官话中还存在的发音区别。如分尖团（青岛 Tsingtao，重庆 Chungking），保留入声（无锡 Wusih，广西 Kwangsi）。对闽粤地区的地名，则依照赫德的指示，往往用当地方言拼写，如佛山 Fatshan、肇庆 Shiuhing、厦门 Amoy（今天的厦门话门读 mng，但是早期厦门话更偏漳州，门读 mui，故拼为 moy）。这套拼音方案即所谓邮政式拼音。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/704e3ca7710a.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">中国语言学之父赵元任曾抱怨邮政式拼音中，其家乡常州与福建漳州拼写均为 Changchow，无法区分 &nbsp;</div></figcaption></figure></div><p class="">北京大学、清华大学还是厦门大学的英文名为什么那么奇特。正是因为他们都采用了邮政式拼写。其中 Tsinghua 为老官话拼写的“清华”，Amoy 为闽南语的“厦门”。<br></p><h2>外语惯用名</h2><p>而 Peking 则最为特殊，它并非老官话中北京的读音，也不是方言音，而是北京的外语惯用名——依照邮政式拼音的规则，对有惯用名的城市，邮政式拼写继续沿用已有的外语惯用名。</p><p>什么是外语惯用名？</p><p>所谓外语惯用名，即在外语中有一个和来源语不一样的名字。这种现象并不算罕见，如英语中中国并不用 Zhongguo 而用 China，埃及并不用 Miṣr 而用 Egypt，而德国则以 Germany 称之，不用德语自己的 Deustchland。</p><p>外语惯用名的形成一般是因为这个地点非常重要。因此在长期使用中，说外语的人并不遵从该地所说语言中对其的命名，而用其他名字。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/dfb95ce90479.jpg" alt="" class="">
+        
+<figcaption class="">英语里面绝大部分外国地名都遵照来源语言的拼写，但欧洲各国的首都则往往例外。临近的法德等国距离英国近，名城多为英人所熟知，也往往拥有惯用名，意大利作为欧洲长期的文化中心和商贸要地，也不乏惯用名，而长期作为英国殖民地，和英国交往密切的印度，不少大城市在英语中也有惯用名 &nbsp;</figcaption></figure></div><p class="">相应的，英国最有名的城市 London/伦敦在许多欧洲语言中也有自己的惯用名，像法语、西班牙语的 Londres、意大利语的 Londra。<br></p><p>外语惯用名是个有普遍性的现象，中国的名城在外语中往往也有着自己特别的称呼。</p><p>公元 311 年前后，五胡乱华，中国天下大乱。有一群在华经商的粟特商人给撒马尔罕故乡写信。这些用粟特语写的信件在玉门关以西被截获，并未到达目的地。</p><p>其中一封信由旅居金城（今兰州）的粟特胡商发出，收件人为其老板。大意是跟老板汇报说中国发生大动乱……在酒泉、姑臧的人都平安……洛阳发生大饥荒。最后一个皇帝也从洛阳逃出去了。洛阳宫殿城池都烧毁了，没有了。洛阳没有了！邺城没有了！匈奴人还占领了长安……他们昨天还是皇帝的臣民！我们不知道剩下的中国人能不能赶他们出长安和中国……四年前我们商队到过洛阳，那里的印度人和粟特人全饿死了……</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/006b4aae131c.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">红线框内：“洛阳城不再有了！邺城不再有了！” &nbsp;</div></figcaption></figure></div><p class="">信中对中国地名的处理非常有意思——洛阳在信中写为 srγ，长安写为 ’xwmt’n，而邺则是 ’nkp’，姑臧为 kc’n，金城为 kmzyn。<br></p><p>可以看出，邺、姑臧、金城的粟特名称均为这些地名的古汉语发音的转写，唯独长安和洛阳两座当时中国最重要的城市用了惯用名。</p><p>这封粟特信札并非孤例，西安北周史君墓墓志铭的粟特语提到长安时沿袭了 ’xwmt’n 的写法，七世纪的拜占庭文献将长安称作 Χουβδάν（Khubdan），后来的波斯和阿拉伯书籍把长安称作 Khumdan，八世纪《大秦景教流行中国碑》中长安为 Khoumdan，该碑中洛阳为 Sarag。而盛唐僧侣利言的《梵语杂名》中则显示当时梵语称呼长安为“矩亩娜曩（Kumudana）”，洛阳在梵语中则为“娑罗俄（Saraga）”。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/c926553eef3e.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">大秦景教流行中国碑上的叙利亚文 &nbsp;</div></figcaption></figure></div><p class="">关于长安和洛阳的惯用名究竟如何得来，至今尚没有共识，有研究认为 Khumdan来自上古汉语“咸阳”的发音，而 Sarag 则可能和古代西方对中国的称呼 Seres 有关。不过无论如何，长安洛阳两地拥有这样的外语惯用名，说明了它们在中古中国的重要地位。<br></p><p>近古以降，作为首都的北京自然是中国有最多的外语惯用名的城市，如英文的 Peking，法文的 Pékin、意大利文的 Pechino、西班牙文的 Pequín/Pekín。而另一个惯用名较多的中国城市则是广州，英文/法文/意大利文写作 Canton，西班牙文是 Cantón，葡萄牙文则是 Cantão（均来自“广东”），毫无疑问和广州作为贸易大港的历史有关。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/d34d30b77eb1.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">广州塔官方英文名最终确定为 Canton Tower &nbsp;</div></figcaption></figure></div><p class="">相比之下，上海虽然在十九世纪后迅速发展为中国第一大城市，但是由于历史相对短浅，并没有机会形成外语惯用名。上海大学也就无法像北京大学那样自己起个特立独行的外文名了。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/85dfee5611da.jpg" alt="" class="">
+        
+<figcaption class=""><div style="text-align: center;">上海向来即是 Shanghai &nbsp;</div></figcaption></figure></div><p class="">不过上海人很快就不用担心历史上的短板了。<br></p><p>1957 年，新的汉语拼音方案出炉，拼音的目的发生了本质性的变化。其目标为最终取代汉字。后因不现实，改为帮助识字，推广普通话。因此，汉语拼音主要是为本国人服务。其拼写法是否符合外语习惯并不重要，系统的简约和高效成为更大的考量。新的汉语拼音用上了全部 26 个字母，至于 Fuxing、Xing、Quan 老外会怎么读本就不在考量范围之内。</p><p>虽然汉语拼音主要是对内的，但它也被赋予了获得汉语拉丁化转写垄断地位的光荣使命——1978 年开始，中国出版的外文出版物涉及中国专有名词转写时均需使用汉语拼音，1982 年，汉语拼音被国际标准化组织认可为汉语拉丁转写的标准。在中国坚决要求下，所有汉语专名的拉丁转写都应该以汉语拼音为标准。诸如 Peking、Canton 这样的惯用名渐渐为 Beijing、Guangzhou 所取代。</p><p>就此，至少在外文名称上，千年帝都和百年魔都就此平起平坐了。</p><p class=""><b>* 这篇文章来自公众号「大象公会」（http://www.idaxiang.org/）。知识、见识、见闻，它不是传统媒体，亦非正流行的新媒体，她是一个以原创内容丰盈我们知识、见识和见闻的产品。</b><br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="19058">
+				<span data-id="19058">大象公会</span>
+			</li>
+			<li class="tag item" data-id="1541">
+				<span data-id="1541">汉语拼音</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21707" data-title="《汉语拼音为什么总是不太好用？｜大象公会》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21707/medium/21707.jpg?1454430121" data-url="http://www.qdaily.com/mobile/articles/21707.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17976.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/17976/medium/17976.jpg?1448302237" alt="大象公会：一个严肃的微信公众大号是如何养成的？ | 100 个有想法的人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">大象公会：一个严肃的微信公众大号是如何养成的？ | 100 个有想法的人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">20</span>
+				<span class="iconfont icon-heart">383</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24713.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24713/medium/24713.jpg?1459324043" alt="">
+                        <h1 class="title">神游的时候，你的脑袋都在准备世界崩塌</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24714.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24714/medium/24714.jpg?1459324333" alt="">
+                        <h1 class="title">你有想过《罗马假日》里的小机车可以变成转椅吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21707">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21707" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">192</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21981.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

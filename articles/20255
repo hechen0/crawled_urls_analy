@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一位德国设计大师逝世，他曾是 Thinkpad 的奠基者_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一位德国设计大师逝世，他曾是 Thinkpad 的奠基者。“萨珀的设计结合了迪特·拉姆斯式的优雅极简主义、Jonathan Ive 解决问题的能力和意大利设计师的幽默和精湛工艺。​”。好奇心日报为您呈现一位德国设计大师逝世，他曾是 Thinkpad 的奠基者的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="工业设计 讣告 IBM Alessi Richard Sapper " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="o7l3mcOKi0liDoIc6+qDypjXVh2YI+CYv5JL00kCPDs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="1679">
+				<span data-id="1679">讣告</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+			<li class="tag item" data-id="2291">
+				<span data-id="2291">Alessi</span>
+			</li>
+			<li class="tag item" data-id="21607">
+				<span data-id="21607">Richard Sapper</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一位德国设计大师逝世，他曾是 Thinkpad 的奠基者</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-05 12:11:19 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20255/medium/20255.jpg?1451965918" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20255" data-title="《一位德国设计大师逝世，他曾是 Thinkpad 的奠基者》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20255/medium/20255.jpg?1451965918" data-url="http://www.qdaily.com/mobile/articles/20255" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“萨珀的设计结合了迪特·拉姆斯式的优雅极简主义、Jonathan Ive 解决问题的能力和意大利设计师的幽默和精湛工艺。​”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	2015 年最后一天，83 岁的德国工业设计师理查德·萨珀（Richard Sapper）离世，这一消息最早由费顿出版社（Phaidon）对外公布，因为这家出版社正在运作出版一本介绍理查德·萨珀近 60 年设计生涯的书籍。
+</p>
+<p>
+	对于理查德·萨珀这个名字你或许会感到陌生，但出自他手的 IBM ThinkPad 系列的笔记本电脑、Alessi 经典 9091 水壶等作品却在工业设计领域占有分量十足的位置。
+</p>
+<p>
+	回顾萨珀的一生，这个 1932 年生于慕尼黑的德国人有着近乎完美的履历。兼修平面设计、工程学、哲学以及经济学课程的萨珀很早就加入了梅赛德斯-奔驰的设计部门，之后效力的公司也称得上星光璀璨：倍耐力、菲亚特、Alessi 以及 IBM 等。
+</p>
+<p>
+	在 1997 年重新接管苹果后，乔布斯打算从外面招聘一个世界级的设计师，彼时他就曾找到理查德·萨珀，但萨珀却不想因为那时还是家“小小的公司”的苹果而离开加州，放弃他作为 IBM 首席设计顾问的位置。
+</p>
+<p>
+	对于 Thinkpad 笔记本家族而言，“经典”两个字承载了太多的过去，联想最近几年一直很努力试图为 Thinkpad 引入新鲜血液，但都不太成功。去年，联想推出一款 ThinkPad Retro 笔记本，设计语言源于 1992 年萨珀的创意，过去二十年间 Thinkpad 身上最精华的部分被原汁原味地保留了下来。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/7f9528ddac14.jpg" width="468" height="441" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a8cf65abaccd.jpg" width="600" height="936" title="ThinkPad Retro 笔记本" alt="ThinkPad Retro 笔记本" /><span>ThinkPad Retro 笔记本</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<a href="http://www.dezeen.com/2016/01/04/richard-sapper-industrial-designer-dies-aged-83-obituary/" target="_blank">伦敦设计博物馆馆长 Deyan Sudjic 称赞</a>萨珀身上透着”宁静、智慧、人性的光芒”以及对于细节的专注，“他向我们展示了一个设计师并不一定需要标志性的设计风格，他作品中的智慧就是其最大的辨识度体现。”
+</p>
+<p>
+	理查德·萨珀很多作品都被全球最杰出的设计博物馆永久收藏，包括纽约现代艺术博物馆以及英国 V&amp;A 博物馆等。
+</p>
+<p>
+	比如这款被称为是革命性的 Tizio 台灯，萨珀将笔记本电脑的散热技术引入台灯，同时也将笔记本屏幕的铰链技术整合到台灯手臂上的联结点，而优秀的平衡设计能够让台灯在超过 6 个自由度的空间自由流畅地运动，从而区别于普通工作台灯那样的死板和机械。这同样是也是乔布斯年轻时的心头好。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b0a9453946d7.jpg" width="1080" height="844" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	又如 1983 年为 Alessi 设计的 9091 水壶，是 Alessi 的首款设计师水壶，标志着 Alessi 水壶设计理念进入了一个新的时代。除简单实用的造型外，这款设计的特别之处在于当水烧开时，水壶的铜哨会发出“咪”和“西”两个音调。当开水持续沸腾的时候，水壶又会演奏出悦耳的音乐。让人产生有关蒸汽机的联想。这声音来源于萨珀对童年时家门前经过的渡船的回忆。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/774041ab3e3d.jpg" width="900" height="1045" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	纵观萨珀的设计作品，总是带有跨学科的特征。
+</p>
+<p>
+	身为意大利电子公司 Brionvega 的设计顾问，萨珀还曾与意大利设计师 Marco Zanuso 设计了一系列收音机与电视机，其中的 TS 502 可谓是收音机中的杰作。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/f620b637c978.jpg" width="468" height="343" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	2000 年，他还曾与意大利建筑师 Gae Aulenti 合作设计过一款可折叠单车 Zoombike。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0e43d4b59b48.jpg" width="1080" height="779" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	“理查德·萨珀是一个有非凡才能的设计师，” <a href="http://www.dezeen.com/2016/01/04/richard-sapper-industrial-designer-dies-aged-83-obituary/" target="_blank">V&amp;A 博物馆建筑与设计部门总监 Kieran Long&nbsp;</a>表示。“我知道这听起来像是陈词滥调，但他的设计综合了 20 世纪末德国与意大利的设计精华。”
+</p>
+<p>
+</p>
+<p>
+	<a href="http://www.dezeen.com/2016/01/04/richard-sapper-industrial-designer-dies-aged-83-obituary/" target="_blank"><span>Kieran Long</span> 认为</a>，萨珀的设计结合了迪特·拉姆斯式的优雅极简主义、Jonathan Ive 解决问题的能力和意大利设计师的幽默和精湛工艺。
+</p>
+<p>
+</p>
+<p>
+	如果你对这位德国工业设计大师感兴趣，<a href="http://richardsapperdesign.com/" target="_blank">不妨点击此处查阅他的作品</a>。这是理查德·萨珀在 2013 年推出的记述自己作品的个人网站。
+</p>
+<p>
+	图片来自 <a href="http://www.dezeen.com/2016/01/04/richard-sapper-industrial-designer-dies-aged-83-obituary/" target="_blank">Dezeen</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="1679">
+				<span data-id="1679">讣告</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+			<li class="tag item" data-id="2291">
+				<span data-id="2291">Alessi</span>
+			</li>
+			<li class="tag item" data-id="21607">
+				<span data-id="21607">Richard Sapper</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20255" data-title="《一位德国设计大师逝世，他曾是 Thinkpad 的奠基者》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20255/medium/20255.jpg?1451965918" data-url="http://www.qdaily.com/mobile/articles/20255" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/14031.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/14031/medium/14031.jpg?1440574519" alt="卖了 30 年，它可能是设计界最畅销的水壶">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">卖了 30 年，它可能是设计界最畅销的水壶</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">82</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26284.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26284/medium/26284.jpg?1462169320" alt="">
+                        <h1 class="title">在百度出丑闻的时候，人们为什么更应该怀念 Google</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26290.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26290/medium/26290.jpg?1462174598" alt="">
+                        <h1 class="title">这是展厅还是住家，好像不是一个重要的问题</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26269.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26269/medium/26269.jpeg?1461978601" alt="">
+                        <h1 class="title">北京龙泉寺开发了一个机器人，它还称不上有智慧</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26304.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26304/medium/26304.jpg?1462203569" alt="">
+                        <h1 class="title">城市农场看上去很美，但背后的公司遇到了窘境</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20255">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20255" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">76</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20249.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

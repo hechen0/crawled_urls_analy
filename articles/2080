@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>观影礼仪_电影法则_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="观影礼仪。。好奇心日报为您呈现观影礼仪的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="电影 magasa 观影礼仪 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="v6hlytme6+ci6HB5KzPbmOoB5esRtnZswG6wXOyUyk4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="32">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/32.html" class="category black clearfix x25" data-id="32">
+			<img class="black" src="/system/categories/iconblacks/32/medium/32.png?1411570134" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/32/medium/32.png?1411570134" alt=""/>
+			<span>电影法则</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="38">
+				<span data-id="38">电影</span>
+			</li>
+			<li class="tag item" data-id="2100">
+				<span data-id="2100">magasa</span>
+			</li>
+			<li class="tag item" data-id="2657">
+				<span data-id="2657">观影礼仪</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">观影礼仪</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4698/small/4698.jpg?1418028103" alt="">
+					</span>
+				<span class="name">magasa</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-08-29 13:09:33 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2080/medium/2080.jpg?1436647832" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2080" data-title="《观影礼仪》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2080/medium/2080.jpg?1436647832" data-url="http://www.qdaily.com/mobile/articles/2080.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	现在的电影院座椅两侧通常都设有扶手，扶手的前端是一个放饮料的杯托，于是问题来了，因为相邻座椅共用同一个扶手，那么你的杯子该放哪边呢？
+</p>
+<p class="MsoNormal">
+	设计电影院座椅的人不会代你思考这个问题，他考虑的是尽可能节省空间以便容纳更多的座椅，所以为每个位子安装两个扶手——就像飞机头等舱那样——是绝对不可能的。&nbsp;
+</p>
+<p class="MsoNormal">
+	饮料该放左边还是右边，看电影时是否允许讲话和打手机，是否可以吃东西，迟到了怎么办……所有问题，都可以归结到「观影礼仪」的范畴中。观影礼仪作为单纯的规定并无讨论价值，你只要遵守就好了，我感兴趣的是观众和影院之间、社会习俗和商业动机之间的拉锯是如何体现为强制或软性的行为规范，并悄悄改变着我们对电影的态度。
+</p>
+<p class="MsoNormal">
+	有人会说，观影礼仪其实非常简单，只要观众的集体文明程度足够高，那么每个人都知道自己该怎么做。但我发现并非如此，事实上，从电影诞生到现在，全世界的电影院从来没有停止过对观众的教化和规训，它们以各种各样的技术手段告诉观众在电影院里有哪些事是不能做的。既然古今中外皆如是，那么说明素质和文明是无法解释这一现象的。
+</p>
+<p class="MsoNormal">
+	如果我们穿越到一百年前，会发现那时候的电影院在更换拷贝的间隙，会插播各种幻灯片，有广告，但更主要的是观影行为指南。今天的我们或许无法理解，其中相当大一部分指南是教育观众无论男女在坐下时要取下帽子。因为戴帽子是彼时民众的习俗，电影院的观看环境又不允许戴帽子，否则会挡住后面的人，所以这条规定非常具有实际意义。
+</p>
+<p class="MsoNormal">
+	上世纪八十年代的中国电影院，则会在开场前播放几条不要随地乱扔果皮纸屑之类的禁令，但据我观察效果基本为零。我也曾研究过美国电影院在那段时期的影院规范，也许乱扔垃圾的少，指示的重点竟然是不要在电影院里抽烟，这似乎说明当时有不少人喜欢那么干。
+</p>
+<p class="MsoNormal">
+	直到今天，在开场前播放一段说明观影规范的影片仍然常见，只不过已经转向对手机使用的约束。对此，影院的要求各不相同，最严厉的要求在观影过程中彻底禁止打开手机，甚至需要在入场前收缴，有的只是要求观众调至振动或静音，发短信通常是不被允许的，但接电话就不一定了，有的电影院允许观众在中途外出接听。强制规范的长期存在证明，没有约定俗成的观影礼仪可以让所有人天生就懂，现时通行的规则，不仅是来自社会风俗，也跟影院的灌输分不开。
+</p>
+<p class="MsoNormal">
+	最大的分歧在于吃。在这个问题上电影院几乎完全是利益导向的。如果我们再次穿越回一百年前的镍币影院，一定会被眼前的画面惊呆。在电影放映过程中，小商小贩（他们并不隶属于影院）在影厅里穿梭叫卖，这种情景和戏园子并无两样，也侧面反映了早期电影的观众来源与层次。这种情况到豪华的电影宫（movie palace）时代就绝不可能出现了。因为那时的电影界迫切需要提高电影这种艺术的社会地位，观影礼仪被人为拔高，以匹配电影演出的环境，所以去看电影和欣赏一出高尚的戏剧差不多，怎么可以允许一边吃吃喝喝呢？然而文雅和品位终究敌不过商业力量。没过多久电影院就开始自己经营各种零食饮料了，直到今天卖品收入已经成为影院利润中的重要组成部分。而据我观察，在非商业的电影观看场所（也就是说电影院不靠卖爆米花来赚钱），如电影资料馆和电影节，几乎一律是禁止吃喝的。
+</p>
+<p class="MsoNormal">
+	吃喝的问题还好办，一般来说规定明确，你照办就是了。有的行为规范是很模糊的，该不该做，什么时候做，没有任何人可以告诉你，做对了很有面子，但做错了也很丢脸。鼓掌是这当中最难处理的。
+</p>
+<p class="MsoNormal">
+	在商业电影院中鼓掌较为罕见，即使再精彩的电影放完，观众也是默默退场，但在电影节一类的场合，鼓掌已经成为一种约定俗成的礼节，烂片获得掌声也不奇怪。一般鼓掌是在影片的头尾，尤其是结束时，刚刚黑场然后出现导演名字字幕时是最佳的鼓掌时机，这就让很多观众产生了领掌的想法。谁都希望自己成为第一个鼓掌的，但又不能抢得太快，有失分寸。就有人太心急，在片中转场的黑场处鼓掌，孰料影片并未结束，结果闹了笑话。最难拿捏的是看片途中若遇到群情激昂按捺不住的精彩处，也可以鼓掌，但如果其他观众不响应，那么带头鼓掌的人会非常尴尬，你必须仔细揣摩旁人的观影情绪，若火候到了，大家跟进你的掌声，才会获得那份小小的成就感。
+</p>
+<p class="MsoNormal">
+	关于喝彩叫好，
+二十年代又曾有一条规定，要求观众只能采用鼓掌的形式。这难免令今天的观众诧异，难道还有别的方式吗？有的。当时的观众若是激动起来，还会跺脚、蹦跳、喊叫、吹口哨……
+</p>
+<p class="MsoNormal">
+	说到吹口哨，大多数时候都是被严厉禁止的，曾经有一段时间，美国的电影院会将这条专门列为规范，可见违反者众。但这种事总会有例外。吹口哨是观看摇滚音乐演出时的正常行为，摇滚和电影是很容易跨界的。历史上有段时期，摇滚歌星被请来演了很多音乐电影，歌迷看到high处便吹口哨又怎的？像《洛基恐怖秀》，一边看一边嬉闹庆祝已经成为标准仪式，正襟危坐反而是不守礼仪了。
+</p>
+<p class="MsoNormal">
+	前不久中国电影资料馆放映《2001 太空漫游》，有影迷在网上开玩笑说带大麻进去「飞」。因为这部影片在 1968 年公映时，很多青年人是一边抽大麻一边看。并不是说这部科幻片和嗑药有什么解不开的关系，但它诞生于美国那个全民嗑药的时代，所以「飞叶子」这个偶然现象，也会被后人效仿为一种仪式。
+</p>
+<p class="MsoNormal">
+	回到本文一开始提到的那个饮料该放左边还是右边的问题，截止到目前为止，这并无标准答案，国外有人提倡每个人都使用自己左侧的杯托，因为右手可能同时在吃爆米花。但也有人认为右侧才更方便，毕竟大部分人都惯用右手。无论「左派」还是「右派」，都还没有用足够的理由说服大众，所以这条礼仪没有得到公认。如果你为此纠结的话（我知道大部分人不会的），那就不喝水吧，像我一样。
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	<p class="MsoNormal">
+		<em>关于作者</em>
+	</p>
+	<p class="MsoNormal">
+		<em>magasa，影评人，电影史研究者，《虹膜》电影杂志主编。</em>
+	</p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="38">
+				<span data-id="38">电影</span>
+			</li>
+			<li class="tag item" data-id="2100">
+				<span data-id="2100">magasa</span>
+			</li>
+			<li class="tag item" data-id="2657">
+				<span data-id="2657">观影礼仪</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2080" data-title="《观影礼仪》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2080/medium/2080.jpg?1436647832" data-url="http://www.qdaily.com/mobile/articles/2080.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24867.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24867/medium/24867.jpg?1459514506" alt="">
+                        <h1 class="title">「万物简史」二度“消失”的苏联副统帅朱可夫</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24875.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24875/medium/24875.jpg?1459525796" alt="">
+                        <h1 class="title">这家简单的咖啡馆，每个细节都透露出精细品味</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24876.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24876/medium/24876.jpg?1459526792" alt="">
+                        <h1 class="title">碧昂斯的个人品牌终于来了，走的是运动风</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2080">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2080" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">14</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2070.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

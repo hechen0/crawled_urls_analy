@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>改造美国总统的“空军一号”是一种什么样的体验？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="改造美国总统的“空军一号”是一种什么样的体验？。美国的空军一号并不是一开始就是现在这个样子的，改变主要得益于这个人。。好奇心日报为您呈现改造美国总统的“空军一号”是一种什么样的体验？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="空军一号 改造 纽约时报 历史 肯尼迪 杰奎琳 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="7XVywRxA0mnEmVMjrp9LCX0DaRCw5x+QWQYxYPBOIjM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="14395">
+				<span data-id="14395">空军一号</span>
+			</li>
+			<li class="tag item" data-id="8019">
+				<span data-id="8019">改造</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="773">
+				<span data-id="773">历史</span>
+			</li>
+			<li class="tag item" data-id="14396">
+				<span data-id="14396">肯尼迪</span>
+			</li>
+			<li class="tag item" data-id="14397">
+				<span data-id="14397">杰奎琳</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">改造美国总统的“空军一号”是一种什么样的体验？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Michael Beschloss</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-13 07:33:41 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13394/medium/13394.jpg?1439346523" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13394" data-title="《改造美国总统的“空军一号”是一种什么样的体验？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13394/medium/13394.jpg?1439346523" data-url="http://www.qdaily.com/mobile/articles/13394.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				美国的空军一号并不是一开始就是现在这个样子的，改变主要得益于这个人。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	下次你看到美国空军一号（<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/p/presidents_and_presidency_us/air_force_one/index.html?inline=nyt-classifier">Air Force One</a>&nbsp;）起飞的时候，想想可口可乐和好彩香烟（Lucky Strike）吧。今天的美国总统专机蓝白色的机身上印着的“United States of America”，这样的外观源起于前总统约翰·F·肯尼迪（<a href="http://topics.nytimes.com/top/reference/timestopics/people/k/john_fitzgerald_kennedy/index.html?inline=nyt-per">John F. Kennedy</a>）和雷蒙德·罗威（<a href="http://www.raymondloewy.com/">Raymond Loewy</a>）的低调合作，后者可谓是<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/w/world_war_ii_/index.html?inline=nyt-classifier">二战</a>后最卓有成就的商业形象与设计专家。
+</p>
+<p>
+	1959 年，波音 707 作为总统专机编队的第一架喷气式飞机加入了机队，德怀特·D·艾森豪威尔觉得，将飞机的机头和机尾漆成美国空军（<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/a/us_air_force/index.html?inline=nyt-org">Air Force</a>）那种显眼的“国际标准橙色”挺令人满意，机身侧面用块状字体写着略带官僚主义的标签：军事空中运输服务（Military Air Transport Service）。
+</p>
+<p>
+	但他的继任者约翰·F·肯尼迪以及妻子杰奎琳，却更关注如何让标志帮助提升领导者形象——也就是我们今天说的，他的“品牌”。当肯尼迪 1946 年第一次竞选国会议员的时候，他的金融家父亲约瑟夫（Joseph，他曾持有著名的苏格兰威士忌品牌 Haig&amp;Haig 的美国特许经销权）说，“我们要像卖肥皂片一样推销 Jack（肯尼迪）。”在 1960 年的总统大选期间，肯尼迪的支持者们都戴着 PT-109 领带夹，以此提醒选民，在二战期间，这位候选人在他的<a href="http://www.archives.gov/publications/prologue/2003/summer/pt109.html">鱼雷艇渐渐沉入</a>大西洋时，曾英勇地救过他的艇员们。
+</p>
+<p>
+	<br />
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/773041c51dfc.jpg" width="1050" height="549" title="1" alt="1" /> 
+</p>
+<div style="text-align:center;">
+	美国总统约翰·F·肯尼迪和第一夫人杰奎琳在 1963 年 11 月 21 日乘坐空军一号到达休士顿国际机场，次日，总统在达拉斯遇刺。<span style="text-align:justify;">图片来源：Cecil W.Stoughton/约翰·F·肯尼迪总统图书馆</span> 
+</div>
+<p>
+	<br />
+</p>
+<p>
+	还是大学生的时候，杰奎琳·肯尼迪就曾半开玩笑地写过，她的人生理想就是成为“一个 20 世纪的全能艺术总监”。在近乎无情的冷战危机年代里，她靠着这种审美的直觉、对历史的兴趣以及帮助丈夫（在普选中以微弱优势当选）的热望，卓有成效地重塑了白宫在美国总统公众形象方面的信心。
+</p>
+<p>
+	1962 年 3 月，在加州棕榈泉有一处房子的罗威看到总统专机降落在了那里的机场。当晚他告诉自己的朋友（也是肯尼迪的空军助理）戈弗雷·麦克休将军说，这架飞机带着“超级花哨”的橙色图案，看起来“太可怕了”。将军麦克休解释说，这是一个几乎没有经验的士兵负责设计的，并补充道，新的空军一号正在建造过程中。罗威主动提出，他可以就新飞机的外观免费给些建议，好让它看起来更卓越和出众。
+</p>
+<p>
+	<br />
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/e00056ad32fe.jpg" width="600" height="306" title="2" alt="2" /> 
+</p>
+<div style="text-align:center;">
+	雷蒙德·罗威带着一些自己的产品设计，和肯尼迪总统一起赋予空军一号独特的外观。图片来源：劳伦斯·罗威庄园
+</div>
+<p>
+	罗威 1893 年出生于法国，在一战中服役后移民到了美国。在建立起自己设计产业的同时，也在各处留下了他的印记，比如好彩香烟的包装（用白色包装取代了绿色）、1940 年代推出的豪华车型林肯·大陆（Lincoln Continental）、可口可乐瓶身和自动贩售机、灰狗巴士（Greyhound）的风景巡洋舰型（Scenicruiser）豪华客车，以及宾州铁路的机车。（后来，他又创造出了埃克森、壳牌和美国邮政的标识。）
+</p>
+<p>
+	按罗威的说法，在和麦克休将军的那场聊天后的几个月，他就造访了白宫。这位设计师在一把靠墙的扶手椅上排出几张设计草图之后，肯尼迪总统选出了一张金色和红色的设计，问道是否可以改漆成蓝色，那是他最喜欢的颜色。
+</p>
+<p>
+	罗威记得，肯尼迪还选了卡西龙(Caslon)字体——和《独立宣言》的一份早期印刷版标题字体很接近的字体——来书写刻印上去的“United States of America”字样。在他们的几次会面里，肯尼迪还请罗威帮着考虑怎样提升联邦政府的视觉形象，罗威的公司进行了可行性研究，随后美国海岸警卫队的橙色条纹接着投入了使用。
+</p>
+<p>
+	这架新的空军一号（严格来说，这个名称只适用于总统在飞机上的时候）在 1962 年秋天开始服役。结果表明，它的配色方案和图案设计永不过时，而且沿用到了巴拉克·奥巴马的波音 747 上，天蓝色配上罗威所说的“明亮的群青蓝”，机尾有美国国旗，机身两侧接近机头的地方还有总统印章。肯尼迪总统很担心受到商业化的指控，所以罗威——虽然也并没有畏首畏尾——曾一度对他参与了飞机改造一事保持低调。直到 1967 年，他才告诉了美国合众社自己的贡献，并补充说总统“非常喜欢这架飞机，那是他的宝贝”。
+</p>
+<p>
+	就像罗威的 logo 和设计使得产品在商业世界里卓尔不群一样，他在空军一号上倾注的努力，也让这架飞机成为世界范围里总统威严和权力的著名象征。举例来说，在 1976 年选举前夕，杰拉尔德·福特的竞选顾问让总统在电视直播的时候，直接在空军一号上向美国选民进行演讲，伴随着发动机的噪音，画面切换着这架飞机飞上云霄的远景和舱内景象。
+</p>
+<p>
+	飞机的形象改造带来的影响显而易见，1963 年 11 月 22 日，当肯尼迪降落在达拉斯的爱田机场（Love Field），一位当地电视台的发言人告诉观众，“这架大飞机来了——空军一号，女士们先生们，机身侧面还有印章，”他补充说，“多么壮美的画面！”
+</p>
+<p>
+	杰奎琳·肯尼迪（<a href="http://topics.nytimes.com/top/reference/timestopics/people/o/jacqueline_kennedy_onassis/index.html?inline=nyt-per">Jacqueline Kennedy</a>）一直限制飞机（也是在罗威的协助下设计的） 豪华的内部空间向公众曝光，她担心舱内房间看起来太像那些富有大亨的私人飞机。就在那个下午，在她的丈夫遇刺之后，在她身边的林登·B·约翰逊以总统身份宣誓的时候，从那张上世纪最著名的照片里，美国人第一次得以一窥空军一号的舱内景象。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	关于本文作者：Michael Beschloss 是一位总统历史学家，拥有 9 本著作，NBC News 和“PBS NewsHour”的撰稿人。
+</p>
+<p>
+	翻译 &nbsp; is译社 刘昉
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="14395">
+				<span data-id="14395">空军一号</span>
+			</li>
+			<li class="tag item" data-id="8019">
+				<span data-id="8019">改造</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="773">
+				<span data-id="773">历史</span>
+			</li>
+			<li class="tag item" data-id="14396">
+				<span data-id="14396">肯尼迪</span>
+			</li>
+			<li class="tag item" data-id="14397">
+				<span data-id="14397">杰奎琳</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13394" data-title="《改造美国总统的“空军一号”是一种什么样的体验？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13394/medium/13394.jpg?1439346523" data-url="http://www.qdaily.com/mobile/articles/13394.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24743.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24743/medium/24743.jpg?1459356067" alt="">
+                        <h1 class="title">中国最大餐饮公司要出售 20% 的股权，谁会买？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24699.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24699/medium/24699.jpg?1459314039" alt="">
+                        <h1 class="title">「这世界」为了见前妻劫了飞机的事，你们都知道吧？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24748.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24748/medium/24748.jpeg?1459382569" alt="">
+                        <h1 class="title">大公司头条：iPhone SE 带来的关注不如以往，富智康夏普并购案敲定</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24734.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24734/medium/24734.jpg?1459349078" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24742.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24742/medium/24742.jpg?1459358675" alt="">
+                        <h1 class="title">九州《鲛珠传》开拍，主演是“太子妃”和“徐太宇”</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13394">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13394" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">13</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13399.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

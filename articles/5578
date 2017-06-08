@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个即便在最阴冷的冬天，人们也愿意去的地方_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个即便在最阴冷的冬天，人们也愿意去的地方。数十位设计师、艺术家们共同拿出了一个“抵抗冬季抑郁症”的实验方案。。好奇心日报为您呈现一个即便在最阴冷的冬天，人们也愿意去的地方的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="冬季抑郁症 展览 北欧 荷兰 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MxCMbsytBybvD7OIlN1XQQrpF/OAo5sIb9nk69l89vs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6482">
+				<span data-id="6482">冬季抑郁症</span>
+			</li>
+			<li class="tag item" data-id="141">
+				<span data-id="141">展览</span>
+			</li>
+			<li class="tag item" data-id="4284">
+				<span data-id="4284">北欧</span>
+			</li>
+			<li class="tag item" data-id="4026">
+				<span data-id="4026">荷兰</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个即便在最阴冷的冬天，人们也愿意去的地方</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">宁卉</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-27 07:57:41 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5578/medium/5578.jpg?1436688500" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5578" data-title="《一个即便在最阴冷的冬天，人们也愿意去的地方》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5578/medium/5578.jpg?1436688500" data-url="http://www.qdaily.com/mobile/articles/5578.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				数十位设计师、艺术家们共同拿出了一个“抵抗冬季抑郁症”的实验方案。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	想抒发一下这个冬天心中难解的情绪，又发觉精力低下、懒散不愿出门的状态实在很难找到症结？也许你是受到了“冬季抑郁症”的影响，这个季节性的情绪失调在北纬 30 度以北，南纬 30 度以南尤其显著。在中国，大概就是秦岭淮河线以北；可秦岭淮河也划出了没有暖气但湿冷至极的“南方”，中国南方的孩子在冬天也许更容易抑郁呢。
+</p>
+<p class="MsoNormal">
+	瓦伦丁·毕伟德（Valentijn
+Byvanck）是荷兰 Marres 当代艺术中心馆长，几年前，在一个莫斯科的当代艺术机构，他发现这个机构一到冬天就不再举办任何活动。负责人告诉瓦伦丁：“莫斯科的冬天又黑又冷，没有人愿意来看展览。”
+</p>
+<p class="MsoNormal">
+	瓦伦丁来自荷兰，荷兰的冬天风雨交加，白天很短，一样让人抑郁。他决定做一个尝试，把 Marres 冬天的展览策划成一个即便在最阴冷的冬天，人们也愿意去的地方。这个展览集合了光线专家，按摩师，心理疗师，食物设计师和健康专家的贡献，数十位设计师、艺术家们共同拿出了一个“抵抗冬季抑郁症”的实验方案。将当代艺术的实践（装置、表演）与心理治疗结合，划出了八个房间，分别刺激参观者的触觉、移动、味觉、嗅觉、感觉、听觉、视觉——在冬天唤回对夏天的记忆，以及对太阳的依赖。
+</p>
+<p class="MsoNormal">
+	这个展览有趣的地方还不仅仅在此，很多人或许会以为这是一个“收集了各种夏天和太阳相关素材”的普通展览，但实际上五官和其他感知的全方位结合也许会让你唤起身体里最活泼的那个部分。你可以试着专注刺激某一个感官，比如捕捉一丝熟悉的香味，或是寻找一个让你想起夏天的光源，让身体随着音乐运动一会儿，或是闻一闻某种茶的味道……花一点儿时间，集中感受某一个感官上的变化，也许就会带来积极的效果。
+</p>
+<p class="MsoNormal">
+	就像展览角落的一个视频作品，一个西装革履的男人在雪地深处，攀着木梯，把五颜六色的花儿安在枯枝上，说：“如果夏天不再，何不留住夏天？”&nbsp;
+</p>
+<h3>
+	Touch 触觉&nbsp;
+</h3>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/cc54a81b5d5f.jpg" /> 
+</p>
+<p class="MsoNormal">
+	借“反射疗法”（reflexology），艺术家 Chris
+Kabel 在地面上雕刻了不同纹路，参观者须脱了鞋去，隔着袜子体会或愉悦或挠痒般的感触。
+</p>
+<p class="MsoNormal">
+	图：Chris
+Kabel, Reflexology Floor, 2014 – photo: Gert Jan van Rooij
+</p>
+<h3>
+	Move 移动
+</h3>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/880cf1848199.jpg" /> 
+</p>
+<p class="MsoNormal">
+	全世界都在告诫你，运动很重要。比起在健身房辛苦跑步，这个房间的设计要有趣得多。设计师 Ludmila
+Rodrigues 受编舞启发，将房间里的所有装置都联系在一起，参与者的每一个动作都影响着其他人的动作，一发动全身。
+</p>
+<p class="MsoNormal">
+	图：Ludmila
+Rodrigues, Individual and social explorations in the Room for Movement, 2014 –
+photo: Gert Jan van Rooij
+</p>
+<h3>
+	Taste 味觉
+</h3>
+<p class="MsoNormal">
+	欧洲民间流行的圣·约翰草（St.
+John’s wort），中文名叫做“贯叶连翘”，被证实拥有有效的抗抑郁成分。这里，贯叶连翘被来自荷兰的食物设计师 Katja
+Gruijters 加工成草药茶，糖浆，油醋，植物油，香酊，油膏——以及晒后修复霜。
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/fa6907079692.jpg" />图：Katja
+Gruijters, Saint John’s Wort Lab, 2014 –
+photo: Gert Jan van Rooij
+</p>
+<h3>
+	Smell 嗅觉
+</h3>
+<p class="MsoNormal">
+	冬天万物静寂，空气中很少有明显的天然香气（烧煤后的气味不算）。也许正因为如此，冬天的节日里总是用上各种强烈的气味：橘子、香料、松叶、烈酒。Alessandro
+Gualtieri 是一位来自意大利的香水酿造师，他试着将夏天的气味装进小瓶子，在冬天闻到爽朗温暖的夏季气息。<img alt="" src="/uploads/image/201501/1b4ea18b9cf7.jpg" />图：Alessandro
+Gualtieri, Summer scent, 2014 – photo: Gert Jan van Rooij
+</p>
+<h3>
+	Feel 感知
+</h3>
+<p class="MsoNormal">
+	这是一张“声波床”，音响环绕布置，床身会随着音乐的节奏移动，纾缓躺在床上的人。音乐从听觉抵达到身体不同部位，有时无声，有时纾缓，有时戏剧。声音艺术家及作曲家 Kaffe
+Matthews 的这个设计深得参观者的喜爱，后来又加了一场表演，让参观者躺在声波床上，听Matthews 的现场伴奏。
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/e55a1d995095.jpg" />图：Kaffe
+Matthews, Sonic Bed, 2014 – photo: Gert Jan van Rooij
+</p>
+<h3>
+	Hear 听觉
+</h3>
+<p class="MsoNormal">
+	FourceLabs 设置了一个散落着些许光源的小黑屋，参观者人手一面镜子，将光源折射到墙上的感应器，启动不同的、来自夏天的声音：蟋蟀啁啾，画眉欢歌，暖风吹过树叶，大海低鸣，沙滩上孩子的笑语。一群人可以组合出独特的声音图谱。
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/ebaaf4f155c6.jpg" />图：Fourcelabs,
+Sounds of the Sun, 2014 – photo: Gert Jan van Rooij
+</p>
+<h3>
+	Sun 太阳
+</h3>
+<p class="MsoNormal">
+	太阳——对于要度过漫长极夜的挪威人们而言，是冬天长久的念想——艺术家 Lisa Pacini 和Christine Istad 于是设计了一个 LED 小太阳，灯的颜色会从红色慢慢变成淡紫色，就像真的太阳一样。艺术家把这个人工太阳架在一辆大卡车后面，送到了挪威极夜的小镇上。
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/7cdfe693911d.jpg" />图：Lisa
+Pacini and Christine Istad, SUN, 2014
+</p>
+<p class="MsoNormal">
+	你在封面看到的图为“See&nbsp;视觉”的部分，而本文的题图是“花朵”。
+</p>
+<p class="MsoNormal" style="margin-bottom:16px !important;white-space:normal;">
+	心理学层面，光线大概是造成冬季抑郁症最关键的因素了。想要明朗的阳光，也想要有蔚蓝的天空，艺术家 Chris Kabel 用上了各种技术（LED、合成光过滤器、纳米粉末上色），只为在室内营造出站在晴朗蓝天下的光线。
+</p>
+<p class="MsoNormal" style="margin-bottom:16px !important;white-space:normal;">
+	图：Chris Kabel, Blue Sky Lamp, 2014 – photo: Gert van Rooij
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6482">
+				<span data-id="6482">冬季抑郁症</span>
+			</li>
+			<li class="tag item" data-id="141">
+				<span data-id="141">展览</span>
+			</li>
+			<li class="tag item" data-id="4284">
+				<span data-id="4284">北欧</span>
+			</li>
+			<li class="tag item" data-id="4026">
+				<span data-id="4026">荷兰</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5578" data-title="《一个即便在最阴冷的冬天，人们也愿意去的地方》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5578/medium/5578.jpg?1436688500" data-url="http://www.qdaily.com/mobile/articles/5578.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26071.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26071/medium/26071.jpg?1461724951" alt="">
+                        <h1 class="title">Coach 大规模重组，以及，“中指猫”春夏系列不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26084.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26084/medium/26084.jpg?1461735838" alt="">
+                        <h1 class="title">「这世界」麦当劳汉堡十年不烂的俗梗和肯尼亚女孩</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26095.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26095/medium/26095.jpg?1461746305" alt="">
+                        <h1 class="title">全球最长最高滑梯将在伦敦迎客，你要去试试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26106.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26106/medium/26106.jpg?1461747366" alt="">
+                        <h1 class="title">金山快盘和新浪微盘都关了，你还在用网盘吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26088/medium/26088.jpg?1461737444" alt="">
+                        <h1 class="title">《北京折叠》入围科幻大奖雨果奖了，它说了什么？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5578">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5578" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">59</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5572.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

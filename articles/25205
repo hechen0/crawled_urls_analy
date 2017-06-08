@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信。即使作为正版游戏坚定不移的支持者，还是感到一些遗憾和无奈。。好奇心日报为您呈现全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="私服 魔兽世界 暴雪 Nostalrius Vanilla " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="3RNe6sKoLvJ0eRnffnvyGWn98pLPUT7On32RIlC5JDY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6214">
+				<span data-id="6214">私服</span>
+			</li>
+			<li class="tag item" data-id="4170">
+				<span data-id="4170">魔兽世界</span>
+			</li>
+			<li class="tag item" data-id="4169">
+				<span data-id="4169">暴雪</span>
+			</li>
+			<li class="tag item" data-id="26017">
+				<span data-id="26017">Nostalrius Vanilla</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-10 07:00:06 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25205/medium/25205.jpg?1460160029" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25205" data-title="《全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25205/medium/25205.jpg?1460160029" data-url="http://www.qdaily.com/mobile/articles/25205.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				即使作为正版游戏坚定不移的支持者，还是感到一些遗憾和无奈。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>私服，是指那些网络游戏非官方假设的服务器。在这些服务器里，玩家可以是实现一些官方服务器中不能实现的功能：比如任意砍人。当年，《传奇》等诸多网络游戏毁于大量私服兴起，至今尚存痕迹。 </p><p><a href="https://en.nostalrius.org/">Nostalrius Vanilla</a>，正如英文单词 Nostalgic 一样，是一个怀旧《魔兽争霸》的私服，服务器地址位于法国。在当暴雪为这款超过十一年的游戏即将更新一个新的资料片的时候，在 Nostalrius 的《魔兽世界》里还停留在最初的那个版本：即将开放的副本还是安其拉神庙，没有狼人死亡骑士更没有恶魔猎手。这个从 2010 年一直运营到现在的非营利组织有 30 多名成员，他们的注册用户超过 80 万名，活跃用户超过 15 万。 </p><p>然而，就在昨天，他们收到了来自美国和法国的暴雪律师函，要求他们关停服务器。于是，Nostalrius 将要在 4 月 10 日之前关停所有服务器，包括去年 2 月运行的不久的，支持 PVP 和 PVE 模式的服务器。他们服务器的租期一直要到今年 6 月——也就说，这次的关停和经营不善无关，纯粹出于法律原因。 </p><p>暴雪有权力同时也有意愿这么做。私服的行为在各国都是违法的，在我国至少触犯侵犯著作权和非法经营罪，与其称其为私服（Private Server），盗服（Piracy Sever）才是更恰当的叫法。在暴雪即将开放新资料片的时候，这个规模巨大的私服无疑会成为他们的眼中钉——如果一个私服只有几十人几百人（这才是一般的情况）估计暴雪也会睁一只闭一只言眼，但一个有着 15 万活跃用户的私服体量实在是不容忽视。 </p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/20a98f4d9ced.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Nostalrius 的官网，往下拉就是他们的关服公告。</div></figcaption></figure></div><p>当然，Nostalrius 的成员和玩家都知道这一点，但看着这个经营多年的私服被关闭，也是一部分人不愿意看到的。Nostalrius 的成员们写了<a href="https://www.change.org/p/michael-morhaime-legacy-server-among-world-of-warcraft-community?recruiter=522873458">一封公开信</a>，放在了 Change.org 这个供人呼吁改变的网站上。 </p><p>在信中，他们首先表达了他们所有成员对暴雪以及暴雪游戏的热爱，同时表达了为了经营这个私服他们是多么辛苦：他们自己培养了自己的技术团队、客服人员、游戏管理员和社区管理者，他们将游戏运营的有声有色，打击那些令人不快的游戏行为，让大家都体会到了最初的《魔兽世界》是什么样子的。 </p><p>他们觉得，他们的服务器暴雪不会造成什么品牌损害，也不是新版《魔兽世界》的威胁。他们恳请暴雪是否能够网开一面，留下这些珍贵的“古董”。 </p><p>暴雪没有作出任何回应，他们无需回应——无论从情感上 Nostalrius 多么重要，它终究是违法的事情。关闭必须执行，这是所有人都明白的道理，包括那些支持 Nostalrius 的玩家们。但是还是有超过 5 万人支持了他们在 Change.org 发布的公开信。他们都明白，暴雪有权力这样做，但是他们都不希望。 </p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/0215fdfb6a2c.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">本来下个月，Nostalrius 上的玩家就可以去挑战双子皇帝了。</div></figcaption></figure></div><p>毕竟，在当今这个环境下，回顾旧版的网络游戏往往只有通过盗版一种途径。不像电影、音乐、书籍甚至单机游戏，网络游戏需要服务器和人员管理，因此当一款网络游戏更新后，你很少有机会在回顾上一个版本的内容。这对网络游戏的历史是一种损害——在很多年以后，当人们想要研究某些网络游戏的早期版本的时候，只有一些二手文献和记载可供查询。</p><p>同时，有很多玩家其实并不喜欢版本的更新——看看<a href="http://www.qdaily.com/articles/21831.html">《炉石传说》引入新的模式</a>遭到了多少玩家的反对。在今年的 GDC 上，一位名为 <a href="http://www.gdcvault.com/play/1023470/-It-s-Just-Emulation">Frank Cifaldi</a> 的参会者提出了这个问题，并讨论了那些旧游戏应该怎样被重新售卖和运营。 </p><p>问题是，如果要运营一个旧版本的《魔兽世界》，暴雪需要投入大量额外的资源。对于他们来说，这似乎不是一个划算的买卖，何况，保留旧版本会让新版本的用户减少——而对于大型线上网游来说，社交关系意味着一切：当你的朋友留在旧版本，你就不会选择新版本。而新版本的玩家找不到伙伴，他们也不会留多久。</p><p class="">需求的存在，和需求的无法结局成为了私服存在的原因。如果正版和官方无法提供玩家想要的，玩家就会倾向投入盗版和私服。</p><p>这是一个很难解决的问题。老玩家的怀旧、新玩家的需求和公司的商业考虑不可能三者齐全，至今没有一个大型网游公司长时间保留同一个游戏的两个版本长时间运营，暴雪也不会。虽然，对于一个十一年前的版本来说，暴雪的容许度或许可以高那么一点。如果暴雪能够通过这件事情关注并尝试满足玩家的这种需求，或许 Nostalrius 的死或许会更有意义一些。</p><p>就像在那篇公开信下，一个玩家的留言获得超过了两千个点赞：“暴雪，能不能请你们自己做你们的 vanilla 和《燃烧的远征》服务器，我愿意付钱。”</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6214">
+				<span data-id="6214">私服</span>
+			</li>
+			<li class="tag item" data-id="4170">
+				<span data-id="4170">魔兽世界</span>
+			</li>
+			<li class="tag item" data-id="4169">
+				<span data-id="4169">暴雪</span>
+			</li>
+			<li class="tag item" data-id="26017">
+				<span data-id="26017">Nostalrius Vanilla</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25205" data-title="《全球最大“魔兽”私服要关闭了，他们给暴雪写了一封信》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25205/medium/25205.jpg?1460160029" data-url="http://www.qdaily.com/mobile/articles/25205.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19120.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19120/medium/19120.jpg?1450166802" alt="一群玩家为《魔兽世界》做了一部又搞笑又怀旧的“音乐剧”">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/54/medium/54.png?1433891512" alt="游戏">
+				<span>游戏</span>
+		</p>
+		<h1 class="title">一群玩家为《魔兽世界》做了一部又搞笑又怀旧的“音乐剧”</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">13</span>
+				<span class="iconfont icon-heart">98</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17728.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/17728/medium/17728.jpg?1447801390" alt="《魔兽世界》玩家下降？暴雪说我们没空关心这事儿">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/54/medium/54.png?1433891512" alt="游戏">
+				<span>游戏</span>
+		</p>
+		<h1 class="title">《魔兽世界》玩家下降？暴雪说我们没空关心这事儿</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">29</span>
+				<span class="iconfont icon-heart">32</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25205">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25205" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">113</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25214.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

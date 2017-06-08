@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> 刷脸推荐音乐的emo红了，这公司为它做了人脸识别_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content=" 刷脸推荐音乐的emo红了，这公司为它做了人脸识别。一登的目标是做一个所有手机应用都能用的人脸账号体系。好奇心日报为您呈现 刷脸推荐音乐的emo红了，这公司为它做了人脸识别的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="人脸识别 情绪 一登 落网 emo 创始人说 胡建国 沈洽金 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="L/h1dSUsaSVG0evWF5Polk0sch/F4hPhjeLqWvZFQ6Y=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3488">
+				<span data-id="3488">人脸识别</span>
+			</li>
+			<li class="tag item" data-id="1062">
+				<span data-id="1062">情绪</span>
+			</li>
+			<li class="tag item" data-id="8478">
+				<span data-id="8478">一登</span>
+			</li>
+			<li class="tag item" data-id="8477">
+				<span data-id="8477">落网</span>
+			</li>
+			<li class="tag item" data-id="8591">
+				<span data-id="8591">emo</span>
+			</li>
+			<li class="tag item" data-id="8596">
+				<span data-id="8596">创始人说</span>
+			</li>
+			<li class="tag item" data-id="8479">
+				<span data-id="8479">胡建国</span>
+			</li>
+			<li class="tag item" data-id="8480">
+				<span data-id="8480">沈洽金</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title"> 刷脸推荐音乐的emo红了，这公司为它做了人脸识别</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1741/small/1741.jpg?1435203015" alt="">
+					</span>
+				<span class="name">高宇馨</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-07 11:17:33 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/8161/medium/8161.jpg?1436697278" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8161" data-title="《 刷脸推荐音乐的emo红了，这公司为它做了人脸识别》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8161/medium/8161.jpg?1436697278" data-url="http://www.qdaily.com/mobile/articles/8161.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				一登的目标是做一个所有手机应用都能用的人脸账号体系
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	“我可以告诉你，emo 的数据非常得漂亮，我昨天晚上在后台看数据，爽到睡不着。” 帮 emo 做情绪识别功能的<a href="http://superid.me/" target="_blank">一登（SuperID） </a>CEO 沈洽金对《好奇心日报》说。
+</p>
+<p>
+	一周前登上苹果 App Store 音乐类榜单第 14 名，被豌豆荚和小米应用商店推荐到首页，<a href="http://www.qdaily.com/display/articles/8052.html" target="_blank">emo</a> 是一个用人脸识别判定情绪，为用户播放一组随机歌曲的音乐推荐应用。它用人脸识别作为判定情绪和登录的入口，这个功能成了它的第一买点。
+</p>
+<p>
+	当天晚上和沈洽金一样整晚盯着后台数据的还有 emo 的创始人胡建国，<span style="white-space:normal;">胡建国</span>和他的团队要保证 emo 满载运转的服务器不会瘫痪。<span style="white-space:normal;">胡建国</span>更出名的身份是<a href="http://www.luoo.net/" target="_blank">落网</a>的创始人，一个办了十年却依然被贴上“小众”标签的独立音乐推荐社区。这个社区给 emo 带来的最重要的资源就是粉丝。沈洽金本人就是落网的粉丝，一登和落网的合作就是依靠这层关系。
+</p>
+<p>
+	“没给钱”，沈洽金说到，“不过一登获得了 emo 的公开数据”。这些公开数据包括用户分享了什么歌，收藏了什么歌，以及一登产品自己识别出的一些数据，比如用户的年龄、性别，还有连续使用情绪识别功能所记录下来的面部特征。
+</p>
+<p>
+	<span style="white-space:normal;">沈洽金称自己的</span>人脸识别技术来自一家暂时不方便透露的“国际性研究机构<span style="white-space:normal;">”</span>的实验室，而一登团队开发的是一款可以把这个技术投入到实际使用场景中的产品。去年六月开始，一登开始开发自己的 SDK，也就是让开发者使用的工具包。开发者用了一登的工具包之后，便能增加刷脸功能。
+</p>
+<p>
+	每一次刷脸，除了可以获得 emo 所使用的“表情”结果以外，软件还做出了年龄、性别、颜值、微笑值等其他五个判断。
+</p>
+<p>
+	<img src="/uploads/image/201504/79e2053b8ca6.jpg" alt="" /> 
+</p>
+<p>
+	“我们并不直接储存照片，他每刷一次，会存下来一套面部特征。”沈洽金解释到。人脸识别是一个越扫才能越准确的技术，当拥有一个人几千次扫描产生的特征集合的时候，它识别的准确率才能有保证。
+</p>
+<p>
+	去年 5 月，一登获得了百万人民币的天使投资，并和提供技术的那家大学实验室达成了数据上的合作。
+</p>
+<p>
+	像所有研究机构都会遇到的问题一样，实验室有技术但是缺乏测试用的样本。实验室在开发人脸识别技术时所使用的模型，基本上都是国外的成年人，测试的样本既缺乏亚洲面孔，也在年龄上不够多样。在和一登等这类产品公司合作之前，他们要从网上下载图库，而这些高清大图，和实际用户在使用的场景两个样。
+</p>
+<p>
+	对于一个想要为所有用户提供服务的技术来说，投资一登，为大学实验室带来的是活生生的用户，可以直接分析一登采集到的面部识别数据。
+</p>
+<p>
+	emo 是一登合作开发的第一款应用，它也有享受一些特别待遇。emo 用户不需要注册一登账户照样可以使用一登表情功能，等开通账户后，再把信息匹配到数据库里。
+</p>
+<p>
+	沈洽金对一登的定义是一个帐号体系，用户只要刷脸登录，他的帐号就是一登帐号，就像从新浪微博登录一样。体验中心所看到的六个识别结果，就是一登将来成为应用的登录入口的吸引力。
+</p>
+<p>
+	如果作为登录入口，一登还有一些实际问题需要解决。因为目前识别技术还不能做到一对一对应面部特征，所以在一登刷脸之后，会要求提供手机号。沈洽金说可以理解为“手机号是 ID，刷脸是密码”。刷脸使用的 2 秒钟时间本质上并不比输入密码的时间短，尤其是在苹果的指纹识别面前。
+</p>
+<p>
+	用户使用新浪微博作为登录方式，就是因为绑定现有的帐号足够省时省力。和新浪微博不同的是，一登并没有已经积攒下的大量用户和社交关系，而附带提供的现成的头像、年龄、性别这类数据，即使在准确率得到提升以后，对用户来说是个多大的方便也不好说。
+</p>
+<p>
+	<img src="/uploads/image/201504/b737c86eb597.jpg" alt="" /> 
+</p>
+<p>
+	在采访中，沈洽金多次提到自己的潮汕背景——不管懂不懂先揽下这活，以及对赚钱的重视。
+</p>
+<p>
+	不过在后者上他是一个例外，“我在北京折腾的时候，我家人就觉得不行，不能赚钱你做它做什么”，讲到现在甚至是贴钱给人做功能，沈洽金说“也慢慢理解了”，他补充到也因为花的是投资人的钱。
+</p>
+<p>
+	看着 emo 在应用商店逐渐攀升的下载量，沈洽金提到胡建国单枪匹马做起了的音乐社区，依靠粉丝捐助服务器维持运营，一直以来资金都不够充沛。“老胡坚持了这么多年，终于能拉些投资了”。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="https://www.pinterest.com/anafeio/risos-smiles-gargalhadas/" target="_blank">Pinterest</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3488">
+				<span data-id="3488">人脸识别</span>
+			</li>
+			<li class="tag item" data-id="1062">
+				<span data-id="1062">情绪</span>
+			</li>
+			<li class="tag item" data-id="8478">
+				<span data-id="8478">一登</span>
+			</li>
+			<li class="tag item" data-id="8477">
+				<span data-id="8477">落网</span>
+			</li>
+			<li class="tag item" data-id="8591">
+				<span data-id="8591">emo</span>
+			</li>
+			<li class="tag item" data-id="8596">
+				<span data-id="8596">创始人说</span>
+			</li>
+			<li class="tag item" data-id="8479">
+				<span data-id="8479">胡建国</span>
+			</li>
+			<li class="tag item" data-id="8480">
+				<span data-id="8480">沈洽金</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8161" data-title="《 刷脸推荐音乐的emo红了，这公司为它做了人脸识别》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8161/medium/8161.jpg?1436697278" data-url="http://www.qdaily.com/mobile/articles/8161.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25514.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25514/medium/25514.jpg?1460683198" alt="">
+                        <h1 class="title">Dior销售大涨，以及，霉霉在VOGUE拍的大片不太像她｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25544.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25544/medium/25544.jpg?1460719913" alt="">
+                        <h1 class="title">这里有个“山寨版”包装，由士力架官方出品</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25529.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25529/medium/25529.JPG?1460696772" alt="">
+                        <h1 class="title">「这世界」有人开了家普京主题咖啡馆，充满了俄罗斯式的爱国主义</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25538.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25538/medium/25538.jpg?1460704546" alt="">
+                        <h1 class="title">「本周新片」《奇幻森林》和《垫底辣妹》都值得你花时间</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8161">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8161" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">28</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8163.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

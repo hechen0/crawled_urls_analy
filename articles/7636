@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>发行一款游戏，并不是发到 App Store 那么简单_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="发行一款游戏，并不是发到 App Store 那么简单。他们说，手机游戏发行这种事情，还是要专业的来。好奇心日报为您呈现发行一款游戏，并不是发到 App Store 那么简单的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="游戏发行商 Chillingo Electronic Arts Ed Rumley " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="l/UVnNTMTkh8YmTIKF21z7OKqKLFCa3B98A7RWi18ek=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8061">
+				<span data-id="8061">游戏发行商</span>
+			</li>
+			<li class="tag item" data-id="8062">
+				<span data-id="8062">Chillingo</span>
+			</li>
+			<li class="tag item" data-id="8063">
+				<span data-id="8063">Electronic Arts</span>
+			</li>
+			<li class="tag item" data-id="8064">
+				<span data-id="8064">Ed Rumley</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">发行一款游戏，并不是发到 App Store 那么简单</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-23 09:08:09 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7636/medium/7636.jpg?1436692179" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7636" data-title="《发行一款游戏，并不是发到 App Store 那么简单》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7636/medium/7636.jpg?1436692179" data-url="http://www.qdaily.com/mobile/articles/7636.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				他们说，手机游戏发行这种事情，还是要专业的来
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	一直关注独立游戏发行的游戏公司&nbsp;<span lang="EN-US">Chillingo&nbsp;</span>上周在华建立了他们的第一个海外工作室。<span lang="EN-US" style="white-space:normal;">Chillingo&nbsp;</span><span style="white-space:normal;">这家公司从&nbsp;</span><span lang="EN-US" style="white-space:normal;">App Store&nbsp;</span><span style="white-space:normal;">上线伊始就开始关注移动领域的独立游戏，成为最早关注移动独立游戏的公司之一。它也因此于&nbsp;</span><span lang="EN-US" style="white-space:normal;">2010&nbsp;</span><span style="white-space:normal;">年被美国知名游戏公司&nbsp;</span><span lang="EN-US" style="white-space:normal;">EA</span><span style="white-space:normal;">（</span><span lang="EN-US" style="white-space:normal;">Electronic Arts</span><span style="white-space:normal;">）收购，成为&nbsp;</span><span lang="EN-US" style="white-space:normal;">EA&nbsp;</span><span style="white-space:normal;">旗下专注独立手机游戏的子公司。</span><span style="font-family:'sans serif', tahoma, verdana, helvetica;"></span> 
+</p>
+<p class="MsoNormal">
+	中国的手机游戏市场在去年经历了一个爆发式的增长，整个市场规模达到了&nbsp;<span lang="EN-US">293.5&nbsp;</span>亿元，同比增长了&nbsp;<span lang="EN-US">111%</span>。全世界的游戏发行商都看中了中国市场，当然也包括&nbsp;<span lang="EN-US">Chillingo</span>。不过在纷繁的知识产权形象大战和智能手机用户增长之外，他们关注更多的是那些原创游戏的开发者。“中国独立游戏开发者开发的游戏占我们所有发行游戏的&nbsp;<span lang="EN-US">5%</span>，但是在整个收入的占比却超过了&nbsp;<span lang="EN-US">20%</span>。”<span lang="EN-US">Chillingo&nbsp;</span>的全球总经理&nbsp;<span lang="EN-US">Ed Rumley&nbsp;</span>对《好奇心日报》记者说。他用&nbsp;<span lang="EN-US">Amazing&nbsp;</span>来形容中国游戏的独立游戏开发者。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	虽然在中国，并不是很多人知道什么独立游戏，更不认识什么独立游戏开发者，但是很多人都在玩独立游戏：《愤怒的小鸟》、《割绳子》和《黑暗旅行》等。这些独立游戏最初由独立的个人、小型团队或者小型公司开发。开发者只需要专注于做好游戏，然后把后续的市场、营销、发行和数据分析全部交给发行商。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	这似乎是社会分工所导致的必然结果，但事实上，在当今世界，关注独立游戏的大型公司并不多。这是因为如今，发行一款游戏——尤其是移动端的游戏变得非常简单。<span lang="EN-US">Kickstarter</span>、<span lang="EN-US">Indiegogo&nbsp;</span>等游戏众筹网为这些独立游戏开发者们提供资金并免受发行商的种种施压，<span lang="EN-US">App Store</span>、<span lang="EN-US">PlayStation 4</span>、<span lang="EN-US">X box&nbsp;</span>等平台都接受独立的开发者向他们递交游戏。越来越多的游戏开发者选择不与发行商合作，尤其是那些没有自有平台的发行商：既然这些事情我自己都能做到，为什么要和你们分钱，还要接受你们一遍又一遍的修改方案呢？<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	另一方面，越来越多赚钱的游戏正是由那些小型的独立开发者所作。<span lang="EN-US"><em>Flappy Bird&nbsp;</em></span>和《瘟疫公司》都是其中的佼佼者。而《愤怒的小鸟》最开始就由&nbsp;<span lang="EN-US">Chillingo&nbsp;</span>发行，不过&nbsp;<span lang="EN-US">Rivio&nbsp;</span>到后来显然明白，这种事情他们自己也能做。如何在这个拥挤的市场里找到优秀的游戏开发者，并吸引他们合作，是每一个发行商所必须考虑的问题。这次&nbsp;<span lang="EN-US">Chillingo&nbsp;</span>在华建立办公室，也是为了更方便的和中国开发者接触合作。此前，北京酷鱼互动娱乐的《钢铁力量》和玩够互动游戏公司的《点球达人》都已经由&nbsp;<span lang="EN-US">Chillingo&nbsp;</span>发行，而天津的乐鱼游戏也正在和他们洽谈合作。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US">Ed Rumley 说：</span>“我们一直提醒人们，自己开发一款游戏和自己发行一款游戏有着非常大的区别，”他说，“发行一款游戏并不是把游戏发到&nbsp;<span lang="EN-US">App Store&nbsp;</span>那么简单。”<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	发行一款游戏，首先要彻底了解游戏开发者本身的能力和需求，并且了解玩家的需求。独立开发者之间区别很大，一个&nbsp;<span lang="EN-US">10&nbsp;</span>人的开发团队和一个&nbsp;<span lang="EN-US">100&nbsp;</span>人的小型公司，所面临的问题截然不同。发行商必须具备各种能力来满足开发者的需求：发行、营销、数据分析、质量保证，甚至游戏本身的优化。<span lang="EN-US">Chillingo&nbsp;</span>倾向把发行商的角色定位成一种游戏开发者的延伸，从某种程度上，他们是一体的。同时，发行商要比开发者了解玩家更想玩什么的游戏。“好不好玩非常重要，你知道现在很多游戏开发者太容易想着去赚钱。” <span lang="EN-US">Ed Rumley&nbsp;</span>说。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	另一个重点是本土化，即这个游戏如何适应不同的游戏市场。除了文本和文化的本土化外，游戏的发行也在不同的市场面临着不同的问题，中国市场尤甚。<span lang="EN-US">Chillingo</span>根据他们的调查发现，相对于休闲游戏，中国玩家更倾向于卡牌和角色扮演类。国外游戏入驻国内，社交功能当然要从&nbsp;<span lang="EN-US">Facebook&nbsp;</span>和&nbsp;<span lang="EN-US">Twitter&nbsp;</span>转向微博和人人。（虽然至今依然有很多国外引进游戏要求玩家通过&nbsp;<span lang="EN-US">Facebook&nbsp;</span>来添加好友）渠道方面，国外的&nbsp;<span lang="EN-US">Google Play&nbsp;</span>和中国的安卓机市场又有着很大的不一样。这一切都需要发行商进行更改。 “这次我们在中国建立办公室，目标之一就是把中国的游戏更好地推广到国外。”&nbsp;<span lang="EN-US">Chillingo&nbsp;</span>中国办事处负责人陈亮说道。不管是国外游戏进入中国，或者国内游戏走出国门，都需要发行商了解全球各地不同市场的特征，并对游戏加以不同程度修改。这往往意味着一个遍布全球的团队——对于一个独立游戏开发者团队来说，几乎不可能。<span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal">
+	如今在中国，基本上只要有个三五个人，花几个月时间就可以做出一款像模像样的手机游戏。每天就有两款新游戏上线，也有无数游戏死亡。对于游戏开发者来说，如何通过有力的发行使他们的游戏被更多人体验，是这个竞争激烈市场生存之道。而对于游戏发行商，如何在茫茫的游戏海洋中找到一款佳作，谈下他们的合作，也是自身立足的必要条件。这两者一拍即合，使得在这样一个发行门槛极低的时代，游戏发行商们依旧有他们的价值——不管是什么行业，价值都是在需求和需求的被满足中诞生的。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8061">
+				<span data-id="8061">游戏发行商</span>
+			</li>
+			<li class="tag item" data-id="8062">
+				<span data-id="8062">Chillingo</span>
+			</li>
+			<li class="tag item" data-id="8063">
+				<span data-id="8063">Electronic Arts</span>
+			</li>
+			<li class="tag item" data-id="8064">
+				<span data-id="8064">Ed Rumley</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7636" data-title="《发行一款游戏，并不是发到 App Store 那么简单》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7636/medium/7636.jpg?1436692179" data-url="http://www.qdaily.com/mobile/articles/7636.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25571.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25571/medium/25571.jpg?1460797877" alt="">
+                        <h1 class="title">从“恋爱禁止”，到“秀恩爱”大赛，明星的爱情是怎么回事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25558.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25558/medium/25558.jpg?1460765334" alt="">
+                        <h1 class="title">在米兰，这两处地方眼里只有年轻人｜米兰设计周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25573.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25573/medium/25573.jpg?1460806992" alt="">
+                        <h1 class="title">进军时尚界表现亮眼，Rihanna 的化妆品可能也能大卖</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25543.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25543/medium/25543.jpg?1460716632" alt="">
+                        <h1 class="title">微软要把单手键盘带给 iPhone，扇形的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25583.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25583/medium/25583.jpg?1460819929" alt="">
+                        <h1 class="title">在 F1 上海站，车手巴顿说他最喜欢的还是10年前的车</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7636">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7636" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">49</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7640.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

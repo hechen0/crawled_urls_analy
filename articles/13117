@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>小咖秀是怎么火起来的？|市场发明家_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="小咖秀是怎么火起来的？|市场发明家。无意之中让明星纷纷用起来的短视频App，是怎么走到今天这一步的？它会让你也用起来吗？。好奇心日报为您呈现小咖秀是怎么火起来的？|市场发明家的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 小咖秀 秒拍 市场发明家 雷涛 蒋欣 王珞丹 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MlydTD0EcKgddH7SKUgsbs3EaMnBSZhZUbz++FjEK/U=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/3.html" class="category x25" data-id="3">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<h1 class="title">小咖秀是怎么火起来的？|市场发明家</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">刘平安</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-07 15:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/13117/medium/13117.jpg?1438928983" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13117" data-title="《小咖秀是怎么火起来的？|市场发明家》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13117/medium/13117.jpg?1438973654" data-url="http://www.qdaily.com/mobile/articles/13117.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				无意之中让明星纷纷用起来的短视频App，是怎么走到今天这一步的？它会让你也用起来吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span>最近，一款叫“小咖秀”的 App 在明星大咖的热推下火了。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>小咖秀是由秒拍的创新部门，在 5 月推出的一款“逗比”和恶搞属性强烈的App。用户只要从声音库里选择一个音频片段，并顺着镜头里的字幕提示，用“对口型”的夸张表演方式就能录制出一段没有多少节操但足够好玩的视频。视频还能同步发到微博、微信朋友圈、QQ 等社交媒体，分享给亲朋好友看。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>虽然应用的名字叫小咖秀，但是他的主要推手却是诸位大明星。像王珞丹、蒋欣、张一山、徐峥和“杀阡陌”马克等，都是这款 App 的拥趸。就在上两个星期，蒋欣在自己微博发了一段模仿金星老师“喝橙汁”段子的短视频，传神的演绎迅速引来网友围观，该条微博被转发了近 22 万次，点赞数超过 了 68 万，这个数字远远高于蒋欣以往微博 1000 次左右的平均转发量。至于别的演员，张一山玩到“上瘾”，在微博上甚至直接喊话，接受粉丝“点播”；“杀阡陌”马克和《家有儿女》的杨紫还你来我往、各种互动，这些明星视频的微博基本都被转发了上万次。</span> 
+</p>
+<p>
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XMTI5MzY3Nzc0MA==" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>就是这股明星多拍（网友更多围观）的势头，让小咖秀在上个月 28 号冲上了 App Store 免费榜单的第一名，它最近七天的百度指数达 71333 次，目前的日活跃用户超过了 500 万，总用户量 1500 多万，日均原创短视频有 120 万条。用小咖秀负责人雷涛的话来说，这就是时下的“爆款 App” 了。</span> 
+</p>
+<p>
+	按照雷涛的说法，要做出这个爆款 App，从技术上来说 “非常简单”。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>去年年底新浪微博掀起“冰桶挑战”热潮，各路名人都通过秒拍上传短视频，视频行业开始热闹起来。于是秒拍新成立了部门“创新部”，由雷涛负责寻找视频市场上的新机会。</span> 
+</p>
+<p>
+	<span>五月初的时候，雷涛团队无意中看到了德国“对口型”的短视频应用 Dubsmash，此应用主要给用户提供拍摄素材，但不展示用户的作品，自去年 11 月在德国上架后，只用了 1 周的时间就登上了 App Store 应用榜头名，并在英国、法国和美国等地掀起热潮。不过因为 Dubsmash 的分享平台是 Whatsapp、Facebook 等，不方便中国内地用户的使用，所以始终没有在中国红起来。</span> 
+</p>
+<p>
+	<span>团队当即决定以此为原型，做出一个类似的产品。</span> 
+</p>
+<p>
+	<span>“我们发觉这个东西对秒拍现有的技术积累来讲，非常简单。”雷涛告诉《好奇心日报》的记者，“因为里面的模块都是秒拍以前做过的，是现成的，只要把功能点抽出来，重新组装一下（就可以了）。”</span> 
+</p>
+<p>
+	<span>最后，雷涛和他的团队只用了两天的时间就把小咖秀“整合”出来了，作为改进，他们给视频加上了字幕，方便用户对口型。</span> 
+</p>
+<p>
+	“刚上线的三个星期，流量比较小。但到了六月初，就快速增长了。”雷涛回忆到，尽管他们一早就定好了要按照 Dudsmash 的方式，和明星大咖合作推广，但是合作之前，雷涛团队还收获了一个“意外惊喜”。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>6 月 3 日，《康熙来了》播出特别企划案“明星对嘴大挑战”，嘉宾在节目中用 Dubsmash 做游戏。“但是软件的名字不能提。”雷涛告诉《好奇心日报》，“因为我们关键词搜索的技术做的比较好，用户搜相关信息就能搜到我们，所以当天晚上我们的量就迅速增长了，第二天的用户净增比是过去一天的正常情况下的十倍。”</span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201508/7c525d5d3d1c.jpg" width="640" height="427" title="5" alt="5" /> 
+</p>
+<div style="text-align:center;">
+	<span>电影《宅女侦探桂香》</span> 
+</div>
+<p>
+	<span>预热后，正式的推广就要落地了。依靠秒拍累积的 1100 位明星玩家和投资方新浪微博的大力加持，小咖秀和王珞丹开始了合作。</span> 
+</p>
+<p>
+	<span>7 月 6 号，王珞丹在微博用小咖秀发布了一段模仿金星老师“喝橙汁”段子的短视频，该视频被转发超过 11 万次。后来电影《宅女侦探桂香》的剧组为宣传参加了《快乐大本营》，并在节目中引入了对嘴型飙演技的游戏，小咖秀的流量开始爆发式增长。</span> 
+</p>
+<p>
+	<span>“最厉害的时候，<span>系统大概瘫了 30% 吧，不过当天晚上也就恢复了。到现在把这个负载问题彻底解决掉了。</span>”雷涛说。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>“本来我们和她（王珞丹）说是发一条微博就可以的，结果她玩 high 了，之后几天她也一直在发，而且还拉着周渝民、张一山一起玩。”雷涛不无自豪地告诉《好奇心日报》的记者，小咖秀是一款很容易传播的 App，就像蒋欣也是她的朋友带着她来玩的，明星相互影响，最后在演艺圈爆发。“其实早在七月初，（小咖秀）在小圈子里就很流行了，大概 7 月 20 号就到了苹果 App 的前十名。”</span> 
+</p>
+<p>
+	<span>问及最初的预想和计划，雷涛说对现在的火爆程度始料未及。“本来以为会按照我们的节奏，还是（和明星）合作居多的。我们计划是一天有一两个明星来用，就不错了呀。结果没想到现在一天几十个明星都在用。”</span> 
+</p>
+<p>
+	<span>不过，小咖秀也许更有可能会成为明星的一种营销工具，但却无法在普通人当中真正流行起来。</span> 
+</p>
+<p>
+	<span>就像雷涛所说，“</span>秒拍在娱乐圈里本身就有很大的影响力，一般的娱乐影视剧要宣传都会找到秒拍，像王珞丹的电影就是这么一个方式，《煎饼侠》《港囧》的徐峥、大鹏、袁姗姗他们都会上来玩的。<span></span>因为要做宣传，需要社交媒体帮忙传播，最新的这些影视剧就会授权给我们，而每一次使用其实就是为他们剧集宣传了。”而他还告诉《好奇心日报》，除了明星，小咖秀的主要群体就是爱秀、有表现力的大学生了。其实从中我们就可以看出<span>小咖秀是有门槛的，而且可能是视频应用中门槛最高的——<span>它全部过程都是自拍，且拍摄者需要有强烈的表演欲和一定的演技；而且为了上镜，估计还要长得好看，或者长的有特点。普通用户开拍或者分享的时候，需要经过的心理挣扎太多了，负担过大。就这一点而言，同类产品美拍的门槛就相对低一些（估计对相貌还是有要求的）。</span></span> 
+</p>
+<p>
+	不过，所谓的“视频爆发”，可能更多还是集中在明星视频上，而非普通人。
+</p>
+<p>
+	视频市场在谈及人物拍摄的时候，更多是明星（或者颜值高的人）在“美美美”地创造内容，而普通人（或者长相平平的人）则一般围观，专注转发。这一点，从微博上疯转的明星视频和鲜有人问津的素人视频的对比就可看出，而且在微信朋友圈这种更私人的社交领域，小咖秀（尤其是私人的）分享总会更少些。
+</p>
+<p style="text-align:start;">
+	近年来，软件迅速爆红往往就意味着“昙花一现”，眨眼就是明日黄花了，总的来说好像都不是什么好事。就像之前的脸萌、<span style="text-align:start;">足记、HowOld 等产品，他们有的是因功能精准、操作便捷，有的是凭借有情怀的一两个特定功能，而在朋友圈、微博等社交媒体上刷屏，但几天后却是销声匿迹，人走茶凉。</span> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;">对于是否担心“来去匆匆”，雷涛觉得还是“顺势而为”，不想太多。其实就算是成了现象级产品的时候，<span style="text-align:start;">雷涛说团队还是“充满危机感”的——“</span><span>我们并不是市场上唯一一个做这种形态的产品（的公司），我们也不是最早做这种产品的，所以从一开始我们做就很担心被近品超越，而到一定规模、快速增长的时候，我们会担心有巨头来做同类型产品。”</span></span> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;"><span style="text-align:start;">小咖秀是</span><span style="text-align:start;">一种工具性质远大于社交性质的产品，而往往工具性的发展都是有限的，用户容易审美疲劳、贪新厌旧甚至吹毛求疵都是常事，“所以工具类的，大家都会希望往社交、 PGC 那边转。”</span></span> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;"><span style="text-align:start;"> </span></span> 
+</p>
+<p>
+	雷涛告诉《好奇心日报》的记者，<span style="text-align:start;">做这种互联网产品，并没有太多的机会和空间做论证。“因为论证往往是去做‘证伪’的，而不是去‘证实’的。”他把互联网的每一步都比喻成</span>“走独木桥”，只要走错了一步，就掉下去了，就起不来了。
+</p>
+<p>
+	<span style="text-align:start;">“</span>现在我们是明星产品，不管是媒体、同行、投资人都很关注。但其实<span style="text-align:start;">我们并没有多么厉害，这里面有幸运的成分</span><span style="text-align:start;">。还是要脚踏实地。</span>”雷涛说。
+</p>
+<p>
+</p>
+<p>
+	<em>「市场发明家」是好奇心日报的系列文章，旨在发现各种突然流行起来的东西，帮你找出它们的流行脉络和引爆消费的秘密。欢迎告诉我们你认为什么在流行。</em> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="14063">
+				<span data-id="14063">小咖秀</span>
+			</li>
+			<li class="tag item" data-id="14064">
+				<span data-id="14064">秒拍</span>
+			</li>
+			<li class="tag item" data-id="13122">
+				<span data-id="13122">市场发明家</span>
+			</li>
+			<li class="tag item" data-id="14109">
+				<span data-id="14109">雷涛</span>
+			</li>
+			<li class="tag item" data-id="14110">
+				<span data-id="14110">蒋欣</span>
+			</li>
+			<li class="tag item" data-id="14111">
+				<span data-id="14111">王珞丹</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13117" data-title="《小咖秀是怎么火起来的？|市场发明家》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13117/medium/13117.jpg?1438973654" data-url="http://www.qdaily.com/mobile/articles/13117.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/12299.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/12299/medium/12299.jpg?1437173373" alt="《秘密花园》这样的涂色书到底怎么火起来的？|市场发明家">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">《秘密花园》这样的涂色书到底怎么火起来的？|市场发明家</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">37</span>
+				<span class="iconfont icon-heart">587</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17129.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/17129/medium/17129.jpg?1446697904" alt="那种叫 Flat White 的咖啡是如何在中国流行起来的？｜市场发明家">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">那种叫 Flat White 的咖啡是如何在中国流行起来的？｜市场发明家</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">82</span>
+				<span class="iconfont icon-heart">1008</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26985.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26985/medium/26985.jpg?1463540431" alt="">
+                        <h1 class="title">马云不会参会国际反假联盟，以及，Free People 婚纱不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26974.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26974/medium/26974.jpg?1463501307" alt="">
+                        <h1 class="title">明天凌晨 1 点，Google 会描述一个全新的未来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26990.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26990/medium/26990.jpg?1463542132" alt="">
+                        <h1 class="title">来，干了这杯牛奶，再吞下这个杯子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26995.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26995/medium/26995.jpg?1463548164" alt="">
+                        <h1 class="title">「这世界」被英国列为一级毒品的蘑菇，可以帮助治疗抑郁症？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26987.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26987/medium/26987.jpg?1463540634" alt="">
+                        <h1 class="title">主题和概念餐厅早就不是新鲜事，这个评选过时了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27000.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27000/medium/27000.jpg?1463548673" alt="">
+                        <h1 class="title">马竞打进了欧冠决赛，身为股东的万达会高兴吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13117">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13117" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">195</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13196.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

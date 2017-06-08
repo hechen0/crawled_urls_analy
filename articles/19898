@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>管理好员工的幸福感，可能初创公司的赢面就大了一半_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="管理好员工的幸福感，可能初创公司的赢面就大了一半。换句话说，要真的做到这一点，是非常难的事情。
+。好奇心日报为您呈现管理好员工的幸福感，可能初创公司的赢面就大了一半的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 电商 幸福感 公司文化 Jet.com Marc Lore " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hkxQK+JGc+jj5sygeiNiv3kFrvMAyjBlTdNobvyuwUk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="319">
+				<span data-id="319">电商</span>
+			</li>
+			<li class="tag item" data-id="21270">
+				<span data-id="21270">幸福感</span>
+			</li>
+			<li class="tag item" data-id="17891">
+				<span data-id="17891">公司文化</span>
+			</li>
+			<li class="tag item" data-id="15868">
+				<span data-id="15868">Jet.com</span>
+			</li>
+			<li class="tag item" data-id="21271">
+				<span data-id="21271">Marc Lore</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">管理好员工的幸福感，可能初创公司的赢面就大了一半</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">David Streitfeld</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-01 08:00:11 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19898/medium/19898.jpg?1451371099" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19898" data-title="《管理好员工的幸福感，可能初创公司的赢面就大了一半》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19898/medium/19898.jpg?1451371099" data-url="http://www.qdaily.com/mobile/articles/19898.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				换句话说，要真的做到这一点，是非常难的事情。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span></span> 
+</p>
+<p>
+	<span style="text-align:start;">你不能说 Jet.com 是一家胆怯的公司。</span> 
+</p>
+<p>
+	这家初创企业正在大胆下注，要让自己成为美国价值 3500 亿美元的电子商务市场的中坚力量。为了成功实现目的，Jet.com 需要提供更好的商品选择、更低的价格，以及实现快速配送——这些都是网络买家的需求，但至今没有几家零售商能满足。电商的墓地已经人满为患，如果 Jet.com 一路蹒跚，它就会和闪购网站 Fab 拥有相同的结局——在被出售之前，它一共烧掉 3.25 亿美元，但售价却还不到烧掉的钱的十分之一。
+</p>
+<p>
+	Jet.com 在去年夏天的时候遇到了一些挫折，那时候它在扩张自己的产品线，销售的商品范围从辣椒酱、运动自行车延伸到了 WowWee 私人机器人。它还改变了经营模式，取消了会员费。在烧钱的同时，它的规模也持续增长，目前的员工数已经超过 900 人。但今年秋天，当 Jet.com 想要再融资的时候，却遭到了质疑。圣诞节前一周它对消费者说，他们中的一些人可能无法及时拿到自己订的商品。虽然 Jet.com 说，在 100 万个订单中只有 500 个会受到影响，但这怎么听都不会让人觉得是个好承诺。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/6cab34ea4139.jpg" width="675" height="491" title="Jet.com 位于新泽西州的仓库。这家初创企业在努力成为美国价值 3500 亿美元的电子商务市场中坚力量。图片来源: Cole Wilson /《纽约时报》" alt="Jet.com 位于新泽西州的仓库。这家初创企业在努力成为美国价值 3500 亿美元的电子商务市场中坚力量。图片来源: Cole Wilson /《纽约时报》" /><span>Jet.com 位于新泽西州的仓库。这家初创企业在努力成为美国价值 3500 亿美元的电子商务市场中坚力量。图片来源: Cole Wilson /《纽约时报》</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	然而公司的创始人兼首席执行官马克·洛雷说自己并不担心。他说，将 Jet.com 和所有其它失败的公司区分开来的，是“幸福感”——特别是员工的幸福感。
+</p>
+<p>
+	“我不断地问在 Jet.com 工作的人，问他们是否开心，”他说。“知道人们喜欢在这里工作、并认为这是他们工作过的最好的地方，这一点对我来说很重要。”
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/4242e77bc3b9.jpg" width="600" height="436" title="Jet.com 仓库里的员工。在一项内部调研中，一名仓库员工匿名写道：“我终于不用一早醒来就在脑子里说‘啊啊啊，又得上一天班’了。”图片来源:Cole Wilson /《纽约时报》" alt="Jet.com 仓库里的员工。在一项内部调研中，一名仓库员工匿名写道：“我终于不用一早醒来就在脑子里说‘啊啊啊，又得上一天班’了。”图片来源:Cole Wilson /《纽约时报》" /><span>Jet.com 仓库里的员工。在一项内部调研中，一名仓库员工匿名写道：“我终于不用一早醒来就在脑子里说‘啊啊啊，又得上一天班’了。”图片来源:Cole Wilson /《纽约时报》</span> 
+</p>
+<p>
+	Jet.com 为员工提供典型的创业公司津贴大礼包，比如免费饮食（每周午餐，冰箱里有红牛，橱柜里还有蛋白粉）、四个月带薪产假、不限天数的假期，以及可能以后某天会值很多钱的股权。但是公司也有一些绝对不算常见的政策，例如标准化的、不可协商的薪酬，以及员工友好雇用政策。此外，员工每天都能知道公司的生意进展得怎么样了。
+</p>
+<p>
+</p>
+<p>
+	洛雷说，“透明度”是一个很大的词，“公平性”也一样。他说，它们能给人很好的感觉，所以人们会尽力做到最好。信任员工，他们就会回报你。
+</p>
+<p>
+	其它的高管也有相同的观点，不过他们不一定会用相同的词来表达。初创圈已经从最初的热潮期向冷淡期过度，但作为新公司，哪怕是公司正在挣扎着建立起来，他们还是需要从长远上思考如何到达破晓期。
+</p>
+<p>
+	“很多硅谷的公司都建立在一种充满动力的文化上，这可能会掩盖很多问题，”迈克尔·菲尔迪克（Michael Fertik）说，他是 2006 年成立的名誉管理公司 Reputation.com 的创始人。“然后，当动力减弱的时候，公司的规模其实已经更大了，它们最初的使命和文化也都被冲淡了。这个时候，员工们就没那么确定他们是在为一个适合自己的地方工作了。”
+</p>
+<p>
+	菲尔迪克和他的同事们给的解决方案是建立一套“耐久的文化”。这项任务往往由首席人力官来承担，并与首席执行官共同推进。
+</p>
+<p>
+	人力负责人手中的工具并不一定总是更好的福利和更高的薪酬。“我们不想简单地用钱来抚慰人，”Jet.com 的首席人力官蒂娜·乔阿诺切里（Deena Gianoncelli）说。
+</p>
+<p>
+	然而钱仍然在驱动着文化，市面上的资金也从未像如今这般充裕过。根据调查公司 CB Insights 的数据显示，独角兽公司（即估值超过 10 亿美元的初创公司）的数量——这其中也包括 Jet.com ——在过去两年内涨了两倍。有人说，将这些写在纸上的数千万的财富变为永恒价值的过程是一项挑战，这需要员工们付出他们能给的一切，可能还得付出更多。
+</p>
+<p>
+	“领导一家创业公司是个残酷的追求，”企业家兼投资人杰森·卡拉加尼斯（Jason Calacanis）<a href="http://calacanis.com/2015/09/20/you-dont-have-what-it-takes/">最近在自己的博客上写道</a>。“大多时候都是一场赴死之行，在等待自己的机会到来的漫长时间里，你每天都用长到可怕的时间来工作……然后加入 80% 的阵亡初创公司的行列。”
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<span>按照这种逻辑，如果雇有最聪明和最有积极性的员工，Jet.Com 或许有机会经历长久的繁荣。</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	达斯汀·莫斯科维茨（Dustin Moskovitz）是Facebook的联合创始人，现在是初创公司 Asana 的首席执行官，他认为态度真的可能事与愿违。他说，如果自己在 Facebook 的时候能有更多的时间休息，而且能更好地照顾自己，他可以成为一个更有效率的领导者。
+</p>
+<p>
+	“我观察到现在的科技行业笼罩着一种紧张的文化，这让人深深伤感，”莫斯科维茨<a href="http://medium.com/building-asana/work-hard-live-well-ead679cb506d#.n8cuf9io6">在 Medium 上写道</a>。“我理性的结论是，这些公司都在毁掉员工的个人生活，而且从中也得不到任何好处。”
+</p>
+<h1>
+	满足等于奉献
+</h1>
+<p>
+	假日购物季从 11 月下旬开始，洛雷将公司所有的高层管理聚集到新泽西州的霍博肯，这也是他们召开周例会的总部所在。有些事情并没有拿到会上来讨论：仓库物流、客户服务业务、价格校准、潜在的运输瓶颈、供应商问题，还有一大堆其它可能毁掉 Jet.com 经历的第一个 12 月的问题。
+</p>
+<p>
+	<span>在会上，这些高管们讨论的是 </span><span>Jet.com </span><span>的员工情绪和福利。</span> 
+</p>
+<p>
+	Jet.com 的第一次“幸福脉冲”调查的结果已经出来了。超过 500 名员工参与了调研，这意味着几乎所有来公司超过一个月的员工都参与了调研。三分之二的反馈认为 Jet.com 很好，只有 4% 的反馈是负面的。
+</p>
+<p>
+	“所以只有 25% 的人总体而言不开心，”洛雷说。
+</p>
+<p>
+	“我们还有机会让这些人也站到‘很好’的队伍里来，”乔阿诺切利说。
+</p>
+<p>
+	这些高管们对着调研公司转换为分数的每一类指标咬文嚼字：以百分制为标准，“会推荐公司作为一个理想工作地”这一项得了 87 分，“让人们觉得自己在做一份重要的工作”这一条得了 90 分，公司管理得了 87 分。这些结果不仅仅来自霍博肯的工程师和管理者，还来自 Jet.com 三个仓库的打包工人，以及位于盐湖城的售后人员。
+</p>
+<p>
+	“这不是你会指望从小时工那里得到的分值，”首席运营官内特·福斯特（Nate Faust）说。仓库工作人员的起薪是 13 美元每小时加上股票期权，他们中的一个说了这么一句话：“我终于不用早上一醒来就在脑子里说‘啊啊啊，又得上一天班’了。”<img src="http://cms.qdaily.com/uploads/image/201512/285eea6503f3.jpg" width="600" height="436" title="按照这种逻辑，如果雇有最聪明和最有积极性的员工，Jet.Com 或许有机会经历长久的繁荣。图片来源：Cole Wilson /《纽约时报》" alt="按照这种逻辑，如果雇有最聪明和最有积极性的员工，Jet.Com 或许有机会经历长久的繁荣。图片来源：Cole Wilson /《纽约时报》" style="text-align:center;" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span>在一次问卷调查中，多数 Jet.com 的员工说，他们会极力推荐公司作为理想的工作地。图片来源：Cole Wilson /《纽约时报》</span> 
+</p>
+<p>
+</p>
+<p>
+	对话很快演变成了一场关于幸福的讨论。人们眼中的幸福到底是个绝对的概念，还是一个相对的概念呢？有人能在略微有些不满意的同时，认识到自己面临的现状可能已经是最好的结果了吗？
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“在这儿插播一个和婚姻有关的笑话吧，”负责客户服务的丽莎·兰兹曼（Liza Landsman）说。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	除了得到的结果以外，这份问卷下面还有大约一千条匿名评论。评论基本上表达的是肯定的态度，但也有一些不安和抱怨，说无处不在的职场幸福感是一种难以捉摸、或者也许就不可能实现的理想。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	一名员工写道：“我能做决定，这让我觉得自己被授权了，但我的上司和其他 20 个人却能否决我的决定。”另外一名员工说：“我觉得 Jet.com 是一个很适合工作的好地方……但只适合那种能在没有条理的地方也能不断成长的人。”&nbsp;
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	但另一名员工就充满热情地说：“多年来，各大公司内部管理层和员工之间的联系都丢掉了，以至于基层岗位现在成了极度可有可无的岗位。但在 Jet.com ，情况似乎不是这样。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	从整个问卷来看，得分最差的是工作和生活平衡那部分。这部分的得分只有 69 分，只比问卷公司的基准分高了一分。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“在这方面公司总是会受到批评，”洛雷说。他的意思是，当你努力尝试做些有价值的事情时，全身心投入和过好生活中的其他部分之间本来就会存在矛盾。有一位员工就感受到了这种压力，他在问卷的评论区说，在 Jet.com 工作的 14 个月是他职业生涯中最好的一段时光，但并不是最幸福的。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	洛雷依然希望让所有人都感到幸福。他说，这是他应该做的。但这同样也属于一种商业上的策略。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“如果一家公司在薪酬方面的优势足够大，愁眉苦脸的员工依然会按时来上班，”英国华威大学经济学学家安德鲁·奥斯瓦尔德（<a href="http://www.andrewoswald.com/">Andrew Oswald</a>）说。他几十年来一直在研究职场幸福感。“但是有越来越多的证据表明，在职场幸福感和更高的工作效率之间有着某种因果关系。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	最近由奥斯瓦尔德和他的两名同事完成的<a href="http://www.theguardian.com/science/2010/jul/11/happy-workers-are-more-productive">一项研究</a>得出结论说，员工的幸福感会让工作产出提高 12% 。“员工的幸福感越强，他们使用时间的效率就越高，从而他们的工作节奏会更快，而且还不会因此牺牲工作质量，”参与该项目的研究人员丹尼尔·斯格罗伊（Daniel Sgroi）<a href="http://www2.warwick.ac.uk/newsandevents/pressreleases/new_study_shows/">解释道</a>。
+</p>
+<p>
+	<span><img src="http://cms.qdaily.com/uploads/image/201512/c6a1f77974b2.jpg" width="600" height="436" title="在一次问卷调查中，多数 Jet.com 的员工说，他们会极力推荐公司作为理想的工作地。图片来源：Cole Wilson /《纽约时报》" alt="在一次问卷调查中，多数 Jet.com 的员工说，他们会极力推荐公司作为理想的工作地。图片来源：Cole Wilson /《纽约时报》" style="text-align:center;" />Jet.com </span><span>在纽约州斯韦兹伯勒的仓库。从今年夏天开始，该公司开始销售诸如罐装辣椒、运动自行车和私人机器人等多样化的产品，自那之后，公司的发展就遇到了一些波折。</span>图片来源：Cole Wilson / 《纽约时报》
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	根据 Jet.com 的逻辑，只有有了最聪明、动力最足的员工，公司从长远来看才有可能发展得好——前提是公司要能防止他们在困难迹象初显的时候就抬腿走人。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	Jet.com 希望用一个办法来鼓励员工留下，那就是员工可以非常容易地离开。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	科技公司也可以是忌妒大王。它们非常担心会失去员工，特别是关键的软件工程师，所以十年前，苹果公司才会和几家竞争对手签订了反挖人协议。这些公司同意不去互相挖墙角，因为这是违法的。而感觉受了屈辱的员工们因此发起了集体诉讼，最后他们得到了 4.15 亿美元作为赔偿。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	而 Jet.com 的员工可以做到今天从这儿辞职，明天就到竞争对手公司去上班，然后后天再把 Jet.com 的朋友招过去。 而 Jet.com 也没有回补条款，所以也就没有规定员工如果在某个日期之前辞职，就必须返还公司给的签约奖金或者搬家费。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“Jet.com 的合同强烈地表明了一点：它已经考虑到了招聘、留用和员工的满意度，所以这也会反过来激发员工的工作动力和业绩，”圣迭哥大学雇佣劳工法教授奥利·洛贝尔（Orly Lobel）说。“某些条款中使用的是更为随意的说法，这在法律合同中一般不会出现，但即便如此，它还是可以作为一个好公司的品牌策略，因为它知道人才是公司成功的关键资本，而且公司也考虑过该如何表达这一点。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	还有就是透明度的问题。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	7 月，Jet.com 公司正式亮相，又过了几周，洛雷在接受采访时掏出手机打开了一个应用。应用里显示，Jet.com 一天之内售出的商品总额达到了 66.72 万美元，日销售额相比前一个月提高了 89% 。此前一天，总共有 6100 名顾客是第一次在 Jet.com 上购物，全天的订单数是 7800 个。公司持有的现金为 1.53 亿美元。应用里显示的全是数据，投资者和拿薪水的员工都可以下载它（按小时计薪的员工除外）。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	一些信息甚至会开放给随便到网站上来看看的访客。在霍博肯办公室接待处有个占据了一整面墙的黑板，上面在不断地发布着当天网站销售的订单数量和总销售额。对于科技公司来说，这种开放程度可谓激进。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“高透明度有一点不好，那就是它会让人大肆渲染一些事，”洛雷说。“我敢肯定我们动不动就会被人一把火给烧掉。”Jet.com 上提示顾客假日购物季发货可能会延误的消息可能可以说明这一点。虽然公司说这种延误是整个行业都存在的问题，但新闻还是很快传遍了整个互联网。（Jet.com 在周三说，受到影响的 500 件商品中的大部分已经送到了。）
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	公司还有一种做法也很激进，那就是把捆绑在一起的几个岗位的工资定在同一水平上——公司把这种做法叫作“拉平”。这意味着 Jet.com 没有用一般公司会用的策略，问员工“我有一个职位，你符合它的要求吗？”对于公司认为价值相同的岗位，那些会自我提升的外向型员工和那些只会低着头的内向型员工拿到的钱是一样的。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	但这种薪酬方面的透明度可能吸引不了所有人——尤其吸引不了会被创业公司的风险和能量所吸引的那类人。而且这种方式长期来看效果如何也还不得而知，但洛雷说，薪酬透明是实现公平至关重要的一点。
+</p>
+<p>
+	<span></span> 
+</p>
+<h1>
+	把时间安排得满一点
+</h1>
+<p>
+	<span></span> 
+</p>
+<p>
+	洛雷今年 44 岁，谢顶，说话很斯文。 2005 年，他创立了 Diapers.com ，后来它成了一个很成功的电子商务网站。2010 年，在经历了一场残酷的价格战以后，他以 5.45 亿美元的价格把这个后来改名叫 Quidsi 的网站卖给了亚马逊。亚马逊继续让这个电子商务网站保持了独立运营。洛雷在 2014 年离开了 Quidsi ，并在 2015 年创立了 Jet.com 。当时一共有 20 多个 Quidsi 的员工跟着他来到了 Jet.com 。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	虽然在提到亚马逊这个 Jet.com 在努力与之竞争的电商主力时，洛雷显得很平静，但他却公开批评了自己曾经工作过的华尔街。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“我看到它们觉得如何对待员工这件事并不重要，不过是给他们发足够的钱，然后耗干他们，对此毫不在乎。然后再招新的人进来，再把他们耗干，”他说。“这是一种非常短视的工作环境。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在美国，真正幸福的员工实际上是不怎么跳槽的。盖洛普会定期调查员工的参与程度，指标包括员工有机会去做他们最擅长的事、有人鼓励他们向前发展，而且他们的看法也能受到重视。美国全部雇员中，<a href="http://www.gallup.com/poll/186500/employee-engagement-stable-october.aspx?g_source=employee_engagement&amp;g_medium=topic&amp;g_campaign=tiles">大约有三分之一的人是被认为有较高参与度的</a>，但这个水平已经有很多年没有变过了。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	但对员工的要求却变多了。今年，共有 17% 的员工<a href="http://www.gallup.com/poll/1720/work-work-place.aspx">告诉盖洛普</a>说，他们每周工作 60 小时甚至更长，这是 2005 年 9% 的结果的将近两倍。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“所有公司的社会规范都要求员工全天候响应，”Jet.com 负责人才工作的副总裁卡拉琳·库雷（Caralyn Cooley）说。“我愿意接受这一点，所以我现在非常成功。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	库雷的升迁之路涉及到霍尼韦尔、百事公司，后来生了双胞胎以后，她进了亚马逊，手底下管着数十名人力资源专员。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	她说，这时她的转折点来了。他的丈夫是一名老师，一般都由他从日托中心那里把孩子们接回家，她姐姐也代劳过几次。有一天，她自己去接孩子，然后日托中心的人就朝孩子们喊了一句：“你们的姑姑来了！”库雷不得不纠正她说：“不，我是他们的母亲。”回到车上以后，她哭了。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/7cbca2827338.jpg" width="600" height="339" title="公司在纽约州霍博肯的总部。图片来源：Cole Wilson / 《纽约时报》" alt="公司在纽约州霍博肯的总部。图片来源：Cole Wilson / 《纽约时报》" /><span>公司在纽约州霍博肯的总部。图片来源：Cole Wilson / 《纽约时报》</span> 
+</p>
+<p>
+	“那个时候我意识到，我付出的太多了，”36 岁的库雷说。她重新安排了自己的时间，更多地去接孩子，后来还把工作换到了亚马逊的一个新岗位上。在 Jet.com 时，她每天都会很早上班，一般也会在晚饭时赶回家。
+</p>
+<p>
+</p>
+<h1>
+	引领转变
+</h1>
+<p>
+	<span></span> 
+</p>
+<p>
+	和大多数创业公司一样，Jet.com 也可能会失败，花在培养以员工为中心的文化上的精力和时间也可能毫无意义。新闻媒体已经在质疑公司的做法，但公司说一切运行正常，有 200 名顾客，而且在 12 月中旬的时候，公司的日销售额首次达到了 250 万美元。“我们认为他们将在以成本为中心的消耗品市场中成为获胜者，” Piper Jaffray 咨询公司资深研究员基恩·蒙斯特（Gene Munster）说。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	无论命运如何，Jet.com 都在期待看到一个与众不同的时代。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	几年前，一个愁眉苦脸的员工不得不在沉默中忍受痛苦。现在，多亏有了 Facebook 、有了雇主评分网站 Glassdoor 和其他社交媒体网站，一家公司的企业文化也越来越多地展示在了人们的面前。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	人们看到的东西往往很凄凉：德勤咨询（Deloitte Consulting）在其发布的年度职场趋势问卷中说，一半的员工不会向别人推荐自己的雇主。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	反过来，这一切也导致了很高的跳槽率，从而侵害到了公司的绝对底线。一些分析师现在认为，随着经济衰退进一步影响到以前的业绩、招聘竞争变得更加激烈，这种情况有可能正在发生变化。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“18 个月以前，我们开始看到一些转变，那时候公司开始不那么单纯地关注生产效率和偏重运营，”德勤的副总经理斯达西亚·贾尔（Stacia Garr）说。“他们知道经济在变好，知道员工有了更多的选择，都在设计能提高员工参与、并留住他们的策略。”
+</p>
+<p>
+	就在乔阿诺切利和库雷试着为不一定耐久的公司创造一种耐久文化的时候，更重要的因素有时候并不是员工能否留下来，而是他们最初是否被聘用。Jet.com 平均每周要雇 50 人。
+</p>
+<p>
+	一名负责业务分析的应聘者来到 Jet.com 参加一项面试。从某些方面来说，他算是一个理想应聘者，聪明又有干劲。他在“和其它人相处很好”这方面打了高分，但当被问及他最近一次作为团队成员的项目时，他想不起来任何事情。他受雇的预期瞬间降为零。
+</p>
+<p>
+	“他可能更适合其它地方，”库雷说。但他不是 Jet.com 要的人。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>翻译 熊猫译社 葛仲君 刘昉</span> 
+</p>
+<p>
+	<a href="http://botlink.com/"><span></span></a> 
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="319">
+				<span data-id="319">电商</span>
+			</li>
+			<li class="tag item" data-id="21270">
+				<span data-id="21270">幸福感</span>
+			</li>
+			<li class="tag item" data-id="17891">
+				<span data-id="17891">公司文化</span>
+			</li>
+			<li class="tag item" data-id="15868">
+				<span data-id="15868">Jet.com</span>
+			</li>
+			<li class="tag item" data-id="21271">
+				<span data-id="21271">Marc Lore</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19898" data-title="《管理好员工的幸福感，可能初创公司的赢面就大了一半》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19898/medium/19898.jpg?1451371099" data-url="http://www.qdaily.com/mobile/articles/19898.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19708.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19708/medium/19708.jpg?1451136842" alt="全球两个最受欢迎的时尚电商是怎么合并到一块儿的？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">全球两个最受欢迎的时尚电商是怎么合并到一块儿的？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">132</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19309.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19309/medium/19309.png?1450347021" alt="有个给衣服比价的新电商，可能是海淘爱好者的福音">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">有个给衣服比价的新电商，可能是海淘爱好者的福音</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">105</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25888.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25888/medium/25888.jpeg?1461319694" alt="">
+                        <h1 class="title">再见，普林斯，我们永远怀念你带来的诱惑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25907.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25907/medium/25907.jpg?1461404783" alt="">
+                        <h1 class="title">靠这个小玩意，就能不再痛经？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25908.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25908/medium/25908.jpg?1461400810" alt="">
+                        <h1 class="title">我们和一个导演聊了聊一个摩托车手以及他自己的人生</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25904.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25904/medium/25904.jpg?1461391254" alt="">
+                        <h1 class="title">2016年最流行的视觉风格是什么？这里有两份清单</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25905.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25905/medium/25905.jpg?1461394941" alt="">
+                        <h1 class="title">新西兰奇异果要长在中国了，会便宜吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19898">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19898" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">212</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19995.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

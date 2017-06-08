@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google 为了打败专利流氓，开了一个在线专利市场_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google 为了打败专利流氓，开了一个在线专利市场。“专利流氓”让不少大公司都吃尽苦头，Google 能解决这个顽疾吗？。好奇心日报为您呈现Google 为了打败专利流氓，开了一个在线专利市场的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 专利流氓 Google 苹果 三星 RPX " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="90hbIdhyW0BtKhA8JhQAh1tjXOwAvY8qOt4g9aOWBis=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="9458">
+				<span data-id="9458">专利流氓</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="536">
+				<span data-id="536">三星</span>
+			</li>
+			<li class="tag item" data-id="9459">
+				<span data-id="9459">RPX</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Google 为了打败专利流氓，开了一个在线专利市场</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-28 14:18:27 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/8977/medium/8977.jpg?1436689330" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8977" data-title="《Google 为了打败专利流氓，开了一个在线专利市场》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8977/medium/8977.jpg?1436689330" data-url="http://www.qdaily.com/mobile/articles/8977.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“专利流氓”让不少大公司都吃尽苦头，Google 能解决这个顽疾吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	没有任何产品、却搜罗各种专利用于起诉别人的公司，一般被称为“专利流氓”（<span style="font-family:'Times New Roman';">Patent&nbsp;Troll</span><span style="font-family:宋体;">）。苹果、</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">等巨头都吃过他们的苦头：苹果去年&nbsp;</span><span style="font-family:'Times New Roman';">2&nbsp;</span><span style="font-family:宋体;">月输给&nbsp;</span><span style="font-family:'Times New Roman';">Smartflash&nbsp;LLC&nbsp;</span><span style="font-family:宋体;">公司<a href="http://arstechnica.com/tech-policy/2015/02/25/company-without-a-product-wins-533m-verdict-vs-apple-says-its-no-patent-troll/" target="_blank">一场&nbsp;</a></span><span style="font-family:'Times New Roman';"><a href="http://arstechnica.com/tech-policy/2015/02/25/company-without-a-product-wins-533m-verdict-vs-apple-says-its-no-patent-troll/" target="_blank">5.33&nbsp;</a></span><span style="font-family:宋体;"><a href="http://arstechnica.com/tech-policy/2015/02/25/company-without-a-product-wins-533m-verdict-vs-apple-says-its-no-patent-troll/" target="_blank">亿美元的专利官司</a></span><span style="font-family:宋体;">；</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">在卖掉摩托罗拉之前，也不停面临起诉，从&nbsp;</span><span style="font-family:'Times New Roman';">2011&nbsp;</span><span style="font-family:宋体;">到&nbsp;</span><span style="font-family:'Times New Roman';">2014&nbsp;</span><span style="font-family:宋体;">年，</span><a href="http://www.theverge.com/2014/2/4/5375304/intellectual-ventures-goes-to-trial-against-google-and-motorola" target="_blank"><span style="font-family:'Times New Roman';">Intellectual&nbsp;Ventures&nbsp;</span><span style="font-family:宋体;">公司告了&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span></a><span style="font-family:宋体;"><a href="http://www.theverge.com/2014/2/4/5375304/intellectual-ventures-goes-to-trial-against-google-and-motorola" target="_blank">和摩托罗拉三次</a></span><span style="font-family:宋体;">。</span> 
+</p>
+<p class="MsoNormal">
+	<a href="http://www.rpxcorp.com/" target="_blank"><span style="font-family:宋体;">根据反“专利流氓”公司&nbsp;</span><span style="font-family:'Times New Roman';">RPX&nbsp;</span></a><span style="font-family:宋体;"><a href="http://www.rpxcorp.com/" target="_blank">的说法</a></span><span style="font-family:宋体;">，单是&nbsp;</span><span style="font-family:'Times New Roman';">2014&nbsp;</span><span style="font-family:宋体;">年全球因这类专利诉讼损失的诉讼费就高达&nbsp;</span><span style="font-family:'Times New Roman';">122&nbsp;</span><span style="font-family:宋体;">亿美元。</span> 
+</p>
+<p class="MsoNormal">
+	一般来说，大公司之间的“专利战”往往能取得一定平衡，比如当年苹果起诉三星侵犯专利时，三星也能以类似的诉讼加以还击。相当一部分大公司之间的专利纠纷都会以相互授权专利的形式解决。可面对那种没有任何实体产品、没法告的公司，巨头们的“诉讼反击”就无能为力了。
+</p>
+<p class="MsoNormal">
+	为了从源头上扼杀“专利流氓”，<span style="font-family:'Times New Roman';">Google 宣布</span><span style="font-family:宋体;">推出试验性的专利交易平台“</span><span style="font-family:'Times New Roman';"><a href="http://www.google.com/patents/licensing/" target="_blank">Patent&nbsp;Purchase&nbsp;Promotion</a></span><span style="font-family:宋体;">”</span><span style="font-family:宋体;">，让持有美国专利的个人直接向&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">兜售自己的专利。</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">专利问题法律顾问&nbsp;&nbsp;</span><span style="font-family:'Times New Roman';">Allen&nbsp;Lo 在</span><span style="font-family:宋体;"><a href="http://googlepublicpolicy.blogspot.com/2015/04/announcing-patent-purchase-promotion.html" target="_blank">昨天发表的博客中</a>认为</span><span style="font-family:宋体;">：“这有望为专利持有人创造更好的体验，并消除‘专利流氓’引起的混乱局面。”</span> 
+</p>
+<p class="MsoNormal">
+	新<span style="font-family:宋体;">的&nbsp;</span><span style="font-family:'Times New Roman';">Patent&nbsp;Purchase&nbsp;Promotion&nbsp;</span><span style="font-family:宋体;">平台将在&nbsp;</span><span style="font-family:'Times New Roman';">5&nbsp;</span><span style="font-family:宋体;">月&nbsp;</span><span style="font-family:'Times New Roman';">8&nbsp;</span><span style="font-family:宋体;">日到&nbsp;</span><span style="font-family:'Times New Roman';">22&nbsp;</span><span style="font-family:宋体;">日之间开放，专利持有人可以在网上向&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">提交申请，并为自己的专利定个价，目前范围还仅限于在美国注册的专利。</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">称他们将在平台关闭之后查看每一份申请，遇到感兴趣的，会在&nbsp;</span><span style="font-family:'Times New Roman';">6&nbsp;</span><span style="font-family:宋体;">月&nbsp;</span><span style="font-family:'Times New Roman';">26&nbsp;</span><span style="font-family:宋体;">日前通知申请人。</span> 
+</p>
+<p class="MsoNormal">
+	<span style="font-family:'Times New Roman';"><a href="http://static.googleusercontent.com/media/www.google.com/zh-CN/us/patents/licensing/doc/patent-palooza-more-information.pdf" target="_blank">Google&nbsp;</a></span><span style="font-family:宋体;"><a href="http://static.googleusercontent.com/media/www.google.com/zh-CN/us/patents/licensing/doc/patent-palooza-more-information.pdf" target="_blank">发布的具体日程安排</a></span><span style="font-family:宋体;">显示，随后&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">会要求这些被选中的申请人在&nbsp;</span><span style="font-family:'Times New Roman';">7&nbsp;</span><span style="font-family:宋体;">月&nbsp;</span><span style="font-family:'Times New Roman';">8&nbsp;</span><span style="font-family:宋体;">日前提交有关专利的更多详细信息。如果一切顺利，</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">预计会在&nbsp;</span><span style="font-family:'Times New Roman';">7&nbsp;</span><span style="font-family:宋体;">月&nbsp;</span><span style="font-family:'Times New Roman';">22&nbsp;</span><span style="font-family:宋体;">日前掏钱买下中意的专利。</span> 
+</p>
+<p class="MsoNormal">
+	Google&nbsp;<span style="font-family:宋体;">认为专利市场长期混乱的一个原因在于不少专利持有人将专利卖给“专利流氓”，因此他们希望用&nbsp;</span><span style="font-family:'Times New Roman';">Patent&nbsp;Purchase&nbsp;Promotion&nbsp;</span><span style="font-family:宋体;">平台将专利交易的过程公开，直接和专利持有人建立联系。不过这个项目现在还只是试验性的，结果如何尚难以定论。</span> 
+</p>
+<p class="MsoNormal">
+	<a href="（http://www.wired.com/2015/04/google-wants-buy-patent-keep-away-trolls/" target="_blank">《连线》杂志在报道中认为</a><span style="font-family:宋体;">，这个专利交易平台还能为&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">提供更多有价值的信息，比如当前市面上还有哪些专利、它们价值几何等等。</span> 
+</p>
+<p class="MsoNormal">
+	同时，<span style="font-family:'Times New Roman';">Patent&nbsp;Purchase&nbsp;Promotion&nbsp;</span><span style="font-family:宋体;">平台还可能成为&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">的专利防御系统。所谓专利防御系统，就是通过收购专利授权给客户，以免其陷入专利诉讼的泥淖中，类似的公司有&nbsp;</span><span style="font-family:'Times New Roman';"><a href="http://www.rpxcorp.com/" target="_blank">RPX</a>&nbsp;</span><span style="font-family:宋体;">等等。</span> 
+</p>
+<p class="MsoNormal">
+	不过说起来，<span style="font-family:'Times New Roman';">Intellectual&nbsp;Ventures&nbsp;</span><span style="font-family:宋体;">最早也是一个专利防御系统，甚至&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">还给它投过最初的启动资金，而今却成了<a href="http://www.theverge.com/2014/2/4/5375304/intellectual-ventures-goes-to-trial-against-google-and-motorola" target="_blank">全球最大、最著名的“专利流氓”</a>。如果&nbsp;</span><span style="font-family:'Times New Roman';">Patent&nbsp;Purchase&nbsp;Promotion&nbsp;</span><span style="font-family:宋体;">平台试验成功并逐渐成型，也可能成为&nbsp;</span><span style="font-family:'Times New Roman';">Google&nbsp;</span><span style="font-family:宋体;">对付其它科技巨头的“弹药库”。</span><span style="font-family:宋体;">此前 Google 在专利战方面一直扮演防御角色，没有主动攻击竞争对手的习惯，但未来如果形势发生变化，不知道还会不会保持“不作恶”？</span> 
+</p>
+<p class="MsoNormal">
+	<span style="font-family:宋体;"><br />
+</span> 
+</p>
+<p class="MsoNormal">
+	图片来源：<span style="color:#3D3C40;font-family:Lato, appleLogo, sans-serif;font-size:15px;line-height:22px;white-space:normal;"><a href="http://www.hellorf.com/" target="_blank">站酷海洛创意</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="9458">
+				<span data-id="9458">专利流氓</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="536">
+				<span data-id="536">三星</span>
+			</li>
+			<li class="tag item" data-id="9459">
+				<span data-id="9459">RPX</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8977" data-title="《Google 为了打败专利流氓，开了一个在线专利市场》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8977/medium/8977.jpg?1436689330" data-url="http://www.qdaily.com/mobile/articles/8977.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24852/medium/24852.jpg?1459491636" alt="">
+                        <h1 class="title">没有苹果的平行世界，你猜会发生什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24840.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24840/medium/24840.jpg?1459479366" alt="">
+                        <h1 class="title">时尚圈都很喜欢的“小胖”去清华做演讲，都说了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24858.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24858/medium/24858.jpg?1459495677" alt="">
+                        <h1 class="title">爱奇艺进入台湾图啥？听听台湾的导演和制作人怎么说</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8977">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8977" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">15</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8973.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>APP人性化？还是神烦｜好奇心研究所_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="APP人性化？还是神烦｜好奇心研究所。人性化什么的，才不是刷存在感呢。。好奇心日报为您呈现APP人性化？还是神烦｜好奇心研究所的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心研究所 报告 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mDHZquOP45mqQGj2kWbpQYu1/Ty6Rb1peJYEuNBok5Y=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">APP人性化？还是神烦｜好奇心研究所</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1288/small/1288.gif?1404690740" alt="">
+					</span>
+				<span class="name">胡昱 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-09-24 06:38:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15165/medium/15165.jpg?1442722370" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15165" data-title="《APP人性化？还是神烦｜好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15165/medium/15165.jpg?1442722370" data-url="http://www.qdaily.com/mobile/articles/15165.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				人性化什么的，才不是刷存在感呢。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	现如今，为了留在用户的手机里，APP 们纷纷走上了软萌妹的路线，但又带着一种不解决根本问题的多余的啰嗦。
+</p>
+<p>
+	<span>为了调查大家的态度，本报「好奇心研究所」此前做了一次<a href="http://www.qdaily.com/papers/461.html" target="_blank">“你讨厌 APP 的哪些人性化功能”的投票</a>，我们收获了共 9757 次表态。</span> 
+</p>
+<p>
+	<span>其中，最令人讨厌的是“屁大点事也要推送消息”（18.5%）——电商 APP 跟你说他们家现在有特惠活动，买 300 送 5 元；卖电影票的 APP 跟你说最近有好多部（你一点也不想看的）电影上线了；背单词软件说你已经累积 79 天没背单词了它特别地想你；连体重计 APP 都会跑出来说哎呀一天下来你累坏了吧，那快来称一下体重吧……也不知道逻辑在哪里。</span> 
+</p>
+<p>
+	<span>另一种讨厌是夹带私货的鸡贼，比如失手点到一个新页面它就让你去下载它的兄弟应用（16.0%），还有懒惰的人不愿意注册新账号，它就让你用微博账户登陆，你绑定完了之后还不能直接用，它还要让你在它家再注册一个新名字，更糟的是它们还自作主张地用你的微博发了它家广告“我已经关注了宇宙第一高大上的 XX！快来和我一起体验吧！”……把你衬托成一朵白痴。</span> 
+</p>
+<p>
+	<span>还有的 APP 以为“人性化”就是学人说话，“程序员哥哥辛苦更新了新版本，求去应用商店评价！请不要残忍拒绝！”……让人想点一百遍“残忍拒绝”。</span> 
+</p>
+<p>
+	<span>最后，让我们来欣赏一下 APP 们的说话风格：</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span><strong>「我们又更新了哦</strong></span><span><strong>没有修复以前那些破功能哦</strong></span><span><strong>还增加了很多新的没用的玩意儿哦</strong></span><span><strong>请你一定要去下载新版本哦</strong></span> 
+</p>
+<p>
+	<span></span><span><strong>我们现在是新版本了哦</strong></span><span><strong>向右滑动可以看到新功能介绍哦</strong></span><span><strong>不想看也不行哦</strong></span><span><strong>因为我们预设你的智商是零哦</strong></span> 
+</p>
+<p>
+	<span></span><span><strong>好了请您登陆一下哦</strong></span><span><strong>不登陆不可以哦</strong></span><span><strong>你也可以绑定第三方账户哦</strong></span><span><strong>我会帮你在第三方账户上 po 一条你已经关注了我们哦</strong></span> 
+</p>
+<p>
+	<span></span><span><strong>啊哈你用起了我们的 APP 了好高兴哦</strong></span><span><strong>今天屁事儿也没有哦</strong></span><span><strong>可我还是会给你发推送消息哦</strong></span><span><strong>看我看我看我看我哦</strong></span> 
+</p>
+<p>
+	<span></span><span><strong>我很贴心哦</strong></span><span><strong>我超级贴心哦</strong></span><span><strong>我太贴心了哦</strong></span><span><strong>你爱不爱我呀」</strong></span> 
+</p>
+<p>
+	<span><strong></strong></span> 
+</p>
+<p style="text-align:center;">
+	<strong><img src="/uploads/image/201509/5bd71f66116f.gif" width="500" height="281" title="1" alt="1" /></strong> 
+</p>
+<p>
+	<strong></strong> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>啊，沁！人！心！脾！</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span><a href="http://www.qdaily.com/labs.html"><em>好奇心研究所</em></a><em>是好奇心日报的一个调查栏目，这是一个探讨各种生活方式问题的互动平台，它针对的可能是生活方式的变化和潮流，也可能是某个品牌的服务。你可以在这里投票、吐槽、表明态度。</em></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15165" data-title="《APP人性化？还是神烦｜好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15165/medium/15165.jpg?1442722370" data-url="http://www.qdaily.com/mobile/articles/15165.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/papers/456.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/456/indexLargePc2/456.jpg?1438251694" alt="那么，我们做了个美言APP的试用版本">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/1/medium/1.png?1451033329" alt="投票">
+            </p>
+            <div class="count" data-publishDate="2015-07-31 01:00:24 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">2792</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">那么，我们做了个美言APP的试用版本</h1>
+                <p class="description">“考虑开发一款美言APP？你输入一句很普通的话，比如“我爱你”，然后选择美言，APP会自动帮你调整错字语气标点韵脚，这是基本功能。还可以添加各种滤镜…”——马伯庸</p>
+            </div>
+        </div>
+    </a>
+
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15165">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15165" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15420.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

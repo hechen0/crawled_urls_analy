@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今日应用：一款时间管理软件，非处女座请出门左拐_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="今日应用：一款时间管理软件，非处女座请出门左拐。时间也许是唯一的货币。。好奇心日报为您呈现今日应用：一款时间管理软件，非处女座请出门左拐的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="时间管理 今日应用 app " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="LFHhNUzlHBwQW+eoc7GkJbG3DuBr8Q7J2lcFKADIMc4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4302">
+				<span data-id="4302">时间管理</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+			<li class="tag item" data-id="360">
+				<span data-id="360">app</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">今日应用：一款时间管理软件，非处女座请出门左拐</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3630/small/3630.jpg?1418631958" alt="">
+					</span>
+				<span class="name">王嘉俊</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-17 08:06:03 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3593/medium/3593.jpg?1436640291" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3593" data-title="《今日应用：一款时间管理软件，非处女座请出门左拐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3593/medium/3593.jpg?1436640291" data-url="http://www.qdaily.com/mobile/articles/3593" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				时间也许是唯一的货币。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<ul>
+	<li>
+		<span style="line-height:1.5;"><span>轻轻一按开始记录时间</span></span><span style="line-height:1.5;">。</span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;"><span>把时间记录分门别类，并用饼状图回顾。</span></span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;"><span><span><span>支持 <a href="https://itunes.apple.com/cn/app/atimelogger/id358979305?mt=8" target="_blank">iOS</a> 和 <a href="http://www.wandoujia.com/apps/com.aloggers.atimeloggerapp" target="_blank">Android 平台</a>，aTimeLogger 免费，aTimeLogger 2 是 18 元。</span></span></span></span> 
+	</li>
+</ul>
+<p>
+	<span style="line-height:1.5;">这次介绍的是 aTimeLogger，在开始之前我们先谈一个人，他叫柳比歇夫。</span> 
+</p>
+<p class="p1">
+	<span class="s1">柳比歇夫是前苏联的昆虫学家、哲学家和数学家，他创造了柳比歇夫时间管理法，并身体力行 56 年。</span> 
+</p>
+<p class="p1">
+	柳比歇夫时间管理法建立在数理统计的基础上，重点是对消耗的时间进行分析：记录时间、分析时间、消除时间浪费和重新安排时间，以此让时间管理更高效。
+</p>
+<p class="p1">
+	下面是柳比歇夫的时间记录，摘自 《奇特的一生》。
+</p>
+<blockquote>
+	<p class="p1">
+		一九六四年四月七日。
+	</p>
+	<p class="p1">
+		分类昆虫学：画两张无名袋蛾的图，3 小时 15 分；鉴定袋蛾，20 分
+	</p>
+	<p class="p1">
+		附加工作：给斯拉瓦写信，2 小时 45 分。
+	</p>
+	<p class="p1">
+		社会工作：植物保护小组开会，2 小时 25 分。
+	</p>
+	<p class="p1">
+		休息：给伊戈尔写信，10 分；《乌里扬诺夫斯克真理报》，10 分；列夫·托尔斯泰的《塞瓦斯托波尔纪事》，1 小时 25 分。
+	</p>
+	<p class="p1">
+		工作合计：6 小时 20 分。
+	</p>
+	<p class="p1">
+		柳比歇夫会把一段时间的记录合并起来，看把时间花在了哪些地方。
+	</p>
+	<p class="p1">
+		基本科研： 59 小时 45 分
+	</p>
+	<p class="p1">
+		分类昆虫学：20 小时 55 分
+	</p>
+	<p class="p1">
+		附加工作：50 小时 25 分
+	</p>
+	<p class="p1">
+		组织工作：5 小时 40 分
+	</p>
+	<p class="p1">
+		合计：136 小时 45 分
+	</p>
+</blockquote>
+<p class="p1">
+	<span class="s1">柳比歇夫每月都会总结自己的时间记录，</span><span style="line-height:1.5;">看看哪些时间是被浪费的，哪些时间和计划有出入，以此获得精准感知时间的能力。</span> 
+</p>
+<p class="p1">
+	<span class="s1">aTimeLogger 团队采用了柳比歇夫时间管理法的思路，并把它引入到手机 App。</span> 
+</p>
+<p class="p1">
+	<span class="s1">进入 aTimeLogger 界面需要创建记录分类，例如 Should do、Education 等，具体分类由用户来设定。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201411/982e651c3e4b.jpg" alt="" /> 
+</p>
+<p class="p1">
+	<span class="s1">点击某项分类，进入时间记录界面。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201411/172cf8413af9.jpg" alt="" /> 
+</p>
+<p class="p1">
+	<span class="s1">在使用一段时间后，你会拥有一些时间记录。这时候你可以查看一段时间的记录情况。</span> 
+</p>
+<p class="p1">
+	<span class="s1">aTimeLogger 能把你的时间使用情况做成饼状图。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201411/a2bb4f7bb5f4.jpg" alt="" /> 
+</p>
+<p class="p1">
+	<span class="s1">在忘记记录时间的时候，你可以补记；你也可以把时间记录报告导出到邮箱。</span> 
+</p>
+<p class="p1">
+	<span class="s1">aTimeLogger 在产品层面是一个很好用的 App，它让柳比歇夫的时间管理法变得非常简单。用户只需要携带手机，就能够完成时间记录，而且时间回顾总结也很方便。</span> 
+</p>
+<p class="p1">
+	<span class="s1">对于普通用户来说，即便没有柳比歇夫对自我严格的要求和对职业目标的明确，aTimeLogger 至少可以把他们从感性的拖延症拉出来，用客观的数字告诉告知他们：情况没有那么糟，你不过是拖延了 3 个小时而已，赶紧回到工作。这种提醒很重要，让用户不会因为主观的感受放大拖延的危害。</span> 
+</p>
+<p class="p1">
+	<span class="s1">尽管 aTimeLogger 方便且有用，真正用好 aTimeLogger 不是一件容易的事情。时间管理软件挑战人的惰性，本身就难以让用户形成使用习惯。而 aTimeLogger 更是要求 24 小时的持续记录，它非常考验人的觉察力和坚持力。在我过去使用的一个月中，经常在切换任务的时候忘记修改 aTimeLogger 的时间记录类别。如果在任务完成后补记，不仅不够精准，而且会给我带来挫败感。</span> 
+</p>
+<p class="p1">
+	<span class="s1">所以，只有你真想认真记录时间，或者你是处女座，才推荐使用 aTimeLogger 进行时间记录。</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4302">
+				<span data-id="4302">时间管理</span>
+			</li>
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+			<li class="tag item" data-id="360">
+				<span data-id="360">app</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3593" data-title="《今日应用：一款时间管理软件，非处女座请出门左拐》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3593/medium/3593.jpg?1436640291" data-url="http://www.qdaily.com/mobile/articles/3593" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24893.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24893/medium/24893.jpg?1459598722" alt="">
+                        <h1 class="title">硅谷总迷恋长寿和改变世界，这次爱上了一台复杂的榨汁机</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3593">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3593" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">40</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3595.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

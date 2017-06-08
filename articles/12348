@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>谁想让你戴上便宜的 VR 眼镜？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="谁想让你戴上便宜的 VR 眼镜？。如果有一天大家手上都拿着带镜片的纸盒也不稀奇。好奇心日报为您呈现谁想让你戴上便宜的 VR 眼镜？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="虚拟现实 VR Cardboard Google 暴风影音 一加 Badoinkvr LG 淘宝 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="OOy7MqaLQLCAJA4yX8JoQ2+5JVn5+6WuQm38o0v8puU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="513">
+				<span data-id="513">虚拟现实</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="9078">
+				<span data-id="9078">Cardboard</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="8135">
+				<span data-id="8135">暴风影音</span>
+			</li>
+			<li class="tag item" data-id="5373">
+				<span data-id="5373">一加</span>
+			</li>
+			<li class="tag item" data-id="13169">
+				<span data-id="13169">Badoinkvr</span>
+			</li>
+			<li class="tag item" data-id="683">
+				<span data-id="683">LG</span>
+			</li>
+			<li class="tag item" data-id="1160">
+				<span data-id="1160">淘宝</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">谁想让你戴上便宜的 VR 眼镜？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-20 13:43:44 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12348/medium/12348.jpg?1437369507" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12348" data-title="《谁想让你戴上便宜的 VR 眼镜？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12348/medium/12348.jpg?1437369507" data-url="http://www.qdaily.com/mobile/articles/12348.html?utm_source=tuicool&amp;utm_medium=referral" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				如果有一天大家手上都拿着带镜片的纸盒也不稀奇
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	虚拟现实（VR，virtual reality）已经成为当今科技界的热点之一。但要想体验它你还得有专门的设备。
+</p>
+<p>
+	不比 Oculus 和 Gear VR 动辄上千的价格，Google Cardboard 的成本极为低廉，它只需要一块纸板，一对镜片，再加上一些胶水和绑带就能完成。如果直接把材料和说明书交给用户自己去 DIY ，甚至连组装费用都可以省了。
+</p>
+<p>
+	也因此，Cardboard 很自然地就成为商家们的一种营销的手段。
+</p>
+<h2>
+	内容制作商
+</h2>
+<p>
+	虚拟现实要想发展起来，它就得拿出足够的内容给用户来消费。制作 VR 视频和游戏的公司也有不少了。比如做游戏的<a href="http://www.qdaily.com/articles/5405.html"> nDreams</a>，做视频的<a href="http://www.qdaily.com/articles/1994.html"> Jaunt </a>，做新闻的<a href="http://www.qdaily.com/articles/8979.html"> VRSE</a>。然而，他们都面对着一个问题，如何让做出来的产品能被广大用户接触到。
+</p>
+<p>
+	近期，专门做虚拟现实视频的公司 Badoinkvr 就上线了<a href="http://www.androidpolice.com/2015/07/18/get-a-free-google-cardboard-vr-viewer-from-this-porn-site-us-only/">一个专门送 Cardboard 的网站</a>。只要收货地址在美国（不允许第三方转运），且收件人年满 18 岁（视频内容原因限制），就能免费收到 Cardboard 了。
+</p>
+<p>
+	然而，它这么做，当然也有进一步的动机——销售更多的电影。由于 Badoinkvr 采用的是按月订阅的模式，最低每月 29.95 美元，三个月 59.95 美元，年付则 99.95 美元，所以这可是一桩长期的生意。
+</p>
+<h2>
+	手机厂商
+</h2>
+<p>
+	由于 Cardboard 必须搭配一部智能手机才能使用，手机厂商利用这点作为营销噱头也是自然的事。
+</p>
+<p>
+	例如月初的时候，一加手机就<a href="http://store.oneplus.cn/oneplusvr" target="_blank">在其官网上</a>免费为用户提供了所谓改进版的 Cardboard，并希望粉丝们能用虚拟现实的方式观看它的发布会直播。预定成功者只需要支付运费就行，但是这个活动<a href="http://www.qdaily.com/articles/11683.html" target="_blank">目前仍不支持大陆用户</a>。
+</p>
+<p>
+	而今年 2 月，<a href="http://www.qdaily.com/articles/6083.html">LG 就已经把一个名为 VR For G3 的 Cardboard 作为它的旗舰机 G3 的赠品搭售</a>，只是把原本的纸板换成了塑料而已。
+</p>
+<p>
+	不管这些手机厂商是否真心要做虚拟现实，这无疑会是一个低成本的探路石。
+</p>
+<h2>
+	VR 设备商
+</h2>
+<p>
+	VR 设备商虽然想要卖更高价的设备，但他们其实也有在销售相对“更便宜的版本”。
+</p>
+<p>
+	去年 10 月暴风影音就开售了它&nbsp;Cardboard 级的产品。用户只需要支付 9 元就能获得，甚至还能包邮。这显然是一个营销行为，他们当然会不指望从这赚钱。
+</p>
+<p>
+	不过这也只是它另一款产品暴风魔镜的体验版，它改造了纸板的佩戴和操作体验，并衍生出了相关的视频等内容服务。
+</p>
+<p>
+	与它设计和定位相仿的品牌还有很多，如小宅、真幻、灵镜等，但即便它们售价不足百元，如果消费者根本不了解虚拟现实是什么，也难让人埋单。
+</p>
+<p>
+	所以，暴风影音所谓的体验版，无非就是要借此来带动更高利润设备的销量。当然前提得是这种廉价版真的能激起消费者购买欲，并想获得更好的体验。
+</p>
+<h2>
+	Google
+</h2>
+<p>
+	谈到送 Cardboard，那就不得不谈及最初打造它的 Google 。
+</p>
+<p>
+	早在 2014 年 6 月，这个产品刚在 I/O 开发者大会上发布开始，Google 就将其作为赠品向现场的观众们发放。不过，有的人还将之当作了折纸玩具。
+</p>
+<p>
+	Google 这么做当然也是为了让开发者体会到，如此廉价的产品也能获得虚拟现实的体验。随着更多的开发者加入 Cardboard 应用的开发，Android 平台上的内容也会丰富起来。
+</p>
+<h2>
+	淘宝商家
+</h2>
+<p>
+	如果你在淘宝上搜索 Cardboard ，很容易就能发现大量的相关产品。而且，十元以内还包邮的比比皆是。
+</p>
+<p>
+	不管是为刷销量也好，还是想像暴风魔镜那样借此卖其他设备也罢，哪怕商家只是想用来“向你讨个联系方式”，既然它成本低廉，而且又容易找到卖点，显然很容易成为商家道具。
+</p>
+<p>
+	至少，这比那些防尘塞、按键贴之类要有趣的多。毕竟它可是最为新奇<strong>“智能可穿戴硬件”</strong>之一。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	至于这种送 Cardboard 的方式是否管用，根据《好奇心日报》多位同事的体验，如果要长时间佩戴，你的眼睛恐怕会受不了。而其中有意思的应用，我们也没有发现太多。
+</p>
+<p>
+	所以除了营销，要想将虚拟现实向大众普及，其实产业中各方看来还需更多地努力。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="513">
+				<span data-id="513">虚拟现实</span>
+			</li>
+			<li class="tag item" data-id="1619">
+				<span data-id="1619">VR</span>
+			</li>
+			<li class="tag item" data-id="9078">
+				<span data-id="9078">Cardboard</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="8135">
+				<span data-id="8135">暴风影音</span>
+			</li>
+			<li class="tag item" data-id="5373">
+				<span data-id="5373">一加</span>
+			</li>
+			<li class="tag item" data-id="13169">
+				<span data-id="13169">Badoinkvr</span>
+			</li>
+			<li class="tag item" data-id="683">
+				<span data-id="683">LG</span>
+			</li>
+			<li class="tag item" data-id="1160">
+				<span data-id="1160">淘宝</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12348" data-title="《谁想让你戴上便宜的 VR 眼镜？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12348/medium/12348.jpg?1437369507" data-url="http://www.qdaily.com/mobile/articles/12348.html?utm_source=tuicool&amp;utm_medium=referral" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24645.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24645/medium/24645.jpg?1459231311" alt="">
+                        <h1 class="title">甲骨文认为 Android 涉嫌“抄袭”，想要 93 亿赔偿</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12348">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12348" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">37</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12343.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

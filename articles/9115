@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为了给 Windows 拉点应用，微软做了不少改变_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为了给 Windows 拉点应用，微软做了不少改变。面对 Windows 在移动世界的衰落，微软调整了它对开发者的姿态。好奇心日报为您呈现为了给 Windows 拉点应用，微软做了不少改变的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Build 2015 通用应用 开发者 微软 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xjKkC5I80iKSWFEH3zQXYCCg/BqRedehl6yl6tgIv+c=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9597">
+				<span data-id="9597">Build 2015</span>
+			</li>
+			<li class="tag item" data-id="9598">
+				<span data-id="9598">通用应用</span>
+			</li>
+			<li class="tag item" data-id="958">
+				<span data-id="958">开发者</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为了给 Windows 拉点应用，微软做了不少改变</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3910/small/3910.png?1418028195" alt="">
+					</span>
+				<span class="name">唐怡园</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-04 08:25:22 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9115/medium/9115.jpg?1436688295" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9115" data-title="《为了给 Windows 拉点应用，微软做了不少改变》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9115/medium/9115.jpg?1436688295" data-url="http://www.qdaily.com/mobile/articles/9115.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				面对 Windows 在移动世界的衰落，微软调整了它对开发者的姿态
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<a href="http://qdaily.com/display/articles/9116.html" target="_blank">昨天你朋友圈可能被一群晒年轻的人刷屏了</a>。这套刷脸工具并非个人创业项目，而是两位微软工程师上月底在其开发者大会上发布的网页应用 <a href="http://how-old.net" target="_blank">how-old.net</a>，目的是宣传自己的图像识别引擎以及背后能抗得住访问高峰的云计算平台 Azure。
+</p>
+<p>
+	遗憾的是，Windows 或者 Windows Phone 平台上很少有应用能火成 how－old.net 这样。截至 2014 年 12 月，<a href="http://gadgets.ndtv.com/apps/news/windows-and-windows-phone-store-have-over-525000-apps-combined-microsoft-621991" target="_blank" style="background-color:#FFFFFF;">根据微软官方公布的数据显示</a>， Windows Store 和 Windows 的应用数量加起来 5.25 万，而 iOS 和 Android 平台的应用数量都超过 100 万。
+</p>
+<p>
+	Windows Store 应用太少，自然没什么用户。不少公司也已经不再开发该平台应用，或者开发了也不更新。这不奇怪。大多数公司不会为了占有率不到<a href="http://www.extremetech.com/mobile/199817-windows-phone-10-is-dead-before-it-even-arrives" target="_blank"> 4％</a> 的市场，组建开发团队。毕竟，现在程序员人工成本那么高。
+</p>
+<p>
+	然而，开发者少不仅仅因为 Windows Phone 卖不出去。市场占有率高的 Windows 同样争取不到开发者。<span style="white-space:normal;">iPhone 依然是目前最赚钱的平台</span> iPhone，而 iPhone 开发应用需要装有 X Code 的 Mac。这导致相当一部分程序员开始用 Mac。
+</p>
+<p>
+	现在微软做了些改变，希望自己的平台能吸引更多的开发者。
+</p>
+<h4>
+	一个 Mac 上能用的编程工具
+</h4>
+<p>
+	既然那么多程序员已经习惯用 Mac 了，那就开发一个在 Mac 上能用的编程工具，而不是反过来劝说他们用 Windows。这是目前微软的策略。
+</p>
+<p>
+	微软 build &nbsp;2015 大会上推出了代码编辑器 <a href="http://thenextweb.com/insider/2015/04/29/microsoft-now-has-a-code-editor-for-mac-and-linux-visual-studio-code/" target="_blank">Visual Studio Code</a> 。谈不上新，但这是 Visual Studio 第一次支持非 windows 平台。
+</p>
+<p>
+	让 Visual Studio 变得强大的 .NET 代码库也在这次大会上宣布开源。文本编辑器样式很多，开发者都有自己的审美和编写偏好，但背后的代码库和插件才是精髓，令人追随的。虽然 Visual Studio Code 暂时没有更多智能的调取插件，但.NET 在 Github 全面开源以后，你在任何操作系统平台上都能调用。
+</p>
+<h4>
+	把 iOS 和 Android 应用移植到 Windows 10
+</h4>
+<p>
+	Windows Store 的应用数量起不来，微软当时想到的办法之一就是从别的平台移植过来。最开始移植一个 Windows phone 版本应用的工作量和重写一个差不多。后来，微软一直想让这事儿变得简单点。为此，它开源过一部分 .NET 代码，减少移植的代码量。现在 Project Astoria 项目更像是让 Android 变成 Windows phone 的一个子系统。就像你在 Mac 系统下装了个 Windows 的虚拟机。但作为通用应用，它们暂时没能支持特殊的 Android API。
+</p>
+<p>
+	而移植 iOS 应用的 Project Islandwood 主要通过编写环境的同步来简化流程，比如将 Xcode 项目导入 Visual Studio 环境中，尽量保留 Xcode 构建的 iOS 应用代码等等。<a href="http://thenextweb.com/insider/2015/04/29/developers-can-convert-their-ios-apps-to-windows-10-apps/" target="_blank">Candy Crash</a> 就是一个成功实例。
+</p>
+<h4>
+	不再有 Windows Phone
+</h4>
+<p>
+	Windows 10 要统一手机、电脑、平板，甚至是游戏机 Xbox。在这之前，Windows 和 Windows Store 是分别针对电脑/平板和手机的两套生态。尽管平板和手机都是触屏，但开发者却需要在之前几年里支持两套开发接口、适配两个应用商店。
+</p>
+<p>
+	Windows 10 粘上了这不必要的裂缝。<span style="white-space:normal;">现在，</span><a href="http://thenextweb.com/microsoft/2015/04/29/windows-10-will-let-you-use-your-phone-as-a-full-computer-sort-of/" target="_blank" style="white-space:normal;background-color:#FFFFFF;">通过 continuum，你可以在电脑上全屏使用原生手机应用</a>。
+</p>
+<p>
+	应用在设备间通用了，移动端仍是重点。<a href="http://thenextweb.com/insider/2015/04/29/microsoft-announces-carrier-billing-for-all-windows-10-devices-even-desktop/" target="_blank">微软想让运营商帮着一块卖手机应用</a>，目前它们已经找到 90 个合作伙伴。以后买应用，不用通过信用卡，可以直接充话费。
+</p>
+<h4>
+	把赚钱利器 Office 365 开放出来
+</h4>
+<p>
+	<a href="http://thenextweb.com/microsoft/2015/04/29/microsoft-shows-off-cross-platform-integrations-for-office-2016/" target="_blank">微软最好用的办公软件要变成平台了</a>，包括 Word，Excel，PowerPoint 以及 Outlook。Office 2016 全面开放第三方接口以后，比如 Uber 和 linkedin 已经接入，将会有更多有趣的功能。其中，Uber 会根据你 OutLook 的行程安排推送订单。
+</p>
+<p>
+	目前，微软拥有 15 亿办公软件用户。说不好 office 365 就会成为微软除了搜索引擎、浏览器之外，又个大流量入口。基于 Office 365 开发一个应用也许会有不错的效果。
+</p>
+<h4>
+	把 Chrome 和 Firefox 插件搬到 Edge
+</h4>
+<p>
+	IE终于被干掉了。微软的新浏览器<a href="http://thenextweb.com/insider/2015/04/29/projects-spartan-name-is-finally-revealed-microsoft-edge/" target="_blank"> Microsoft Edge </a>从头来开始。外观设计上看起来有点像 Chrome 的 Edge ，融合了智能语音助手 Cortana，让搜索变得更省事。此外，为了更好的移动端体验，你可以直接在网页上涂涂画画。
+</p>
+<p>
+	作为一个从头开始的浏览器，它将先直接兼容 Chrome 和 Firefox 上的大量插件。而作为开发者，在 Edge 上写一个好用的插件也是个不错的想法。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	微软的新生态能不能像 how-old.net 一样蹿红，吸引到开发者是第一步。究竟能不能成功？不少开发者对此是兴奋的：<span style="white-space:normal;">这么开放的微软还是头一回见。</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来源：<a href="http://i.ytimg.com/vi/kiZXZG-_oLs/maxresdefault.jpg" target="_blank">ytimg</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="9597">
+				<span data-id="9597">Build 2015</span>
+			</li>
+			<li class="tag item" data-id="9598">
+				<span data-id="9598">通用应用</span>
+			</li>
+			<li class="tag item" data-id="958">
+				<span data-id="958">开发者</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9115" data-title="《为了给 Windows 拉点应用，微软做了不少改变》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9115/medium/9115.jpg?1436688295" data-url="http://www.qdaily.com/mobile/articles/9115.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24686/medium/24686.jpg?1459304675" alt="">
+                        <h1 class="title">Gucci 早秋系列大片出炉，以及，日本这个印花球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24714.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24714/medium/24714.jpg?1459324333" alt="">
+                        <h1 class="title">你有想过《罗马假日》里的小机车可以变成转椅吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24709.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24709/medium/24709.gif?1459321585" alt="">
+                        <h1 class="title">手机防水重要么？三星让你体验一种别样的快感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24656.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24656/medium/24656.jpg?1459246008" alt="">
+                        <h1 class="title">金属和珍珠搭配的首饰很美，没有耳洞也可以</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24716.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24716/medium/24716.jpg?1459326299" alt="">
+                        <h1 class="title">Airbnb 出了个海景房，让你和鲨鱼睡一晚</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9115">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9115" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">85</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9102.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

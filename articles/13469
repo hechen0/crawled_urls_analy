@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>腾讯终于不只想着向你要钱了，广告正在变成它的大生意_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="腾讯终于不只想着向你要钱了，广告正在变成它的大生意。腾讯 2015 年第二季度财报显示，网络广告增长收入同比增长 97%。。好奇心日报为您呈现腾讯终于不只想着向你要钱了，广告正在变成它的大生意的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 微信 移动广告 腾讯 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Y29gqQs1/cpXq4sQX/f2d2vzfNSO7gz2WkBf3mw9BmE=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="2663">
+				<span data-id="2663">移动广告</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">腾讯终于不只想着向你要钱了，广告正在变成它的大生意</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3910/small/3910.png?1418028195" alt="">
+					</span>
+				<span class="name">唐怡园 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-13 14:49:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13469/medium/13469.jpg?1439446376" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13469" data-title="《腾讯终于不只想着向你要钱了，广告正在变成它的大生意》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13469/medium/13469.jpg?1439446376" data-url="http://www.qdaily.com/mobile/articles/13469.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				腾讯 2015 年第二季度财报显示，网络广告增长收入同比增长 97%。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	如何从海量用户手上赚钱？腾讯似乎一直挺有办法。最开始是 QQ 会员，<a href="http://www.qdaily.com/articles/9600.html" target="_blank">之后很长一段时间主要来自游戏</a>，现在又多了一个广告。
+</p>
+<p>
+	<a href="http://www.tencent.com/zh-cn/content/ir/news/2015/attachments/20150812.pdf" target="_blank">腾讯最新一季的财报显示</a>，网络广告收入比去年统计多了 97%。其中，效果广告收入同比几乎翻了一番，达到 20.57 亿元。而腾讯的广告主们主要把钱都花在了移动端的社交效果广告上。
+</p>
+<p>
+	这并不是什么新鲜事。所谓效果广告，通俗点讲就是促销广告。你收到的传单、看到的电视广告有相当一部分都属于这类。自从 Facebook 让社交网络火起来之后，广告主也把目光转向了这个动辄聚集了数亿人的平台。直到今天，Facebook 也是靠广告赚钱。
+</p>
+<p>
+	除了定位展示广告之外，Facebook <a href="http://www.qdaily.com/articles/1595.html" target="_blank">超过 50% </a>的广告收入来自移动端。推动这种趋势的是其信息流广告。也就是你在刷朋友圈、刷微博时看到的那些广告。最近，腾讯的社交产品之一<a href="http://www.qdaily.com/articles/10448.html" target="_blank"> QQ 空间</a>也开始往好友动态里加广告，包括推广应用的、展示新产品的、宣传品牌的等等。去年年底 Facebook 往信息流里加 15 秒视频广告的事，QQ 空间也在做。
+</p>
+<p>
+	虽然 QQ 空间靠着相册功能的升级，用户数和活跃度都在稳步增长。但和微信朋友圈的爆发式增长比起来，还是逊色太多。朋友圈广告也被<a href="http://tech.sina.com.cn/i/2015-08-13/doc-ifxftvni9009279.shtml" target="_blank">不少分析人士认为</a>是这个季度效果广告收入激增的主要原因。
+</p>
+<p>
+	今年 1 月，微信朋友圈内测一周后，你陆续看到了宝马、可口可乐、Vivo 智能手机的信息流广告。图片加上点击进入后的 Html 5 页面展示成了一种范式。而这些广告总能成为热门话题。昨天，演员白百合的个人推广也进入了朋友圈。
+</p>
+<p>
+	传播效果好，投放价格一定不会便宜。
+</p>
+<p>
+	<a href="http://finance.ce.cn/rolling/201501/22/t20150122_4402159.shtml" target="_blank">腾讯曾官方回应过</a>，传播效果也是定价的一部分。2015 年第二季度，微信和 Wechat 合并月活跃用户数已经达到 6 亿。目前朋友圈每条广告的起价是 500 万，而 2014 年第三季度的财报中，腾讯自己也曾预计微信朋友圈将会带来每年 100 亿的广告收入。
+</p>
+<p>
+	另外，腾讯视频在移动端也是占据市场流量的主力。今年拿下《中国好声音》第四季和 NBA 两个独播权，也让其吸引了不少广告主。但比起能够互动的移动社交广告，腾讯视频在移动端可能需要更多的尝试。或许可以试着往弹幕里加广告？
+</p>
+<p>
+	移动端的广告尝试还可以有更多的想象空间。<a href="http://techcrunch.com/2015/08/12/tencent-strikes-strategic-partnership-with-indoor-mapping-startup-sensewhere/" target="_blank">今天腾讯刚刚收购了一家专注于室内导航技术的创业公司 Sensewhere。</a>未来，当你打开微信、QQ 或者其他腾讯系产品比如滴滴打车、大众点评等等时，根据地理位置，他们可能会向你推送优惠券之类的促销信息。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自 <a href="http://www.cosmoshow.org/files/images/content/reklamlar/megalight1clear_channel2012.jpg" target="_blank">cosmoshow</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="408">
+				<span data-id="408">微信</span>
+			</li>
+			<li class="tag item" data-id="2663">
+				<span data-id="2663">移动广告</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13469" data-title="《腾讯终于不只想着向你要钱了，广告正在变成它的大生意》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13469/medium/13469.jpg?1439446376" data-url="http://www.qdaily.com/mobile/articles/13469.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26534.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26534/medium/26534.jpg?1462593100" alt="">
+                        <h1 class="title">上海迪士尼乐园试运营第一天，这里是一些剧透</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26513.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26513/medium/26513.jpg?1462550568" alt="">
+                        <h1 class="title">超模时代真的一去不复返了吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26521.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26521/medium/26521.jpg?1462525817" alt="">
+                        <h1 class="title">《魔兽》电影的背后，有多少家中国公司？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26518.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26518/medium/26518.jpg?1462524179" alt="">
+                        <h1 class="title">那些大型模型，都是他用这些好使的乐高颗粒搭成的</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13469">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13469" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">43</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13463.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

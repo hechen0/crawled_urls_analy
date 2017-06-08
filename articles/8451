@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>大公司头条：苹果销量预测，IBM赌健康数据_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="大公司头条：苹果销量预测，IBM赌健康数据。我们每天早上为你摘取最重要的商业新闻，一切可能改变我们生活的公司都在其列。。好奇心日报为您呈现大公司头条：苹果销量预测，IBM赌健康数据的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 大公司头条 苹果 Google IBM " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mg07NJwmr13KZ2AQeAQs9+Y/bCNYwGutp2DB3MJ8ax0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="7294">
+				<span data-id="7294">大公司头条</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">大公司头条：苹果销量预测，IBM赌健康数据</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/172/small/172.png?1400638799" alt="">
+					</span>
+				<span class="name">夏雨青</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-14 09:08:11 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/8451/medium/8451.jpg?1436694041" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8451" data-title="《大公司头条：苹果销量预测，IBM赌健康数据》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8451/medium/8451.jpg?1436694041" data-url="http://www.qdaily.com/mobile/articles/8451" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				我们每天早上为你摘取最重要的商业新闻，一切可能改变我们生活的公司都在其列。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<span style="background-color:#FFE500;">希望每天早上九点在邮箱里收到「大公司头条」？</span><span style="background-color:#FFE500;"><strong><a href="http://submail.cn/subscribe/686Tt3" target="_blank">点击这里订阅</a></strong>！</span> 
+<h3>
+	Top 15 - 改变生活方式的公司
+</h3>
+<p>
+	<strong><a href="http://qz.com/381791/apple-watch-pre-orders-were-1-million-in-the-us-on-its-first-day-a-shopping-data-firm-estimates/">更多对苹果手表的销量预估</a>。</strong>在<a href="http://qdaily.com/display/articles/search?search=%E8%8B%B9%E6%9E%9C">苹果</a>公布实际预定数字前，各家分析公司都在抢着发布自己的预测。<a href="http://appleinsider.com/articles/15/04/13/strong-preorder-demand-for-apple-watch-could-signal-5m-sales-in-june-quarter-rbc-says">加拿大皇家银行</a>的分析师 Amit Daryanani 说，在今年 4 月至 6 月苹果将卖出 300 至 500 万台手表。这当然比 <a href="http://qz.com/381791/apple-watch-pre-orders-were-1-million-in-the-us-on-its-first-day-a-shopping-data-firm-estimates/">Slice Intelligence</a> 早前估计的首日预定 100 万台要保守很多。另一家公司 <a href="http://appleinsider.com/articles/15/04/13/nearly-all-apple-watch-retail-try-ons-are-resulting-in-preorders-cowen-says">Cowen</a> 表示，湾区苹果零售店员工声称几乎每个来试戴的顾客都随即下单购买了手表。
+</p>
+<p>
+	<strong><a href="http://9to5google.com/2015/04/13/google-wireless-pricing/">关于 Google 运营商服务的更多细节</a>。</strong>根据 Android Police 的研究，这项服务的移动应用和其它运营商的非常相似，消费者可以在上面付账单、修改套餐计划，还可以激活服务、要求换号码。<a href="http://qdaily.com/display/articles/search?search=google">Google</a> 运营商服务很可能以每 GB 流量来计费。其它证据显示，你可能不用换 SIM 卡就能换帐号、换运营商。
+</p>
+<p>
+	<strong><a href="http://www.ccstock.cn/2015-04-13/A1428910602504.html">艾瑞：阿里旅行的市场份额最大</a>。</strong>在艾瑞咨询的《2015 年中国在线旅游行业年度监测报告》中，这个市场的总交易规模在去年达到 3077.9 亿元，同比增长 38.9%。它还表示，在签证业务、自助旅游产品、和港澳景区门票中，<a href="http://qdaily.com/display/articles/search?search=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4">阿里</a>旅行都是第一。
+</p>
+<p>
+	<strong><a href="http://cn.reuters.com/article/2015/04/13/tencent-ma-stake-idCNKBS0N42EL20150413">腾讯市值破 2000 亿美元</a>。</strong>由于过去一周港股行情太好，<a href="http://qdaily.com/display/articles/search?search=%E8%85%BE%E8%AE%AF">腾讯</a>的市值达到 2000 亿美元，超过亚马逊、IBM 和甲骨文。
+</p>
+<p>
+	<strong><a href="http://www.bloomberg.com/news/articles/2015-04-09/xiaomi-confronts-counterfeits-as-fake-products-eat-into-sales">雷军说，假小米电源是大问题</a>。</strong>在昨天的发布会上，雷军表示去年<a href="http://qdaily.com/display/articles/search?search=%E5%B0%8F%E7%B1%B3">小米</a>电源的销量是 1460 万个，如果没有假货应该是两到三倍于这个数字。他同时公布，小米手环的累计出货量达到 400 万支。
+</p>
+<h3>
+	东八区商业新闻
+</h3>
+<p>
+	<strong><a href="http://www.reuters.com/article/2015/04/13/us-china-economy-trade-idUSKBN0N405D20150413">中国 3 月的出口下滑了 15%</a>。</strong>根据刚刚公布的数字，3 月中国出口额减少 15%，而预估数字是增加 12%。在出口疲软的情况下，本土消费需求也不够强——3 月中国进口额减少 12.7%，与估计大致相当。瑞银香港经济学家 Louis Kuijis 表示，「这是一个比估计中糟糕太多的数字，它让人警惕全球需求和中国的竞争力。」
+</p>
+<p>
+	<strong><a href="http://finance.sina.com.cn/world/yzjj/20150413/150121943411.shtml">深圳赴港自由行改制</a>。</strong>公安局出入境管理局表示，即日起停止签发深圳户籍居民「一签多行」许可，今后只允许一周赴港一次。这个决定可能是为了打击水货交易，但它应该会对香港零售业带来一定冲击。
+</p>
+<p>
+	<strong><a href="http://news.hexun.com/2015-04-13/174914193.html">财讯、阿里巴巴和新疆的合作</a>？</strong>昨天最有趣的一则消息称，《财经》母集团财讯正在联手新疆自治区、阿里巴巴，共同成立新媒体「无界传媒」。这家号称首期投资为亿元的媒体将非常国际化，希望走向世界。在此之前确实有关于「无界传媒」的<a href="http://news.xinhuanet.com/newmedia/2015-03/16/c_134070055.htm">相关报道</a>，看起来它是新疆政府和新疆都市报在主要推动的产品。
+</p>
+<h3>
+	Also in the News…
+</h3>
+<p>
+	<strong><a href="http://www.forbes.com/sites/matthewherper/2015/04/13/ibm-announces-deals-with-apple-johnson-johnson-and-medtronic-in-bid-to-transform-health-care/">IBM 觉得它能颠覆健康数据行业</a>。</strong>它打算进军医疗数据领域，合作对象是苹果、强森和 Medtronic。这项计划将利用 <a href="http://qdaily.com/display/articles/search?search=ibm">IBM</a> 的云服务以及沃森人工智能，希望能连接目前的数个医疗健康数据库，从中得出有意义的结论。苹果将会允许开发者为 IBM 收集个人健康信息，强森则会用沃森做招待员，帮助患者做膝盖手术的术前准备和术后恢复。
+</p>
+<p>
+	<strong><a href="http://www.wsj.com/articles/lvmh-sales-rise-boosted-by-weak-euro-1428943950?mod=pls_whats_news_us_business_f">LVMH 的第一季度营收大涨</a>。</strong>奢侈品集团 <a href="http://qdaily.com/display/articles/search?search=lvmh">LVMH</a> 的 2015 年第一季度营收达到 88 亿美元，比去年同期增长 16%。不过它的营收增长主要来源于最近弱势的欧元，除去外界因素 LVMH 的营收也只增加了 3%——中国销量疲软又是主要因素。
+</p>
+<p>
+	<strong><a href="http://www.bloomberg.com/news/articles/2015-04-13/nokia-said-in-advanced-talks-to-acquire-alcatel-lucent-assets">诺基亚要收购阿尔卡特了</a>？</strong>根据彭博社的独家信源，为了与爱立信抗衡，<a href="http://qdaily.com/display/articles/search?search=%E8%AF%BA%E5%9F%BA%E4%BA%9A">诺基亚</a>希望能收购阿尔卡特朗讯的部分业务，以充实自己的电信设备部门。传言中被收购的无线通讯部门年营收为 50 亿美元，占阿尔卡特总营收的 36%。
+</p>
+<p>
+	<strong><a href="http://www.nytimes.com/2015/04/14/business/international/murmurs-of-a-shake-up-at-volkswagens-top.html?partner=rss&amp;emc=rss&amp;_r=0">大众汽车的管理层不太安稳</a>。</strong>主要矛盾发生在董事长皮耶西和 CEO 文德恩之间，皮耶西明确表示希望文德恩走人，而文德恩一直被认为两年后要接任董事长一职。在决定谁能待下来之前，<a href="http://qdaily.com/display/articles/search?search=%E5%A4%A7%E4%BC%97%E6%B1%BD%E8%BD%A6">大众</a>可能会乱上一段时间。
+</p>
+<p>
+	<strong><a href="http://www.wsj.com/article_email/activist-puts-pressure-on-qualcomm-1428898147-lMyQjAxMTI1NjE4MzAxMjMzWj">维权投资者找上了高通</a>。</strong>Jana Partners 公司声称，<a href="http://qdaily.com/display/articles/search?search=%E9%AB%98%E9%80%9A">高通</a>应该拆分它的主要利润来源，芯片制造部门。这家公司目前持有高通 20 亿美元股票，是最大的股东之一。不过高通表示拆分芯片业务不是个明智的决定。
+</p>
+<p>
+	<strong><a href="http://tech.eu/features/4324/eu-tech-exits-report-q1-2015/">欧洲的科技产业也很红火</a>。</strong>根据 Tech.eu 统计，2015 年第一季度欧洲一共有 140 家科技企业上市或被收并购，比去年增长 160%。在大家都把目光放在美国科技公司上的时候，这是则有趣的新闻。
+</p>
+<p>
+	<strong><a href="http://www.bloomberg.com/news/articles/2015-04-13/spacex-launch-scrubbed-due-to-cloudy-weather-near-cape-canaveral">SpaceX 的火箭发射不太顺利</a>。</strong>昨天 SpaceX 计划又一次发射 Falcon 9 火箭，运输国际空间站需要的补给。由于云太多，NASA 在预计时间前叫停了发射。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="7294">
+				<span data-id="7294">大公司头条</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="855">
+				<span data-id="855">IBM</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8451" data-title="《大公司头条：苹果销量预测，IBM赌健康数据》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8451/medium/8451.jpg?1436694041" data-url="http://www.qdaily.com/mobile/articles/8451" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25557.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25557/medium/25557.jpg?1460754429" alt="">
+                        <h1 class="title">宜家试着让你用VR体验厨房，目前还只是个噱头</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25559.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25559/medium/25559.jpg?1460773210" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8451">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8451" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">17</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8442.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

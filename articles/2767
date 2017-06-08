@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>白宫教你怎么有 Geek 范儿，这次入驻了 GitHub_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="白宫教你怎么有 Geek 范儿，这次入驻了 GitHub。连年度预算都放到 GitHub 上面，白宫在数字领域已经挺拼了。。好奇心日报为您呈现白宫教你怎么有 Geek 范儿，这次入驻了 GitHub的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Twitter Medium 社交网络 白宫 Facebook Top 15 GitHub " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MZRWkO3l5Af9sjvoAyNwq3OnyRwsCYM+PvCPalnBMrM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="902">
+				<span data-id="902">Medium</span>
+			</li>
+			<li class="tag item" data-id="234">
+				<span data-id="234">社交网络</span>
+			</li>
+			<li class="tag item" data-id="3433">
+				<span data-id="3433">白宫</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="6733">
+				<span data-id="6733">GitHub</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">白宫教你怎么有 Geek 范儿，这次入驻了 GitHub</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-02-03 14:15:21 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2767/medium/2767.jpg?1436654435" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2767" data-title="《白宫教你怎么有 Geek 范儿，这次入驻了 GitHub》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2767/medium/2767.jpg?1436654435" data-url="http://www.qdaily.com/mobile/articles/2767.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				连年度预算都放到 GitHub 上面，白宫在数字领域已经挺拼了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<a href="http://www.whitehouse.gov/blog/2014/10/09/white-house-joins-medium" target="_blank">既 2014 年 10 月入驻社交平台 Medium 之后</a>，白宫又在数字领域插了一脚。这一次，奥巴马将年度预算放到了<a href="http://www.whitehouse.gov/blog/2015/02/02/five-new-things-about-the-fy2016-budget" target="_blank">数据开源平台 GitHub 上</a>。
+</p>
+<p>
+	<a href="https://github.com/" target="_blank">GitHub </a>是一个共享虚拟主机服务，它已经成为最流行的开源项目托管平台。人们可以在上面寻找自己喜欢的项目，为其贡献修修补补之类的代码，或是干脆参与到项目的运作中去。日前，<a href="http://www.infosecurity-magazine.com/news/us-army-releases-cyberforensic/" target="_blank">美国军方也将安全代码放到了 GitHub 上面</a>，来获得非政府用户的反馈，加强代码的安全性。
+</p>
+<p>
+	这次，白宫将预算放到 GitHub 上，使 2016 年的美国年度预算成为了“第一个开源预算”，白宫将预算涉及的数据以“机器可读的方式”公开，这样任何人都可以将这些数据制作成可视化的图表或产品。
+</p>
+<p>
+	<img src="/uploads/image/201502/231087fb671f.jpg" alt="" /> 
+</p>
+<p>
+	当然，这并不是奥巴马治下的白宫第一次接触 GitHub，早在 2013 年，它们就曾经在 GitHub公布了一项政策草案——<a href="https://project-open-data.cio.gov/" target="_blank" style="background-color:#FFFFFF;">公开数据草案（Open Data Policy）</a>。此外，白宫的多个 App 产品的代码也托管在 GitHub 平台上。不过，像这样将预算政策开源，对于白宫来说还是第一次。
+</p>
+<p>
+	在此之前，白宫在数字领域的策略，给人的印象还停留在活跃的社交网络账号上。<span style="font-family:'sans serif', tahoma, verdana, helvetica;">回顾一下白宫近年来在数字领域的策略，虽然还比不上迅速占领社交网络的</span><a href="http://guardianlv.com/2014/10/isis-social-media-recruits-women-in-their-teens/" target="_blank" style="background-color:#FFFFFF;">某些极端组织</a><span style="font-family:'sans serif', tahoma, verdana, helvetica;">，依靠 Facebook 赢得大选的奥巴马政府其实一直都不算落伍。</span> 
+</p>
+<h3>
+	在 Medium 上开账号，写博客抢粉丝
+</h3>
+<p>
+	2014 年 10 月，美国白宫宣布入驻新的社交平台 <a href="https://medium.com/@WhiteHouse" target="_blank">Medium</a>。<span style="line-height:1.5;">如它们在</span><a href="https://medium.com/@WhiteHouse/the-white-house-joins-medium-ffa5da21877a" target="_blank">首页致辞</a><span style="line-height:1.5;">中所说的，白宫将在 Medium 上与公众分享科技、创新、教育、经济等各方面的话题。开通账号第一天，美国总统奥巴马就在 Medium 上发表了第一篇博客文章</span><em><a href="https://medium.com/p/e80a775b44ee" target="_blank">&nbsp;</a></em><span style="line-height:1.5;"><em><a href="https://medium.com/p/e80a775b44ee" target="_blank">Why I’m Betting on You to Help Shape the New American Economy</a></em>. 如今，白宫在 Medium 上的账号已经拥有了 5.5 万关注者。</span> 
+</p>
+<p>
+	<a href="medium.com" target="_blank">Medium</a> 是一个个人出版社交平台，由 Twitter 联合创始人&nbsp;<span style="line-height:1.5;">Evan Williams 与 Twitter 前员工&nbsp;</span><span style="line-height:1.5;">Biz Stone 共同创立，于 2012 年底上线。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">和在 Tumblr、Facebook、Twitter 上开设账号一样，这是白宫在社交网络上做出的又一尝试。</span> 
+</p>
+<h3>
+	竞选始于网络
+</h3>
+<p>
+	从 2007 年宣布竞选美国总统时起，奥巴马的竞选团队就活跃在网络上。
+</p>
+<p>
+	2008年，奥巴马的团队发出了 1300 万封邮件寻求竞选支持，有 400 万捐款者通过网上电子渠道捐款，其支持者网站My.BarackObama.com 拥有 200 万会员。几大社交媒体&nbsp;<span style="line-height:1.5;">Facebook、YouTube、MySpace 和 Twitter 上都活跃着奥巴马团队的拉票界面。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"><img src="/uploads/image/201410/d4562007732e.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<br />
+</p>
+<h3>
+	Twitter 回应绝不手软
+</h3>
+<p>
+	2012 年的<span style="line-height:1.5;">共和党全国代表大会上，导演<a href="http://mashable.com/2012/08/30/clint-eastwood-talking-to-a-chair-video/" target="_blank">&nbsp;</a></span><span style="line-height:1.5;"><a href="http://mashable.com/2012/08/30/clint-eastwood-talking-to-a-chair-video/" target="_blank">Clint Eastwood</a> 以“看不见的奥巴马”为题，对着舞台上的一把空椅子指责奥巴马未守承诺。对此，奥巴马团队的反应相当迅速，很快在 Twitter 上发布了奥巴马坐在总统专座上的照片，配文"</span><span style="line-height:1.5;">This seat is taken"。这条推文成为当年最具影响力的推文之一，白宫数字团队的反应速度居功不小。<br />
+</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"><img src="/uploads/image/201410/009864e1dc29.jpg" alt="" /><br />
+</span> 
+</p>
+<h3>
+	上 Reddit 答“天涯网友”问
+</h3>
+<p>
+	除了在 Twitter 上经常发发照片和新闻，偶尔还要集中与网友互动。
+</p>
+<p>
+	2012 年，奥巴马在问答网站 Reddit 上参加了<a href="http://www.reddit.com/comments/z1c9z" target="_blank"> AMA(什么都能问 ，Ask Me Anything)</a>频道的在线访谈，Reddit 用户给出了超过 22000 条问题和评论，原计划 30 分钟的访谈最终被延长到 45 分钟。访谈的高人气不仅导致 Reddit 网站因流量太大而崩溃，在访谈结束后的 24 小时之内，有 520 万人围观了访谈内容。至今为止，这个页面上保留有&nbsp;23954 条评论。AMA 并不是名人专属的访谈区，上过访谈的人既有伍迪·哈里森、鸟叔这样的明星，也有科学家、企业家甚至众筹创业者，还有在某些方面拥有一技之长的人，总的说来， 这就是个所有人问所有人的地方。
+</p>
+<p>
+	<a href="http://www.qdaily.com/display/articles/2142" target="_blank">Reddit 这个吸引了众多年轻用户的群体对于政治宣传来说再合适不过</a>。这一访谈活动无疑为奥巴马吸引了不少“千禧一代”的票数。
+</p>
+<p>
+	<img src="/uploads/image/201410/87487b714af5.jpg" alt="" /> 
+</p>
+<p>
+	<span style="line-height:1.5;">此外， 2013 年 和 2014 年的 2 月，奥巴马还曾在&nbsp;</span><a href="http://www.whitehouse.gov/blog/2013/02/14/watch-president-obama-answers-your-questions-google-hangout" target="_blank">Hangouts </a><span style="line-height:1.5;">环聊上与 Google 用户视频聊天，谈论的话题非常广泛，从网络环境到自家女儿的职业前景都有包括。此外，奥巴马亦曾将 Tumblr 创始人 David Karp 邀请至白宫，参加一</span><span style="line-height:1.5;">个关于教育的在线&nbsp;Q&amp;A，活动中讨论的问题都是从 Tumblr 中选取出来的，为了吸引&nbsp;Tumblr 较为年轻的用户群体，奥巴马在 Tumblr 上的首次亮相就是一张与 David Carp 合作的 </span><a href="http://www.whitehouse.gov/blog/2014/06/10/case-you-missed-it-presidents-very-first-tumblr-qa" target="_blank">GIF 动态图</a><span style="line-height:1.5;">，白宫也在 Tumblr 上开了官方账号。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201410/d7a4d8e28d24.gif" alt="" /> 
+</p>
+<h3>
+	白宫也玩线下活动
+</h3>
+<p>
+	白宫的 <a href="https://www.facebook.com/WhiteHouse" target="_blank">Facebook 账号</a>拥有 268 万粉丝，与<a href="https://plus.google.com/+whitehouse/posts" target="_blank"> Google+</a> 账号表现相当，其Twitter 账号更为活跃，拥有超过&nbsp;<a href="https://twitter.com/whitehouse" target="_blank">534 万</a>关注。在图片分享方面，白宫在&nbsp;<a href="http://www.whitehouse.gov/pinterest" target="_blank">Pinterest</a>&nbsp;和&nbsp;<a href="http://instagram.com/whitehouse" target="_blank">Instagram</a>&nbsp;上也开设了账号，分享关于总统、第一家庭以及官方活动的照片。
+</p>
+<p>
+	<span>白宫不仅在各家社交媒体上开设了账号，而且常常组织粉丝来白宫参加</span><a href="http://www.whitehouse.gov/social-closed" target="_blank">线下活动</a><span>。下面这条推文配图拍摄于今年 2 月，三位正在自拍的粉丝正是通过 Twitter 获得邀请，到白宫参加总统与第一夫人欢迎法国总统奥朗德来访的仪式。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201410/81d9ad941146.jpg" alt="" /> 
+</p>
+<h1>
+	从硅谷找 CTO
+</h1>
+<p>
+	今年 9 月，白宫宣布任命 Google X 高管 <a href="http://venturebeat.com/2014/09/04/what-does-obamas-cto-do-an-explainer-for-googles-megan-smiths-new-job/" target="_blank">Megan Smith</a> 为美国白宫首席技术官（CTO）。这一职位设立于 2009 年，在 Google 人进驻白宫之前，这一职位由 <a href="https://twitter.com/todd_park" target="_blank">Todd Park</a> 担任。Park 在任期间，前 Google 工程师 Michael Dickerson 等来自硅谷的多名员工都被白宫纳入旗下。不过，Park&nbsp;负责的医保网站&nbsp;<span style="line-height:1.5;">HealthCare.gov 与奥巴马的医保政策一样倍受争论。以至于有分析师表示，虽然美国坐拥硅谷，但是却没有招到合适的技术管理高层。</span> 
+</p>
+<p>
+	比起硅谷的互联网巨头，白宫的技术能力显然还有提升空间。
+</p>
+<p>
+	<img src="/uploads/image/201410/9cb6021fb696.jpg" alt="" /> 
+</p>
+<p>
+	<span style="line-height:1.5;white-space:normal;">看白宫此前在社交网络上的表现，频频在</span><span style="font-family:'sans serif', tahoma, verdana, helvetica;">Tumblr、Facebook、Google+ 等社交媒体也是频频提到对</span><span style="line-height:1.5;">“<a href="https://medium.com/p/61ed355feeb3" target="_blank" style="outline:0px;">千禧一代（&nbsp;</a></span><span style="line-height:1.5;"><a href="https://medium.com/p/61ed355feeb3" target="_blank">Millennials）</a>”</span><span style="font-family:'sans serif', tahoma, verdana, helvetica;">的期望。</span><span style="line-height:1.5;">“千禧一代”指&nbsp;1980-2010 年出生的人，常见于营销、<span style="line-height:1.5;">研究或者报道等较为正式的场合，习惯性的用这个词</span></span><span style="line-height:1.5;">暴露了它和社交网络依然有距离。</span> 
+</p>
+<p>
+	不过，学会将数据公开到 GitHub 上，倒是让人对白宫的 Geek 范儿有了些许期待。就如同两年前白宫将政策草案放在 GitHub 时，在 GitHub 的 <a href="http://venturebeat.com/2013/05/09/white-house-drafts-official-open-data-policy-of-the-united-states-on-github/" target="_blank">Ben Balter</a>&nbsp;说的那样：改变才刚刚开始。在数字领域刷存在感，也不是仅仅靠社交网络上发几张总统的照片。
+</p>
+<p>
+	题图来自 <a href="http://commons.wikimedia.org/wiki/File:White_House_Washington.JPG" target="_blank">Wikipedia</a>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="86">
+				<span data-id="86">Twitter</span>
+			</li>
+			<li class="tag item" data-id="902">
+				<span data-id="902">Medium</span>
+			</li>
+			<li class="tag item" data-id="234">
+				<span data-id="234">社交网络</span>
+			</li>
+			<li class="tag item" data-id="3433">
+				<span data-id="3433">白宫</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="6733">
+				<span data-id="6733">GitHub</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2767" data-title="《白宫教你怎么有 Geek 范儿，这次入驻了 GitHub》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2767/medium/2767.jpg?1436654435" data-url="http://www.qdaily.com/mobile/articles/2767.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24852/medium/24852.jpg?1459491636" alt="">
+                        <h1 class="title">没有苹果的平行世界，你猜会发生什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24840.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24840/medium/24840.jpg?1459479366" alt="">
+                        <h1 class="title">时尚圈都很喜欢的“小胖”去清华做演讲，都说了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24859.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24859/medium/24859.jpg?1459495736" alt="">
+                        <h1 class="title">百度招募了一批科幻作家，说要和他们产生化学反应</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24860.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24860/medium/24860.jpg?1459497023" alt="">
+                        <h1 class="title">半场休息的球员更衣室发生了什么？耐克拍了支360度全景视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24846.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24846/medium/24846.jpeg?1459482674" alt="">
+                        <h1 class="title">这个丹麦学校需要一个活动场，然后就有了三个小岛</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2767">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2767" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">35</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5838.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

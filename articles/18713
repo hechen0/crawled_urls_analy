@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南。其实这个网站相当于豆瓣的读书功能啦，它叫 goodreads，此次所有候选图书共获得了 300 万次投票。。好奇心日报为您呈现美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="书单 年度好书 大众阅读 goodreads " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="sypQ4wAQUoiyElIYDDp7TtoWNsLK90UAHjbgF44C+GI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16391">
+				<span data-id="16391">书单</span>
+			</li>
+			<li class="tag item" data-id="20043">
+				<span data-id="20043">年度好书</span>
+			</li>
+			<li class="tag item" data-id="20044">
+				<span data-id="20044">大众阅读</span>
+			</li>
+			<li class="tag item" data-id="20045">
+				<span data-id="20045">goodreads</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/37534/small/37534.JPG?1421809836" alt="">
+					</span>
+				<span class="name">石玉 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-09 07:35:23 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/18713/medium/18713.jpg?1449568968" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18713" data-title="《美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18713/medium/18713.jpg?1449568968" data-url="http://www.qdaily.com/mobile/articles/18713.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				其实这个网站相当于豆瓣的读书功能啦，它叫 goodreads，此次所有候选图书共获得了 300 万次投票。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	与<a href="http://www.qdaily.com/articles/18576.html" target="_blank">《纽约时报》“2015年度好书”</a>的精英路线不同，goodreads 网站近日提供的是一份<a href="http://www.goodreads.com/choiceawards/best-books-2015?rts=_gca2015win&utm_campaign=gca2015&utm_content=button&utm_medium=email&utm_source=newsletter_winners" target="_blank">地道的“民选书单”</a>。每一年，<span>goodreads 网站都会设立网友</span>投票环节，让网友们选出心目中的年度好书。这份书单十分平民化，反应了大众口味，今年，候选图书总共获得了超过 300 万张选票。
+</p>
+<p>
+	先来看看这些最终登榜的图书吧：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/dcc37bd89564.jpg" width="950" height="847" title="啊" alt="啊" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/905606f641bf.jpg" width="950" height="862" title="goodreads 2015 年度好书" alt="goodreads 2015 年度好书" /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/74a515718a01.jpg" width="950" height="447" title="啊" alt="啊" /><span>goodreads 2015 年度好书</span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	让我们仔细研究一下这个榜单。榜单共分为 20 个类别，上图显示的是每个类别下得票最多的一本。
+</p>
+<p style="text-align:left;">
+	今年的“最佳小说”被《设立守望者》（Go Set a&nbsp;Watchman）获得，该书是美国女作家哈伯·李（Harper Lee）的新作，在出版这本小说前，哈伯·李最著名的作品是自传体小说<a href="http://www.baidu.com/s?wd=%E3%80%8A%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F%E3%80%8B&amp;tn=44039180_cpr&amp;fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1dBuW0zmhc4PvF9uj0vrAnz0AP8IA3qPjfsn1bkrjKxmLKz0ZNzUjdCIZwsrBtEXh9GuA7EQhF9pywdQhPEUiqkIyN1IA-EUBtdrH01rjR4nHR">《杀死一只知更鸟》</a>（To Kill A
+Mockingbird）。《知更鸟》曾获得普利策小说奖，全球销量超过&nbsp;3000&nbsp;万册。此次《设立守望者》上架第一天，就刷新了美国巴诺书店的销售纪录，这本书是今年出版界的超级大热门。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/606710a4b190.jpg" width="615" height="409" title="Harper Lee" alt="Harper Lee" /><span>Harper Lee</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	最佳历史小说被《夜莺》（The Nightingale）获得。这是一本二战小说，作者是克里斯汀·汉娜（Kristin Hannah）。故事围绕二战中的一对法国姐妹展开，她们在个人和国家命运之中挣扎。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/341a61b7beeb.jpg" width="950" height="475" title="Kristin" alt="Kristin" /><span>Kristin</span> 
+</p>
+<p>
+</p>
+<p>
+	最佳科幻小说是&nbsp;Pierce Brown 的《红星革命2：金督之子》（Golden Son：Book II of the red rising trilogy）。在这本书中，地球上的资源已经耗尽，人们正在努力地改造行星。在这种极端的环境下，人类被划分成许多阶层——红色的是最低贱的劳工，绿色的是技师，灰色的是警卫，粉色的是娼妓，金色则代表着最等级的人。有压迫就有反抗，在地球上，一场革命正在酝酿。这本书有暴力，有科幻，也有小小的情色。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/564ada6ea697.jpg" width="950" height="455" title="Pierce Brown" alt="Pierce Brown" /><span>Pierce Brown</span> 
+</p>
+<p>
+</p>
+<p>
+	最佳非虚构类作品是《现代浪漫》（Modern Romance），Aziz Ansari&nbsp;是喜剧脱口秀演员，他找了个社会学家一起写了这本社会心理学的书，他们讨论了手机和社交软件在我们恋爱、婚姻中扮演的角色，全书<span>游走在严肃和搞笑之间。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/e484bd35e697.jpg" width="670" height="377" title="Aziz Ansari " alt="Aziz Ansari " /><span>Aziz Ansari </span> 
+</p>
+<p>
+</p>
+<p>
+	最佳科技类作品是《表面之下：虎鲸和海洋主题公园的真相》（beneath the surface），作者是&nbsp;John Hargrove&nbsp;和&nbsp;Howard Chua-Eoan ，如书名所示，这本书将改变你对海洋公园的看法。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/1c559a91e451.jpg" width="359" height="517" title="Beneath the Surface" alt="Beneath the Surface" /><span>Beneath the Surface</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	goodreads 网站创建于&nbsp;2006&nbsp;年，从 2009&nbsp;年起，他们便开始做这个年末榜单。关于这个网站的由来，创始人&nbsp;Otis Chandler&nbsp;说，“读书人的灵魂是孤独的，他们有很多感触却无处倾诉。我想为读者提供一个交流思想的平台”，在 goodreads&nbsp;上，读者可以标注和评价自己喜欢的图书，还可以通过链接跳转到亚马逊等多家电商页面，购买图书。Goodreads&nbsp;还整合了<span style="text-align:left;">&nbsp;</span><span style="text-align:left;">Worldcat&nbsp;</span>图书馆目录，读者可以方便了解当地图书馆是否有该书。从功能来看，它有点儿像是个英文版的豆瓣，图书界的&nbsp;IMDb。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/5ad3e8e3603c.jpg" width="920" height="646" title="Goodreads CEO &amp; founder Otis Chandler and Elizabeth Chandler " alt="Goodreads CEO &amp; founder Otis Chandler and Elizabeth Chandler " /><span>Goodreads CEO &amp; 创始人 Otis Chandler 和太太 Elizabeth Chandler </span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	除了图书评选，goodreads 还有许多新玩儿法。比如在一本书出版前，出版商会通过&nbsp;goodreads&nbsp;为读者提供预读版，这样可以吸引读者撰写早期评论，进而为新书预热。网站还不时地邀请名作家参与在线问答，聚集人气。他们非常重视用户，伴随着每年的好书评选，他们还会进行“最佳书评人”的评选。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/8ccf012f0c59.jpg" width="600" height="1800" title="“最佳书评人”" alt="“最佳书评人”" /><span>“最佳书评人”</span> 
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p style="text-align:left;">
+	2013年，<a href="http://www.ifanr.com/269978" target="_blank">亚马逊将&nbsp;goodreads&nbsp;买下</a>，将其纳入图书战略版图。但&nbsp;goodreads 保持了原有的团队，独立运行。在被纳入亚马逊的营销版图后，goodreads 与 kindle 进行了深入的整合。从 2014 年起，goodreads 用户在使用亚马逊账户登录网站后，会发现自己在亚马逊买过的图书被自动添加至“我的图书”一栏，在这里，读者可以将买过的每本书进行分类和评级，亚马逊正在用 goodreads 这样的虚拟读书社区来直接推广自己。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16391">
+				<span data-id="16391">书单</span>
+			</li>
+			<li class="tag item" data-id="20043">
+				<span data-id="20043">年度好书</span>
+			</li>
+			<li class="tag item" data-id="20044">
+				<span data-id="20044">大众阅读</span>
+			</li>
+			<li class="tag item" data-id="20045">
+				<span data-id="20045">goodreads</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18713" data-title="《美国豆瓣评出“2015 年度好书”，是一份通俗阅读指南》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18713/medium/18713.jpg?1449568968" data-url="http://www.qdaily.com/mobile/articles/18713.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18576.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18576/medium/18576.jpg?1449285493" alt="《纽约时报》说，2015 年这 10 本书最好啦">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">《纽约时报》说，2015 年这 10 本书最好啦</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">1154</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18454.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18454/medium/18454.png?1449118523" alt="《纽约时报》发布了年度候选书单，我们对以下八本很感兴趣">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">《纽约时报》发布了年度候选书单，我们对以下八本很感兴趣</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">423</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11584.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/11584/medium/11584.png?1436638353" alt="你知道你的书单你永远不会看，对吧｜好奇心研究所">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">你知道你的书单你永远不会看，对吧｜好奇心研究所</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">18</span>
+				<span class="iconfont icon-heart">107</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27171.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27171/medium/27171.jpg?1463873644" alt="">
+                        <h1 class="title">Google 这个新功能，可能会彻底改变“下载应用”这件事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18713">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18713" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">609</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18716.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

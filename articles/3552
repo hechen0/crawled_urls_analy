@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>今日应用：《纪念碑谷》新章节，同样精致_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="今日应用：《纪念碑谷》新章节，同样精致。《纪念碑谷》带给我们的不仅是好游戏，还告诉我们什么才是移动平台上好游戏应该有的样子。。好奇心日报为您呈现今日应用：《纪念碑谷》新章节，同样精致的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="今日应用 游戏 纪念碑谷 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="gf3uEvKvM3koXoNjuDWjOZAV+up7VaD/CydQQuLvMa0=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="4263">
+				<span data-id="4263">纪念碑谷</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">今日应用：《纪念碑谷》新章节，同样精致</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-14 09:03:40 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3552/medium/3552.jpg?1436639908" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3552" data-title="《今日应用：《纪念碑谷》新章节，同样精致》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3552/medium/3552.jpg?1436639908" data-url="http://www.qdaily.com/mobile/articles/3552.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				《纪念碑谷》带给我们的不仅是好游戏，还告诉我们什么才是移动平台上好游戏应该有的样子。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<ul>
+	<li>
+		<span style="line-height:1.5;">它是 2014 年苹果设计奖，Unity&nbsp;</span><span style="line-height:1.5;">最佳 3D 视觉效果奖和玩家选择奖的获得者，被誉为今年移动平台上最美的游戏。</span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;">游戏支持 <a href="https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8" target="_blank">iPhone</a> 和 Android 平台。</span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;">《纪念碑谷》本体价格 25 元，《被遗忘的海岸》是内购章节 12 元，一共 37 元。考虑到它不含广告，这个价格并不算贵。</span> 
+	</li>
+</ul>
+<p class="p1">
+	<span class="s1"><a href="https://itunes.apple.com/cn/app/ji-nian-bei-gu/id728293409?mt=8" target="_blank">《纪念碑谷》</a>的续篇《被遗忘的海岸》于 12 日晚发布，购买过游戏本体的朋友只需 12 元就可以解锁新增的 8 个关卡。《被遗忘的海岸》是《纪念碑谷》故事线的扩充而不是延续，主要讲述了游戏主人公艾达和萌萌的图腾之间的友情是如何建立的。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">新关卡难度相较前作略有上升，通关时长大约在两个小时以内。谜题的设计还是遵循前作的风格，类似埃舍尔画作般的场景，要求玩家突破二维与三维的固有界限来完成任务。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201411/15bf828113f5.jpg" alt="" /> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">八个关卡分为三部分，通过第一关卡后，之后的六个关卡可以乱序完成。前七个任务全部完成后才会出现最后一关。最后一关难度略微增加，如果说之前的关卡设计类似于传统小说的单线叙事结构，那么最后一关就是后现代小说碎片化的复合叙事，玩家需要先重新粘合故事才能完成谜题。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">《被遗忘的海岸》的画面延续了前作的小清新风格，具有简约的配色与精致的细节。并且如其名字所透露的那样，故事中含有大量与水有关的场景。例如，瀑布推动水车旋转，蜿蜒出涓涓细流，整个画面都鲜活地像要把玩家揽入怀中。而且水流的设计不仅是为了美观，更是很多谜题的难点，具体如何亲自体验一番吧。</span> 
+</p>
+<p class="p1">
+	<img src="/uploads/image/201411/7719337a6462.jpg" alt="" /> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">《纪念碑谷》不同于以往解谜游戏，面向移动平台的它，从难度设计到画面风格都经过认真思考。手游玩家碎片化的游戏时间难以胜任高强度的解谜体验，既不乏味又不烧脑才是最合适的难度选择；明朗生动、简约时尚的画面就已足够，烘托游戏氛围、深化游戏内涵的吃力不讨好的事还是留给 PC 或主机游戏去完成吧。</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">最后，希望玩家尽量购买正版游戏支持开发者，他们没有义务投入如此多的精力来增添游戏内容。《被遗忘的海岸》完全可以另做成一个单独应用出售，以 12 元的价格出售扩展包是开发者对于原有玩家最好的回馈。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="/uploads/image/201411/fed1e291a060.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">类似游戏推荐：</span> 
+</p>
+<ul>
+	<li>
+		<span style="line-height:1.5;">windosill（小火车历险记），据说可是《纪念碑谷》部分灵感的来源，有<a href="http://windosill.com/online/" target="_blank">在线试玩</a>。</span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;">Fez，创意的游戏玩法，细腻像素风的画面，就是谜题太烧脑了，百分推荐。</span> 
+	</li>
+	<li>
+		<span style="line-height:1.5;">The bridge，《纪念碑谷》中埃舍尔式的难题太简单，试试这个吧，当你起精疲力尽地打通基本剧情后，游戏才刚刚开始。</span> 
+	</li>
+</ul>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1288">
+				<span data-id="1288">今日应用</span>
+			</li>
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="4263">
+				<span data-id="4263">纪念碑谷</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3552" data-title="《今日应用：《纪念碑谷》新章节，同样精致》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3552/medium/3552.jpg?1436639908" data-url="http://www.qdaily.com/mobile/articles/3552.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27193.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27193/medium/27193.jpeg?1463957032" alt="">
+                        <h1 class="title">大公司头条：小米要用直播应用发布无人机，马航遇难乘客家属起诉普京</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27197.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27197/medium/27197.jpg?1463966539" alt="">
+                        <h1 class="title">「票房」内地电影票房突破 200 亿，但别高兴得太早</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27189.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27189/medium/27189.jpg?1463937821" alt="">
+                        <h1 class="title">这个游戏跟纸沾点边，特别烧脑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27196.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27196/medium/27196.jpg?1463965253" alt="">
+                        <h1 class="title">看图：这里是过去那个周末发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3552">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3552" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">74</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3551.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

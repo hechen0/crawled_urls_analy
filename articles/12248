@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>因为无人机卖得好，法国 Parrot 公司要拆分了_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="因为无人机卖得好，法国 Parrot 公司要拆分了。这个原来做汽车硬件和园艺硬件的法国公司，已经成为全球最大的无人机公司之一。。好奇心日报为您呈现因为无人机卖得好，法国 Parrot 公司要拆分了的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="无人机 玩具 AR Drones Parrot 大疆 3D Robotics " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="h7mkf6/8knBb/BuPdyCc3iMzpyO2877LpFLB+aJmCdc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="289">
+				<span data-id="289">玩具</span>
+			</li>
+			<li class="tag item" data-id="13830">
+				<span data-id="13830">AR Drones</span>
+			</li>
+			<li class="tag item" data-id="5929">
+				<span data-id="5929">Parrot</span>
+			</li>
+			<li class="tag item" data-id="6558">
+				<span data-id="6558">大疆</span>
+			</li>
+			<li class="tag item" data-id="12809">
+				<span data-id="12809">3D Robotics</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">因为无人机卖得好，法国 Parrot 公司要拆分了</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-12 12:18:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/12248/medium/12248.jpg?1437045895" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12248" data-title="《因为无人机卖得好，法国 Parrot 公司要拆分了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12248/medium/12248.jpg?1437045895" data-url="http://www.qdaily.com/mobile/articles/12248.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这个原来做汽车硬件和园艺硬件的法国公司，已经成为全球最大的无人机公司之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	如果要用一个词语形容法国的 Parrot 公司，那么一定是“奇怪”。他们在上个世纪 90 年代开始做汽车免提技术，十年前就转向做了耳机，智能硬件兴起之后，他们的切入点还是园艺类硬件产品；从 2010 开始，Parrot 公司就开始折腾轻量级的无人机，到现在，他们已经是世界上第三大的无人机公司了。
+</p>
+<p>
+	今天，因为这一季度无人机销售收入达到 3.04 亿欧元，占了公司收入的 44%，Parrot 决定把无人机业务彻底地拆分出去，成立一个独立的公司。而这些收入里面，75% 是来自零售无人机，而 25% 则来自商业用途的无人机。<span></span> 
+</p>
+<p>
+	<span>不久前，我们还采访了 Parrot 的首席营销官&nbsp;Nicolas Halftermeyer。他</span>告诉《好奇心日报》，因为无人机业务的火热，目前&nbsp;Parrot 公司&nbsp;900&nbsp;人里面有&nbsp;450 - 500&nbsp;人转到无人机团队了。<span></span> 
+</p>
+<p>
+	“无人机现在是我们所有业务的重心，”Nicolas Halftermeyer 说到。
+</p>
+<p>
+	<span>下图中 Halftermeyer 右手展示</span>的飞机形状的无人机<span> eBee</span>，就是他们刚刚收购的专业飞机测绘工具公司<span> SenseFly </span>的合作作品，<span>Parrot </span>负责工业和材料的设计，而<span> SenseFly</span>&nbsp;把自己的测绘技术加入其中。所以 eBee 可以做专业的地图测绘工作，而且可以按照既定的轨迹飞行。
+</p>
+<p>
+	<img src="/uploads/image/201507/9e582c8f91e7.jpg" alt="" /> 
+</p>
+<p>
+	“我们的无人机都很轻，价格也不高，而且一体式，这就是我们与众不同之处。”<span>Halftermeyer 说到。</span> 
+</p>
+<p>
+	<span><span>这也意味着 Parrot&nbsp;</span><span>这个法国公司正在用不一样的方式切入市场，</span><span>当大部分的无人机公司都在朝“下一个大疆</span><span>”</span><span>、下一个</span><span>“3D Robotics”</span><span>方向狂奔（也就是“无论开源还是闭源都要做开发平台，无论什么用途都要做炫酷的工业设计”），Parrot 的</span><span>无人机长得像玩具一样，材质很轻、色彩丰富、一体式，大部分的产品售价在 500 美元以下，是大疆的一半，主要针对教育、游戏等消费级市场</span><span>；他们也</span><span>并没有“做平台”的豪言壮语，而是通过收购不同的相关的小公司来丰富自己的产品线。</span><br />
+</span> 
+</p>
+<p>
+	除了产品以外，<span>Parrot </span>公司的发展路径也十分有趣。在<span> 1994 </span>年成立了之后，他们从事的是汽车免提技术开发，不久后又去做耳机产品，他们耳机产品的代言人还相当的个性。
+</p>
+<p>
+	<img src="/uploads/image/201507/ee49206dab3f.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	Parrot Zik 2.0 耳机的宣传照
+</p>
+<p>
+	前两年智能硬件火热时，<span>Parrot </span>还开始做花园类的智能硬件，例如提醒你给植物浇水的硬件设备<span> Flower Power</span>，目前已经出到第二代，上面可以直接接上一个水壶，用应用远程照顾你的花。
+</p>
+<p>
+	<img src="/uploads/image/201507/e2e547642342.jpg" alt="" /> 
+</p>
+<p>
+	而从<span> 2010 </span>年开始看到无人机领域的机会，这个公司也去尝试做无人机，第一款产品四旋<span> AR Drones </span>因为跟手机上的增强现实游戏结合了起来，到现在依然很受欢迎。
+</p>
+<p>
+	<img src="/uploads/image/201507/8aa72a424792.jpg" alt="" /> 
+</p>
+<p>
+	<span><span>因为无人机业务，Parrot 公司的股价也在 2015 年半年间涨了 2.5 倍。</span></span><span></span> 
+</p>
+<p>
+	<span><span><span>“至今，</span><span>Parrot&nbsp;</span><span>已经卖出了</span><span>&nbsp;150&nbsp;</span><span>万台无人机，用来控制无人机的应用</span><span>&nbsp;Freeflight&nbsp;</span><span>也有超过</span><span>&nbsp;100&nbsp;</span><span>万的下载量。”Halftermeyer 说到。</span></span></span>
+</p>
+<p>
+	<br />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="289">
+				<span data-id="289">玩具</span>
+			</li>
+			<li class="tag item" data-id="13830">
+				<span data-id="13830">AR Drones</span>
+			</li>
+			<li class="tag item" data-id="5929">
+				<span data-id="5929">Parrot</span>
+			</li>
+			<li class="tag item" data-id="6558">
+				<span data-id="6558">大疆</span>
+			</li>
+			<li class="tag item" data-id="12809">
+				<span data-id="12809">3D Robotics</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="12248" data-title="《因为无人机卖得好，法国 Parrot 公司要拆分了》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/12248/medium/12248.jpg?1437045895" data-url="http://www.qdaily.com/mobile/articles/12248.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25470.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25470/medium/25470.jpg?1460614876" alt="">
+                        <h1 class="title">亚马逊 Kindle Oasis 上手，这是我们的印象</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25485.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25485/medium/25485.jpg?1460628834" alt="">
+                        <h1 class="title">无人机竞技变成“主流体育”，ESPN 正改变它</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25475.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25475/medium/25475.jpg?1460617328" alt="">
+                        <h1 class="title">把发布会变成脱口秀后，韩寒公布了新片《三重门》</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25471.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25471/medium/25471.jpeg?1460614885" alt="">
+                        <h1 class="title">如果家中有小朋友，也许可以参考这个台湾住宅的设计</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25426.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25426/medium/25426.jpg?1460542897" alt="">
+                        <h1 class="title">咖啡、巧克力、红酒和奶酪，减肥的时候也别戒掉它们</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="12248">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="12248" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">23</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13376.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

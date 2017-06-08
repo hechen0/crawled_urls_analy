@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google 说，有超过 50% 的在线广告没人看_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google 说，有超过 50% 的在线广告没人看。别以为在 Google 投放了广告就坐等客户，它没你想的那么好。。好奇心日报为您呈现Google 说，有超过 50% 的在线广告没人看的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="谷歌 在线广告 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mI28gZPIbF7KFAJHsmp2W9V4dXdL5xGYLy0il56rybw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="148">
+				<span data-id="148">谷歌</span>
+			</li>
+			<li class="tag item" data-id="4247">
+				<span data-id="4247">在线广告</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Google 说，有超过 50% 的在线广告没人看</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3630/small/3630.jpg?1418631958" alt="">
+					</span>
+				<span class="name">王嘉俊</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-12-08 14:23:37 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/4192/medium/4192.jpg?1436646111" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4192" data-title="《Google 说，有超过 50% 的在线广告没人看》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4192/medium/4192.jpg?1436646111" data-url="http://www.qdaily.com/mobile/articles/4192.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				别以为在 Google 投放了广告就坐等客户，它没你想的那么好。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<span style="line-height:1.5;">根据 Google 和旗下的 DoubleClick <a href="http://think.storage.googleapis.com/docs/5-factors-of-viewability_infographics.pdf" target="_blank">发布的调查</a>，有一半以上的广告都没人观看。</span> 
+</p>
+<p class="p1">
+	<span style="line-height:1.5;">Google 采用了 <a href="http://www.mediaratingcouncil.org/033114_MRC%20Viewable%20Impression%20Advisory%20UpdateFINAL.pdf" target="_blank">Media Rating Council</a>&nbsp;的广告观看标准：至少露出 50%，那种羞羞答答露出一角的不算；必须在屏幕出现超过一秒，那种流星般闪现的不算。这份报告里面的在线广告收看数据，毫不意外的低：</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">1. &nbsp;56.1% 的广告从未被观看，而广告商的平均被观看率是 50.2%。这意味有一小部分即使你花钱投了在线广告，却依然难以逃脱 19 世纪 John Wanamaker 那句关于广告有效率的名言：“有一半广告费浪费了，却不知道浪费到哪里”。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/1f836af75ca3.jpg" alt="" /></span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">2. &nbsp;广告位置很重要，头条并非 “头条”，最有效果的位置是页面中部的正上方。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/0c916a202a1e.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">3. &nbsp;广告的大小和形状也很重要，竖的广告要比横的广告好。只要用户难以抑制的下拉页面，横的广告再好看也会消失，但竖的广告会存在比较长的时间。所以最理想的广告大小是长宽为 120* 240 竖条广告，它有&nbsp;<span>55.6% 的观看率。</span></span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/270b467fa962.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">4. &nbsp;页面上方的广告要比下方更有效果。虽然这很废话，但 Google 不希望你就此认定页面上方更好，这还和其他因素有关系。</span><img src="http://www.qdaily.com/uploads/image/201412/6efec536e640.jpg" alt="" /> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	<span class="s1">5. &nbsp;和用户相关的广告最有效果，在线社区、游戏、艺术类也不错，奢侈品广告最为糟糕。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><img src="http://www.qdaily.com/uploads/image/201412/eab71841c15b.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p2">
+	<span class="s1"></span> 
+</p>
+<p class="p1">
+	被 Google 收购的另一个公司 Spider.io 也加入了讨论，它指出很多广告的受众其实是机器爬虫 。 一个由 12 万只爬虫组成的僵尸网络，能够 “观看” 几十亿次的广告。2013 年，《金融时报》就曾经揭露在线广告发布公司 Rocket Fuel 的网络广告诈骗，当时他们利用爬虫等虚假流量浏览客户的梅赛德斯广告以获得高额的广告费用，最后有 57% 的广告流量来自于机器人。购买流量和机器人点击浏览广告，已经成为了一条产业链，专供那些从事市场营销的公司使用。
+</p>
+<p class="p1">
+	<span>虽然“半数广告没被看到”这个数字看起来是搬起石头砸自己的脚</span>，但<span>这的确是 Google 和 DoubleClick 用以展示数据公开透明形象的尝试</span>。至少，Google 此举可以和那些卖流量偏品牌广告费的灰色产业链划清界线，站在积极推动线上广告产业发展的一边，而&nbsp;<span>DoubleClick 也准备了“补救”的好戏在后头，</span><span>已经开发了一套广告监测工具&nbsp;</span><a href="http://doubleclickadvertisers.blogspot.com/2014/07/introducing-active-view-reporting-in-doubleclick.html" target="_blank">Active View</a><span>，能够测量哪些广告被人类真实地观看了。</span> 
+</p>
+<p class="p1">
+	<span class="s1"><br />
+</span> 
+</p>
+<p class="p1">
+	<span class="s1">题图来自：<a href="http://viewableimpression.co.uk/2013/08/16/measures-of-digital-marketing-roi-are-meaningless-unless-ads-are-viewable/" target="_blank">viewable</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="148">
+				<span data-id="148">谷歌</span>
+			</li>
+			<li class="tag item" data-id="4247">
+				<span data-id="4247">在线广告</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="4192" data-title="《Google 说，有超过 50% 的在线广告没人看》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/4192/medium/4192.jpg?1436646111" data-url="http://www.qdaily.com/mobile/articles/4192.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25091.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25091/medium/25091.jpg?1459994181" alt="">
+                        <h1 class="title">乐视想借助经典歌曲《睡在我上铺的兄弟》的魔力打造一个超级 IP，结果呢？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25111.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25111/medium/25111.jpg?1460009228" alt="">
+                        <h1 class="title">《愤怒的小鸟》制作方大亏损，就指着电影救命了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25094.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25094/medium/25094.jpg?1459997112" alt="">
+                        <h1 class="title">「这世界」健身房里的难言之隐，全都藏在这 31 张名画里</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25103.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25103/medium/25103.jpg?1460007267" alt="">
+                        <h1 class="title">H&amp;M 说它们对飞速扩张没有压力，还会继续激进</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25115.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25115/medium/25115.jpg?1460016893" alt="">
+                        <h1 class="title">科比离退役越来越近，耐克针对中国球迷发布了短片</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="4192">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="4192" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">11</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/4194.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

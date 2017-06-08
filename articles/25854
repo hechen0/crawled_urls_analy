@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展。如何用小小一场展览浓缩一段半世纪的传奇？。好奇心日报为您呈现它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="展览设计 Pentagram 滚石乐队 Abbott Miller " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="U3bcZcVa/4jbKTDY4O0qXNzUCH5xkkJvZB1dQbq1Xp4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="26595">
+				<span data-id="26595">展览设计</span>
+			</li>
+			<li class="tag item" data-id="10666">
+				<span data-id="10666">Pentagram</span>
+			</li>
+			<li class="tag item" data-id="23369">
+				<span data-id="23369">滚石乐队</span>
+			</li>
+			<li class="tag item" data-id="26596">
+				<span data-id="26596">Abbott Miller</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/574557/small/574557.jpg?1460972298" alt="">
+					</span>
+				<span class="name">刘璐天 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-22 07:08:35 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25854/medium/25854.jpg?1461261206" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25854" data-title="《它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25854/medium/25854.jpg?1461261206" data-url="http://www.qdaily.com/mobile/articles/25854.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				如何用小小一场展览浓缩一段半世纪的传奇？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p align="left">给明星乐队这样的超级大 IP 做回顾展是一个稳赚不赔的生意，但从设计的角度来看，能否在聚光灯之外讲好一个展览应该讲好的故事，并且为参展者带来超出期待的体验，却是更大的挑战。</p><p align="left"><span style="text-align: justify;">4 月至 9 月在伦敦萨奇画廊举办的“展览主义”（Exhibitionism）滚石乐队回顾展，就是一个这样的例子</span><b style="text-align: justify;">。</b><span style="text-align: justify;">在</span><span style="text-align: justify;">摇滚史上，很少有哪支乐队像滚石这样充满争议但又能与“传奇”两字如此相配。1960 年乐队以“The Blue Boys”的名字首次登台时穿的切尔西靴、天才吉他手 Brian Jones 在 1969 年海德公园演唱会前的神秘之死、乐队 Logo 大舌头的诞生、销量 1300 万张的纯原创专辑《Aftermath》背后的秘密……这些林林总总的故事以及滚石反叛精神背后的时代意义，用一场展览来表现的确太难了。</span></p><div class="com-insert-images"><span style="text-align: justify;"></span><figure style="margin:0;">
+    <img src="/uploads/image/201604/9fdf524e9bdd.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">“展览主义”滚石乐队回顾展海报</div></figcaption></figure></div><p align="left">接下这个难题的是伦敦设计公司 Pantagram。我们之前报道过的<a href="http://www.qdaily.com/articles/25535.html">《NASA 视觉设计标准手册》</a>就是出自它之手。这支只比滚石年轻 10 岁的团队也是由 5 个人创立，以广泛的跨界设计著称，给耐克、戴尔、蒂凡尼、特斯科做过产品和包装设计，给企鹅出版社设计过 logo，给 Alexandra Macqueen 设计过伦敦店面，也曾与小野洋子合作过约翰·列侬的生平回顾展。在创始人之一 Abbot Miller 的眼中，<a href="http://www.fastcodesign.com/3035300/pentagrams-abbott-miller-branding-has-become-oppressive">设计是叙事，而不只是创造闪闪发亮的美丽事物</a>。而<b>展览则是“一间装满了情节的屋子”</b>，对故事的叙述应该充盈整个空间和时间。</p><p align="left">这次展览的设计是在与滚石乐队的充分合作中完成的。“第一次来办公室的是 Mick，Charlie 和 Ronnie，呆了 4 个多小时；第二次所有人都来了。”Miller 在接受&nbsp;<a href="https://www.designweek.co.uk/when-the-rolling-stones-came-to-work-at-pentagram/">Design Week 的采访</a>时笑着说。而且鼓手 Charlie 的第一份工作竟然就是在 Pantagram 联合创始人 Bill Gill 的手下做平面设计师。</p><p align="left">在展览空间的处理上，一连串空间被视作音乐会的节目单，如同一场一气呵成的表演。每个展馆都代表着新乐章的揭幕，举例而言就是你不会在同一个地方看到所有乐器——它们会根据空间所对应的主题适时出现。如果要给这场“表演”找一个清晰的故事主线，那就是“<b>这支乐队从未试图追逐时代精神，却以反叛与革新的力量与每一代人都保持了共鸣</b>”。当你从音乐、艺术和设计等等不同角度看到这支乐队开放的思维、包容性和合作精神，你也许才更能理解和欣赏它的独特传奇。</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/94eed1ff5689.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">入口展区</div></figcaption></figure></div><p align="left">走入展厅，迎面是一块巨大的霓虹灯标牌，写着“女士们、先生们”的字样，犹如每次演出开始前场馆里都会响起的那声“女士们先生们——滚石乐队”。两旁墙上字体和经纬度的投影逐个显示出乐队的每一张专辑和每一处表演过的地点。</p><p align="left">接下来出现的是一个巨大的多屏幕视频墙，蜿蜒着向前延展，放映出过往的录像片段、照片和新闻剪辑。这是 Pantagram 与滚石乐队之前合作过的电影制片人 Sam Pattinson 共同制作出的装置。随着空间的延伸，主唱 Mick Jagger 与吉他手 Keith Richards 在达特福德火车站站台上的第一次会面仿佛重现。乐队第一次登报的照片以真人等身大小出现在眼前，头顶则是一份清单，记录着这个命运安排般相逢的日子 Mick 和 Keith 两人随身携带的布鲁斯唱片的名称。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/772701541c54.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Edith Grove 的房间</div></figcaption></figure></div><p align="left" class="">随后进入的这个空间，则原样复制了 60 年代初乐队在 Edith Grove 共同居住的房间。背景音里播放着乐队成员对这段同居生活的描述。烟灰缸四处散落，男生公寓里常见的那些乱七八糟的废弃物到处都是。你只能伴随着升腾而起的湿气从厨房小心翼翼侧身过去（两旁尽是脏兮兮的墙面），最后跨过几个凌乱不堪的床铺。Pantagram 的另一位负责人  Will Russell  说，他们没敢撒更多烟头和空啤酒罐头，因为 Mick 告诉说“我们那时可没啥钱”。</p><div class="com-insert-images"></div><p align="left">下一个房间讲述的是 1963 至 1966 年乐队几乎天天巡演的紧张日程，放置有成员们早起使用的乐器，包括吉他手 Brian Jones 第一次来乐队面试时用的那台 Vox 扩音器。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/f62e5c308030.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Keith Richards 的吉它</div></figcaption></figure></div><p align="left">由于萨奇画廊的中庭是一个长长的旋梯，你在观展的时候时不时会走到有光的地方才能进入下一个空间或者换楼层，不过这也让不同展览章节的切换更明确了。</p><p align="left">在专门讲述乐队录音故事的展厅里，整个录音室被原样复制了出来，背景音里清晰地解释了 Olympic Studio, Nelcotte 和 Pathe Marconi 这几个知名唱片厂牌的录音流程，以及它们不同的声音特点。你可以通过互动设备浏览过去的曲目，播放乐队合作过的录音师的采访录像。不过最棒的是带上耳机亲自混音一曲，调节不同乐器的音量大小，或者只听主音、主吉他等等单个频道。隔壁房间里还有乐队音乐视频的混剪，放映着那些夸张的服装和发型。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/8d3f84659fd2.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/8f112b24a316.jpg" alt="">
+</figure></div><p align="left">接下来的艺术和设计专门区到处都是素描、原稿甚至是乐队与艺术家和设计师的往来书信，展示滚石如何与 Andy Warhol、John Van Hamersveld 等人共同创作自己的形象。大舌头 Logo 的设计过程也是在这个展区介绍的。设计师 John Pasche 当时还是个学生，1971 年通过竞赛获得了设计机会，以 Mick 噘嘴时的样子为灵感画出了这个 Logo。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/ca6149e90c24.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/37f6b81cbd47.jpg" alt="">
+</figure></div><p align="left">服饰展区里全是乐队的私服，可以看出成员们从一致着装迅速换成了各自强烈的个人风格。服装都没有玻璃罩的保护，可以凑近看到街头风、60 年代末从国王路精品店买的服装以及后来 Alexandra McQueen、LeWren Scott 和 Prada 给乐队做的定制款。这个区域的设计灵感其实是 Mick Jagger 在翻找往昔旧物时想到的。到处是巨大的木头匣子，犹如秘密壁橱。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/2f628e779ed4.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/3cc0a3923a7a.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/f350f3499e5d.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/31de362f1f71.jpg" alt="">
+</figure></div><p class="">展览最后以一场 3D 虚拟演出收尾。带上眼镜，旁白响起，“如果你准备好了，我们就准备好了”。穿着金色衬衫的主唱 Mick Jagger 一跃而出，如同这场表演永不落幕。</p><p align="left" class="">题图、配图来自 observer.com</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="26595">
+				<span data-id="26595">展览设计</span>
+			</li>
+			<li class="tag item" data-id="10666">
+				<span data-id="10666">Pentagram</span>
+			</li>
+			<li class="tag item" data-id="23369">
+				<span data-id="23369">滚石乐队</span>
+			</li>
+			<li class="tag item" data-id="26596">
+				<span data-id="26596">Abbott Miller</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25854" data-title="《它给企鹅出版社设计了Logo，又给滚石乐队做了回顾展》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25854/medium/25854.jpg?1461261206" data-url="http://www.qdaily.com/mobile/articles/25854.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/23843.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/23843/medium/23843.jpg?1457939298" alt="不知道听什么歌，这是《滚石》杂志推荐的歌单">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">不知道听什么歌，这是《滚石》杂志推荐的歌单</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">290</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13527.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/13527/medium/13527.jpg?1439527528" alt="《滚石》杂志出百大唱作人排名，鲍勃·迪伦仍居榜首">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">《滚石》杂志出百大唱作人排名，鲍勃·迪伦仍居榜首</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">70</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/25535.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="喜欢 NASA？可以买一本 1970 年代的视觉设计手册">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">262</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/23951.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/23951/medium/23951.jpg?1458100288" alt="22年后，重聚的英伦摇滚乐队“石玫瑰”要发新专辑了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">22年后，重聚的英伦摇滚乐队“石玫瑰”要发新专辑了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">39</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26975.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26975/medium/26975.jpg?1463505909" alt="">
+                        <h1 class="title">双肩包重新成为时尚关键词，这背后发生了多少事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26974.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26974/medium/26974.jpg?1463501307" alt="">
+                        <h1 class="title">明天凌晨 1 点，Google 会描述一个全新的未来</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26959.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26959/medium/26959.jpg?1463479079" alt="">
+                        <h1 class="title">高端旅行兴起，这种生活方式可以给品牌带来多少机会？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26983.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26983/medium/26983.jpg?1463533484" alt="">
+                        <h1 class="title">今日娱乐：岳云鹏加盟张嘉佳新片，谭维维为X战警开唱</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26977.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26977/medium/26977.gif?1463514543" alt="">
+                        <h1 class="title">上班时候想睡一小会儿？这里给你张罗了很多设备</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25854">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25854" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">42</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25796.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

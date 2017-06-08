@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>无人机冲进白宫之后_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="无人机冲进白宫之后。雷达没有探测到这架无人机，这次事件显示出了近几年来特勤局在保卫白宫方面遇到的困难。。好奇心日报为您呈现无人机冲进白宫之后的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 无人机 白宫 大疆幻影 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="T5UiqOGKAf6rT2UYVFgGtEe78m/42YH8N30MdPPFdr8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="3433">
+				<span data-id="3433">白宫</span>
+			</li>
+			<li class="tag item" data-id="6537">
+				<span data-id="6537">大疆幻影</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">无人机冲进白宫之后</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Michael S. Schmidt and Michael D. Shearjan</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-28 11:30:05 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5630/medium/5630.png?1436688927" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5630" data-title="《无人机冲进白宫之后》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5630/medium/5630.png?1436688927" data-url="http://www.qdaily.com/mobile/articles/5630" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				雷达没有探测到这架无人机，这次事件显示出了近几年来特勤局在保卫白宫方面遇到的困难。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em style="white-space:normal;"><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em> 
+</p>
+<p class="MsoNormal">
+	华盛顿电－据执法部门官员称，白宫的雷达系统是被设计用来探测像飞机、导弹和大型无人机这类飞行器的，所以周一早晨的时候，它没能“看到”一架撞到白宫南草坪一棵树上的小型无人机。这次坠机事件引发了人们的疑问：如果有类似物体针对奥巴马总统的话，特勤局是否有能力将其击落？
+</p>
+<p class="MsoNormal">
+	这架无人机的直径大约 <span>2 </span>英尺（<span>0.61 </span>米），重约 <span>2 </span>磅（<span>910 </span>克），其操纵者是一名政府雇员。特勤局未具体说明是谁，只是说在那天凌晨<span>3</span>点的时候，这名雇员正在白宫附近遥控着这架无人机玩儿，然后无人机失去了控制。这名男子并未在白宫工作，也没有被控以罪名，官方也没有解释为什么他会在那个时间玩无人机。<span></span> 
+</p>
+<p class="MsoNormal">
+	<img alt="" src="/uploads/image/201501/bf10636a87b9.jpg" /> 
+</p>
+<p class="MsoNormal">
+	这是最新一起特勤安保被攻破的事件，它显示出了近几年来特勤局在保卫白宫方面遇到的困难。<span>9 </span>月，一名持刀男子爬过了白宫的围栏、深入了白宫内部，最后被安保人员制服。<span>2011 </span>年，一名枪手在奥巴马的一个女儿在家的时候，朝白宫开枪。<span></span> 
+</p>
+<p class="MsoNormal">
+	特勤局说，周一，一位在白宫南广场驻扎的特勤局官员“听到并看到了”那架无人机在飞，但他和其他驻白宫的值勤人员没有办法把它弄下来，最后它飞过了白宫的围栏，撞在了一棵树上。官方还说，由于无人机太小、飞得太低，所以雷达探测不到，而且它的尺寸很容易被误认为是一只大鸟。<span></span> 
+</p>
+<p class="MsoNormal">
+	此次事件恰恰发生在美国国土安全部在阿灵顿召开安全会议之后数天。那次会议上讨论的，正是此类无人机给国家关键设施和政府机构带来的危险。据一位参会成员说，在会上展示的无人机是“大疆幻影（<span>DJI Phantom</span>）”——也恰好是周一坠落在白宫的那款无人机，只不过会上展示的无人机上绑了 <span>3 </span>磅重的假炸药，以说明用它来发起攻击有多容易。<span></span> 
+</p>
+<p class="MsoNormal">
+	参加了此次会议的丹尼尔·赫伯特（<span>Daniel Herbert</span>）说，一位与会的反恐官员警告说，小型无人机同样可以被用来发起生化攻击。<span></span> 
+</p>
+<p class="MsoNormal">
+	赫伯特开办的网店专门负责维修无人机，并训练人们操纵它们。他说，美国国家反恐中心的官员在会上对参会人员说，无人机严重威胁了美国的基础设施，而“大疆幻影”正是恐怖分子选中的无人机型号。<span></span> 
+</p>
+<p class="MsoNormal">
+	据赫伯特讲，这位反恐官员说，来自像“大疆幻影”这样的无人机的威胁正在变大，而且成为了白宫的一大担忧。当赫伯特在会上描述他们的分析师对此的评论时，国家反恐中心的官员们打断了他。<span></span> 
+</p>
+<p class="MsoNormal">
+	在特勤局公布的一张照片中，坠落在南草坪上的无人机似乎有部分毁坏。它看起来像是“大疆幻影四旋翼遥控无人机”，在美国亚马逊上的售价是 <span>479 </span>美元起。装备了高清摄像头的型号在亚马逊的售价高达 <span>1258 </span>美元。<span></span> 
+</p>
+<p class="MsoNormal">
+	特勤局在周一下午的一份声明中称，周一上午约 <span>9 </span>点半，一名男子给特勤局打电话，说他就是操纵那架坠落在白宫草坪上的无人机的人。<span></span> 
+</p>
+<p class="MsoNormal">
+	“特勤局探员已经询问了这名男子，他给予了完全的配合，”声明中说道。“初步认定，此次事件的起因是一次娱乐性质的无人机飞行。”根据联邦法律，在华盛顿操控无人机飞行是违法行为。<span></span> 
+</p>
+<p class="MsoNormal">
+	有几个人认识那名政府雇员，或者和他说过话，为了证实该男子的叙述，特勤局探员对这些人进行了询问。正在陪同奥巴马总统夫妇在印度旅行的白宫新闻秘书乔什·恩内斯特（<span>Josh Earnest</span>）说，当事件发生时，奥巴马的两个女儿都在家。无人机导致白宫被暂时关闭。恩内斯特说，这架无人机并没有显示出有什么危险性。<span></span> 
+</p>
+<p class="MsoNormal">
+	<span><img alt="" src="/uploads/image/201501/e5d9eb982df9.jpg" /></span><em>周一，在一架两磅重的小型无人机飞越白宫围栏、撞上一棵树以后，特勤局的官员搜索了白宫南草坪。</em> 
+</p>
+<p class="MsoNormal">
+	安全专家周一称，小型无人机特别难防御，因为很难把它打下来。一位军方官员说，美国国防部“一般会急令战斗机起飞，以应对华盛顿上空的空中威胁，但玩具一般并不是军方会重点解决的问题”。<span></span> 
+</p>
+<p class="MsoNormal">
+	官员称，像周一坠落的那种无人机很可能都没那么大，所以也不大可能携带足以对白宫建筑构成严重损伤的爆炸物。但总统也会经常走出楼外，到白宫广场上去走走。<span></span> 
+</p>
+<p class="MsoNormal">
+	当天气好的时候，奥巴马和白宫员工主管丹尼斯·麦克多诺（<span>Denis R. McDonough</span>）会到外面去，绕着白宫南边的环形车道走一走。奥巴马还经常参加在南草坪的各类仪式，地点就在环绕白宫建筑的围栏另一边。<span></span> 
+</p>
+<p class="MsoNormal">
+	总统专用直升机“海军一号”在南草坪起降，起降地距离白宫的入口只有几步远。有时候，奥巴马会站在直升机前，向媒体发表声明。<span></span> 
+</p>
+<p class="MsoNormal">
+	数年前，负责保护白宫附近空域的特勤局空中安全分队开始了一项秘密研究，目的是找到把小型无人机弄下来的办法。自那时起，特勤局就一直在尝试研究新的探测方式，以及把它们拦下来的办法。<span></span> 
+</p>
+<p class="MsoNormal">
+	“不存在什么杀手锏，”一位执法官员说。“要把它拦截下来很难，因为那样做的话，会导致宾夕法尼亚大道上的许多游客伤亡。”<span></span> 
+</p>
+<p class="MsoNormal">
+	特勤局拒绝讨论白宫雷达的能力问题，以及为什么无人机没有被探测到。<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>Droneshield </span>是一家研发监狱和核设施专用无人机探测系统的公司，其创始人布莱恩·希尔林（<span>Brian Hearing</span>）说，对于捕获这么小的无人机，雷达系统实际上是没有用的。他说，如果系统被设定得足够灵敏，能探测出无人机，那它们就也能探测出每只飞过的鸟，或者摇动的树枝。
+</p>
+<p class="MsoNormal">
+	希尔林说，许多小型无人机也有 <span>GPS </span>功能，目的是为了让无人机在和遥控失联的情况下，回到使用者的身边。但 <span>GPS </span>功能也很容易通过编程，直接让无人机飞向某个特定地址，比如宾夕法尼亚大道 <span>1600 </span>号（白宫所在地）。
+</p>
+<p class="MsoNormal">
+	他还说，现有科技可以干扰靠近的无人机的信号，这会让它从空中掉下来，或者返回它的操纵者那里。他说，此类技术大多数来自中国，目前消费者和其他人使用它来干扰信号还是非法的。一些更为精密的干扰仪，甚至能让白宫的护卫者从操纵者手中把无人机的控制权抢过来。<span></span> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="3433">
+				<span data-id="3433">白宫</span>
+			</li>
+			<li class="tag item" data-id="6537">
+				<span data-id="6537">大疆幻影</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5630" data-title="《无人机冲进白宫之后》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5630/medium/5630.png?1436688927" data-url="http://www.qdaily.com/mobile/articles/5630" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25088/medium/25088.jpg?1459995308" alt="">
+                        <h1 class="title">H&amp;M一季度利润下跌，Supreme 与北脸新一季联名上市｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25087.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25087/medium/25087.jpg?1459989195" alt="">
+                        <h1 class="title">Gucci 合并男女装秀，性别是不是这年头不太重要的事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25086.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25086/medium/25086.jpg?1459988628" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25089.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25089/medium/25089.jpg?1459991369" alt="">
+                        <h1 class="title">今日娱乐：《神奇女侠》提前上映，蒂姆·波顿新片会引进</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25083.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25083/medium/25083.jpg?1459985432" alt="">
+                        <h1 class="title">年轻人不一定想买房，但想过上有趣又便利的好生活</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5630">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5630" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">13</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5637.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

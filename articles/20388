@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>新年工作利器推荐，这里有15个靠谱的_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="新年工作利器推荐，这里有15个靠谱的。这是一份来自科技杂志《离线》的年度工具评选。。好奇心日报为您呈现新年工作利器推荐，这里有15个靠谱的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="利器 工作 应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="TLPjXAExuyN99e82FnO0ZVU3zRkf1MXquUdDhYVw9Uw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="21740">
+				<span data-id="21740">利器</span>
+			</li>
+			<li class="tag item" data-id="901">
+				<span data-id="901">工作</span>
+			</li>
+			<li class="tag item" data-id="320">
+				<span data-id="320">应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">新年工作利器推荐，这里有15个靠谱的</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">利器</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-13 15:22:13 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20388/medium/20388.jpg?1452261527" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20388" data-title="《新年工作利器推荐，这里有15个靠谱的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20388/medium/20388.jpg?1452261527" data-url="http://www.qdaily.com/mobile/articles/20388.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这是一份来自科技杂志《离线》的年度工具评选。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span></span><em>这篇文章来自《离线》团队，在这都是用手机来看新闻的时代，他们还在做科技的双月刊。最近一年，离线团队还做了一个“利器”的项目，采访了各行各业的人们爱用的工具。</em> 
+</p>
+<p>
+	<em>《好奇心日报》获得了利器的授权，以下是利器年度精选的转载。<em>《好奇心日报》之前有对离线团队进行详细的报道，更多信息可以<a href="http://www.qdaily.com/articles/13520.html" target="_blank">戳这里</a>。</em></em> 
+</p>
+<p style="text-align:start;">
+	2015 年 6 月 8 日，利器上线了。
+</p>
+<p style="text-align:start;">
+	在这 6 个多月里，利器一共请到了 62 位创造者。他们来自不同的领域：开发、设计、创业和写作。其中包括了来自<a href="http://liqi.io/jiangjiang/" target="_blank">苹果</a><a href="http://liqi.io/buding/" target="_blank">谷歌</a><a href="http://liqi.io/vczh/" target="_blank">微软</a>的工程师、《纪念碑谷》的<a href="http://liqi.io/kenwong/" target="_blank">主设计师</a>、获得雨果奖的<a href="http://liqi.io/liucixin/" target="_blank">小说家</a>……更多的人没有获得盛大的名誉，却在创造自己所热爱的事物。他们<a href="http://liqi.io/mao/" target="_blank">有的</a>从互联网行业转做手工皮包，<a href="http://liqi.io/himmel/" target="_blank">有的</a>和朋友做了一款独立游戏，<a href="http://liqi.io/gaoyuan/" target="_blank">有的</a>参与了《环太平洋》的动画特效制作。他们创造的东西都很美妙。
+</p>
+<p>
+	让我们印象深刻的还有嘉宾的回答风格。<a href="http://liqi.io/liucixin/" target="_blank">刘慈欣</a>的利器回答与问题字数相等，用了 71 个字。与此形成鲜明反差的是<a href="http://liqi.io/cocosuma/" target="_blank">可可苏玛</a>同学，他的文章图文并茂，为自己的生存环境写了一篇 8000+ 字数的深度测评。
+</p>
+<p>
+	我们做了一张表：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e10db2073dcb.jpg" width="1080" height="261" title="1" alt="1" /> 
+</p>
+<p>
+	在这么多利器分享中，有哪些值得再次回顾的好货？到了年末，我们来再度整理一下。
+</p>
+<h2>
+	开发者篇
+</h2>
+<p>
+	<strong>首先要有一个键盘</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+hhkb&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBLH&amp;pq=site%3Aliqi.io+hhkb&amp;sc=0-13&amp;sp=-1&amp;sk=&amp;cvid=23670D1847684E8A95FC39EB5CE5F5D6" target="_blank"><strong>HHKB</strong></a> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/2d1f6c2164ed.jpg" width="753" height="500" title="2" alt="2" /> 
+</p>
+<p style="text-align:start;">
+	<span></span>一共有 8 位嘉宾提到了这款键盘。除了程序员，写作者们也很喜欢它。型号包括了 HHKB Pro 2、HHKB Lite 2、HHKB Type-S。简洁的外观十分赏心悦目，敲打出的声音也清脆动听。
+</p>
+<p style="text-align:start;">
+	它以超高出镜率入围了年度开发者利器。
+</p>
+<p style="text-align:start;">
+	推荐人：<a href="http://liqi.io/jianghong/" target="_blank">LeanCloud 联合创始人江宏</a>、<a href="http://liqi.io/liuchengyin" target="_blank">WhatFont 作者柳成荫</a>等
+</p>
+<p>
+	<strong>这款编辑器好用</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+atom&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+atom&amp;sc=0-0&amp;sp=-1&amp;sk=&amp;cvid=599b14caafe24f9b8d89c44f3cdb6f38" target="_blank"><strong>Atom</strong></a> 
+</p>
+<p>
+	写程序用什么？根据环境不同，你会用到 Xcode、Vim、Emacs、TextMate、Sublime Text 2……也许你还可以试试 Atom？Easy 说：
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;<span></span><em>“用 Atom 主要是因为它丰富的组件。要 Markdown 预览？装个组件；要浏览二进制文件？装个组件；要 vim 模式？装个组件。但 Atom 在打开 3 万行以上的长代码时，会经常卡。要流畅？装个 Sublime。”</em><span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/5c4e0baa8c4c.jpg" width="814" height="396" title="3" alt="3" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/tangshenggang" target="_blank">iOS 开发者汤圣罡</a>、<a href="http://liqi.io/youcai" target="_blank">《比特新声》主播有才</a>等
+</p>
+<p>
+	<strong>遇到 bug 怎么办</strong> 
+</p>
+<p>
+	<strong>Go 吉祥物 Gopher</strong> 
+</p>
+<p>
+	当你把问题说出来的时候，也许就能发现哪里不对了。对着任何蠢萌的家伙都行。
+</p>
+<blockquote>
+	<p>
+		<em>“我有一只 Go 的吉祥物 Gopher, 它是我的小黄鸭调试法伙伴，遇到诡异的 bug（不管是不是 Go 的），我就会抓它来捏着撒气，一行行地解释代码给它听，直到我自己发现问题。</em>”
+	</p>
+	<p>
+	</p>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/92fa64b1ed70.jpg" width="900" height="632" title="4" alt="4" /> 
+	</p>
+	<p style="text-align:center;">
+	</p>
+	<p>
+	</p>
+	<p style="text-align:left;">
+		推荐人：<a href="http://liqi.io/buding" target="_blank">Google 软件工程师布丁</a> 
+	</p>
+</blockquote>
+<p>
+	<strong>如何更 geek 地摸鱼</strong> 
+</p>
+<p>
+	<a href="http://xkcd.com/" target="_blank"><strong>xkcd.com</strong></a> 
+</p>
+<p>
+	不仅仅是一个讽刺漫画。话题包括元胞自动机、正则表达式、Correlation and Causation、Ingress 等。容易看得停不下来。
+</p>
+<p>
+	<em>&nbsp;&nbsp;&nbsp;&nbsp;“被问题难住会搜索，搜索不出来就和同事讨论，讨论不出来就看 xkcd，或者翻 feedly。”</em> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e603fd2b5ca5.jpg" width="360" height="299" title="5" alt="5" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/wutao" target="_blank">《内核恐慌》主播吴涛</a> 
+</p>
+<h2>
+	设计师篇
+</h2>
+<p>
+	<strong>除了 Adobe 大家族，设计师们还用什么</strong> 
+</p>
+<p>
+	<strong>Sketch</strong> 
+</p>
+<p>
+	简洁灵巧的矢量图编辑工具。《狗熊有话说》的主播大狗熊在利器访谈中说道：
+</p>
+<blockquote>
+	<p>
+		<em>“今年开始，我接触到了 Sketch，就迅速被它吸引住了，目前我们的 app 设计和播客封面的制作，大都出自 Sketch。”</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/105fadecf8ca.jpg" width="1080" height="484" title="4" alt="4" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	推荐人：<a href="http://liqi.io/liumengxi" target="_blank">用户体验设计师刘梦溪</a>、<a href="http://liqi.io/sunqi" target="_blank">eico 设计师孙琦</a>等
+</p>
+<p>
+	<strong>设计当然要提到纸笔</strong> 
+</p>
+<p>
+	<strong>FiftyThree Pencil</strong> 
+</p>
+<p>
+	Pencil 是一款触控笔。木色款长得类似木工铅笔，黑色款类似画画用的碳铅条。笔的末端是橡皮。非常拟物。用户体验设计师 Lain 说：
+</p>
+<blockquote>
+	<p>
+		<em>“53 出品的 Pencil：搭配同公司出品的 Paper 使用，适合画小画儿，或是将设计灵感变成草图。”</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/1d289be46190.jpg" title="4" alt="4" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/lain" target="_blank">用户体验设计师 Lain</a>、<a href="http://liqi.io/yule" target="_blank">途牛网 UI 设计师喻乐</a> 
+</p>
+<p>
+	<strong>设计师可用的是真·铅笔</strong> 
+</p>
+<p>
+	<a href="http://www.amazon.cn/%E5%8A%9E%E5%85%AC%E7%94%A8%E5%93%81/dp/B00UAFCC7O" target="_blank"><strong>rOtring Rapid Pro 0.5</strong></a> 
+</p>
+<p>
+	画草图还是离不开自动铅笔。红环的铅笔大多采用「全金属构造，子弹上膛一般的手感」。握在手上也非常有分量。
+</p>
+<blockquote>
+	<p>
+		<em>“画笔用 rOtring Rapid Pro 0.5 与 MUJI 2mm 铅笔画草稿，笔芯是 Staedtler 的。”</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/273d745711c4.jpg" width="640" height="330" title="5" alt="5" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/shine" target="_blank">水彩插画师 Shine</a> 
+</p>
+<p>
+	<strong>设计灵感来源</strong> 
+</p>
+<p>
+	<a href="http://www.google.com/culturalinstitute/project/art-project?hl=zh-cn" target="_blank"><strong>Google Art Project</strong></a> 
+</p>
+<p>
+	在家也能去全世界的美术馆。Google Art Project 收录了各个博物馆内部实景和展品的超高清大图。观察过去的艺术作品，也是一种获取灵感的方式。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6ac5508fbc76.jpg" width="900" height="449" title="5" alt="5" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/odding" target="_blank">多媒体创作人 Odding</a> 
+</p>
+<h2>
+	团队协作篇
+</h2>
+<p>
+	<strong>不仅是一个协作交流工具</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+slack&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+slack&amp;sc=0-0&amp;sp=-1&amp;sk=&amp;cvid=d71f2d355d3a447aaa87f530f8f2b1d5" target="_blank"><strong>Slack</strong></a> 
+</p>
+<p>
+	Slack 是一个团队通讯平台，你碎片化的沟通和协作可以集合在这一处。它也能接入许多第三方服务，实现工作流程的自动化。比如《湾区日报》的作者 w 就是 Slack 的重度用户。
+</p>
+<blockquote>
+	<p>
+		Slack：新时代的操作系统
+	</p>
+	<p>
+		– 可以做通讯工具用：它的基本功能就是聊天
+	</p>
+	<p>
+		– 可以做小笔记（与 Slackbot 对话，既是做笔记；自带搜索功能）
+	</p>
+	<p>
+		– 可以作为免费的存放文件的空间：与 Slackbot 对话，把文件传给「它」
+	</p>
+	<p>
+		– 集成了众多第三方服务。比如我集成了 Launchkit，Slack 会第一时间通知我《湾区日报》的 app 有新 review 了。
+	</p>
+	<p>
+		– 可以写一些小机器人常驻其中，帮你排忧解难。有点像程序员的命令行界面，自定义一些命令，自动化一些流程。
+	</p>
+	<p>
+		– 自带推送、提醒服务。
+	</p>
+</blockquote>
+<p>
+	（国内访问 Slack 还是有些慢，你有三个选项：找一个速度流畅的科学上网工具、使用国内的 BearyChat 等类 Slack 工具、用 QQ 群）
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/d9d9e6765ae8.jpg" width="989" height="640" title="4" alt="4" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/yaoxinyu" target="_blank">GitCafe 创始人姚欣宇</a>、<a href="http://liqi.io/yinming" target="_blank">稀土创始人阴明</a>等
+</p>
+<p>
+	<strong>不是只有 Google Docs 能协作编辑文档</strong> 
+</p>
+<p>
+	<a href="http://quip.com/" target="_blank"><strong>Quip</strong></a> 
+</p>
+<p>
+	Quip 是一款文档协作软件。与 Google Docs 相比，它的客户端多了离线编辑功能，未联网的状态下就可以作为一个文档编辑器使用。评论和修改痕迹也很简洁直观。张亮分享了他是如何整合笔记的：
+</p>
+<blockquote>
+	<p>
+		<em>“日常梳理思路用 Day One，但写完之后大多数会移到 Quip 里供讨论；我用 Day One 写各种笔记之余，也会阶段性整理为更长的文件存到 Evernote 里，不过最近用了 Quip 感觉更方便一些。”</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/f66c5d64e779.jpg" width="900" height="635" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/zhangliang" target="_blank">Apple4us 发起人张亮</a> 
+</p>
+<p>
+	<strong>发邮件用什么</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+mailbox&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+mailbox&amp;sc=0-18&amp;sp=-1&amp;sk=&amp;cvid=1d84ae571dc742faa023c907721c3a5e" target="_blank"><strong>Mailbox</strong></a> 
+</p>
+<p>
+	Mailbox 能让发邮件变成一件愉快的事情。漂亮的界面、全手势操作、待办事项和邮件结合……它带来了许多创新，但最终也将在明年 2 月停运。汤圣罡说：
+</p>
+<p>
+	<em>“手机上新 App 装了卸，天天用的只有 Mailbox, Telegram, Podcasts, Notes, Music。”</em> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/e399f74de1b1.jpg" width="900" height="497" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+mailbox&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+mailbox&amp;sc=0-18&amp;sp=-1&amp;sk=&amp;cvid=1d84ae571dc742faa023c907721c3a5e" target="_blank">推荐人：</a><a href="http://liqi.io/tangshenggang" target="_blank">iOS 开发者汤圣罡</a>、<a href="http://liqi.io/jianghong" target="_blank">LeanCloud 创始人江宏等</a> 
+</p>
+<p>
+	<strong>整理思路，协调进度</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+%E7%99%BD%E6%9D%BF&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+%E7%99%BD%E6%9D%BF&amp;sc=0-13&amp;sp=-1&amp;sk=&amp;cvid=a7fddc9c2a5741fea1096f8d3349d909" target="_blank"><strong>一块白板</strong></a> 
+</p>
+<p style="text-align:start;">
+	家里和公司都该有一块白板。一个人思路混乱时，暂停手头的工作，走到白板前把脑海中能想到的元素都写下来，排列组合、添加删除、连接切断……团队工作时，灵感来了，可以推开电脑拿起笔，几个人在白板上比划一下。下面是 Easy 的白板用法：
+</p>
+<blockquote style="text-align:start;">
+	<p>
+		<em>“白板。几乎用遍了各种协同软件，最后发现还是白板最好用。可以把大脑里想的以图的方式画出来，电脑里的 Mind Map 也可以打印出来贴上去。规划大型项目时很容易纵观全局，效果特别好；休息的时候也可以端杯咖啡看着玩，经常会获得意外的灵感。”（PS：白板不够大的时候，可以直接用墙壁，贴层纸在下边就好。）</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/98182432fab7.jpg" width="1080" height="405" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/wangmeng" target="_blank">FIR.im 创始人王猛</a>、<a href="http://liqi.io/luyi" target="_blank">Zine 创始人路意</a>等
+</p>
+<p>
+	<strong>Get Things Done</strong> 
+</p>
+<p>
+	<a href="http://www.bing.com/search?q=site%3Aliqi.io+omnifocus&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aliqi.io+omnifocus&amp;sc=0-13&amp;sp=-1&amp;sk=&amp;cvid=af4475eefa014ccbb07d4b2e4f486440" target="_blank"><strong>OmniFocus</strong></a> 
+</p>
+<p style="text-align:start;">
+	这个 app 不便宜。把 Mac、iPhone、iPad 几个版本加起来，将近 1000 元。为什么买呢？因为的确能提高生产力。OmniFocus 也入选了今年 App Store 的年度最佳应用。柳毅说：
+</p>
+<blockquote style="text-align:start;">
+	<p>
+		<em>“每天开始工作第一件事就是在 OmniFocus 上计划今天要做的事情，我会尽量把要做的事情都记录在里面，这样大脑就不需要担心把重要的事情忘掉，他使我在各个项目中游刃有余，消除了之前经常出现的焦虑感。”</em> 
+	</p>
+	<p style="text-align:center;">
+		<img src="/uploads/image/201601/2660e6bb8be5.jpg" width="900" height="447" title="1" alt="1" /> 
+	</p>
+</blockquote>
+<blockquote style="text-align:start;">
+	推荐人：<a href="http://liqi.io/bearbig" target="_blank">《狗熊有话说》主播大狗熊</a>、<a href="http://liqi.io/liuyi" target="_blank">远程工作者柳毅</a>等
+</blockquote>
+<p>
+	<strong><span></span>最佳码字器</strong> 
+</p>
+<p>
+	<a href="http://Ulysses" target="_blank"><strong>Ulysses</strong></a> 
+</p>
+<p style="text-align:start;">
+	Ulysses 是一款 Markdown 写作软件。与 Mou 之类能实时预览的 Markdown 编辑器不同，它更注重写作本身的体验。《动物庄园》译者、《比特新声》主播郝海龙也非常推荐这款写作软件：
+</p>
+<blockquote style="text-align:start;">
+	<p>
+		<em>“这款写作软件的轻重平衡点掌握的很好，你现在看到的这些文字就是在 Ulysses 中最先撰写的。”</em> 
+	</p>
+</blockquote>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0d424b540b83.jpg" width="900" height="600" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	推荐人：<a href="http://liqi.io/cuiqiwen" target="_blank">《好奇心日报》记者崔绮雯</a>、<a href="http://liqi.io/matrix67" target="_blank">数学博客博主 Matrix67</a>&nbsp;等
+</p>
+<p>
+	<strong>深夜写作好伙伴</strong> 
+</p>
+<p>
+	<strong><a href="http://www.bing.com/search?q=f.lux+site%3Aliqi.io+&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBRE&amp;pq=f.lux+site%3Aliqi.io+&amp;sc=0-21&amp;sp=-1&amp;sk=&amp;cvid=98674fa92deb439d929741d476003b60" target="_blank">f.lu</a>x</strong> 
+</p>
+<p style="text-align:start;">
+	在黑暗中写作虽然很酷，但屏幕的光亮还是会伤到视力。f.lux 在夜晚会自动调低蓝光的比例，让屏幕不那么刺眼，据说也能改善睡眠质量。
+</p>
+<p style="text-align:start;">
+	<img src="/uploads/image/201601/000001bcff3f.jpg" width="900" height="500" title="1" alt="1" /> 
+</p>
+<p style="text-align:start;">
+	<span style="text-align:start;">推荐人：</span><a href="http://liqi.io/matrix67" target="_blank">数学博客博主 Matrix67</a><style="text-align:start;" style="white-space: normal; text-align: start;">、</style="text-align:start;"><a href="http://liqi.io/liubin" target="_blank">联合国粮农组织职员刘斌</a><style="text-align:start;" style="white-space: normal; text-align: start;">等</style="text-align:start;">
+</p>
+<p style="text-align:start;">
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="21740">
+				<span data-id="21740">利器</span>
+			</li>
+			<li class="tag item" data-id="901">
+				<span data-id="901">工作</span>
+			</li>
+			<li class="tag item" data-id="320">
+				<span data-id="320">应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20388" data-title="《新年工作利器推荐，这里有15个靠谱的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20388/medium/20388.jpg?1452261527" data-url="http://www.qdaily.com/mobile/articles/20388.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19249.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19249/medium/19249.jpg?1450319391" alt="盖茨又来荐书了，今年他推荐的是哪几本？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">盖茨又来荐书了，今年他推荐的是哪几本？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">391</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26746.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26746/medium/26746.jpg?1463032218" alt="">
+                        <h1 class="title">他给“世界音乐”做经纪，所以这做的到底是什么音乐？ | 100个有想法的人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26752.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26752/medium/26752.jpg?1463036482" alt="">
+                        <h1 class="title">《刺客信条》发布预告片，法鲨在中世纪街头跑酷</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26761.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26761/medium/26761.jpg?1463043128" alt="">
+                        <h1 class="title">又来了一家电动汽车公司，也用了伟人的名字</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26755.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26755/medium/26755.jpg?1463042885" alt="">
+                        <h1 class="title">“乐观看待问题”？现在有研究说这可能不是好事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26701.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26701/medium/26701.jpg?1462951738" alt="">
+                        <h1 class="title">作为一个气味设计师，她到底如何为客户工作？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20388">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20388" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">453</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20646.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>关于生活，“我想所有人都应该有这种好玩儿的心态”_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="关于生活，“我想所有人都应该有这种好玩儿的心态”。在南非设计大会上走红的英国艺术家与你分享他的灵感之源。好奇心日报为您呈现关于生活，“我想所有人都应该有这种好玩儿的心态”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Coolhunting 艺术 幽默感 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="CDGQU44MuJBPnlZd0dEhOfY8zVPXLnIGEdu6f7ev9Po=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="8351">
+				<span data-id="8351">幽默感</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">关于生活，“我想所有人都应该有这种好玩儿的心态”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Cajsa Carlson</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-01 09:41:13 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7900/medium/7900.jpg?1436694678" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7900" data-title="《关于生活，“我想所有人都应该有这种好玩儿的心态”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7900/medium/7900.jpg?1436694678" data-url="http://www.qdaily.com/mobile/articles/7900.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				在南非设计大会上走红的英国艺术家与你分享他的灵感之源
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	<a href="http://www.coolhunting.com/culture/dominic-wilcox-indaba-2015" target="_blank" style="background-color:#FFFFFF;"><em>本</em><em>文</em></a><em>由 Coolhunting 授权《好奇心日报》发布，即使我们允许了也不许转载。&nbsp;</em> 
+</p>
+<p class="p1">
+	在上个月在南非开普敦举办的 2015 年南非设计大会（<a href="http://www.coolhunting.com/tag/Design%20Indaba%202015" style="background-color:#FFFFFF;"><span class="s2">Design Indaba 2015</span></a>）上，英国艺术家多米尼克·威尔考克斯（<a href="http://dominicwilcox.com/%22%20%5Ct%20%22_blank" style="background-color:#FFFFFF;"><span class="s2">Dominic Wilcox</span></a>）幽默而又吸引人的演讲引发了场上最多的欢笑，同时也让在场的人感到敬畏和惊奇。在他从台上下来以后，人们的热情仍未退却，他的图书签售仪式被挤了个水泄不通。
+</p>
+<p class="p1">
+	威尔考克斯来自英国东北部的桑德兰，他的大量作品涵盖范围很广，而且很让人着迷。他最迷人的作品就是手表穹顶（<a href="http://dominicwilcox.com/portfolio/watch-sculptures/%22%20%5Ct%20%22_blank" style="background-color:#FFFFFF;"><span class="s2">watch domes</span></a>），而这也是他的最爱之一。威尔考克斯当时想，手表的指针能不能支撑住小型雕塑呢？于是他开始检验自己的这个想法。最终完成的作品成为了贯穿他作品中的活泼风格的典型。
+</p>
+<p class="p1">
+	它们中有一个雕塑，体现的是一个男人站在分针上双臂抱胸，（一个小时又一个小时地）拒绝握站在时针上的另外一个人的手。而在另一个雕塑里一个小孩藏在一棵树后，当指针相遇的时候，另一个小孩就会跑过那棵树。
+</p>
+<p class="p1">
+	<img src="/uploads/image/201503/5c5e7c6b9134.jpg" alt="" /> 
+</p>
+<p class="p4">
+	<span class="s1">威尔考克斯的许多作品都有着幽默的角度，而且颠覆性地体现了日常生活中的一些事物，把它们变成了人们意料之外的艺术作品。</span> 
+</p>
+<p class="p4">
+	<span class="s1">“我发现，带着好玩儿的心态找灵感很有用，”威尔考克斯对 Cool Hunting 说，“当你发现一个灵感以后，它还能再让你高兴一把。我想所有人都应该有这种好玩儿的心态，在创意的第一阶段尤其如此。无论什么领域，最好都能打开思路，让脑洞大开，别禁锢它们。有时候你会不由自主地想：‘它是干什么的？它的卖点在哪里？’而这就把思维限制住了。我会努力保持思想的开放，不断扩展我的思路。好玩儿、开放的思路、冒险、自由地犯错，随你怎么说，就是这样。”</span> 
+</p>
+<p class="p4">
+	<span class="s1">这种工作方法带来的是真正的快乐，以及非同寻常的作品。比如<a href="http://dominicwilcox.com/portfolio/finger-nose-stylus/"><span class="s3">鼻子触控笔</span></a>，就是一个装在你鼻子上的设备，从而让你在上厕所的时候也能点手机屏幕。和他大多数的艺术作品一样，制作它用的材料都是最贴合这个项目需求的——这个触控笔就是用粘土和弹性材料做的。威尔考克斯并不是任何一种材料或者技术的专家，恰恰相反，决定用什么材料的，是每一个创意。“我的很多作品都是在日常用品的基础上创作的，我极少用奢侈的材料来做东西，”他说。但这并不意味着他的作品就不美。</span> 
+</p>
+<p class="p4">
+	<span class="s1">在去年的<a href="http://coolhunting.com/tag/London%20Design%20Festival"><span class="s3">伦敦设计艺术节</span></a>上，威尔考克斯为 </span><span class="s4">Dezeen and Mini Frontiers </span><span class="s1">打造了一辆不需要司机的汽车。这个概念展望了在 2059 年，道路将会变得非常安全，所以汽车可以用玻璃制成。最终完成的作品，是一辆用彩色玻璃做成的、效果震撼的汽车，在其教堂风的内饰里，还放了一张床。“我喜欢做一些视觉上震撼的东西，但也同时对概念性的东西很感兴趣。这辆汽车就是两者的结合，它的背后有着很强烈的思想和逻辑——未来是超级安全的，那为什么不能有用玻璃造的车呢？有的人可能会认为这很荒唐，但为什么不能荒唐一把呢？”</span> 
+</p>
+<p class="p4">
+	<span class="s1"><img src="/uploads/image/201503/ce2a089e4c5f.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p4">
+	<span class="s1">威尔考克斯古怪而又让人赞叹的艺术作品最吸引人的地方，在于它让观众用一种新的视角去观察了日常事物。在他的作品中，有用牙刷做成的衣钩，而且他还创作了“罐中之声（</span><span class="s4">binaudios</span><span class="s1">）”，让人们通过这个听觉望远镜，听到城市里一些地方的声音。“构成作品的基本材料，比如牙刷、汽车、鞋，都是很好的起点，因为所有人都知道它们是什么，这也是为什么我会拿日常用品来创作：因为我们已经明白了自己在说什么。有了这个共同的理解之后，我就能扭曲它，我就有希望把它变成给人惊喜的、有创意的东西。我认为，通过这些日常用品，我的作品和每个观众都建立了某种联系，”威尔考克斯解释说。</span> 
+</p>
+<p class="p4">
+	<span class="s1"><img src="/uploads/image/201503/491d19720326.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p4">
+	<span class="s1">也并非威尔考克斯的所有想法都最终成了成形的艺术作品，还有一些还停留在他的速写簿里。这些纸面上的创意都收在了他去年出版的《日常的变形（<a href="http://dominicwilcox.com/the-book/%22%20%5Ct%20%22_blank"><span class="s2">Variations on Normal</span></a>）》一书中。这本书里有着各种各样的想法，其中包括一张既能当棺材、又能当工作台的桌子，它是给那些“努力工作了一辈子然后死去的人”做的。还有一款可以戴在婚戒旁边的标识性戒指，上面写着“哇，看呐，多棒的戒指啊”，它是用来吸引别人对你的婚戒的注意的。现在，他的一个和残障人士相关的概念还在草拟阶段。之所以要做这个项目，是因为有一位对他的创意很感兴趣的残障人士联系到了他。“从之前那些荒诞而又具有挑战性的创意开始，这个项目就是一个我的作品给人以启发的例证，能帮助残障人士，我感到非常高兴，”威尔考克斯最后说。</span> 
+</p>
+<p class="p4">
+	<span class="s1"><img src="/uploads/image/201503/59e077fdd661.jpg" alt="" /><br />
+</span> 
+</p>
+<p class="p4">
+	<span class="s1">可以<a href="http://dominicwilcox.com/"><span class="s3">点击这里</span></a>看看多米尼克</span><span class="s4">·</span><span class="s1">威尔考克斯风格各异的作品，并到他的在线作品集里购买指定作品。</span> 
+</p>
+<p class="p3">
+	<span class="s1"><i></i></span> 
+</p>
+<p class="p4">
+	<br />
+</p>
+<p class="p4">
+	翻译&nbsp;is译社&nbsp;葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="7">
+				<span data-id="7">艺术</span>
+			</li>
+			<li class="tag item" data-id="8351">
+				<span data-id="8351">幽默感</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7900" data-title="《关于生活，“我想所有人都应该有这种好玩儿的心态”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7900/medium/7900.jpg?1436694678" data-url="http://www.qdaily.com/mobile/articles/7900.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25091.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25091/medium/25091.jpg?1459994181" alt="">
+                        <h1 class="title">乐视想借助经典歌曲《睡在我上铺的兄弟》的魔力打造一个超级 IP，结果呢？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25109.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25109/medium/25109.jpg?1460006212" alt="">
+                        <h1 class="title">真的教堂消失以后，他在遗址上用金属丝网再造了一个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25118.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25118/medium/25118.gif?1460018862" alt="">
+                        <h1 class="title">带你徒手爬上 75 层摩天大楼，像是匡威会做的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25103.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25103/medium/25103.jpg?1460007267" alt="">
+                        <h1 class="title">H&amp;M 说它们对飞速扩张没有压力，还会继续激进</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25094.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25094/medium/25094.jpg?1459997112" alt="">
+                        <h1 class="title">「这世界」健身房里的难言之隐，全都藏在这 31 张名画里</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7900">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7900" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">74</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7975.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

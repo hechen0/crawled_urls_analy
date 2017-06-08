@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为什么扎克伯格的“人人都上网”计划在印度不太顺利？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为什么扎克伯格的“人人都上网”计划在印度不太顺利？。不管是水土不服还是不够“接地气”，Facebook 都还有很长的路要走。。好奇心日报为您呈现为什么扎克伯格的“人人都上网”计划在印度不太顺利？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="互联 印度 智能手机 纽约时报 Facebook Mark Zuckerberg " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="y6HvZnWwWr12AvTCBtfIRhyHoUZgSGD1E3QtOcEKGP8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="10260">
+				<span data-id="10260">互联</span>
+			</li>
+			<li class="tag item" data-id="1362">
+				<span data-id="1362">印度</span>
+			</li>
+			<li class="tag item" data-id="238">
+				<span data-id="238">智能手机</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="9400">
+				<span data-id="9400">Mark Zuckerberg</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为什么扎克伯格的“人人都上网”计划在印度不太顺利？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Vindu Goel</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-28 13:07:56 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/16707/medium/16707.jpg?1446004847" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16707" data-title="《为什么扎克伯格的“人人都上网”计划在印度不太顺利？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16707/medium/16707.jpg?1446004847" data-url="http://www.qdaily.com/mobile/articles/16707.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				不管是水土不服还是不够“接地气”，Facebook 都还有很长的路要走。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	印度孟买电 - 如果<a href="http://topics.nytimes.com/top/reference/timestopics/people/z/mark_e_zuckerberg/index.html?inline=nyt-per">马克·扎克伯格（Mark Zuckerberg）</a>希望实现“给&nbsp;40&nbsp;亿未能上网的人带去互联网”这一愿景，这位&nbsp;<a href="http://topics.nytimes.com/top/news/business/companies/facebook_inc/index.html?inline=nyt-org">Facebook</a>&nbsp;总裁首先必须让他的计划在&nbsp;Shoaib Khan&nbsp;这样的销售商面前显得更有吸引力才行。
+</p>
+<p>
+	Khan&nbsp;的香水和手机店开在这个城市的某座贫民窟之中，最近店铺后方挂上了一大张蓝色横幅广告，上面印着扎克伯格的名为&nbsp;Internet.org&nbsp;的项目。另一张宣传&nbsp;<a href="http://topics.nytimes.com/top/news/business/companies/facebook_inc/index.html?inline=nyt-org">Facebook</a>&nbsp;通过印度本土手机运营商&nbsp;Reliance Communications&nbsp;提供的<a href="http://www.rcom.co.in/rcom/personal/internet/internet-org.html">免费网络套餐</a>的海报，则被醒目地张贴在了店铺前方。
+</p>
+<p>
+	但当被记者问到关于 Internet.org&nbsp;的体验时，Khan&nbsp;先生却表示他对其一无所知。在向他详细解释过这个项目之后，他立刻给予了否定。
+</p>
+<p>
+	“Reliance 的网络极不畅通，”Khan&nbsp;先生摇着头说。“我真的需要很努力地推销才会有人买。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/7703e0920b98.jpg" width="675" height="450" title="“Reliance 的网络极不畅通，”在他开在印度孟买的香水和手机店里，Shoaib Khan 说道。“我真的需要很努力地推销才会有人买。”图片来源：Asmita Parelkar 供稿《纽约时报》" alt="“Reliance 的网络极不畅通，”在他开在印度孟买的香水和手机店里，Shoaib Khan 说道。“我真的需要很努力地推销才会有人买。”图片来源：Asmita Parelkar 供稿《纽约时报》" /><span><em>“Reliance 的网络极不畅通，”在他开在印度孟买的香水和手机店里，Shoaib Khan 说道。“我真的需要很努力地推销才会有人买。”图片来源：Asmita Parelkar 供稿《纽约时报》</em></span> 
+</p>
+<p>
+	自从 Facebook&nbsp;在二月<a href="http://www.facebook.com/zuck/posts/10101899223817041:0">将&nbsp;Internet.org&nbsp;带到印度</a>之后，事情进展得并不顺利，这表明，良好的愿望和高端的技术，都还不足以实现“人人互联”这样的崇高目标。
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	Khan 等手机销售商的质疑，还有 Facebook 印度合作伙伴的不给力，仅仅是目前为止扎克伯格这个项目面临的两个难题。
+</p>
+<p>
+	为了最大程度节省数据流量和手机公司开支，Internet.org 免费服务中的新闻类文章和健康及招聘方面的资讯都是精简过的，此外还涵盖了一个纯文字版的 Facebook。Facebook 声称，该项目的首要目标，是让人们了解互联网究竟是怎么一回事儿。但是很多印度人却想要更多，并抱怨这个项目仅仅是为了让他们登上Facebook 然后签下 Reliance 的收费套餐，而这明显和项目声称的无私主张背道而驰。
+</p>
+<p>
+	互联网活动人士也抨击了 Facebook, 指责其为了扩张自己的后花园，对合作伙伴挑挑拣拣，而不是更直接地为整个互联网提供少量的免费接入。他们的担忧触动到了印度政府的神经，后者正在考虑设立新规定来管理类似的免费服务。
+</p>
+<p>
+	扎克伯格多次拒绝谈论&nbsp;<a href="http://internet.org/">Internet.org</a>，但他对这场东征运动依旧充满激情。“互联网接入应该被视为人权和人的潜能的有力推动力，”他<a href="http://www.facebook.com/un.news.centre/videos/10153252006166872/?__mref=message_bubble">在上个月这样告诉联合国</a>。
+</p>
+<p>
+	Internet.org 的整套服务在上个月被重新包装为 Free Basics（免费/自由的基础），目前已进入从印度尼西亚到巴拿马等在内的 25 个国家。Facebook 也正大力投资该项目的其他部分，包括<a href="http://bits.blogs.nytimes.com/2015/10/25/facebook-strives-to-bring-cheap-wi-fi-to-rural-india-2/">向偏远村庄提供廉价 Wi-Fi</a>&nbsp;和利用高空飞行的无人机<a href="http://www.nytimes.com/2015/07/31/technology/facebook-drone-project-is-a-step-closer-to-flight.html">发送网络服务信号</a>。
+</p>
+<p>
+	扎克伯格也同样下定了决心赢得印度消费者。上个月，在 Facebook 位于硅谷的总部，他和印度总理纳伦德拉·莫迪（Narendra Modi）进行了一场现场直播的对谈。而这周，他又会在新德里<a href="http://www.facebook.com/qawithmark/posts/1005365439521231:0">接受来自 1.3 亿印度 Facebook 用户的提问</a>。
+</p>
+<p>
+	在八月，一位记者前往达拉维（Dharavi） 这个住着孟买百万计穷人的贫民窟的时候，就已经观察到了这个项目的前路之艰巨。
+</p>
+<p>
+	一些 Freenet（Reliance 版本的 Internet.org）的广告牌在此处树立。但在街区的羊肠小道里，人们穿着凉鞋踩在未经处理的污水中，似乎都未对其有所留意。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/f82d4809fe56.jpg" width="315" height="210" title="上个月在 Facebook 位于硅谷的总部，Facebook 总裁扎克伯格（右）举办了一场现场直播的对谈，对话方为印度总理莫迪（左）。图片来源：Max Whittaker 供稿《纽约时报》" alt="上个月在 Facebook 位于硅谷的总部，Facebook 总裁扎克伯格（右）举办了一场现场直播的对谈，对话方为印度总理莫迪（左）。图片来源：Max Whittaker 供稿《纽约时报》" /><span>上个月在 Facebook 位于硅谷的总部，Facebook 总裁扎克伯格（右）举办了一场现场直播的对谈，对话方为印度总理莫迪（左）。图片来源：Max Whittaker 供稿《纽约时报》</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在一间茶馆和十多个手机用户交流后，记者发现，根本没有人听说过 Freenet 或Internet.org, 但是针对 Reliance 的不满却不少，比如相比市场领导者 Airtel 和沃达丰 （Vodafone），它家网络实在缓慢，客户服务也够糟糕。
+</p>
+<p>
+	在附近的雅虎手机商城（Yahoo Mobilewala）、一家以向美国互联网公司致敬而命名的手机店里，店主 Rizwan Khan 提供所有主要运营商的产品。但他的那一叠装在印着“免费Facebook”的蓝色 Freenet 信封里的 Reliance 手机卡，却都只静静躺在橱窗里吸着灰尘。
+</p>
+<p>
+	在<a href="http://topics.nytimes.com/top/news/international/countriesandterritories/india/index.html?inline=nyt-geo">印度</a>，多数移动网络服务都是预付费的。顾客一般购买一张手机卡（SIM卡）或者给卡充值，通常一次会充 1 美元的数据流量或通话时长。手机卡销售商充当着关键顾问的角色，向人们解释店铺中各种商品。
+</p>
+<p>
+	“新顾客都不是冲着 Freenet 来的,” Khan 说，他并不是前文中的 Shoaib Khan。“即使 Reliance 的网络很好，但它的套餐却不包含 WhatsApp，这个 Facebook 旗下的热门通讯应用，而且用户如果想看到他们 Facebook 页面上图片的话，还得另外付费，”他说。“如果你需要为流量付钱的话，又何必称它是免费的？”
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/1b464471fa91.jpg" width="600" height="400" title="印度北阿坎德邦（Uttarakhand）纳伦德拉纳加尔（Narendra Nagar）商业区的话费充值站。在印度，多数移动网络服务都是预付费的。图片来源：Poulomi Basu供稿《纽约时报》" alt="印度北阿坎德邦（Uttarakhand）纳伦德拉纳加尔（Narendra Nagar）商业区的话费充值站。在印度，多数移动网络服务都是预付费的。图片来源：Poulomi Basu供稿《纽约时报》" /><span>印度北阿坎德邦（Uttarakhand）纳伦德拉纳加尔（Narendra Nagar）商业区的话费充值站。在印度，多数移动网络服务都是预付费的。图片来源：Poulomi Basu供稿《纽约时报》</span> 
+</p>
+<p>
+	手机卡销售商也倾向于推销最能让他们赚钱的产品。Khan 称，另一家运营商最近提供给他一个奖励计划，如果他为该运营商签下 1000 名用户的话，就可以得到一辆英雄摩托车或 4.5 万卢比（近 700 美元）。而 Reliance 没有任何类似的举措。
+</p>
+<p>
+</p>
+<p>
+	在孟买贫民窟里访问了二十多个人之后记者发现，有几个人尝试过 Internet.org，但仅有一人属于固定用户——一个 23 岁的青年称他在账户的预付话费用完后，通常会使用应用中免费的 Facebook Messenger 和朋友聊天。
+</p>
+<p>
+	Chris Daniels 是 Facebook 中负责 Internet.org 项目的高管，他表示，公司主要在尝试去吸引完全没有用过互联网的人群。
+</p>
+<p>
+	在上周的一个采访中，Daniels 称，在印度约有 100 万人由于这个项目而初次接触到互联网。他表示，在这些人开始上网的 30 天后，40%的人变成了付钱使用流量的用户，5%的人继续使用免费服务，而其余的人则选择了离开。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“这是一个致力于把人们带到网上来的项目，而且运行得特别好，”Daniels 说。“联结性是提高生活水平的东西。它能帮助人们更容易找到工作、改善自身健康状况，并提高自身以及下一代的教育水平。”
+</p>
+<p>
+	Reliance 的消费者业务部主管&nbsp;Gurdeep Singh&nbsp;为公司的网络质量做了辩解，但同时也承认，为了提升&nbsp;Freenet&nbsp;的知名度和说服零售商对其进行推销，公司还有很多事情要做。
+</p>
+<p>
+	“这是一个缓慢的过程，”在达拉维几英里外、该公司位于新孟买（Navi Mumbai）的庞大园区里，Singh&nbsp;接受了采访。“我们正在和数字文盲进行大战。”
+</p>
+<p>
+	根据 Reliance&nbsp;的调研，36%的手机卡销售商自身都没有配置能够上网的手机，这让他们难以胜任该理念推广人这一角色。
+</p>
+<p>
+	但 Singh&nbsp;又表达了&nbsp;Reliance&nbsp;对于&nbsp;Freenet&nbsp;的执着。Freenet&nbsp;最初只覆盖了全印七个邦，但即将被推广到全国。“印度正处于必须让每个人都能够访问互联网的阶段，”他说。
+</p>
+<p>
+	虽然这是一个无数人共同拥有的目标，Facebook&nbsp;为之努力的方式却遭到了互联网倡导者们的诟病，后者认为，这是全球最大的社交网络在试图成为新一代用户的“网络把关员”。
+</p>
+<p>
+	“在开放的互联网上，人人都是平等的，” Nikhil Pahwa&nbsp;说。他是印度新闻网站MediaNama&nbsp;的编辑和发布者，也是&nbsp;Internet.org&nbsp;的高声反对者。“在&nbsp;Internet.org, Facebook&nbsp;就是那个幕后主谋。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/5a29fa976494.jpg" width="600" height="400" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+	<span>手机运营商 Reliance Communications 和 Facebook 搭档，将 Internet.org 以Freenet 之名引进印度。图片来源：Asmita Parelkar供稿《纽约时报》</span> 
+</p>
+<p>
+</p>
+<p>
+	Pahwa 协助组织过一场<a href="http://blog.savetheinternet.in/">名为“拯救互联网”的活动</a>，以关闭&nbsp;Internet.org 和制定保护<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/n/net_neutrality/index.html?inline=nyt-classifier">网络中立性</a>的法规为诉求，召集了 100 万印度人向监管机构施加压力。这一原则在<a href="http://bits.blogs.nytimes.com/2015/06/12/new-internet-regulations-take-effect-and-web-users-see-no-change/">美国</a>和<a href="http://www.nytimes.com/2015/07/01/business/international/eu-roaming-charges-net-neutrality.html">欧洲</a>也引发过<a href="http://topics.nytimes.com/top/reference/timestopics/subjects/n/net_neutrality/index.html?8qa">激烈辩论</a>，它主张所有网络供应商赋予用户获取一切内容的平等权利。
+</p>
+<p>
+</p>
+<p>
+	印度电信监管局还在酝酿可能出台的法规。然而在一次近期的采访中，监管局主席 Ram Sewak Sharma&nbsp;对&nbsp;Internet.org&nbsp;表达了质疑。“他们或许有美好的目标，但执行方式却并不合适，”他说。
+</p>
+<p>
+	Daniels 声称，Facebook&nbsp;一直在聆听批评，并对&nbsp;Internet.org&nbsp;做出了很多调整，包括把平台向所有希望在上面提供免费服务的公司开放。“我们永远感激反馈，不论它们以何种形式而来，”他说。
+</p>
+<p>
+	<span>翻译 &nbsp;</span><span>is</span><span>译社 </span><span>Ariel Yang</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="10260">
+				<span data-id="10260">互联</span>
+			</li>
+			<li class="tag item" data-id="1362">
+				<span data-id="1362">印度</span>
+			</li>
+			<li class="tag item" data-id="238">
+				<span data-id="238">智能手机</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="9400">
+				<span data-id="9400">Mark Zuckerberg</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16707" data-title="《为什么扎克伯格的“人人都上网”计划在印度不太顺利？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16707/medium/16707.jpg?1446004847" data-url="http://www.qdaily.com/mobile/articles/16707.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16011.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16011/medium/16011.jpg?1444709377" alt="瀑布流广告效果不错，Facebook 推出购物功能">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">瀑布流广告效果不错，Facebook 推出购物功能</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">34</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16082.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16082/medium/16082.jpg?1444797630" alt="为了把广告卖得更好，Facebook 开始植入视频广告了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">为了把广告卖得更好，Facebook 开始植入视频广告了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">11</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26315.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26315/medium/26315.jpg?1462240634" alt="">
+                        <h1 class="title">看看英超新冠军，中国资本家不如再想想到底什么才是正确的投资</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26309.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26309/medium/26309.jpg?1462226685" alt="">
+                        <h1 class="title">太古地产发布财报，这也是内地零售和商业地产的写照</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26313.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26313/medium/26313.jpg?1462236826" alt="">
+                        <h1 class="title">澳大利亚企业家说是他创造了比特币，但质疑声依然存在</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26295.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26295/medium/26295.jpg?1462180067" alt="">
+                        <h1 class="title">讨论魏则西事件，不要打错板子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26312.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26312/medium/26312.jpg?1462235833" alt="">
+                        <h1 class="title">「票房」为什么四月总是每年最残酷的时候？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="16707">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="16707" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">5</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/16671.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

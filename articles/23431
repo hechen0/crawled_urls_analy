@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>总在说无人机立法，各国目前究竟是怎么管它的？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="总在说无人机立法，各国目前究竟是怎么管它的？。立法都还很初级，但厂商已经行动起来。好奇心日报为您呈现总在说无人机立法，各国目前究竟是怎么管它的？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="无人机 大疆 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="xNj4gKJVaM6/tD7qYhYC2uDFK5U9X4SJcU7V96MVMOc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="6558">
+				<span data-id="6558">大疆</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">总在说无人机立法，各国目前究竟是怎么管它的？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/497022/small/497022.jpg?1456799915" alt="">
+					</span>
+				<span class="name">马若飞 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-08 18:42:14 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23431/medium/23431.jpg?1457345245" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23431" data-title="《总在说无人机立法，各国目前究竟是怎么管它的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23431/medium/23431.jpg?1457345245" data-url="http://www.qdaily.com/mobile/articles/23431.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				立法都还很初级，但厂商已经行动起来
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>你可能一天也见不到一架无人机，但已经有人提议要把无人机管起来了。</p><p>一位参与两会的代表就建议<a href="http://www.legaldaily.com.cn/bm/content/2016-03/07/content_6512849.htm?node=20735">将无人机监管列入民用航空法的监管</a>，加快建立相关法律和政策。</p><p class="">目前不管中国、美国，关于无人机都还只有一些暂行规定，而没有正式法规。遇到需要驱散无人机的时候，也是什么方法都来，从水枪、网索，乃至老鹰<a href="http://www.qdaily.com/articles/21774.html">都被用了上来</a>。</p><h2>技术上，管无人机比管普通飞机还容易</h2><p>民用无人机已经逐渐向傻瓜化和玩具化演进。</p><p>要说原来飞个无人机航拍一下还算极客，今天已经和玩游戏区别不太大。<br></p><p class="">比如卖得最好的大疆，早就是手机解决一切问题。同时飞行中为了避免操控事故，它也会利用 GPS 获得的数据干预飞行。<br></p><p>目前在安全和监管领域走得最远的消费级无人机厂商同样是大疆。大疆精灵系列无人机内置了一个最高优先级的安全策略：基于地理信息的禁飞区。因为精灵系列高度依赖 GPS 定位来完成稳定飞行，所以只要无人机处在禁飞区之内就完全无法起飞。<br></p><p>类似的功能方便了无人机飞行的监管，基本杜绝了它们出现在不该出现的空域。至于不该出现的空域有多少？还挺多。</p><h2>中国大陆</h2><p>2009 年以来，民航部门出台过以下相关文件，包括《关于民用无人机管理有关问题的暂行规定》、《民用无人机适航管理工作会议纪要》、《民用无人机空中交通管理办法》、《民用无人驾驶航空器系统驾驶员管理暂行规定》等等。</p><p>按照最新颁布的《轻小无人机运行规定（试行）》的规定，将空机重量小于等于 116 千克、起飞全重不大于 150 千克，校正空速不超过 100 千米/每小时的无人机受此规定管理——基本上所有个人和中小企业可能购买的无人机都限制在内。</p><p>规定包括了一些类似酒驾的规定，比如无人机驾驶员不得在酒后、药物作用下驾驶，禁止鲁莽飞行。</p><p>也有一些技术规范，比如无人机须具有有效的空地信号链路、机身上需要注明个人信息方便失踪时回收。</p><p>规定还包括，无人机在视距外飞行时，必须为有人航空器让路。所以无人机在中国的一个基本限制就是机场。你可以从大疆这张图看到，华北地区一个又一个蓝色的标识，每个都是机场所在：</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/7a518a38c725.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">两会期间，北京及周边广袤的禁飞区。 图片来自大疆安全飞行指南。</div></figcaption></figure></div><p>在军用和民用机场、敏感设施等周边，具有卫星导航功能的大疆无人机是无法起飞的。</p><p>而最敏感的北京地区，六环以内都禁止无人机起飞。在某些特殊时间（比如现在），这个范围甚至可以扩展到北京周边数百公里。</p><h2>美国</h2><p>美国现在的情况更复杂一些。因为美国的低空空域是开放给私人飞机，所以 10000 英尺（约 3000 米）以下的区域中的通用航空非常繁荣。无人机随时有可能与小型有人飞机冲突。</p><p>在美国，全国范围的无人机管理规则理论上由联邦航空管理局（FAA）制定，但各个州可以有相关的法律法规。目前，FAA 没有出台成型的无人机管理法律，仅建议飞行器的飞行高度最好不要超过 400 英尺（约 122 米），远离周边空中障碍物，不得离开操控者肉眼视线范围。</p><p>去年，FAA 出台了一个规定，<a href="http://www.cnbc.com/2016/02/23/unregistered-drone-users-may-face-jail-time.html">要求无人机使用者必须在一个专门网站上注册</a>，并将个人信息粘贴在无人机机身上，以保证在飞机失控或受控侵入他人领地时，可以追踪到使用者。</p><p>而美国交通部官员表示，这也是为了让无人机使用者养成负责任的文化。这一规定实际上将无人机使用者与传统的小型飞机驾驶员需要负担的责任等同，不执行注册规定将面临高达 25 万美元的联邦刑事处罚和 3 年的监禁。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/0100b42f09e3.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">华盛顿特区上空以罗纳德·里根机场为圆心的禁飞区。</div></figcaption></figure></div><p>Google 和亚马逊等科技公司也在 FAA 推动一个新的无人机法规，这个法规将有条件地允许无人机从闹市和人群上空飞过，这将为英特尔等公司推出消费级无人机相关产品铺平道路。</p><p>另外，不得飞越敏感地区和设施，不得飞进机场附近，不要干扰其他飞行器等规定和中国类似。但有一个特别的禁令，为了保护游人和动物的安全，美国国家公园管理局规定 401 个国家公园境内禁止未经审批的无人机飞行活动。</p><p>以上这些规定仅限于个人进行的消费级无人机飞行，在美国，目前所有的商用无人机飞行都属违法。</p><h2>日本</h2><p>在 2015 年 12 月 以前，日本对无人机的管理较为宽松，仅规定无人机的飞行高度需低于 150 米，至少距离机场 9 公里，在农业生产中使用的无人驾驶飞机需要两个操作员。</p><p>2015 年 12 月，受到一系列无人机侵入事件的影响，日本政府修改法律，禁止无人机在人口密集的地区、机场附近、敏感地区、体育场等人口密集建筑上空飞行，另外，禁止无人机在夜间飞行。</p><p><a href="http://www.qdaily.com/articles/19012.html">日本东京大都会警察局为一些重要的场所配备了一种“捕猎”的无人机</a>，可以用网兜直接捕获非法飞行的无人机。非法飞行的无人机驾驶员将面临 50 万日元的罚款（约合 29000 元人民币）。</p><p>题图来自 exposingtruth.com</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1283">
+				<span data-id="1283">无人机</span>
+			</li>
+			<li class="tag item" data-id="6558">
+				<span data-id="6558">大疆</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23431" data-title="《总在说无人机立法，各国目前究竟是怎么管它的？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23431/medium/23431.jpg?1457345245" data-url="http://www.qdaily.com/mobile/articles/23431.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25555.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25555/medium/25555.jpg?1460741386" alt="">
+                        <h1 class="title">一篇偷窥狂报道，马上就要变成斯皮尔伯格和门德斯的电影</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25535.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="">
+                        <h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25529.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25529/medium/25529.JPG?1460696772" alt="">
+                        <h1 class="title">「这世界」有人开了家普京主题咖啡馆，充满了俄罗斯式的爱国主义</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23431">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23431" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">47</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/23487.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

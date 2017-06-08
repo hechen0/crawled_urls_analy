@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道。苹果公布了 2015 年的销售数字。好奇心日报为您呈现iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 iPhone iPad Pro 苹果 库克 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="9C/9C9/U/aGwoRel8lfwUs5eCPSzxlv6KSgpvPD3opw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3/small/3.jpg?1399382800" alt="">
+					</span>
+				<span class="name">黄俊杰 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-27 08:51:04 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/21340/medium/21340.jpg?1453818981" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21340" data-title="《iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21340/medium/21340.jpg?1453853994" data-url="http://www.qdaily.com/mobile/articles/21340.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				苹果公布了 2015 年的销售数字
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>原《华尔街日报》记者尤加利·凯恩的《闹鬼的帝国：乔布斯之后的苹果》 （Haunted Empire: Apple After Steve Jobs）摆上货架已经差不多两年。</p><p><a href="http://www.macrumors.com/2014/03/18/cook-haunted-empire-nonsense/">和那本书刚出来的时候不同</a>，蒂姆·库克现在已经不再需要解释说公司没衰落，数字说明了一切。
+</p>
+<p>
+	今天早上，苹果发布了 2015 年最后 3 个月的财务报告。在 iPhone 6s 系列的带动下，苹果在 2015 年最后 3 个月卖掉了 7477 万部 iPhone，与一年前 iPhone 6 发售后的表现几乎相同。</p><p>与此同时，苹果的收入也到了历史最高点，10 - 12 月单利润额就到了 184 亿美元，比 Google 此前一整年的数字还要高。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/1c337ede1f08.jpg" width="1080" height="608" title="苹果公司销售额变化 2008 - 2015" alt="苹果公司销售额变化 2008 - 2015"> 
+</p>
+<p>
+</p>
+<p>
+	iPhone 6 是苹果第一次推出大屏幕手机，吸引了许多因为屏幕太小而拒绝 iPhone 的用户。</p><p>6s 卖到相同的数字说明 iPhone 靠大屏幕吸引到用户以后，还能留住他们。
+</p>
+<p>更难的是，苹果没有像小米、三星之类的公司一样下调价格，还能卖掉这么多 iPhone：
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/401b946fd8a1.jpg" width="1080" height="608" title="苹果每年卖多少 iPhone？2008 - 2015" alt="苹果每年卖多少 iPhone？2008 - 2015"> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/7e1f42987b3a.jpg" width="1080" height="608" title="平均下来，一部 iPhone 卖多少钱？" alt="平均下来，一部 iPhone 卖多少钱？"> 
+</p>
+<p>
+</p>
+<p>
+	接任苹果四年后，库克领导下的苹果稳住了曾因大屏幕而受 Android 手机挑战的 iPhone。
+</p>
+<h2>
+	iPhone 还不会被取代
+</h2>
+<p>
+	iPhone 的竞争产品从未像今天这般便宜。你花不到 1/4 的价钱就能买到一部功能上和 iPhone 差距不大的 Android 手机。
+</p>
+<p>同时，iPhone 的领先地位也从未像今天这般牢靠。定位高端的三星、索尼衰落后，取而代之的中国手机品牌如华为、小米，卖出的主要还是低端机型。这说明原本愿意花四五千买一部 Android 或者黑莓的用户，现在大多选择了 iPhone。
+</p>
+<p>
+	根据<a href="http://www.qdaily.com/articles/21114.html">应用市场分析公司 App Annie 的数据</a>，2015 年一年，苹果应用商店的下载量只有 Google 的 1/2，但收入却比后者多了 75%——二者的收入差距比一年前反倒更大了。
+</p>
+<p>
+	下载量和收入的反差意味着软件公司为 iPhone 开发应用，可以在服务更少用户、支持更少机型的情况下带来更多收入，这让 iPhone 成了第三方应用、服务的首选。
+</p>
+<p>
+	智能手机是比个人电脑更个人的电脑，24/7 伴随每个人左右。选手机，买品牌、设计领先，应用质量最高的 iPhone，只需要一次多投入三四千元而已。这和不同档次汽车的差价完全不可相比。
+</p>
+<p>
+	同样因为 24 小时不离手，智能手机可能是许多人想省钱时最不愿意缩水的一个东西。
+</p>
+<p>
+	如果说服装、背包还可以靠不同的设计选择来吸引不同人群。手机厂商想这么做就非常难了。</p><p>原本靠选择不同穿着风格宣扬不同身份的两个人，很可能用同样的手机，只是一个旅行要用 Airbnb 住别人家，另一个习惯<span>打开洲际或者喜达屋的应用查看附近有什么酒店适合自己的积分计划。</span>彰显个性在手机上更多由应用而决定，而非那块长方形屏幕边上的细微差异。
+</p>
+<p>
+	三星失败后，现在 Android 厂商都<a href="http://www.qdaily.com/articles/15540.html" target="_blank">陷入了价格战</a>，没有一个公司可以卖好 iPhone 同价位的手机——在愿意花高价买手机的人群里，iPhone 今天<a href="http://www.qdaily.com/articles/13990.html">没有</a><a href="http://www.qdaily.com/articles/15646.html">任何</a><a href="http://www.qdaily.com/articles/16695.html">竞争</a><a href="http://www.qdaily.com/articles/16695.html">产品</a>。
+</p>
+<h2>
+	但 iPhone 增长到了天花板，整个苹果也一样
+</h2>
+<p>iPhone 不太可能被 Android 手机取代，但它也不会每个季度越卖越多了。
+</p>
+<p>
+	iPhone 6s 的销售情况已经没有苹果早先规划得那么好。</p><p>在苹果发布财报之前，主要收入来自为 iPhone 6s 生产零部件的公司比如 Qorvo、Dialog Semi、Cirrus、Avago、Skyworks <a href="http://www.reuters.com/article/us-cirrus-logic-results-idUSKBN0UL2KB20160107">全都调低了收入预期</a>，大部分比早先预计的要低一成以上。
+</p>
+<p>根据 <a href="http://www.gartner.com/newsroom/id/3115517">Gartner 的最新报告</a>，全球智能手机销量增长是两年来的最低点，不到 5%。在驱动 iPhone 增长的中国，中国<a href="http://www.cnnic.cn/gywm/xwzx/rdxw/2015/201601/W020160122639198410766.pdf">超过 90%</a> 的互联网用户都已经在用智能手机。
+</p>
+<p>
+	接下来新上网的用户更多来自不发达地区。智能手机将改变他们的生活，但这主要不会是 iPhone 的生意。</p><p>只要苹果不放弃利润率推出更便宜的 iPhone、只要贫富分布没有太大改变、大多数人换手机的频率没有缩短到一年一次，iPhone 的增长已经到头。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/1a4ed1d769a0.jpg" width="1080" height="608" title="苹果的收入有多少靠 iPhone？" alt="苹果的收入有多少靠 iPhone？"> 
+</p>
+<p>
+</p>
+<p>
+	随着 iPhone 在苹果收入中所占比例越来越高，iPhone 销售额停滞意味着整个苹果的收入也到了天花板。
+</p>
+<p>
+	今天随苹果销售数字公布的，还有苹果自己对 2016 年前三月公司销售额的预期——500 亿到 530 亿美元。2015 年的第一季度，苹果的收入是 580 亿美元。这意味着整个苹果公司的收入增长也到了头。
+</p>
+<p>
+	财报发布后的电话营收会议里，苹果首席财务官 Luca Maestri 说，苹果感觉到全球经济环境带来了“非常不同”的影响。在驱动苹果过去两年增长的中国，特别是香港市场，苹果看到了势头“减弱（softness）”的迹象。
+</p>
+<p>
+	找到下一个像 iPhone 一样为苹果带来更多收入的新市场，是库克 2015 年在做的事。
+</p>
+<h2>
+	2015 年，库克的每一个新产品都在试图重复 iPhone 的成功
+</h2>
+<p>
+	2015 年，是库克接管苹果以来推出新品最多的一年，推出了三款全新的产品：
+</p>
+<ul>
+	<li>
+		4 月，Apple Watch 开售，首次使用 Force Touch 触控屏；
+	</li>
+	<li>
+		10 月，Apple TV 4 开售，首次使用触控遥控器，采用 tvOS 操作系统；
+	</li>
+	<li>
+		11 月，iPad Pro 开售，采用 iOS 9 操作系统。
+	</li>
+</ul>
+<p>
+	Apple TV 4 和 iPad Pro 各是苹果已有产品线的延续，但又都和早先的产品完全不同。Apple TV 4 第一次将应用商店带进苹果的电视盒子，它的遥控器也为应用和游戏重新设计。
+</p>
+<p>
+	iPad Pro 则是第一个采用与笔记本电脑同等尺寸屏幕的 iPad。苹果不再谈论电脑和手机中间的设备，而说这是“苹果关于未来个人电脑的最清晰想象”。
+</p>
+<p>
+	Apple Watch 基本就是库克的 iPhone。在 30 年前发布 Mac 的 Flint Center，库克说 Apple Watch 是三样东西的结合——<a href="http://www.qdaily.com/articles/2350.html">一如当年乔布斯介绍初代 iPhone</a>。
+</p>
+<p>
+	苹果没有发明智能手机，iPhone 之前手机已经是一个相当普及的东西，甚至智能手机也是诺基亚、黑莓、微软从 2000 年前后开始推向市场的产品。
+</p>
+<p>
+	但 iPhone 是第一个足够好用，好用到每个人都能接受的智能手机，靠手指触控的玻璃屏幕和应用商店。iPhone 最终和稍晚推出的 Android 智能手机改变了整个手机市场。
+</p>
+<p>
+	现在库克要做同样的事。Apple Watch、Apple TV 4、iPad Pro 都是在用新的交互方式和应用商店改造已有的产品——手表、机顶盒、个人电脑。
+</p>
+<h2>
+	重复 iPhone 的成功，需要苹果学会不同的东西
+</h2>
+<p>
+	2015 年最后几天，美国科技博客 Gizmodo 年度回顾系列里关于苹果的那篇标题叫<a href="http://gizmodo.com/everything-apple-introduced-this-year-kinda-sucked-1749308570" target="_blank">《苹果今年推出的东西都挺差的》<em>（Everything Apple Introduced This Year Kinda Sucked）</em></a>。
+</p>
+<p>
+	对着苹果的财报看几款新品的表现，情况确实差不多。Apple Watch 销售数字和耳机、配件、Apple TV 混在一起，知名的独立苹果分析师 Asymco 根据公布数字估算苹果卖了 550 万只表。
+</p>
+<p>
+	<a href="http://www.qdaily.com/articles/12450.html">《好奇心日报》半年前这篇文章</a>的判断依然没有改变——以今天苹果的市场地位来衡量，第一代 Apple Watch 卖得不够好。发售几个月后，你在香港、日本街头，乃至美国最大的科技展会 CES 上，都极少能看到 Apple Watch。中国可能是它唯一卖得好的地区。
+</p>
+<p>
+	至于关乎 iPad 未来的 iPad Pro，销量也不会太好。</p><p>根据苹果今天公布的数字，iPad 在 2015 年最后 3 个月里卖了 1610 万部，比一年前少了 25%。
+</p>
+<p>苹果没公布 iPad Pro 的具体数字。但它所占比例不会高——<span>iPad Pro 最便宜也要 799 美元，而</span>&nbsp;iPad 的平均售价只有 468 美元，只比一年前多一成而已。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/234302cfc6fa.jpg" width="1080" height="608" title="过去三年，iPad 越卖越少了" alt="过去三年，iPad 越卖越少了"><span>过去两年，iPad 越卖越少了</span> 
+</p>
+<p>
+</p>
+<p>
+	iPhone 之前，智能手机只是比普通手机功能更多、能安装应用的手机。而 iPhone 不一样。
+</p>
+<p>
+	2007 年 iPhone 发售后不久，黑莓创始人迈克·拉扎里迪斯（Mike Lazaridis）<a href="http://www.qdaily.com/cards/20066.html">拆了一部以后说</a>：“他们把 Mac 放了进去”。
+</p>
+<p>
+	iPhone 是一部被缩小到手机尺寸的个人电脑，为了让它好用，苹果引入了应用商店，和适合小屏幕的多点触控交互方式。
+</p>
+<p>
+	苹果遇到的问题是，“重新发明”手表、电视、个人电脑需要为它们做得更多，而不只是像现在这样，给手表和电视遥控器加上触控屏和应用商店。
+</p>
+<p>
+	以手表为例，抬手看一下手表听上去很美，但 Apple Watch 没有聪明到你抬手就一定能看到自己想看的东西。而抬手点屏幕意味着你需要双手在用手表——这比手机更不方便。最终，将近半数 Apple Watch 用户<a href="http://www.qdaily.com/articles/18911.html">都用鼻子戳过表盘</a>。
+</p>
+<p>
+	Apple TV 接上四五十英寸的电视以后，最重要功能也不再是安装游戏或者苹果自己演示的电视购物应用，而是看视频内容。毕竟，大多数人买电视还是为了看电视电影。但苹果的内容打包计划在<a href="http://www.qdaily.com/articles/14360.html">断断续续谈了 6 年以后</a>再次推迟——这还只是美国这一个市场而已，每个市场都需要拿到不同的版权。
+</p>
+<p>
+	甚至在操控上最接近智能手机的 iPad Pro 也不顺利，因为苹果 App Store 原本主推的低价或者免费下载的应用商业模式<a href="http://www.qdaily.com/articles/21004.html">不能适应它需要拉拢的专业软件</a>。
+</p>
+<p>
+	库克想改造的每一个新产品都需要苹果学会新的技能：
+</p>
+<ul>
+	<li>
+		Apple Watch，让手表更聪明地判断用户现在的需求、将点屏幕这件事降低到最少，不管是更好的 Siri 还是自动预测你需要的信息。这需要人工智能的突破，也是 Google 更擅长的事；
+	</li>
+	<li>
+		Apple TV，建立一个按月付费的电视套餐、通过自制剧和第三方版权占据客厅。这需要更好的谈判能力和内容创作，Netflix 和亚马逊走在苹果前面；
+	</li>
+	<li>
+		iPad Pro，一个适应专业开发者需求的生态圈——<a href="http://www.qdaily.com/articles/21004.html">支持更多软件的商业模式</a>、不再切断软件开发者与用户的联系。一直以来，微软都做得更好。
+	</li>
+</ul>
+<p>
+	这还不包括<a href="http://www.qdaily.com/articles/11790.html">正在进行中的</a>苹果汽车。苹果 2016 年能不能在 iPhone 以外的市场有所突破，就看它能不能在库克的带领下学会点新东西了。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<em>Top 15 包括：</em><em>苹果、<a href="http://www.qdaily.com/articles/19623.html" target="_blank">Google</a>、百度、阿里巴巴、腾讯、<a href="http://www.qdaily.com/articles/20798.html" target="_blank">亚马逊</a>、<a href="http://www.qdaily.com/articles/19530.html" target="_blank">迪士尼</a>、<a href="http://www.qdaily.com/articles/20747.html" target="_blank">麦当劳</a>、星巴克、耐克、小米、<a href="http://www.qdaily.com/articles/20367.html" target="_blank">宜家</a>、优衣库、万达和万科。</em><em></em><em>这个名单会随着公司经营、市场和趋势的变化而变化。</em><em></em><em>我们会关注它们，也会关注它们的竞争对手和合作伙伴。</em> 
+</p>
+<p>
+	<em>关于我们为什么要设定 Top 15 报道计划，<a href="http://qdaily.com/display/articles/4591" target="_blank">请点击这里</a>。</em> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="9523">
+				<span data-id="9523">iPad Pro</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="957">
+				<span data-id="957">库克</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21340" data-title="《iPhone 增长到头，苹果接下来得学点新东西了 | Top 15 年度报道》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21340/medium/21340.jpg?1453853994" data-url="http://www.qdaily.com/mobile/articles/21340.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/21004.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/21004/medium/21004.jpg?1453270130" alt="苹果能不能再重新发明一次个人电脑？接下来就看这个人了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">苹果能不能再重新发明一次个人电脑？接下来就看这个人了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">41</span>
+				<span class="iconfont icon-heart">285</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19623.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/19623/medium/19623.jpg?1450887432" alt="Google 能摆脱路径依赖，不只做一个广告公司么？ | Top 15 年度报道">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">Google 能摆脱路径依赖，不只做一个广告公司么？ | Top 15 年度报道</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">18</span>
+				<span class="iconfont icon-heart">253</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11790.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/11790/medium/11790.jpeg?1436636699" alt="如果苹果真的去做 Apple Car，会带来一辆怎样的车？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">如果苹果真的去做 Apple Car，会带来一辆怎样的车？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">47</span>
+				<span class="iconfont icon-heart">401</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20798.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/20798/medium/20798.jpg?1452915401" alt="以“一键”著称的亚马逊，在中国想靠海淘重生还是太慢了 | Top 15 年度报道">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">以“一键”著称的亚马逊，在中国想靠海淘重生还是太慢了 | Top 15 年度报道</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">56</span>
+				<span class="iconfont icon-heart">390</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27048.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27048/medium/27048.jpg?1463625301" alt="">
+                        <h1 class="title">Nike 与切尔西签十年期合约，以及，星巴克配色球鞋不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27056.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27056/medium/27056.jpg?1463628315" alt="">
+                        <h1 class="title">一本中东本土诞生的男性时尚杂志，会关心什么内容？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27066.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27066/medium/27066.jpg?1463634723" alt="">
+                        <h1 class="title">「这世界」这个人怎么可以在地铁上看这么污的书！</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27047.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27047/medium/27047.jpg?1463620016" alt="">
+                        <h1 class="title">今日娱乐：科林·费斯回归《王牌特工 2》，DC换Logo</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27063.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27063/medium/27063.jpg?1463630012" alt="">
+                        <h1 class="title">小米要去美国卖盒子了，说要卖给米粉</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27072.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27072/medium/27072.jpg?1463636731" alt="">
+                        <h1 class="title">全美国精酿啤酒品牌联合起来，推出了一款啤酒</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27067.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27067/medium/27067.jpg?1463633134" alt="">
+                        <h1 class="title">2016威尼斯建筑双年展下周揭幕，7个主题你值得关心</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21340">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21340" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">408</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21205.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>这里有一些社交平台发状态雷区，你中枪了吗？_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="这里有一些社交平台发状态雷区，你中枪了吗？。满脑子只想着 show off、没有给看状态的人一点益处是一条状态的失败之魂。。好奇心日报为您呈现这里有一些社交平台发状态雷区，你中枪了吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心研究所 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="9Bnmp3Uv4wRybsvEILi0ztRETtm5TCGIRa4PohC6R+Y=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="3">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/3.html" class="category black clearfix x25" data-id="3">
+			<img class="black" src="/system/categories/iconblacks/3/medium/3.png?1411569578" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">这里有一些社交平台发状态雷区，你中枪了吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112316/small/112316.JPG?1442220004" alt="">
+					</span>
+				<span class="name">罗芊 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-04 17:00:33 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23287/medium/23287.gif?1457027858" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23287" data-title="《这里有一些社交平台发状态雷区，你中枪了吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23287/medium/23287.gif?1457027858" data-url="http://www.qdaily.com/mobile/articles/23287.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				满脑子只想着 show off、没有给看状态的人一点益处是一条状态的失败之魂。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p align="left" class=""><span style="text-align: justify;">好奇心研究所的微博（@好奇心研究所）和微信公众号（ID：QLab42）全面上线啦，关</span><span style="text-align: justify;">注就可以与所长亲密接触。</span></p><p align="left"><a href="http://waitbutwhy.com/">Wait but why</a> 曾经针对社交网络上讨人厌的状态做过一次总结，他们发现，社交网络上发状态最大的禁忌就是缺少服务精神。满脑子只想着 show off、没有给看状态的人一点益处（哪怕看完一句哈哈哈都没有）是一条状态的失败之魂。</p><p align="left">如果将一个人共发出的所有状态比作两个圆，服务于自己的状态是一个红色的大圆，服务于别人的状态是一个蓝色的小圆，那么下图红色圆的左边部分（Region A），都是无意义状态，对看状态的人而言是一种视觉噪音。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/7ae98a9596ad.jpg" alt="">
+</figure></div><p align="left">通常，一条令人愉悦的状态会走以下两种路线：</p><p align="left">干货路线，有信息增量/提升逼格。</p><p align="left">活泼路线，有趣/猎奇/令人放松/具有很强的娱乐性。</p><p align="left">既没有信息增量又寡淡无味的社交状态通常离不开以下几种动机：</p><p align="left"><span style="text-align: justify;">P 图成瘾——作者想影响人们对她的印象和判断，比如，把不怎么好看的自己 P 成 5 个当红明星脸的集大成。</span></p><p align="left">自恋——作者的思想、观点和人生观强行植入。</p><p align="left">注意力渴求——作者迫切希望吸引注意，仿佛一个闪耀着七彩跑马灯的高分贝山寨机。</p><p align="left">嫉妒诱发——作者想让人们嫉妒 TA 的生活。</p><p align="left">孤独——这是最糟糕的动机，因为感到孤独，所以传播悲伤，本质上是一种负能量的宣泄。</p><p align="left">这些动机会引发以下七种发状态的高能雷区，请大家务必提高警惕，管住自己的手指：</p><h2>花式炫耀大法</h2><p align="left">社交网络上总是有人过度展示自己生活，吃东西，秀，喝东西，秀，买东西，秀，人生何处都是秀。花式炫耀大法又细分为三种技法。</p><ul><li><span style="text-align: justify;"><b>我活得最闪耀型</b></span></li></ul><p align="left">症状：这类状态每个字都在闪耀着“我是世界上最懂生活的人儿”、“我最幸福”、“你们都来羡慕我吧”的浓烈气息，不管是拿到了梦寐以求的 offer、顺利毕业、搬新家啦好棒这种历史性时刻，还是这趟旅行好开心、小长假就要到啦、和朋友 high 了一整晚这种平常小事，都是他们源源不绝的素材库。</p><p align="left">举几个栗子：</p><p align="left">猜猜谁拿到了清华的录取通知书！！！</p><p align="left">在丽江！</p><p align="left">晚上和老孙、老邓、李胖、玛丽一起玩桌游，我爱周六。</p><ul><li><span style="text-align: justify;"><b>小心机型</b></span><br></li></ul><p align="left">症状：表面是不经意的抱怨，实质上是满满的咆哮体炫耀。<span style="text-align: justify;">比如：</span></p><p align="left">博士为啥不让喝酒？那我活着有什么意思！</p><p align="left">整个暑假（7-8 月）都在外面旅行，家里的房子空着又租不出去好烦。</p><p align="left">下班回家路上有两个男的冲我吹口哨、三个男的冲我鸣喇叭、还有一个男的一直盯着我看差点出车祸，你说这些男的怎么那么讨厌！</p><ul><li><span style="text-align: justify;"><b>我们超恩爱型</b></span><br></li></ul><p align="left">症状：高调披露感情状态的种种（尤其是良好的情感沟通），简称秀恩爱。<span style="text-align: justify;">比如：</span></p><p align="left">一言不发忽然打包带我去马尔代夫，这样的男友哪里找？</p><p align="left">啊！琳达，遇见你的这一年是我生命中最美的一年！</p><p align="left">下雨天，电影和老婆更配哦。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/d8228c7d749a.gif" alt="">
+</figure></div><h2>制造神秘大法</h2><p align="left">这种状态尤其喜欢说一些让人猜不透的内容，比如：</p><p align="left">“就是它！约会最爱！”</p><p align="left">“今天是个大日子~”</p><p align="left">“这一刻，我觉得所有的苦和累都是值得的。”</p><p align="left">“啊哈哈哈哈哈哈哈。”</p><p align="left">通常，作为一个路人 or 比路人更亲近的某人走上前评论“怎么啦”“为什么”“笑什么”时，你会遇见一下情况：</p><p align="left">如果对方是个知名人士，你的评论就那么静静的躺在评论区，他们是不会回复你的，你永远也猜不到是啥；</p><p align="left">如果是个接地气的调皮鬼，你可能会在评论区看见他的自问自答；</p><p align="left">当然，你也有可能收到一些鸡肋回复，比如“没什么事”“就不告诉你”。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/673608bb70ea.gif" alt="">
+</figure></div><h2>流水账大法</h2><p align="left">症状：真实详细而寡淡地播报每天的日常。比如：</p><p align="left">现在离开体育馆去上阅读课啦；</p><p align="left">吃饺子！</p><p align="left">终于写完论文了。</p><p align="left">如图所示，你发的所有状态是一个大圆，那么你妈关心的只有绿色圆圈那么大，非常要好的朋友关心的只有橙色那么大，你所有的网友关心的（呵呵）只有那个红点那么大。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/103aeaf4a1f5.jpg" alt="">
+</figure></div><p align="left">点评：没有人每天关心你吃了芝麻还是绿豆，要有趣。</p><h2>喇叭大法</h2><p align="left">症状：有些人容易把社交平台当成日记写，把那些“只想对某个人说的话”说给全世界听。比如：</p><p align="left">“不是假的假的好想你，是真的真的很想你；”</p><p align="left">“还想跟你一起去吃那家日料”</p><p align="left">……</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/ca551fa905fa.gif" alt="">
+</figure></div><div class="com-insert-images"></div><h2>奥斯卡颁奖礼大法</h2><p align="left">症状：这种状态的主人仿佛拥有无尽的爱无处安放，你不知道他发状态在感恩些什么，也不知道感慨从何而来，那种荣誉感和使命感就像刚刚参加完奥斯卡颁奖礼。</p><p align="left">举个栗子：</p><p align="left">感谢我生命中出现过的所有人，你们的支持意味着一切，在过去的一年里，没有你们，我也不可能得到这么多！</p><p align="left">读到这条状态的你的心理活动：好莫名的就被感谢了。也搞不懂感谢谁啊？为啥不发邮件？为啥不直接私聊？为什么？啊？</p><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201603/a3630a153454.gif" alt="" class="">
+</figure></div><h2><span style="font-family: 'Open Sans', sans-serif; font-size: 22px; font-weight: bold; line-height: 30px; background-color: transparent;">老梗大法</span></h2><p align="left">症状：这是一群老梗资深玩家，一个梗可以来来回回玩一年。可以让你第一千次看到：</p><p align="left">爱上一匹野马，家里没有草原；</p><p align="left">如果你想要制造羁绊，就得承受流泪的风险；</p><p align="left">心疼小李子；</p><p align="left">……</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/9a75ad47e5da.gif" alt="">
+</figure></div><h2>名人名言大法</h2><p align="left">症状：习惯性摘抄名人名言，享受不劳而获的快感。比如说：</p><p align="left">“一个人的生命是应该这样度过的，当他回首往事的时候，他不会因虚度年华而悔恨，也不会因碌碌无为而羞耻。”</p><p align="left">“精诚所至金石为开”</p><p align="left">“今天很残酷，明天更残酷，后天很美好，但是绝大多数人死在明天晚上，见不着后天的太阳。”</p><p align="left">……</p><p align="left">或许，你是属手抄本的吧。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/2314182b661d.gif" alt="">
+</figure></div><p align="left">最后，应该如何发一些不让人讨厌的状态？</p><p align="left">走干货路线的你可以用自身专业优势分享技能：<span style="text-align: justify;">如何花最少的钱买最棒的翻墙产品；</span><span style="text-align: justify;">如何省时省力地在日本自由行中浪的飞起；</span><span style="text-align: justify;">如何用科学的办法搞定托福雅思……</span></p><p align="left">走有趣路线的你可以提出会让人一边发笑一边思考的内容。</p><p align="left"><span style="text-align: justify;">若是肚里没货、脑回路又不够清奇，那就，不发。</span></p><p align="left" class=""><span style="text-align: justify;">不用谢。</span></p><p><a href="http://waitbutwhy.com/2013/07/7-ways-to-be-insufferable-on-facebook.html"><i>如果你想看到画风更清奇的报告原文，可以戳这里。</i></a></p><p>题图来自：<a href="http://giphy.com/">giphy </a></p><p>图片来源：<a href="http://waitbutwhy.com/">Wait but why</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23287" data-title="《这里有一些社交平台发状态雷区，你中枪了吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23287/medium/23287.gif?1457027858" data-url="http://www.qdaily.com/mobile/articles/23287.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/papers/844.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/844/indexLargePc2/844.jpg?1456730660" alt="你无法忍受哪种社交网络刷存在感做法？">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/1/medium/1.png?1451033329" alt="投票">
+            </p>
+            <div class="count" data-publishDate="2016-03-03 01:00:38 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">6819</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">你无法忍受哪种社交网络刷存在感做法？</h1>
+                <p class="description">狂刷，然后自称小透明。（题图来自：dreamstime）</p>
+            </div>
+        </div>
+    </a>
+
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/23167.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/23167/medium/23167.jpg?1456912725" alt="你们大人说话，套路太多，爱太少 | 好奇心研究所">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">你们大人说话，套路太多，爱太少 | 好奇心研究所</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">11</span>
+				<span class="iconfont icon-heart">310</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20988.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/20988/medium/20988.jpg?1454251080" alt="人们到底为什么要在社交媒体上“发吃”？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/5/medium/5.png?1433891553" alt="城市">
+				<span>城市</span>
+		</p>
+		<h1 class="title">人们到底为什么要在社交媒体上“发吃”？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">6</span>
+				<span class="iconfont icon-heart">146</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23287">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23287" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">383</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/23315.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

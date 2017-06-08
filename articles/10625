@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uber 花重金，只为在中国立足_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Uber 花重金，只为在中国立足。“中国的市场和城市管理者非常关注自己城市的发展，这种关注程度超过我到过的任何地方，这让我感到非常乐观。”。好奇心日报为您呈现Uber 花重金，只为在中国立足的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 市场 Uber " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="/XLCo1foZOXLLxpIg1a3vDlkyV8YEaF7IIgMwdqiyd4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">Uber 花重金，只为在中国立足</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Paul Mozur and Mike Isaac</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-13 08:26:32 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/10625/medium/10625.jpg?1433903728" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10625" data-title="《Uber 花重金，只为在中国立足》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10625/medium/10625.jpg?1436646981" data-url="http://www.qdaily.com/mobile/articles/10625.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“中国的市场和城市管理者非常关注自己城市的发展，这种关注程度超过我到过的任何地方，这让我感到非常乐观。”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	香港电 - 为了敲开中国市场的大门，Uber 在中国花钱的速度已经快到危险的地步——它付给司机的补贴甚至比司机拉活挣的钱还多。
+</p>
+<p>
+	<span>Uber </span><span>这家总部位于旧金山的公司坐拥几乎 </span><span>60 </span><span>亿美元的巨额风投资金，正在把最高达到车费 3 倍的补贴发给司机，为的就是在中国也达到像在美国那样优异的市场成长表现。</span> 
+</p>
+<p>
+	<span>到目前为止，它的策略都是有效的，击碎了人们普遍的假设，那就是年轻的美国科技公司无法和本地的竞争对手相抗衡。</span> 
+</p>
+<p>
+	<span>像撒钱一样的花钱速度已经吸引了一大群像 Jacky 一样的司机，他在一家国际通讯公司担任系统分析师，最近开始在上海开着他的福特嘉年华当 Uber 司机赚外快。5 月末 Uber 说，它已经在过去的一个月里在中国创造了超过 60000 个工作岗位，而它的服务的盛行也引发了一些出租车司机的抗议。</span> 
+</p>
+<p>
+	<span>“</span><span>这是让我赚外快的绝好机会，</span><span>”34 </span><span>岁的 </span><span>Jacky </span><span>说。因为是在向记者透露关于 Uber 的内部信息，他拒绝说出自己的全名。</span> 
+</p>
+<p>
+	<span>尽管其他叫车服务也会给司机发补贴，但 Jacky 说，Uber 给的是最多的。在 5 月的前三周里，他从 Uber 那里赚到的钱大约相当于 1000 美元——这几乎是他在通讯公司 2100 美元月薪的一半——而他当 Uber 司机所赚到的收入中最主要的部分就是补贴。</span> 
+</p>
+<p>
+	<span>中国市场的规模巨大，而它也一直阻隔着几乎每一家大型西方科技创业公司的进入。Uber 这家成立 5 年的公司，在全世界 <a href="http://newsroom.uber.com/2015/06/five-years-and-311-cities-later/"><span>58 个国家的 310 多个城市</span></a>都有业务，面对的是像<a href="http://www.nytimes.com/reuters/2015/05/22/technology/22reuters-china-taxi.html"><span>滴滴快的</span></a>这样土生土长的本地竞争对手，而这些对手已经占领了 90% 以上的叫车市场，而且它们还得到了中国最大的互联网公司阿里巴巴和腾讯的支持。它可能还必须和琢磨不定的中央政府周旋，而后者可能在一夜之间就将 Uber 封杀在中国市场之外。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201506/b2cfa84ba51b.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span>但受到 Uber 平均比出租车便宜至少 35% 的车费的吸引，再加上 Uber 的车一般情况下都比出租车更好，司机不仅会提供免费的水，而且一般也更有礼貌，相对富裕和有国际化眼光的中国人还是纷纷开始使用 Uber 的服务。</span> 
+</p>
+<p>
+	<span>据两位了解 Uber 内部数据的人士称，在中国，</span><span>Uber </span><span>每天的使用量超过 </span><span>10 </span><span>万次。（他们拒绝署名，因为这个数据是保密的。）Uber 说，去年 12 月全世界使用 Uber 的次数一共达到 100 万次，所以中国目前的使用量大约占到了之前这个数字的十分之一。</span> 
+</p>
+<p>
+	<span>自 2014 年起，单单在中国内陆城市成都，Uber 就已经吸引了 20000 名司机，而 2011 年就有了 Uber 的纽约现在也只有 26000 名司机。Uber 的首席执行官特拉维斯·卡兰尼克（</span><span>Travis Kalanick</span><span>）正在<a href="http://dealbook.nytimes.com/2014/12/12/uber-said-to-be-near-investment-deal-with-baidu/?_r=0"><span>和中国互联网巨头百度展开合作</span></a>，并数次到访中国，上个月还跑了一趟到西南部的省会城市<a href="https://twitter.com/travisk/status/602798860033888257/photo/1"><span>贵阳</span></a>。</span> 
+</p>
+<p>
+	<span>“Uber </span><span>在一线城市做得非常好，这有点儿让人意外，</span><span>”</span><span>位于香港的工银国际分析师尤娜（音）说。“补贴造成了很不一样的结果。”</span> 
+</p>
+<p>
+	<span>Uber </span><span>的一位女发言人拒绝评价公司在中国业务的规模。Uber 正在和投资者协商，<a href="http://www.nytimes.com/2015/05/09/technology/uber-fund-raising-points-to-50-billion-valuation.html?_r=0"><span>再筹集 15 亿美元左右</span></a>，此次融资将会把它的估值定位到 500 亿美元。</span> 
+</p>
+<p>
+	<span>Uber </span><span>在中国依然面临着诸多障碍，这个市场竞争非常激烈，而且有时候监管也很奇怪。北京迈博瑞咨询公司（</span><span>Marbridge Consulting</span><span>）创始人马克·纳特金（</span><span>Mark Natkin</span><span>）说，中国人还是倾向于用中国品牌的服务，但有时候，用一个全球领先的品牌（比如 Uber）会有某种优越感。</span> 
+</p>
+<p>
+	<span>Uber </span><span>已经吸引了像李玉芳（音）这样的中国顾客。28 岁的她住在北京，是一家房地产开发商的员工，1 月份，她舍弃了其他叫车服务，转为使用 Uber。</span> 
+</p>
+<p>
+	<span>“</span><span>我喜欢 </span><span>Uber </span><span>的原因，是它的价格和出租车还有私家车相比，是真的很低，</span><span>”</span><span>李小姐说。</span> 
+</p>
+<p>
+	<span>在中国的社交媒体上有一些段子，说 Uber 提供的方便、自主选择的服务，可以让单身女性从中发现未来的配偶。这些段子已经被传播了好几遍。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>从北京官方的出租车里往外拍，该车的司机是一位 Uber 司机，而一些出租车司机已经在抗议 Uber 在中国的推广。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>Uber </span><span>是在 </span><span>2013 </span><span>年末在广州、深圳等中国南方城市启动试点，专注于提供让人们可以从有执照的专车公司叫车的服务。Uber 雇佣它觉得合适的当地人做经理、给他们权力来运营某个城市的业务，这和当时其他西方科技公司做事的方式有所不同。Uber 现在在 9 个中国城市开展了业务。</span> 
+</p>
+<p>
+	<span>Uber </span><span>在中国还采取了一种更加谨慎、合作的方式，而在别的国家，它会公然藐视政府。12 月，Uber 把自己的一部分股权卖给了百度，开始把它的服务直接内置到百度很受欢迎的地图应用里。最近，Uber 因为行事风格比 eBay 和亚马逊更像中国公司，而得到了一家大型中国互联网行业组织领导人的赞扬。</span> 
+</p>
+<p>
+	<span>但在 </span><span>10 </span><span>月份，</span><span>Uber </span><span>扩展的新服务却让它遭遇了可疑的监管。这个服务被戏谑地称为“人民优步”，它使用了马克思式语言，其实这项服务类似于 Uber 在其他地方的做法、让私家车司机注册来拉乘客赚钱。这一服务和像滴滴快的等公司提供的服务完全不同，后者的服务要么是让顾客直接叫出租车，要么是和私营豪华车公司合作，用高价提供高端车。</span> 
+</p>
+<p>
+	<span>Uber 还引来了地方政府对它的详细审察，因为司机们都没有营业执照。在过去的两个月里，成都和广州的地方当局都<a href="http://www.reuters.com/article/2015/05/07/us-uber-china-idUSKBN0NS08J20150507"><span>突击检查了 Uber 的办公室</span></a>，原因直指人民优步存疑的合法性。</span> 
+</p>
+<p>
+	<span>广州和成都的地方交通管理局都未予置评。在被突击检查时，Uber 说它正在和官方合作。人民优步目前仍在这两个城市运营。</span> 
+</p>
+<p>
+	<span>突击检查也引发了司机的抗议。上个月在成都，当一位 Uber 司机的车被查扣之后，数百名 Uber 司机怒斥当地交通警察。</span> 
+</p>
+<p>
+	<span>人民优步还引发了和滴滴快的的一场大战，它们上月也推出了自己的针对私家车司机的服务，名叫“快车”。几周后，滴滴快的宣布要花 10 亿人民币，以给乘客折扣、给司机奖励的方式补贴这个计划。</span> 
+</p>
+<p>
+	<span>“</span><span>我们欢迎所有的良性竞争，</span><span>”</span><span>滴滴快的总裁柳青在 5 月 22 日的一场媒体发布会上说，“这里是我们的主场，我们也特别热爱这个市场，想要确保它以健康、可持续、安全的方式发展。”</span> 
+</p>
+<p>
+	<span>对司机和乘客的双重奖励正在引发<a href="http://www.nytimes.com/2015/01/15/world/asia/taxi-strikes-spread-across-china.html"><span>出租车司机的不满</span></a>，这和 Uber 在其他国家所遇到的情况差不多。最近几周，天津的出租车司机已经在围攻私家车司机。</span> 
+</p>
+<p>
+	<span>一位女士的丈夫和公公在天津合开一辆出租车，她确认有抗议的事情，但拒绝署名。她说，像 Uber 这样的服务的流行已经让出租车司机每天的收入减少了大约三分之一。</span> 
+</p>
+<p>
+	<span>Uber </span><span>的另一个问题可能出在它自己的司机上。在阿里巴巴下属的商务网站淘宝上，有卖家在经营着一个快速膨胀的司机账号黑市，买家可以借此绕过 Uber 的司机背景核查。Jacky 也确认说，地方新闻媒体上报道的很多司机用假的乘客账号刷 Uber 乘车记录，以骗得公司的补贴。</span> 
+</p>
+<p>
+	<span>但 </span><span>Uber </span><span>并没有被吓倒。</span> 
+</p>
+<p>
+	<span>“</span>我们对中国市场特别乐观，<span>”</span>卡兰尼克上个月在中国时的一次演讲中说。“我到过很多城市，发现中国的市场和城市管理者非常关注自己城市的发展，这种关注程度超过我到过的任何地方，这让我感到非常乐观。”
+</p>
+<p>
+	<br />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3381">
+				<span data-id="3381">市场</span>
+			</li>
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10625" data-title="《Uber 花重金，只为在中国立足》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10625/medium/10625.jpg?1436646981" data-url="http://www.qdaily.com/mobile/articles/10625.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24830.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24830/medium/24830.jpg?1459441001" alt="">
+                        <h1 class="title">再见，建筑师扎哈·哈迪德</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24812.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24812/medium/24812.jpg?1459425542" alt="">
+                        <h1 class="title">朱莉娅·罗伯茨的新片，改编自出版仅一周的小说</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24834.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24834/medium/24834.jpg?1459460616" alt="">
+                        <h1 class="title">早饭吃点啥？吐司蘸啤酒……果酱</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24837.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24837/medium/24837.jpg?1459472668" alt="">
+                        <h1 class="title">刚去世的建筑师扎哈·哈迪德，在中国的项目都是啥？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24774.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24774/medium/24774.jpg?1459410470" alt="">
+                        <h1 class="title">从细条纹到牛仔夹克，来看新一季快时尚又给了什么诱惑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24835.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24835/medium/24835.jpeg?1459469952" alt="">
+                        <h1 class="title">大公司头条：苹果获模块化表带专利，京东免运费门槛变高了</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10625">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10625" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">146</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10740.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

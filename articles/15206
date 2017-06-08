@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>北京设计周周三开场，我们精选了 12 个项目随你逛_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="北京设计周周三开场，我们精选了 12 个项目随你逛。特别建议是，倒也不用非奔着一个展览去，走街串巷说不定就能发现意外惊喜。。好奇心日报为您呈现北京设计周周三开场，我们精选了 12 个项目随你逛的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="北京国际设计周 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="QYlx2nM9fZz5WW0iw5vyBwZi2Aq4oThtqBzyMSbo2pg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16327">
+				<span data-id="16327">北京国际设计周</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">北京设计周周三开场，我们精选了 12 个项目随你逛</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-09-22 16:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15206/medium/15206.jpg?1442816674" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15206" data-title="《北京设计周周三开场，我们精选了 12 个项目随你逛》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15206/medium/15206.jpg?1442816674" data-url="http://www.qdaily.com/mobile/articles/15206.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				特别建议是，倒也不用非奔着一个展览去，走街串巷说不定就能发现意外惊喜。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	每年北京设计周期间，都很想感慨京城的广阔。想要好好逛逛设计周，就得做好劳其筋骨的准备。有趣的展览和活动太多，遍布全城，如果时间有限，怎么逛？最值得一看的项目都在哪？
+</p>
+<p>
+	周三设计周就要开幕了，如果你想给中秋、十一假期找点乐子，看看《好奇心日报》精选的这 12 个项目，或许是比去长城、故宫或是颐和园找堵更妥当的选择。
+</p>
+<p>
+</p>
+<h4>
+	老城更新
+</h4>
+<p>
+	大栅栏是每年北京国际设计周的热点展区。今年的「设计之旅——大栅栏设计社区」将于 9 月 23 日在劝业场开幕，超过 120 个展览与活动将在周边 10 余条胡同的 70 多个地点展开。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/d866e731db73.jpg" width="690" height="460" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	「大栅栏更新计划」一直在关注旧城改造新模式的探索，这一次将在杨梅竹斜街 120 号的主展区集中呈现五年来的成果。除了理论及实践方式的研究，2013 年开始至今的“领航员项目”的部分落地实践项目比如“更生相续·花草堂”、谦虚旅舍以及内盒胡同也给胡同再利用提供了一种新的可能性。
+</p>
+<p>
+	此外，那些驻扎在大栅栏设计社区的商户们也将在设计周期间带来特别活动，比如铃木商店的纸塑艺术家鲁艺个展、Triple-Major 的五周年特别展览、夏木的“苎麻的剩余价值”邀请展等。而在位于樱桃胡同的天陶菜市场，大栅栏跨界中心还将带来开幕派对和“大栅栏市集——天陶菜市场系列”活动，以此为基地，将与多个独立设计、创意和专业市集平台合作，举办不同场次不同主题的市集活动。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 23 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：杨梅竹斜街、炭儿胡同、苕帚胡同、茶儿胡同和延寿街等</strong> 
+</p>
+<p>
+</p>
+<h4>
+	当代生活美学新中势
+</h4>
+<p>
+	位于廊坊二条的劝业场是大栅栏设计社区的另外一个主要展区。在此举办的「当代生活美学新中势」展览，集结近 10 年间在新中式美学探索再造过程中涌现出来的代表性设计师和艺术家，向观众展示个人对东方文化和生活方式的思考；两个展中展“新中势”和“再生活”在呈现新生设计力量的同时，也展现国内设计界在手艺新生、非遗保护方面的努力。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/d09be9c2e9f1.jpg" width="690" height="441" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>时间：2015 年 9 月 23 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：廊坊二条的劝业场</strong> 
+</p>
+<p>
+</p>
+<h4>
+	SELETTI wears TOILETPAPER 游击店
+</h4>
+<p>
+	米兰设计周期间玩得很酷的 SELETTI wears TOILETPAPER 游击店来北京了。今次，意大利设计家居潮牌 SELETTI 的中国品牌代表｛tales态思｝，将联合意大利《Toiletpaper》杂志与 So Far So Good 工作室，于北京颐堤港商场开设 SELETTI wears TOILETPAPER 系列的游击店。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/7d983e3d5028.jpg" width="538" height="294" title="4" alt="4" /> 
+</p>
+<p>
+</p>
+<p>
+	不管是 TOILETPAPER 的创意图案也好，产品中大量使用的搪瓷材质也好，都寄托着 Stefano Seletti 对 80 年代，尤其是 80 年代的中国的独特情感。此次中国游击店以“ 80 年代坏品味”为主题，活动期间店员将全部穿着复古 Disco 风格，现场充满免费 80 后怀旧零食如泡泡糖、棒棒冰，每日午间限时免费棉花糖。在 9 月 26 日下午还将举办“最坏品味着装”比赛，10 月 1 日亦有怀旧吹泡泡糖比赛等活动。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 25 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：颐堤港</strong> 
+</p>
+<p>
+</p>
+<h4>
+	好在生活艺术家居展
+</h4>
+<p>
+	这是提供原创生活的移动家居电商平台好在 HAOZAI 第一次来到北京设计周。他们将以「好东好西，好好在家」为主题，精选旗下代理的 20 多个海内外原创品牌和设计师产品，呈现一个创意十足、东西合璧的家。比如以自然原野植物为灵感，与年轻花艺艺术家合作创造的主客厅及餐室陈列，以及极具东方魅力的新中式书房及茶室等。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 25 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：颐堤港 LG 中庭</strong> 
+</p>
+<p>
+</p>
+<h4>
+	Jensen’s Garden 大型现场艺术装置展
+</h4>
+<p>
+	丹麦银器世家 Jensen’s Garden 品牌此番携手北京天安时间当代艺术中心，在北京古城中心玉河一号的老北京四合院带来 「Jensen’s&nbsp; Garden」大型现场装置艺术展，是设计周的主打项目之一。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/187d9e509b9a.jpg" width="486" height="302" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	展览开幕当天亦将举行设计主题论坛「从镀金时代到白银时代」，包括工业设计界当红明星 Marc Newson，以及中国设计界的张永和、马岩松、朱小地、刘家琨、胡如姍、Marsha Ma 等 12 位国内外设计领域深具影响力的人物将参与到主题讨论中。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 24 日至 10 月 25 日</strong> 
+</p>
+<p>
+	<strong>地点：东城区平安大街玉河 1 号</strong> 
+</p>
+<p>
+</p>
+<h4>
+	10x100——UED 十年百名建筑师展
+</h4>
+<p>
+	建筑杂志 UED 这次邀请了 100 位中国当代具有代表性的老中青三代建筑师，以他们的建筑项目为主要内容，通过图片、影像、模型等形式，展现他们对城市与建筑的思考与回应。在这里，你也许会发现过去 10 年中国城市建筑的演变。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 26 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：中华世纪坛</strong> 
+</p>
+<p>
+</p>
+<h4>
+	未来城市实验室－培蕴之屋
+</h4>
+<p>
+	在这个城市化的时代中，我们怎样才能够健康快乐在城市中生活？在北京设计周期间，荷兰驻华使馆将在大栅栏胡同区推出未来城市实验室－培蕴之屋，汇集来自中、荷两国的 20 余位设计师对于创建美好未来的灵思妙想，并推出系列展览、演讲、会议和活动，主推的四大活动包括“以少生多，携手并肩共创可持续城市未来”创新设计展览，联络城市、展望 2050 项目（9.24 13:00-16:30）以及两场培蕴之屋对话，时间分别在 9 月 25 日 12－17 点与 9 月 26 日 12－18 点。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 23 日至 10 月 31 日</strong> 
+</p>
+<p>
+	<strong>地点：大栅栏三井胡同 21 号、大外廊营胡同 8 号厂房&nbsp;</strong> 
+</p>
+<p>
+</p>
+<h4>
+	为孩子而设计的“玩耍实验室”
+</h4>
+<p>
+	过去六年里，宜家家居在全球 20 多个国家范围内做了涉及几万个家庭的“玩耍”调查，并制作了《玩耍报告》。这一次，宜家家居联合儿童设计分享平台“小星球”机构做了一个玩耍实验室，希望讲述为孩子设计时，看似轻巧实则更需周全的设计考虑，也希望可以通过展示这些不同寻常的考虑给成人关于玩耍与陪伴更好的认识。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 26 日至 10 月 6 日</strong> 
+</p>
+<p>
+	<strong>地点：751 北京时尚设计广场时尚回廊 3 层</strong> 
+</p>
+<p>
+</p>
+<h4>
+	一把好椅子
+</h4>
+<p>
+	去年北京设计周期间，我们就曾报道过由葡萄牙帕雷德斯市政厅发起的“椅子上的艺术”展览，今年有 6 个关于椅子的展览大概能满足你对于椅子的好奇心。
+</p>
+<p>
+	Frank Chou Design Studio（宸宸设计工作室）将带来 2015 家具设计新品中的一把 Kuan Chair，整体框架由简洁的金属结构组成，座面及靠背包覆着上乘的羊毛材质。
+</p>
+<p>
+	B TO B PROJECT 是 M² 上线的首个设计项目“十椅计划”的重要组成部分，这次将带来中国新生代设计师的作品的展示，同时发布“十椅计划”的正式启动，选出参与本次计划的设计师。
+</p>
+<p>
+	“为坐而设计”是中央美院主办的国际原创实物赛展，探讨人“坐”的行为、“坐”的方式、“坐”的环境、“坐”的文化、“坐”的审美等等，并举办回顾展展出历届参赛优秀作品及知名设计师邀请展作品。
+</p>
+<p>
+	另有不大不小的家具系列展与长九木家具展也都将展出椅子作品。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 25 日至 10 月 6 日</strong> 
+</p>
+<p>
+	<strong>地点：751 北京时尚设计广场</strong> 
+</p>
+<p>
+	在白塔寺的设计再生展上，造作将展出他们今年的椅子新品，用现代设计提出对当代生活方式的关切和再造。&nbsp;
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201509/4c2ba1168c61.jpg" width="1080" height="608" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	<strong>时间：2015 年 9 月 23 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：白塔寺东岔白塔寺菜场旧址</strong> 
+</p>
+<p>
+</p>
+<h4>
+	单车再设计
+</h4>
+<p>
+	当“慢生活”、“绿色出行”成为年轻人的生活方式新标杆，一批单车爱好者准备在设计周期间带动一股单车复兴新风潮，包括「城市面对面－诗意骑与行」、「城市自行车的转型」、「北京的自行车道－演讲和旅游」、「骑车救北京」、「竹子自行车工作室－动手动社区」以及「手工定制自行车」6 场活动将向我们展现这些又帅又酷的自行车是怎样再设计了我们的生活。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 23 日至 10 月 7 日</strong> 
+</p>
+<p>
+	<strong>地点：白塔寺东夹道 56 号、内务部街 27 号、宫门口西岔 4 号、阜成门内大街 313 号、宫门口头条 1 号</strong> 
+</p>
+<p>
+</p>
+<h4>
+	书与设计
+</h4>
+<p>
+	纸质书爱好者看这里。今年设计周期间关于书的展览不少，比如将于 9 月 25 日至 10 月 22 日在南锣鼓巷“敬人纸语”展出的「瑞士最美的书&amp;瑞士海报展」展览内容包括 2013－2014 年“瑞士最美书”大赛的获奖作品原作，评审团点评、获奖书籍的相关信息及精美的瑞士设计海报印刷原作，瑞士设计工作室 PrillVieceli Cremers 两位创始人 Piero Glina 和 Sebastian Cremers 还将利用“敬人纸语”的纸材、手工工坊和手工教室进行为期 3 天的 workshop（9.30－10.2）。
+</p>
+<p>
+	「德国最美书联展」展出的是德国国家级图书装帧设计赛事的作品。
+</p>
+<p>
+	纸本宣言则是由 WAI Think Tank、Geisel Cabrera 与陈昊联合策划的展览，展示发展于北京的独立非传统出版物。
+</p>
+<p>
+</p>
+<h4>
+	哎悠生活节
+</h4>
+<p>
+	有点远，但权当是给通州人民的福利啦。看名字比较抽象，但它实际上是个创意市集，也是青年艺术展，当成是美食嘉年华也行，总之是一场关于美好生活方式的博览会。整个生活节以艺术为主线，由移动美术馆、公共舞台以及中国城市生活美学市集三部分互相配合完成。
+</p>
+<p>
+	<strong>时间：2015 年 9 月 25－27 日</strong> 
+</p>
+<p>
+	<strong>地点：通州万达广场西门金街</strong> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="16327">
+				<span data-id="16327">北京国际设计周</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15206" data-title="《北京设计周周三开场，我们精选了 12 个项目随你逛》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15206/medium/15206.jpg?1442816674" data-url="http://www.qdaily.com/mobile/articles/15206.html?from=timeline&amp;isappinstalled=0" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2643.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/2643/medium/2643.jpg?1436653046" alt="「2014 北京国际设计周」巴塞罗那设计经典一“罐”打尽">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">「2014 北京国际设计周」巴塞罗那设计经典一“罐”打尽</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">19</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25514.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25514/medium/25514.jpg?1460683198" alt="">
+                        <h1 class="title">Dior销售大涨，以及，霉霉在VOGUE拍的大片不太像她｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25529.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25529/medium/25529.JPG?1460696772" alt="">
+                        <h1 class="title">「这世界」有人开了家普京主题咖啡馆，充满了俄罗斯式的爱国主义</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25528.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25528/medium/25528.jpg?1460695437" alt="">
+                        <h1 class="title">赚翻了的星球大战，正式在迪士尼乐园里开了主题区</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25533.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25533/medium/25533.jpg?1460696584" alt="">
+                        <h1 class="title">除了潮流、科技和明星，一双球鞋还可以有什么卖点？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15206">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15206" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">214</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/15261.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

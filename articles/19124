@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>你玩手机的时候会缩成一团吗？这可不光是健康问题_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="你玩手机的时候会缩成一团吗？这可不光是健康问题。设备越小，你在使用时身体就缩得越紧，而你的姿势越紧缩向内，你就越容易变得唯唯诺诺。。好奇心日报为您呈现你玩手机的时候会缩成一团吗？这可不光是健康问题的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 手机 健康 iHunch " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Db82ZiTObzTuCCXT/U5ZjyUkgJtKu5IK67rW0Z2va2o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="566">
+				<span data-id="566">手机</span>
+			</li>
+			<li class="tag item" data-id="277">
+				<span data-id="277">健康</span>
+			</li>
+			<li class="tag item" data-id="20460">
+				<span data-id="20460">iHunch</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">你玩手机的时候会缩成一团吗？这可不光是健康问题</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Amy Cuddy</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-16 19:20:19 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19124/medium/19124.jpg?1450169573" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19124" data-title="《你玩手机的时候会缩成一团吗？这可不光是健康问题》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19124/medium/19124.jpg?1450169573" data-url="http://www.qdaily.com/mobile/articles/19124.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				设备越小，你在使用时身体就缩得越紧，而你的姿势越紧缩向内，你就越容易变得唯唯诺诺。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	我们有充足的理由应该时不时把手机放下：频繁查看手机会让我们和当下的现实世界脱轨、打断全家人围坐在一起的晚餐时光。除此之外，你不该再盯着手机看的原因还有很多。但是，其中有一个原因你可能从来没有想到过：智能手机会对我们的形体姿态造成影响。而糟糕的形体姿态不仅会让我们的脖子发僵，还会在不知不觉中给我们造成心理上的伤害。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	如果你现在在公共场所，抬头看看四周吧：有多少人正弯腰驼背用着手机？科技正在逐渐改变我们的站姿坐姿，将我们的身体扭曲成了新西兰理疗师史蒂夫·奥古斯特（Steve August）所谓的“ iHunch ”状态——这是一种由手机引起的弯腰驼背症状，我也听到过有人把这叫做“短信脖”（text neck）。在工作中，我有时候将其称之为“ iPosture ”——手机姿势。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/332b630a8712.jpg" width="427" height="571" title="图片作者：Tim Lahan" alt="图片作者：Tim Lahan" />插图<span>作者：Tim Lahan</span> 
+</p>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	人的头平均重量为 10 到 12 磅（4.54 千克到 5.44 千克）。当我们使用手机时，我们的脖子会向前弯曲 60 度，这样一来，我们脖子上的有效压力就增加到了 60 磅，大约相当于五加仑颜料的重量。三十多年前，奥古斯特开始治疗病人的时候，他说他“在许多祖母和曾祖母身上看到过‘贵妇式’驼背的症状，患有这种驼背的人上背部会向前弯曲，固定成一个前倾的弧度”。而现在，他说他在青少年身上也看到了同样的驼背症状。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	悲伤的时候，我们会低下头、垂下肩膀。害怕或者感觉无能为力的时候，我们也会低头垂肩。研究显示，患有临床抑郁症的病患会摆出一副和 iHunch 姿势相当类似的怪异姿态。<a href="http://www.ncbi.nlm.nih.gov/pubmed/21308258">巴西精神病协会（Brazilian Psychiatric Association）官方期刊 2010 年发表的一篇文章</a>发现，抑郁症患者站立时更容易向前弯曲脖颈，垂下肩膀，双臂缩起贴近身体。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	人的形体姿态不仅能够反映我们的情绪状态，还能够塑造我们的情绪状态。今年早些时候《健康心理学》（Health Psychology）期刊刊登了一项研究：史维莎·耐尔（Shwetha Nair）和她的同事找了一些没有抑郁症的受试者，他们中的一部分身体挺直坐着，一部分低头垂肩坐着；接着，他们要求这些受试者回答一个模拟的求职面试问题——这是一种相当完善的实验性压力诱导方式；之后，他们又让受试者做了一系列问卷。和坐姿笔挺的受试者相比，坐姿佝偻的受试者表现出了更低落的自尊意识和情绪状态，以及更加巨大的恐惧感。坐姿甚至还影响了受试者求职面试的回答：语言分析揭示，坐姿佝偻的人所说的内容带有的负面情绪要多得多。研究者由此得出一个结论：“坐姿笔挺可能会是一种帮助人们抵抗压力的简单行为策略。”
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	低头垂肩还有可能会影响我们的记忆：<a href="http://www.ncbi.nlm.nih.gov/pubmed/24577937">去年《临床心理学和心理疗法》（Clinical Psychology and Psychotherapy）期刊发表了一项针对临床抑郁症患者的研究</a>。研究者让受试者随机以低头垂肩或身体笔直两种姿势坐着，接着他们向受试者出示了一系列乐观和悲观的词汇。之后被要求回想那些词汇时，坐姿佝偻的受试者更容易回想起负面的词汇（他们记住的不好的内容比好的内容更多），而坐姿笔挺的受试者则没有这样的偏向。在 <a href="http://www.ncbi.nlm.nih.gov/pubmed/18614694">2009 年一项针对日本小学生的研究</a>中，那些受到训练坐姿笔挺的小学生在做书面作业时会比他们的同学表现更好。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	iHunch 还会对我们的情绪感受和行为举止造成怎样的影响呢？我的同事马尔腾· W ·博斯（Maarten W. Bos）和我对此进行了<a href="http://dash.harvard.edu/handle/1/10646419">初步研究</a>。我们准备了智能手机、平板电脑、笔记本电脑和台式电脑四种大小不一的电子设备，随机要求受试者从中选择一个设备、互动五分钟时间。接着，我们观察在研究明显结束后，受试者要等多久才会询问实验人员他们是否可以离开。我们发现，设备的大小很大程度上影响了受试者对于询问实验人员一事的感觉是否自在。观察结果显示，我们在使用手机时所采取的佝偻坐姿，实际上会让我们更不坚定自信——所以当情势需要的时候，我们更不可能支持保卫自己，为自己挺身而出。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	事实上，在所使用设备的大小尺寸和它影响人的程度之间，似乎存在着一种线性关系：设备越小，你在使用时身体就缩得越紧，而你的姿势越紧缩向内，你就越容易变得唯唯诺诺。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	颇具讽刺意味的是，我们中许多人每天花数小时使用小型移动设备，就是为了提高我们的生产能力和效率；然而使用这些设备——哪怕只使用一小段时间——却可能会产生相反的效果，降低我们的自信心、削弱我们的生产力。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	但是尽管如此，由于现在我们太过依赖移动设备，我们很难完全不使用它们，而且这一现状也不可能很快发生改变。幸运的是，我们还能采取一些方法来应对 iHunch 。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在看手机时，保持抬头挺胸，即使这样做意味着你要把手机举到和眼睛齐平，你也应该这么做。你还可以试着舒展按摩 iHunch 牵涉到的两大肌肉群——也就是肩胛骨间和颈侧的肌肉。这能够帮助肌肉减少损伤，恢复弹性。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	最后，下次你拿手机的时候，请务必记住，手机会诱使你摆出低头垂肩的姿势，而这种姿势会改变你的情绪状态、你的记忆，甚至你的行为举止。你的形体姿态塑造了你的心理姿态，这会是让你更加愉快、更加自信的一大关键。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>题图来自 <span><a href="http://wallpaperscraft.com/download/maria_sharapova_girl_phone_85342/3840x2160">wallpaperscraft.com</a></span></span> 
+</p>
+<p>
+	<span>翻译 熊猫译社 钱功毅</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="566">
+				<span data-id="566">手机</span>
+			</li>
+			<li class="tag item" data-id="277">
+				<span data-id="277">健康</span>
+			</li>
+			<li class="tag item" data-id="20460">
+				<span data-id="20460">iHunch</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19124" data-title="《你玩手机的时候会缩成一团吗？这可不光是健康问题》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19124/medium/19124.jpg?1450169573" data-url="http://www.qdaily.com/mobile/articles/19124.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18951.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18951/medium/18951.jpg?1449830813" alt="苹果的驼背手机壳，成了竞争对手的营销工具">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">苹果的驼背手机壳，成了竞争对手的营销工具</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">35</span>
+				<span class="iconfont icon-heart">54</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27006.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27006/medium/27006.jpg?1463555401" alt="">
+                        <h1 class="title">星巴克在上海老洋房里开了家大店，就能让你感觉到高级么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26996.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26996/medium/26996.jpg?1463547336" alt="">
+                        <h1 class="title">这家为锤子做设计的硅谷公司，做起了阿拉斯加生活方式</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27016/medium/27016.jpg?1463561406" alt="">
+                        <h1 class="title">阿里音乐发布了一个“粉丝游乐场”，它是不是想得太好了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27004.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27004/medium/27004.jpg?1463551252" alt="">
+                        <h1 class="title">明星是怎么练习获奖感言的？苹果说我帮你啊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27009/medium/27009.jpg?1463569374" alt="">
+                        <h1 class="title">想骑车，又怕吸霾？可以看看这张城市健康对照表</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19124">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19124" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">118</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19169.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

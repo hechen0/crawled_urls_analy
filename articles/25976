@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”。也是 dezeen 评选出的 2016 最值得期待的 12 座新建筑之一。。好奇心日报为您呈现阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="英国 建筑 John Pawson 阿兰·德波顿 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Vw+sAsdmiC9Rag+iTRAfdACmg/eFOtP84kV6mw0zl24=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="31">
+				<span data-id="31">英国</span>
+			</li>
+			<li class="tag item" data-id="18">
+				<span data-id="18">建筑</span>
+			</li>
+			<li class="tag item" data-id="15041">
+				<span data-id="15041">John Pawson</span>
+			</li>
+			<li class="tag item" data-id="1433">
+				<span data-id="1433">阿兰·德波顿</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/161922/small/161922.jpg?1442322894" alt="">
+					</span>
+				<span class="name">廖婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-26 07:51:16 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25976/medium/25976.jpeg?1461574076" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25976" data-title="《阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25976/medium/25976.jpeg?1461574076" data-url="http://www.qdaily.com/mobile/articles/25976.html?url_type=39&amp;object_type=webpage&amp;pos=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				也是 dezeen 评选出的 2016 最值得期待的 12 座新建筑之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>          </p><p>“我们事实上极易受到周围环境的影响，‘美’在很大程度上主导着我们情绪的变化。当我们称赞一把椅子或是一幢房子‘美’时，我们其实是在说我们喜欢这把椅子或这幢房子向我们暗示出来的那种生活方式。”</p><p>这是英国作家 Alain de Botton（阿兰·德波顿）在《幸福的建筑》中文版序中写下的话，在这本写于大概 2006 年的书中，他探讨了建筑与人的幸福的关系，批判英国人对建筑的病态怀旧和对新鲜事物的消极态度，从中还可以看到他对具有民族特征建筑田园式的追寻。</p><p>然而在现实中，阿兰·德波顿发现书籍并不能改变什么，英国人依然在抵抗现代建筑，对过去有着感伤的怀念，尤其表现在住宅领域上。“如果我真的如此关心建筑，写作只是一个很胆小的行为，真正的挑战是建造。”</p><p>他在 2010 年牵头了一个名为&nbsp;<a href="http://www.living-architecture.co.uk/">Living Architecture</a>&nbsp;“活着的建筑”非盈利项目，试图与当代建筑师合作，在英国各地修建既具有美观性又可以出租的假日小屋，作为一种当代的 Landmark Trust（将历史建筑改造为旅馆）。他获得了专业建筑团队以及家电制造公司 Miele 的支持，在项目概念刚推出时，就联合了 5 个不同的建筑师或事务所在 5 个地方修建了房子，阿兰·德波顿为它们都写了导览。</p><p class="">值得一提的是，Miele 看上去很像是会赞助这一类项目的公司，它因为推崇美而被苹果创始人乔布斯喜爱，当然，也是售价相当不菲的高端家电制造商。</p><p>今年新推出的建筑 Life House 由英国建筑师 John Pawson 设计，在威尔士山谷的山坡上，Llandrindod Wells（兰德林多德韦尔斯）旁边，是该计划中的第 7 所，<a href="http://www.qdaily.com/articles/20191.html">也是 dezeen 评选出的 2016 最值得期待的 12 座新建筑之一。</a></p><p>          </p><p>建筑师从日本建筑和本笃会修道院中获得灵感，让建筑本身有着冷淡的修道院的气质，试图“让客人沉浸在极度平静之中”。</p><p>比如墙面的色彩非常微妙，一共使用了超过 80,000 块产自丹麦的手工石砖，它的外面是黑色的，但室内却是浅灰色的，尽量降低对视线的干扰。水磨石地板与橡木天花板也让房间处于自然而空灵的浅色中，窗帘与家具的颜色近似却很柔和，加上所有房间都有大的窗户，将人们的视线集中到户外。</p><div class="com-insert-images medium-insert-images-wide"><figure class="">
+    <img src="/uploads/image/201604/7a28b5b1a434.jpg" alt="" class="">
+</figure><figure class="">
+    <img src="/uploads/image/201604/5e347fb8b704.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/87b8de83ad62.jpg" alt="">
+</figure></div><p>建筑呈现出“L”型，有两条走廊连接，一条通向明亮的走廊一直连接户外，另一条则通向一个黑暗的房间，这个房间就是为了让人在黑暗中安静下来。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/b4b5d389f482.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/6d8589a31291.jpg" alt="" class="">
+</figure></div><p class="">3 个卧室的设计也不一样，library bedroom 在墙面环绕放置东西方文学；music bedroom 拥有柔和的音乐系统，可以选择让人安静的音乐；bathing bedroom 带有一个可以观看自然景色的浴池。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/b32932dff717.jpg" alt="">
+</figure></div><div class="com-insert-images medium-insert-images-wide"><figure style="margin:0;">
+    <img src="/uploads/image/201604/1f4a746be067.jpg" alt="" class="">
+</figure><figure class="">
+    <img src="/uploads/image/201604/2b451ddb4c22.jpg" alt="">
+</figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/305f77403b67.jpg" alt="" class="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/4ad3dbd0eef1.jpg" alt="">
+</figure></div><p class="">“建筑的地方非常远，我希望创造一个庇护所，让人们感觉在家中，又不会与周围的自然环境相隔绝。”建筑师&nbsp;John Pawson 称。<br></p><p>阿兰·德波顿称 Life House 是在寻找修道院对世俗世界新的意义，“我们常常会忘记为自己腾出时间，我们需要的是冷静和远方的景色。”</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/d33efb32480e.jpg" alt="">
+</figure></div><p>之前的 6 所度假小屋。</p><div class="com-insert-images medium-insert-images-wide medium-insert-active"><figure style="margin:0;">
+    <img src="/uploads/image/201604/2267abaeeec8.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">The Long House by Hopkins Architects </p></figcaption></figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/fac41fdc41b0.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">The Balancing Barn by MVRDV&nbsp;</p></figcaption></figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/8730d9d62f12.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">Secular Retreat by Peter Zumthor</p></figcaption></figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/bd577577190e.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">Shingle House by Nord Architecture</p></figcaption></figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/95a33843bf7b.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">Dune House by Jarmund/Vigsnæs Architects</p></figcaption></figure><figure class="">
+    <img src="/uploads/image/201604/1f18035b7b6c.jpg" alt="" class="">
+<figcaption class=""><p>          </p><p style="text-align: center;">A House for Essex by FAT&amp;Grayson Perry</p></figcaption></figure></div><p>这些各种各样的房子建在传统上不认为是旅游区的地方，与周围建筑不一样，房间里都会摆放真实的家具甚至洗漱用品，鼓励更多的人前来参观。<a href="http://www.living-architecture.co.uk/the-houses/LifeHouse/tariff/">这间 Life House 将从今年 7 月 11 日起接受预定。</a>以一周为时间单位，最多可容纳 6 个人，7 个晚上一共 3200 英镑，相当于每人每晚 76 英镑。阿兰·德波顿希望能改变英国人的生活方式，进而影响英国成为民主、包容、有趣、乐观的地方。</p><p class="">图片来自<a href="http://www.dezeen.com/2016/04/22/life-house-john-pawson-living-architecture-alain-de-botton-brick-holiday-home-wales/"> dezeen</a>、<a href="http://www.designboom.com/architecture/john-pawson-life-house-for-living-architecture-wales-uk-04-22-2016/">designboom</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="31">
+				<span data-id="31">英国</span>
+			</li>
+			<li class="tag item" data-id="18">
+				<span data-id="18">建筑</span>
+			</li>
+			<li class="tag item" data-id="15041">
+				<span data-id="15041">John Pawson</span>
+			</li>
+			<li class="tag item" data-id="1433">
+				<span data-id="1433">阿兰·德波顿</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25976" data-title="《阿兰·德波顿这座假日小屋，“让客人沉浸在极度平静之中”》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25976/medium/25976.jpeg?1461574076" data-url="http://www.qdaily.com/mobile/articles/25976.html?url_type=39&amp;object_type=webpage&amp;pos=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20191.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20191/medium/20191.jpg?1451885516" alt="2016 最值得期待的 12 座新建筑，中国内地占了两席">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">2016 最值得期待的 12 座新建筑，中国内地占了两席</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">154</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/22844.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/22844/medium/22844.jpeg?1456378472" alt="一个只放4个月的临时装置，聚集了世上最有名的建筑师">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">一个只放4个月的临时装置，聚集了世上最有名的建筑师</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">167</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26631.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26631/medium/26631.gif?1462855598" alt="">
+                        <h1 class="title">忘掉《华尔街之狼》和《大空头》，交易员这工作其实是这样的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26649.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26649/medium/26649.jpg?1462876397" alt="">
+                        <h1 class="title">为了玩虚拟现实不头晕，有人塞了一堆 LED 灯</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26626.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26626/medium/26626.jpg?1462854316" alt="">
+                        <h1 class="title">「这世界」做着做着数学题，咋就被人当成恐怖分子了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26670.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26670/medium/26670.jpg?1462897309" alt="">
+                        <h1 class="title">这个朋克乐队为新歌《一万个反抗的方式》发了一支MV</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26648.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26648/medium/26648.jpg?1462892029" alt="">
+                        <h1 class="title">不同的夏日白色牛仔造型，适合自信的女生</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25976">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25976" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">166</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25993.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

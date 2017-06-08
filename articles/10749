@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象_城市_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象。埃里克·拉森在梅赛德斯-奔驰研发中心负责社会和科技领域的调查研究。他说以后人们会和别人一起坐车，但是美国人不太可能会完全不开自己的车。 。好奇心日报为您呈现未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="汽车 纽约时报 驾驶 奔驰 Eric Larsen " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="6TTPXsvjk+sU4/7z0TEKJeSzSpCXnLaf8f9wErIYmUc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="5">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/5.html" class="category black clearfix x25" data-id="5">
+			<img class="black" src="/system/categories/iconblacks/5/medium/5.png?1411569637" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt=""/>
+			<span>城市</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="20">
+				<span data-id="20">汽车</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2958">
+				<span data-id="2958">驾驶</span>
+			</li>
+			<li class="tag item" data-id="2315">
+				<span data-id="2315">奔驰</span>
+			</li>
+			<li class="tag item" data-id="11465">
+				<span data-id="11465">Eric Larsen</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Quentin Hardy</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-15 08:27:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/10749/medium/10749.jpg?1436645969" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10749" data-title="《未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10749/medium/10749.jpg?1436645969" data-url="http://www.qdaily.com/mobile/articles/10749.html?from=groupmessage&amp;isappinstalled=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				埃里克·拉森在梅赛德斯-奔驰研发中心负责社会和科技领域的调查研究。他说以后人们会和别人一起坐车，但是美国人不太可能会完全不开自己的车。 
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	埃里克·拉森（Eric Larsen）在加利福尼亚州森尼韦尔市（Sunnyvale, Calif.）的梅赛德斯-奔驰研发中心（Mercedes-Benz Research and Development）负责社会和科技领域的调查研究。拉森今年&nbsp;53&nbsp;岁，1995&nbsp;年，他加入了梅赛德斯-奔驰。在攻读美国华盛顿大学（the University of Washington）社会学专业博士学位时，他曾就共产主义世界改革创新的失败写过一篇论文。如今，他开始思考，在科技改变豪车的今天，梅赛德斯-奔驰该如何保持创新。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	梅赛德斯已经开始逐步对自动汽车展开探索，公司开发了内置电脑和传感器，为司机提供了导航、路线规划和“驾驶预见”等辅助功能——具有“预测驾驶”功能的混合动力汽车能够提前勘测前方地势，并据此调整电池性能。此外，公司还在德国高速公路上对无人驾驶卡车进行了测试。近来拉森在一场采访中谈到了自己的工作。采访内容有删节。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：你对汽车有什么样的看法？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：首先最根本的一点是，汽车依然是一个承载着家庭价值的巨大市场。美国目前的人口状况良好，出生率比巴西和中国都要高，而且还时有移民入境。此外，美国的生活方式也令汽车在这个国度大行其道。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	其次，智能手机和大量的无线连接设备改变了一切。其他许多像大数据、自动驾驶这样的技术和新商业模式之所以能够成为现实，也是因为这种互联性。这就是为什么现在所有的汽车制造商都在硅谷设有办公室。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：这两大趋势意味着什么呢？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：郊区仍然占据了非常重要的地位。你知道，人们正在搬回底特律，不过规模不断扩大的市区还是在南部和西部，而这些地方最开始其实都是郊区。这些地方有闹市区，但是闹市区晚上都空无一人。这对货物和人的运输都有影响。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	因为经济萧条，年轻人进入成人世界的时间延后了，但是他们大多数人最终还是会谈婚论嫁，搬到郊区去。他们想要孩子，他们想要家庭生活，他们喜欢周围有空间。他们的车里要坐孩子、小狗，还要放各种从大卖场买回来的东西。这就意味着人们依然需要大型车。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：所以技术改变了一切，但是世界却一如既往？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：郊区不会消失，但是它们不会再像 1950&nbsp;年代的郊区一样了。父母双方工作更多了，孩子的课后活动也不再在学校里进行了。孩子们会去 20 英里以外参加足球训练或者上小提琴课。这对富裕的家长们来说是件相当痛苦的事——这些家长正是我们的客户，他们手里有钱，但闲暇时间却不多。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	这个问题的解决办法在于私人分享车辆。我们有一项叫做 Boost&nbsp;的业务，业务内容是在放学后用小型货车接送孩子。这些车就像校车一样，但它们会在校门口接孩子，然后把他们一直送到他们要去的地方门口，家长们可以利用手机应用查看孩子的行踪。每辆车除了司机以外还配有一名管理员，因为司机不能离开车带着孩子走到门口，而 7 岁的孩子需要这样的服务。我们的这项业务是在出售交通服务，而不是在卖某个产品。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	通常来说，我们不认为人们会放弃开自己的车。美国人喜欢在车里做一切事情。他们在车里吃喝、在车里娱乐消遣，还会在车里换衣服。那些午饭时分离开办公室到车里睡午觉的人，或者那些每次都要在车里等孩子等上一个小时的人都会这么做。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在车上时，开车其实才是真正让我们分心的事儿。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：车子本身内部发生了什么变化？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：屏幕变得更加重要了。司机的屏幕上是否会出现像手机应用一样的众多更新？如果你现在有一辆买了五年的车，人们通过查看它的音响系统和屏幕就可以知道你的车是五年前买的。租赁汽车或许会更加经常进行整修翻新，因为商家希望它们能看起来更新一些。车子可能会通过那样的方式变得更加模块化，但是美国产的车就不会出现像现在一样标示车型年份。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	人们更加注重操控了。开车的时候你不能往导航系统中输入很长的地址。当一辆车知道自己处于停止状态时，它或许会允许你把椅背往后调一些，让你在驾驶座上工作、睡觉或者看电视。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	但是关于个性化和隐私的难题同样也出现了。公司能够知道你驾驶的速度有多快、转弯有多急。我们已经发现有新兴公司能够根据你手机里的传感器，了解你开车的速度和刹车的方法了。这将会成为车本身的一种性能。当你涉及到“现驾现付（pay as you drive）”类的汽车业务时，这会成为一个问题。这其中还有一些法律层面的问题需要解决。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：那么电动汽车呢？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：汽车产业的这部分商业模式对大部分车主来说不会被打破。液压破碎法这种油气开采方式有着很强的影响力，它使得汽油价格维持在一个较低的水平。内燃发动机能够令汽车行驶更长的距离，而天然气在燃烧的时候更干净，而且从技术角度来说安装起来也更容易。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	给车加油不过是一周一次、一次五分钟的功夫而已。人们总是担心电动汽车会耗尽电力。特斯拉建立起了一个有着许多快速充电站的网络，各大城市也在做同样的事，它们在一些城市车库里建立了充电站。但是如果电动汽车流行起来了，它们真的会在车库里的每个车位都放上一个充电器吗？
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	混合动力汽车在郊区做得更好，郊区每个人车库里都能有一个充电站，通过屋顶上的太阳能电池板提供电力。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<strong>Q：你们现在是怎么出售豪车的？</strong> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	A：在工业化时代，你购买豪车是建立在收入和炫耀的基础上的。如今，购买豪车和财富、地位以及彰显个人价值有关。对一些事情有所了解，对某些事情有所关注，这是一种身份的象征。现在这样销售豪车变得更困难了，因为人们对车的评价会不胫而走。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	有钱人想要表现出他们对拯救世界的关心。一般来说，买丰田普锐斯（Prius）的人都能买得起更贵的车。特斯拉甚至把这一理念包装得更加吸引人：购买特斯拉，你就有了一辆高性能的车，而且它还很环保。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	其中一项挑战在于，豪车会更重，会配备更好的椅子、更多的安全性能，在车里加入更多的东西。可靠真实也很重要。有钱人想要的是那些天然、手工的东西。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	我们推出的 AMG&nbsp;车型有着“一人一机”的理念，车子的引擎上刻有制作者的名字。鞋子和手提包制作永远要用到皮革，车子或许也是。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	在这方面一直会有反复——人要做到有钱而不矛盾，是很难的。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 is译社 钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="20">
+				<span data-id="20">汽车</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="2958">
+				<span data-id="2958">驾驶</span>
+			</li>
+			<li class="tag item" data-id="2315">
+				<span data-id="2315">奔驰</span>
+			</li>
+			<li class="tag item" data-id="11465">
+				<span data-id="11465">Eric Larsen</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="10749" data-title="《未来汽车会变成啥样？奔驰在硅谷的研究人员有个想象》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/10749/medium/10749.jpg?1436645969" data-url="http://www.qdaily.com/mobile/articles/10749.html?from=groupmessage&amp;isappinstalled=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25019.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25019/medium/25019.jpg?1459904450" alt="">
+                        <h1 class="title">今日娱乐：女足热身赛将VR直播，《奇幻森林》评价还行</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25000.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25000/medium/25000.jpg?1459868307" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25016/medium/25016.jpg?1459903086" alt="">
+                        <h1 class="title">YSL 新上任的设计总监，也是个待不久的设计师</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24972.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24972/medium/24972.jpg?1459842289" alt="">
+                        <h1 class="title">「这世界」突然，澳大利亚有好多金·卡戴珊的裸体涂鸦</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="10749">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="10749" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">10</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10773.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

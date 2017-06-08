@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>腾讯说，他们想做一款对得起《火影忍者》的手游_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="腾讯说，他们想做一款对得起《火影忍者》的手游。诚意是够的，但究竟能不能对得起“火影忍者”，下结论还是有点早。。好奇心日报为您呈现腾讯说，他们想做一款对得起《火影忍者》的手游的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="火影忍者 手机游戏 腾讯 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="BFe5i864UFDjCaZ6vvuYDtSR7YS3YY0Et0ik7oWgxcM=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4103">
+				<span data-id="4103">火影忍者</span>
+			</li>
+			<li class="tag item" data-id="407">
+				<span data-id="407">手机游戏</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">腾讯说，他们想做一款对得起《火影忍者》的手游</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/57300/small/57300.jpg?1427187252" alt="">
+					</span>
+				<span class="name">唐舒畅 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-26 10:00:03 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21268/medium/21268.jpg?1453713316" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21268" data-title="《腾讯说，他们想做一款对得起《火影忍者》的手游》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21268/medium/21268.jpg?1453713316" data-url="http://www.qdaily.com/mobile/articles/21268.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				诚意是够的，但究竟能不能对得起“火影忍者”，下结论还是有点早。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<div>
+	1 月 24 日，腾讯宣布 1 月 8 日上线的《火影忍者》手机游戏至今已经获得了超过 1000 万的注册用户。
+</div>
+<div>
+	这个成绩还算不错。在 App Store 的畅销榜上，《火影忍者》一直处于前列，目前稳定在第五、第六位左右。对于 2015 年腾讯自主研发的游戏比较疲软、主要依靠《暖暖》之类的第三方游戏夺得排行榜的宝座来说，《火影忍者》无疑表现是优异的。
+</div>
+<div>
+	腾讯在这款游戏上没少下功夫：从 2012 年就开始筹备这个项目，2013 年和集英社，《火影忍者》版权方达成合作协议，拿下漫画电子版权和游戏改编权，先是出品了《火影忍者 Online》，去年宣布将在下半年发行《火影忍者》的手游。在 China Joy 期间的一次媒体交流会上，腾讯旗下负责这个项目的魔方工作室曾说，不会去做当时最流行、来钱最快的卡牌类型的手游，就是要把火影中最吸引人的战斗做进游戏，“要做款对得起《火影忍者》的手游。”
+</div>
+<p>
+	于是，就有了如今的这版横版格斗游戏。如果从尊重原著的角度上来说，这款游戏在中国游戏市场来说都是少见的：请到了日版《火影忍者》动画声优为游戏内的各个人物配音；人物在发动技能的时候时不时会出现原本动漫里的经典台词或者回忆杀；过场动画和游戏动画力图高度还原原作：腾讯请到了游戏版权方万代南梦宫和漫画版权方集英社联合监督，即使是在作为背景的黑板上多加一款黑板擦、贴几张成绩单也不允许。加上小队合作模式和类似《拳皇》车轮战的决斗场，基本上成功还原了《火影忍者》原著里那种热血战斗的感觉。
+</p>
+<p>
+	接下来，制作方将引入更多的人物，并按照原著一点一点推进游戏主线剧情。虽然，2 月 18 日内地上线的《火影忍者剧场版：博人传》的内容无法直接加入到游戏中，但是会配合电影上线做一波宣传。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c637ec24f60c.jpg" width="800" height="449" title="游戏本身的制作水平绝对是值得称赞的。" alt="游戏本身的制作水平绝对是值得称赞的。" /><span>游戏本身的制作水平绝对是值得称赞的。</span> 
+</p>
+<p>
+</p>
+<div>
+	日系动漫改编手游在中国并不少见，尤其是那些层出不尽的盗版。之前，也同样是万代南梦宫授权的《海贼王》在国内改名《航海王：启航》上线，以一副卡牌手游的姿态和不走心的改编告诉了广大玩家光是正版还是远远不够的。魔方工作室的副总裁张晗劲告诉告诉《好奇心日报》的记者，接下《火影忍者》改编手游这个项目他们也是战战兢兢：“毕竟是全世界都知名的一款作品。它太火了、太有名了，万一做不好，没有办法和玩家交待。”
+</div>
+<div>
+	于是顶着玩家的期待，这款游戏也是硬是比预计时间晚了两个月左右正式上线。除了期间和日方监督不断交流保证还原度外，最后一个月他们还下降了格斗游戏的难度，让整个游戏上手和升级变得更加平滑——为了那些热爱火影，但可能不是那么熟悉格斗游戏的玩家。
+</div>
+<div>
+	然而，最后结果差强人意。
+</div>
+<div>
+	虽然在排行榜上表现不错，但是在评论区，一星和五星的评论两极分化，同时在五星评论里，大量都是五星差评：为了使评论靠前，评分五星都是内容尽是批评的评论。游戏优点前面已经说过，而缺点基本上就集中在一点上：太坑钱。
+</div>
+<div>
+	在国内，腾讯和坑钱这两个字总是被自然地联系在一起。虽然也有对游戏批评在于游戏内的卡顿，以及 PK 限时导致双方消极战斗的点上，但是大多数的指责都是这款游戏的付费太直接。在这款游戏内，玩家可以直接用人民币购买忍者的战斗力——这种赤裸的赚钱方法让很多人不满。虽然花钱购买的战斗力并不是在游戏内所有模式有效，不充钱的玩家也能享受到游戏的乐趣，但不怎么掩饰的吃相，足以激发许多玩家的愤怒。同时，玩家需要收集忍者碎片来获得新的忍者，而这些碎片的收集要么需要大量的时间，要么就是花钱。
+</div>
+<p>
+	这或许是腾讯欠考虑，对于很多《火影忍者》粉丝来说，这种怀旧的童年一旦和金钱扯上太多关系，就会让他们变得极为愤怒。评论区里，“玩游戏又不想花钱又不想花时间真是屌丝”和“腾讯就是各种坑钱，毁了火影”明显是两种观点的极端。大多数玩家处于一种愿意花些钱，但是被逼花钱、或者沦为游戏奴隶的状态。
+</p>
+<p>
+	作为商业公司，腾讯想要盈利一点也没错。尤其现在游戏制作本身，也算是对得起《火影忍者》原著了。但是，要真正获得粉丝们的心还差了点：真正好的游戏是让玩家心甘情愿地把钱花了。这不仅需要游戏内容质量过关，后续付费等涉及运营的方面也要更加友好一些：即便是菜再好吃的餐厅，也会有人因为服务差而不去的。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4103">
+				<span data-id="4103">火影忍者</span>
+			</li>
+			<li class="tag item" data-id="407">
+				<span data-id="407">手机游戏</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21268" data-title="《腾讯说，他们想做一款对得起《火影忍者》的手游》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21268/medium/21268.jpg?1453713316" data-url="http://www.qdaily.com/mobile/articles/21268.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19430.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19430/medium/19430.jpg?1450665415" alt="《火影忍者》要开新连载，主角成了鸣人的儿子">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/3/medium/3.png?1433891560" alt="娱乐">
+				<span>娱乐</span>
+		</p>
+		<h1 class="title">《火影忍者》要开新连载，主角成了鸣人的儿子</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">37</span>
+				<span class="iconfont icon-heart">122</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26315.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26315/medium/26315.jpg?1462240634" alt="">
+                        <h1 class="title">看看英超新冠军，中国资本家不如再想想到底什么才是正确的投资</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26322.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26322/medium/26322.jpg?1462247818" alt="">
+                        <h1 class="title">奥巴马大女儿上大学之前先“间隔年”，这事儿其实不新鲜</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26333.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26333/medium/26333.jpg?1462255997" alt="">
+                        <h1 class="title">给水果姐做了演出服之后，她开了个时装设计教育网站</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26342.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26342/medium/26342.jpg?1462271552" alt="">
+                        <h1 class="title">社交网站 Twitter，现在把自己定位成新闻应用了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26338.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26338/medium/26338.jpg?1462262817" alt="">
+                        <h1 class="title">《刀剑乱舞》要来中国了，这个代理公司你满意吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21268">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21268" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">90</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21303.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

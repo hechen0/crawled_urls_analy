@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uber 分享的不仅是空闲的车，还有隐私_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Uber 分享的不仅是空闲的车，还有隐私。这将是 Uber 过得最糟糕的一个月，《华尔街日报》评论说。。好奇心日报为您呈现Uber 分享的不仅是空闲的车，还有隐私的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Uber 隐私 租车 分享经济 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="BU0nuBsX6qKV6Z/jQhTIR0UjE/l3LKfd3LUwxEAQf1o=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+			<li class="tag item" data-id="91">
+				<span data-id="91">隐私</span>
+			</li>
+			<li class="tag item" data-id="4443">
+				<span data-id="4443">租车</span>
+			</li>
+			<li class="tag item" data-id="1962">
+				<span data-id="1962">分享经济</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Uber 分享的不仅是空闲的车，还有隐私</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1741/small/1741.jpg?1435203015" alt="">
+					</span>
+				<span class="name">高宇馨</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-11-20 15:22:04 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/3731/medium/3731.jpg?1436641592" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3731" data-title="《Uber 分享的不仅是空闲的车，还有隐私》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3731/medium/3731.jpg?1436641592" data-url="http://www.qdaily.com/mobile/articles/3731.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这将是 Uber 过得最糟糕的一个月，《华尔街日报》评论说。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	把自己的管理系统叫做“上帝之眼”（God View）听起来就有点过火。不过租车共乘应用 Uber 这么做了。然后惹上了麻烦。
+</p>
+<p>
+	“上帝之眼”是 Uber 公司内部对一款工具的昵称，首先由科技新闻网站 PandoDaily 的主编&nbsp;Sarah Lacy&nbsp;爆料。据她叙述，她在采访 Uber 纽约区主管 Josh Mohrer 的路上，使用了 Uber 的租车服务，于是当她到达 Uber 位于纽约的办公室前，John Mohrer 就等候在门后，挥着一部 iPhone 手机对她说<a href="http://www.theguardian.com/technology/2014/nov/19/uber-investigates-top-executive-after-journalists-privacy-was-breached" target="_blank">“我在跟踪你”</a>。
+</p>
+<p>
+	John Mohrer 可能将这一举动视为特别的礼宾方式，但是 Sarah Lacy&nbsp;并不领情，在随后撰写的文章中还提到这已经不是她第一次被追踪了。于是 Uber 追踪用户地理位置信息的消息爆炸似的传开。
+</p>
+<p>
+	就在昨天 Uber 紧急公布了<a href="http://blog.uber.com/privacypolicy" target="_blank">第一份《隐私条款》</a>，并同时表示正在调查 John Mohrer&nbsp;的不当行为。Uber 说这份条款一直在公司内部执行，只是还没有发布。条款内容中说“严格禁止任何级别的公司雇员获取司机地理位置信息”，仅在用于“法律用途”的情况下例外。
+</p>
+<p>
+	国内像滴滴、快的等打车应用，每个都拥有一套像 Uber 一样的系统，用来追踪乘客和司机地理位置信息。Uber 的麻烦在于，司机信息被公司管理层用来“监视”一些特定的人，而这谁都能看得出，已经超越了 Uber 所说的“法律用途”。
+</p>
+<p>
+	这件事发酵以后，Buzzfeed 再次爆料，据说 Uber 从白宫聘请的 Emil Michael 有一个<a href="http://www.buzzfeed.com/bensmith/uber-executive-suggests-digging-up-dirt-on-journalists" target="_blank"> 100 万美元计划</a>，目标就是跟踪发表过反对 Uber 意见的记者，其中就包括了这位 PandoDaily 的主编。
+</p>
+<p>
+	此前 Uber 一系列有争议的举动，将记者态度分成两级。今年年初与 Lyft 争抢司机，随后在欧洲各个城市疯狂扩张，在旧金山遭遇抗议，这一系列事情里唯一不变的是 Uber 对媒体和政府的强硬态度。<span style="line-height:1.5;">甚至此前 Sarah Lacy 就说 Uber 的公司文化鼓励 John Mohrer 这样的</span><a href="http://thenextweb.com/insider/2014/11/18/now-uber/" target="_blank"> “混球”（Assholes）行事方式</a><span style="line-height:1.5;">。</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"><img src="/uploads/image/201411/32850799246b.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	从一个快速行动，不守规则，具有改变世界的实验精神的初创公司成长起来，Uber 已经成为一家覆盖多个国家，拥有大量用户，估值超过<a href="http://www.forbes.com/sites/markrogowsky/2014/06/09/are-investors-nuts-to-value-uber-at-18-billion-in-a-few-years-thatll-seem-like-a-bargain/" target="_blank"> 180 亿美元</a>的“大型”“跨国”公司。而它的企业文化还没有调整过来。
+</p>
+<p>
+	它的麻烦不止是和媒体和政府的关系，还有怎样处理和大众的关系。当它是一个初创企业的时候，平行的上下级关系，尽量少的层级，能够帮它保持活力，快速扩张。而一旦扩张为像现在规模的大型跨国企业，沃尔玛式的等级分明、规则明确的企业管理模式，会更少让人挑出毛病。
+</p>
+<p>
+	但是 Uber 不是只想做一个私家车共乘应用，Uber 想要让全世界分享资源，这听起来就像是一个少年的狂妄自大的梦想，又很难与老派的模式顺利融合。
+</p>
+<p>
+	至于棘手的隐私问题，大众已经如惊弓之鸟，既感到不安又没什么办法，所以攒起来全是怀疑和愤怒。如果去看 Uber 的美国版隐私条款，即使删掉应用，Uber 也会出于“商业原因”在服务器上保留部分个人信息。目前国际版，并无相关描述。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://www.huffingtonpost.com/2012/10/31/uber-new-york-driver-pay_n_2051971.html" target="_blank">Huffington Post</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1520">
+				<span data-id="1520">Uber</span>
+			</li>
+			<li class="tag item" data-id="91">
+				<span data-id="91">隐私</span>
+			</li>
+			<li class="tag item" data-id="4443">
+				<span data-id="4443">租车</span>
+			</li>
+			<li class="tag item" data-id="1962">
+				<span data-id="1962">分享经济</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="3731" data-title="《Uber 分享的不仅是空闲的车，还有隐私》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3731/medium/3731.jpg?1436641592" data-url="http://www.qdaily.com/mobile/articles/3731.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25091.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25091/medium/25091.jpg?1459994181" alt="">
+                        <h1 class="title">乐视想借助经典歌曲《睡在我上铺的兄弟》的魔力打造一个超级 IP，结果呢？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25130.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25130/medium/25130.jpg?1460038422" alt="">
+                        <h1 class="title">《神奇女侠》电影提前了三周，两个 DC 项目也在路上</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25136.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25136/medium/25136.jpg?1460045199" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25129.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25129/medium/25129.jpg?1460036254" alt="">
+                        <h1 class="title">把无趣数字变成有意思的故事，麻省理工做了个网站</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25147.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25147/medium/25147.jpeg?1460074238" alt="">
+                        <h1 class="title">大公司头条：阿里进入饿了么董事会，滴滴要融 15 亿美元</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="3731">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="3731" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">11</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/3729.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>他原本是想卖无土栽培，却进军了美国的大麻市场_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="他原本是想卖无土栽培，却进军了美国的大麻市场。有人说他的公司是中国新一代创业公司的典范，更灵活、更有国际意识，并且比上一代人更有全球化的野心。
+。好奇心日报为您呈现他原本是想卖无土栽培，却进军了美国的大麻市场的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="初创公司 大麻 纽约时报 无土栽培 iGrow " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ryY+EB3bodUaipD2Tiw03eM6eMg8nDnyjG9fZCGqgPs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5875">
+				<span data-id="5875">初创公司</span>
+			</li>
+			<li class="tag item" data-id="2164">
+				<span data-id="2164">大麻</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="19405">
+				<span data-id="19405">无土栽培</span>
+			</li>
+			<li class="tag item" data-id="19406">
+				<span data-id="19406">iGrow</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">他原本是想卖无土栽培，却进军了美国的大麻市场</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Paul Mozur</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-27 13:06:18 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/18155/medium/18155.jpg?1448589884" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18155" data-title="《他原本是想卖无土栽培，却进军了美国的大麻市场》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18155/medium/18155.jpg?1448589884" data-url="http://www.qdaily.com/mobile/articles/18155.html?from=groupmessage&amp;isappinstalled=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				有人说他的公司是中国新一代创业公司的典范，更灵活、更有国际意识，并且比上一代人更有全球化的野心。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在中国，人们密切关注食品安全的问题，于是居民有时会在公寓之间的绿地上种花园。还有人在窗台和阳台上种植物，或者用专业的<a href="http://www.nytimes.com/2015/03/02/business/international/chinas-long-food-chain-plugs-in.html?_r=0">电子商务服务</a>来追踪食用安全的蔬菜肉类。
+</p>
+<p>
+	这些生活习惯促使 Lennon Tsai 创立了一家公司，向那些想要在城里种植的人们提供所需的水培设施，让他们栽种自己的室内花园。虽然 Tsai 努力把产品卖给中国的新兴中产阶级，因为他们对中国泛滥的水土污染很关注，不过很偶然地，他遇到了在美国的第二个市场。
+</p>
+<p>
+	“我的有一个美国顾客买了我的产品，然后在家里种大麻，之后给我发了照片。我简直震惊了；我很吃惊我们的产品还能用来种大麻，”Tsai 在最近的采访中说，“直到后来我才意识到，这是个巨大的市场。”
+</p>
+<p>
+	Tsai 的公司 iGrow 在低价制造商的帮助下，现在把目标瞄准了美国，卖一些实惠的种植套装。他的公司设在中国杭州，是中国新一代创业公司的典范，更灵活、更有国际意识，并且比上一代人更有全球化的野心。
+</p>
+<p>
+	在采访中，Tsai 谈到了把他向员工推广市场策略时遇到的困难，以及他创立这家公司的理由。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span><b>Q.&nbsp;</b></span><b>成立</b><b> iGrow </b><b>这家公司的背景是什么？</b> 
+</p>
+<p>
+	<span><b>A.&nbsp;</b></span>我出生在农村，成长在偏远的村子里，周围环境很不错，有各种花草植被。小时候，我会和大人一起从事种植活动；我种过大米、各种花、还有其他各种农作物。但随着中国的工业化发展，我长大的地方现在已经没有绿色植物了。随之消失的还有人们对自然环境的情感。于是我一直有个心愿——有没有可能不用泥土来种植花草呢？
+</p>
+<p>
+	<span><b><strong>Q.&nbsp;</strong></b></span><strong>年轻人是怎么喜欢上你的产品的?</strong> 
+</p>
+<p>
+	<span><b>A.</b></span>我们大多数客户年龄在 20 到 40 岁之间。年长的一代人习惯用土壤种植；许多人把植物放在阳台，每天给植物施肥，但年轻人没时间这么做，况且他们没有园艺的相关知识。年轻人不懂怎么种植物。
+</p>
+<p>
+	我们就要做一些教育普及工作，教会人们有关无土栽培的内容需要花一些时间。暂时，我们从种花开始。种花的话，你可以实际观察到花的生长变化。许多女孩喜欢花花草草，但她们很难养好。许多人连仙人掌这种旱生植物都养不活。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span><b><strong>Q.&nbsp;</strong></b></span><strong>你是怎么发现有无土栽培有另一个市场的？</strong> 
+</p>
+<p>
+	<span><b>A.&nbsp;</b></span>我有些住在加州的亲戚。在加州，种大麻在某些情况下是合法的。我本来没有太注意这个市场。我认为，大麻和我们没什么关系。然后我的一个美国客户买了我的产品，然后在自己家里种起了大麻，之后给我发了照片过来。我当时简直震惊了；我很吃惊，我的产品居然还能用来种大麻。直到后来我才意识到，这是个巨大的市场。我后来了解到，很多人喜欢在家里种大麻。我做了有关美国大麻的研究。在美国有些州，大麻是合法的，其他州还没有定论；还有某些州，医用大麻是合法的。许多美国的顾客都表示出合作意向，这更坚定了我的想法，就是我们可以在这个市场里有所作为。
+</p>
+<p>
+	人们从去年底、今年初开始用这些装置种大麻。已经有一段时间了。只是我一开始没注意，后来这成了我们公司在海外的一个市场策略。
+</p>
+<p>
+	<span><b>Q.&nbsp;</b></span><b>在中国，大麻的使用要少见得多，而且面临着严肃的法律制约。你怎样面对你的员工对计划的反对声？</b> 
+</p>
+<p>
+	<span><b>A.&nbsp;</b></span>关于我们的 R 和 T 团队，他们是有些担心。许多人认为大麻是坏东西。不像种花、种蔬菜，人们都觉得很健康。他们认为大麻是不健康、对人体有害的。所以有人很担心，他们希望我们负责的产品应该对人类健康有益，对净化室内空气有益。曾经我们有一些争论。但后来我们成功消除了他们的顾虑，做了些工作，其中一个就是给他们看了国家地理频道的一部电视片，片中介绍了大麻在美国的现状，为什么政府允许人们使用大麻，为什么大麻在某些州是合法的。这就他们了解到，大麻不是人们所想的那样。
+</p>
+<p>
+	<span><b>Q.&nbsp;</b></span><b>年轻的同龄人对这个想法有什么反应？</b> 
+</p>
+<p>
+	<span><b>A.&nbsp;</b></span>我的一个同学在耶鲁大学读生物学博士，他告诉我一定要关注美国的大麻市场。我问为什么？他说，很有可能，美国的这个市场比你在中国的花卉市场还要大。大麻在美国有优先权，此外还有香草、薄荷这些西方食品中也广泛采用的成分。
+</p>
+<p>
+	<span><b>Q.&nbsp;</b></span><b>你觉得，你的公司是否表明了中国创业公司已经变得更有国际化思维了？</b> 
+</p>
+<p>
+	<span><b>A.&nbsp;</b></span>我的妈妈和姐姐住在西班牙。我有很多朋友住在美国，许多同学也考虑移民美国，很多人都在美国接受教育。我们渴望了解国外资讯，想学习有关商业的内容。10 年前，上一代人对世界没有太多看法，我们则更加国际化，而且，我们想把生意从中国大陆拓展到海外市场，建立一个国际商业社区。我只是这代人中的一个，或许我代表了这代人的某些希望，也就是，希望海外的人们也参与到我们的商业活动中，让他们也能喜欢上我们的产品。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>翻译 Alicia Lee</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5875">
+				<span data-id="5875">初创公司</span>
+			</li>
+			<li class="tag item" data-id="2164">
+				<span data-id="2164">大麻</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="19405">
+				<span data-id="19405">无土栽培</span>
+			</li>
+			<li class="tag item" data-id="19406">
+				<span data-id="19406">iGrow</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18155" data-title="《他原本是想卖无土栽培，却进军了美国的大麻市场》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18155/medium/18155.jpg?1448589884" data-url="http://www.qdaily.com/mobile/articles/18155.html?from=groupmessage&amp;isappinstalled=1" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/17503.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/17503/medium/17503.JPG?1447385047" alt="卖大麻越来越合法，它成了美国增长最快的产业">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">卖大麻越来越合法，它成了美国增长最快的产业</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">154</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24917.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24917/medium/24917.jpg?1459787336" alt="">
+                        <h1 class="title">一年花六千元租衣服穿，这能成为一个生意吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24914.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24914/medium/24914.jpg?1459765961" alt="">
+                        <h1 class="title">宜家与时尚设计师合作，首个系列挺迷幻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24913.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24913/medium/24913.jpg?1459753962" alt="">
+                        <h1 class="title">这个世界好污：政客们为了自己的钱都做了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24946.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24946/medium/24946.jpg?1459808207" alt="">
+                        <h1 class="title">为了死去的儿子，一位父亲也想让苹果解锁 iPhone</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24926.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24926/medium/24926.jpg?1459779427" alt="">
+                        <h1 class="title">在文具店里办公，这主意听起来怎么样？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18155">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18155" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">79</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18131.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

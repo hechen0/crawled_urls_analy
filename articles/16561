@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3 年时间，微软是如何将 Surface 变成自己的 Mac？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="3 年时间，微软是如何将 Surface 变成自己的 Mac？。Surface 在过去 3 年的变化，也是微软这家公司转型的过程。。好奇心日报为您呈现3 年时间，微软是如何将 Surface 变成自己的 Mac？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 PC 个人电脑 平板电脑 Surface 微软 戴尔 惠普 Acer 史提芬·辛诺夫斯基 纳德拉 鲍尔默 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vSLsff4k5moh+VEyZbEJmzRSIpieRaaMnUlrY+iiRAo=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">3 年时间，微软是如何将 Surface 变成自己的 Mac？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/244919/small/244919.jpg?1451146107" alt="">
+					</span>
+				<span class="name">李硕明 崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-26 08:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/16561/medium/16561.jpg?1445795192" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16561" data-title="《3 年时间，微软是如何将 Surface 变成自己的 Mac？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16561/medium/16561.jpg?1445789598" data-url="http://www.qdaily.com/mobile/articles/16561.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				Surface 在过去 3 年的变化，也是微软这家公司转型的过程。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	10 月初，微软的一场发布会鲜有地抓住了媒体和用户的注意力。既可以当笔记本也可以当平板用的 Surface Book 是这次的主角。
+</p>
+<p>
+	今天，Surface 所创造的“触控平板+PC”成为探索平板和 PC 未来的概念。联想的 IdeaPad 系列、戴尔的 XPS 12 和惠普的 Spectre x2 都是这个概念的效仿者。甚至连苹果为 iPad Pro 准备的大屏幕、手写笔和支架保护套，看上去都有 Surface 的影子。
+</p>
+<p>
+	这是软件起家的微软公司历史上第一次推出了引导潮流的硬件产品。但三年前，微软首次推出 Surface 的时候，很少有人会这么想。
+</p>
+<h2>
+	为什么会有 Surface？轻松赚钱的日子结束了
+</h2>
+<p>
+	在 2012 年初，微软的 Windows 部门主管史提芬·辛诺夫斯基在台上演示了第一代 Surface  产品：Surface Pro，以及另外一款 Surface RT，两者都搭载 Windows 8 的操作系统和 10.6 英寸屏幕，内置了自家的最新版本 Office 应用。
+</p>
+<p>
+	当时，<span>没有人觉得这是一款代表了未来的电子产品，更多像是微软的一次疯狂赌注。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/49d5b267784b.jpg" width="959" height="640" title="微软 2012 年 6 月发布了第一代的 Surface RT " alt="微软 2012 年 6 月发布了第一代的 Surface RT " /><span>微软 2012 年 6 月发布了第一代的 Surface RT </span> 
+</p>
+<p>
+</p>
+<p>
+	这是一款可以办公使用，又可以像 iPad 那样娱乐看片用的平板+PC。而在做产品演示时，辛诺夫斯基手上的 Surface 还顺利死机，让这个赌注增加了几分不靠谱的感觉。
+</p>
+<p>
+	Surface 的出现让 PC 厂商们不满。宏碁的<span>副总裁 Oliver Ahrens&nbsp;</span>在 Surface 发布后不久就站出来指责微软，直言这款产品不会成功。时任宏碁的 CEO 的蒋凡可·兰奇还曾表示，“我们曾经让微软慎重考虑 Surface 的开发”。
+</p>
+<p>
+	对于 PC 厂商们来说，微软发布 Surface 无异于是一次背叛，背叛了双方数十年来的合作关系。
+</p>
+<p>
+	1990 年代，微软用 Windows 系统统一了个人电脑用户的屏幕，Mac 被挤到市场的边缘，苹果一度面临破产。
+</p>
+<p>
+	伴随 Windows 的普及，微软建立了一个高效率的生意：从 PC 厂商们卖出的每一台 Windows 电脑抽取一部分收入。在这个模式之下，微软只需专注于 Windows 系统的开发，至于 PC 市场内部的斗争，不论谁是赢家，都得为 Windows 付钱。
+</p>
+<p>
+	Windows 和 Office 在之后的十多年内都成了微软最赚钱的生意，每个季度带来数十亿美元的收入。微软公司市值也在 2000 年突破了 6600 亿美元的惊人数字，这个数字直到 11 年后才被苹果以 7000 亿打破。
+</p>
+<p>
+	这样的好光景持续到了 2010 年。在 2010 年之后，PC 市场的饱和和走下坡。一方面，随着智能手机的兴起，他们逐渐取代 PC 成为了真正意义上的“个人电脑”。另一方面，乔布斯在苹果主导的 Mac、特别是 2010 年走向成熟的 MacBook Air 依靠设计和一年一次的系统升级甩开了 PC 竞争对手。相比之下，微软每隔三年才能推出一代 Windows。
+</p>
+<p>
+	市场的长期下滑直接导致了戴尔和惠普转型，这两家公司各自通过十余次并购从卖 PC 转而为企业提供服务。剩下的公司也基本都开始推出越来越多的 Android 产品，不管是手机、还是平板。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	在这个过程中 Windows 的收入也一年少过一年，比尔·盖茨一手创造的轻松赚钱方式已经成为过去。微软需要为 Windows 找到一个新的收入来源，而卖软件、硬件都自己控制的高端未来 PC，获取更多利润看上去是个可行的点子。
+</p>
+<p>
+</p>
+<h1>
+	Surface 第一代产品，连同 Windows 8 一起失败了
+</h1>
+<p>
+</p>
+<p>
+	于是 Surface 一开始就被赋予了特殊的使命，“<a href="http://techcrunch.com/2013/02/05/microsoft-surface-from-idea-to-pro/" target="_blank">让 Windows 8 变成实物</a>”。这话出自 Surface 的设计师 Ralf Groene 之口，在加入微软前 Groene 曾为两大知名设计事务所 IDEO 和 Frog 供职。
+</p>
+<p>
+</p>
+<p>
+	为了能把 Surface 卖得更好，微软做了一系列的努力。比如在苹果店隔壁开设微软零售店，让消费者可以更容易地接触到 Surface；为了让 Surface RT 能和 iPad 拥有同样的续航时间，微软还专门推出了能够在 ARM 处理上运行的 Windows RT 系统。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	Surface 是一个希望同时满足笔记本电脑和平板电脑需求的全能电脑，忠实反映了 Windows 8 的定位。
+</p>
+<p>
+</p>
+<p>
+	在微软规划的未来里，Windows 是所有计算设备的中心，包括手机、平板、PC 在内的任何设备都应该使用 Windows 系统。 满眼方块的 Metro 界面也是为了能让平板和 PC 可以在同一套界面下工作，微软还收购了使用 Windows 系统的诺基亚手机业务。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/16326cffb4ee.jpg" width="960" height="640" title="鲍尔默在 2012 年 6 月的 Surface 发布会上展示了这款设备" alt="鲍尔默在 2012 年 6 月的 Surface 发布会上展示了这款设备" /><span>鲍尔默在 2012 年 6 月的 Surface 发布会上展示了这款设备</span> 
+</p>
+<p>
+</p>
+<p>
+	<span>“</span><a href="http://www.forbes.com/sites/richkarlgaard/2012/07/11/microsofts-steve-ballmer-talks-about-windows-8-bill-gates-and-steve-jobs-and-why-microsofts-lost-decade-is-a-myth/2/" target="_blank">我喜欢我们对于 Windows 8 的努力，这是一场豪赌</a><span>。”时任微软 CEO 的鲍尔默也如此承认到，但鲍尔默赌输了。</span> 
+</p>
+<p>
+	对于一款操作系统来说，同时兼顾平板和手机实在是太难了。Windows 8 因为混乱的操作逻辑和数量有限的应用，成了一次堪比 Windows Vista 的失败。Surface RT 的销售是如此之差，在不到一年的时间里让微软损失了 9 亿美元。
+</p>
+<p>
+</p>
+<p>
+	Surface 第一代产品的失败结局，也印证了这么一个事实，微软这个软件巨头，对于消费级市场其实并没有什么号召力。
+</p>
+<p>
+</p>
+<p>
+	<span><span>这次失败影响的不仅是微软的 PC 软硬件，还威胁了微软利润最为丰厚的业务 Office。在 iPhone 和 Android 攫取九成手机市场的环境下，Office 坚守着市场份额不值一提的 Windows Phone 和 Surface，彻底错过了移动时代。</span></span> 
+</p>
+<p>
+	<span>Windows 8 发布 3 个月后，</span>Windows 业务负责人辛诺夫斯基离职、鲍尔默也在不到一年后宣布退休。
+</p>
+<p>
+</p>
+<h1>
+	重新出发，只为办公准备的 Surface
+</h1>
+<p>
+</p>
+<p>
+	2014 年 2 月，<span>萨提亚·纳德拉（Satya Nadella）</span>接任微软的 CEO。这位先后负责互联网服务、Office 和云计算的微软老兵将互联网服务和移动作为微软的优先业务。
+</p>
+<p>
+</p>
+<p>
+	<span>纳德拉</span>上任不到 2 个月，Office 业务营销总经理朱莉亚·怀特（Julia White）亲自拿着一款 iPad Air 上台演示了 Office for iPad。第一款触屏 Office 软件为 iPad 而非 Surface 开发。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/32128b3e14ee.jpg" width="960" height="640" title="微软的 Office 业务营销经理朱莉亚·怀特在用 iPad Air 演示 iPad 版本的 Office 应用" alt="微软的 Office 业务营销经理朱莉亚·怀特在用 iPad Air 演示 iPad 版本的 Office 应用" /><span>微软 Office 业务营销经理朱莉亚·怀特在用 iPad Air 演示 Office 应用</span> 
+</p>
+<p>
+</p>
+<p>
+	任何互联网服务成功的基本前提必然是支持了足够多的终端设备。纳德拉做了取舍，让更多计算机用上 Office，要远比卖出更多的 Windows 平板来得重要。
+</p>
+<p>
+	Office 在 iPad 上发布一周时间便被下载 1200 万次。数月后，iPhone 和 Android 手机也用上了 Office。
+</p>
+<p>
+	重心转移必然会有牺牲者。带着 2 万多诺基亚员工加入微软的前诺基亚 CEO 埃洛普，在两轮裁员中几乎失去了所有下属，而他自己也和其它来自诺基亚的高管一并离开了微软。
+</p>
+<p>
+</p>
+<p>
+	不过，Surface 却在纳德拉时代的微软找到了自己的存在价值——作为一台专注的办公电脑。
+</p>
+<p>
+	2014 年 5 月，微软发布了 Surface 的第三代产品 Surface Pro 3。这一次，Surface 的设计团队不再纠结 10 英寸以上的屏幕对于平板来说是不是太大了，直接在 Surface Pro 3 上用了一块更大的 12 英寸屏幕；同时在屏幕比例上从过去的 16:9 换成了更适合阅读文档和图表的 3:2。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/338029e65568.jpg" width="1080" height="640" title="作为一款生产力工具的 Surface Pro 3 使用了一块更大的 12 英寸屏幕" alt="作为一款生产力工具的 Surface Pro 3 使用了一块更大的 12 英寸屏幕" /><span>作为一款生产力工具的 Surface Pro 3 使用了一块更大的 12 英寸屏幕</span> 
+</p>
+<p>
+</p>
+<p>
+	<span>为了这块更适合工作的大号屏幕，Surface Pro 3 正面尺寸要比同时期发布的 iPad Air 2 大 43%。更大、更重、续航时间更短的 Surface Pro 3 更接近笔记本电脑而非适合端着用的平板。</span> 
+</p>
+<p>
+	同时，微软也砍掉了更适合作为消费使用的 8 英寸版本和更 Surface RT &nbsp;产品线，专注于大号的 Surface Pro。
+</p>
+<p>
+</p>
+<p>
+	Surface Pro 的硬件改变也带来了不错的反响。Surface Pro 3 推出后的那个季度里，整个 Surface 系列的销售额达到 9.08 亿美元，同比增长 117%。
+</p>
+<p>
+</p>
+<p>
+	而这个成绩，还是在 iPad 和 Android 平板电脑销售量普遍下滑的市场大环境中的表现。一时间，办公用的平板电脑，成了厂商探索平板电脑乃至 PC 未来的新方向。
+</p>
+<p>
+</p>
+<h1>
+	但微软能做好自己的 Mac 吗？
+</h1>
+<p>
+</p>
+<p>
+</p>
+<p>
+	今天的 Surface 不再是微软推广 Windows 和 Office 的载体。它是一个从软到硬都由微软控制的产品，像苹果的 Mac 一样专注于高端办公市场。Surface 带来的收入将在 PC 市场见不到起色的未来，成为驱动 Windows 继续前进的动力。
+</p>
+<p>
+</p>
+<p>
+	如果说微软在 Surface Pro 3 上确定了要把它做成一台笔记本电脑的话，那么 Surface Book 则在这条路上走得更远。Surface Book 使用了一块 13.5 英寸的 3000 x 2000 分辨率的屏幕、内建最新的英特尔 Skylake 处理器。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/b29ba92d2b62.jpg" width="1080" height="640" title="合起来的 Surface Book 更像一台传统的 PC" alt="合起来的 Surface Book 更像一台传统的 PC" /><span>合起来的 Surface Book 更像一台传统的 PC</span> 
+</p>
+<p>
+</p>
+<p>
+	在离开键盘之后，Surface Book 内置的电池只能驱动 3 小时，从一开始就是一款为连着键盘使用而设计的产品。Surface Book 这名字也说明了这一点，它首先是一款笔记本电脑，平板触控的功能只是偶尔用一下而已。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	Surface 更彻底地变成了 PC 之后，Surface Book 的竞争对手变成了 MacBook 家族，而非此前的 iPad。
+</p>
+<p>
+	考虑到今天 MacBook 为苹果带来的利润已经超过所有 PC 厂商之合，复制一个这样的生意看上去不是个坏点子。
+</p>
+<p style="text-align:center;">
+	<img src="http://www.qdaily.com/uploads/image/201507/90134f892011.jpg" width="890" height="580" title="iPhone、Mac 的利润对比同类其它所有竞争对手之合" alt="iPhone、Mac 的利润对比同类其它所有竞争对手之合" style="text-align:center;" /><span style="text-align:center;">iPhone、Mac 的利润对比同类其它所有竞争对手之合</span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	多年来，相当一部分重视办公工具的用户都转向了苹果。每年 Google 的开发者大会基本只能看到 MacBook Air 和 Pro。而美国的科技产品发布会，台下记者手上的电脑也都闪着白色的缺口苹果。
+</p>
+<p>
+</p>
+<p>
+	卖好 Surface，意味着微软得吸引已经转向 Mac 的用户，这并不是一件容易的事情。特别考虑到成立 40 年来，微软除了 Xbox 以外并没有多少面向个人销售的经验——Windows 不管有多少人用，绝大部分都是微软批量卖给 PC 厂商，再由它们预装在新出厂的电脑上。
+</p>
+<p>
+	最近的销售表现也印证了 Surface 的前景未卜。上周五公布的财务数据显示微软今年 7 - 9 月通过 Surface 获得的收入比去年同期少了 1/4。
+</p>
+<p>
+	通过 Surface，微软有了自己的 Mac。现在的问题是，它能买好么？
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图来自：<a href="http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAUQjhxqFQoTCOfFtN2B3sgCFUfbYwodxb0F2A&url=http%3A%2F%2Ftehnot.com%2Fmicrosoft-zapatentovala-umnuyu-odezhdu%2F&psig=AFQjCNHedlrwzo1S0l3-hINTIE8M3_AMkA&ust=1445875933087426" target="_blank">Tehnot</a> 
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="3358">
+				<span data-id="3358">PC</span>
+			</li>
+			<li class="tag item" data-id="3359">
+				<span data-id="3359">个人电脑</span>
+			</li>
+			<li class="tag item" data-id="1682">
+				<span data-id="1682">平板电脑</span>
+			</li>
+			<li class="tag item" data-id="3746">
+				<span data-id="3746">Surface</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="1943">
+				<span data-id="1943">戴尔</span>
+			</li>
+			<li class="tag item" data-id="2119">
+				<span data-id="2119">惠普</span>
+			</li>
+			<li class="tag item" data-id="17743">
+				<span data-id="17743">Acer</span>
+			</li>
+			<li class="tag item" data-id="17744">
+				<span data-id="17744">史提芬·辛诺夫斯基</span>
+			</li>
+			<li class="tag item" data-id="3511">
+				<span data-id="3511">纳德拉</span>
+			</li>
+			<li class="tag item" data-id="2529">
+				<span data-id="2529">鲍尔默</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16561" data-title="《3 年时间，微软是如何将 Surface 变成自己的 Mac？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16561/medium/16561.jpg?1445789598" data-url="http://www.qdaily.com/mobile/articles/16561.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16495.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/16495/medium/16495.jpg?1445591347" alt="在微软眼中，电子设备的未来是什么样子的？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">在微软眼中，电子设备的未来是什么样子的？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">27</span>
+				<span class="iconfont icon-heart">123</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/1520.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/1520/medium/1520.jpg?1436642044" alt="裁员 18000 人造就纳德拉的“一个微软”">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">裁员 18000 人造就纳德拉的“一个微软”</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">80</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/cards/26829.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26829/medium/26829.jpg?1463220511" alt="">
+                        <h1 class="title">远行前最后一分钟，还有这 17 个应用要装好再走 | Hack Your Life</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26854.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26854/medium/26854.jpg?1463232976" alt="">
+                        <h1 class="title">电影《盗墓笔记》首款预告，来看鹿晗和井柏然配不配</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26852.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26852/medium/26852.jpg?1463223516" alt="">
+                        <h1 class="title">出了一个油耗丑闻后，三菱汽车被日产控股了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26850.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26850/medium/26850.jpg?1463218579" alt="">
+                        <h1 class="title">《长乐路》：一个美国记者眼中的上海街市和生活</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26811.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26811/medium/26811.jpg?1463128874" alt="">
+                        <h1 class="title">阿迪做了一本生活方式类的数字杂志 ，你要看吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26855.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26855/medium/26855.jpg?1463269188" alt="">
+                        <h1 class="title">为了吸引你，麦当劳要把冷冻肉饼换成新鲜牛肉？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26818.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26818/medium/26818.jpeg?1463148366" alt="">
+                        <h1 class="title">原宿开的这家店，就像给刚吃完快餐的人泼上一盆冷水</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="16561">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="16561" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">287</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/16559.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

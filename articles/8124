@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>由配角到主角，以后的电影节，视频网站说了算_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="由配角到主角，以后的电影节，视频网站说了算。视频网站正在各大电影节上扮演着越来越重要的角色。。好奇心日报为您呈现由配角到主角，以后的电影节，视频网站说了算的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 香港电影节 优酷 爱奇艺 乐视 腾讯 王晶 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ieqPdWCDENgUtZsl1+7JYYpWVLBy30U9k6XsHBxay48=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/3.html" class="category x25" data-id="3">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<h1 class="title">由配角到主角，以后的电影节，视频网站说了算</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/999/small/999.jpg?1404052188" alt="">
+					</span>
+				<span class="name">陆云霏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-04 08:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/8124/medium/8124.jpg?1428071745" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8124" data-title="《由配角到主角，以后的电影节，视频网站说了算》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8124/medium/8124.jpg?1436696922" data-url="http://www.qdaily.com/mobile/articles/8124.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				视频网站正在各大电影节上扮演着越来越重要的角色。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<div>
+	每年的香港电影节都会迎来众多的大片及明星们的出场，今年当然也不例外。不过，原本电影节上“配角”的视频网站们，今年成为了“主角”。
+</div>
+<div>
+	你会发现，关于今年香港电影节的新闻头条页频频被视频网站抢走。香港导演王晶和爱奇艺签署合作协议，双方将合作推出 6 部影片；优酷土豆发布《万万没想到》大电影计划，一群导演、艺人为其站台。
+</div>
+<p>
+	看来，视频网站们不再只是跑来蹭点版权就算了，用他们的话说，是要“深度参与”。无论是香港电影节上的各种论坛，还是颁奖典礼上，视频网站的高管们都成为座上宾。爱奇艺影业总裁李岩松 3 月 23 日上午还在参加一场论坛谈论“亚洲电影业的丝绸之路：挑战、机遇与合作”，下午又作为颁奖嘉宾出现在“第十三届香港亚洲电影投资会颁奖礼上”。
+</p>
+<p>
+	<img src="/uploads/image/201504/3f5753b2fe83.jpg" alt="" /> 
+</p>
+<div>
+	几天里视频网站们出尽风头，让优酷土豆集团副总裁卢梵溪有点不敢相信。毕竟三年前（2012 年）第一次参加香港电影节的经历那时候如此“心酸”。“香港电影节主办方说场地不够，我们就只能坐在酒店里工作。” 卢梵溪不否认当时被拒之门外的境遇，但为了通过香港电影节来为自己“背书”，扩大优酷在电影圈的影响力，一切又是值得的。2013 年开始，优酷土豆集团董事长兼CEO古永锵的名字开始频繁地以联合出品人的身份出现字电影的片头，《风暴》、《窃听风云 3》、《黄金时代》等。
+</div>
+<div>
+	之所以介入电影行业，一方面是版权价格居高不下，视频网站不甘于只做“烧钱”方，一方面又实在是因为诱惑太大。从 2006 年《疯狂的石头》以人民币 1600 万元夺得当年国产片票房冠军开始，中国电影市场持续高速增长，2007 年，中国电影市场总票房才为人民币 33 亿元，到 2014 年就将近 300 亿（296.39 亿）了。视频网站显然不甘心停留在“电影储藏室”，而要真正的“入侵”电影产业，向产业链上游延伸，自己生产内容。
+</div>
+<div>
+	视频网站们的角色确实正在发生变化，纷纷设立影业公司，大张旗鼓地圈地电影业。乐视影业签下导演张艺谋，先后发行了《小时代》、《归来》等热门电影。2014 年 7 月，爱奇艺成立爱奇艺影业，正式进军电影市场。两个月后，优酷土豆成立电影公司“合一影业”，腾讯视频推出“腾讯电影+”。
+</div>
+<div>
+	“未来的电影市场在互联网上”，优酷总裁魏明毫不掩饰对进入影视剧制作链条上游的雄心。而打开封闭的壁垒，各种类型的电影节成为了这批电影产业新创入者扎堆的首选聚集地。“既可以去电影节上寻找一些打通电影产业的资源，又可以顺带着去争取一些优秀的电影版权，一举两得的事情当然得做。”优酷土豆一名内容负责人对《好奇心日报》说。
+</div>
+<div>
+	有着“亚洲历史最悠久的电影节”、“亚洲最国际化的电影节”之称的香港电影节，自然是视频网站们不愿意错过的地方。从 3 月 23 日至 4 月 6 日期间，共有 56 个国家和地区的 260 部佳片放映，其中有 78 部新片在本届影节全球首映。如此豪华的阵容，各家可谓早就卯足了劲。
+</div>
+<h3>
+	各有各的玩法
+</h3>
+<p>
+	虽然同样涌入到电影节中，但打法并不尽相同。
+</p>
+<p>
+	优酷走的是以微电影作品打开电影节市场的路子。优酷的“大师微电影”系列是优酷在各大国际电影节上亮相的主线。2012&nbsp;年到&nbsp;2015&nbsp;年，“大师微电影”已经连续举办了四届，顾长卫、许鞍华、蔡明亮、金泰勇、黑泽清、杜可风、黄建新、严浩、莫森马克马尔巴夫等十几位导演都从优酷那里领到了一笔资金完成了他们的微电影作品，其中不少作品还取得了千万级的播放量。
+</p>
+<p>
+	<img src="/uploads/image/201504/38f6a426d008.jpg" alt="" /> 
+</p>
+<p>
+	2012&nbsp;年第一届“大师微电影”中的四部影片——顾长卫的《龙头》、许鞍华的《我的路》、金泰勇的《你何止美丽》，以及蔡明亮执导的《行者》，先后受到戛纳电影节、多伦多国际电影节、釜山国际电影节、圣丹斯电影节、上海电影节等&nbsp;40&nbsp;多个国内外电影节的青睐。其中《行者》还被选中在戛纳电影节影评周闭幕夜播放。“在和香港电影节多年的合作后，优酷出品‘大师微电影’已经成为了行业的标杆。”优酷土豆集团副总裁卢梵溪在由优酷出品、香港国际电影节联合主办的“2015 大师微电影”首映发布会上说。
+</p>
+<div>
+	可以说，自制微电影是优酷土豆介入到电影产业链条中的另外一种方式，这与联合出品一道成为古永锵走向电影大亨的两条并行的道路。
+</div>
+<div>
+	当然，优酷有自己的理由。相比一上手就投资大电影，微电影成本较低，加上导演们提供了更自由的创作空间，无形中通过低风险的方式为优酷和电影市场建立起了融洽的关系，并实现资源的转化。
+</div>
+<p>
+	相比之下，爱奇艺打入电影节的方式则更为直接——通过出资赞助，他们与香港亚洲电影投资会（HFA）建立了紧密的联系，并且拥有了“冠名”的论坛和奖项。3 月 25 日晚，爱奇艺举办了他们在香港电影节上的最后一场活动，HAF（香港亚洲电影投资会）告别酒会暨“爱奇艺之夜”。
+</p>
+<p>
+	<img src="/uploads/image/201504/e75c2659a268.jpg" alt="" /> 
+</p>
+<div>
+	在去年的几场国际电影节上谋得位置的方式也大致相同。爱奇艺出资成为了威尼斯电影节的主要赞助商之一，并因此获得了 2014 年威尼斯电影节的网络独播权。爱奇艺创始人、CEO 龚宇表示：“拥有尽可能多的影片对我们来说非常重要，但是购买海外电影的版权相对比较困难。因此，我们认为国际电影节是一个非常重要的机会。”
+</div>
+<div>
+	在接下来的釜山电影节上，爱奇艺就与韩国乐天公司、FineCut&nbsp;公司签订了近百部影片的独家版权合作。爱奇艺的工作人员告诉《好奇心日报》，通过赞助电影节，爱奇艺确实快速地对外树立了自己的品牌形象，对于洽谈资源有着实际的正面作用。
+</div>
+<div>
+	而这种结果的作用又是双向的，资源的聚拢也引向了用户的聚拢。对于去年的多伦多电影节、上海电影节、香港夏日电影节、威尼斯电影节、釜山电影节和台北金马电影节，爱奇艺都通过“在线影展”的模式对一部分参展影片进行了在线展映，对于关注相关电影节片单的观众来说，这无疑也是一种聚拢用户的方式。
+</div>
+<div>
+	同样的，乐视网“全程报道”电影节的意图也在于此。早在&nbsp;2009&nbsp;年的香港电影节上，乐视网就在自己的展位上为投拍的电影《机器侠》召开媒体见面会，并借此与参展的各家片方接触，寻求更多的影视剧网络版权。而在&nbsp;2011&nbsp;年乐视影业正式成立后，乐视网在当年就以派出报道团队全程跟拍的方式参与了第&nbsp;59&nbsp;届西班牙圣塞巴斯蒂安电影节和第&nbsp;68&nbsp;届威尼斯电影节。到了&nbsp;2014&nbsp;年的第&nbsp;38&nbsp;届香港电影节，乐视影业则公布了与香港银都机构和天马公司关于《Z&nbsp;风暴》、《冰封重生之门》等电影的合拍片计划。
+</div>
+<div>
+	“不差钱”的腾讯视频在今年的香港电影上倒是一反常态，没有发出什么声音。又或者是，在 2014 年上海电影节上，腾讯视频宣布的“为虎添翼”计划（以联合出品方的身份投资《天将雄师》《钟馗伏魔：雪妖魔灵》等 6 部电影）足以够它玩一阵子了。
+</div>
+<h3>
+	要人
+</h3>
+<div>
+	在魏明看来，进入影视剧制作链条上游的第一件事就是掌握足够多的电影人才。于是，“抢人”成为了视频网站在本届香港电影节上的一大特色。
+</div>
+<p>
+	本届电影节上，优酷把监制了《十月围城》、《亲爱的》、《智取威虎山》等电影的内地第五代导演代表人物黄建新“抢”了过来，邀请他给叫兽易小星的大电影《万万没想到》担任监制。去年，由微电影《老男孩》改编的大电影《老男孩猛龙过江》取得了超过 2 亿元的票房。对于已经累计播放超过 20 亿的网络剧《万万没想到》，优酷还想再创造一个神话。
+</p>
+<p>
+	<img src="/uploads/image/201504/ea13c16ccfbb.jpg" alt="" /> 
+</p>
+<div>
+	事实上，优酷早就意识到这点。2010年优酷推出了第一个 5 年计划“青年导演扶植计划”，先后共扶植 70位导演拍摄 31部网剧、近 百部微电影，总播放量突破 30 亿。2014 年，优酷将此计划升为“优酷出品青年导演电影基金”，未来 3 年投入 1.5 亿元投资开发 10 个电影项目。
+</div>
+<div>
+	今年，“大师微电影”还将牵手釜山国际电影节合作推出“MN9 领航计划”，“4+4+1”模式，四位亚洲大师级导演除了各自执导的微电影，还作为监制各自扶植一位青年导演拍摄微电影，并将从中挑选一部最具潜力的作品，大师导演与青年导演共同开发成大荧幕电影。意图很明了，“大师”们的经验将直接被用来扶持优酷自己的青年导演储备。
+</div>
+<p>
+	爱奇艺则是直接从传统电影公司博纳影业里抢走了导演王晶，双方将合作推出包括《淘得有情人》在内的 6 部电影作品。虽然双方没有透露合作的具体金额，但被称为“最懂贺岁片”的王晶价格自然不低。龚宇强调，导演等内容创作者是优质电影生产的源头，所以爱奇艺力求打通电影产业链上下游，与优质电影工作者合作，“我认为他是华语电影最具互联网基因的导演，与他合作再合适不过”。
+</p>
+<p>
+	<img src="/uploads/image/201504/d1972398548c.jpg" alt="" /> 
+</p>
+<div>
+	对于踏进互联网的大门，王晶倒是很乐意。“上院线的电影面临着巨大的票房压力，但是这样一来，我想创作一些题材新颖独特的电影，就会失去生存的空间。互联网靠眼球，观众群体更年轻、接受度更宽广，因此我决定先走一步！”王晶还建议那些很想尝试新锐题材的新人导演不妨选择早早“触网”。
+</div>
+<div>
+	另一边，爱奇艺也在同样地“关怀”着青年导演，在 3 月 25 日的第十三届香港亚洲电影投资会（HAF）颁奖礼上，爱奇艺将“特别选择奖”的奖项颁给了电影《同班同学》。在去年上海国际电影节会上，则将“特别关注奖”颁给了由鲁岩、焦雄屏担任制片人，蔡聪担任导演的《七号恋人》。李岩松说，爱奇艺“特别关注奖”与“特别选择奖”都是爱奇艺与香港、亚洲等国际重量级电影节合作的重要部分，前者侧重于扶持中国大陆的优秀青年导演、编剧等，后者则重点扶持香港本土的优秀导演、编剧和电影人。
+</div>
+<div>
+	看得出来，殊途同归，视频网站们以不同的方式、不同的姿态投身到电影节中，最终都指向商业大电影，人也要，钱当然也要。
+</div>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="8166">
+				<span data-id="8166">香港电影节</span>
+			</li>
+			<li class="tag item" data-id="1700">
+				<span data-id="1700">优酷</span>
+			</li>
+			<li class="tag item" data-id="2510">
+				<span data-id="2510">爱奇艺</span>
+			</li>
+			<li class="tag item" data-id="1840">
+				<span data-id="1840">乐视</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="6336">
+				<span data-id="6336">王晶</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="8124" data-title="《由配角到主角，以后的电影节，视频网站说了算》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/8124/medium/8124.jpg?1436696922" data-url="http://www.qdaily.com/mobile/articles/8124.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25514.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25514/medium/25514.jpg?1460683198" alt="">
+                        <h1 class="title">Dior销售大涨，以及，霉霉在VOGUE拍的大片不太像她｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25511.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25511/medium/25511.jpg?1460678984" alt="">
+                        <h1 class="title">几位中国设计师在米兰聊了聊“抄袭”｜米兰设计周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25513.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25513/medium/25513.jpg?1460682275" alt="">
+                        <h1 class="title">今日娱乐：《银护 3》定档，《阿凡达》还要再拍 4 部</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25507.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25507/medium/25507.jpg?1460676837" alt="">
+                        <h1 class="title">条纹这么普及，还可以把它专门做成一个服装品牌？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25531.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25531/medium/25531.jpg?1460697557" alt="">
+                        <h1 class="title">京东到家和达达合并，会成就一个众包物流巨头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25530.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25530/medium/25530.jpg?1460696028" alt="">
+                        <h1 class="title">麦当劳可能要出售中韩2800家餐厅，全部改成特许经营</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25510.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25510/medium/25510.jpg?1460681015" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="8124">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="8124" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">91</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/8120.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

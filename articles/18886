@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>在淘宝眼中，你和你所在的城市都长啥样？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="在淘宝眼中，你和你所在的城市都长啥样？。就，一个爱按摩而且喜欢买买买的人。。好奇心日报为您呈现在淘宝眼中，你和你所在的城市都长啥样？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="报告 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="fbAq6tcfMh66lU5EQNbpztJB+K+1nFKS0Rv55NdvU5E=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">在淘宝眼中，你和你所在的城市都长啥样？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112316/small/112316.JPG?1442220004" alt="">
+					</span>
+				<span class="name">罗芊 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-14 10:00:17 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/18886/medium/18886.jpeg?1449764230" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18886" data-title="《在淘宝眼中，你和你所在的城市都长啥样？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18886/medium/18886.jpeg?1449764230" data-url="http://www.qdaily.com/mobile/articles/18886.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				就，一个爱按摩而且喜欢买买买的人。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span><a href="http://www.qdaily.com/articles/18147.html"><span>此前<span>，<span>我们写过<span>支付宝的报告怎么描述你所在的城市</span></span></span></span></a></span>。现在淘宝和第一财经商业数据中心共同发布了一篇报告，基于淘宝网热搜关键词、上百个子类目，以性别、年龄、网购深度、城市等纬度分析了中国人都在为什么买单。<span></span> 
+</p>
+<p>
+	简而言之，这份报告告诉我们，姑娘不一定不爱按摩，你爸妈不一定不了解二次元，老人家不一定不爱美不爱运动，各个城市或许不是你想的那样。<span></span> 
+</p>
+<p>
+	在淘宝眼中，中国人是这样的：<span></span> 
+</p>
+<p>
+	<span><strong>1. &nbsp;</strong></span><strong>年轻姑娘比小伙还要爱按摩。</strong><span></span> 
+</p>
+<p>
+	对上门按摩服务最有需求的是 <span>25 - 29</span>岁年轻人，妹子占七成。<span></span> 
+</p>
+<p>
+	<span><strong>2. &nbsp;</strong></span><strong>搜索二次元文化最多的是中年人。</strong><span></span> 
+</p>
+<p>
+	不管你信不信，对&nbsp;<span>Cosplay&nbsp;</span>等二次元文化搜索最多的，是<span>40</span>～<span>49</span>岁的消费者。<span></span> 
+</p>
+<p>
+	（为了了解孩子的内心世界？）<span></span> 
+</p>
+<p>
+	<span><strong>3. &nbsp;</strong></span><strong>老人家现在爱香水、爱户外。</strong><span></span> 
+</p>
+<p>
+	<span>2011 - 2015 </span>年的淘宝数据显示，<span>50 - 70 </span>岁消费者对于香水的消费持续增长，仅在 <span>2014</span>年就花费近 <span>7000 </span>万元用于购买。购买户外用品最多的人群不是 <span>20 </span>岁左右，而是 <span>50 - 70 </span>这个年龄层面。<span></span> 
+</p>
+<p>
+	<span><strong>4. &nbsp;</strong></span><strong>三四级城市的土豪是正在兴起的网购“金主”。</strong><span></span> 
+</p>
+<p>
+	手表、化妆品和高端珠宝等高消费类目，以及家具和家装等大件商品类目，在三四级城市的购买力表现更为明显。<span></span> 
+</p>
+<p>
+	<span><strong>5. &nbsp;</strong></span><strong>南方沿海居民钟情养生。</strong><span></span> 
+</p>
+<p>
+	“有机、低脂、无添加”成为消费者的热搜关键词，广东、浙江和江苏省是三大最爱追逐健康的城市。<span></span> 
+</p>
+<p style="text-align:center;">
+	<img width="500" height="200" title=" " alt=" " src="/uploads/image/201512/5fef4c6c95fc.gif" /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	在淘宝眼中，这些城市是这样的：<span></span> 
+</p>
+<p>
+	<span><strong>1. &nbsp;&nbsp;</strong></span><strong>北京：我爱秋裤，我爱小龙虾。</strong><span></span> 
+</p>
+<p>
+	在秋裤的购买城市中，北京高居榜首，天津、沈阳、哈尔滨、长春紧随其后组成 <span>top5</span>。北京是全国最热爱小龙虾宵夜的城市，朝阳区贡献了最高的小龙虾外卖订单。<span></span> 
+</p>
+<p>
+	<strong>2. &nbsp;上海：买买买。</strong><span></span> 
+</p>
+<p>
+	淘宝数据盛典报告数据显示，在全国消费人群中，消费者最成熟的北京上海反而是年轻消费群体占比最低的城市，换言之，不单是年轻人，上海有各个年龄层的人群在淘宝上买买买。<span></span> 
+</p>
+<p>
+	<strong>3. &nbsp;广东：反正广场舞行头我最棒！</strong><span></span> 
+</p>
+<p>
+	广场舞消费哪里强？从绝对值看，广东、江苏、浙江荣登广场舞消费额前三甲。哦，他们还很爱买跑步机。<span></span> 
+</p>
+<p>
+	<strong>4. &nbsp;河南：越来越爱美。</strong><span></span> 
+</p>
+<p>
+	<span>2011 - 2014</span>年时尚美妆行业销售额增速最快的十大省份：河南、河北、海南、青海、贵州、山西、湖南、新疆、甘肃、安徽。<span></span> 
+</p>
+<p>
+	<strong>5. &nbsp;</strong><strong><strong>浙江：科技控。</strong></strong> 
+</p>
+<p>
+	浙江省也最爱智能机器人。家用智能设备“扫地机器人”成为东南沿海经济发达省份人群最爱。按照全国地域分布扫地机&nbsp;Top3&nbsp;的消费省份分别为浙江、广东、江苏。
+</p>
+<p>
+	<strong><span></span></strong> 
+</p>
+<p>
+</p>
+<p>
+	<strong>6. &nbsp;</strong><strong>福建：爱美丽。</strong> 
+</p>
+<p>
+	这是一个唇膏大省。护肤彩妆购买排行榜&nbsp;top10&nbsp;大学，厦门大学排第&nbsp;8，高校骑行装备购买排行榜&nbsp;top10&nbsp;大学，厦门大学排第&nbsp;6（嗯，厦门大学也可能是全国各地学子撑起半边天）。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>7. &nbsp;杭州：我爱按摩。</strong><span></span> 
+</p>
+<p>
+	杭州的上门按摩订单数量超过北京上海之和，成为“<span>O2O</span>按摩之都”。巨蟹座和双鱼座却成为颈椎问题最突出的星座（什么鬼）。<span></span> 
+</p>
+<p>
+	<strong>8. &nbsp;江西：了不起的&nbsp;</strong><span><strong>90 </strong></span><strong>后。</strong><span></span> 
+</p>
+<p>
+	<span>90&nbsp;</span>后成交额占比最高：江西、海南、安徽；最低：辽宁、北京、上海。<span></span> 
+</p>
+<p>
+	<strong>9. &nbsp;重庆：可能……爱熬夜。</strong><span></span> 
+</p>
+<p>
+	重庆大学的夜猫子们喜欢半夜淘宝，凌晨 <span>0 </span>点至 <span>7 </span>点的下单量是淘宝用户平均数值的&nbsp;<span>2&nbsp;</span>倍。<span></span> 
+</p>
+<p>
+	<strong>10. &nbsp;四川：美！潮！会玩！</strong><span></span> 
+</p>
+<p>
+	近四成 <span>90 </span>后男孩网购衣服会选择品牌服饰。智能手表、智能手环等年轻人喜爱的数码产品，四川成交规模都位列全国 <span>top10 </span>。手办、扭蛋、高达、<span>cosplay </span>服饰……这些你可能闻所未闻的二次元商品，在四川拥有庞大的消费人群。<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="18886" data-title="《在淘宝眼中，你和你所在的城市都长啥样？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/18886/medium/18886.jpeg?1449764230" data-url="http://www.qdaily.com/mobile/articles/18886.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26534.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26534/medium/26534.jpg?1462593100" alt="">
+                        <h1 class="title">上海迪士尼乐园试运营第一天，这里是一些剧透</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26525.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26525/medium/26525.jpg?1462531542" alt="">
+                        <h1 class="title">脱掉自己的鞋，才能进 Everlane 这家快闪店玩</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26533.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26533/medium/26533.gif?1462614619" alt="">
+                        <h1 class="title">那些被负能量小事毁掉的一天，一次让你看够</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26536.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26536/medium/26536.jpg?1462610662" alt="">
+                        <h1 class="title">除了温馨牌，母亲节营销还可以这样做</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26537/medium/26537.jpg?1462626631" alt="">
+                        <h1 class="title">如果你是个吃货，那你的旅行不应该错过特拉维夫</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="18886">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="18886" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">101</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19000.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

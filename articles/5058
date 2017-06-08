@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CES 现场：觉得手环太丑？呵呵，来看看智能服装_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CES 现场：觉得手环太丑？呵呵，来看看智能服装。当科技遇上时尚，弄砸之后。好奇心日报为您呈现CES 现场：觉得手环太丑？呵呵，来看看智能服装的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="CES 智能布料 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="b11tgl4aPTNKrFjzmTF4/1BVENAVmqvHIFLgLxXe0RI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="5922">
+				<span data-id="5922">智能布料</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">CES 现场：觉得手环太丑？呵呵，来看看智能服装</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3910/small/3910.png?1418028195" alt="">
+					</span>
+				<span class="name">唐怡园 崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-08 18:48:50 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5058/medium/5058.jpg?1436675549" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5058" data-title="《CES 现场：觉得手环太丑？呵呵，来看看智能服装》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5058/medium/5058.jpg?1436675549" data-url="http://www.qdaily.com/mobile/articles/5058" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当科技遇上时尚，弄砸之后
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	今天的 CES 现场，有场叫“FashionWare”的科技时装秀，看起来更像是“不太科技”也“不太时尚”，题图从左到右逐个看：
+</p>
+<p>
+	<img src="/uploads/image/201501/5894b65ed3da.jpg" alt="" /> 
+</p>
+<p>
+	裙子上嵌着 LED 灯带以及一个颜色感应器，将不同色彩的布料贴上去，LED 灯会就会变成相应的颜色。
+</p>
+<p>
+	<img src="/uploads/image/201501/f1b64227c822.jpg" alt="" /> 
+</p>
+<p>
+	这位模特并没有穿任何“智能”的服装，只是带了&nbsp;<a href="http://www.osterhoutgroup.com/" target="_blank" style="white-space:normal;background-color:#FFFFFF;"><span style="background-color:#FFFFFF;">ODG&nbsp;</span><span style="white-space:normal;background-color:#FFFFFF;">AR 智能眼镜</span></a>，还有腰间绑着一根可以给手机充电的 XOO 皮带；
+</p>
+<p>
+	<img src="/uploads/image/201501/d0074d340afe.jpg" alt="" /> 
+</p>
+<p>
+	肚子上缝了一组灯泡的紧身衣，连她带着的 AR 眼镜侧边都是彩色，闪闪闪；
+</p>
+<p>
+	<img src="/uploads/image/201501/6db93ad8579b.jpg" alt="" /> 
+</p>
+<p>
+	正常的黑色露背装、胸口挂着施华洛世奇的智能珠宝，听上去挺正常吧，只是她的裙底<span style="white-space:normal;">闪烁着“</span>Say Hello”；
+</p>
+<p>
+	<img src="/uploads/image/201501/553bb1ed0d0f.jpg" alt="" /> 
+</p>
+<p>
+	无袖皮衣就算了，不断滚动显示英文字和 101016，不过他的卖点不是人体展示牌，而是装了 Nook 阅读应用的智能手表；
+</p>
+<p>
+	<img src="/uploads/image/201501/3d4afb13ebd3.jpg" alt="" /> 
+</p>
+<p>
+	最后这位红色礼服的姐姐同样将卖点放在裙底，而且仅限裙底——一组 LED 灯可以让裙子变换不同花色。
+</p>
+<p>
+	不靠谱的智能衣物还有下面这双袜子：
+</p>
+<p>
+	<img src="/uploads/image/201501/48e949e008f8.jpg" alt="" /> 
+</p>
+<p>
+	<a href="http://www.sensoriafitness.com/" target="_blank">Sensoria Fitness</a> 的智能袜子在 CES 展上吸引了很多眼球。袜子足底布料编织进了 3 个传感器，脚掌2个，脚跟1个，用于检测运动数据，纠正跑步姿势。这双袜子可以洗 60 次，25 美元一对。尽管现场模特称穿着这个脚踝环走路并无异物感，但依然为带着这个设备长跑的人们担心。
+</p>
+<p>
+	智能袜子不能单独使用，得靠 150 美元的塑料脚镯信号接收器，手机才能接受运动数据。脚踝上带个硬邦邦的圆环，可能身心都不太适应。另外，它还搭售一款智能运动内衣，夹上一个传感器后可以专门用来感应心率。
+</p>
+<iframe height="498" width="640" src="http://player.youku.com/embed/XODY3MjE0MDI4" frameborder="0" allowfullscreen="">
+</iframe>
+<p>
+	Sensoria Fitness 官方号称私人教练的智能硬件三件套会不会有点复杂？但你会发现：如果你只买一双袜子，什么也玩不了。
+</p>
+<p>
+	相比前面这些不靠谱的智能衣物，<a href="http://www.cambridgeconsultants.com/media/press-releases/innovation-wearable-tech" target="_blank">Cambridge&nbsp;Consultants</a> 公司刚刚发布的智能布料 XelfleX 是我们今天见到比较有吸引力的创新：
+</p>
+<iframe height="498" width="640" src="http://player.youku.com/embed/XODY3MTUxODIw" frameborder="0" allowfullscreen="">
+</iframe>
+<p>
+	<span style="white-space:normal;">XelfleX 是一种智能织物，布料里面编织了传感器，另外，</span><span style="white-space:normal;">每件衣服上还有 10 片信用卡尺寸的传感器，因此可以检测到人类每个关节的运动。穿上布料、</span>连上手机应用可以检测运动数据、心率、睡眠等数据。<span style="white-space:normal;">XelfleX 展台还有成品演示，《好奇心日报》的现场感受了一下布料成品，弹性很强，和泳衣类似，而且比较轻薄。</span>可以想象，运动训练穿上此服装进行效果监测，应该不错。
+</p>
+<p>
+	目前，Cambridge&nbsp;Consultants 只提供智能布料的技术支持，正在寻求合作伙伴生产。所以，智能布料生产甚至使用在运动等领域，还需要一段时间。
+</p>
+<p>
+	<img src="/uploads/image/201501/a904d46be7be.jpg" alt="" /> 
+</p>
+<p>
+	总而言之，现在“智能服装”一般都是两种做法：将感应器放到织物当中，或者直接在衣服上接上传感器。现在要比的，就是谁传输数据的设备做得小和薄，可以让人无感知。XelfleX 的智能织物技术看起来是一个可能的方向：感应器到织物底层，然后接上轻薄小型传感器。毕竟，衣服至少得穿得舒服，然后才是智能。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<p style="white-space:normal;">
+		<strong><br class="Apple-interchange-newline" />
+你身边的电子设备还会发生什么变化？请看《好奇心日报》其它 CES 现场报道：</strong>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		家居：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/manager/articles/5107/edit" style="background-color:#FFFFFF;">理想的未来厨房应该有什么？这里有 4 个例子</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5091" style="background-color:#FFFFFF;">怎么养花都养不死的花盆来了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5024">Misfit 想用智能灯泡让你睡个好觉</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4978">手机被颠覆之后，三星打算通过智能家居发起反击</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4973">LG 出个长得像冰箱的智能洗衣机</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		汽车：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5094">2014 年风光进驻的苹果已经不再是智能汽车的主角</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5014">在福特的实验里，你也许不需要买车了</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		穿戴：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5061">7 个为女性而生的智能硬件值得推荐</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5058">你觉得手环太难看？再看看这些智能服装吧</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5055">施华洛世奇带来智能珠宝，目标中国</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5013">Apple Watch 还没开始卖，配件已经到了</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/4981">那么多设备在追踪你的数据，然后呢？</a>
+	</p>
+	<p style="white-space:normal;">
+		<br />
+	</p>
+	<p style="white-space:normal;">
+		娱乐：
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5027">虚拟现实终于到你眼前了，但未来还没到来</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://www.qdaily.com/display/articles/5028">Beats 的前任至今还没放下它</a>
+	</p>
+	<p style="white-space:normal;">
+		<a href="http://qdaily.com/display/articles/5095">以后你的手机可能连数据线都用不着了</a>
+	</p>
+<span style="white-space:normal;"></span>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="5922">
+				<span data-id="5922">智能布料</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5058" data-title="《CES 现场：觉得手环太丑？呵呵，来看看智能服装》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5058/medium/5058.jpg?1436675549" data-url="http://www.qdaily.com/mobile/articles/5058" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25018.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25018/medium/25018.jpg?1459907621" alt="">
+                        <h1 class="title">Gucci男女装秀将合并，以及，MCM的新印花系列还不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25016.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25016/medium/25016.jpg?1459903086" alt="">
+                        <h1 class="title">YSL 新上任的设计总监，也是个待不久的设计师</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25028.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25028/medium/25028.jpg?1459916363" alt="">
+                        <h1 class="title">看看这幢建筑物，估计你都不相信这里是最高法院</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25033.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25033/medium/25033.jpg?1459919821" alt="">
+                        <h1 class="title">新的 Kindle 是什么样？更轻更薄，还有充电外壳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25027.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25027/medium/25027.jpg?1459913781" alt="">
+                        <h1 class="title">用虚拟现实直播中国足球，这是一门好生意吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5058">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5058" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">7</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5062.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

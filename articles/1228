@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>11 个索尼失败产品：技术领先的公司是如何做蠢事的_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="11 个索尼失败产品：技术领先的公司是如何做蠢事的。忽略消费者需求，技术超前于时代，看不清楚未来趋势……如果失去对时机的判断，丧失对消费行为的洞察，再加上缺乏清晰战略，一个强大的技术公司难免会做上好多蠢事。。好奇心日报为您呈现11 个索尼失败产品：技术领先的公司是如何做蠢事的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 索尼 技术 用户需求 附加值 失败 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="gzgjvzJJrEjxfsuJR/dCcOIE0nM36s9nLLhDcnY/nzQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">11 个索尼失败产品：技术领先的公司是如何做蠢事的</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/147/small/147.jpg?1418116339" alt="">
+					</span>
+				<span class="name">陈思吟</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-06-23 13:00:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/1228/medium/1228.jpg?1410012894" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1228" data-title="《11 个索尼失败产品：技术领先的公司是如何做蠢事的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1228/medium/1228.jpg?1436639537" data-url="http://www.qdaily.com/mobile/articles/1228.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				忽略消费者需求，技术超前于时代，看不清楚未来趋势……如果失去对时机的判断，丧失对消费行为的洞察，再加上缺乏清晰战略，一个强大的技术公司难免会做上好多蠢事。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	本月早些时候，索尼<a href="http://www.bbc.com/news/technology-28663878" target="_blank">向 BBC 确认</a>公司已经放弃继续开发电子阅读器。至此，索尼从 2004 年开始的电子阅读业务宣告失败。作为首个试图将 E Ink 电子墨水屏幕阅读设备推向普及的公司，索尼 LIBRIe&nbsp;比亚马逊 Kindle 早三年面市，但激活电子阅读市场并最终冲击整个出版业的却是后者。
+</p>
+<p>
+	技术曾经给索尼带来了辉煌，但如今，索尼真的在技术上纠结太多。你要知道这家当年推出 Walkman ，一手创造出“消费电子公司”概念的公司，现在最大的利润来源竟是金融业务，排在第二位的，呃，也不是消费电子，而是完全独立在美国发展的索尼影业……可你看所有有关这个公司的新闻还是它们<a href="http://qdaily.cn/display/articles/1183" target="_blank">不断推出新产品</a>，——一如既往地让人产生期待，隔上一段时间之后，这个产品再悄无声息。
+</p>
+<p>
+	索尼曾经被批评为是“小白鼠”公司，但当年井深大把批评当成了动力，“如果你擅长发挥小白鼠精神，你就能发现很多新的工作机会 。比如，在晶体管领域，在以美国为首的欧美各国都关注到面向普通消费者的收音机时，索尼首开先河，随后日本的全体制造业者都开始制造收音机了。这就是今天日本的收音机能占据全世界市场的最大原因，也正是索尼公司能为消费者制造出各种新产品的小白鼠精神的胜利。”
+</p>
+<p>
+	但谁知道，后来，后来索尼似乎一直在做着小白鼠……
+</p>
+<p>
+	<span style="background-color:#FFE500;">1. &nbsp;Betamax ，技术过于好，却忽略了消费者最迫切的大容量的需求</span> 
+</p>
+<p>
+	索尼本来应该能够成为家用录像机时代的王者，实际上在最初与松下- JVC 的 VHS 联盟的竞争中，它表现得并不差。其实即便是通常说的 VHS 联盟吸引了 40 家公司加盟、索尼为首的 Betamax 联盟只吸引 12 家这一点看，也不是最终决定成败的关键。
+</p>
+<p>
+	事后分析，“真正使 VHS 成功的原因是美国无线电公司（ RCA ）。他们要求松下公司制造可以录制长达 4 小时的 VHS 录像机。 RCA 在 Betamax 正在开发时曾与索尼讨论过相同的问题，但是索尼的工程师认为将影带前进速度从每秒 4 厘米降至 2 厘米以及将影像轨变窄会使得画质损失过于严重。而松下公司则不顾 JVC 的反对，提供了正是 RCA 所要的长时间录制模式。相对地， RCA 以 995 美元的建议售价贩售这种 4 小时录制的 VHS 机种。 RCA 的价格与市场策略在此起了决定性的作用”。
+</p>
+<p>
+	——消费者需要的是更长的录制时间，而不是画质，美国无线电公司预测到了这个需求的关键，所以它最终导致 VHS 获得了成功。
+</p>
+<p>
+	当然，索尼并非一无所获，基于 Betamax 技术的 Betacam 后来成为全球专业录像设备的重要技术，这也证明了它们的技术确实可以达到更精细化的要求，但对于“消费电子”公司来说，索尼丧失了最大的一个市场。
+</p>
+<p>
+	<img src="/uploads/image/201406/c6e564abb2f3.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">2. &nbsp;MAVICA ，技术超前于时代，产品真正普及取决于其它技术的进步</span> 
+</p>
+<p>
+	1981 年推出的 MAVICA 有一个非常炫的名头“全球第一款不用感光胶片的电子相机”， CCD 将光学影像转化为数字信号并记录在 3.5 英寸磁盘上。毫无疑问 MAVICA 在当时是一款出众的概念机，但定价过高、操作繁琐、续航短暂、画质一般都令普通消费者望而却步。&nbsp;
+</p>
+<p>
+	1981 年！要知道这时距离史蒂芬·赛尚第一张实验性的数字照片只有 6 年时间，索尼的工程师们就已经决定为它量产了。它的失败也很简单，虽然数码拍照技术已经趋向成熟，但数字存储和传输技术则远远落在后面。想一想， 3.5 英寸软盘的 1.44M 容量能放一个什么样的照片，索尼引以为豪的工程师主导产品的文化，过于乐观了。
+</p>
+<p>
+	<img src="/uploads/image/201406/12fb5121ca13.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">3. &nbsp;MD ，还是技术过于强大，还是无视消费者需求，选择错误的技术解决问题</span> 
+</p>
+<p>
+	索尼在 1992 年推出了 MD ，不能在电脑上直接读取以及版权保护限制是 MD 最大的硬伤，因此 MD 一直处于不温不火的状态。直到 MP3 出现才彻底击溃了 MD ，大众消费者只想用最便捷的方式来听音乐，音质损失又何妨？可索尼无视消费者的需求，孤注一掷地往 MD 上增加摄像等功能以此挽回市场。在赖以成功的音乐播放器市场，索尼输得一败涂地。
+</p>
+<p>
+	长年研究索尼公司的立石泰则认为“盲目追求融合使两边都发生了混乱，导致了相互之间的牵制。由于集团企业成员中包含了一家音乐公司，作为硬件厂家的索尼不得不对著名权保护格外用心，导致硬件的操作令用户感觉很头疼，而音乐（文件）的著作权保护又过于繁复。结果， iPod 一枝独秀，而索尼却落得个“把用户当贼防”的恶名；在软件方面，由于美国是网络业务的主战场，他们希望总公司不要插手，全权委托给他们。为此，索尼公司内部发生了主导权之争，更谈不上软硬件两者之间的融合了。
+</p>
+<p>
+	<img src="/uploads/image/201406/cf8b1c7333a1.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">4. &nbsp;Glasstron，看起来很好，但真的是需求吗？</span> 
+</p>
+<p>
+	Glasstron 采用了两块 0.7 寸 18 万像素的 LCD 屏幕，是一款领先时代 20 年的 2D 头戴式家庭影院。它于 1996 年在日本发售，其中旗舰版 PLM-S700 的售价是 29.8 万日元。如果看到日本电车里那些拼命把自己关进自己的封闭世界里的人，你会相信这东西是个好用的发明，即便是在在 1996 年，画质和机器还显得有点粗笨……但它真的是人类的需求吗？
+</p>
+<p>
+	包括 2011 年索尼“毫不气馁”地又推出的 HMZ-T1 3D 头戴式家庭影院……结果我们应该都明白，这东西不是为人类准备的。做到第三代，索尼开始效仿被 Facebook 收购的 Oculus Rift 来重新定位产品。
+</p>
+<p>
+	<img src="/uploads/image/201406/515ed05988ca.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">5. &nbsp;AIBO 与 QRIO，技术……技术不是卖萌的</span> 
+</p>
+<p>
+	在日前的索尼股东大会上，股东们忆起了 1999 年推出的机器人小狗 AIBO 与 2003 年推出的机器人 QRIO 。 AIBO 在推出之时曾蔚为话题， QRIO 能跑会跳堪称机器人界的精英，但它俩都没能逃脱索尼业务重整时被“抛弃”的命运。面对股东们的期盼，平井一夫表示自己也没有想到软银会成为索尼的竞争对手，但现在索尼没有足够的资金来进行机器人开发。
+</p>
+<p>
+	机器人拟人化一直是个梦想，在未来它也可以继续让人畅想下去，但也有人指出这一点，就智能手机而言，其实好多以往在想像中的机器人功能都已经实现了。
+</p>
+<p>
+	<img src="/uploads/image/201406/d2ee6dfc832e.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">6. &nbsp;Air Board 与 LocationFreeTV，洞察未来的需求才是技术发展关键</span> 
+</p>
+<p>
+	真不知道该用超越时代的平板电脑，还是用超越时代的智能电视来定义 Air Board。该系列产品诞生于 2000 年，后改名为 LocationFreeTV，它可以在室内随意搬动，哪怕出门在外也可以经由互联网来连接家中基站观看电视，还能远程操控索尼 DVD 录制电视节目（这在日本也引发了版权纷争）。此外，它还可以浏览网页、收发邮件，你还可以为它配置一个“浴罩”一边泡澡一边看电视（这项附加产品完全是针对日本人的洗浴文化而推出的）。
+</p>
+<p>
+	所有这一切，你都会想到现在的平板电脑。亨利·福特说，如果我要问人们要什么，他们一定会说是更快的马。这句话证明了洞见有多重要。保罗·格雷厄姆在 2001 年 9 月说，如果苹果把 iPod 加上通讯模块和网络浏览器，那么微软就有大麻烦了——这是洞见；但如果你只想着给电视节目提供一个更方便的平台，这是索尼。因为人们对电视的需求发生了根本性的变化。
+</p>
+<p>
+	<img src="/uploads/image/201406/12fc7d67a073.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">7. &nbsp;PSX ，恰到好处的技术是以恰到好处的服务为前提的</span> 
+</p>
+<p>
+	2003 年上市的 PSX 是一款结合 PS2 、 DVD 刻录机、数字录像机、电视调谐器、网络媒体中心等多功能的综合影音终端，因销量过于惨淡 PSX 仅在日本市场短暂地销售过一段时间。索尼没有明白消费者购买 PS2 只是想打游戏，那些花里胡哨的功能完全是多余的。
+</p>
+<p>
+	<img src="/uploads/image/201406/fc5efae9c8db.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">8. &nbsp;有机 EL 电视 XEL-1 ，技术再一次被滥用，再一次错误估计了趋势</span> 
+</p>
+<p>
+	如果你有这台电视，请一定要珍惜，因为它只生产了 2000 台。这台于 2007 年发售的 11 寸屏电视机售价 20 万日元，索尼再一次先锋地使用了 OLED 技术制作屏幕（近两年三星与 LG 也没能在 OLED 上有所建树）。它的设计极有未来感，最薄处仅 3 毫米，可前倾 15 度后仰 50 度。因为设置了 USB 接口 XEL-1 还能播放 JPEG 图片、 MPEG 影片与 MP3 音乐。索尼在 XEL-1 上又犯了老毛病，忘记消费者买电视机只是想看电视罢了。
+</p>
+<p>
+	另外一点可说的是，尽管电视节目不那么受欢迎，但在电视机的消费上却是一直以大为美，并且对大尺寸的追求没有停止过。
+</p>
+<p>
+	<img src="/uploads/image/201406/6f8db9215846.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">9. &nbsp;mylo ，技术人员应该具备战略眼光，闭门造车可能会成为一个笑话</span> 
+</p>
+<p>
+	2007 年 2 月推出的 mylo 是一款个人通讯设备， mylo 是 my life online 的缩略形式。它内置无线 LAN ，用户可以使用 mylo 上网、聊天、播放音乐与视频，也可以当作 MP3 使用。由于北美地区 WIFI 覆盖较好，该产品于 2006 年 9 月先行在美国上市，当时定价为 349 美元。用现在的眼光来评价 mylo 的话就是一台长得有点像…… PSP 的低配平板电脑，还有点像诺基亚的眼镜盒手机。
+</p>
+<p>
+	请注意时间，这个时间说明两件事：一是在这一年中诞生了比它要好看也好用无数倍还能打电话的 iPhone ，可想而知它的命运；二是在 2007 年之后，消费电子的技术发展已经转换为互联网为中心，但索尼显然没有做好准备来迎接这个变化趋势——索尼原本可以很傲娇的技术领先优势也已经不在了。
+</p>
+<p>
+	<img src="/uploads/image/201406/f8ed55445cc2.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">10. &nbsp;Rolly ，技术不可以孤芳自赏</span> 
+</p>
+<p>
+	一个音乐播放器的卖点是会跳舞，这匪夷所思极了。但索尼还真在 2007 年推出了这么一个售价 3.98 万日元的播放器。更匪夷所思的是 Rolly 切换歌曲、增减音量是通过滑动 Rolly 完成的，它的存在到底是为什么呢？
+</p>
+<p>
+	还是注意一下时间，虽然智能手机刚刚起步，但就在它们家族内部，功能性手机索爱的音乐播放功能也已经日臻成熟，再玩这个就纯粹是为了炫技了。
+</p>
+<p>
+	<img src="/uploads/image/201406/9e30abe4d051.jpg" alt="" /> 
+</p>
+<p>
+	<span style="background-color:#FFE500;">11. &nbsp;索尼所有的互联网和 3D 电视机，技术应该提供更多附加值</span> 
+</p>
+<p>
+	《阿凡达》的热映让索尼看到 3D 市场的潜力，于是索尼以 2010 年南非世界杯契机推出了 3D 电视机， HX800 系列正是当时的“排头兵”（ 4 年过去到了巴西世界杯，索尼又开始宣传 4K 技术了）。 HX800 系列拥有 46 寸、 56 寸两个规格，索尼为其配置了 LED 背光源与动态控制技术确保了极佳的动态对比度效果，堪称旗舰机型。由于是 3D 电视机，索尼还随机附赠专用 3D 眼镜，可真的有那么多 3D 节目给消费者看吗？这台电视机的 3D 功能与 3D 眼镜或许直到它被更新换代也用不上几次。
+</p>
+<p>
+	不管是索尼的互联网电视机，还是 3D 电视机，之所以没能实现预期的销售额，立石泰则认为，普通消费者没有把它们当作有“高附加价值”的产品，因此未能形成强大的购买动机。“与其说消费者不需要 3D 电视机，还不如说他们没有能用 3D 电视机欣赏的节目。虽说 BS （日本广播卫星电视公司）等电视台确实在播放一些 3D 节目，但如果一般的电视台不播 3D 节目的话，很难激起更多的消费者购买 3D 电视的欲望”。“消费者确实存在着一个需求，那就是希望 3D 电视机的价格能与 2D 相同。换句话说，消费者还没觉察到 3D 电视机有什么特别高的附加价值。”
+</p>
+<p>
+	<img src="/uploads/image/201406/53e366b5f5da.jpg" alt="" /> 
+</p>
+<p>
+	最后要说的是，如果技术不能为产品提供更多附加值，那么技术领先或者以技术公司自我标榜，都不会为这个公司创造价值，也不能为整个商业社会创造价值。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://k-tai.impress.co.jp/docs/column/mobile_catchup/20120907_558214.html" target="_blank">k-tai</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="186">
+				<span data-id="186">索尼</span>
+			</li>
+			<li class="tag item" data-id="415">
+				<span data-id="415">技术</span>
+			</li>
+			<li class="tag item" data-id="1252">
+				<span data-id="1252">用户需求</span>
+			</li>
+			<li class="tag item" data-id="1253">
+				<span data-id="1253">附加值</span>
+			</li>
+			<li class="tag item" data-id="1296">
+				<span data-id="1296">失败</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="1228" data-title="《11 个索尼失败产品：技术领先的公司是如何做蠢事的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/1228/medium/1228.jpg?1436639537" data-url="http://www.qdaily.com/mobile/articles/1228.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26277.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26277/medium/26277.jpg?1462021750" alt="">
+                        <h1 class="title">都卖酒了，怎么在音乐节还赚不到年轻人的钱？｜音乐节上的 4 个人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26274.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26274/medium/26274.jpg?1462007461" alt="">
+                        <h1 class="title">趁着巴菲特开会，我们来看看他的资产和履历</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26276/medium/26276.jpg?1462021064" alt="">
+                        <h1 class="title">喜欢蓝染，可以关注The Hill-Side 和 Buaisou 合作系列</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26270.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26270/medium/26270.jpg?1461981602" alt="">
+                        <h1 class="title">看图：这里是过去48小时内发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26235.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26235/medium/26235.jpg?1461907685" alt="">
+                        <h1 class="title">这款彩虹高光，红到让Etsy小店48小时所有货都卖光</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26269.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26269/medium/26269.jpeg?1461978601" alt="">
+                        <h1 class="title">北京龙泉寺开发了一个机器人，它还称不上有智慧</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="1228">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="1228" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">10</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/1239.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

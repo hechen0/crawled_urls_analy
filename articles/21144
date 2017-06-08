@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式。你可能不太了解这位《纽约时报》的资深科技记者，其实人工智能、无人车、虚拟现实这些概念他已经&quot;追踪&quot;很久了。跟这位记者的聊天很有趣，因为到最后，他还是更愿意做一个提问者。。好奇心日报为您呈现他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="科技 马尔科夫 纽约时报 约翰·马尔科夫 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="XKtjagttJgCz09iGrvEYLLI34IQwMOv8IheI28BT2dI=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+			<li class="tag item" data-id="22551">
+				<span data-id="22551">马尔科夫</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="22552">
+				<span data-id="22552">约翰·马尔科夫</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1317/small/1317.jpg?1407490545" alt="">
+					</span>
+				<span class="name">崔绮雯 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-26 11:42:43 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21144/medium/21144.jpg?1453434749" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21144" data-title="《他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21144/medium/21144.jpg?1453434749" data-url="http://www.qdaily.com/mobile/articles/21144" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				你可能不太了解这位《纽约时报》的资深科技记者，其实人工智能、无人车、虚拟现实这些概念他已经&quot;追踪&quot;很久了。跟这位记者的聊天很有趣，因为到最后，他还是更愿意做一个提问者。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	2016 年是《纽约时报》记者约翰·马尔科夫（John Markoff）报道科技的第 39 个年头了。
+</p>
+<p>
+	当硅谷长大的马科夫 1977 年刚开始报道的时候，苹果还是小众玩具，电脑还是 &nbsp;IBM 控制的事。
+</p>
+<p>
+	1988 年，马尔科夫加入《纽约时报》，此时个人电脑被微软和英特尔带进每间办公室和家庭。之后接近 30 年里，Google、苹果、Facebook 一个接一个崛起，手机取代 PC 成为最主要的个人电脑。
+</p>
+<p>
+	<span>随着智能手机市场的饱和，科技业已经在寻找下一波科技的浪潮。这一次，在四五十年前曾经被认为近在眼前的人工智能、机器人和虚拟现实，再一次成了科技公司竞逐的技术领域。</span> 
+</p>
+<p>
+	<span>马科夫也因为对于人类未来工作和自动化的报道，在 2013 年靠<a href="http://www.amazon.cn/mn/detailApp?asin=B017D8YYW6&tag=techdrafts-23&camp=404&creative=2024&linkCode=as4&creativeASIN=B017D8YYW6&adid=0D4NBA34GXAGXR9RBE63&" target="_blank">《与机器人共舞》</a>一书拿到了普利策奖。</span> 
+</p>
+<p>
+	本月早些时候，《好奇心日报》在清华大学的咖啡馆见到了马尔科夫，并且和他聊了聊现在的科技进程。到底四五十年前人们就预见的人工智能、虚拟现实和机器人未来，到底离我们还有多近？已经改变了我们生活轨迹的科技行业，之后会往什么方向走？
+</p>
+<p>
+</p>
+<h2>
+	未来趋势？虚拟现实普及还得五年十年吧
+</h2>
+<p>
+	<strong>好奇心日报：大家现在都在讨论下一波潮流是什么，你自己比较看好什么领域？</strong> 
+</p>
+<p>
+	马尔科夫：我不是预言家，我只能说我很期待 AR，因为手机肯定不是最终的 UI 形态。肯定还会有在此之上的东西。但和无人车的发展类似，我不认为这是明年就会有的东西，这可能还需要等上个五年十年。
+</p>
+<p>
+	我是硅谷第二个看过 Magic Leaps 的产品的记者。我看到的并不是完成的产品，只是一个实验室测试，但光是这体验让我很震惊。
+</p>
+<p>
+	举个例子，他们可以在我的视线范围内投影你桌面的这个杯子，如果我不把手指伸过去，我可能不会意识到它是假的，就有这么高清。他们把背景阴影这块 block 了，图像做成超高清。我从来没看过这样的演示，它比我期待的要好。
+</p>
+<p>
+	但我也知道他们有很多问题。他们也不知道怎么将这个技术带到消费市场上：要做成什么样子，用户是谁，怎么做推广，应用场景是什么？而且可能还会很贵，但在现实当中模拟出来可交互的界面，我觉得真的很酷。
+</p>
+<p>
+	<strong>好奇心日报：微软也在做 AR。 HoloLens 对比 Magic Leaps，谁更有优势？</strong> 
+</p>
+<p>
+	马科夫：微软是一个更有趣的公司，他们失掉了垄断的优势，他们依然在收取 Office 的授权费，但他们还没有一个新品类的产品能够大卖，这也是为什么他们要做 HoloLens。我试过 HoloLens，在没和 Magic Leaps 对比之前我觉得还行，但现在我觉得不够高清，跟 VGA 差不多，而且手势有些太复杂，学习起来很不自然。
+</p>
+<p>
+	但 Magic Leaps 最棒的地方就在于，我能在空中左右一拉就能在某个空间中拉出来一个控制界面。就等于说我随便找个地方坐下来开始工作，带着 Magic Leaps，就可以在空间中划出一片区域作为工作显示牌，但只有我能看到，非常酷。
+</p>
+<p>
+	<strong>好奇心日报：回到你看好 AR 的话题上，我很好奇为什么你没有说 VR？是你觉得 VR 现在有什么问题吗？</strong> 
+</p>
+<p>
+	马尔科夫：VR 体验还有挺大的差距。首当其冲的是，VR 有很严重的佩戴体验问题。我是那种很容易头晕的人，很早就体验了 VR 设备，出来之后一直都在晕，持续 1 个多小时。Magic Leaps 的创始人说，这种 VR 带来的头晕的损伤可能是永久性的。我也用过 Oculus，但这让我感觉很不舒服，尽管我每次佩戴都很短时间。
+</p>
+<p>
+	但我很能理解投资者和人们对于 VR 的热情，这种产品是很有吸引力的。例如把 VR 用在游戏上，会大幅度改变我们的游戏体验，更加沉浸。
+</p>
+<p>
+	每年都有人在问这是不是 VR 元年。但我可以这么说，至少需要十年或者更久，才能让 VR 降价降到一个可以接受的程度。500 美元的售价是不会迅速让 VR 设备成为下一波的移动趋势的。
+</p>
+<p>
+	（所以要低到什么程度？）
+</p>
+<p>
+	我觉得至少是一份 100 美元或以下——给小朋友准备的圣诞节礼物的价格。这样，VR 设备才可能传播起来。我觉得目前投资者和那些指望 VR 能够迅速流行的人们，都有点太乐观了。
+</p>
+<p>
+	<strong>好奇心日报：你觉得比较有吸引力的 VR 场景是什么？</strong> 
+</p>
+<p>
+	马尔科夫：例如，用来改变现有的观影和直播。我认识的一个朋友，她在以色列做一个服务，希望普通人能够在 2022 年多哈世界杯上使用 VR 通过不同角度来看球赛，在球场上有多个角度，我觉得这种应用场景就很吸引人。游戏我觉得也还不错，不过 VR 游戏，毕竟是基于游戏玩家的东西，因为比较高阶的电脑才能支持 VR 设备的运作，这等于在游戏主机的领域里面再切一块小蛋糕。
+</p>
+<p>
+	<strong>好奇心日报：我想起了英特尔。这家公司正在做更小但计算能力更强的芯片，可以用在 VR、物联网或者无人机上。但英特尔几十年都在按照 18 个月芯片性能提高一倍，价格下跌一半的摩尔定律做生意，包括高通也是。在智能手机饱和之后，这些更小的更节能的芯片好像能做很多事情，但物联网、可穿戴或者 VR，还没有下一个智能手机这样世界范围内普及的产品出现。你怎么看待这个现象？</strong> 
+</p>
+<p>
+	马尔科夫：我只能说是摩尔定律慢下来了。本来计算机有房间那么大，但摩尔定律在，每 18 个月芯片缩小一半，但性能更好，计算设备肯定就会越来越小，所以有了个人电脑，后来我们有了智能手机。这都是摩尔定律在发挥作用。但最近一两年，根据我去参加的学术会议看到的情况是，摩尔定律的研究者们，芯片行业的关注者们都在聊这么一个事情，就是这个定律慢下来了。
+</p>
+<p>
+</p>
+<p>
+</p>
+<h2>
+	廉价劳动力和机器人并不冲突
+</h2>
+<p>
+	<strong>好奇心日报：你认为在智能手机之后，改变人类生活的将是什么东西？</strong> 
+</p>
+<p>
+	马尔科夫：你知道我只是个记者。我不觉得从硅谷来就该做预言家，让记者去做去预言的效果是，他们总是会说错。我只能说一些正在发生的事情。
+</p>
+<p>
+	现在我们周围的一切都是“机器”（Machine），这不是一个贬义词，也有人把他们叫做“机器人”（Robot）。人们越跟他们互动，他们就变得更加像人类，或者更像一个人类的替身，在道德层面这是一件非常具有争议性事情。但就像 Siri、Cortana 那样，他们未必有实体，可能只是算法，但也很受人们的欢迎，这是只是因为这产品有实际用处。
+</p>
+<p>
+	可以预见的是，因为这些机器人的出现，人类的生活将会在未来几十年间有大变化，这个时间会有多长我也不知道，但我硅谷的一个朋友是这么说的：别错把清晰可见的风景，当做一条近路。
+</p>
+<p>
+	我觉得这是一个看待这个问题的好方式。在短期内这个变化是缓慢的，但长期来看，这个变化却会很激烈，但你可能不会在 5 年内感觉到这些变化。
+</p>
+<p>
+	举个例子，如果你说 2025 年有个机器人或者无人驾驶车可以从旧金山开车送我到帕罗奥图吃饭，我并不相信。一是从技术角度看，无人车在雨雪中的图像识别和安全驾驶问题，还远不能保证我们的安全；从立法的角度去看，无人车上路带来的安全和法律责任，让这事情就更加缓慢。
+</p>
+<p>
+	<strong>好奇心日报：既然周遭一切都是计算机，你会认为我们的生活已经被机器，或者说算法给控制了吗？</strong> 
+</p>
+<p>
+	<span>马尔科夫：</span>这得取决于你怎么定义“控制”了。我们的确被算法给包围了，手机软件算法一直在引导我们的方向，无论是要去哪个餐厅，应该跟谁约会，甚至应该和谁结婚。Facebook 有个实验估计你也听过，争议就相当大。他们给人们看不同的信息，然后观察这些信息对于人们投票有什么影响。这其实就是用算法来影响人类社会民主进程了，这事情让我感到很忧虑。
+</p>
+<p>
+	而对于科技公司来说，算法一直用我们的行为数据矫正，但最后却成了他们的商业产品。科技公司如 Google，总是想要让人们在任何地方都能用到它。所以他们同时在观察和收集我的数据，然后将这些数据与之对应的算法变成了他们自己的财产。美国正在有一个法案，希望去管理这些科技公司的算法，但我依然觉得这太有挑战性了，因为你到底要怎么定义这些行为和数据的归属权？
+</p>
+<p>
+	如果我在 Google 上搜东西，到底谁拥有我的行为？是我，还是商业公司呢？就现在看来，都是 Google 的，百度也一样，把你的行为的数据和内容产权对归属自己了。但我觉得，关于这个问题的讨论和最后的争议，可能是科技发展的引爆点。
+</p>
+<p>
+	<strong>好奇心日报：对，同样有巨大争议的还有机器人取代人的工作这个话题。</strong> 
+</p>
+<p>
+	马尔科夫：我一开始写《与机器人共舞》这本书的时候，其实我挺悲观的，2010-2011 年，当人们抱怨机器人会让人类没有工作可做，我认为他们可能是对的。但我开始做这块的研究发现，这个警戒是错误的。
+</p>
+<p>
+	科技限制的职业，但那不会限制了工作。
+</p>
+<p>
+	科技也会带来新的工作机会的增长，人工智能可能改变你所在的工作环境，但不会让工作消失。例如 SEO 这个工种。Google 没有成为大公司之前，谁会想到以后会有这个工种？美国做这个工作的就有几万人。
+</p>
+<p>
+	2011-2012 年是美国人最担心被机器取代工作的时候。但现在经济好了一些，所以担心也散去了。很有趣，麦肯锡和 MIT 都有类似的研究，其实他们并不认为 10 年后不会有大的影响就会没有给人类的工作可做。
+</p>
+<p>
+	<strong>好奇心日报：但听起来技术进步会让机器人更容易替代某些工种，例如流水线工人、铁匠这种体力劳动型的工作。</strong> 
+</p>
+<p>
+	马尔科夫：其实我现在的看法是，比起技术进步本身，人类人口的老龄化是机器人发展更加重要的推动力。在日本、韩国和中国这样老龄化趋势明显的国家尤其如此，美国稍微好一点因为是移民国家，欧洲和中国一样严重。
+</p>
+<p>
+	在人类历史上首次出现的变化是，65 岁以上的人群比 5 岁的还要多。2150 年，80 岁以上的人群数量会是现在人口的两倍，在这个世纪结束之前，80 以上人口可能是现在的 7 倍。这才是最重要的事情。
+</p>
+<p>
+	中国劳动力在下一个十年将会严重减少，二胎政策不是一个替代品，人们就是倾向于少生孩子。所以你们需要机器人，这是一个很大的市场。转型也要发生了。
+</p>
+<p>
+	<strong>好奇心日报：中国大部分人口都是劳动力为主的，被机器替代了听起来还挺可怕的。</strong> 
+</p>
+<p>
+	马尔科夫：是的，不过也别那么担心科技发展会让人失业这个事情。
+</p>
+<p>
+	因为科技发展其实对于人类社会来说，并没有我们想象中那么大。其中一个例子是生产力，它看起来是这个形状，而不是那个形状的。科技对人类的工作并没有大幅度影响，关于科技对于人类社会生产力提高的争论，现在还在经济学家中炒得火热。这不禁让我想问，所以电脑和计算机到底有多大影响？这并不清楚。
+</p>
+<p>
+	例如，和担心工作被替代同时发生的，是美国劳动参与率又是 70 年代以来最低的，但这是因为我的那一代人已经开始退休了，劳动人口的减少的影响，其实会被科技带来的影响还要大。所以这事情其实很复杂。
+</p>
+<p>
+	所以最终没有你想的那么可怕。人们经常引述的例子是员工数量众多的柯达的破产和 Instagram 的兴起。是否 Instagram 真的是用算法和 30 名员工和产品替代了柯达呢？
+</p>
+<p>
+	不是这样的，柯达在化学制片领域有很多年的优势，Instagram 是在互联网成熟之后的产物，它并非是替代品，它是互联网创造的 240 多万新工作中的其中一个，富士也是柯达的竞争对手，他们现在也还活着。但柯达公司自己有比较重要的战略失误，这也导致了他们的失败。
+</p>
+<p>
+	所以不是简单理解机器人替代工作那么简单。
+</p>
+<h2>
+	人工智能为什么这么晚才来？
+</h2>
+<p>
+	<strong>好奇心日报：我们来聊聊人工智能。现在科技公司都在人工智能领域开展竞争。你的书里也梳理了一段有趣的事实，就是我们现在的人工智能、机器人其实是 1950-1960 年代硅谷就在竭力开发的事情。为什么我们等了这么久人工智能也就是现在的程度？</strong> 
+</p>
+<p>
+	马尔科夫：当时有这两个群体，他们有着不同的价值观，尝试着从不同的角度解决问题。以约翰·麦克西为主的是“人工智能”（AI）研究团队，他们尝试关注人工智能的计算能力的发展，里面一大部分人纯粹也是喜欢机器人，觉得研究超越人类智慧的机器人是大势所趋。这当时也是硅谷计算机行业的最大势头。
+</p>
+<p>
+	另外一个就是以道格拉斯·恩格尔巴特为首的斯坦福研究院。他们在做的事情叫做“増智架构”（Intelligence Argumentation），他们的想用计算机来帮助人类，作为人类智力的延伸。恩格尔巴特的构想中，就有类似于互联网、文件处理器等交互方式的雏形，尽管更多人知道他发明了鼠标。
+</p>
+<p>
+	当时这两派的研究人员觉得个人电脑就像嬉皮士、波西米亚等反主流文化，是小众的玩意儿。结果后来在苹果和微软的带动下，个人电脑反而成了接下来几十年最重要的科技产品。而当初以为很快可以做得很好的“人工智能”，在最近几十年间都没有做好，只是最近几年，AI 又重新进入了公众的视野范围。
+</p>
+<p>
+	但我们现在用的科技产品会有这两个阵营的影子。例如安迪·鲁宾（编者注：Andy Rubin，Android 操作系统创始人，Google 机器人部门最早的架构师），他相信机器人替代人类工作，就是唯一的方向。我认为他挺乐观的，但变化可能会比他想象的要来得更慢一些，特别是你要建立一个替代人类工作的机器人。他们正在改进技术，但短期内我认为他们不会解决这个问题。
+</p>
+<p>
+	例如苹果 Siri，就是用人工智来给人们提供帮助，就是用 AI 的方式来为人类增强知识和智力。所以我觉得未来这两个阵营联合是有可能的。但这归根结底，这两个阵营还是代表了现在产品设计师的价值观和责任。
+</p>
+<p>
+	机器人说白了就是设计师的责任，就是设计师在做这个产品的时候有没有想过这个技术可能会带来的后果，我知道有些人没想。就像我说的，AI 在最近 5 年才重新成为主流，所以说未来会怎样还很早，在下一个十年，我们可能才会看到这些科技怎样被使用，AI VS IA 的结果也才会出来。但我不确定这会是一个很积极的结果。
+</p>
+<p>
+	<strong>好奇心日报：为什么这么说？</strong> 
+</p>
+<p>
+	经济价值在我的国家是占主导的。我并不完全乐观的原因是，对这两个阵营在下一个十年的人工智能技术应用场景不完全乐观。当然他们有积极的部分，但我们也看到了很危险的倾向。举个例子，现在你能用 AI 或者 IA 来设计一个新的武器系统，这样就可以让杀戮的决定绕过人类的判断，更大一点来说，现在超过一百个国家正在建立更智能的原子弹系统，这个结果可能不会很好。在人工智能引导下，如果未来有战争，肯定会更加的残暴。
+</p>
+<p>
+	<strong>好奇心日报：所以你认为比尔盖茨他们担心的一下子能够自我习得人类智慧的 Super Intelligence 会成为事实吗？（编者注：Super Intelligence 是因为不需要学习过程，人工智能算法出现后可以瞬间甩开人类）</strong> 
+</p>
+<p>
+	马尔科夫：我不太担心。所谓的一下子能够学习完全部互联网内容，不需要成长的人工智能，其实事实上已经有研究证明，这些人工智能也还是需要学习时间的。
+</p>
+<p>
+	<strong>好奇心日报：你觉得在人工智能，或者増智方面比较有优势的公司吗？是 Google 吗？</strong> 
+</p>
+<p>
+	马尔科夫：某种程度上讲，Google 其实和微软其实很像。微软的力量来自把握住了信息的咽喉，也就是控制信息的方法，在 MS Dos 系统上，你要找某个信息，就需要在特定的盘里面找，Google 也是很像。Google 控制了信息的要塞，这就是他们的搜索框。他们俩唯一的不同的，就是 Google 可以直接输入文字。
+</p>
+<p>
+	微软的垄断地位来自于他们对个人电脑时代信息的掌控。当互联网来临，Google 拿到了下一个信息要塞，微软的力量转移到了 Google 手上。
+</p>
+<p>
+	但 Google 主要收入依然来自于桌面搜索广告。不过趋势也很明显了，Facebook 这样的科技公司都能对于 Google 形成很大的威胁，这事情从 5 年前就开始了。而这还是人们还没找到下一个信息的要塞的情况下。
+</p>
+<p>
+	<strong>好奇心日报：你五年前觉得下一个信息的要塞是什么？</strong> 
+</p>
+<p>
+	我当时认为这下一个要塞是移动搜索，但现在看起来并不是。所以 Google 就在试各种各样的赌注，但我想说的是，下了注不代表会赢，我对于会有下一个找到新的信息要塞的公司这事情，感到很乐观。
+</p>
+<p>
+	<strong>好奇心日报：微软呢，你怎么看微软在做的小冰？</strong> 
+</p>
+<p>
+	马尔科夫：微软在中国的人工智能实验还是让我很惊讶的。小冰在中国挺成功的。让我想起了电影《Her》，不过是更简单版本的。她很娱乐化，她可以陪伴，人们会在上面花时间，尽管现在没有太多很实际的用途。在美国看起来很有点打扰人，但在中国，我听我一位 IBM 的中国朋友说，小冰还挺适合中国文化。
+</p>
+<p>
+	这应该是微软近年来最有趣的实验了，他们在中国抓住了各种主题的问题，实时回复给你，而且语言还非常的本地化，非常的娱乐，人们愿意用来玩。有趣的对比是，我认识 Siri 的开发者，他们设计 Siri 就是为了让它不要有什么娱乐功能，他们是故意的。
+</p>
+<p>
+	但我相信苹果会回过头来，再把这个陪伴的功能做到 Siri 里面去的，因为这样才能成为一个更好的助理。
+</p>
+<p>
+	这不仅仅会停留在实验或者一个娱乐的工具层面的。我猜测微软在测试一个更适合人的未来交互方式和界面，小冰只是其中一个收集数据和改进这套背后东西的人口。她最终还是会变成有用的工具，只是还不是现在。
+</p>
+<p>
+	<strong>好奇心日报：你从业这么多年，最让你印象深刻的变化是什么？</strong> 
+</p>
+<p>
+	马尔科夫：印象最深的，就是怎么创业成了一种生活方式！我的意思是乔布斯那个年代的年轻人也创业，但毕竟是少数，硅谷现在的创投圈氛围实在是变化太快了。
+</p>
+<p>
+	就我的成长经历而言，我觉得硅谷是一个因为人工智能、计算机和半导体技术而兴旺的地方。但上一波的潮流变得不那么像硅谷了，有很多造星的活动，我说的是十年前那一拨社交网络运动，说实话我不太喜欢。
+</p>
+<p>
+	让我感到很高兴的是，最近几年，大家也开始重新回到以技术为驱动的事业当中，自动驾驶、人工智能、虚拟现实增强现实……说实话，我还是喜欢坐在你现在坐的位置上，做个提问题的人。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="67">
+				<span data-id="67">科技</span>
+			</li>
+			<li class="tag item" data-id="22551">
+				<span data-id="22551">马尔科夫</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="22552">
+				<span data-id="22552">约翰·马尔科夫</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21144" data-title="《他报道了 39 年科技，但最惊讶的，还是创业怎么就成了一种生活方式》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21144/medium/21144.jpg?1453434749" data-url="http://www.qdaily.com/mobile/articles/21144" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20650.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/20650/medium/20650.jpg?1452661121" alt="虚拟现实有多重要？Google 成立了一个新部门">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">虚拟现实有多重要？Google 成立了一个新部门</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">43</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/21097.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/21097/medium/21097.jpg?1453364300" alt="霍金说人类未来很危险，只有殖民火星这条出路">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">霍金说人类未来很危险，只有殖民火星这条出路</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">31</span>
+				<span class="iconfont icon-heart">110</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25937.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25937/medium/25937.jpg?1461548899" alt="">
+                        <h1 class="title">莎士比亚逝世 400 周年，我们在这里怀念他带来的一切</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25963.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25963/medium/25963.jpg?1461565195" alt="">
+                        <h1 class="title">要了解全球生活方式，信息图也是一个重要的参考</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25943.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25943/medium/25943.jpeg?1461552498" alt="">
+                        <h1 class="title">纽约这个建在天桥上的游泳池，风景绝佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25984.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25984/medium/25984.jpg?1461579244" alt="">
+                        <h1 class="title">换发型超需要勇气？多芬说你究竟在怕什么呢</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25951.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25951/medium/25951.jpg?1461558108" alt="">
+                        <h1 class="title">以后用空气发电可好？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21144">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21144" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">142</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21278.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

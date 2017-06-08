@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016。数字时代带走了宝丽来曾经的辉煌，但是宝丽来代表的生活方式从来没有离开。。好奇心日报为您呈现过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Snap+ Cube 即时成像相机 CES CES 2016 宝丽来 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="zl0VnoZL/wxZsaN4CsN8VZUK0Oe9GIiErXlWT2ayGmc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="21748">
+				<span data-id="21748">Snap+</span>
+			</li>
+			<li class="tag item" data-id="2346">
+				<span data-id="2346">Cube</span>
+			</li>
+			<li class="tag item" data-id="21749">
+				<span data-id="21749">即时成像相机</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="21675">
+				<span data-id="21675">CES 2016</span>
+			</li>
+			<li class="tag item" data-id="2347">
+				<span data-id="2347">宝丽来</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/998/small/998.jpg?1402274915" alt="">
+					</span>
+				<span class="name">唐云路 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-07 19:26:39 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/20398/medium/20398.jpg?1452152456" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20398" data-title="《过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20398/medium/20398.jpg?1452152456" data-url="http://www.qdaily.com/mobile/articles/20398.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				数字时代带走了宝丽来曾经的辉煌，但是宝丽来代表的生活方式从来没有离开。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在正在进行的 2016 美国消费电子展（CES）上，宝丽来看起来并不像是一个曾经两次濒临破产的公司。
+</p>
+<p>
+	<span>宝丽来租了一个大展台来展示产品，</span>所有参会者佩戴的&nbsp;badge claim&nbsp;上面都印有 Polaroid Snap 字样。<span style="text-align:left;">展台还有一面巨大的宝丽来照片墙提醒参观者，一次成像相机也有过黄金时代。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<img src="http://cms.qdaily.com/uploads/image/201601/828655203f72.jpg" width="1080" height="720" title="CES 现场展台" alt="CES 现场展台" /> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:justify;">尽管纯用胶片拍摄的宝丽来相机早已不在这家公司的生产线里，</span><span style="text-align:justify;">宝丽来</span><span style="text-align:justify;">这家公司一直没放弃东山再起的努力，依靠的还是与拍照相关的生意，于是我们做了一个宝丽来新产品线盘点。</span> 
+</p>
+<p>
+</p>
+<h2>
+	自带打印机的数码相机，已经出到了第二代
+</h2>
+<p>
+</p>
+<div>
+</div>
+<p>
+	今年宝丽来主打的是即拍即得相机 Polaroid Snap+。去年宝丽来就发过前序产品 Snap，保留了前一代产品的外观设计，除了像素从 1000 增加到 1300 万，还增加了一块用于取景和设置菜单的&nbsp;3.5 英寸液晶触屏。
+</p>
+<p>
+</p>
+<p>
+	这个卡片相机大小的 Snap+ 有蓝、黑、白、西瓜红四种颜色可以选择，支持拍照和视频两种模式，文件会存在内置的迷你 SD 存储卡里。除了边拍边打印，这个相机还可以通过蓝牙连接到智能手机和平板电脑，简单来说，你可以把它当成一个随身的相片打印机来使用。
+</p>
+<p>
+	传统的宝丽来相机或者拍立得相机，强调的是“即时”效果，在拍摄完到显影出来的那几分钟里，你很难知道照片上是不是有人闭了眼睛或是只被拍下了半张脸。Snap+ 配有定时器和自动弹出的自拍镜，在体验“怀旧感”的同时，也不会浪费相纸在废片上。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/befc60a1ba88.jpg" width="1080" height="720" title="打印模式有三种可选：彩色、复古和黑白" alt="打印模式有三种可选：彩色、复古和黑白" /><span><em>打印模式有三种可选：普通彩色、复古和黑白</em></span> 
+</p>
+<p>
+</p>
+<p>
+	Snap+ 使用 Zink 无油墨相纸，一次可以连续打印十张照片。《好奇心日报》在 CES 现场体验了没有触摸屏的前代产品&nbsp;<a href="http://www.amazon.com/gp/product/B015JIAD7C?keywords=polaroid%20snap&qid=1445612598&ref_=sr_1_5&sr=8-5" target="_blank">Snap</a>，设计非常简洁，<span>镜头盖是通过磁力吸附的</span>。装相纸的方式也不是一整盒一整盒的放入，而是像打印机一样，一张一张放进去。
+</p>
+<p>
+	由于 Snap 只有光学取景框，像使用经典的宝丽来相机一样，拍摄、打印出来的照片可能和你想象的不太一样，加上显示屏的 Snap+ 就不会再有这样的问题。只是发售至少要等到今年的第四季度了。
+</p>
+<h2>
+	新出的 3D 打印机，外观非常宝丽来
+</h2>
+<p>
+	宝丽来还将即拍即得的概念扩展到了三维领域。在今年的 CES 上，宝丽来和<span>英国的合作伙伴 Environmental Business Products（EBP）合作推出了</span>第一款 3D 打印机 Polaroid ModelSmart 250S。
+</p>
+<p>
+	先不论打印效果如何，这台和普通家用打印机尺寸相当的 3D 打印机从外表上看具有特别明显的宝丽来风格，特殊的形状让人想到经典的胶片相机&nbsp;Swinger 。
+</p>
+<p>
+	EBP 的管理总监 Aleem Hosein 表示，和宝丽来的这次合作将让&nbsp;3D 打印成为每个人生活的一部分。250S 将在今年晚些时候在欧洲发售。
+</p>
+<p>
+	不过，我只记住了非常宝丽来的外观。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b35b19cc3080.jpg" width="1024" height="592" title="宝丽来 3D 打印机" alt="宝丽来 3D 打印机" /><span><em>宝丽来 3D 打印机</em></span> 
+</p>
+<p>
+</p>
+<h2 style="text-align:left;">
+	在拍立得之后，宝丽来做起了可以连手机的照片打印机
+</h2>
+<p style="text-align:left;">
+	宝丽来的便携照片打印机于 2014 年推出，可以通过蓝牙或者 NFC 与智能手机或者平板电脑相连。和 Snap 相机一样，Zip 也使用来自 ZINK 的零油墨打印技术。和市场上的同类产品类似，宝丽来的便携打印机只比名片大一点，非常轻便。
+</p>
+<p style="text-align:left;">
+	在人人都用手机拍照的时候，可以立刻打印照片的小型打印机，似乎是胶片一次成像相机的另一种复活。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/bfbcf5ce0ee9.jpg" width="1080" height="720" title="用 Snap 打印相片" alt="用 Snap 打印相片" /><span><em>用 Snap 打印相片</em></span> 
+</p>
+<p>
+</p>
+<h2 style="text-align:left;">
+	新的相机，呃，至少是外观尝试
+</h2>
+<p>
+	这是 <a href="http://www.social-matic.com/site/2013/02/20/12/" target="_blank">Socialmatic </a>和宝丽来合作推出的数码相机，拍照之后，用户既可以通过图片社交网络&nbsp;Instagram 编辑和分享照片，也可以像使用宝丽来相机那样，直接把相片打印出来。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/4eec59c3a640.jpg" width="1000" height="667" title="Instagram 相机" alt="Instagram 相机" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span><em>Instagram 相机</em></span> 
+</p>
+<p style="text-align:left;">
+	<span>这款相机应该算是宝丽来近年来最成功的相机产品。虽然没有公布产量，这款相机去年就成了淘宝爆款。</span> 
+</p>
+<p>
+</p>
+<h2 style="text-align:left;">
+	主打拍照的手机也是有的，尽管有点鸡肋
+</h2>
+<p style="text-align:left;">
+	宝丽来在 2012 年就推出了 Polaroid SC1360，那款 Android 手机配备了类似卡片数码相机的变焦镜头，从外形上看就是个可以当手机用的数码相机。
+</p>
+<p style="text-align:left;">
+	在 2015 年的 CES 展上，宝丽来推出了拥有可旋转摄像头的自拍手机 Polaroid Selfie。今年的两款新品则配备了前后双闪光灯，同样是为拍照设计的。
+</p>
+<p style="text-align:left;">
+	不过，除了内置了宝丽来应用，我们并没有在宝丽来的手机上看到专门定制的部分。
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/78bf141f4348.jpg" width="1080" height="720" title="宝丽来手机" alt="宝丽来手机" /><span><em>宝丽来手机</em></span> 
+</p>
+<p>
+</p>
+<h2 style="text-align:left;">
+	很萌的运动相机&nbsp;Cube
+</h2>
+<p>
+	2015 年年初的 CES 展上，宝丽来推出了一款运动相机 <a href="http://www.qdaily.com/articles/1855.html" target="_blank">Polaroid&nbsp;Cube</a>，相对于 GoPro、索尼酷拍系列运动摄像机的专业性能（和更贵的价格），Cube 强调迷你可爱的立方体外观。有弧度的柔和边角还是和宝丽来拍立得相机一样的风格。
+</p>
+<p>
+	这款 Cube 可以固定在自行车支架、三脚架或者无人机上，在今年的宝丽来展台上，我们也看到了它的身影。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/3c6bece921a2.jpg" width="1080" height="720" title="Cube" alt="Cube" /> 
+</p>
+<p style="text-align:center;">
+	Cube 相机就是一个小正方体，没有取景框
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+	在数码相机的冲击下，命途多舛的宝丽来曾经两次破产被转卖。2001 年，举债过多的宝丽来不得不向银行申请破产。几经转手之后，宝丽来被明尼苏达州企业派特斯全球集团买下，后来在 CEO 汤姆·彼得斯（Tom Petters）在任期间解散了大部分研发团队。
+</p>
+<p style="text-align:left;">
+	2008 年，宝丽来宣布停止制造底片，设于荷兰恩社德的胶片工厂也<a href="http://news.bbc.co.uk/chinese/trad/hi/newsid_7230000/newsid_7236200/7236235.stm" target="_blank">停止生产最后一种胶片</a>&nbsp;T600。2009 年，<span style="text-align:left;">汤姆·彼得斯</span>因旁氏骗局被判入狱，宝丽来不得不第二次申请破产。“那是一段黑暗的日子。”现任 CEO &nbsp;斯科特·W 哈迪曾这样评价道。
+</p>
+<p style="text-align:left;">
+	在那之后，宝丽来将品牌授权给其他科技公司。
+</p>
+<p style="text-align:left;">
+	<span style="text-align:left;">“宝丽来已经不仅仅是一个家喻户晓的名字，它更是全世界最具辨识度的生活方式品牌之一。”哈迪说到。</span> 
+</p>
+<p style="text-align:left;">
+	<span style="text-align:left;">尽管宝丽来相机不再生产，人们仍然能在各种各样的地方看到它标志性的彩虹腰线。</span>而我们上述盘点的宝丽来产品，当中不少也是找合作厂商进行贴牌生产。宝丽来，现在更像是一个贩售情怀和生活方式的品牌。
+</p>
+<p style="text-align:left;">
+	<span style="text-align:left;">到如今，当年结束胶片相机黄金时代的数码相机也已经风光不再。 2014 年，全球销售的卡片机只有</span><a href="http://www.statista.com/statistics/326879/worldwide-unit-shipments-cameras/" target="_blank">&nbsp;6900 万台</a><span style="text-align:left;">，只有全球智能手机销量的 5.3%。</span>而对大多数只用手机拍照的年轻人来说，转型做数码成像技术的宝丽来，可能也只能存在于小众市场里了。
+</p>
+<p style="text-align:left;">
+	<span style="text-align:left;"><span style="text-align:left;"></span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图、现场图片摄影/黄俊杰
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="21748">
+				<span data-id="21748">Snap+</span>
+			</li>
+			<li class="tag item" data-id="2346">
+				<span data-id="2346">Cube</span>
+			</li>
+			<li class="tag item" data-id="21749">
+				<span data-id="21749">即时成像相机</span>
+			</li>
+			<li class="tag item" data-id="5773">
+				<span data-id="5773">CES</span>
+			</li>
+			<li class="tag item" data-id="21675">
+				<span data-id="21675">CES 2016</span>
+			</li>
+			<li class="tag item" data-id="2347">
+				<span data-id="2347">宝丽来</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="20398" data-title="《过了那么多年，宝丽来还是没放弃“即拍即得” | CES 2016》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/20398/medium/20398.jpg?1452152456" data-url="http://www.qdaily.com/mobile/articles/20398.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9355.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/9355/medium/9355.jpg?1436681000" alt="他拯救了宝丽来">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">他拯救了宝丽来</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">102</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11749.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/11749/medium/11749.jpg?1436636961" alt="你还记得宝丽来吗？这里有个它如何成功的故事">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">你还记得宝丽来吗？这里有个它如何成功的故事</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">39</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27222.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27222/medium/27222.jpg?1463995142" alt="">
+                        <h1 class="title">时隔19年，“香港小虎队”草蜢又发了一张国语专辑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27218.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27218/medium/27218.jpg?1463990611" alt="">
+                        <h1 class="title">剑桥大学要为领袖开商科博士课程，会是个噱头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27220.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27220/medium/27220.jpg?1463992075" alt="">
+                        <h1 class="title">耐克和巴萨续天价合约，阿迪想靠便宜跑鞋吸引美国人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="20398">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="20398" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">90</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/20383.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>硅谷想这样来激起一个五岁小孩学编程的兴趣_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="硅谷想这样来激起一个五岁小孩学编程的兴趣。当你有了好奇心和编程能力，你就有了创造力。好奇心日报为您呈现硅谷想这样来激起一个五岁小孩学编程的兴趣的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="智能硬件 手环 编程 程序员 Jewelbots " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="RpfCYDaCdGQHhhiWRSPYfklmM5wXQL4wSLRO1QyYdls=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="1792">
+				<span data-id="1792">手环</span>
+			</li>
+			<li class="tag item" data-id="282">
+				<span data-id="282">编程</span>
+			</li>
+			<li class="tag item" data-id="432">
+				<span data-id="432">程序员</span>
+			</li>
+			<li class="tag item" data-id="12825">
+				<span data-id="12825">Jewelbots</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">硅谷想这样来激起一个五岁小孩学编程的兴趣</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/99037/small/99037.jpg?1428742661" alt="">
+					</span>
+				<span class="name">钟舒婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-15 19:08:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11983/medium/11983.jpg?1436748365" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11983" data-title="《硅谷想这样来激起一个五岁小孩学编程的兴趣》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11983/medium/11983.jpg?1436748365" data-url="http://www.qdaily.com/mobile/articles/11983.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				当你有了好奇心和编程能力，你就有了创造力
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<div>
+	30 年前，没有人认为编程是一项必备的技能。
+</div>
+<p>
+	事情现在不一样了。2014 年，英国将编程列为 5 岁以上儿童的必修课，而在众多科技公司聚集的硅谷地区，除了面向成人的编程速成学校，对于十岁以下的儿童，仅是为了激起小孩子学习编程的兴趣，创业者们也付出了不少心机。
+</p>
+<h3>
+	Jewelbots：用可爱的花瓣手环吸引少女学编程<br />
+</h3>
+<p>
+	<a href="https://www.kickstarter.com/projects/1345510482/jewelbots-friendship-bracelets-that-teach-girls-to/description" target="_blank">Jewelbots</a> 是一家纽约的创业公司，目前的产品是一款花瓣手环，试图利用可爱的外形和闪烁的 LED 灯来激起少女们学习编程的兴趣。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="394" title="jewelbots" alt="jewelbots" src="/uploads/image/201507/44a85762509a.jpg" /> 
+</p>
+<p>
+	六月底，他们举行了一场面向小朋友的黑客马拉松活动——“<a href="http://money.cnn.com/2015/06/29/technology/jewelbots-daughter-hack-day/index.html" target="_blank">带你女儿来编程</a>”（Bring Your Daughter to Hack），创始人 Sara Chipps 这样说道：“如果给予孩子们对喜欢的玩具进行定制化的能力，那他们根本停不下来。”
+</p>
+<p>
+	但 Jewelbots 并不是一个教育工具，激发孩子们好奇心才是最重要的。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="398" title="jewelbots" alt="jewelbots" src="/uploads/image/201507/dc8efa11ec50.jpg" /> 
+</p>
+<div>
+	因此，Jewelbots 没有屏幕，但提供了 10 种颜色的手环以及能发出彩虹效果的 LED 灯。通过蓝牙和手机连接后，就可以对手环的功能设置相应的“发光”效果，当好朋友戴着 Jewelbots 接近时，手环就会发出亮光提醒。<br />
+</div>
+<p>
+	此外，少女们还可以登上开源平台 Arduino，让自己的 Jewelbots 做更多事情，例如接收 Instagram 的消息推送、天气提醒，甚至还能用来控制无人机。
+</p>
+<h3>
+	Robotiky：前面的路要怎么走，由你来决定<br />
+</h3>
+<p>
+	<a href="https://www.kickstarter.com/projects/robotiky/robotiky-make-coding-into-childs-play/description" target="_blank">Robotiky</a> 是一个可编程的小型机器人，孩子们一边在网页上拉拽简单的命令卡片，一边控制机器人活动，用于了解基础的程序语言。
+</p>
+<div>
+	联合创始人 Matt Screenton 认为，当孩子们与物体进行互动时，能更好地学习知识。<br />
+</div>
+<p>
+	Robotiky 机器人包括一个用于驱动的小马达，以及三个传感器用于定位、追踪光线和路线、避免碰撞。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="389" title="robotiky" alt="robotiky" src="/uploads/image/201507/8439653495fe.jpg" /> 
+</p>
+<p>
+	Robotiky 自带的在线指南和游戏，一点点教会孩子们进行简单的编程。在 Robotiky 的网页上，孩子们能通过拉拽简单的动作卡片，例如“前进”、“左转”等，组成完整的指令。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="440" title="robotiky" alt="robotiky" src="/uploads/image/201507/88ecd80c2184.jpg" /> 
+</p>
+<div>
+	此外，孩子们还可以点开“浏览代码”选项，查看这些命令背后具体的代码是怎么组成的，再用 USB 将程序输入到机器人后，就可以看到机器人跟着命令走完前面的路。<br />
+</div>
+<h3>
+	Bitsbox：每个月都会寄到家里的编程礼物<br />
+</h3>
+<div>
+	顾名思义，<a href="https://www.kickstarter.com/projects/bitsbox/bitsbox-monthly-coding-projects-for-kids?ref=category_popular" target="_blank">Bitsbox</a> 是一个包含了编程指导书和玩具、贴纸的盒子。孩子们通过图文并茂的编程指导书和网站，就能轻松写出在手机和平板上运行的程序。<br />
+</div>
+<p>
+	打开卡通风格的编程指导书，里面提供了各种有趣的程序供孩子们挑选学习，每个项目所侧重的知识点都不一样。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="480" title="bitsbox" alt="bitsbox" src="/uploads/image/201507/c74b861570f8.jpg" /> 
+</p>
+<p>
+	登上 Bitsbox 的网站，孩子们可以一边根据编程指导书和网站指南，一边学着写代码，除了最直接的办法，Bitsbox 还会引导孩子们修改部分代码，试试看其它方法是否也能达到一样的效果，初步培养孩子们对编程语言的认识。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="361" title="bitsbox" alt="bitsbox" src="/uploads/image/201507/7e71935c390a.jpg" /> 
+</p>
+<p>
+	编写好代码后，下一步就可以用手机或平板扫描网站生成的二维码，孩子们马上就可以在手机上试用自己编写的游戏了。
+</p>
+<div>
+	为了保持孩子们对编程的兴趣，每个月 Bitsbox 还会寄来新的编程指导书。希望孩子们能坚持下去吧。<br />
+</div>
+<h3>
+	Kano：升级版树莓派，亲手堆起来的积木型电脑<br />
+</h3>
+<p>
+	Knao 是一个学习套件，包含了一个树莓派单板微机、蓝牙键盘、<br />
+扬声器、Wi-Fi 模块等。依据非常友好的说明书，快起来几分钟就可以将这些硬件组装好，连接上显示器后，马上就可以进行代码编写了。
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XNzMyMDQ1NDQ0" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	Kano 希望孩子们通过“创造某种东西”对编程产生兴趣。一边玩耍并且成功组装出自己的电脑是第一步，随后就可以通过软件来创造东西。
+</p>
+<p>
+	Kano 操作系统的界面非常直观简洁，孩子们一边玩游戏一边循序渐进地学习编程，例如在玩《我的世界》（Minecraft）这样的游戏时，孩子们可以通过改变分屏中的代码，控制砖块和人物位置这些游戏元素。
+</p>
+<p style="text-align:center;">
+	<img width="640" height="371" title="kano" alt="kano" src="/uploads/image/201507/d46bc059cf8d.jpg" /> 
+</p>
+<p>
+	此外，Kano 还引入了社区，孩子们写下的代码会被记录下来并且作为经验值被累计下来，拥有徽章、等级提升、更换头像等奖励，同时孩子们还可以在 Kano World 社区中分享经验，与世界各地的同学交流，促进共同进步。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自 <a href="http://www.hellorf.com/photo/downok/?did=84927" target="_blank">海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2538">
+				<span data-id="2538">智能硬件</span>
+			</li>
+			<li class="tag item" data-id="1792">
+				<span data-id="1792">手环</span>
+			</li>
+			<li class="tag item" data-id="282">
+				<span data-id="282">编程</span>
+			</li>
+			<li class="tag item" data-id="432">
+				<span data-id="432">程序员</span>
+			</li>
+			<li class="tag item" data-id="12825">
+				<span data-id="12825">Jewelbots</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11983" data-title="《硅谷想这样来激起一个五岁小孩学编程的兴趣》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11983/medium/11983.jpg?1436748365" data-url="http://www.qdaily.com/mobile/articles/11983.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26230.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26230/medium/26230.jpg?1461901908" alt="">
+                        <h1 class="title">戴森发布售价 399 美元的吹风机，这里是它诞生背后的更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26242.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26242/medium/26242.jpg?1461908006" alt="">
+                        <h1 class="title">光线找了两个合作伙伴做 VR，不过要做什么还是未知</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26190.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26190/medium/26190.jpg?1461897137" alt="">
+                        <h1 class="title">一共80平米的小楼，用胶合板也能创造简洁又温馨的感觉</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26245.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26245/medium/26245.jpg?1461911661" alt="">
+                        <h1 class="title">黑莓新手机曝光，依然坚持全键盘</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26241.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26241/medium/26241.jpg?1461907908" alt="">
+                        <h1 class="title">美国大学在 Snapchat 吸引新生，靠一款滤镜</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11983">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11983" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">70</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/12119.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

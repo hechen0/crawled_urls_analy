@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文本设计_设计词典_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="文本设计。。好奇心日报为您呈现文本设计的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计词典 李如一 文本设计 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="eGrWRK0RrDla8NOBmMCFSt/T5YaCaI94PRg/ifPuNjo=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/13.html" class="category x25" data-id="13">
+			<img src="/system/categories/iconwhites/13/medium/13.png?1411569785" alt=""/>
+			<span>设计词典</span>
+		</a>
+		<h1 class="title">文本设计</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">李如一</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-16 10:02:52 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/2889/medium/2889.jpg?1413422314" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2889" data-title="《文本设计》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2889/medium/2889.jpg?1436654940" data-url="http://www.qdaily.com/mobile/articles/2889.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	Editorial Design 不算一个正式术语，我姑且将它译为「文本设计」。
+</p>
+<p class="p2">
+	我是在播客《The Big Web Show》的<a href="http://5by5.tv/bigwebshow/122"><span class="s1">第 122 期</span></a>听到这个词的。主持人杰弗里·齐德曼（Jeffery Zeldman）与设计师杰森·桑塔·马里亚（Jason Santa Maria）闲谈时，随口用 Editorial Design 来形容马里亚在其<a href="http://jasonsantamaria.com/"><span class="s1">个人网站</span></a>上做的事。懂的人立即知道他在说什么。
+</p>
+<p class="p2">
+	文本设计是指根据文字内容的属性为其定制样式的工作，从结果看，它往往意味着高度定制化、不可复用的文章版式。对于平面设计师而言这是家常便饭，但在网页设计的语境里却是稀有动物。
+</p>
+<p class="p2">
+	如果你有留意网页设计的前沿阵地，在过去几年里一定见过那种几乎达到了杂志级别的页面设计。这并不是指在网页中模仿杂志排版，而是指网页设计师与前端工程师（此角色有时由同一人兼任）针对某篇个别文章进行的深度定制。<a href="http://craigmod.com/"><span class="s1">克雷格·莫德（Craig Mod）的网站</span></a>可能是最有名的例子之一。这位前 <a href="http://flipboard.com/"><span class="s1">Flipboard</span></a> 设计师以《<a href="http://craigmod.com/journal/subcompact_publishing/"><span class="s1">超小型出版</span></a>》一文成名，随后又连续写了几篇关于数字出版的长文。以今日网络读者的平均耐心而言，这些文章委实不短，但它们的特别之处并不在于长度，而在于莫德的定制化设计。点开他两篇写作时间相隔一个月的文章《<a href="http://craigmod.com/journal/ipad_and_books/"><span class="s1">iPad 时代的书</span></a>》和《<a href="http://craigmod.com/journal/ebooks/"><span class="s1">拥抱电子书</span></a>》，就会发现它们虽然拥有大体相同的结构，但在版式细节上有不少区别：大标题与小标题的字体与字号不同、分栏设置不同、具体的文字设计细节上也有诸多精细控制。杰森·桑塔·马里亚的网站也是类似，根据各自属性的不同（例如作者为客席作者），<a href="http://jasonsantamaria.com/articles/monkey-nuts-barmbrack-and-apples"><span class="s1">某些文章</span></a>的背景色或都会和其它文章区分开来。
+</p>
+<p class="p2">
+	相信大家会同意，做到这种程度的网站相当罕见，而这正是问题所在。在印刷品的世界里，根据内容属性进行定制化设计属于基本常识。但在万维网上，大部分内容站点的版式与<a href="http://qdaily.com/display/articles/987"><span class="s1">文字设计</span></a>都大同小异，以至于一旦有马里亚和莫德这样的网站出现，人们便纷纷啧啧称奇，奔走相告。
+</p>
+<p class="p2">
+	这首先是出版周期与成本问题。书的出版周期最慢，作者可以在写作初期就开始和设计师沟通想法，给后者留出充分的时间进行视觉构思。杂志的周期就要快得多，因此杂志人在多年的实践之下也逐渐建构了一个个「模版」用以封装很可能是印刷前一天才发来的内容。网页的出版周期之快自然不必多说，作为每天都要更新大量内容的站点，若不事先设定好固定而简易的模版供文章作者填充，设计成本会直线上升。
+</p>
+<p class="p2">
+	不过，文本设计在网页上的粗疏简陋，其背后还有更深刻的原因，那就是工程效率与设计多样性之间的矛盾。软件工程师都十分注重「复用性」。一段代码或一个功能若能在未来重复使用，可以减少工作量。假如你的某篇文章中的第十三自然段要使用两栏排版，而现有的内容管理系统不支持两栏，程序员就会问你「两栏的功能今后是否会经常使用？」若答案为否，甚至你明确知道在一年内很可能都不会有第二篇文章需要两栏排版，他就会建议你考虑用内容管理系统已经支持的样式——尽管那并不是文章作者心目中的理想选择。
+</p>
+<p class="p2">
+	这未必是在偷懒。任何软件都需要不断维护，而维护的成本之高往往是习惯了平面出版作业流程的人无法理解、也不愿相信的。从软件工程的角度考虑，尽量减少那些只为了某个选题用一次就丢掉的功能，可以降低复杂度、减少维护成本。但工程师也都知道「好」「快」「平」（便宜）只能三选二的道理。网页出版的周期决定了必须选快，上述软件工程的需求决定了必须选平，那么品质不好就是必然的了。
+</p>
+<p class="p2">
+	此处的吊诡在于什么是好。在工程师看来，代码可复用是一种优雅，而优雅显然是一个褒义词。从内容作者的角度说，让我的文章以最恰当的样式呈现出来才是第一要务，而最恰当的样式却不一定是现有的模版所能支持的样式。假如每周都会有一篇文章需要程序员配合实现新的样式与功能，那么这个网站只能牺牲掉「快」或「平」。在「<a href="http://qdaily.com/display/articles/2889" target="_blank">坏比好更好</a>」（<a href="http://en.wikipedia.org/wiki/Worse_is_better"><span class="s1">Worse is better</span></a>）的今天，这并不容易。
+</p>
+<p class="p2">
+	<img src="/uploads/image/201410/868bd09196e9.jpg" alt="" /> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2185">
+				<span data-id="2185">设计词典</span>
+			</li>
+			<li class="tag item" data-id="639">
+				<span data-id="639">李如一</span>
+			</li>
+			<li class="tag item" data-id="3577">
+				<span data-id="3577">文本设计</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2889" data-title="《文本设计》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2889/medium/2889.jpg?1436654940" data-url="http://www.qdaily.com/mobile/articles/2889.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26071.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26071/medium/26071.jpg?1461724951" alt="">
+                        <h1 class="title">Coach 大规模重组，以及，“中指猫”春夏系列不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26106.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26106/medium/26106.jpg?1461747366" alt="">
+                        <h1 class="title">金山快盘和新浪微盘都关了，你还在用网盘吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26080.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26080/medium/26080.jpg?1461733067" alt="">
+                        <h1 class="title">香港中环 28 平米公寓，浴缸、猫和基本需求都放得下</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26084.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26084/medium/26084.jpg?1461735838" alt="">
+                        <h1 class="title">「这世界」麦当劳汉堡十年不烂的俗梗和肯尼亚女孩</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26095.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26095/medium/26095.jpg?1461746305" alt="">
+                        <h1 class="title">全球最长最高滑梯将在伦敦迎客，你要去试试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26088/medium/26088.jpg?1461737444" alt="">
+                        <h1 class="title">《北京折叠》入围科幻大奖雨果奖了，它说了什么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26009/medium/26009.jpg?1461643625" alt="">
+                        <h1 class="title">这些用菠萝叶做成的包包和鞋子，令人意外地好看</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2889">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2889" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">16</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2886.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

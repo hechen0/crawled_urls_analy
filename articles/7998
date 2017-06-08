@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pingle 搜索低调上线，接下来会发生什么？_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Pingle 搜索低调上线，接下来会发生什么？。虽然测试版，但还是老朋友。。好奇心日报为您呈现Pingle 搜索低调上线，接下来会发生什么？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 愚人节 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="vB+qUzFDXoQHnT63uAIVqZZmQeVIVZzq90rzBVEY9iY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="4028">
+				<span data-id="4028">愚人节</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Pingle 搜索低调上线，接下来会发生什么？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/96147/small/96147.jpg?1427785127" alt="">
+					</span>
+				<span class="name">FakeDaily</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-01 07:25:24 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7998/medium/7998.jpg?1436695578" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7998" data-title="《Pingle 搜索低调上线，接下来会发生什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7998/medium/7998.jpg?1436695578" data-url="http://www.qdaily.com/mobile/articles/7998.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				虽然测试版，但还是老朋友。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	上周日开始，一个叫 Pingle 的新搜索引擎低调上线，没有任何发布会，但已经有使用者表示这个网站的搜索非常好用，不输于任何我们现在使用的搜索引擎，这其中当然也包括 Google。
+</p>
+<p>
+	<a href="http://www.qdaily.com/yurenjie.html" target="_blank">测试网站小马过河</a>用多个关键词测试，发现其算法与 Google 高度相关，它们因此得出一个惊人的结论——这就是 Google。
+</p>
+<p>
+	《好奇心日报》连线 Google 总部，Google 官方发言人对此事不置可否，但给我们这样一段回复：
+</p>
+<p>
+	「对我们来说，互联网世界分两种——有一种是互联网，另一种是中国互联网。坐拥 13 亿人口的中国互联网是我们不可能放弃的市场。回到中国市场一直是 Google 努力的方向，区别只有什么时候、以哪种方式回归。」
+</p>
+<p>
+	这个态度与 Google 产品负责人桑达尔·皮查伊（Sundar Pichai）多次表达的意思相同，它们希望以更有想像力的方式重新进入中国市场。自从 Google 在 5 年前将服务器导向香港，在中国内地市场发展一直处于被动状态，
+</p>
+<p>
+	一份周一晚间开始在微信朋友圈<a href="http://www.qdaily.com/yurenjie.html" target="_blank">流传的备忘录</a>显示，这可能正是 Google 回到中国的方式。周二一位多次介入 Google 在中国存在状态的监管人士接受了《好奇心日报》的访问，他不但证实了流传备忘录的真实性，同时透露的信息显示这次回到中国的路径之复杂性远远超出我们的想像。
+</p>
+<p>
+	<b>《好奇心日报》：你了解的情况，这个神秘搜索引擎是来自 Google 吗？</b> 
+</p>
+<p>
+	神秘人物：当然，从任何一个角度测试这个搜索都可以看出来它与 Google 用的是同一个数据库，算法也是一样的。实际上它就是同一个网站。
+</p>
+<p>
+	<b>《好奇心日报》：监管部门放行了？</b> 
+</p>
+<p>
+	神秘人物：想必你们也注意到了 <a href="http://www.qdaily.com/yurenjie.html" target="_blank">Google 的说法</a>，这世界上有两个互联网，如果在中国使用的话，就在中国互联网上搜索。我相信它们已经达成了一个共识，它们相信中国网民会选择合适的关键词来搜索。（《好奇心日报》祝你愚人节快乐）
+</p>
+<p>
+	<b>《好奇心日报》：“合适的关键词”？</b> 
+</p>
+<p>
+	神秘人物：对的。合适关键词的解释权在它们这次进入中国的合作伙伴。
+</p>
+<p>
+	<b>《好奇心日报》：So Cool！谁会是 Google 的合作伙伴呢？</b> 
+</p>
+<p>
+	神秘人物：哈哈哈，你知道我们曾经为中国人自己的搜索做了很多前期准备工作，有很多人批评这其中存在巨大的浪费，但实际情况可能并非如此，技术进步不一定直接体现在最终的产品上，也可能表现在这次与国际顶尖技术公司的合作上面。
+</p>
+<p>
+	<b>《好奇心日报》：你是说这次是与鼎鼎大名的搜索国家队的合作？</b> 
+</p>
+<p>
+	神秘人物：现在看起来还不是公布的时候，但你知道名字本身已经暗示了一点什么，你可以读成“苹果”，这当然像是一个玩笑，你也可以理解成是一种理想和野心，也可能是“拼了”，这寓示着一种拼搏精神，谁说高科技事业不需要拼搏精神呢？嗯，或许也可以读成“盘古”……呵呵，我知道<a href="http://www.qdaily.com/yurenjie.html" target="_blank">中国合作方</a>很希望最终用这个翻译。还有，美国人习惯说“Google”一下来表示搜索，未来在中国为什么不是“乒”地一下来表示搜索呢？
+</p>
+<p>
+	<b>《好奇心日报》：乒！乓！我好像懂了一点什么……</b> 
+</p>
+<p>
+	神秘人物：中国是一个伟大的市场，在中国市场做事也需要伟大的智慧。
+</p>
+<p>
+	Google 正式回到中国市场，我们关心的还有竞争对手百度的反应。《好奇心日报》尝试联系了百度，其北京公关部负责人很快回复了邮件：「……百度代表本土科技企业欢迎 Google 加入中国搜索市场。作为世界上两大技术巨头，两方必将在多方面展开交流和合作。」
+</p>
+<p>
+	不过一位熟悉百度搜索业务的匿名人士告诉《好奇心日报》，百度上下气氛非常紧张。李彦宏在发布会后就开始马拉松地开会，已经十几个小时没有出过会议室。消息人士表示，百度在消息公布后的第一个重要决定是，批准了一笔大幅增加的政府公关预算。（《好奇心日报》祝你愚人节快乐）
+</p>
+<p>
+	北京航空航天大学、清华大学、北京邮电大学等以培养大量程序员著称的北京多家高校的<a href="http://www.qdaily.com/yurenjie.html" target="_blank">校园 BBS</a> 传递了这个让人兴奋的消息，一位网名余玄的北京邮电大学学生表示，又可以解决北京户口问题了呢。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	以上内容纯属虚构，《好奇心日报》祝你愚人节快乐。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="4028">
+				<span data-id="4028">愚人节</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7998" data-title="《Pingle 搜索低调上线，接下来会发生什么？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7998/medium/7998.jpg?1436695578" data-url="http://www.qdaily.com/mobile/articles/7998.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25555.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25555/medium/25555.jpg?1460741386" alt="">
+                        <h1 class="title">一篇偷窥狂报道，马上就要变成斯皮尔伯格和门德斯的电影</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25559.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25559/medium/25559.jpg?1460773210" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7998">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7998" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">27</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7992.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

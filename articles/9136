@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LED 灯会如何改变驾驶体验_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="LED 灯会如何改变驾驶体验。虽然人人都看好 LED 灯的推广应用，但批准很可能需要很多年的时间。。好奇心日报为您呈现LED 灯会如何改变驾驶体验的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 LED 驾驶 汽车 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="nMzg5xqck/QU3zyYUbM09fCbgYwUTur0p6GzuwT+Q0Y=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="629">
+				<span data-id="629">LED</span>
+			</li>
+			<li class="tag item" data-id="2958">
+				<span data-id="2958">驾驶</span>
+			</li>
+			<li class="tag item" data-id="20">
+				<span data-id="20">汽车</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">LED 灯会如何改变驾驶体验</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Eric A Taub</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-05 08:00:39 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9136/medium/9136.jpg?1436688121" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9136" data-title="《LED 灯会如何改变驾驶体验》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9136/medium/9136.jpg?1436688121" data-url="http://www.qdaily.com/mobile/articles/9136" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				虽然人人都看好 LED 灯的推广应用，但批准很可能需要很多年的时间。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	<span style="white-space:normal;background-color:#CCCCCC;"><em><strong><a href="http://www.nytimes.com/2015/05/01/automobiles/with-led-lights-automakers-reveal-all-the-road-we-cannot-see.html?_r=0" target="_blank">本文</a></strong></em></span><span style="white-space:normal;outline:none;background-color:#CCCCCC;"><em style="outline:none;"><strong style="outline:none;">由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</strong></em></span> 
+</p>
+<p class="MsoNormal" align="left">
+	汽车照明正在经历一场静悄悄的革命，也因此出现了各种新颖的汽车设计，而且让夜间行车更加安全。但是，许多在欧洲和亚洲常见的新技术，却要花很长的时间才能来到美国。
+</p>
+<p class="MsoNormal" align="left">
+	这些变化之所以有可能实现，主要是因为 <span>LED </span>灯的推广应用，它用到的就是最新一代家庭照明所用的技术。LED 灯小巧、散热快，而且能耗比标准的汽车灯要低。
+</p>
+<p class="MsoNormal" align="left">
+	通用汽车（General Motors）外部照明工程师 <span>Shannen Borngesser </span>说：“LED 灯使我们可以在很小的空间里布置灯光，这样一来，我们就能够制造出个性鲜明的外观。”头灯和尾灯都可以用不同的形状和图案来打造，就像 <span>1960 </span>年代的汽车尾部一样，一看就能确定车的品牌和型号。
+</p>
+<p class="MsoNormal" align="left">
+	即使是外行人，也不会认不出奥迪车前面那棱角分明的 <span>LED </span>日间行车灯、宝马车那名叫“天使之眼”的大灯系统，或者是 <span><a href="http://autos.nytimes.com/2011/Cadillac/Escalade/237/2635/324235/researchOverview.aspx?inline=nyt-classifier">Cadillac
+Escalade</a></span> 那红色垂直的带状尾灯和白色叶片状的大灯。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/10305fc17845.jpg" alt="" style="font-family:'sans serif', tahoma, verdana, helvetica;width:601px;" />
+</p>
+<p class="MsoNormal" align="left">
+	<em><em>一辆有着非常醒目的垂直尾灯的 Cadillac Escalade</em></em>
+</p>
+<p class="MsoNormal">
+	在这一表象的背后，而且主要是在美国以外的其他国家，汽车制造商们正在设法利用灯光使夜间行车更安全。将 LED 灯与摄像机结合之后，一辆汽车的大灯就不仅只是一组高低光束的组合，相反，它能够根据路面的实际情况，及时改变灯光的模式。
+</p>
+<p class="MsoNormal" align="left">
+	通用汽车欧洲分部的<span><a href="http://topics.nytimes.com/top/news/business/companies/opel_adam_gmbh/index.html?inline=nyt-org">欧宝</a></span>推出过这种系统的早期版本，而且在 12 年里生产出了好几个型号。现在的版本叫 <span>AFL </span>Plus（意思是“更好的感应式前端照明系统”），它会判断路面的情况，并依靠氙气前照灯内的一个转鼓，制造出九种不同的灯光模式。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/7c9151fdea04.jpg" alt="" />
+</p>
+<p class="MsoNormal" align="left">
+	<em style="white-space:normal;">欧宝正在测试一种能随着驾驶员的眼球运动而做出反应的汽车大灯，眼球运动由车载摄像机跟踪拍摄。</em>
+</p>
+<p class="MsoNormal" align="left">
+	然而正是 <span>LED </span>灯的推广应用，才使得汽车制造商们能够对这种技术进行细微的调整。由于 <span>LED </span>灯的尺寸很小，他们可以在每一只大灯里面塞进更多灯泡，每一只灯泡都可以根据路面的情况以及迎面而来的汽车数量或开或关，从而显示出独一无二的图案。这可以保证其他的司机不会因为迎面开来的车前灯太亮而睁不开眼，同时，安装了这种系统的车的司机能够更清楚地掌握路面的情况。
+</p>
+<p class="MsoNormal" align="left">
+	<span><a href="http://topics.nytimes.com/top/news/business/companies/opel_adam_gmbh/index.html?inline=nyt-org">欧宝</a></span>将会在今年夏天引进使用 <span>LED </span>灯的 <span>AFL Plus </span>系统；欧宝的照明技术总监 <span>Ingolf Schneider </span>说，它将能够变化出 <span>256 </span>种灯光模式。
+</p>
+<p class="MsoNormal" align="left">
+	大众汽车的豪华品牌奥迪一直以来都是照明技术的领头羊。它那高性能的 <span>R8 </span>配备有激光灯可供选择。而它的轿车和越野车中，有五种车型可以选配矩阵式高光 <span>LED </span>大灯。
+</p>
+<p class="MsoNormal" align="left">
+	这是一套非常优秀的系统，它的强光能自动调节，不会影响前方的车辆，即使前方有八辆车在行驶，也不会受到它的影响。
+</p>
+<p class="MsoNormal" align="left">
+	但是美国的司机还没有看到这项新技术带来的好处。这些车在美国销售时，所有型号都安装了普通大灯。
+</p>
+<p class="MsoNormal" align="left">
+	美国的法律明确规定，汽车大灯的照明效果必须按照一个特定的模式。尽管它们可以在汽车转弯时旋转，但是大灯模式的外观却不允许改变。
+</p>
+<p class="MsoNormal" align="left">
+	由于诸如此类的限制，“照明技术的创新都来自欧洲和日本，”奥迪的照明技术主管 <span>Stephan Berlitz </span>说。
+</p>
+<p class="MsoNormal" align="left">
+	尽管克莱斯勒没有为它的汽车装上 <span>LED </span>大灯，但是他们却很有兴趣配置一套与奥迪类似的矩阵式大灯系统。
+</p>
+<p class="MsoNormal" align="left">
+	“感应式照明技术的发展令人非常兴奋，”菲亚特-克莱斯勒（Fiat Chrysler）外部照明研发部门主管 <span>Dennis Novack </span>说。
+</p>
+<p class="MsoNormal" align="left">
+	汽车制造商们发现，其他技术最终使他们的照明系统更加有效、更加吸引人和更加安全。欧宝还在对根据驾驶者眼球运动调节大灯的技术进行早期测试，他们检测眼球运动依靠的是一个车载摄像头。算法和外部摄像头能够确保每一次司机看广告牌或者看他们的脚时，灯光的模式和方向不会改变。Borngesser 说，开发这种系统至少需要五年的时间。
+</p>
+<p class="MsoNormal" align="left">
+	Berlitz 说，奥迪意识到大灯将能够呈现出多种花样，就像马路上一条能够帮助步行者穿过黑暗区域的小径，或者像车辆左右的两条标线一样，在车子驶过一片施工区域时，能够让司机对狭窄的道路有更清晰的概念。
+</p>
+<p class="MsoNormal" align="left">
+	随着 <span>LED </span>灯被引入车尾，刹车灯、转向灯和车尾灯的灯板几乎立刻变得明亮起来，汽车制造商和设计师为 <span>OLED</span>（或者称为有机发光的二极管）技术的各种可能性而着迷。
+</p>
+<p class="MsoNormal" align="left">
+	OLED 灯可以制成薄片，这使得设计师可以将它们放在车身的任何一个地方。而且由于 <span>OLED </span>光源占用的空间很小，汽车将可以腾出更多的空间做其他用途，或者改变外形。
+</p>
+<p class="MsoNormal" align="left">
+	但是 <span>OLED </span>光源的使用还是几年以后的事情，因为这项技术的发展目前受到较低的光输出率和较高成本的阻碍。
+</p>
+<p class="MsoNormal" align="left">
+	为了促使美国国家公路交通安全管理局（National Highway Traffic Safety
+Administration）改变有关矩形式大灯的规定，美国汽车工程师协会（Society of Automotive Engineers）花了一年的时间制定了一套标准，政府部门可以以这套标准为基础对现有的规定做出更改。去年，奥迪带了一部欧洲版 <span>A8 </span>轿车到美国，向政府官员们展示它的技术特点。
+</p>
+<p class="MsoNormal" align="left">
+	但是官员们说，批准（假如这件事情会发生的话）很可能需要很多年的时间，因为修改美国的照明法是一个细致而缓慢的过程，牵涉到测试、公众意见以及法规的制定。一旦获得批准，汽车制造商们将不得不为了适应这些变化而调整他们的生产计划。
+</p>
+<p class="MsoNormal" align="left">
+	“我们正在想办法修改目前的照明标准，使各种体系能够提供更好的照明，”政府机构的发言人 <span>Gordon Trowbridge </span>说，“这是一个让人感到沮丧且耗时很久的过程。我们有义务让美国政府不贸然行动。”
+</p>
+<p class="MsoNormal" align="left">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	翻译 is译社 曾小楚
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="629">
+				<span data-id="629">LED</span>
+			</li>
+			<li class="tag item" data-id="2958">
+				<span data-id="2958">驾驶</span>
+			</li>
+			<li class="tag item" data-id="20">
+				<span data-id="20">汽车</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9136" data-title="《LED 灯会如何改变驾驶体验》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9136/medium/9136.jpg?1436688121" data-url="http://www.qdaily.com/mobile/articles/9136" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24873.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24873/medium/24873.jpg?1459524371" alt="">
+                        <h1 class="title">扎哈·哈迪德、她的建筑和我们所处的这个世界</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24874.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24874/medium/24874.jpg?1459523629" alt="">
+                        <h1 class="title">大表姐改了口风，说特别想继续演魔形女</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24886.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24886/medium/24886.jpg?1459556493" alt="">
+                        <h1 class="title">「日本語」“农民有必要协助旅游业吗？”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24898.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24898/medium/24898.jpg?1459643241" alt="">
+                        <h1 class="title">YSL 创意总监离职，时尚业怎么全是待不久的设计师？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24893.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24893/medium/24893.jpg?1459598722" alt="">
+                        <h1 class="title">硅谷总迷恋长寿和改变世界，这次爱上了一台复杂的榨汁机</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9136">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9136" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">19</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9166.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

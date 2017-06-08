@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>时尚科技太火，这个孵化器把大佬和创业者连在了一起_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="时尚科技太火，这个孵化器把大佬和创业者连在了一起。这个项目最核心的部分，就在于成熟、大规模的零售商高管为年轻创业公司提供资源和针对性的指导。。好奇心日报为您呈现时尚科技太火，这个孵化器把大佬和创业者连在了一起的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="创业 时尚科技 Q Business New York Fashion Tech Lab Seth Porges " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="znsF0QOppht6BUW9nMGdBOn+nw2j2ytMMTKpGOO03N8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+			<li class="tag item" data-id="9667">
+				<span data-id="9667">时尚科技</span>
+			</li>
+			<li class="tag item" data-id="7018">
+				<span data-id="7018">Q Business</span>
+			</li>
+			<li class="tag item" data-id="9671">
+				<span data-id="9671">New York Fashion Tech Lab</span>
+			</li>
+			<li class="tag item" data-id="9668">
+				<span data-id="9668">Seth Porges</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">时尚科技太火，这个孵化器把大佬和创业者连在了一起</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/194153/small/194153.jpg?1454682827" alt="">
+					</span>
+				<span class="name">徐婧艾</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-10 08:10:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9180/medium/9180.jpeg?1436687773" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9180" data-title="《时尚科技太火，这个孵化器把大佬和创业者连在了一起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9180/medium/9180.jpeg?1436687773" data-url="http://www.qdaily.com/mobile/articles/9180.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这个项目最核心的部分，就在于成熟、大规模的零售商高管为年轻创业公司提供资源和针对性的指导。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="p1">
+	美国人 Seth Porges 的简历看上去相当充实：他曾是 Maxim、Popular Mechanics 杂志的科技编辑，也是彭博新闻（Bloomberg News）等多个媒体的科技专栏作家。八卦一点，他还是《纽约观察家》（New York Observer）评选出的 2011 年“<a href="http://observer.com/2011/08/the-free-agent-list-201s-50-media-power-bachelors/#slide24" style="background-color:#FFFFFF;"><span class="s1">最具影响力的 50 位媒体单身汉</span></a>”之一。不过，他的最新简历里又多了一行：创业者。&nbsp;
+</p>
+<p class="p2">
+	“在科技媒体圈那么久，每天都看到创业者们犯下的数之不尽的错误。我就想啊，我为什么不自己干呢？”Porges 在接受《好奇心日报》采访时说。&nbsp;
+</p>
+<p class="p2">
+	2014 年年末，在完成了一款生活方式应用的开发后，Porges 作出了创业路上的第二个选择：参加一个创业加速器项目——<a href="http://www.nyftlab.com/"><span class="s1">New York Fashion Tech Lab</span></a> (NYFT Lab)。这个项目由投资集团“The Partnership Fund for New York City”和一个致力于帮助女性创立公司的集团“Springboard Enterprises”联合成立，旨在通过三个月的培训，帮助初创阶段的时尚科技公司加速成长。这一项目更大的野心，是通过扶植这些新兴的时尚科技公司，撬动纽约的时尚科技业创新，为这座城市增添更多的工作岗位。
+</p>
+<p class="p2">
+	今年是这个项目举办的第二年，项目在 3 月正式启动，将于 6 月结束。在 175 份申请中，NYFT Lab 最终挑选了 8 个公司，其中包括 Porges 创办的“<a href="http://www.clothapp.com/"><span class="s1">Cloth</span></a>”，一款基于移动端的生活方式应用。&nbsp;
+</p>
+<p class="p2">
+	“大部分的创业加速器项目都比较笼统，面对来自各行各业的创业公司，”Porges说，“我选择 NYFT Lab，是因为它对资源的整合更集中，并只针对那些把时尚和科技结合到一起的公司。”&nbsp;
+</p>
+<p class="p2">
+	NYFT Lab 项目由两个部分组成。一是邀请美国知名零售商的高管们、投资者和资深创业者，与选中的公司进行面对面、一对一的交流，并对这些公司的产品提供反馈和建议。今年，参与本项目的零售公司包括：Alex and Ani，Kate Spade &amp; Company，Macy’s，Bloomingdale’s，Fossil Group，Inc.，以及 VF Corporation。
+</p>
+<p class="p2">
+	项目的第二个组成部分，是举办与时尚科技相关的研习会（workshop），让参与公司就数据优化、概念呈现、技术搭建和行业趋势等问题进行讨论与实践。
+</p>
+<p class="p2">
+	“我们希望这些年轻的创业公司乐于学习，在展现他们科技驾驭能力的同时，把创新的部分带给与我们合作的零售商，” NYFT Lab 的联合主席 Kay Koplovitz 告诉《好奇心日报》。Koplovitz 同时也是 Kate Spade &amp; Company 的董事会成员和 Springboard Enterprises 的主席。
+</p>
+<p class="p2">
+	根据 NYFT Lab 另一位联合主席兼 Partnership Fund for New York City 主席 Maria Gotsch 的介绍，每一家零售商都会与一到两家创业公司配对，提供近距离的指导，并对产品进行反馈。<strong>项目还会邀请成熟创业公司的 CEO、记者和营销专家，前来举办讲座。</strong>这些嘉宾包括 Gilt 集团的创始人 Kevin Ryan。
+</p>
+<p class="p2">
+	Gotsch 认为，<strong>这个项目最核心的部分，就在于成熟、大规模的零售商高管为年轻创业公司提供资源和针对性的指导。</strong>而作为回馈，零售商也将汲取创业公司提供的新概念、产品或服务，提高他们的行业竞争力。&nbsp;
+</p>
+<p class="p2">
+	就去年本项目的执行来看，所有创业公司目前都运转良好，一些已投入市场，一些已获得融资，也有一家公司在项目结束后，继续与零售商进行合作，并成功被该零售商收购。&nbsp;
+</p>
+<p class="p2">
+	NYFT Lab 规定，参与此项目的公司必须是创业初期的时尚科技公司，并已生成一定的产品或服务。今年入围的 8 家公司，在规模和产品成熟度上各有不同。
+</p>
+<p class="p2">
+	前媒体人 Porges 的“Cloth”，是一款基于“电子衣橱”概念的社交应用，它鼓励人们在移动端记录、分享自己的服装，并为服装添加标签（如适宜的天气、场合、服装色彩、风格和设计师等等），实现“掌上搭配”。此应用亦会根据用户的预先搭配和天气情况，在每天清晨推送适宜当天穿着的服装。
+</p>
+<p class="p2">
+	这款应用的基本框架在 2014 年年末诞生，核心团队有 3 位成员，目前所面临的挑战也来自产品开发、推广、融资等各个方面。
+</p>
+<p class="p2">
+	项目的另一个参与者——inSparq 公司，发展相对成熟。其 CEO 兼创始人 Veronika Sonsev 曾是 AOL 的运营主管，有丰富的产品开发和广告经验。
+</p>
+<p class="p2">
+	inSparq 的服务针对零售商，旨在通过抓取和分析社交媒体的数据，挖掘互联网上正在流行的事物、话题，帮助零售商制定实时的产品推广与广告策略。inSparq 成立于 2010 年，目前已有超过 1000 家客户，其中包括 American Apparel 和 Giggle。&nbsp;
+</p>
+<p class="p2">
+	“对我们公司来说，参加这个项目最大的收益就在于从经验丰富的零售商那里获得最直接的产品反馈，”Sonsev 说。“像融资这类问题，虽然重要，但不是我们来参加这个项目的主要目的。”&nbsp;
+</p>
+<p class="p2">
+	Sonsev 透露，inSparq 已有融资，但公司尚无计划公布融资数额。她希望在项目结束后，团队能对公司未来几年的发展方向做出更成熟的规划。
+</p>
+<p class="p2">
+	根据负责人 Koplovitz 的介绍，今年参与 NYFT Lab 的团队非常多元，公司创始人的主要过往工作背景集中在零售、产品开发与制造、市场推广、品牌建设和编程等领域。
+</p>
+<p class="p2">
+	此项目对于公司创始人或 CEO 的国籍并无明确限制，但前提是这个时尚科技公司必须位于纽约。历时 12 周的本项目将于 6 月 12 日结业。届时，项目的参与公司将汇聚一堂，向零售商和投资人展示他们的最终产品或服务。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="106">
+				<span data-id="106">创业</span>
+			</li>
+			<li class="tag item" data-id="9667">
+				<span data-id="9667">时尚科技</span>
+			</li>
+			<li class="tag item" data-id="7018">
+				<span data-id="7018">Q Business</span>
+			</li>
+			<li class="tag item" data-id="9671">
+				<span data-id="9671">New York Fashion Tech Lab</span>
+			</li>
+			<li class="tag item" data-id="9668">
+				<span data-id="9668">Seth Porges</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9180" data-title="《时尚科技太火，这个孵化器把大佬和创业者连在了一起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9180/medium/9180.jpeg?1436687773" data-url="http://www.qdaily.com/mobile/articles/9180.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9180">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9180" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">28</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9237.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>为什么第三方机构愿意帮助 FBI 破解那部 iPhone？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="为什么第三方机构愿意帮助 FBI 破解那部 iPhone？。苹果和 FBI 的战争，吸引到了黑客。好奇心日报为您呈现为什么第三方机构愿意帮助 FBI 破解那部 iPhone？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 纽约时报 iPhone 隐私 苹果 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="JiSV6OxiJqK28PAG3JNc4mIfv/OtqxpDAo1TMB0vrdo=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="91">
+				<span data-id="91">隐私</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">为什么第三方机构愿意帮助 FBI 破解那部 iPhone？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Nicole Perlroth and Katie Benner</span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-24 14:39:10 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/24407/medium/24407.jpg?1458799598" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24407" data-title="《为什么第三方机构愿意帮助 FBI 破解那部 iPhone？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24407/medium/24407.jpg?1458799598" data-url="http://www.qdaily.com/mobile/articles/24407.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				苹果和 FBI 的战争，吸引到了黑客
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">          </p><p><b><i>＊<a href="http://www.nytimes.com/2016/03/23/technology/apple-policy-on-bugs-may-explain-why-hackers-might-help-fbi.html">本文</a>只能在《好奇心日报》发布，即使我们允许了也不许转载＊</i></b></p><p>          </p><p>旧金山电 — 在<a href="http://www.nytimes.com/2016/03/22/technology/apple-fbi-hearing-unlock-iphone.html?hpw&amp;rref=technology&amp;action=click&amp;pgtype=Homepage&amp;module=well-region&amp;region=bottom-well&amp;WT.nav=bottom-well" style="background-color: rgb(255, 255, 255);">第三方向联邦调查局表示</a>可以破解 <a href="http://topics.nytimes.com/top/reference/timestopics/subjects/i/iphone/index.html?inline=nyt-classifier" style="background-color: rgb(255, 255, 255);">iPhone</a> 之后，很多在安全领域工作的人都说，第三方机构没有站在<a href="http://www.nytimes.com/topic/company/apple-incorporated?inline=nyt-org" style="background-color: rgb(255, 255, 255);">苹果</a>这一边也并不奇怪。<br></p><p>虽然苹果公司在对用户通讯内容加密、保护用户隐私方面做了很多工作和公关，但是安全领域的专家仍然认为，这家公司在防止黑客入侵系统方面做的比很多竞争对手都要少。同时，当黑客找到苹果系统的代码漏洞时，他们也没有什么动力将这些问题反馈给苹果公司以使其得以修复。<br></p><p>Google、微软、Facebook、Twitter、Mozilla 等科技公司都会向反馈它们产品和系统漏洞的外部黑客支付费用。Uber 也从本周二开始了一项<a href="https://eng.uber.com/bug-bounty/" style="background-color: rgb(255, 255, 255);">漏洞追踪悬赏计划</a>。而 Google 公司自 2010 年开始执行漏洞追踪悬赏计划以来，已经向外部黑客支付了超过 600 万美元的奖金，而且公司上周<a href="https://security.googleblog.com/2016/03/get-rich-or-hack-tryin.html" style="background-color: rgb(255, 255, 255);">将最高奖金提升了一倍</a>，目前高达 10 万美元，用于奖励能够破解 Chromebook 的人。<br></p><p>苹果公司在过去几年的安全性一直相对较高，也开诚布公地表示安全问题是一场永无止境的猫鼠游戏，公司并不愿意借助金钱手段来抢着为利用代码漏洞的行为买单。<br></p><p>公司目前除了给黑客一个“黄金之星”（gold star）的奖励之外，没有任何其它奖赏。如果一个黑客向公司上报了某个产品的严重漏洞，他们可以在公司网站上看到自己的名字被列出来——但这也就是全部了。这与黑客们能从其它途径获得的回报相去甚远，如果他们将一个苹果的漏洞卖到热闹的地下黑市，会有无数公司和政府机构愿意给他们支付优厚的报酬。<br></p><p>美国联邦政府周一披露，一位不具名的第三方机构（而不是苹果公司）找到了他们，称可以<a href="http://www.nytimes.com/interactive/2016/03/03/technology/apple-iphone-fbi-fight-explained.html" style="background-color: rgb(255, 255, 255);">帮助破解那台备受争议的 iPhone</a>。这一消息凸显了一点：苹果这个大公司处理漏洞追踪问题的方法，与整个科技产业的其他公司相去甚远。<br></p><p>不过安全专家——尤其是与类似的漏洞追踪计划有利害关系的专家说，苹果公司目前也只能做到这样，尤其在当下，追踪漏洞和修复漏洞的传统做法已经有了变化。<br></p><p>就在本周，约翰霍普金斯大学（Johns Hopkins University）的研究人员发现了一项纰漏，可以被黑客用于破解附加在苹果 iMessage 系统中的图片和视频。研究人员将问题反馈给了苹果公司，以期修复。<br></p><p>“尤其是在赌注已经垒到现在这么高的情况下，如果苹果公司想继续在当下的社会里竞争，他们就得改变方法，”HackerOne 公司的首席策略师凯蒂·穆索利斯（Katie Moussouris）说。目前，雅虎、 Dropbox 以及 Uber 的漏洞追踪悬赏计划都是它们付费给 HackerOne 来代为运营的。<br></p><p>直到周二，这家主动找到<a href="http://topics.nytimes.com/top/reference/timestopics/organizations/f/federal_bureau_of_investigation/index.html?inline=nyt-org" style="background-color: rgb(255, 255, 255);">联邦调查局</a>、并称其有办法破解去年加州圣博纳蒂诺大规模枪击案中一名枪手的 iPhone 的机构身份仍然未知。这个第三方机构的出现叫停了——至少是暂时叫停了苹果公司和联邦政府之间关于是否该降低 iPhone 安全性以协助司法部门破案的争议。<br></p><p>美国司法部拒绝透露这个第三方个人或机构的名称，也拒绝陈述其提出的破解设备的方法。可能有多种原因导致这个第三方没有去找苹果公司。<br></p><p>过去，微软系统也曾经是那些满肚子坏主意的黑客们频繁攻击的目标，主要原因就是微软产品广受欢迎。但微软开始同黑客社区密切合作之后，其安全性也提升了。<br></p><p>随着苹果电脑和手机在市场上占有越来越大的份额，同时消费者也越来越多地将个人信息授权给 iPhone ，苹果产品已经成为罪犯与间谍更有价值的攻击目标。<br></p><p>一位苹果公司的女发言人提到，公司负责软件工程的高级副总裁克雷格·费德里希（Craig Federighi）在一篇评论中写道：“安全是一场没有尽头的比赛——你只可能暂时领先，但绝不会有决定性的胜利。”<br></p><p>费德里希说：“我们的团队不辞劳苦地工作，就是为了在试图窥探我们用户信息的恶意攻击到来之前，先人一步，即便我们已经尽了最大努力，但仍然不存在百分百的安全。”<br></p><p>和其他科技公司相比，苹果公司在安全社区的存在感一直都没那么强。它并没有做什么漏洞悬赏项目，而是依靠大规模的测试项目和自己安全的团队来发现漏洞，其部分原因就在于它不愿意一直进行为漏洞付钱的账务军备竞赛。这一信息来自三位苹果公司现员工和前员工，他们要求匿名，因为他们并没有权利公开谈论安全相关事项。<br></p><p>苹果公司已经说了，它将努力发现更多和这个第三方展示给执法部门的软硬件漏洞相关的信息。一位资深高管在周二和记者进行的电话会议上说，如果政府发现这个办法没用、仍然试图强迫苹果公司协助解锁这部手机，苹果公司将会就这次测试的内容提出疑问，以尽可能保证自身产品安全。<br></p><p>如果第三方机构的这个办法奏效，政府可能会撤销要求苹果公司弱化其安全功能的法院令，但它依然会对其过去破解手机的方法守口如瓶。这样一来，苹果公司就无法得知政府是如何破解自己的软件或硬件的。<br></p><p>随着时间的推移，特别是随着苹果公司的移动设备变得越来越普及，利用其代码的需求也变得越来越强，已经形成了一个地下生态系统，其中的中间人和承包商都愿意高价获得这些代码。<br></p><p>出售苹果公司移动设备的漏洞一般能拿到 100 万美元。华盛顿有一家名叫 Zerodium 的咨询公司，专门向政府和公司出售此类漏洞，去年 9 月，它悬赏 100 万美元让人们提交苹果公司 iOS 9 移动操作系统的漏洞——这也正是圣博纳蒂诺那位枪手的 iPhone 使用的系统。11 月，Zerodium 说一支由匿名黑客组成的团队已经成功地领走了这笔奖金。<br></p><p>Zerodium 的创始人肖基·贝克拉尔（Chaouki Bekrar）说，他的公司并不是政府周一提交给法院的材料中提到的那家外部机构。但贝克拉尔也说，虽然 Zerodium 此前也曾协助过联邦调查局，但他不会透露相关信息。<br></p><p>BugCrowd 是旧金山一家帮助客户管理漏洞悬赏计划的公司，其创始人凯西·埃利斯（Casey Ellis）说：“对于每一家像 Zerodium 这样的公司来说，它都要面对 1000 家和自己一样的组织，而这些组织更加不会宣扬自己在做的事情，而且它们愿意给发现漏洞的研究人员一笔钱，让他们保守秘密。”<br></p><p>美国政府和苹果公司就破解圣博纳蒂诺枪手用过的 iPhone 一事引发了<a href="http://www.nytimes.com/2016/03/11/technology/apple-iphone-fight-justice-department.html?module=Promotron&amp;region=Body&amp;action=click&amp;pgtype=article" style="background-color: rgb(255, 255, 255);">激烈斗争</a>，此事可能已经在无意间促进了针对苹果公司代码漏洞的黑市。云安全公司 Duo Security 首席技术官乔恩·欧伯海德（Jon Oberheide）说，在联邦调查局利用一纸法院令推动苹果公司协助破解手机、而且还公开说它一直无法破解 iPhone 的情况下，黑客们意识到，如果他们能完成这项任务，他们就能随意要价了。<br></p><p>一些安全研究人员说，苹果公司给的奖金没有能比得上黑市的赏金的。苹果公司已经等了太久，而漏洞黑市的回报也已经极为诱人，所以可能苹果公司再做任何漏洞悬赏计划，似乎都已经太晚了。<br></p><p>前美国国家安全局分析师、负责派遣黑客为客户查找漏洞的公司 Synack 的联合创始人杰伊·卡普兰（Jay Kaplan）说：“苹果公司可以接纳安全研究人员，也可以尝试资助那些能让它的操作系统变得更安全的项目，但它永远无法和黑市上背地里进行着的那些事情相抗衡。”</p><p>翻译：熊猫译社 刘昉 葛仲君</p><p class="">题图版权：Andrew Burton/《纽约时报》</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="409">
+				<span data-id="409">iPhone</span>
+			</li>
+			<li class="tag item" data-id="91">
+				<span data-id="91">隐私</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24407" data-title="《为什么第三方机构愿意帮助 FBI 破解那部 iPhone？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24407/medium/24407.jpg?1458799598" data-url="http://www.qdaily.com/mobile/articles/24407.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/24271.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/24271/medium/24271.jpeg?1458627804" alt="FBI 说，他们不需要苹果就能破解 iPhone">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">FBI 说，他们不需要苹果就能破解 iPhone</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">37</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25276/medium/25276.jpg?1460357878" alt="">
+                        <h1 class="title">一款号称卖给 “95 后”的茶饮料，背后是大公司对年轻人怎样的揣测？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25318.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25318/medium/25318.jpg?1460388146" alt="">
+                        <h1 class="title">亚马逊全新设计的 Kindle Oasis 泄密，最薄 3.4mm</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25260.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25260/medium/25260.jpg?1460357520" alt="">
+                        <h1 class="title">张达发布新一季的“没边”，还谈了谈“奢侈”｜上海时装周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25281.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25281/medium/25281.jpg?1460359761" alt="">
+                        <h1 class="title">阿里体育的乒羽平台，暂时还只有比赛报名功能</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25268.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25268/medium/25268.jpg?1460346559" alt="">
+                        <h1 class="title">「这世界」那些不睡觉的传说，还是留给真正的天才吧！</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="24407">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="24407" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">64</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/24408.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

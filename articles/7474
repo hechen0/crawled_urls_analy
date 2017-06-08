@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题。“这就像一条有高端画廊、书店和咖啡店的街上本来开了一家高档餐厅，现在又要在街区空地上开一家麦当劳或者沃尔玛一样。”。好奇心日报为您呈现手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 纽约时报 手工电商 Etsy " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="wLFjbhCkMa8I6GPFwXvC7z5dvJFoVu+rklmmbJ/tzSQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Hiroko Tabuchi</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-18 16:56:05 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/7474/medium/7474.jpg?1426596151" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7474" data-title="《手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7474/medium/7474.jpg?1436690609" data-url="http://www.qdaily.com/mobile/articles/7474.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“这就像一条有高端画廊、书店和咖啡店的街上本来开了一家高档餐厅，现在又要在街区空地上开一家麦当劳或者沃尔玛一样。”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<span style="white-space:normal;background-color:#CCCCCC;"><em><strong><a href="http://www.nytimes.com/2015/03/16/business/media/etsys-success-raises-problems-of-credibility-and-scale.html" target="_blank">本文</a></strong></em></span><span style="white-space:normal;background-color:#CCCCCC;"><em><strong>由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。&nbsp;</strong></em></span><span style="white-space:normal;">&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	<span><a href="https://www.etsy.com/shop/ThreeBirdNest">Three Bird Nest</a><u>&nbsp;</u></span>是网络商店平台 <span>Etsy </span>上的一家热门店铺，艾丽西娅<span>·</span>谢弗（Alicia
+Shaffer）正是该店店主。谢弗的店铺是一个大获成功的案例吗？还是说，随着手工制作商品网上市场迅速的发展，一切都偏离了正确的轨道，而谢弗的店铺正是这一现状的写照？对此，不同的人有着不同的看法。<span></span> 
+</p>
+<p class="MsoNormal">
+	谢弗出售可爱的头巾和针织暖腿裤袜。在多达 <span>25 </span>位当地裁缝和迷人的照片的帮助下，她一个月的收入至少能达到 <span>70000 </span>美元。然而生意日渐兴隆的同时，她也受到了网上一些人们的严辞批判。人们指责她大批量生产货物，还从中国进货，认为她是 <span>Etsy </span>平台上的一颗老鼠屎，破坏了 <span>Etsy </span>上手工达人的信誉。<span></span> 
+</p>
+<p class="MsoNormal">
+	Etsy 一向以其手感良好、货真价实的手工制品为荣。目前，它即将上市，<span><a href="http://www.nytimes.com/2015/03/05/business/dealbook/etsy-online-bazaar-for-handmade-goods-files-to-go-public.html">进行首次公开募股</a></span>，此举很可能会让公司大赚一笔。然而这一围绕着商品如何生产销售而起的纷争，凸显了它在这一转型过程中所经历的种种阵痛。<span></span> 
+</p>
+<p class="MsoNormal">
+	至于谢弗，近来人们不断对她的生意提出质疑，而她在予以否认的同时，也表示自己能够理解人们为何会对她生产货物的数量有所疑问。她说，自己的店铺严格遵守了 <span>Etsy </span>的条款。<span>Etsy </span>规定，所有店家陈列的商品应当是手工制作的产品或者“有些年头的<span>”</span>二手旧货。网站新近在条款中加入了一些例外情况，允许卖家出售经过网站核实批准的外包生产商品。“我们是一群专注于 <span>Etsy </span>平台的工匠，成功地将一家小店铺发展成了一架小型机器。<span>”</span>她说道。<span></span> 
+</p>
+<p class="MsoNormal">
+	对许多喜爱 <span>Etsy </span>的用户来说，<span>Etsy </span>远不止是一个商品交易平台而已。他们将 <span>Etsy </span>视作全球化批量生产和消费的一剂解毒良药和公司品牌的反对者。他们支持 <span>Etsy </span>网站上货真价实的美妙传统手工艺制品，认为 <span>Etsy </span>提供了一个平台，让人们除了购买大公司生产的产品外，还能有似乎更为人性化的选择。此外，<span>Etsy </span>也助长了一个更为广阔的行业——不论是床单还是牛肉干，这个行业所生产商品都充满手工艺术感、货真价实，还可以定做。<span></span> 
+</p>
+<p class="MsoNormal">
+	相对地，<span>Etsy </span>也因此得以快速发展，从此类购物需求的增长中受益匪浅。目前，网站提供了超过 <span>2900 </span>万件手工珠宝、陶器、毛衣，和一些有时不那么尽如人意的艺术品。据 <span><a href="http://www.sec.gov/Archives/edgar/data/1370637/000119312515077045/d806992ds1.htm">Etsy
+的 IPO 招股说明书</a></span>显示，截至去年年底，网站会员达到了 <span>5400 </span>万。<span>2014 </span>年，<span>140 </span>万名会员上架了待售商品，将近 <span>2000 </span>万会员至少购买了一件商品。<span></span> 
+</p>
+<p class="MsoNormal">
+	尽管由于开发成本高昂，<span>Etsy </span>目前还处于亏损状态，但它正在迅速地蓬勃发展。去年，网站上各大商店销售额达到了 <span>19.3 </span>亿美元。<span>Etsy </span>向上架并售出的商品收取费用，还提供商品推广之类的收费服务。这两项业务去年共为它带来了 <span>1.96 </span>亿美元的收入。<span></span> 
+</p>
+<p class="MsoNormal">
+	不过，有人对 <span>Three Bird Nest </span>以及其他一些销量还在不断上升的高销量卖家的生产方式提出了批评质疑，一些优秀卖家还叛逃到了其他网站。这表明，公司虽然尽了力，但要想在建设发展网站的同时，保留为网站带来人气的提供独立制作产品的信誉，会是一件相当困难的事。&nbsp;
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/fce772e33e41.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<em>艾丽西娅</em><span><em>·</em></span><em>谢弗的店铺
+Three Bird Nest 在 </em><span><em>Etsy </em></span><em>上月收入超过 </em><span><em>70000 </em></span><em>美元。</em><span></span> 
+</p>
+<p class="MsoNormal">
+	一些卖家表示，他们担心名牌仿冒品和廉价的小饰物很快就会在网站上泛滥成灾。另一些人则认为，手工制作很快就会沦为 <span>Etsy </span>的一个营销噱头，这会使得顾客转而投向其他类似的网站。<span></span> 
+</p>
+<p class="MsoNormal">
+	“仅仅从手工制作的定义来看，手工制作商品贸易的规模就不可能无止境地扩大，<span>”</span>格蕾丝<span>·</span>都布什（Grace Dobush）说道，<span>“</span>随着&nbsp;<span>Etsy&nbsp;</span>规模进一步扩大，它变得越来越像 <span>eBay </span>了。<span>”</span>都布什是一名作家，同时她也在 <span>Etsy </span>上做了很长时间的卖家。上个月，她写了一篇文章，<span><a href="http://www.wired.com/2015/02/etsy-not-good-for-crafters/">宣布她再也不会使用
+Etsy 了</a></span>，由此引发了一阵轩然大波。<span></span> 
+</p>
+<p class="MsoNormal">
+	早前，三位美国纽约布鲁克林（<span>Brooklyn</span>）人设计了一个方案，想要建立一个买卖工艺品的电子布告栏。这正是 <span>Etsy </span>的前身。那时，销售手工艺品的卖家、博客和时尚精品小店太多了，而独立制作的手工艺品刚刚兴起。据友人透露，<span>Etsy </span>创始人之一罗伯<span>·</span>卡林（Rob Kalin）也是独立制作手工艺品的积极分子。当时 <span>Etsy </span>向顾客宣称，它正在创建一个<span>“</span>全新的经济制度<span>”</span>，将会重新在卖家和买家之间建立起直接的个人联系。并且，它只允许网站店家出售他们自己制作的产品。<span></span> 
+</p>
+<p class="MsoNormal">
+	然而，随着店铺的发展，订单如潮水般涌来，卖家们开始抱怨说他们一个人很难及时做出这么多商品。他们说，照这样下去，他们下一步该做的就是进行投资，雇佣员工或者将商品生产外包出去，但那样就不符合 <span>Etsy </span>的规定了。<span></span> 
+</p>
+<p class="MsoNormal">
+	不过，<span>Etsy </span>还是坚持不对网站的限制条款做任何修改——在放宽网站限制这点上，卡林坚决的反对态度可是出了名的。到了 <span>2013 </span>年底，这一情况发生了变化。在新任 <span>CEO </span>查德<span>·</span>迪克森（Chad
+Dickerson）的管理下，网站放宽了限制条款，允许卖家雇佣工人或者将商品生产外包给符合一系列劳动和生态准则的小规模制造厂商。根据 <span>Etsy </span>的 <span>IPO </span>招股说明书，目前网站上近 <span>30% </span>的卖家<span>“</span>自己组织了生产团队<span>”</span>，此外，卖家外包生产的商品也已经超过了 <span>5000 </span>例。&nbsp;
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/aaf0ea2c9b96.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<em>Three
+Bird Nest 在 Etsy.com 这样一个手工商品交易平台上大获成功。这意味着店主谢弗需要请人来帮她填写她所需的衣料和配饰的订单。</em><span></span> 
+</p>
+<p class="MsoNormal">
+	对此持以批判态度的人指责说，这一决定相当于打开了闸门，放任一大波批量生产的廉价装饰品流入 <span>Etsy</span>。比如在 <span>Etsy </span>上，有一条红色的项链在许多不同店铺有售，价格从 <span>7 </span>美元到 <span>15 </span>美元不等<span>——</span>而在中国批发生产网站阿里巴巴上，你也能买到这条项链。<span></span> 
+</p>
+<p class="MsoNormal">
+	根据阿里巴巴上的信息，这条项链是由上海南部的义乌社庚时尚配饰公司生产的。公司说，它一个月能够炮制近 <span>8000 </span>万条相似的项链。我们联系了该公司 <span>CEO </span>王先生（Jacky Wang），希望他能对此事做出评论，但并未收到回音。<span></span> 
+</p>
+<p class="MsoNormal">
+	“这就像一条有高端画廊、书店和咖啡店的街上本来开了一家高档餐厅，现在又要在街区空地上开一家麦当劳或者沃尔玛一样。<span>”</span>戴安<span>·</span>玛丽（Diane Marie）说道。她是一名家住美国威斯康辛州 La Pointe 的艺术家，在家出售手工制作的珠宝。她在 <span>Etsy </span>讨论区里召集过所谓的<span>“</span>转销代理商<span>”</span>。<span></span> 
+</p>
+<p class="MsoNormal">
+	Etsy 确实针对这样的情况采取了监管措施，但是这种监管就跟打地鼠游戏一样，（成功率一般）。用户可以向网站的信任与安全小组下属的交易诚信部门（Marketplace Integrity, Trust &amp; Safety
+Team）举报可疑的转销代理商，<span>Etsy </span>也表示网站会使用程序探测可疑的卖家。不过 <span>Etsy </span>在招股说明书中承认，它无法完全保证网站卖家和与其合作的厂商符合标准。而一些批评者怀疑，网站是否有足够的动机调查或者关闭那些给网站带来巨大的流量和销量的店铺。<span></span> 
+</p>
+<p class="MsoNormal">
+	谢弗的店铺 Three Bird Nest 一个月能接到几千张订单。为了赶制商品满足订单需求，她共聘请了 <span>25 </span>位裁缝，她们都是当地一些像她自己一样妈妈们。她如今在加利福尼亚利弗莫尔（Livermore, Calif.）租了一间仓库，这些妈妈们有的就在这仓库里工作，也有的在自己家里工作。谢弗请了一位朋友做模特展示商品，又请了一位摄影师进行室内商品拍摄。她还在另一个网站 <span><a href="http://threebirdnest.com/">threebirdnest.com</a></span><u> </u>上出售外购项链和其他外购配件。不过她说，这些外购产品并未在她的 <span>Etsy </span>店铺上架出售。&nbsp;
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/a91a4e3a2da2.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<em>围绕着 </em><span><em>Etsy </em></span><em>上的商品如何生产销售而起的纷争，凸显了网站在转型过程中所经历的种种阵痛。</em><span></span> 
+</p>
+<p class="MsoNormal">
+	不过，<span><a href="https://www.yahoo.com/makers/secrets-of-the-richest-seller-on-etsy-105472402320.html">近期接受了雅虎资讯（Yahoo News）的采访后</a></span>，她所述说的故事使她的网店这几周来受到了密切的监视。一些批评者们发现，阿里巴巴网站上有的长筒袜和她所出售的长筒袜一模一样。谢弗解释说，她的图片被盗用了。不过她也表明，去年店铺的销量翻了一番，她很快就要开始把一些商品的生产外包出去了。为了向 <span>Etsy </span>证明她会继续设计自己的头巾和针织暖腿裤袜，谢弗得一步步详细拍下她的外包生产的过程，还要填一些相当长的问卷。<span></span> 
+</p>
+<p class="MsoNormal">
+	其他卖家（现在美国以外的卖家越来越多了）也认为，手工制作的商品和大批量生产的商品之间的差别可能看上去并没有那么大。Kyoko Bowskill 在 <span>Etsy </span>上开了家名叫 &nbsp;<span><a href="https://www.etsy.com/shop/TheLinkCollective">Link Collective store</a></span><u> </u>的店铺。她和独立艺术家合作，设计用于包裹物品的日式“风吕敷”（包袱皮），然后将生产外包给东京以外擅长传统印染技术的小型家族企业。<span></span> 
+</p>
+<p class="MsoNormal">
+	“我一心想着怎么提高产量，<span>”</span> Bowskill
+说道，<span>“Etsy </span>不应该让卖家自己一个人不眠不休地完成所有手工艺品的制作。我们正在搭建一个可行的商业模式，但是这并不意味着我们就是在大批量进行规模生产。<span>”</span>现在，她一个月能卖出 <span>40 </span>到 <span>50 </span>条风吕敷，每条售价 <span>50 </span>美元。<span></span> 
+</p>
+<p class="MsoNormal">
+	先前准备上市发行股票时，<span>Etsy </span>始终保持缄默，拒绝公司官方人员出面接受采访。不过，在其递交的 <span>IPO </span>申请中迪克森承认，确实有不少人担心，<span>Etsy </span>允许卖家与生产厂商合作是在<span>“</span>稀释网站的手工制作氛围<span>”</span>。<span></span> 
+</p>
+<p class="MsoNormal">
+	“毕竟，<span>Etsy </span>一直以来都是大批量规模生产的一剂解毒良药，<span>”</span>当时他说道，<span>“</span>我们会继续保持。<span>”</span> 
+</p>
+<p class="MsoNormal">
+	Etsy 的成功使得一大批网站跃跃欲试，想要成为下一个 <span>Etsy</span>。<span>Etsy </span>存在的一些弊病，可能也是催生这些网站的原因之一。比如 <span>Artfire </span>这个社区式的手工制作商品交易平台，就曾一度受到人们的关注——尤其是那些对 <span>Etsy </span>不满的卖家。他们开始转移阵地，在这个网站售卖物品。但是当网站开始向网店按月收取服务费时，这些叛逃者们中的许多人又都失望地离开了。又比如德国网站
+DaWanda。它是一个在线集市，出售手工制品和古旧商品，在欧洲相当流行，但是它的销量被认为仅仅达到了 <span>Etsy </span>的一小部分。<span></span> 
+</p>
+<p class="MsoNormal">
+	妮可<span>·</span>布里奇（Nicole Burisch）是美国休斯顿美术馆（Museum of Fine Arts, Houston）的一名员工，她是手工艺品方面的专家。她说，要想分清手工制品和规模生产的产品一直以来都很困难。毕竟，你能说出一件手织的毛衣或者手做的陶土罐看上去有多像手工制作的吗？<span></span> 
+</p>
+<p class="MsoNormal">
+	她说，<span>Etsy </span>上出售的大多数商品本来就不是严格意义上的完全手工制品——<span>“</span>除非连挖土、织布、养羊都是你自己亲手做的，不然的话这东西就称不上是你完全手工自制的。<span>”</span> 
+</p>
+<p class="MsoNormal">
+	&nbsp;
+</p>
+<p class="MsoNormal">
+	翻译<span> is</span>译社
+钱功毅
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="6639">
+				<span data-id="6639">手工电商</span>
+			</li>
+			<li class="tag item" data-id="6654">
+				<span data-id="6654">Etsy</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7474" data-title="《手工电商 Etsy 靠“小而美”做大了，现在它遇到了真正的大问题》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7474/medium/7474.jpg?1436690609" data-url="http://www.qdaily.com/mobile/articles/7474.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25328.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25328/medium/25328.jpg?1460427157" alt="">
+                        <h1 class="title">Fendi 庆祝 90 周年，以及，Hypebeast 申请 IPO｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25331.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25331/medium/25331.jpg?1460433505" alt="">
+                        <h1 class="title">「这世界」《芝麻街》来了个新角色，是个阿富汗小女孩</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25322.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25322/medium/25322.jpg?1460416173" alt="">
+                        <h1 class="title">迪士尼和设计师合作，想让米妮吸引更多年轻人 | 上海时装周</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25285.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25285/medium/25285.jpg?1460366636" alt="">
+                        <h1 class="title">这家做汽水机的公司，总喜欢在广告里诋毁人家做瓶装生意的</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25326.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25326/medium/25326.jpg?1460423804" alt="">
+                        <h1 class="title">今日娱乐：游戏《鲤》登陆北美，小马奔腾或被收购</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25324.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25324/medium/25324.jpg?1460418816" alt="">
+                        <h1 class="title">产品单价一美分都不到，但这些公司赚了几十亿美元</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25260.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25260/medium/25260.jpg?1460357520" alt="">
+                        <h1 class="title">张达发布新一季的“没边”，还谈了谈“奢侈”｜上海时装周</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7474">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7474" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">135</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7529.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

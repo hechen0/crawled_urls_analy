@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>软硬合体_设计词典_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta property="qc:admins" content="1060427031614114163757" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="renderer" content="webkit">
+  <meta property="wb:webmaster" content="44da4c6e9f808df9" />
+  <meta name="description" content="软硬合体--|《软硬合体来自《好奇心日报》，想看更多这样的文章，请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计词典 WatchKit 李如一 介面设计 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="/assets/components/display2/common/redirect-cae4d6da8cd0914609f3df97f811bfd9.js" type="text/javascript"></script>
+
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/assets/pages/display2/articles/show-c7ab089836a271ce19a1b378cbb811aa.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="k6Cr48w0S6pvCE0wAD/lC5MqOvhg+q516j1zIf0KjPU=" name="csrf-token" />
+</head>
+<body class="display articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<!-- 页头 -->
+
+<div class="com-page-header">
+	<div class="page-header-bd clearfix">
+		<div class="section-left">
+			<a href="/" target="_self" class="logo" data-ga-event="pc:click:logo">
+				<h1 class="hidden">好奇心日报官网</h1>
+				<img src="/img/display2/logo-q.png" class="pic" alt="好奇心日报">
+				<img src="/img/display2/logo-text.png" class="text" alt="好奇心日报">
+			</a>
+			<ul class="items main-cates clearfix">
+				<li class="item main-cate ">
+					<h2>
+						<a href="/labs.html">
+							<span class="iconfont icon-1yanjiusuo"></span>
+							<span class="text">好奇心研究所</span>
+						</a>
+					</h2>
+				</li>
+				<li class="item main-cate ">
+					<h2>
+						<a href="/special_columns.html">
+							<span class="iconfont icon-2lanmu"></span>
+							<!-- <span class="text">长文章</span> -->
+							<span>栏目中心</span>
+						</a>
+					</h2>
+				</li>
+			</ul>
+		</div>
+		<div class="section-center">
+			<ul class="items cates">
+			
+				<li class="item cate ">
+					<a href="/tags/1068.html">长文章</a>
+				</li>
+				<li class="item cate ">
+					<a href="/tags/1615.html">10 个图</a>
+				</li>
+					<li class="item cate ">
+						<a href="/tags/29.html">Top 15</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/18.html">商业</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/4.html">智能</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/17.html">设计</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/19.html">时尚</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/3.html">娱乐</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/5.html">城市</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/54.html">游戏</a>
+					</li>
+				<li class="item cate">
+					<a data-ga-event="pc:click:cate" href="#" class="dropdown">全部分类</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section-right clearfix">			
+			<a data-ga-event="pc:click:nav_search" href="#" class="search iconfont icon-search"></a>
+			<div class="ribbon">
+				<div class="user" data-isLogined="false">
+					<a href="#" class="avatar x32">
+						<img src="/img/missing_face.png" alt="默认头像">
+					</a>
+					<a data-ga-event="pc:login:nav" href="#" class="text">登录</a>
+					<a href="/users/sign_out" target="_self" data-method="delete" class="logout hidden">退出</a>
+				</div>
+				<a data-ga-event="pc:click:nav_about" href="/aboutus.html" class="contact-us">关于我们</a>
+				<a data-ga-event="pc:click:nav_app" href="javascript:void(0)" class="app iconfont icon-5app">
+					<div class="app-qrcode" data-text="http://www.qdaily.com/webapp/download">
+						<div class="qrcode"></div>
+						<span>扫码下载好奇心日报APP</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weixin" href="http://weibo.com/qdaily" class="weixin iconfont icon-weixin">
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weibo" href="http://weibo.com/qdaily" class="weibo iconfont icon-weibo"></a>
+			</div>
+		</div>
+	</div>
+	<div class="page-header-ft hidden">
+		<ul class="items cates">
+			<li class="item cate ">
+				<a href="/tags/1068.html">
+					<img class="white" src="/system/categories/iconwhites/1/medium/1.png?1459380863">
+					<span>长文章</span>
+				</a>
+			</li>
+			<li class="item cate ">
+				<a href="/tags/1615.html">
+					<img class="white" src="/system/categories/iconwhites/22/medium/22.png?1411569295">
+					<span>10 个图</span>
+				</a>
+			</li>
+				<li class="item cate ">
+					<a href="/tags/29.html">
+						<img class="white" src="/system/categories/iconwhites/16/medium/16.png?1411569252">
+						<span>Top 15</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/18.html">
+						<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398">
+						<span>商业</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/4.html">
+						<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452">
+						<span>智能</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/17.html">
+						<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501">
+						<span>设计</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/19.html">
+						<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539">
+						<span>时尚</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/3.html">
+						<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578">
+						<span>娱乐</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/5.html">
+						<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637">
+						<span>城市</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/54.html">
+						<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513">
+						<span>游戏</span>
+					</a>
+				</li>
+		</ul>
+	</div>
+	<div class="com-search-popup zoom-anim-dialog mfp-hide white-popup">
+	<div class="search-popup-hd">
+		<form action="/searches" target="_blank">
+			<input type="text" name="key" placeholder="搜索文章">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="search-popup-bd">
+		<p class="tip">大家都在搜</p>
+		<ul class="items hotwords clearfix">
+				<li class="item hotword">
+					<a href="/searches?key=好莱坞">好莱坞</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=亚马逊">亚马逊</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=阿里巴巴">阿里巴巴</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=音乐节">音乐节</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=特斯拉">特斯拉</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=腾讯">腾讯</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=苹果">苹果</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=海淘">海淘</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=百度">百度</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=Google">Google</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=小米">小米</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=时尚">时尚</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=迪士尼">迪士尼</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=万达">万达</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=星巴克">星巴克</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=人工智能">人工智能</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=无人机">无人机</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=华为">华为</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=MUJI">MUJI</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=宜家">宜家</a>
+				</li>
+		</ul>
+	</div>
+</div>
+	<div class="com-devise-popup mfp-hide zoom-anim-dialog white-popup">
+	<div class="devise-popup-bd">
+		<div class="vertical-wrapper">
+			<div class="vertical">
+				<!-- 登录表单 -->
+				<form class="login active" action="">
+					<div class="form-hd">
+						<a href="#" class="spirt icon-login-logo"></a>
+					</div>
+					
+					<p class="small-title"><span>社交账号登录</span></p>
+					<div class="social-login">
+						<a href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo" target="_self"></a>
+						<a href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq" target="_self"></a>
+					</div>
+					<p class="small-title"><span>或者</span></p>
+
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="密码">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:login:account" href="#" class="btn submit ripple">登录</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".findpassword">忘记密码</a>
+							<a href="#" data-toForm=".register">新用户</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤一，注册 -->
+				<form class="register" action="">
+					<div class="form-hd">
+						<p class="title">新用户注册</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="创建密码">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+						</div>
+						<div class="form-control agree" style="display: none;">
+							<input type="radio">
+							<a href="#">我已阅读并同意《用户注册协议》</a>
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">下一步</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login" >已有账号</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤二，个人信息 -->
+				<form class="info" action="">
+					<div class="form-hd">
+						<p class="title">完善资料</p>
+					</div>
+					<div class="form-bd">
+						<div class="preview-uploader nopic">
+							<div class="img-preview"></div>
+							<div class="webuploader iconfont icon-avatar-upload">选取头像</div>
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[username]" placeholder="我的昵称">
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[description]" placeholder="一句话介绍自己">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:sign:account" href="#" class="btn submit ripple">完成</a>
+						</div>
+					</div>
+				</form>
+
+
+				<div class="com-avatar-cropper">
+					<div class="avatar-cropper-hd">
+						<p class="title">上传头像</p>
+					</div>
+					<div class="avatar-cropper-bd clearfix">
+						<p class="tip">拖拽或者缩放虚线框，生成自己满意的头像</p>
+						<div class="cropper">
+							<div class="img-container">
+								<img src="" alt="头像">
+							</div>
+						</div>
+						<div class="cropper-preview">
+							<p class="tip">预览</p>
+							<div class="img-preview"></div>
+						</div>
+					</div>
+					<div class="avatar-cropper-ft">
+						<a href="#" class="btn submit ripple">保存</a>
+						<a href="#" class="btn cancel ripple">取消</a>
+					</div>
+				</div>
+		
+				<!-- 找回密码表单 -->
+				<form class="findpassword" action="">
+					<div class="form-hd">
+						<p class="title">忘记密码</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="输入电子邮箱">
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">发送</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login">返回登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+	<!-- 长文章 -->
+	<div class="com-full-banner">
+	<div class="full-banner-bd">
+		<img src="/system/articles/articleshows/3690/showLongPc2/3690.jpg?1436641173" alt="软硬合体">
+	</div>
+</div>
+	<div class="page-content clearfix">
+		<div class="main long-article">
+			<!-- 传入参数：article -->
+
+
+<div class="com-article-detail long" data-articleId="3690" data-categoryId="13">
+		
+<div class="article-detail-hd">
+	<div class="category-title">
+		<p class="category x25">
+			<img src="/system/categories/iconwhites/13/medium/13.png?1411569785" alt="设计词典">
+			<span>设计词典</span>
+		</p>
+		<h1 class="title">软硬合体</h1>
+	</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="author-share clearfix">
+			<div class="author">
+		            <a href="javascript:void(0)" class="avatar x32 circle">
+		                <img src="/system/users/faces/1218/small/1218.jpg?1418030589" alt="蕾">
+		            </a>
+	            <span class="name">李如一</span>
+	            <span class="date smart-date" data-origindate="2014-11-19 13:10:43 +0800"></span>
+	            <script language="JavaScript" type="text/javascript">
+				    var o='d'+'i'+'v', a=' style=\'disp', b='lay:', c='none\'';
+				    document.write( "<" + o + a + b + c + ">" );
+				</script>
+				<span class="date">2014-11-19 13:10:43</span>
+				<script language="JavaScript" type="text/javascript">
+				    var o='di'+'v';
+				    document.write( "</"+o+">" );
+				</script>
+	        </div>
+
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="3690" data-title="《软硬合体》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3690/medium/3690.jpg?1436641173" data-url="http://www.qdaily.com/articles/3690" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/3690">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">25</span></a>
+	</div>
+</div>	
+		</div>
+			<h2 class="excerpt"></h2>
+		<div class="detail">
+					<!-- 普通文章 -->
+					<p>
+	今天是设计师应该开心的一天：苹果发布了面向第三方开发者的&nbsp;<a href="https://developer.apple.com/watchkit/">WatchKit 专页</a>，其中包括 Apple Watch 的<a href="https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/index.html">人机介面则例</a>以及<a href="https://developer.apple.com/watchkit/#agreement">设计模版</a>。
+</p>
+<p>
+	研究过用户介面设计史的设计师一定对 1984 年和 2007 年无限神往，它们分别是图形化介面的个人电脑和移动设备的诞生年。这两次计算设备的革命同时也极大地促进了软件介面设计这门艺术的发展。如今，第三次介面设计变革正摆在你眼前。
+</p>
+<p>
+	回溯历史，我们很容易理解 1984 年 Mac 的诞生和 2007 年 iPhone 的诞生在介面设计领域的突破性：Mac 以前的电脑大多采用的是纯命令行介面，iPhone 之前的智能手机是什么样子你最好不要去想。但在时间线上向右望永远比向左望难。无论何时，「推倒重来」都不是易事。小到论坛上的网友，大到微软，都习惯性地用现在去度量未来。我们来试试把 Windows 操作系统塞进巴掌大的屏幕里——这是微软面对移动设备革命时的反应。触屏设备的介面在 Apple Watch 那 1.5 和 1.7 寸的屏幕上会捉襟见肘——这是今天常见的 Apple Watch 质疑者的反应。
+</p>
+<p>
+	毫无疑问，Apple Watch 为介面设计师提出的是全新的挑战。习惯于和比特/像素打交道的介面设计师们，这次必须把摸得着的实体物的触感考虑进来。的确，对角线不到两英寸、200 多乘以 300 多像素的屏幕，不再有足够的空间让你去细心排布 UI 元素与内容。为了给用户提供足够好的「体验」，你必须充分利用 Apple Watch 上「数码皇冠」和「力反馈触控」这两个和视觉无关的 UI。这也是为什么苹果在人机介面则例中将「整体性」（Holistic）列为 Apple Watch 的三大主题之一。
+</p>
+<blockquote>
+	<p>
+		<em>「Apple Watch 的设计模糊了实体物与软件的界线……连它的视网膜屏幕的实体边界都经过了特殊考虑，</em><a href="http://qdaily.com/display/articles/1094"><em>无边框 UI 设计</em></a><em>令屏幕的边界基本消失于无形。请仔细考虑自己的软件设计，让其尽量融入 Apple Watch 这种硬件和软件合二为一的体验。」</em>
+	</p>
+</blockquote>
+<p>
+	回想一下，第一代 iPhone 面世之时，iOS 还没有 App Store。等到 2008 年 7 月 App Store 随 iOS 2.0 上线，iPhone 已经上市一年。即便你不是那少数几个苹果特别照顾的第三方开发者，也已经有了充分的真机使用经验和测试环境。
+</p>
+<p>
+	今天则不然。除了被苹果相中的「优选」第三方开发者外，没有谁能在 Apple Watch 正式上市前以测试软件为由获得一块真的 Apple Watch。换言之，所有的测试都只能在电脑上的模拟器里进行。设计师无法在真实的设备上体验自己的设计稿的实际使用感受。
+</p>
+<p>
+	这和 Apple Watch 人机介面则例中的「整体性」原则是相悖的。在摸都摸不到实体硬件的情况下，如何去设计一个以软硬合体为目标的软件？
+</p>
+<p>
+	苹果解决这个问题的方法是限制。在人机介面则例中，苹果对各种设计细节做出了非常具体的规限。例如软件的背景色应是黑色，因为这样才能配合 Apple Watch 那经过特殊设计的边缘所形成的「没有边缘」的幻觉。又如软件应该支持苹果的「动态字体」技术，以便文字在各种样式和字号下都清晰可读。苹果在其设计模版中对标题、副标题、正文、图片说明、脚注等排版元素都进行了细致的规定，其具体程度恐怕会让追求存在感的设计师觉得「没事可做」。
+</p>
+<p>
+	而这或许正是它的目的。当你在屏幕上可做的事有限时，就不得不从空间的角度来考虑问题。你要思考的或许不是怎样把信息架构设计得更合理（一共只有「层级式」和「分页式」两种架构）或是怎样把内容排布得更精致，而是当人们举起手臂时能做些什么，旋转数码皇冠时能做些什么，不看屏幕的情况下，通过力反馈触控介面能做些什么。只喜欢活在二次元空间的你，是时候考虑怎样让三次元萌起来了。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/2185.html">设计词典</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/4404.html">WatchKit</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/639.html">李如一</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/4405.html">介面设计</a>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 		
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="3690" data-title="《软硬合体》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/3690/medium/3690.jpg?1436641173" data-url="http://www.qdaily.com/articles/3690" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/3690">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">25</span></a>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+			<!-- 传入参数：relateds, votes, type -->
+<!-- type取值为short, long-article -->
+
+
+	<div class="com-related-banners long-article">
+		<div data-ga-event="pc:click:ft_recomend_article"  class="related-banners-bd">
+			<!--
+			<a href="http://sss.qingting.fm/pugc/introduction/" class="makemoney imgcover">
+				<img src="/img/makemoney/qingtingfm/bottom-qingtingfm.jpg">
+			</a>
+			-->
+
+		</div>
+	</div>
+
+			<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments wide" data-id="3690">
+    <div class="related-comments-hd clearfix">
+        <p class="count">评论</p>
+        <a href="javascript:;" class="avatar x40 circle">
+            <img src="/img/missing_face.png" alt="默认头像">
+        </a>
+        <form action="" class="comment-form">
+            <textarea name="content" placeholder="我有意见"></textarea>
+            <div class="share-submit clearfix">
+                <div class="share hidden">分享至：
+                    <a href="#"><span class="iconfont icon-weibo"></span></a>
+                    <a href="#"><span class="iconfont icon-tengxun"></span></a>
+                </div>
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+        <form action="" class="reply-form hidden">
+            <input type="hidden" name="parent_id">
+            <textarea name="content" placeholder="回复评论"></textarea>
+            <div class="share-submit clearfix">
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="related-comments-bd">
+        <div class="items comments">
+        </div>
+        <div class="nomore-wrapper">
+            <p class="nomore">没有更多啦</p>
+        </div>
+    </div>
+</div>
+
+			<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+                    <div class="packery-item article size1x2">
+                        <!-- 重点文章格子，1x2的占位，智能占位 -->
+<!-- 传入参数：article -->
+<a href="/articles/25937.html"  class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25937/indexLargePc2/25937.jpg?1461548899" alt="莎士比亚逝世 400 周年，我们在这里怀念他带来的一切">
+		<p class="category">
+			<img src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt="城市">
+			<span>城市</span>
+		</p>
+	</div>
+	<div class="grid-key-article-bd">
+		<h1 class="title smart-lines" data-originText="莎士比亚逝世 400 周年，我们在这里怀念他带来的一切">
+			<span class="line">莎士比亚逝世 400 周年，我们在这里怀念他带来的一切</span>
+		</h1>
+	</div>
+	<div class="grid-key-article-ft clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 12:41:58 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">95</span>
+		</div>
+	</div>
+</a>
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25951.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25951/indexMediumPc2/25951.jpg?1461558108" alt="以后用空气发电可好？">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">以后用空气发电可好？</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 13:09:09 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">7</span>
+				<span class="iconfont icon-heart">41</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25972.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25972/indexMediumPc2/25972.jpg?1461570481" alt="W 酒店又耍新花招，这次想把演唱会开进来">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt="商业">
+			<span>商业</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">W 酒店又耍新花招，这次想把演唱会开进来</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 16:13:00 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">27</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25967.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25967/indexMediumPc2/25967.jpg?1461567807" alt="要了解腐男，以后可以去看动画《腐男子高中生活》">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt="娱乐">
+			<span>娱乐</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">要了解腐男，以后可以去看动画《腐男子高中生活》</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 15:53:46 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">32</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25963.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25963/indexMediumPc2/25963.jpg?1461565195" alt="要了解全球生活方式，信息图也是一个重要的参考">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt="城市">
+			<span>城市</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">要了解全球生活方式，信息图也是一个重要的参考</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 17:18:06 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">27</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25953.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25953/indexMediumPc2/25953.jpg?1461560629" alt="有人做了个 T 台走秀搜索引擎，想要赚设计师的钱 ">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt="时尚">
+			<span>时尚</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">有人做了个 T 台走秀搜索引擎，想要赚设计师的钱 </h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 16:14:47 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">33</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/25943.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/25943/indexMediumPc2/25943.jpeg?1461552498" alt="纽约这个建在天桥上的游泳池，风景绝佳">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">纽约这个建在天桥上的游泳池，风景绝佳</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-04-25 12:28:33 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">4</span>
+				<span class="iconfont icon-heart">63</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+	    </div>
+	</div>
+</div>
+		</div>
+	</div>
+
+<!-- 页尾 -->
+
+
+<div class="com-page-footer">
+	<div class="page-footer-bd clearfix">
+		<!-- 分类 -->
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/">首页</a></li>
+			<li class="item category"><a href="/tags/1068.html">长文章</a></li>
+			<li class="item category"><a href="/tags/29.html">TOP 15</a></li>
+			<li class="item category"><a href="/tags/1615.html">10 个图</a></li>
+			<li class="item category"><a href="/labs.html">好奇心研究所</a></li>
+			<li class="item category"><a href="/tags/12066.html">100个有想法的人</a></li>
+			<li class="item category"><a href="/tags/7543.html">Medium</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/tags/7294.html">大公司头条</a></li>
+			<li class="item category"><a href="/tags/7018.html">Q Business</a></li>
+			<li class="item category"><a href="/tags/1288.html">今日应用</a></li>
+			<li class="item category"><a href="/tags/1543.html">这世界</a></li>
+			<li class="item category"><a href="/categories/12.html">Best on the web</a></li>
+			<li class="item category"><a href="/categories/18.html">商业</a></li>
+			<li class="item category"><a href="/categories/4.html">智能</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">			
+			<li class="item category"><a href="/categories/17.html">设计</a></li>
+			<li class="item category"><a href="/categories/19.html">时尚</a></li>
+			<li class="item category"><a href="/categories/3.html">娱乐</a></li>
+			<li class="item category"><a href="/categories/5.html">城市</a></li>
+			<li class="item category"><a href="/categories/54.html">游戏</a></li>
+		</ul>
+
+		<!-- 功能区，下载，关于我们 -->
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_app" href="/aboutus.html">下载APP</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:login:ft" href="#"  class="user">登录 / 注册</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_subscribe" href="/feed.xml">订阅</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_weibo" href="http://weibo.com/qdaily">微博</a></li>
+			<li class="item ribbon">
+				<a data-ga-event="pc:click:ft_weixin" href="javascript:void(0)" class="weixin">微信
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+			</li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_protocal" href="/policy.html">用户协议</a></li>
+		</ul>
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_about" href="/aboutus.html#aboutus-qdaily">关于好奇心</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:contact" href="/aboutus.html#aboutus-contact">联系我们</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:job" href="/aboutus.html">工作机会</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:copyright" href="/policy.html">版权声明</a></li>
+		</ul>
+
+		<!-- 搜索 -->
+		<form data-ga-event="pc:click:ft_search" action="/searches" target="_blank" class="search" >
+			<input type="text" name="key">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="page-footer-ft">
+		<div class="copyright">
+			<span class="iconfont icon-logo"></span>
+			<p class="company">2014 北京酷睿奥思科技发展有限公司</p>
+			<p class="icp">京ICP备14027177号-1</p>
+			<p class="gongan" style="display: inline-block;margin-left: 10px;">京公网安备 11010502030071号</p>
+		</div>
+		
+	</div>
+</div>
+  
+  <script src="/assets/pages/display2/common/preexec-dc70eef64fda3ac449a5d84bdf382f49.js" type="text/javascript"></script>
+  <script src="/assets/pages/display2/articles/show-8af4f6aaf94fb6321d34c6ce7865ed54.js" type="text/javascript"></script>
+  <!-- [if (gte IE 6)&(lte IE8)] >
+  <script src="/assets/pages/display2/common/ie8fix-4d518f75d082233c3c9148a28c8e9e59.js" type="text/javascript"></script>
+  <! [endif] -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

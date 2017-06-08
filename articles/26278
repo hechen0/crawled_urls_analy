@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>关于大公司的 Logo，有人发现了这些小秘密_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="关于大公司的 Logo，有人发现了这些小秘密。LOGO 构成了消费者对品牌的第一印象。好奇心日报为您呈现关于大公司的 Logo，有人发现了这些小秘密的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 logo Nike Google 可口可乐 百事 宝马 大众 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="8v8M3sHnCUCquj43cltcRfv8DSHoxDsU9KeR+tg6jIU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/18.html" class="category x25" data-id="18">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<h1 class="title">关于大公司的 Logo，有人发现了这些小秘密</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/26306/small/26306.jpg?1461683679" alt="">
+					</span>
+				<span class="name">宣海伦 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-05-02 07:09:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/26278/medium/26278.jpg?1462090029" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26278" data-title="《关于大公司的 Logo，有人发现了这些小秘密》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26278/medium/26278.jpg?1462173107" data-url="http://www.qdaily.com/mobile/articles/26278.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				LOGO 构成了消费者对品牌的第一印象
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>公司的 LOGO 设计是一门有名堂的生意。设计一个大公司的 LOGO 可能要花很多钱，聘请有司职于此的设计团队、调研公司…但有的公司在这上面就没花几个钱。</p><p>一个历久弥新的品牌 LOGO 也会经历时代的变迁，有些公司的 LOGO 变化不大，LOGO 在颜色和形状上有什么讲究？如果把世界上最为人所熟知的 50 家公司 LOGO 汇聚在一起，会有什么发现？</p><p>一个没有 LOGO 的公司就像一个没有面部特征的人。总的来说，由繁入简是时下的流行趋势。</p><h2>从几岁开始你记住了 LOGO？ </h2><p><a href="http://www.adweek.com/adfreak/infographic-what-color-your-logo-says-about-your-brand-160940">根据阿姆斯特丹大学的研究</a>，孩童在 3-5 岁时就能辨认出 LOGO 和商品之间的指代关系，7-8 岁时可以做到持续不断地记忆 LOGO 的图像。</p><p>他们为 234 名 2-8 岁间的儿童进行了测试，结果发现 67% 的 2-3 岁儿童可以将商品和 LOGO 配对，8 岁儿童的完成率达到了 100%。 </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/2751c4eef43c.gif" alt="">
+</figure></div><h2>TOP 50 大公司的 LOGO 最常用的是蓝色 </h2><p><a href="http://www.adweek.com/news/advertising-branding/heres-what-most-popular-brands-logos-have-common-165884">Udemy（一个线上学习平台）分析</a>了 2015 年财富杂志评选出的“全球最受崇拜公司” ( World Most Admired Companies) 的前 50 位公司的 LOGO。</p><p>结果发现用的最多的是蓝色 (14)，红色其次 (11)，再接下来依次是彩色 (9)、黑色 (8)、灰色 (2)、白色 (2)、绿色 (2)、棕色 (1)、橙色 (1)。 </p><p class="">其中有 86% 的公司 LOGO 使用的颜色不超过两种。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/717189ab17b6.jpg" alt="">
+</figure></div><h2>蓝色热门可能是因为……舒适，可靠？</h2><p>色彩在心理学上被证实确实能够影响情绪。那么是否有迹象表明：这些大公司在 LOGO 设计的选择上也利用了这一点呢？ </p><p><a href="http://www.adweek.com/adfreak/infographic-what-color-your-logo-says-about-your-brand-160940">公关和社交媒体机构 Ruby Media 选出了各个颜色的代表公司</a>，并根据学界相关资料罗列出了颜色赋予的涵义。可以参考看看，算不上十分严谨的科学分析。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/485c26cf41fc.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">红色代表热情、强烈、情绪化的、进取的</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/fcbaffa31cf2.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">蓝色让人舒适、平静、信任、清晰明了</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/eb970bb42021.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">黄色给人以喜悦、生机勃勃，焕然一新的感觉</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/1d518f589906.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">绿色让人放松、平和，给人以信赖和希望</div></figcaption></figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/b553b6073d4e.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">黑色有大胆、庄重（这两者是否有矛盾？）、奢侈的意味</div></figcaption></figure></div><h2>长方形是大公司最常用的 LOGO 形状 </h2><p>再说回<a href="http://www.adweek.com/news/advertising-branding/heres-what-most-popular-brands-logos-have-common-165884"> TOP50 公司的 LOGO 统计</a>，其中 25 家公司的 LOGO 采用的是长方形，正方形 (11) 和圆形 (10) 次之，另外还有 4 家公司的 LOGO 形状难以被归类。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/0bf1a707e5ce.jpg" alt="">
+</figure></div><p>在这里，很难把某一种形状归为一类，或者为其下定义。但在实际应用中，LOGO 形状的变化对品牌形象的影响是最为直观的，虽然调整通常是出于实际应用上的考虑。 </p><p>在数位时代，LOGO 常出现于各种装置和社交平台，形状尺寸变得越来越重要。仅仅呈现于纸张的传统设计已经无法应对各种要求，在不同的环境、应用场景和印刷条件下，需要具备随时更改尺寸的弹性。</p><p>以阿迪达斯旗下三个子品牌为例，无论应用在何处，作为基调的三条平行线永远不会消失。</p><p class="">阿迪达斯运动表现系列(三条纹标志)专门致力于大众体育运动事业，其定位是大众化的运动风潮；运动传统系列(三叶草标志，也是阿迪早期的标志)多为复古经典的复刻款式，定位中高收入人群；运动时尚系列(球状内含三条纹标志)则是阿迪达斯旗下最具年轻时尚风格的副牌。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/3694cf9e0e9d.jpg" alt="">
+</figure></div><h2>扁平化确实已成趋势 </h2><p>在研究针对的 TOP 50 公司里，采取扁平化设计的 LOGO 达到了 45 家， 大众和宝马是唯二两家采用斜面设计的，另外剩下 3 家是扁平、立体混着用。 </p><p>不过，在半个多世纪前宝马和大众就用过扁平化的设计，宝马 MINI 在去年公布的新 LOGO 也重新回归了扁平的复古设计。从扁平变立体，又从立体变扁平，你可以发现许多 LOGO 的微调就在现代和复古中交替。 </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/0ed0d381d0a6.jpg" alt="">
+</figure></div><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/5833cce8e5c2.jpg" alt="">
+</figure></div><h2>大多数公司都采用了安全的无衬线字体 </h2><p>鉴于（非常遗憾地）研究的 TOP 50 的公司多为海外公司，LOGO 中出现的字符最常用的是英文的无衬线字体。</p><p>你可以将之看作中文字体里的微软雅黑。大方、美观，最重要的是易于对齐，安全不出错的专业感。</p><p>直接上图，看一下常用字体。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/2bcea48dcb53.jpg" alt="">
+</figure></div><p>你会注意到有四家公司的 LOGO 里没有出现公司名字、缩写，或者任何字符。要做到这一点并不容易（有 42 家公司都在 LOGO 中拼写了全称）。</p><p>但看起来这并不会影响它们的辨识度，比如被“咬了一口的苹果”。</p><h2>创造一个 LOGO 到底要花多少钱？ </h2><p>进一步明确我们探讨的话题：大公司们一般愿意在设计 LOGO 上花多少钱？答案可能令你吃惊。 </p><p>如果正儿八经地聘请一整个专业设计团队，从创意总监、艺术设计师到焦点小组整个齐活儿，百万美元很容易就花出去了。 </p><p>比如百事在 2008 年发布的新 LOGO 就是一个“百万美元” LOGO。还被批评设计和奥巴马 08 年的竞选 LOGO 雷同，令人心疼。 </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/1ff22f1762ab.jpg" alt="">
+</figure></div><p>传闻负责的设计公司为了向客户证明“每一个钢镚的预算都砸到了实处”，制作了 27 页的材料，来佐证这一“令人屏息的设计战略”是受到“达芬奇、中国的阴阳八卦以及麦比乌斯带（一种拓扑学结构）”的灵感启发。Interesting。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/4fa5230945f1.jpg" alt="">
+</figure></div><p>当然也有一些勤俭持家的案例，你会发现一般都发生在企业经营的早期阶段。</p><p>微软早期 LOGO 以及 2012 年发布的全新 LOGO 都是由公司内部的设计团队制作完成的。根据业内评估，如果这个方案交由专业的品牌设计公司来做的话，大概要准备 25- 50 万美元的预算。</p><p>最厉害的要属 Google 和可口可乐，这两家公司的联合创始人亲自设计了公司早期的 LOGO。 </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/28c864d0f1f6.jpg" alt="">
+</figure></div><p>可口可乐的“大写双 C ”在印刷广告时非常醒目、美观。直到现在，可口可乐依然沿用着这一总体设计。</p><p>福布斯对可口可乐品牌的估值为 550 亿美元，仅次于苹果 (1043 亿美元)、微软 (567 亿美元)。 </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/a682fe145735.jpg" alt="" class="">
+</figure></div><p>Google 的联合创始人 Sergey Brin 在免费的制图软件 GIMP 上完成早期的公司 LOGO 设计。根据他的回忆，<a href="http://www.adweek.com/adfreak/infographic-what-color-your-logo-says-about-your-brand-160940">他本人对此非常自豪</a>，不是因为设计本身，而是因为他能够使用 GIMP，“那可不是一般人都会用的呵！”</p><p>还有些公司花了几十美元，创造了非常经典的 LOGO（除了公司影响力的因素，我们认为设计本身也非常隽永、经典）。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/aea6667f3582.gif" alt="">
+</figure></div><p>耐克的“打钩”，花了 35 美元。耐克的联合创始人 Phil Knight 在 1971 年聘请了一个设计系的学生卡洛琳·戴维森，灵感来源于名叫耐克的胜利女神的舞动的翅膀。</p><p>不过，在第一次看到这个后来被命名为 Swoosh (形容跑步速度像飞行速度，“嗖”的一声)的标志时，Phil 其实不是很满意。不过最后他还是采用了这个方案。 </p><h2>现在你已经拥有了一个“最标准”的 LOGO </h2><p>综上所述，下面这个应该是“最接近成功、最安全、最标准”的 LOGO。包含了我们刚才提到的所有 TOP 50 公司 LOGO 的普遍要素。 </p><p class="">长方形、扁平化、红色和蓝色、全称拼写，以及不怎么费钱（本文阅读免费）……现在你距离成功就差开一家好公司了。祝成功。&nbsp;<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201605/a1354b1b2a08.jpg" alt="">
+</figure></div><p class="">题图来源：<a href="https://www.flickr.com/photos/phae_/14773763279/in/photolist-ovvp7x-Fv498-6tdqnc-Fv2id-Fv49n-4uN9A-Fv267-rxsP6n-e9gVpP-ogfakU-azxKJ1-Fv2hN-bMDWeK-4rPzje-8y1EuA-4uN82-6PijRR-7vEi8p-8dee7h-4uN1X-73PiTu-CzJwj-nPKAAe-es6wUG-93xZRX-seofeF-cNfTV-77uJ6M-kkGdL9-787aEs-pcxpov-qULU98-bVFYd-4uNd8-5wdHeq-bVFXc-a1P9DX-nzkV9G-wvAnbp-8WrLU2-qAGH7z-8zsgQv-4DWiAo-6UpMxJ-uhrwu-7PEbH3-4pnMtN-5scyot-5Hiso3-6KbfXY" style="background-color: rgb(255, 255, 255);">flickr</a><br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2413">
+				<span data-id="2413">logo</span>
+			</li>
+			<li class="tag item" data-id="27">
+				<span data-id="27">Nike</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="330">
+				<span data-id="330">可口可乐</span>
+			</li>
+			<li class="tag item" data-id="4877">
+				<span data-id="4877">百事</span>
+			</li>
+			<li class="tag item" data-id="2601">
+				<span data-id="2601">宝马</span>
+			</li>
+			<li class="tag item" data-id="7363">
+				<span data-id="7363">大众</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="26278" data-title="《关于大公司的 Logo，有人发现了这些小秘密》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/26278/medium/26278.jpg?1462173107" data-url="http://www.qdaily.com/mobile/articles/26278.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/10963.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/10963/medium/10963.jpg?1436644269" alt="来看看年度最流行的15种品牌logo设计趋势">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">来看看年度最流行的15种品牌logo设计趋势</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">11</span>
+				<span class="iconfont icon-heart">515</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/25353.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/25353/medium/25353.jpg?1460478117" alt="平面广告走过 100 年，它的演变背后是一部“好看”的商业史">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">平面广告走过 100 年，它的演变背后是一部“好看”的商业史</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">707</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/20801.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/20801/medium/20801.jpg?1452958393" alt="过去一年，究竟有多少家公司换了 logo，以及为什么要换">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">过去一年，究竟有多少家公司换了 logo，以及为什么要换</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">57</span>
+				<span class="iconfont icon-heart">1448</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/11315.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/11315/medium/11315.jpg?1436640798" alt="他为星巴克设计蒙古文logo，不止为了星巴克|100 个有想法的人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">他为星巴克设计蒙古文logo，不止为了星巴克|100 个有想法的人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">16</span>
+				<span class="iconfont icon-heart">132</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16216.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/16216/medium/16216.jpg?1445043772" alt="穿潮牌的人大概不会介意浑身 logo？ |上海时装周">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/19/medium/19.png?1433891545" alt="时尚">
+				<span>时尚</span>
+		</p>
+		<h1 class="title">穿潮牌的人大概不会介意浑身 logo？ |上海时装周</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">16</span>
+				<span class="iconfont icon-heart">74</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27124.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27124/medium/27124.JPG?1463723933" alt="">
+                        <h1 class="title">Google 将会怎么做虚拟现实生意？这里是更多细节</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27159.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27159/medium/27159.jpg?1463811629" alt="">
+                        <h1 class="title">「日本語」罗森便利店里的“炸鸡块君”是怎么来的？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27169.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27169/medium/27169.jpg?1463873325" alt="">
+                        <h1 class="title">其实在 YouTube 上，人们只看少数的那几个视频</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27156.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27156/medium/27156.jpg?1463800254" alt="">
+                        <h1 class="title">巴菲特出手之后，各类投资人会如何评估苹果公司的股票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27160.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27160/medium/27160.jpg?1463813625" alt="">
+                        <h1 class="title">Instagram改Logo之后，一堆人自发演绎或重做了一个</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="26278">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="26278" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">868</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/26280.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

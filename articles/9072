@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Android 游戏主机先驱破产，阿里巴巴加小米都没能救它_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Android 游戏主机先驱破产，阿里巴巴加小米都没能救它。想看智能硬件有多难？看看 Kickstarter 上的传奇产品 Ouya 的命运就好了。好奇心日报为您呈现Android 游戏主机先驱破产，阿里巴巴加小米都没能救它的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 游戏 众筹 硬件 OUYA 小米 阿里巴巴 Kickstarter Julie Uhrman " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="W2i4t0KXbMKJOIWgEkiLI04e2KEi2bTWiiv0dFMCeXc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="54">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/54.html" class="category black clearfix x25" data-id="54">
+			<img class="black" src="/system/categories/iconblacks/54/medium/54.png?1418161514" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="817">
+				<span data-id="817">众筹</span>
+			</li>
+			<li class="tag item" data-id="511">
+				<span data-id="511">硬件</span>
+			</li>
+			<li class="tag item" data-id="6662">
+				<span data-id="6662">OUYA</span>
+			</li>
+			<li class="tag item" data-id="579">
+				<span data-id="579">小米</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="816">
+				<span data-id="816">Kickstarter</span>
+			</li>
+			<li class="tag item" data-id="9566">
+				<span data-id="9566">Julie Uhrman</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Android 游戏主机先驱破产，阿里巴巴加小米都没能救它</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-04-30 17:03:43 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9072/medium/9072.jpg?1436688539" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9072" data-title="《Android 游戏主机先驱破产，阿里巴巴加小米都没能救它》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9072/medium/9072.jpg?1436688539" data-url="http://www.qdaily.com/mobile/articles/9072.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				想看智能硬件有多难？看看 Kickstarter 上的传奇产品 Ouya 的命运就好了
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	OUYA 已经濒临破产，这家 2012 年起步于众筹网站 Kickstarter 的硬件产品，在短短三年内花光&nbsp;<a href="https://www.crunchbase.com/organization/ouya" style="background-color:#FFFFFF;">3360 万美金的三轮融资</a>，公司 CEO <a href="https://fortune.com/2015/04/28/exclusive-gaming-startup-ouya-needs-to-find-a-buyer-quickly/" style="background-color:#FFFFFF;">Julie Uhrman 刚刚表示</a>：“我们现在的目标就是尽可能的拯救投资人的资本”。
+</p>
+<p>
+	OUYA 曾被认为是游戏主机的希望之星，挑战索尼、微软、任天堂在客厅的统治地位。
+</p>
+<p>
+	2012 年，Android 早已是智能手机市场占有率最高的系统，与此同时，基于 Android 平台开发的游戏也在飞速增长。看到这个平台巨大的潜力，Uhrman 决定开发一款运行定制版 Android 系统的游戏主机，也就是 OUYA。
+</p>
+<p>
+	这款主机<a href="https://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console/updates">作为一个实验性项目开始在 Kickstarter 进行众筹</a>，目标金额为 95 万美元。但没想到这款 Android 主机居然受到玩家火热的追捧，在筹款结束时，获得近 10 倍于初始目标的资金，达 860 多万美元。
+</p>
+<p>
+	然而，玩家的心最难揣测，在一年前将 OUYA 捧上神坛的他们，在一年之后游戏主机发售时却没有表现出相应的热情。
+</p>
+<p>
+	<img src="/uploads/image/201504/f749cad784b8.jpg" alt="" />
+</p>
+<p>
+	Tegra 3 处理器、1GB 内存、8GB 存储空间、支持 1080p 的画质输出，以及深度定制的 Android 4.0 系统，该配置运行当时的 Android 游戏勉强可以。但实际体验非常糟糕，系统出错，操控不佳等最基本游戏体验都没有做好。
+</p>
+<p>
+	更关键的是，作为一款 Android 主机，它的配置很快就被新一代智能手机远远的甩在身后，手机上最新的游戏大作甚至不能够在专门用于游戏的 OUYA 主机上流畅运行。如果我的手机能够更好地运行 Android 游戏，我何必要在体验不佳的所谓“主机”上玩呢？
+</p>
+<p>
+	玩家不买账，游戏开发者也缺少制作游戏的动力，下一代的 OUYA 主机遥遥无期。在主机推出两年半后，整个平台上依然只有不到 1000 款游戏。
+</p>
+<p>
+	于是，<a href="http://qdaily.com/display/articles/5754.html">不差钱的中国公司成了 OUYA 最后的救命稻草</a>。2014 年 8 月，路透社报道称 OUYA 与中国公司小米进行了内容合作，小米电视盒子内甚至专门开辟了 OUYA 游戏专区，但并没有透露出交易细节。
+</p>
+<p>
+	就在 3 个月前，阿里巴巴向 OUYA 注资 1000 万美元。这也被看作是阿里巴巴为了推进它占领客厅计划，丰富其天猫魔盒内游戏内容所做的战略性投资。
+</p>
+<p>
+	不过，短短 3 个月过后，OUYA 就彻底无以为继了，难以想象这一百天究竟发生了什么，是 OUYA 败的太快，还是阿里巴巴投资人的眼光太差。总而言之，OUYA 试图卖身还债，并已经委托投资银行 Mesa Global 来处理相关进程。
+</p>
+<p>
+	“我们创造了一些真正有价值的东西”，<a href="https://fortune.com/2015/04/28/exclusive-gaming-startup-ouya-needs-to-find-a-buyer-quickly/">Julie Uhrman 仍然坚称</a>：“我们拥有最大的服务于 TV 的 Android 内容库”。或许，阿里巴巴愿意再追加投资来买断这些有价值的内容，毕竟，它们已经为每款游戏花了 1 万美元。
+</p>
+<p>
+	回想看来，OUYA 的发展有两个重大问题，首先是缺乏对 Android 游戏市场的充分调查。现在看来，玩家并没有在电视上进行 Android 游戏的强烈需求，反而，它要受到来自智能手机和传统游戏主机双重压力。
+</p>
+<p>
+	另外，硬件众筹的爆红不一定是个好消息。团队本身对 OUYA 主机 99 美元的消费级定价就有问题，初期的硬件众筹需要的是真正具有热情的小范围支持者，初创硬件需要反复的打磨和迭代更新。而突然涌入的大批被低价吸引而来的玩家既缺少耐心，而且一旦失望而去，就很难回头。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://www.reddit.com/r/ouya/comments/1fye9t/just_got_my_ouya_some_good_news_and_some_bad_news/" target="_blank">reddit</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+			<li class="tag item" data-id="817">
+				<span data-id="817">众筹</span>
+			</li>
+			<li class="tag item" data-id="511">
+				<span data-id="511">硬件</span>
+			</li>
+			<li class="tag item" data-id="6662">
+				<span data-id="6662">OUYA</span>
+			</li>
+			<li class="tag item" data-id="579">
+				<span data-id="579">小米</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="816">
+				<span data-id="816">Kickstarter</span>
+			</li>
+			<li class="tag item" data-id="9566">
+				<span data-id="9566">Julie Uhrman</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9072" data-title="《Android 游戏主机先驱破产，阿里巴巴加小米都没能救它》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9072/medium/9072.jpg?1436688539" data-url="http://www.qdaily.com/mobile/articles/9072.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25549.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25549/medium/25549.jpg?1460730692" alt="">
+                        <h1 class="title">没有去米兰，那就来这里看看今年15家精彩之作吧！｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25546.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25546/medium/25546.jpg?1460721425" alt="">
+                        <h1 class="title">亚马逊可能要收购 Everlane ，这对它有什么好处？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25535.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25535/medium/25535.jpg?1460699157" alt="">
+                        <h1 class="title">喜欢 NASA？可以买一本 1970 年代的视觉设计手册</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25537.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25537/medium/25537.jpg?1460700085" alt="">
+                        <h1 class="title">微软说，美国政府你们秘密获取用户信息是违反宪法</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25555.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25555/medium/25555.jpg?1460741386" alt="">
+                        <h1 class="title">一篇偷窥狂报道，马上就要变成斯皮尔伯格和门德斯的电影</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9072">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9072" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">49</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9061.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

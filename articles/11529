@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>短信之父去世了，你还记得发短信的日子吗_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="短信之父去世了，你还记得发短信的日子吗。短信和那个发明短信的人都走了。好奇心日报为您呈现短信之父去世了，你还记得发短信的日子吗的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="短信 IM 诺基亚 苹果 Matti Makkonen 短信之父 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="IYkYslLyIwSo9G4XQJ2OGJyRtNVIYDnNpMt/wENPCSA=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">短信之父去世了，你还记得发短信的日子吗</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/113378/small/113378.jpg?1435590009" alt="">
+					</span>
+				<span class="name">周韶宏 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-07-02 14:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/11529/medium/11529.jpg?1435796384" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11529" data-title="《短信之父去世了，你还记得发短信的日子吗》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11529/medium/11529.jpg?1436638784" data-url="http://www.qdaily.com/mobile/articles/11529" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				短信和那个发明短信的人都走了
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	1992 年，22 岁的加大拿工程师 Neil Papworth 用电脑给同事 Richard Jarvis 发出了人类历史上的<a href="http://www.qdaily.com/display/articles/4203.html" target="_blank">第一条短信</a>， 总共 15 个字符（包括空格）：“merry christmas”。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>虽然这是第一条短信，但此时距离“短信”这个概念的提出已经有 8 年的时间。1984 年，芬兰工程师 <a href="https://en.wikipedia.org/wiki/Matti_Makkonen" target="_blank">Matti Makkonen </a>设计和提出了现代短信（Short Message Service，简称 SMS）系统的雏形。也许那个时候他并没有想到，20 多年后，全世界每年发送的短信为运营商带来了数十亿美元的收入。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/d987f4aee4a9.jpg" width="640" height="360" title="Matti Makkonen" alt="Matti Makkonen" /><span>Matti Makkonen</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>上周五，这位能够载入人类史册的“短信之父”<a href="http://www.wired.co.uk/news/archive/2015-06/30/matti-makkonen-dead-sms" target="_blank">在 62 岁的年纪过世</a>，而此时的短信似乎也步入了耄耋之年——随着即时社交软件的普及，短信的功能几乎被完全取代。现在躺在你手机里的短信，也许只有运营商的话费提醒和互联网服务的验证码了。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>让我们回顾一下这二十多年都发生了什么。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h2>
+	从初生到爆发，短信的意义并不只有传递信息
+</h2>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>在功能机和早期智能机时代，短信走上了巅峰的时期。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>在 Neil Papworth 的第一条短信诞生后，电信公司 Acision 将首套 Short Message Service Centre（SMSC）短消息服务中心系统投向市场，随后挪威的电信公司 Telenor 成为了第一家签约的公司。短信开始在世界各地传播开来。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>短信的真正扩张归功于手机的普及。2012 年 Matti Makkonen 在接受 <a href="http://www.bbc.com/news/technology-20555620" target="_blank">BBC 采访时</a>曾说过：“在我看来，短信业务的真正发端，是从诺基亚发布第一款方便输入的手机开始的。”这部手机就是诺基亚在 1994 年推出的“Nokia 2010 ”。</span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201507/fe79c457239a.jpg" width="640" height="426" title="Nokia 2010" alt="Nokia 2010" /><span>Nokia 2010</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>实际上，Matti Makkonen 在早年也是诺基亚的员工，随后担任一家网络金融服务公司的 CEO。2008 年，因为在短信上的卓越贡献，Matti Makkonen 还曾获得《经济学人》<span>创新奖</span>。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>中国的第一条短信在何时诞生已经无从考证，不过中国移动通信网络在 1994 年就具备了收发短信的能力，彼时的手机也还是有钱人的专属。到 1998 年，移动和联通扩大短信业务，之后随着手机中文输入法的进化和动感地带之类短信套餐的诞生，短信在 2001 年左右开始大规模普及。</span>到 2004 年，中国手机用户一共收发了 900 亿条短信。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>短信的普及也催生了许多社会现象，青少年是最大的贡献者。从 1990 年代开始，青少年们为了避开家长们的监管，越来越喜欢用短信而不是电话交流。</span> 
+</p>
+<p>
+	<span><span>第一个用短信和观众互动的电视节目来自 Matti Makkonen 的家乡芬兰，那时一些节目开始用短信接收观众的回函。这种新的模式影响了娱乐业，短信猜谜、游戏等都能通过短信做出更多的互动。</span></span> 
+</p>
+<p>
+	<span>你可能还记得 2005 年的《超级女声》，在总决赛那天，冠军李宇春得到了 352 万的手机短信投票，前三名选手一共让观众发送了超过 900 万条短信。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>也许你并不喜欢广告短信，但短信一对多的群发功能给广告主们带来了新的商业模式，而手机报这样的订阅服务也为媒体开创了新的分发渠道。</span> 
+</p>
+<p>
+	<span>甚至，短信在某些方面影响了政治活动。2001年1月，菲律宾总统<a href="https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E5%9F%83%E6%96%AF%E7%89%B9%E6%8B%89%E8%BE%BE" target="_blank">约瑟夫·埃斯特拉达</a>涉入贪污的丑闻，并动用权力阻挠调查，民众在气愤之下，利用短信连锁互传（chain letter），组成了游行队伍抗议，最后总统被迫下台。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>再后来，短信也不仅仅能发送文字了，语音短信和彩信又成了新的潮流，但由于资费昂贵，他们并没有获得像短信一样的成功。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<h2>
+	后来，你学会了不发短信
+</h2>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>短信受到的冲击来自即时通信软件。2010 年，Kik Messenger 登录 iOS 和 Android 平台。这是一款智能手机上的免费软件，上线 15 天就获得了 100 万的登录用户。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>Kik Messenger 能做到的，就是扫描手机的通讯录，提醒其中同样在用 Kik 的联系人，相互添加，用户之间就能实现免费的信息对话。从功能上来说，Kik 已经做到了短信能做到的，而且不用花钱。</span> 
+</p>
+<p>
+	<span>对这些 IM（InstantMessaging）软件来说，抓取通讯录是起到决定性作用的一环。早期的 IM 软件并没有这项功能，用户需要设置 ID 才能相互添加，自行建立通讯录。Kik 的做法被几乎所有 IM 软件所效仿，此后它们做到了一瞬间获得手机通讯录，更进一步地取代了短信。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>再之后的事情你应该都清楚了。截至&nbsp;2010 年底，PingChat、Whatsapp 等类似的应用快速崛起，在中国也有米聊和微信，后者的用户量在语音功能推出后呈指数级增长。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>除了 IM 以外，苹果 2011 年推出的 iMessage 在这个方面做了更彻底的整合，它相当于短信 +IM，会检测接受信息的对方是否为 iMessage 用户，一旦确认可用，短信将会自动切换至 iMessage，用户甚至不用安装任何应用。</span>2012 年，苹果设备的用户经由 iMessage 总共发送了 3 千亿条信息。
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>在接受 BBC 采访时，Matti Makkonen 被问到：“短信会被 Facebook、Skype 等即时通讯软件取代吗？它还能再活 20 年吗？”，Matti Makkonen 的回答非常豁达：“20 年是个很长的时间……不过我相信可靠的、方便的通讯方式将永生不灭。那时候它叫不叫短信已经不重要了。”</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	<span>现在的智能手机，本质上已经是一部移动电脑，它的电话属性正在被逐渐弱化。目前来看，短信最广泛的运用仅剩下验证机主身份了，这也许是短信存在下去的唯一理由。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	Matti Makkonen 从始至终没有为短信这个点子注册专利，所以他一生也并没有因此获得任何经济利益。“我并不觉得自己做了一项创新，有众多想到并理解这个需求的人，我只是其中之一。”
+</p>
+<p>
+	<span><br />
+</span> 
+</p>
+<p>
+	<span>题图来自&nbsp;<a href="http://straightfromthea.com/wp-content/uploads/2011/08/texting.jpg" target="_blank">straightfromthea</a></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="207">
+				<span data-id="207">短信</span>
+			</li>
+			<li class="tag item" data-id="5030">
+				<span data-id="5030">IM</span>
+			</li>
+			<li class="tag item" data-id="1744">
+				<span data-id="1744">诺基亚</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="12321">
+				<span data-id="12321">Matti Makkonen</span>
+			</li>
+			<li class="tag item" data-id="12322">
+				<span data-id="12322">短信之父</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11529" data-title="《短信之父去世了，你还记得发短信的日子吗》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11529/medium/11529.jpg?1436638784" data-url="http://www.qdaily.com/mobile/articles/11529" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11529">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11529" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">52</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11572.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

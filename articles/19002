@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>研究说，在识字这件事上，机器人已经超过了人_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="研究说，在识字这件事上，机器人已经超过了人。还记得医生开处方的字迹么？。好奇心日报为您呈现研究说，在识字这件事上，机器人已经超过了人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="硅谷 人工智能 纽约时报 Ruslan Salakhutdinov Brenden M. Lake Joshua B. Tenenbaum " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="dxO4Cs5JN59WHGpQkDZoLfFpteIlJN0sE6QhgpwwdE4=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="105">
+				<span data-id="105">硅谷</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="20326">
+				<span data-id="20326">Ruslan Salakhutdinov</span>
+			</li>
+			<li class="tag item" data-id="20327">
+				<span data-id="20327">Brenden M. Lake</span>
+			</li>
+			<li class="tag item" data-id="20328">
+				<span data-id="20328">Joshua B. Tenenbaum</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">研究说，在识字这件事上，机器人已经超过了人</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">John Markoff</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-14 18:57:43 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19002/medium/19002.jpg?1450055601" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19002" data-title="《研究说，在识字这件事上，机器人已经超过了人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19002/medium/19002.jpg?1450055601" data-url="http://www.qdaily.com/mobile/articles/19002.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				还记得医生开处方的字迹么？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	计算机研究人员周四报告了人工智能的新进展：起码在完成与视觉相关的任务方面，人工智能的能力已经超越了人类。
+</p>
+<p>
+	这一进展之所以值得注意，是因为所谓的机器视觉系统正在被普遍应用于生活的很多方面，比如可以探测行人和自行车骑行者的汽车安全系统，以及电子游戏控制、互联网搜索和工业机器人等等。
+</p>
+<p>
+	周四，来自麻省理工大学、纽约大学和多伦多大学的研究人员在《科学》（<a href="http://www.sciencemag.org/lookup/doi/10.1126/science.aab3050">Science</a>）杂志上发布了一种新的“一拍即得式”机器学习技术，在以单一范例为基础来识别手写字符方面，利用了这种技术的计算机视觉程序的表现超过了一群人类。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/23efc46f5e1b.jpg" width="427" height="453" title="一幅由写在格子里的新型字符的图片被展示给了人和机器，然后二者被要求复制这些字母。" alt="一幅由写在格子里的新型字符的图片被展示给了人和机器，然后二者被要求复制这些字母。" /><span>一幅由写在格子里的新型字符的图片被展示给了人和机器，然后二者被要求复制这些字母。</span> 
+</p>
+<p>
+</p>
+<p>
+	这个程序可以快速学习来自好几种语言的字符，并具有对所学的东西进行归纳的能力。论文作者说，这种能力类似于人类学习理解概念的方式。
+</p>
+<p>
+	这种新的人工智能手段叫作“贝叶斯式程序学习法”（Bayesian Program Learning，BPL），它和现有的深度神经网络（deep neural networks）机器学习技术有所不同。
+</p>
+<p>
+	在经过训练之后，神经网络可以识别人的讲话、探测图像中的物体，或者通过识别大量示例来确定行为的种类。
+</p>
+<p>
+	虽然此类网络的基础是由生物神经行为建立的模型，但它们学习的方式和人并不一样，无法很快地学会新的概念。与之相反的是，《科学》杂志中描述的新软件能够在“看到”少量、甚至只看一个范例之后，就学会识别出手写的字符。
+</p>
+<p>
+	利用 5 个不同的学习任务，研究人员比较了贝叶斯式学习方法和其他程序模型的学习能力。这 5 个任务涉及一组字符，它们都来自一个叫作 Omniglot 的研究数据集，该数据集中包括了来自 50 种语言的 1623 个手写字符。在复制捕捉到的图像时，程序既要复制出它看到的图像，又要复制出字符的笔触。
+</p>
+<p>
+	“借助机器学习方面取得的所有进步，利用大量数据和更快的计算机，人们能做到非常棒的事情，” 《科学》杂志上的论文的作者之一、麻省理工学院认知科学和计算机教授约书亚·特南鲍姆（Joshua B. Tenenbaum）说。“但当你看人类的孩子时却会惊异地发现，他们能借助非常少的数据来学东西。这其中有一些是因为他们此前学到的知识，有一些则是人类大脑的本能。”
+</p>
+<p>
+	在靠软件发现数字图像中的物体、并对它们进行分类方面，软件的错误率已经比之前要低了。周四，每年一度的<a href="http://image-net.org/challenges/LSVRC/2015/index">机器视觉学术竞赛</a>的组织者报告了这一进展。
+</p>
+<p>
+	<span></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/de1c0d7ae133.jpg" width="600" height="400" title=" " alt=" " /><span> </span> 
+</p>
+<div style="text-align:center;">
+	三名研究人员已经创造出了一个计算机模型，它掌握了人类独有的学习能力，可以从单一的范例中学会新的概念。这三名研究人员分别是（左起）：鲁斯兰·萨拉哈特蒂诺夫（Ruslan Salakhutdinov）、布伦登·雷克（Brenden M. Lake）和约书亚·特南鲍姆。
+</div>
+<p>
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	“我不断地为这一领域取得进展的速度而感到惊喜，”北卡罗莱纳大学教堂山分校计算机科学副教授亚历山大·伯格（Alexander Berg）说。
+</p>
+<p>
+	这个名叫 ImageNet&nbsp;大规模视觉识别挑战赛（Imagenet Large Scale Visual Recognition Challenge）的比赛的参赛者都是来自学界、政府和企业实验室的研究人员，他们之间要展开竞争，设计出既可以给物体分类、又能探测出物体的程序。今年比赛的获胜者是来自北京<a href="http://research.microsoft.com/en-us/labs/asia/">微软研究院</a>的一群研究人员。
+</p>
+<p>
+	在一个需要用程序对来自 1000&nbsp;种不同类别的物体进行分类的挑战中，微软的这支队伍的错误率只有其他队伍的一半。通过精确探测出&nbsp;200&nbsp;种不同类别的物体，该团队还赢得了另一项挑战。
+</p>
+<p>
+	这个比赛要求程序仔细观察大量数码图片，并发现图片中的物体或给它们加标签。比如，它们可能需要分辨出自行车和汽车，而从某个角度上看，这两种物体都有两个轮子。
+</p>
+<p>
+	在《科学》杂志所描述的手写字符识别挑战和视觉分类探测挑战中，研究人员都在努力对比自己的程序取得的进展和人的能力之间的差距。而在这两项挑战中，软件取得的进步似乎超过了人类的能力。
+</p>
+<p>
+	然而，计算机科学家们提醒说，不要急着下结论说机器能“思考”了，也不要拿它来直接和人类的智力进行对比。
+</p>
+<p>
+	“我在使用‘超出人类的表现’这样的词时会非常小心，”位于西雅图的艾伦人工智能研究所（Allen Institute for Artificial Intelligence）的首席执行官奥伦·埃奇奥尼（Oren Etzioni）说。“要这么说的话，计算器就有超出人类的表现啊，而人类中能比计算机更厉害的只有达斯汀·霍夫曼了。”——他说的是达斯汀·霍夫曼在电影《雨人》（Rain Man）中饰演的那个具有超凡数学才能的白痴天才。
+</p>
+<p>
+	机器学习取得的进步，反映出了硅谷和其他地方的人工智能研究人员对这一领域越来越大的关注。
+</p>
+<p>
+	上个月，丰田汽车<a href="http://www.nytimes.com/2015/11/06/technology/toyota-silicon-valley-artificial-intelligence-research-center.html">宣布了</a>一笔为期 5 年、耗资十亿美元的投资，意在打造一个依托于斯坦福大学的研究中心，以专注于人工智能和机器人学研究。
+</p>
+<p>
+	同时，一个名叫“神经信息处理系统”（Neural Information Processing Systems）的、名不见经传的学术会议本周在蒙特利尔召开，今年会议的规模是去年的两倍，而且已经吸引了越来越多知名企业赞助商，其中苹果公司今年就首次赞助了该会议。
+</p>
+<p>
+	“现在这是个卖家市场——也就是说还没有足够的人才来满足需要人工智能技术的企业的需求，”泰伦斯·索格诺斯基（Terrence Sejnowski）说道。
+</p>
+<p>
+	他是位于圣迭哥的萨克生物研究院（Salk Institute for Biological Studies）下属的计算神经生物学实验室（<a href="http://cnl.salk.edu/">Computational Neurobiology Laboratory</a>）主任。“现在博士生们一毕业就被招走了，拿的薪水比他们的导师还高呢。”
+</p>
+<p>
+</p>
+<p>
+	<span>翻译 熊猫译社 葛仲君</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="105">
+				<span data-id="105">硅谷</span>
+			</li>
+			<li class="tag item" data-id="1084">
+				<span data-id="1084">人工智能</span>
+			</li>
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="20326">
+				<span data-id="20326">Ruslan Salakhutdinov</span>
+			</li>
+			<li class="tag item" data-id="20327">
+				<span data-id="20327">Brenden M. Lake</span>
+			</li>
+			<li class="tag item" data-id="20328">
+				<span data-id="20328">Joshua B. Tenenbaum</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19002" data-title="《研究说，在识字这件事上，机器人已经超过了人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19002/medium/19002.jpg?1450055601" data-url="http://www.qdaily.com/mobile/articles/19002.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/18617.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/18617/medium/18617.jpg?1449462761" alt="人类如何学会说话，科学家用人工智能来研究">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">人类如何学会说话，科学家用人工智能来研究</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">15</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19002">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19002" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">35</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19009.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

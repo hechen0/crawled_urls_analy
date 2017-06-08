@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <title>微软的 HoloLens 真的是给普通消费者准备的吗？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta property="qc:admins" content="1060427031614114163757" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="renderer" content="webkit">
+  <meta property="wb:webmaster" content="44da4c6e9f808df9" />
+  <meta name="description" content="微软的 HoloLens 真的是给普通消费者准备的吗？--微软对 HoloLens 的态度与策略和对 PixelSense 是类似的：把为商业用户提供「解决方案」摆在第一位。|《微软的 HoloLens 真的是给普通消费者准备的吗？来自《好奇心日报》，想看更多这样的文章，请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Hololens 微软 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="/assets/components/display2/common/redirect-cae4d6da8cd0914609f3df97f811bfd9.js" type="text/javascript"></script>
+
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/assets/pages/display2/articles/show-c7ab089836a271ce19a1b378cbb811aa.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="KmfxmbIaCs7/BuU7l6FhFe1UQYncm/E6wqvD+EpQwbI=" name="csrf-token" />
+</head>
+<body class="display articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<!-- 页头 -->
+
+<div class="com-page-header">
+	<div class="page-header-bd clearfix">
+		<div class="section-left">
+			<a href="/" target="_self" class="logo" data-ga-event="pc:click:logo">
+				<h1 class="hidden">好奇心日报官网</h1>
+				<img src="/img/display2/logo-q.png" class="pic" alt="好奇心日报">
+				<img src="/img/display2/logo-text.png" class="text" alt="好奇心日报">
+			</a>
+			<ul class="items main-cates clearfix">
+				<li class="item main-cate ">
+					<h2>
+						<a href="/labs.html">
+							<span class="iconfont icon-1yanjiusuo"></span>
+							<span class="text">好奇心研究所</span>
+						</a>
+					</h2>
+				</li>
+				<li class="item main-cate ">
+					<h2>
+						<a href="/special_columns.html">
+							<span class="iconfont icon-2lanmu"></span>
+							<!-- <span class="text">长文章</span> -->
+							<span>栏目中心</span>
+						</a>
+					</h2>
+				</li>
+			</ul>
+		</div>
+		<div class="section-center">
+			<ul class="items cates">
+			
+				<li class="item cate ">
+					<a href="/tags/1068.html">长文章</a>
+				</li>
+				<li class="item cate ">
+					<a href="/tags/1615.html">10 个图</a>
+				</li>
+					<li class="item cate ">
+						<a href="/tags/29.html">Top 15</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/18.html">商业</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/4.html">智能</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/17.html">设计</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/19.html">时尚</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/3.html">娱乐</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/5.html">城市</a>
+					</li>
+					<li class="item cate ">
+						<a href="/categories/54.html">游戏</a>
+					</li>
+				<li class="item cate">
+					<a data-ga-event="pc:click:cate" href="#" class="dropdown">全部分类</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section-right clearfix">			
+			<a data-ga-event="pc:click:nav_search" href="#" class="search iconfont icon-search"></a>
+			<div class="ribbon">
+				<div class="user" data-isLogined="false">
+					<a href="#" class="avatar x32">
+						<img src="/img/missing_face.png" alt="默认头像">
+					</a>
+					<a data-ga-event="pc:login:nav" href="#" class="text">登录</a>
+					<a href="/users/sign_out" target="_self" data-method="delete" class="logout hidden">退出</a>
+				</div>
+				<a data-ga-event="pc:click:nav_about" href="/aboutus.html" class="contact-us">关于我们</a>
+				<a data-ga-event="pc:click:nav_app" href="javascript:void(0)" class="app iconfont icon-5app">
+					<div class="app-qrcode" data-text="http://www.qdaily.com/webapp/download">
+						<div class="qrcode"></div>
+						<span>扫码下载好奇心日报APP</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weixin" href="http://weibo.com/qdaily" class="weixin iconfont icon-weixin">
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+				<a data-ga-event="pc:click:nav_weibo" href="http://weibo.com/qdaily" class="weibo iconfont icon-weibo"></a>
+			</div>
+		</div>
+	</div>
+	<div class="page-header-ft hidden">
+		<ul class="items cates">
+			<li class="item cate ">
+				<a href="/tags/1068.html">
+					<img class="white" src="/system/categories/iconwhites/1/medium/1.png?1459380863">
+					<span>长文章</span>
+				</a>
+			</li>
+			<li class="item cate ">
+				<a href="/tags/1615.html">
+					<img class="white" src="/system/categories/iconwhites/22/medium/22.png?1411569295">
+					<span>10 个图</span>
+				</a>
+			</li>
+				<li class="item cate ">
+					<a href="/tags/29.html">
+						<img class="white" src="/system/categories/iconwhites/16/medium/16.png?1411569252">
+						<span>Top 15</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/18.html">
+						<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398">
+						<span>商业</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/4.html">
+						<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452">
+						<span>智能</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/17.html">
+						<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501">
+						<span>设计</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/19.html">
+						<img class="white" src="/system/categories/iconwhites/19/medium/19.png?1411569539">
+						<span>时尚</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/3.html">
+						<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578">
+						<span>娱乐</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/5.html">
+						<img class="white" src="/system/categories/iconwhites/5/medium/5.png?1411569637">
+						<span>城市</span>
+					</a>
+				</li>
+				<li class="item cate ">
+					<a href="/categories/54.html">
+						<img class="white" src="/system/categories/iconwhites/54/medium/54.png?1418161513">
+						<span>游戏</span>
+					</a>
+				</li>
+		</ul>
+	</div>
+	<div class="com-search-popup zoom-anim-dialog mfp-hide white-popup">
+	<div class="search-popup-hd">
+		<form action="/searches" target="_blank">
+			<input type="text" name="key" placeholder="搜索文章">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="search-popup-bd">
+		<p class="tip">大家都在搜</p>
+		<ul class="items hotwords clearfix">
+				<li class="item hotword">
+					<a href="/searches?key=好莱坞">好莱坞</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=亚马逊">亚马逊</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=阿里巴巴">阿里巴巴</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=音乐节">音乐节</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=特斯拉">特斯拉</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=腾讯">腾讯</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=苹果">苹果</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=海淘">海淘</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=百度">百度</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=Google">Google</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=小米">小米</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=时尚">时尚</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=迪士尼">迪士尼</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=万达">万达</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=星巴克">星巴克</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=人工智能">人工智能</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=无人机">无人机</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=华为">华为</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=MUJI">MUJI</a>
+				</li>
+				<li class="item hotword">
+					<a href="/searches?key=宜家">宜家</a>
+				</li>
+		</ul>
+	</div>
+</div>
+	<div class="com-devise-popup mfp-hide zoom-anim-dialog white-popup">
+	<div class="devise-popup-bd">
+		<div class="vertical-wrapper">
+			<div class="vertical">
+				<!-- 登录表单 -->
+				<form class="login active" action="">
+					<div class="form-hd">
+						<a href="#" class="spirt icon-login-logo"></a>
+					</div>
+					
+					<p class="small-title"><span>社交账号登录</span></p>
+					<div class="social-login">
+						<a href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo" target="_self"></a>
+						<a href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq" target="_self"></a>
+					</div>
+					<p class="small-title"><span>或者</span></p>
+
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="密码">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:login:account" href="#" class="btn submit ripple">登录</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".findpassword">忘记密码</a>
+							<a href="#" data-toForm=".register">新用户</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤一，注册 -->
+				<form class="register" action="">
+					<div class="form-hd">
+						<p class="title">新用户注册</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="电子邮箱">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password]" placeholder="创建密码">
+						</div>
+						<div class="form-control">
+							<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+						</div>
+						<div class="form-control agree" style="display: none;">
+							<input type="radio">
+							<a href="#">我已阅读并同意《用户注册协议》</a>
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">下一步</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login" >已有账号</a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 注册表单-步骤二，个人信息 -->
+				<form class="info" action="">
+					<div class="form-hd">
+						<p class="title">完善资料</p>
+					</div>
+					<div class="form-bd">
+						<div class="preview-uploader nopic">
+							<div class="img-preview"></div>
+							<div class="webuploader iconfont icon-avatar-upload">选取头像</div>
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[username]" placeholder="我的昵称">
+						</div>
+						<div class="form-control">
+							<input type="text" name="user[description]" placeholder="一句话介绍自己">
+						</div>
+						<div class="form-action">
+							<a data-ga-event="pc:sign:account" href="#" class="btn submit ripple">完成</a>
+						</div>
+					</div>
+				</form>
+
+
+				<div class="com-avatar-cropper">
+					<div class="avatar-cropper-hd">
+						<p class="title">上传头像</p>
+					</div>
+					<div class="avatar-cropper-bd clearfix">
+						<p class="tip">拖拽或者缩放虚线框，生成自己满意的头像</p>
+						<div class="cropper">
+							<div class="img-container">
+								<img src="" alt="头像">
+							</div>
+						</div>
+						<div class="cropper-preview">
+							<p class="tip">预览</p>
+							<div class="img-preview"></div>
+						</div>
+					</div>
+					<div class="avatar-cropper-ft">
+						<a href="#" class="btn submit ripple">保存</a>
+						<a href="#" class="btn cancel ripple">取消</a>
+					</div>
+				</div>
+		
+				<!-- 找回密码表单 -->
+				<form class="findpassword" action="">
+					<div class="form-hd">
+						<p class="title">忘记密码</p>
+					</div>
+					<div class="form-bd">
+						<div class="form-control">
+							<input type="text" name="user[email]" placeholder="输入电子邮箱">
+						</div>
+						<div class="form-action">
+							<a href="#" class="btn submit ripple">发送</a>
+							<a href="#" class="btn cancel close-popup ripple">取消</a>
+						</div>
+						<div class="form-links clearfix">
+							<a href="#" data-toForm=".login">返回登录</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+	<!-- 长文章 -->
+	<div class="com-full-banner">
+	<div class="full-banner-bd">
+		<img src="/system/articles/articleshows/9287/showLongPc2/9287.jpg?1436686937" alt="微软的 HoloLens 真的是给普通消费者准备的吗？">
+	</div>
+</div>
+	<div class="page-content clearfix">
+		<div class="main long-article">
+			<!-- 传入参数：article -->
+
+
+<div class="com-article-detail long" data-articleId="9287" data-categoryId="4">
+		
+<div class="article-detail-hd">
+	<div class="category-title">
+		<p class="category x25">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+		<h1 class="title">微软的 HoloLens 真的是给普通消费者准备的吗？</h1>
+	</div>
+</div>
+
+	<div class="article-detail-bd">
+		<div class="author-share clearfix">
+			<div class="author">
+		            <a href="javascript:void(0)" class="avatar x32 circle">
+		                <img src="/system/users/faces/4697/small/4697.jpeg?1418028088" alt="不鸟万如一">
+		            </a>
+	            <span class="name">李如一</span>
+	            <span class="date smart-date" data-origindate="2015-05-07 14:00:00 +0800"></span>
+	            <script language="JavaScript" type="text/javascript">
+				    var o='d'+'i'+'v', a=' style=\'disp', b='lay:', c='none\'';
+				    document.write( "<" + o + a + b + c + ">" );
+				</script>
+				<span class="date">2015-05-07 14:00:00</span>
+				<script language="JavaScript" type="text/javascript">
+				    var o='di'+'v';
+				    document.write( "</"+o+">" );
+				</script>
+	        </div>
+
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="9287" data-title="《微软的 HoloLens 真的是给普通消费者准备的吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9287/medium/9287.jpg?1436686937" data-url="http://www.qdaily.com/articles/9287.html" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/9287.html">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">85</span></a>
+	</div>
+</div>	
+		</div>
+			<h2 class="excerpt">微软对 HoloLens 的态度与策略和对 PixelSense 是类似的：把为商业用户提供「解决方案」摆在第一位。</h2>
+		<div class="detail">
+					<!-- 普通文章 -->
+					<p class="p1">
+	人类喜欢故事。不管对象是人、是妖还是复杂无比的现代商业公司，只要你为他们/它们构造了精彩的故事，自然会有无数人向他们投射饱满的情感。事实上在今天，人们对商业公司——尤其是科技公司——倾注的感情常常等同于甚至超过了音乐家、导演、画家和作家。苹果、Google、微软、索尼、暴雪、EA、Oculus Rift……这一个个由成百上千上万人组成的为了某个临时目标协同作业的机构，在媒体和读者的想像空间里仿佛漫威旗下的漫画角色。人们就它们各自的技能、性格与实力争论不休，把它们抽象成日用品、衣物或贴纸附着在自己的身体或物件上，甚至还自由组成了义务啦啦队，自封「X 饭」「X 粉」「X 狗」，手舞足蹈，不亦乐乎。
+</p>
+<p class="p2">
+	这是近年来写微软的作者不得不面对的问题。任何没落英雄背后都有一批恨铁不成钢的忠实拥趸，微软的拥护者（其中部分人自称「软饭」）在精神力量上绝不输给任何一家。这家软件巨头在技术实力和产品感觉上的巨大落差每每令观察者陷入不可知论的困境。一方面，微软员工、实习生、合作方等知情人士反复在公共空间向我们传递着「微软的技术功力无比深厚」的信息，另一方面，自 Windows XP 之后，微软产品招致的骂声远比赞美声响亮。于是，当 <a href="https://www.microsoft.com/microsoft-hololens/en-us"><span class="s1">HoloLens</span></a> 这种有潜力开创全新的计算设备范式的产品出现时，人们很难确定究竟应该更相信微软的强大技术实力，还是更相信他们在产品感觉上的乏力。而微软拥护者的情感力量如此之强，以至于看到任何怀疑微软创新能力的论调都会条件反射式地进行辩护。这使得就这家公司进行智性的论述变得十分困难。
+</p>
+<p class="p2">
+	对微软持怀疑态度的人们在谈论 HoloLens 时常常会和他们 2007 年推出的 Surface 桌面进行比较。彼 Surface 并非今天的那款笔记本和平板二合一的计算设备，而是大家可能在新闻上都看到过的那张《少数派报告》风格的大触屏桌子。为避免混淆，微软在 2012 年把旧的 Surface 更名为 <a href="http://www.microsoft.com/en-us/pixelsense/default.aspx"><span class="s1">PixelSense</span></a>。
+</p>
+<p class="p2">
+	PixelSense 一向是愤世嫉俗的科技媒体喜欢嘲笑的对象。在惊叹于它的技术完成度之余，大家往往把它当作「过度创新」的典型例子。这个 2008 年 CES 上的演示<a href="https://www.youtube.com/watch?v=Zxk_WywMTzc&amp;spfreload=10"><span class="s1">视频</span></a>，就算在今天看也仍然令人啧啧称奇。微软说 PixelSense 触屏桌面的主要客户是零售、娱乐场所、酒店等需要向消费者展示复杂信息的行业，但目前为止它显然并不能算在商业上成功的产品。
+</p>
+<p class="p2">
+	有了这样的前科——令人心醉神迷但不知道能干什么的新技术——也难怪 HoloLens 让人放不下心。很多人在思考 HoloLens 能干什么的时候默认站在了消费者的立场。但根据现有的情报，我认为微软预设的 HoloLens 客户主要依旧是他们最善于服务的那一群：商业顾客。
+</p>
+<p class="p2">
+	想想 HoloLens 演示视频里的应用场景吧。建筑师、工业设计师、甚至水管工，哪个是「普通消费者」？《纽约时报》记者 Nick Wingfield 的<a href="http://www.nytimes.com/2015/05/03/technology/microsoft-yes-microsoft-has-a-far-out-vision.html?_r=1"><span class="s1">文章</span></a>引述不具名微软高层的说法，表示 HoloLens 的售价会比当下的游戏主机「高得多」（微软自家的最新一代游戏主机 Xbox One 定价 400 美元，约 2400 人民币）。参考已经宣告失败的同类扩增现实（AR）产品 Google Glass 1500 美元的售价，先进得多也复杂得多的 HoloLens 售价 1000 美元起跳不在话下，超过 2000 美元也并不奇怪。目前除了高端笔记本电脑以外，还没有计算设备能说服普通消费者掏出这么多的钱。
+</p>
+<p class="p2">
+	尽管微软的赚钱能力依旧凶猛（去年利润 220 亿美元），但随着越来越多的企业开始放弃一锤子买卖的软件套件，改用云端的「软件服务」来解决自己的需求，以及面向个人消费者的计算设备以及软件服务的高速发展，这家已有 40 年历史的伟大公司非常想通过改变来证明自己不会成为又一个 IBM——大而不倒的沉闷巨头企业。新 CEO Satya Nadella 治下的微软确实呈现出了新的面貌。完成度极高的一系列 iOS 软件，Azure 云服务的良好发展，Windows 10 的全平台统一，以及充满次世代感的 HoloLens 都让普通消费者兴奋了起来。但不要误会，微软正在讲的，仍然是一个给企业用户听的故事。服务商业顾客是微软 DNA 的一部分，也是其强项所在。如傅瑞德兄在这篇<a href="http://fredjame.com/post/118270307446"><span class="s1">《小评微软的「可工作平板」策略》</span></a>中所说：
+</p>
+<blockquote style="margin:0 0 0 40px;border:none;padding:0px;">
+	<p class="p2">
+		就我的观察来说，Surface 目前处在一个很尴尬的状况；产品变得比较成熟、方向也比较清楚（相较于 Windows RT 的时候），但前进的路不好走，又不能后退，市占率一直卡关，也缺乏关键性的应用；说实在话，以现在的行销方式来看，不断强调「工作用」，仍然是在吃过去二十年 Windows 和 Office 累积下来的老本。
+	</p>
+</blockquote>
+<p class="p2">
+	微软比任何人都清楚自己擅长什么。只是当他们一方面要用新概念、新范式笼络在后 PC 世代长大的新一代消费者（从而借助他们的口碑），一方面又要把同样的概念卖给反应相对迟缓的企业用户时，在营销上就会面临一种分裂的局面。以微软的技术实力和资源，或许可以借 HoloLens 在专业应用领域分一杯羹，或是成为一方霸主。但身为普通消费者，我认为微软对 HoloLens 的态度与策略和对 PixelSense 是类似的：把为商业用户提供「解决方案」摆在第一位。换句话说，我并不期待它能够成为很多人想像中的，全面翻新消费者和计算设备的关系的跨时代产品。
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/1068.html">长文章</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/6359.html">Hololens</a>
+			</li>
+			<li class="tag item">
+				<a data-ga-event="pc:click:tag" href="/tags/260.html">微软</a>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 		
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share-favor" data-id="9287" data-title="《微软的 HoloLens 真的是给普通消费者准备的吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9287/medium/9287.jpg?1436686937" data-url="http://www.qdaily.com/articles/9287.html" data-weiboAppkey="2462590045">
+	<div class="share-favor-bd clearfix">
+		<!-- 微信 -->
+		<a data-ga-event="pc:share:weixin" href="javascript:void(0)" class="share iconfont icon-weixin" >
+            <div class="weixin-qrcode" data-text="http://www.qdaily.com/articles/9287.html">
+                <h4>分享到微信朋友圈</h4>
+                <div class="qrcode"></div>
+                <div class="help">
+                    <p>微信里点“发现”，扫一下</p>
+                    <p>二维码便可将本文分享至朋友圈。</p>
+                </div>
+            </div>
+		</a>
+		<!-- 新浪微博 -->
+		<a data-ga-event="pc:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="pc:share:tengxunweixin" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="pc:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="pc:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="pc:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+		
+			<a data-ga-event="pc:favor:aritcle" href="#" class="favor iconfont icon-heart"><span class="num ">85</span></a>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+			<!-- 传入参数：relateds, votes, type -->
+<!-- type取值为short, long-article -->
+
+
+	<div class="com-related-banners long-article">
+		<div data-ga-event="pc:click:ft_recomend_article"  class="related-banners-bd">
+			<!--
+			<a href="http://sss.qingting.fm/pugc/introduction/" class="makemoney imgcover">
+				<img src="/img/makemoney/qingtingfm/bottom-qingtingfm.jpg">
+			</a>
+			-->
+
+		</div>
+	</div>
+
+			<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments wide" data-id="9287">
+    <div class="related-comments-hd clearfix">
+        <p class="count">评论</p>
+        <a href="javascript:;" class="avatar x40 circle">
+            <img src="/img/missing_face.png" alt="默认头像">
+        </a>
+        <form action="" class="comment-form">
+            <textarea name="content" placeholder="我有意见"></textarea>
+            <div class="share-submit clearfix">
+                <div class="share hidden">分享至：
+                    <a href="#"><span class="iconfont icon-weibo"></span></a>
+                    <a href="#"><span class="iconfont icon-tengxun"></span></a>
+                </div>
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+        <form action="" class="reply-form hidden">
+            <input type="hidden" name="parent_id">
+            <textarea name="content" placeholder="回复评论"></textarea>
+            <div class="share-submit clearfix">
+                <a href="#" class="btn submit ripple">评论</a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="related-comments-bd">
+        <div class="items comments">
+        </div>
+        <div class="nomore-wrapper">
+            <p class="nomore">没有更多啦</p>
+        </div>
+    </div>
+</div>
+
+			<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+                    <div class="packery-item article size1x2">
+                        <!-- 重点文章格子，1x2的占位，智能占位 -->
+<!-- 传入参数：article -->
+<a href="/articles/26746.html"  class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26746/indexLargePc2/26746.jpg?1463032218" alt="他给“世界音乐”做经纪，所以这做的到底是什么音乐？ | 100个有想法的人">
+		<p class="category">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt="娱乐">
+			<span>娱乐</span>
+		</p>
+	</div>
+	<div class="grid-key-article-bd">
+		<h1 class="title smart-lines" data-originText="他给“世界音乐”做经纪，所以这做的到底是什么音乐？ | 100个有想法的人">
+			<span class="line">他给“世界音乐”做经纪，所以这做的到底是什么音乐？ | 100个有想法的人</span>
+		</h1>
+	</div>
+	<div class="grid-key-article-ft clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 15:37:20 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">74</span>
+		</div>
+	</div>
+</a>
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26701.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26701/indexMediumPc2/26701.jpg?1462951738" alt="作为一个气味设计师，她到底如何为客户工作？">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/19/medium/19.png?1411569539" alt="时尚">
+			<span>时尚</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">作为一个气味设计师，她到底如何为客户工作？</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-11 16:52:28 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">81</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26755.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26755/indexMediumPc2/26755.jpg?1463042885" alt="“乐观看待问题”？现在有研究说这可能不是好事">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/5/medium/5.png?1411569637" alt="城市">
+			<span>城市</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">“乐观看待问题”？现在有研究说这可能不是好事</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 16:44:42 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">40</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26741.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26741/indexMediumPc2/26741.jpg?1463024373" alt="这里有本手绘色彩索引，比Pantone还要早270多年">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt="设计">
+			<span>设计</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">这里有本手绘色彩索引，比Pantone还要早270多年</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 13:17:59 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">66</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26767.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26767/indexMediumPc2/26767.jpg?1463050615" alt="欧洲杯倒计时，汉莎要选 350 个球迷名字印在德国队专机上">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt="商业">
+			<span>商业</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">欧洲杯倒计时，汉莎要选 350 个球迷名字印在德国队专机上</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 19:38:30 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">1</span>
+				<span class="iconfont icon-heart">8</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26761.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26761/indexMediumPc2/26761.jpg?1463043128" alt="又来了一家电动汽车公司，也用了伟人的名字">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt="智能">
+			<span>智能</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">又来了一家电动汽车公司，也用了伟人的名字</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 17:56:04 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">12</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+                    <div class="packery-item article">
+                        <!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/articles/26752.html" class="com-grid-article" >
+	<div class="grid-article-hd">
+		<img class="pic lazyload" data-src="/system/articles/articleshows/26752/indexMediumPc2/26752.jpg?1463036482" alt="《刺客信条》发布预告片，法鲨在中世纪街头跑酷">
+		
+		<p class="category">
+			<img src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt="娱乐">
+			<span>娱乐</span>
+		</p>
+	</div>
+	<div class="grid-article-bd">
+		<h1 class="smart-dotdotdot">《刺客信条》发布预告片，法鲨在中世纪街头跑酷</h1>
+	</div>
+	<div class="grid-article-ft  clearfix">
+		<span class="smart-date" data-originDate="2016-05-12 16:38:19 +0800"></span>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">23</span>
+		</div>
+	</div>
+</a>
+
+                    </div>
+	    </div>
+	</div>
+</div>
+		</div>
+	</div>
+
+<!-- 页尾 -->
+
+
+<div class="com-page-footer">
+	<div class="page-footer-bd clearfix">
+		<!-- 分类 -->
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/">首页</a></li>
+			<li class="item category"><a href="/tags/1068.html">长文章</a></li>
+			<li class="item category"><a href="/tags/29.html">TOP 15</a></li>
+			<li class="item category"><a href="/tags/1615.html">10 个图</a></li>
+			<li class="item category"><a href="/labs.html">好奇心研究所</a></li>
+			<li class="item category"><a href="/tags/12066.html">100个有想法的人</a></li>
+			<li class="item category"><a href="/tags/7543.html">Medium</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">
+			<li class="item category"><a href="/tags/7294.html">大公司头条</a></li>
+			<li class="item category"><a href="/tags/7018.html">Q Business</a></li>
+			<li class="item category"><a href="/tags/1288.html">今日应用</a></li>
+			<li class="item category"><a href="/tags/1543.html">这世界</a></li>
+			<li class="item category"><a href="/categories/12.html">Best on the web</a></li>
+			<li class="item category"><a href="/categories/18.html">商业</a></li>
+			<li class="item category"><a href="/categories/4.html">智能</a></li>
+		</ul>
+		<ul data-ga-event="pc:click:ft_cates_total" class="items categories">			
+			<li class="item category"><a href="/categories/17.html">设计</a></li>
+			<li class="item category"><a href="/categories/19.html">时尚</a></li>
+			<li class="item category"><a href="/categories/3.html">娱乐</a></li>
+			<li class="item category"><a href="/categories/5.html">城市</a></li>
+			<li class="item category"><a href="/categories/54.html">游戏</a></li>
+		</ul>
+
+		<!-- 功能区，下载，关于我们 -->
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_app" href="/aboutus.html">下载APP</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:login:ft" href="#"  class="user">登录 / 注册</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_subscribe" href="/feed.xml">订阅</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_weibo" href="http://weibo.com/qdaily">微博</a></li>
+			<li class="item ribbon">
+				<a data-ga-event="pc:click:ft_weixin" href="javascript:void(0)" class="weixin">微信
+					<div class="weixin-qrcode" data-text="http://weixin.qq.com/r/r0x4YOjEWrUlrawD9xm9">
+						<div class="qrcode"></div>
+						<span>好奇心微信公众号</span>
+		            </div>
+				</a>
+			</li>
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_protocal" href="/policy.html">用户协议</a></li>
+		</ul>
+		<ul class="items ribbons">
+			<li class="item ribbon"><a data-ga-event="pc:click:ft_about" href="/aboutus.html#aboutus-qdaily">关于好奇心</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:contact" href="/aboutus.html#aboutus-contact">联系我们</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:job" href="/aboutus.html">工作机会</a></li>
+			<li class="item ribbon"><a data-ga-event="pc:click:copyright" href="/policy.html">版权声明</a></li>
+		</ul>
+
+		<!-- 搜索 -->
+		<form data-ga-event="pc:click:ft_search" action="/searches" target="_blank" class="search" >
+			<input type="text" name="key">
+			<span class="iconfont icon-search"></span>
+		</form>
+	</div>
+	<div class="page-footer-ft">
+		<div class="copyright">
+			<span class="iconfont icon-logo"></span>
+			<p class="company">2014 北京酷睿奥思科技发展有限公司</p>
+			<p class="icp">京ICP备14027177号-1</p>
+			<p class="gongan" style="display: inline-block;margin-left: 10px;">京公网安备 11010502030071号</p>
+		</div>
+		
+	</div>
+</div>
+  
+  <script src="/assets/pages/display2/common/preexec-dc70eef64fda3ac449a5d84bdf382f49.js" type="text/javascript"></script>
+  <script src="/assets/pages/display2/articles/show-b8ba965f5db55035414f7ddafa194fa2.js" type="text/javascript"></script>
+  <!-- [if (gte IE 6)&(lte IE8)] >
+  <script src="/assets/pages/display2/common/ie8fix-4d518f75d082233c3c9148a28c8e9e59.js" type="text/javascript"></script>
+  <! [endif] -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

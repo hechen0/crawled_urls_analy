@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>有个展，你可以看到可口可乐100年来经历了什么_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="有个展，你可以看到可口可乐100年来经历了什么。纵观一百年来一件件设计作品、一个个细微的变化，皆因小小的玻璃瓶而起，却又承载着深刻的内涵。。好奇心日报为您呈现有个展，你可以看到可口可乐100年来经历了什么的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Coolhunting 可乐瓶 可口可乐 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="tDmZ2EWG3X47vmVTvskndYdoFn2SmURao5tNj7eiCJ8=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="8315">
+				<span data-id="8315">可乐瓶</span>
+			</li>
+			<li class="tag item" data-id="330">
+				<span data-id="330">可口可乐</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">有个展，你可以看到可口可乐100年来经历了什么</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">David Graver</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-30 08:10:59 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7872/medium/7872.jpg?1436694385" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7872" data-title="《有个展，你可以看到可口可乐100年来经历了什么》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7872/medium/7872.jpg?1436694385" data-url="http://www.qdaily.com/mobile/articles/7872" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				纵观一百年来一件件设计作品、一个个细微的变化，皆因小小的玻璃瓶而起，却又承载着深刻的内涵。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	<a href="http://www.coolhunting.com/design/the-coca-cola-bottle-turns-100" target="_blank" style="background-color:#FFFFFF;"><em>本</em><em>文</em></a><em>由 Coolhunting 授权《好奇心日报》发布，即使我们允许了也不许转载。&nbsp;</em> 
+</p>
+<p class="MsoNormal" align="left">
+	1915 年，<span><a href="http://www.coca-colacompany.com/">可口可乐公司</a></span>向全美所有的玻璃瓶制造商发出邀请，期待后者能设计出一款别致的饮料瓶，即使在夜晚也可以凭借手感加以辨认，即使摔碎主体部分仍然看得出来。最终来自印第安纳州 <span>Terre Haute </span>地区的玻璃制造商 <span>Root Glass Company </span>接了英雄帖，推出了随后广为人知的可口可乐玻璃瓶。自此，可口可乐卖出了上百亿支这样的瓶子，使之成为全球辨识度最高的设计作品之一。不仅如此，可口可乐瓶自诞生至今的 <span>100 </span>年里不断激发着其他艺术家的创作灵感。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201503/27d89da46a95.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left">
+	2015 年 <span>2 </span>月 <span>28 </span>日星期六，亚特兰大市<span><a href="http://www.high.org">高级艺术馆</a></span>开展庆祝小瓶子的诞辰以及纪念因之涌现的作品，展览名为“<span><a href="http://www.high.org/Art/Exhibitions/The-Coca-Cola-Bottle.aspx?sc_device=default">可口可乐玻璃瓶：美国标志的百岁寿辰</a></span>”。展览占据两层，包括 <span>5 </span>个重要展区。最新的相关设计来自 <span>Conran and Partners </span>公司，500 多个可乐瓶形状的作品悬挂在展厅入口处，看起来如同丝带，实为 <span>3D </span>打印的解构作品。很好地将观众的注意力引入主题。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201503/d365faefdb2e.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	展出的作品超过 <span>100 </span>件——混合了经典和新潮，即提供怀旧也展望未来。其中一个展区专门用来讲述玻璃瓶的诞生历程，还有两支 <span>1902 </span>年产的瓶子。展览中每一个作品背后都有相关历史的说明，引人深思且强化了观赏的价值。其中一个展厅有超过 <span>15 </span>件安迪·沃霍尔的作品，反应了可口可乐玻璃瓶对波普艺术运动的影响。最后一间展室陈列了 <span>40 </span>幅受到玻璃瓶启发而拍摄的作品，包括著名摄影师 <span>Walker Evans </span>和 <span>William Christenberry </span>的作品。整个展出给观众带来了强烈的冲击感，一只玻璃瓶也可以点燃艺术创作的灵感。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/4b571aa4bac7.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	最后一个展区是各种艺术的杂烩，因此被命名为“<span><a href="http://www.coca-colacompany.com/videos/coke-bottle-100-design-mashup-ytepi2csrmkty">Mash Up</a></span>”，展品包括一系列新推出的图形设计。这些作品有些征集自民间，有的来自可口可乐团队的贡献，都是对经典设计的致敬。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/b51367f6e1e9.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	可口可乐全球设计副总裁 <span>James Sommerville </span>称整个展出有两条主线，其一就是从大众传播向大众亲密感过渡。“大众传播的意思就好比我们是一家全球品牌，不断与世界各地的消费者产生某种交流，这方面是可口可乐的强项。现在我们的目标是让每一瓶饮料、每一笔交易以及每一次入口的感觉充满亲密感。直接使用玻璃瓶饮用可乐本身就是一件十分亲密的事情。想想看，玻璃瓶口和嘴唇之间会发生亲密接触。作为公司，我们需要考虑销量和规模，同时我们也希望每一次的用户体验对于个人而言也是一种亲密的历程。”
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/869c0413dc20.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	展出的第二个主旨是“亲吻过去”。Sommerville 解释，“我们有极为丰富、深厚的历史。过去的一百多年里我们所积累的东西太多太多，因此我们拥抱过去，亲吻那些骄傲的历史。问题在于如何盘活历史使其与明天以及未来相关联。换言之，带着深厚的感情‘回到未来’。”展览充分体现了这两个方面的主题，并最终呈现在“Mash Up”部分。
+</p>
+<p class="MsoNormal">
+	可口可乐玻璃瓶可谓灵感的源泉。纵观一百年来一件件设计作品、一个个细微的变化，皆因小小的玻璃瓶而起，却又承载着深刻的内涵。“这款玻璃瓶的出现本身就是一件创意作品，此后的艺术家、设计师又将其看成了画布。”事实上受到启发的不仅仅是艺术家，全世界都带着展览所传达的怀旧情绪向未来进发。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/3826034ce043.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/493b0c2e4977.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/815956e5a222.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/2003bcdc5b04.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/494db69b5563.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201503/82fafb1512a0.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 国舅<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7968">
+				<span data-id="7968">Coolhunting</span>
+			</li>
+			<li class="tag item" data-id="8315">
+				<span data-id="8315">可乐瓶</span>
+			</li>
+			<li class="tag item" data-id="330">
+				<span data-id="330">可口可乐</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7872" data-title="《有个展，你可以看到可口可乐100年来经历了什么》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7872/medium/7872.jpg?1436694385" data-url="http://www.qdaily.com/mobile/articles/7872" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25571.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25571/medium/25571.jpg?1460797877" alt="">
+                        <h1 class="title">从“恋爱禁止”，到“秀恩爱”大赛，明星的爱情是怎么回事？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25573.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25573/medium/25573.jpg?1460806992" alt="">
+                        <h1 class="title">进军时尚界表现亮眼，Rihanna 的化妆品可能也能大卖</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25583.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25583/medium/25583.jpg?1460819929" alt="">
+                        <h1 class="title">在 F1 上海站，车手巴顿说他最喜欢的还是10年前的车</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25562.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25562/medium/25562.jpg?1460775335" alt="">
+                        <h1 class="title">「日本語」日本绿茶饮料市场是如何变成今天这个样子？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25581.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25581/medium/25581.jpg?1460816473" alt="">
+                        <h1 class="title">达美乐去了意大利，在披萨老家混可没这么容易</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7872">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7872" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">67</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7892.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

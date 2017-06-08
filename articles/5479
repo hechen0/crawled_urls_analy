@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>靠着用户数据， Pandora 预测了本届格莱美_娱乐_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="靠着用户数据， Pandora 预测了本届格莱美。它只预测了 4 项，是因为它的本意只是想出来吼一声：注意，我有很多用户数据。。好奇心日报为您呈现靠着用户数据， Pandora 预测了本届格莱美的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Pandora 电台 流媒体音乐平台 大数据 格莱美 2015 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="rHlvB44U36TrYgdvQeF2S7ZTFydInRw39j+Ok109HZs=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="3">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/3.html" class="category black clearfix x25" data-id="3">
+			<img class="black" src="/system/categories/iconblacks/3/medium/3.png?1411569578" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/3/medium/3.png?1411569578" alt=""/>
+			<span>娱乐</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6362">
+				<span data-id="6362">Pandora 电台</span>
+			</li>
+			<li class="tag item" data-id="6363">
+				<span data-id="6363">流媒体音乐平台</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="2522">
+				<span data-id="2522">格莱美</span>
+			</li>
+			<li class="tag item" data-id="5340">
+				<span data-id="5340">2015</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">靠着用户数据， Pandora 预测了本届格莱美</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/4369/small/4369.jpg?1419239008" alt="">
+					</span>
+				<span class="name">晏文静</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-01-22 16:20:57 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/5479/medium/5479.jpg?1436687682" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5479" data-title="《靠着用户数据， Pandora 预测了本届格莱美》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5479/medium/5479.jpg?1436687682" data-url="http://www.qdaily.com/mobile/articles/5479" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				它只预测了 4 项，是因为它的本意只是想出来吼一声：注意，我有很多用户数据。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	最近，以自动音乐推荐服务为特色的 Pandora 电台做了一件事情：预测格莱美音乐奖。有意思的是，它们做出预测的依据是自家电台的用户数据和过往获奖记录。
+</p>
+<p>
+	自动音乐推荐功能，中国的一些音乐播放器也有一些体现，大家或多或少有过体验。但在中国还用不了的 Pandora 电台完全植根于这种服务，<a href="http://zh.wikipedia.org/wiki/Pandora电台" target="_blank">它在 2005 年正式上线</a>，目前在美国、澳大利亚和新西兰可以使用。
+</p>
+<p>
+	<img alt="" src="/uploads/image/201501/f648f719ae9b.jpg" /> 
+</p>
+<p>
+	登录 Pandora 电台，用户<a href="http://www.nytimes.com/2009/10/18/magazine/18Pandora-t.html?pagewanted=1&_r=1&" target="_blank">只要输入自己喜欢的歌曲</a>或音乐人名字， Pandora 就可以自动播放与之曲风类似的歌曲。另外，用户还可以对所听歌曲<a href="http://www.nytimes.com/2009/10/18/magazine/18Pandora-t.html?pagewanted=1&_r=1&" target="_blank">做出或好或差的评价</a>。这些反馈将进一步影响 Pandora 之后的歌曲选择。这个电台以“只播放你喜欢的音乐”为己任。（“That plays only music you like.”）
+</p>
+<p>
+	与此同时，日积月累，用户的好恶也被 Pandora 电台记录下来，成为数据库。<a href="http://www.sfgate.com/music/article/Pandora-tries-to-woo-musicians-with-data-not-5980453.php" target="_blank">到去年 12 月</a> ，Pandora 已经有 7500 万活跃用户，对&nbsp;<span style="letter-spacing:normal;white-space:normal;">Pandora 来说，</span>他们都是数据源。
+</p>
+<p>
+	除了运用这些数据做格莱美预测， Pandora 电台还可以通过数据<a href="http://www.allvoices.com/article/16580115" target="_blank">预测用户的政治倾向</a>。通过你爱收听哪种音乐，他们就可以判断你的政治倾向，或是保守派，或是自由派，或是其他。Pandora&nbsp; 称它们的判断可以达到 75% 到 80% 的精确度，2014 年还借此招揽了政治广告投放给对应用户。
+</p>
+<p>
+	很多音乐人因为流媒体音乐平台给他们支付的版权费用太低而不愿意将音乐版权授予流媒体 。Pandora 电台吸引音乐人入驻有<a href="http://www.sfgate.com/music/article/Pandora-tries-to-woo-musicians-with-data-not-5980453.php" target="_blank">它独特的办法</a>，去年 10 月 ，他们直接为音乐人建立了一个营销数据平台，靠自己的数据能力为音乐人的产品营销提供帮助。连他们自己的员工都曾对外表示，比起流媒体音乐平台，Pandora 电台更像是一家数据营销公司。
+</p>
+<p>
+	&nbsp;这一次，Pandora 电台只预测了 2015 年格莱美音乐奖的 4 个奖项。大家都清楚了，它做这个预测无非是想吸引注意力，把最受关注的奖项预测一下就好，不用费事把所有奖项都预测一遍。
+</p>
+<p>
+	<a href="http://rainnews.com/pandora-wheels-in-big-data-to-predict-grammy-winners/" target="_blank">预测名单：</a> 
+</p>
+<p>
+	年度专辑： 萨姆·史密斯《In The Lonely Hour》
+</p>
+<p>
+	年度制作：Sia《Chandelier》&nbsp;
+</p>
+<p>
+	最佳新人：伊基·阿塞莉娅
+</p>
+<p>
+	年度单曲：梅根·特瑞娜《All About That Bass》
+</p>
+<p>
+	题图来自于 <a href="http://www.labnol.org/internet/access-pandora-music-anywhere/20976/" target="_blank">labnol</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="6362">
+				<span data-id="6362">Pandora 电台</span>
+			</li>
+			<li class="tag item" data-id="6363">
+				<span data-id="6363">流媒体音乐平台</span>
+			</li>
+			<li class="tag item" data-id="653">
+				<span data-id="653">大数据</span>
+			</li>
+			<li class="tag item" data-id="2522">
+				<span data-id="2522">格莱美</span>
+			</li>
+			<li class="tag item" data-id="5340">
+				<span data-id="5340">2015</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="5479" data-title="《靠着用户数据， Pandora 预测了本届格莱美》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/5479/medium/5479.jpg?1436687682" data-url="http://www.qdaily.com/mobile/articles/5479" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25155.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25155/medium/25155.jpg?1460088079" alt="">
+                        <h1 class="title">美味七七倒闭，生鲜电商大战有了第一个重量级的牺牲者</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25149/medium/25149.jpg?1460076549" alt="">
+                        <h1 class="title">「这世界」一个是个程序员都会做的程序卖了 140 万美元</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25162.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25162/medium/25162.jpg?1460095566" alt="">
+                        <h1 class="title">《美国偶像》落幕，它最后的衰落是因为忽视了社交网络</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25188.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25188/medium/25188.jpg?1460111514" alt="">
+                        <h1 class="title">说起“拦路抢劫”这回事，沃尔沃不是头一回这么干了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25135.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25135/medium/25135.jpg?1460055084" alt="">
+                        <h1 class="title">图片数据库Pinterest说，今年女生最爱薄荷绿和粉红</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="5479">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="5479" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">12</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/5463.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

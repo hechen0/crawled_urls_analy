@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2015 年 20 个最聪明的产品设计，你认同吗？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="2015 年 20 个最聪明的产品设计，你认同吗？。聪明的重点在于提供了一种新鲜视角的解决方案，而非最好看的设计。。好奇心日报为您呈现2015 年 20 个最聪明的产品设计，你认同吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="工业设计 产品设计 《连线》杂志 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="y7tnTKID44Ebv9ts+3qczSutgL999/udJnndeODTWyY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="20927">
+				<span data-id="20927">《连线》杂志</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">2015 年 20 个最聪明的产品设计，你认同吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-24 08:30:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/19608/medium/19608.jpg?1450875873" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19608" data-title="《2015 年 20 个最聪明的产品设计，你认同吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19608/medium/19608.jpg?1450875873" data-url="http://www.qdaily.com/mobile/articles/19608.html?source=kuhua" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				聪明的重点在于提供了一种新鲜视角的解决方案，而非最好看的设计。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	临近年末，<a href="http://www.wired.com/2015/12/the-most-cleverly-designed-objects-of-2015/#slide-20" target="_blank">《连线》（Wired）杂志盘点了 2015 年 20 个最聪明的产品设计</a>。说到这本受到大批数码热血青年追捧的杂志，想想都应该是科技感十足。的确，这本着重于报道科技应用于现代和未来人类生活各个方面的杂志，就连出的榜单也像是为数码热血青年量身而造。
+</p>
+<p>
+	在《连线》的选择标准中，这 20 款产品可能不是最漂亮的或是最令人渴望的，但它却都呈现出一种聪明的解决方案。
+</p>
+<h4>
+	1.Google Cardboard 2.0 版本虚拟现实眼镜
+</h4>
+<p>
+	今年的 Google I/O 大会，一款用硬纸板打造的虚拟现实眼镜 Cardboard 2.0 确实夺人眼球，“廉价与易用”也成为了它在业界的代名词。这个产品是用纸板和双凸镜片制作的，任何人都可以根据公开的资料 DIY，在折好后，放上装有 Cardboard 应用的手机，就可以体验简单的 3D 虚拟现实动画。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/c00d4ef7a088.jpg" width="1024" height="683" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	2.Tritensel&nbsp; 勺刀叉
+</h4>
+<p>
+	设计工作室 Map 为知名的英国百货公司 Fortnum &amp; Mason&nbsp; 设计了这款名为 Tritensil 的餐具，由刀、叉和勺子三种餐具集合而成，灵感来自于第一次世界大战期间士兵们使用的一款类似的餐具。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/d607c3285783.jpg" width="818" height="545" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	3.微软 Surface Book
+</h4>
+<p>
+	按照微软的介绍，推出 Surface Book 是为了探索 Windows 笔记本的全新的未来形态，也被看作是想要在高价市场冲击苹果 Macbook Air 的产品。简洁的银白色金属机身也和 Macbook Air 有着异曲同工的风格。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/d889601e90ad.jpg" width="1024" height="683" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	4.拍立得 Polaroid Snap
+</h4>
+<p>
+	Polaroid Snap 外观相当简洁漂亮，纯白色机身上加入了彩虹线条以及红色快门键作为装饰点缀。机身内置 1000 万像素影像感测器，搭载 f/2.8 大光圈镜头，取景器也是开关，按下后会自动弹起。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/b4aeddd9d875.jpg" width="1024" height="768" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	5.Espresso 太空杯
+</h4>
+<p>
+	这套太空咖啡杯是由美国波特兰州立大学工程学院以 3D 打印制成，杯身独特的几何形状设计状似尿壶，能在没有泵子或离心力辅助下控制液体，模仿在地球上冲泡咖啡的液体流动方向，并在咖啡表面形成绵密细滑的泡沫。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/e7a36e0f2a33.jpg" width="660" height="440" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	6.AIAIAI TMA-2 耳机
+</h4>
+<p>
+	哥本哈根耳机品牌 AIAIAI 今年与 KILO Design 合作设计推出一款概念耳机 TMA-2 Modular。TMA-2 最大的亮点是提供了强大的替换性，无论是功能、舒适程度还是音质，用户都可以根据自己的喜好以及需求自定义组装出属于自己的一副耳机。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/a4b1d15ce7d1.jpg" width="780" height="520" title="0" alt="0" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	7.Leatherman Tread 手环式工具套装
+</h4>
+<p>
+	这条名为 Leatherman Tread 的工具手环，虽然外观看起来只是一条普通的不锈钢手环，但其中却包含了多达 25 种不同的小工具，例如螺丝刀、扳手、开瓶器以及罐头刀等，而更重要的是装嵌及拆解都相当方便，加上可以自行挑选小工具的类型，能真正贴合用户的需求。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/1977c821f87b.jpg" width="660" height="440" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	8.智能手表 Pebble Time
+</h4>
+<p>
+	即使 Android Wear 智能手表在过去一年纷纷面世，Apple Watch 推出，但 Pebble Time 还是斩获了一众智能手表粉丝。较之于前两代，今年推出的第三代厚度比之前减少 20%，弧度也较之于前佩戴更舒服，表面由不锈钢框包围，最大的区别在于换上了彩色 e-paper 屏幕。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/aad25a96a416.jpg" width="660" height="495" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	9.《这本书是一部相机》
+</h4>
+<p>
+	这本 Kelli Anderson 设计的书叫做《这本书是一部相机》（This Book is a Camera）。经过折叠后它会变成一部能够使用的相机，利用针孔摄像头来捕捉图像，这种原始的图像捕捉形式只需要针线般粗细的一束光线便可实现。你只需将一张伊尔福相纸插入这本 29 美元的书中，手动打开并按下快门，再将相纸取出放入到显像液里，一张黑白照片就属于你了。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/08f0aed9cea0.jpg" width="1024" height="768" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	10.像家具一样的空调 Net Zero Table
+</h4>
+<p>
+	Net Zero Table 是一件长得像是桌子般的空调，当房间内的温度达到 22 度左右时，它的波纹铝板内的一种特殊物质就会变软并吸收额外热量，当房间温度冷却后，它又会重新将热量释放出来，且不需要耗电。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/ccf8979447ca.jpg" width="1000" height="750" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	11.BeeLine 导航设备
+</h4>
+<p>
+	BeeLine 看上去是一款反科技的导航产品，定位于单车导航仪，可以绑在单车车把上，它不会像常规的导航设备那样告诉你具体路线，只会在显示器上显示目的地所在的方向，和距离目的地的距离，至于怎么骑过去，它希望你靠直觉。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/fa868d2c371c.jpg" width="1024" height="768" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	12.Campaign 组装家具
+</h4>
+<p>
+	Campaign 今年推出了一系列坚固而且设计非常美观的沙发，不需任何工具，你就可以在家里组装——而且你可以一直把它拆了装、装了拆，完全没有问题。<a href="http://www.qdaily.com/articles/14386.html" target="_blank">我们 9 月曾详细报道过这一设计</a>。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/f0e7fa30b9ab.jpg" width="1024" height="768" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	13.Yumit 餐盘
+</h4>
+<p>
+	这款名为 Yumit 的智能餐盘颜色鲜艳，光用看的就能诱发孩童的好奇心，进而刺激食欲。盘面上的 LED 灯环，随着实时测量每口吃下的食物重量，灯色会逐渐由白转绿，把实际吃下的食物转化为虚拟分数，甚至当盘内的食物吃完以后，还会发送相关讯息如每一口吃下的重量、详细的咀嚼时间、结束用餐的正确时间到父母手机的 app 中。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/91deaa519796.jpg" width="600" height="401" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	14.里约奥运会火炬
+</h4>
+<p>
+	火炬由再生铝和树脂材料打造而成，设计充分体现了巴西风格，上面的花纹分别代表着大地、海洋、山脉、天空和太阳，同时还对应着巴西国旗的颜色，“体现了和谐多样性，正能量的传递”。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/6dccbcf260d3.jpg" width="582" height="488" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	15.Zolt 笔记本电脑充电器
+</h4>
+<p>
+	这款充电器由 fuseproject 设计，是带有 3 个端口的美型、轻便的电子设备。它能为至少 3 个不同设备同时充电。八角形的充电器也可以旋转达 90 度，所以无论电源位于什么位置、什么角度，你的电子设备都能轻松充电，不必和其他数据线或家具纠缠。<a href="http://www.qdaily.com/articles/17468.html" target="_blank">我们 11 月曾详细报道过这一设计</a>。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/8ffab15c23f8.jpg" width="1024" height="768" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	16.Minim+Aid 急救包
+</h4>
+<p>
+	日本设计工作室 Nendo&nbsp; 挑选最需要的物品，有的可以装进圆筒里，有的直接设计成圆筒的形状，然后叠放进一个直径 5 厘米的长条圆筒中。急救包外另配有一根单肩背带，可以斜跨在后背上或提在手里，有黑、白、银三种颜色选择。<a href="http://www.qdaily.com/articles/17650.html" target="_blank">点击这里查看我们的详细报道</a>。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/607ab5d913bd.jpg" width="818" height="614" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	17.Keen Home 智能通风孔
+</h4>
+<p>
+	这是一款智能而且极其实用的设备，可以根据你的喜好调控温度，也可以将温度集中在任何地方，有了这款智能通风孔，不管你走到哪里，不管你在哪个房间，都可以有一个舒适安逸的生活环境。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/1119ad8026e4.jpg" width="1000" height="750" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	18.Windows 3.0 纸牌游戏
+</h4>
+<p>
+	在今年发布的 Windows 10 系统中，昔日经典的纸牌接龙游戏终于回归了，重新出现在 Windows 10 的自带游戏列表中。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/c0f10a326f1a.jpg" width="1024" height="687" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	19.Oru Coast Kayak 可折叠皮艇
+</h4>
+<p>
+	Oru Kayak可折叠便携式单人划艇，由特殊材质制成，折叠起来仅仅只是一个背包的大小，并通过设计组装实现防水的功能。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/326716eb6e9f.jpg" width="1024" height="767" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<h4>
+	20.三星衬线电视
+</h4>
+<p>
+	Bouroullec 兄弟今年为三星设计了一款字母 I 轮廓的电视 Serif ，用这对法国设计师的话说，“走近看这就像是一件家具”。它有着一个张开形状的底部支架以及顶部的平板支架，从侧面看上去，类似于衬线字体中的大写字母「I」。<a href="http://www.qdaily.com/articles/15078.html" target="_blank">点击这里查看我们的详细报道</a>。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/b06c65009470.jpg" width="900" height="552" title="1" alt="1" /> 
+</p>
+<p>
+</p>
+<p>
+	题图来自 海洛创意
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="271">
+				<span data-id="271">工业设计</span>
+			</li>
+			<li class="tag item" data-id="768">
+				<span data-id="768">产品设计</span>
+			</li>
+			<li class="tag item" data-id="20927">
+				<span data-id="20927">《连线》杂志</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19608" data-title="《2015 年 20 个最聪明的产品设计，你认同吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19608/medium/19608.jpg?1450875873" data-url="http://www.qdaily.com/mobile/articles/19608.html?source=kuhua" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19458.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19458/medium/19458.jpg?1450685036" alt="2015年最棒的平面设计有哪些？来看看这个榜单">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">2015年最棒的平面设计有哪些？来看看这个榜单</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">13</span>
+				<span class="iconfont icon-heart">510</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19498.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19498/medium/19498.jpg?1450756955" alt="2015年度设计酒店，挑一家作为明年旅行目的地？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">2015年度设计酒店，挑一家作为明年旅行目的地？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">560</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26364.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26364/medium/26364.jpg?1462308299" alt="">
+                        <h1 class="title">苹果一到时尚界，就拥有了另一种人格</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26370.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26370/medium/26370.jpg?1462325721" alt="">
+                        <h1 class="title">聚焦种族的作家执笔，新版《黑豹》漫画的超级英雄会怎样？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26365.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26365/medium/26365.jpeg?1462319871" alt="">
+                        <h1 class="title">大公司头条：Google 与造车业合作无人车，小米变成广告播放器</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26376.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26376/medium/26376.jpg?1462332454" alt="">
+                        <h1 class="title">苹果专利曝光，拿起笔就能认出你是谁</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26367.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26367/medium/26367.jpg?1462322581" alt="">
+                        <h1 class="title">看图：这里是过去24小时内发生的重要的事</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19608">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19608" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">249</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19601.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

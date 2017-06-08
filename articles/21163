@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起。每个周末，《好奇心日报》都会找个主题为你寻找精彩设计。。好奇心日报为您呈现除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="啤酒 啤酒瓶 外包装 奥斯陆 Pilsner Saison " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="zy98P6t155pYQ8kCG5p1Mf4XfaX+8jh1m018SRzrQpY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4215">
+				<span data-id="4215">啤酒</span>
+			</li>
+			<li class="tag item" data-id="22574">
+				<span data-id="22574">啤酒瓶</span>
+			</li>
+			<li class="tag item" data-id="11111">
+				<span data-id="11111">外包装</span>
+			</li>
+			<li class="tag item" data-id="22575">
+				<span data-id="22575">奥斯陆</span>
+			</li>
+			<li class="tag item" data-id="22576">
+				<span data-id="22576">Pilsner</span>
+			</li>
+			<li class="tag item" data-id="22577">
+				<span data-id="22577">Saison</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/113313/small/113313.jpg?1434099367" alt="">
+					</span>
+				<span class="name">马梦涵 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-01-24 10:00:20 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/21163/medium/21163.jpg?1453536057" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21163" data-title="《除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21163/medium/21163.jpg?1453536057" data-url="http://www.qdaily.com/mobile/articles/21163.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				每个周末，《好奇心日报》都会找个主题为你寻找精彩设计。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	说起啤酒，大部分人的脑海里还是夏夜路边摊的烧烤、配着龙虾的畅爽感觉吧，至于啤酒瓶都长什么样？不就是绿莹莹的那种吗，玻璃瓶或者易拉罐……
+</p>
+<p>
+	这些可能都来自我们许多年前根深蒂固的印象，到了这样一个任何商品都要从外观先发制人、精致细节来彰显高端的时代，用心设计啤酒外包装的企业也有不少了，尤其是啤酒文化更流行的海外。加上精酿啤酒也越来越受欢迎（<a href="http://www.qdaily.com/articles/13092.html" target="_blank">有关精酿啤酒的一切，可以看一看这篇</a>），长得好看的啤酒已经有很多。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/733e9cd8623f.jpg" width="1080" height="690" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	不过你会发现下面要介绍的啤酒包装上，可能一个系列有几种不同的类别，并明显标注&nbsp;Saison、Pale Ales 等这样的名称，为了不太了解啤酒的读者也能看懂，还是先介绍一些这些主要的类型。（当然你也可以跳过直接看包装设计）
+</p>
+<p>
+	世界上的啤酒种类实在太多，最主要大的分类可以有&nbsp;Lager（拉格）和 Ale （艾尔）两种，国内常常见到的雪花啊百威啊燕京啊以及多数德国啤酒都属于 Lager。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/8e95a99bfd32.jpg" width="595" height="200" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+	而这两大类的区分标准是发酵技术，Ale 一般指上层发酵（一种发酵技术，篇幅有限，不介绍了），非常醇厚。原料也更丰富，各式水果都可以往里放，所以果香浓郁、风味多样。而 19 世纪以前是没有 Lager 的， 19 世纪中叶后随着低温杀毒技术和微生物技术发展才诞生，适用于大规模的量产和运输。
+</p>
+<p>
+	今天要介绍的基本上都属于 Ale 大类之中的，这里有几个最主要的类型。
+</p>
+<div>
+</div>
+<p>
+	<strong>Pale Ale</strong>：（淡艾尔）是最主要的类型之一，原料中淡色麦芽（Pale malt）所占比例较高，因此啤酒颜色较淡、明亮。特点是有丰富的啤酒花，<span style="text-align:left;">麦芽的味道很重，味浓烈甚至苦涩</span>，因此 Pale Ale 还一度被用来概括苦啤酒。但淡艾尔常常带有热带水果味，较苦的特点让各层风味都很明显。淡艾尔最早<span style="text-align:left;">是指用焦炭烘焙过麦芽之后再发酵做成的啤酒，约在 1624 年这个方式开始被用于烘焙麦芽上，大约 1703 年前后出现“Pale ale”这个名称。Pale Ale 里又包含各式各样的风格。</span> 
+</p>
+<p>
+</p>
+<p>
+	<strong>Saison</strong>&nbsp;：是指农场农民自酿的啤酒，采用艾尔啤酒的发酵方式酿成。通常农民们秋天收获作物以供来年开工时候喝，所以用到的原料也千奇百怪，一般带有浓郁的水果味，包括浆果、苹果、梨子、桃子等，有时可能还会出现蘑菇味。Saison 一般口感鲜，保质期限比较短。
+</p>
+<p>
+	<span style="text-align:left;"></span> 
+</p>
+<p>
+	<b>Brown Ale：</b>这种啤酒的颜色从古铜色到深棕色都有，常见于英格兰地区。基本上与淡艾尔相反，颜色稍深，<span>啤酒花味道和苦味不明显。</span>充满了水果味，还带有很多咖啡、麦芽、焦糖和烤饼干的味道。
+</p>
+<p>
+</p>
+<p>
+	<b>Wheat Beer：</b>以小麦芽为主要原料（占总原料 40% 以上），口感柔顺，甜度中等，也不太有苦味，酸度轻盈，充满丁香和香蕉的味道。另外，这种啤酒还带有烤面包、酵母、蜂蜜以及一些焦糖味。
+</p>
+<p>
+	<strong>Stout &amp; Porter：</strong>基本上都认为 Stout 是 Porter 传到爱尔兰之后当地人进行的改良，所以放到一起说，两种都是黑色的。Porter 是英国人当时喜欢将淡艾尔、棕艾尔等几种混在一起喝，后来就有人专门酿造这样比较平衡的风味，苦味和甜度都比较协调，还带点巧克力的味道。而 Stout 用烘烤后的大麦作原料，多了烘烤的风味，颜色更浓口感更强烈。像 Saison 一样，<span>原料和风味也五花八门，什么燕麦、咖啡之类的。</span> 
+</p>
+<div>
+</div>
+<p>
+	好了，现在来介绍几款从包装外表就让人眼前一亮的啤酒：
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<strong>1.</strong> <a href="http://www.williamstreetbeer.com/our-beer.html" target="_blank">William Street&nbsp; 啤酒公司</a>，位于加拿大安大略省的科堡（Cobourg），这是个有着长久历史的温泉小镇，南部与安大略湖交接 。为了体现当地虽然历史悠久但并不陈旧的海港文化，这个啤酒公司就创造了一系列充斥着奇思妙想、与海有关的可爱形象，想表现当地人很有趣诙谐的性格。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	<span style="text-align:left;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a1687b3e6d4a.jpg" width="1080" height="1220" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	并且瓶装的啤酒还有绳子系着的小纸片，绳子是航海渔船中收帆常用到的绳索系 reef-knot，一样图案的 T 恤和帽子看起来也不错。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6b0fa237b5c3.jpg" width="1080" height="745" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0e741dc9580c.jpg" width="1080" height="917" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c8af0d8edd45.jpg" width="1080" height="887" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/b00141f9e04d.jpg" width="1004" height="578" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	<strong>2.</strong><a href="http://www.brewdog.com/welcome" target="_blank">Brewdog 这个品牌</a>应该算是最会制造噱头、最潮、最叛逆的精酿啤酒品牌之一，就像品牌叫 Brew Dog（酿酒狗）这种名字你也能略知一二，从每一款的命名到包装都带着戏谑，创意性的包装经常有粉丝全套收集。<img src="/uploads/image/201601/90d85b460101.jpg" width="800" height="533" title=" " alt=" " style="text-align:justify;" /><img src="/uploads/image/201601/5114fd7b68df.jpg" width="800" height="533" title=" " alt=" " />创始人 James Watt 和 Martin Dickie 在苏格兰最东北的 Fraserburgh，出于对工业啤酒的厌倦和嫌弃，2007 年 4 月创立了这一品牌。目前应该是苏格兰最大的独立啤酒厂，截至 2015 年10 月，每月生产量已达到 220 万瓶、40 万罐。
+</p>
+<p style="text-align:left;">
+	Brewdog 希望利用新技术和创新想法将老式经典啤酒发扬光大，生产令人惊艳、丰富风味的酒而不是市场上泛滥的工业啤酒。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c21d1b11f828.jpg" width="561" height="561" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/702b45be685d.jpg" width="960" height="640" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	比如有以朋克命名的 Punk IPA（IPA 是上文介绍过的 Pale Ale 中的一款 India Pale Ales，产生于英国殖民印度时期，为了便于运输添加了更多啤酒花所以更苦），金黄色的酒体透着丰富的饼干、焦糖、柚子、柑橘、烟草等的香味。
+</p>
+<p style="text-align:left;">
+	Saint&nbsp;Tactical Nuclear Penguin （核战企鹅）为酒精度 32％ 的烈性&nbsp;Stout，经由两种威士忌橡木桶陈年放置 16 个月，再移至零下 20 度的环境里三周以提高酒精度，带有浓缩花卉威士忌的口感。
+</p>
+<p style="text-align:left;">
+	其实主要还是有趣在瓶身上印的玩笑话，请欣赏：
+</p>
+<p style="text-align:left;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/91b0f4999840.jpg" width="800" height="533" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/8e668a4a5bcf.jpg" width="987" height="622" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0bb435e31ddf.jpg" width="960" height="640" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/8699547a5f9d.jpg" width="1080" height="720" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/0cf6de819160.jpg" width="960" height="640" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<strong>3. </strong>Tollbugata 8 是挪威首都奥斯陆地区的酿造品牌，<a href="http://www.behance.net/gallery/25309175/Tollbugata-8" target="_blank">品牌采用了当地的工业元素风格</a>。全黑色的瓶身，搭配一个精致的外带盒。
+</p>
+<p>
+	<img src="/uploads/image/201601/e4dd7fb1819c.jpg" width="884" height="1330" title=" " alt=" " style="text-align:center;" />最画龙点睛的地方是瓶身贴纸和瓶盖上由数字“8”变形而来的四组图案，比如相交叉的圆环、心形、方形……这是在提倡人与人之间的聚合、连结，以及所有元素的交融。同时这四种不同的标志也象征着 Tollbugata 8 生产的四种啤酒。
+</p>
+<p>
+</p>
+<div>
+</div>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201601/30fa80715609.jpg" width="747" height="183" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+</p>
+<p>
+	<img src="/uploads/image/201601/771ad25c662d.jpg" width="1080" height="607" title=" " alt=" " style="text-align:center;" /> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6998bc3fcd07.jpg" width="1080" height="720" title=" " alt=" " style="text-align:justify;" /><img src="/uploads/image/201601/b483d7ad086f.jpg" width="1080" height="720" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	<strong>4.&nbsp;</strong><a href="http://www.behance.net/gallery/Hopper-Belgian-Beer/5427039" target="_blank">比利时修道院啤酒品牌 Hopper</a>，位于比利时中部的 Brabant&nbsp; 省，修道院啤酒的历史要追溯到 15 世纪（当时欧洲的修道院允许修道士在斋戒日喝富含高营养成分的啤酒代替食物充饥，但啤酒必须由修道院内的修道士自行手工酿造），而这一款的包装设计灵感就来自历史悠久的修道院建筑。尤其是第三张图，啤酒装进包装盒，侧面开的一个小口。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/42153ecd2c13.jpg" width="592" height="2319" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+	<strong>5.</strong>&nbsp;当然 Lager 酿造方式的大众啤酒品牌里也有很注重外表的，比如在设计之都的丹麦，1847 年创立的嘉士伯（Carlsberg）一直挺关注创新和设计，甚至还推出了啤酒护肤品牌。
+</p>
+<p>
+	<img src="/uploads/image/201601/cce07d73252d.jpg" width="777" height="600" title=" " alt=" " /> 
+</p>
+<p>
+	<img src="/uploads/image/201601/aa7b032b62b0.jpg" width="715" height="344" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	不过这里要说的是他们推出的<a href="http://www.carlsberggroup.com/media/IntheMedia/Pages/Copenhagen–ADanishbeerwithInternationalappeal.aspx" target="_blank">一个新系列，就叫做 Copenhage</a>n。与之前标志性的绿色瓶身不同，全透明的瓶身里装着颜色清浅的啤酒，有点像水果酒的样子。这个系列想通过清爽、明亮的造型吸引新一代喝啤酒的年轻人，就是那些关注设计、品味和质量的，<a href="http://www.fastcodesign.com/1663819/is-this-the-worlds-first-androgynous-beer-bottle" target="_blank">尤其是女性</a>。
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/eae73ad6380f.jpg" width="700" height="700" title=" " alt=" " /><img src="/uploads/image/201601/ef29a448fcb6.jpg" width="700" height="678" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	<strong>6.</strong> 与时尚界关系最紧密的荷兰啤酒品牌喜力（Heineken）也是，常常与各式潮牌进行合作、办派对、出联名产品，去年还喝纽约潮店 KITH 合作过。其余时间会像可口可乐一样有特别纪念款的瓶身。
+</p>
+<p style="text-align:left;">
+	<img src="/uploads/image/201601/5650da2ed63b.jpg" width="604" height="308" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/52eb82396b58.jpg" width="618" height="308" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	<strong>7.</strong>&nbsp;在挪威一个港口城市&nbsp;Stavanger&nbsp;&nbsp;<a href="http://lervig.no/en/" target="_blank">的&nbsp;Lervig 啤酒</a>十周年庆限量版设计包装，四瓶一盒。这是他们平时的包装：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/8b0f4541b3aa.jpg" width="1080" height="605" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/d9f274bcd008.jpg" width="536" height="3629" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:left;">
+	<strong>8. </strong>啤酒作为一个随处可见的元素，还有很多艺术、设计类的学生以及专业人士都爱拿它试手，接下来还有一些他们的概念性作品欣赏：
+</p>
+<p style="text-align:left;">
+	<a href="http://inspirationlab.wordpress.com/2011/01/03/beer/" target="_blank">冰岛的一个学生项目：</a>&nbsp;
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/09250f9ad7a5.jpg" width="670" height="446" title=" " alt=" " /><span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/6dc7bda15cc0.jpg" width="1080" height="814" title=" " alt=" " /> 
+</p>
+<p style="text-align:left;">
+	德国一位艺术及应用科学专业的<a href="http://www.behance.net/gallery/23081017/Dynamic-identity-for-bakery-and-brewery" target="_blank">大学生&nbsp;Sung-Hi Leem </a>：
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/02e693465b08.jpg" width="1080" height="608" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/9038c0cce3ed.jpg" width="1080" height="608" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<div style="text-align:left;">
+	<a href="http://www.packagingoftheworld.com/2013/09/nordic-bravery-beer-concept.html" target="_blank"><span>波兰人 </span><span>Alexander Pogrebniak&nbsp;</span><span>为&nbsp;</span><span>Nordic Bravery</span></a><span><a href="http://www.packagingoftheworld.com/2013/09/nordic-bravery-beer-concept.html" target="_blank"> 啤酒设计的包装</a>，以北欧文化为灵感：</span> 
+</div>
+<p style="text-align:center;">
+</p>
+<div style="text-align:left;">
+	<img src="/uploads/image/201601/10eaefcc23bb.jpg" width="640" height="1642" title=" " alt=" " /> 
+</div>
+<p style="text-align:left;">
+	<img src="/uploads/image/201601/9962843e8084.jpg" width="640" height="621" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+</p>
+<p style="text-align:left;">
+	<a href="http://www.packagingoftheworld.com/2013/11/beat-beer-concept.html" target="_blank">匈牙利设计师&nbsp;Kevin Harald Campean </a>设计的黑色不透明磨砂瓶还带有方便手握的痕迹，他说灵感来自流氓们打架斗殴都喜欢抡起啤酒瓶，所以……
+</p>
+<p style="text-align:left;">
+	看起来充满了危险气质。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/60265f692e89.jpg" width="512" height="640" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/c1f2fa44d52d.jpg" width="512" height="640" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/a473741c8976.jpg" width="640" height="427" title=" " alt=" " /> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201601/58b27dc4919c.jpg" width="640" height="428" title=" " alt=" " /><span> </span> 
+</p>
+<p style="text-align:center;">
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<span> </span> 
+</p>
+<p>
+	<span> </span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4215">
+				<span data-id="4215">啤酒</span>
+			</li>
+			<li class="tag item" data-id="22574">
+				<span data-id="22574">啤酒瓶</span>
+			</li>
+			<li class="tag item" data-id="11111">
+				<span data-id="11111">外包装</span>
+			</li>
+			<li class="tag item" data-id="22575">
+				<span data-id="22575">奥斯陆</span>
+			</li>
+			<li class="tag item" data-id="22576">
+				<span data-id="22576">Pilsner</span>
+			</li>
+			<li class="tag item" data-id="22577">
+				<span data-id="22577">Saison</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="21163" data-title="《除了不同的啤酒，这里还有它们高颜值的包装 | 这个设计了不起》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/21163/medium/21163.jpg?1453536057" data-url="http://www.qdaily.com/mobile/articles/21163.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13092.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/13092/medium/13092.jpg?1438771783" alt="精酿啤酒是如何流行起来的？|市场发明家">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业 ⋅ 长文章</span>
+		</p>
+		<h1 class="title">精酿啤酒是如何流行起来的？|市场发明家</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">20</span>
+				<span class="iconfont icon-heart">547</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/19755.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/19755/medium/19755.jpg?1451035020" alt="这些东西，你从未想过它们也需要设计｜这个设计了不起">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">这些东西，你从未想过它们也需要设计｜这个设计了不起</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">20</span>
+				<span class="iconfont icon-heart">611</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27187.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27187/medium/27187.jpg?1463931753" alt="">
+                        <h1 class="title">如果你去墨西哥旅游，不要被这家餐厅的色彩吞没</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27196.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27196/medium/27196.jpg?1463965253" alt="">
+                        <h1 class="title">看图：这里是过去那个周末发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27172.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27172/medium/27172.JPG?1463876648" alt="">
+                        <h1 class="title">Google 年度未来展望大会结束了，回顾一下这三天都发生了什么</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27197.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27197/medium/27197.jpg?1463966539" alt="">
+                        <h1 class="title">「票房」内地电影票房突破 200 亿，但别高兴得太早</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="21163">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="21163" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">473</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/21164.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

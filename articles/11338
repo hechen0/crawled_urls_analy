@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>靠算法招聘比靠人招聘更好吗？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="靠算法招聘比靠人招聘更好吗？。算法如何比人更了解人？。好奇心日报为您呈现靠算法招聘比靠人招聘更好吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 算法 招聘 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="M9qqwfNZkt98+YsfT/GvwSNdRXEJ7SuQNj1apaEnsqw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1171">
+				<span data-id="1171">算法</span>
+			</li>
+			<li class="tag item" data-id="1267">
+				<span data-id="1267">招聘</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">靠算法招聘比靠人招聘更好吗？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/img/missing_face.png" alt="">
+					</span>
+				<span class="name">Claire Cain Miller</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-06-29 08:08:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/11338/medium/11338.jpg?1436640556" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11338" data-title="《靠算法招聘比靠人招聘更好吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11338/medium/11338.jpg?1436640556" data-url="http://www.qdaily.com/mobile/articles/11338.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				算法如何比人更了解人？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	为公司招聘人才似乎是最不可能被自动化的工作，因为它的整个过程似乎都需要靠人的技能来完成，比如与人对话、理解社交过程中的各种暗示——而这些是计算机做不到的。
+</p>
+<p>
+	但人都是会有偏见和偏爱的，往往在不自觉的情况下，招聘者会基于自己和应聘者在和岗位要求毫不想干的方面的相似性（比如招聘者和应聘者是否有共同的朋友、是否上的同一所学校，或者是否喜欢同一项体育运动），而决定招聘某一个人。
+</p>
+<p>
+	这也就是为什么会有研究人员说，传统的找工作方式是存在缺陷的。问题是，如何才能改善这种状况呢？
+</p>
+<p>
+	新一波的创业公司，比如&nbsp;&nbsp;<a href="http://www.gild.com/">Gild</a>&nbsp;、<a href="https://www.entelo.com/">Entelo</a>&nbsp;、<a href="https://textio.com/">Textio</a>&nbsp;、<a href="http://www.doxascore.com/">Doxa</a>&nbsp;&nbsp;和&nbsp;&nbsp;<a href="https://www.gapjumpers.me/">GapJumpers</a>&nbsp;，正在从不同方面试图让招聘过程自动化。他们说，软件可以比人更有效、更高效地完成招聘工作。许多人正在接受这一观点。像&nbsp; Korn Ferry&nbsp; 这样的知名猎头公司也正在<a href="https://hbr.org/2015/04/hiring-c-suite-executives-by-algorithm">将算法融入到它们的工作中</a>。
+</p>
+<p>
+	他们表示，如果他们取得成功，招聘就可能会变得更快、更便宜，而他们的数据可以让招聘者发现更多更适合自己公司的高技能人才。自动化招聘还有另一个可能的效果：一个更加多样化的工作场所。软件要靠数据发现来自各个地方、技能又符合工作要求的候选人，整个过程不会存在人的偏见。
+</p>
+<p>
+	<img src="http://qdaily.com/uploads/image/201506/57541debc2a6.jpg" width="600" height="407" title="1" alt="1" />&nbsp;“每家公司都有自己的审查方式，简历要么是让学校审查过，要么就是由公司自己来审查，”Gild&nbsp;&nbsp;的联合创始人兼首席执行官希尔罗伊·德赛（Sheeroy Desai）说。Gild 开发的软件可以应用于整个招聘流程。“这些方式可能会有一定的预测性，但问题是这些方法都会有偏见，会把一大堆能够胜任某份工作的人筛掉。”
+</p>
+<p>
+	<br />
+</p>
+<p>
+	一些人质疑说，算法怎么可能比人更了解人。“（招人的时候）我看的是他的热情和他是否有欺诈行为，而没有哪个数据算法能达到这个目的，”科技高管猎头公司 Millennium Search 的创始人兼首席执行官阿米什·沙阿（Amish Shah）说。“这靠的是一种直觉、意会，一种化学反应。”他把招聘的过程比作了自己第一次见他的太太。
+</p>
+<p>
+	但一些研究人员说，关于人际化学反应和文化匹配度的思想，已经让很多公司走入了歧途。那是因为很多招聘者把靠化学反应招聘当作是在<a href="http://www.nytimes.com/2015/05/31/opinion/sunday/guess-who-doesnt-fit-in-at-work.html">招和自己兴味相投的人</a>。
+</p>
+<p>
+	“招聘者和应聘者之间的相似性，比如来自同一个地区、上了同一所学校、穿一样的衬衫、点了同样的茶饮，尽管这些东西并不能预测出应聘者将来的工作表现，但它们对招聘者的影响是很大的，”宾夕法尼亚大学沃顿商学院研究行为和判断的卡德·梅塞（Cade Massey）说。
+</p>
+<p>
+	而研究人员说，招聘者恰恰应该做相反的事，寻找能共同管理公司、对公司的战略和价值有责任感的人。“符合企业文化的人，他们心里和工作相关的价值观以及他们的工作风格都能支持公司的战略，”在美国西北大学凯洛格商学院（Kellogg School of Management）研究招聘的劳伦·里维拉（Lauren Rivera）说。“当你去考查很多人口统计学方面的特征时，实际上是偏离了‘符合企业文化’这个标准，并且涉嫌歧视。”
+</p>
+<p>
+	他们推荐公司使用结构化面试，也就是问每一位候选人同样的问题，并给他们布置模拟在职者要面对的一些工作——然后再依靠数据来做决定。
+</p>
+<p>
+	比如&nbsp;Gild&nbsp;就会用雇主自己的数据，再加上从 LinkedIn 或者 GitHub 等网站上可以公开获取到的数据，把二者综合起来以后去寻找那些符合公司要求的人。它试图计算出人们对一份工作的感兴趣的可能性，并基于他们的公司以及职业生涯的轨迹，给出合适联系他们（看他们愿不愿意跳槽）的时机。
+</p>
+<p>
+	德赛说，Gild&nbsp;找到的候选人会比一般雇主找到的候选人更加多样化。在科技界，它发现了一些女性、大龄工程师，并且这些人都具有更宽泛的大学或者社会经济学背景。“如果你公司里有年轻的白人男性工程师，那他们可能认识的会是什么样的人？”德赛说。“也是年轻的白人男性工程师。”在大多数科技公司里，<a href="http://graphics.wsj.com/diversity-in-tech-companies/">80% 以上的技术型员工是男性</a>，而黑人或者拉丁裔的技术型员工只占不到 5%。
+</p>
+<p>
+	一位工程师曾经两次应聘云计算公司&nbsp;Rackspace，但都未能如愿。作为一个曾经在公共电台工作过的退伍军人，他没有高学历，也没有过专业的编程经历，因此并不满足Rackspace&nbsp;所需的要求。但 Gild 根据他自主开发的软件的经历，把他推荐给了一家公司，现在他已经在那家公司工作了。
+</p>
+<p>
+	从某种程度上讲，科技行业是一些招聘类创业公司扎堆的行业，因为这个行业总会有更多的岗位需要人去填补，而在<a href="http://www.nytimes.com/2014/05/29/upshot/if-you-work-in-silicon-valley-odds-are-youre-a-white-man.html">让劳动力大军更加多样化</a>方面，科技公司也面临着压力。比如在 Twitter，只有 10% 的科技型员工是女性，而在 Facebook 和雅虎，这个比例大约是 15%。科技界的一些女性和少数族裔员工说自己处在<a href="http://www.nytimes.com/2014/04/06/technology/technologys-man-problem.html">一个并不令人惬意的文化</a>里，而作为对这种批评的回应，科技公司已经开始发布它们的员工多样化数据，并发誓会做出改变。
+</p>
+<p>
+	一些此类招聘软件听起来就像最有同理心的人力总监一样感情外露。Doxa 这个新服务就计划基于候选人的技能、价值观和适应性，把他们和科技公司，甚至是特定的团队和经理匹配起来——比如团队是更习惯单打独斗还是协同工作，或者女性员工是否感觉到她们的意见被认真对待。“招聘受到的人情的影响太多了，而现在我们做招聘的办法并没有效，因为人们工作的时候不高兴，”Doxa 的联合创始人兼首席执行官娜塔莉·米勒（Nathalie Miller）说。
+</p>
+<p>
+	到目前为止，Doxa&nbsp;已经发现了各个方面的公司工作，而这些岗位以前很少对找工作的人公开。对匿名员工的问卷调查得到的<a href="http://www.doxascore.com/doxa_companies">数据</a>中，包括他们几点上下班、每周花多少小时开会、晚上和周末加班的比例有多少、哪个部门薪资的性别差异最大/最小。
+</p>
+<p>
+	另一个服务&nbsp;Textio使 用机器学习和语言分析的办法来分析星巴克和巴克莱银行等等公司发布的职位信息。公司的联合创始人兼首席执行官基兰·斯奈德（Kieran Snyder）说，Textio 已经发现了超过 2.5 万个显示出性别偏见的短语。像使用“top-tier（一流的）”和“aggressive（进取的）”这类词汇，以及使用像“mission critical（关键任务）”这类体育或军事词汇的职位，都会让来应聘的女性求职者变少。而像“partnerships（合作关系）”和“passion for learning（学习热情）”这类的词汇则会吸引更多的女性求职者。
+</p>
+<p>
+	所以如果招聘这件事变得更加自动化以后，人该去干嘛？研究招聘的人说，数据只是招聘者使用的一种工具而已，这项工作依旧需要人的专业技能。数据正在催生对于新的角色的需求——比如对数据进行分析、告诉公司哪里有不足，并能提供解决方案的招聘多样化顾问。
+</p>
+<p>
+	人们还需要确保算法不只是在把根深蒂固的偏见编码化，或者通过发现具有某些特征的应聘者，让工作场合变得和以前一样同质化。“这类算法有一个危险，”里维拉说。“那就是人们因为自己在依靠算法做事而变得过于自信。”
+</p>
+<p>
+	<br />
+</p>
+<p>
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="1171">
+				<span data-id="1171">算法</span>
+			</li>
+			<li class="tag item" data-id="1267">
+				<span data-id="1267">招聘</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="11338" data-title="《靠算法招聘比靠人招聘更好吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/11338/medium/11338.jpg?1436640556" data-url="http://www.qdaily.com/mobile/articles/11338.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25937.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25937/medium/25937.jpg?1461548899" alt="">
+                        <h1 class="title">莎士比亚逝世 400 周年，我们在这里怀念他带来的一切</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25963.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25963/medium/25963.jpg?1461565195" alt="">
+                        <h1 class="title">要了解全球生活方式，信息图也是一个重要的参考</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25951.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25951/medium/25951.jpg?1461558108" alt="">
+                        <h1 class="title">以后用空气发电可好？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25943.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25943/medium/25943.jpeg?1461552498" alt="">
+                        <h1 class="title">纽约这个建在天桥上的游泳池，风景绝佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25967.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25967/medium/25967.jpg?1461567807" alt="">
+                        <h1 class="title">要了解腐男，以后可以去看动画《腐男子高中生活》</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="11338">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="11338" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">37</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/11309.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>15 年后，iPod 之父回忆 iPod 的诞生_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="15 年后，iPod 之父回忆 iPod 的诞生。乔布斯当时说：“我宁可‘饿’死 Mac 也要把 iPod 做成。”。好奇心日报为您呈现15 年后，iPod 之父回忆 iPod 的诞生的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 iPod Mac 苹果 Google Fuse 飞利浦 tony fadell 乔布斯 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="eA2jaTA4fYoP7fPdlhSUGMIblY2JTXewdAC7lrQsYmQ=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1648">
+				<span data-id="1648">iPod</span>
+			</li>
+			<li class="tag item" data-id="1612">
+				<span data-id="1612">Mac</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="24167">
+				<span data-id="24167">Fuse</span>
+			</li>
+			<li class="tag item" data-id="1670">
+				<span data-id="1670">飞利浦</span>
+			</li>
+			<li class="tag item" data-id="9487">
+				<span data-id="9487">tony fadell</span>
+			</li>
+			<li class="tag item" data-id="184">
+				<span data-id="184">乔布斯</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">15 年后，iPod 之父回忆 iPod 的诞生</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/43366/small/43366.jpg?1430896699" alt="">
+					</span>
+				<span class="name">王民超 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-02 07:30:04 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/23046/medium/23046.jpg?1456762143" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23046" data-title="《15 年后，iPod 之父回忆 iPod 的诞生》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23046/medium/23046.jpg?1456762143" data-url="http://www.qdaily.com/mobile/articles/23046.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				乔布斯当时说：“我宁可‘饿’死 Mac 也要把 iPod 做成。”
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>智能家居品牌 Nest 的创始人 Tony Fadell 现在算是 Google 的人了，但他更出名的身份可能还是“iPod 之父”。最近在<a href="http://venturebeat.com/2016/02/28/how-the-father-of-the-ipod-iphone-and-nest-became-a-tech-visionary/">“硅谷论坛”基金举行的一场沙龙活动</a>上，Fadell&nbsp;回忆起了 15 年前，他帮助苹果研发第一代 iPod 的经历。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/d001b51a4ef0.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">“iPod 之父”Tony Fadell 拿着 iPod，图片来自：<a href="http://9to5mac.com/2014/09/22/tony-fadell-ipod-classic-interview/" style="background-color: rgb(255, 255, 255);">9to5Mac</a></div></figcaption></figure></div><p>iPod 的概念，缘起于 Fadell 做 DJ 时遇到的问题：他不得不每天随身带上一叠 CD。于是 Fadell 自己捣鼓了一个自动唱机，能同时兼容多张 CD，这也是他离开飞利浦后成立的创业公司 Fuse 的主要产品。</p><p>Fuse 并没有取得成功。Fadell 回忆道，当时正是互联网爆发的时代，他先后找了 80 多家风投，得到的回复都只是：“我们只要软件！不要硬件！硬件已经完了！”直到他遇到了苹果公司。</p><p>苹果找他来为 iTunes 做一款体验良好的音乐播放设备。当时，苹果的 iTunes 已经能方便地管理音乐，只是市面上 MP3 体验太差。</p><p>Fadell 最开始只是以顾问身份来苹果公司任职八周。彼时，苹果账上只有 2.5 亿美元，债务却有 5 亿，在个人电脑市场的份额还不到 1%。</p><p>Fadell 问乔布斯：“给我们足够的钱和时间，我们能搞出任何东西来，关键是你会向怎么向我保证销售和营销计划？你看索尼，他们有几乎任何音乐品类的产品，我们该如何击败他们？”<br></p><p>乔布斯的回复是：“你把产品做出来，我保证把我的每一分钱都拿来做宣传，就算‘饿死’Mac 我也要做成这件事。”</p><p>于是 Fadell 开始招兵买马。在访谈中 Fadell 回忆道，他得找一个团队来，说服他们加入一个随时可能关门的公司。而且在苹果内部，大部分人也不觉得他们能成功。“我们在做什么小玩具？当时这件事看起来就是这样子的。”Fadell 说道。</p><p>之后，说起第一代 iPod 发布第一周印象最深刻的事，Fadell 称当时他一直在听证会上，有关于 iPod 的诉讼不断到来，称他们侵权。</p><p>“你知道，当所有人都来告你的时候，说明你成功了。”当时的律师这么告诉 Fadell，但他自己还不这么认为。Fadell 称，在 iPod 之前，他见过了太多的失败，“我希望我取得成功，但我不知道怎样才算是成功。”</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201602/21033f7a523c.jpg" alt="">
+</figure></div><p>在 Fadell 眼中，真正的成功是在两年半后他们决定让 iPod 和 PC 的 Windows 系统兼容之后才到来的。</p><p>最开始，iPod 只能通过 Mac 系统使用。乔布斯也把它视作能帮助多卖几台 Mac 电脑的手段，乔布斯听说 Fadell 的团队正在让 PC 也兼容 iPod 时说：“哦！我还要卖 Mac 呢，这（iPod）是人们为什么要买 Mac 的原因啊！”</p><p>这就导致 iPod 在一开始市场份额少得可怜，Fadell 的团队也不断地向乔布斯提出要让 iPod 兼容 PC。直到第四次，乔布斯终于松口。</p><p class="">2003 年，伴随 Windows 支持到来的第三代 iPod <a href="http://www.qdaily.com/articles/2341.html">成为第一个大获成功的 iPod</a>。</p><p>由此 Fadell 期盼已久的商业成功终于到来，不仅是 iPod 销量猛增，就连 Mac 也开始增长。Fadell 认为这就像毒品，iPod 让很多人第一次尝到了苹果的滋味。</p><p>随后的故事大家就熟悉了。<a href="http://www.qdaily.com/articles/2341.html">从 iPod 到 iPhone</a>，本来只做八周顾问的 Fadell 在苹果一干就是十年，推出了整整 18 代 iPod，以及 iPhone 的最初三代产品。</p><p class=""><b>题图来自：</b><a href="http://www.fastcompany.com/3004923/original-ipod-designer-tony-fadell-how-apples-design-process-leads-nailing-product-launches">FastCompany</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="1648">
+				<span data-id="1648">iPod</span>
+			</li>
+			<li class="tag item" data-id="1612">
+				<span data-id="1612">Mac</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="24167">
+				<span data-id="24167">Fuse</span>
+			</li>
+			<li class="tag item" data-id="1670">
+				<span data-id="1670">飞利浦</span>
+			</li>
+			<li class="tag item" data-id="9487">
+				<span data-id="9487">tony fadell</span>
+			</li>
+			<li class="tag item" data-id="184">
+				<span data-id="184">乔布斯</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="23046" data-title="《15 年后，iPod 之父回忆 iPod 的诞生》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/23046/medium/23046.jpg?1456762143" data-url="http://www.qdaily.com/mobile/articles/23046.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/9670.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/9670/medium/9670.jpg?1436675051" alt="那家做恒温器起家的公司，准备怎么做智能家居？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">那家做恒温器起家的公司，准备怎么做智能家居？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">22</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2952.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/2952/medium/2952.jpg?1436654454" alt="iPod 之父谈智能家居：别太早做平台梦">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">iPod 之父谈智能家居：别太早做平台梦</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">3</span>
+				<span class="iconfont icon-heart">12</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/2542.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/2542/medium/2542.jpg?1436652071" alt="iPod 之父：我 03 年就知道 iPod 会死">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">iPod 之父：我 03 年就知道 iPod 会死</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">2</span>
+				<span class="iconfont icon-heart">16</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27220.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27220/medium/27220.jpg?1463992075" alt="">
+                        <h1 class="title">耐克和巴萨续天价合约，阿迪想靠便宜跑鞋吸引美国人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27218.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27218/medium/27218.jpg?1463990611" alt="">
+                        <h1 class="title">剑桥大学要为领袖开商科博士课程，会是个噱头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27207.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27207/medium/27207.jpg?1463979170" alt="">
+                        <h1 class="title">癌症这个超级复杂的命题，被这个葡萄牙人变成了信息图</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="23046">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="23046" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">65</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/23098.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

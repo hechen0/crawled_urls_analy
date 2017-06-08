@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所。“嘿你的联系人王建国也使用这个看天气要不要跟他加个好友聊聊天”，哦，并不感兴趣呢。。好奇心日报为您呈现做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="好奇心研究所 报告 天气应用 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="WbV0GdCq73dx4B8U5SrfzpBBClaZveNAnYGULsVGlig=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+			<li class="tag item" data-id="25249">
+				<span data-id="25249">天气应用</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/101671/small/101671.jpg?1455867778" alt="">
+					</span>
+				<span class="name">潘姜汐熹 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-03-26 08:30:09 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/24285/medium/24285.jpg?1458640783" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24285" data-title="《做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24285/medium/24285.jpg?1458640783" data-url="http://www.qdaily.com/mobile/articles/24285.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				“嘿你的联系人王建国也使用这个看天气要不要跟他加个好友聊聊天”，哦，并不感兴趣呢。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>          </p><p class="">好奇心研究所的微博（@好奇心研究所）和微信公众号（ID：QLab42）全面上线啦，关注就可以与所长亲密接触。 &nbsp;<br></p><p>上周，本报智能栏目发布了一篇<a href="http://www.qdaily.com/articles/23715.html">《除了告诉你下不下雨，天气应用还能做些什么？》</a>的文章，介绍了一些天气应用可以玩的小花样，比如：</p><p>众包天气应用 Sunshine 依靠智能手机传感器来预测天气，新版还增加了让用户评判天气的功能，通过标签告诉社区里其他用户你那里天气如何；</p><p>Howeather 让你用分享照片的方式告诉人们当地的天气，目标是做天气预报界的 Instagram；</p><p>糙而美的 Honest Weather 会用天气状况自动生成吐槽，就好像你的朋友告诉你天气时会说的那样：天气实在太好了，或者今天实在太（哔——）冷了！</p><p>天气应用都不甘心只做一个安静的温度显示计，但用户们会买账吗？好奇心研究所做了一次“你对天气应用有什么期待？”的调查，我们收到了共 2705 次表态，结果，得票数前四的选项都在强调简洁准确：</p><p>界面简洁。（309 票）</p><p>“准”是唯一要求。（378 票）</p><p>简洁只报天气，软件尽量小。（459 票）</p><p>好好预报，别搞社交。（754 票）</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/21972330e0f7.gif" alt="">
+</figure></div><p>对于一款天气应用，人们的基本诉求就是精准的预测，做到这一点的基础之上尽量简洁，少一些弄巧成拙的花样，尤其是，别试图让我在这里聊天交朋友。有一位读者调侃说，天气应用的幽默应该是“嘿今天有 80% 的可能妹子们会穿短裤记得看腿之前带上墨镜”，而不是“嘿你的联系人王建国也使用这个看天气要不要跟他加个好友聊聊天”。</p><p>应用开发者都希望为用户塑造新的社交场景，以期人们在自己的 app 上面停留更多的时间。</p><p>天气应用要做社交，让你边看预报边聊天气；大姨吗要做社交，让你边记生理期边讨论女性话题；支付宝也要做社交，让你在钱包里跟朋友们交流感情……似乎一个不想做社交的 app 就是一条没有梦想的咸鱼。</p><p>但对于用户来说，我们没有那么多朋友要交啊，你就安分守己做自己，不好吗？</p><p>一方面用户会反感泛滥的社交功能，另一方面，做社区本身也是有利有弊，并不必然能为 app 加强用户粘性。</p><p>之前我们曾经报道过一项关于（那种能让你记录每日饮食和运动卡路里的）美食日志类 app 使用率低的研究，<a href="http://www.qdaily.com/articles/9612.html">根据华盛顿大学研究者的分析，社交功能可能就帮了倒忙。</a></p><p>应用开发者原本的想法是这样的：让大家互相评论互相鼓励，形成一个反馈的环路，从而黏住用户。可这是在社区活跃的前提下，事实上实际情况是这样的：眼看着和你互相关注的小伙伴都不上了，自己也就懒得上了。有一位曾经的用户就说：“后来每次登陆就看到又一批朋友退出了，剩下的都是炫耀自己减肥超成功的，而自己一点进步也没有，这不找虐吗？不上了。”</p><p>一个模式经典并不意味着人人都能套用，总归还是要走心。作为天气应用，一定想给自己加点码的话，不如考虑一下这些需求：</p><p>最好可以有详细的推荐穿多少衣服的功能，那种“今天建议穿外套”这样含糊的穿衣建议好像没啥用；</p><p>自动连通健身 APP，PM2.5 太高就憋叫我出门跑步了。</p><p>让我看看昨天天气温度好么？不然温度只是数字，没有太大参考价值。</p><p>能把天气预报设置成闹钟吗？睁开眼第一眼就可以看见天气。</p><p>不用专门打开，实时提醒做好就够了，不想再买地铁口的🌂了。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201603/458eead9a5ca.gif" alt="">
+</figure></div><p>更多<a href="http://www.qdaily.com/mobs/868.html">群众的声音请戳这里</a>。</p><p class=""><a href="http://www.qdaily.com/labs.html" target="_blank"><em>好奇心研究所</em></a><em>是好奇心日报的一个调查栏目，这是一个探讨各种生活方式问题的互动平台，它针对的可能是生活方式的变化和潮流，也可能是某个品牌的服务。你可以在这里投票、吐槽、表明态度。</em><br></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="11405">
+				<span data-id="11405">好奇心研究所</span>
+			</li>
+			<li class="tag item" data-id="3532">
+				<span data-id="3532">报告</span>
+			</li>
+			<li class="tag item" data-id="25249">
+				<span data-id="25249">天气应用</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="24285" data-title="《做一个安分守己的天气应用，好好预报，别搞社交 | 好奇心研究所》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/24285/medium/24285.jpg?1458640783" data-url="http://www.qdaily.com/mobile/articles/24285.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/23715.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/23715/medium/23715.jpg?1457682125" alt="除了告诉你下不下雨，天气应用还能做些什么？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">除了告诉你下不下雨，天气应用还能做些什么？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">15</span>
+				<span class="iconfont icon-heart">148</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 普通文章格子，占位1x1，智能占位 -->
+<!-- 传入参数：paper, type -->
+<!-- 其中type有三种，分别是xsmall, small,normal,large（好莱坞块，首页块，普通文章页块，长文章页块） -->
+
+
+    <!-- 投票或者我说 -->
+    <a href="/mobile/mobs/868.html" class="com-grid-paper small" >
+        <div class="grid-paper-bd">
+            <div class="imgcover">
+                    <img class="pic lazyload" data-src="/system/papers/papershows/868/indexLargePc2/868.jpg?1457928883" alt="你对天气应用有什么期待？">
+            </div>
+
+            <p class="category clearfix circle x32">
+                <img src="/system/paper_categories/iconwhites/2/medium/2.png?1451033320" alt="我说">
+            </p>
+            <div class="count" data-publishDate="2016-03-16 11:17:02 +0800">
+                <span class="iconfont icon-join"></span>
+                <span class="num">3051</span>
+                <span class="text">人已参加</span>
+            </div>
+        </div>
+        <div class="grid-paper-ft">
+            <div class="title-description">
+                <h1 class="title">你对天气应用有什么期待？</h1>
+                <p class="description">“天气实在太好了！”“今天实在太（哔——）冷了！”你告诉我这些足够了，我不想在你这交朋友，谢谢。</p>
+            </div>
+        </div>
+    </a>
+
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26534.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26534/medium/26534.jpg?1462593100" alt="">
+                        <h1 class="title">上海迪士尼乐园试运营第一天，这里是一些剧透</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26503.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26503/medium/26503.jpg?1462509090" alt="">
+                        <h1 class="title">通用的无人出租车都要上路了？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26521.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26521/medium/26521.jpg?1462525817" alt="">
+                        <h1 class="title">《魔兽》电影的背后，有多少家中国公司？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26527.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26527/medium/26527.jpg?1462539334" alt="">
+                        <h1 class="title">这些给你，大概可以加入母亲节礼物清单｜这个设计了不起</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26518.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26518/medium/26518.jpg?1462524179" alt="">
+                        <h1 class="title">那些大型模型，都是他用这些好使的乐高颗粒搭成的</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="24285">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="24285" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">72</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/24349.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

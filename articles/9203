@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vice 做电视，就好像坏孩子终于加入了成年人派对_商业_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Vice 做电视，就好像坏孩子终于加入了成年人派对。他们认为这一次自己依然能扮演传统媒体的救星角色。。好奇心日报为您呈现Vice 做电视，就好像坏孩子终于加入了成年人派对的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="有线电视 媒体 节目 Vice " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="zMXsWPF2UhAfkW5smzo7lqJPxNj0o9fb8Y09h7OfoGc=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="18">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/18.html" class="category black clearfix x25" data-id="18">
+			<img class="black" src="/system/categories/iconblacks/18/medium/18.png?1411569398" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/18/medium/18.png?1411569398" alt=""/>
+			<span>商业</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2918">
+				<span data-id="2918">有线电视</span>
+			</li>
+			<li class="tag item" data-id="110">
+				<span data-id="110">媒体</span>
+			</li>
+			<li class="tag item" data-id="9693">
+				<span data-id="9693">节目</span>
+			</li>
+			<li class="tag item" data-id="1129">
+				<span data-id="1129">Vice</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Vice 做电视，就好像坏孩子终于加入了成年人派对</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">Sydney Ember and Andrew Ross Sorkin</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-06 08:01:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9203/medium/9203.png?1436687592" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9203" data-title="《Vice 做电视，就好像坏孩子终于加入了成年人派对》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9203/medium/9203.png?1436687592" data-url="http://www.qdaily.com/mobile/articles/9203.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				他们认为这一次自己依然能扮演传统媒体的救星角色。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal" align="left">
+	<span style="white-space:normal;background-color:#CCCCCC;"><em><strong><a href="http://www.nytimes.com/2015/05/04/business/media/as-vice-moves-more-to-tv-it-tries-to-keep-brash-voice.html?ref=business" target="_blank">本文</a></strong></em></span><span style="white-space:normal;outline:none;background-color:#CCCCCC;"><em style="outline:none;"><strong style="outline:none;">由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</strong></em></span>
+</p>
+<p class="MsoNormal" align="left">
+	星期五 Vice Media 的现场音乐会震撼了全场。Vice 的首席执行官 Shane
+Smith 手里拿着一杯饮料，穿着松松垮垮的裤子站在舞台的旁边，身上的纹身露了出来——他正在看说唱歌手兼厨师 Action Bronson 做比萨饼。&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/f02655e20196.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left">
+	这是一个派对后的狂欢活动，对于数百名参加了那天下午 Vice 向广告商和代理商的年度报告会（它是 <span>Digital
+Content NewFronts </span>年度广告狂潮的一部分）之后的客人来说，这是可以尽情喝酒放松的快乐时刻。在播放公司的一系列爆炸性的集锦节目（这些节目的标题都是像“Weediquette” 和 “Gaycation.”这种的）之前，Smith 做了足足五分钟的演讲。
+</p>
+<p class="MsoNormal" align="left">
+	去年，Vice 获得了五亿美元的融资，并与 <span>HBO </span>等一些急于抓住喜欢 <span>Vice </span>的年轻观众的媒体公司签署了价值数亿美元的合同。Vice 说它现在至少值四十亿美元，其中将近十亿是 <span>2015 </span>年的预计收入。从 <span>1994 </span>年刚起步时的一家自由杂志社到现在，Vice 已经走过了很长的路。
+</p>
+<p class="MsoNormal" align="left">
+	尽管资金源源不断地流向 <span>Vice</span>，但这家公司却还在努力地保持自己那种桀骜不驯的形象。在星期五的派对上，Vice 向客人提供了啤酒和鸡尾酒。它显然没有事先演练过对广告商所做的报告，里面充满了指责。Vice 的长期合作者、导演 <span>Spike
+Jonze </span>一度在舞台上问 <span>Smith </span>是不是刚刚喝了酒。
+</p>
+<p class="MsoNormal" align="left">
+	“我的助手试图打断我，”Smith 回答说，“可我清醒得很。”
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/185c79989014.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="white-space:normal;"><em>Vice 的首席执行官 Shane Smit</em></span><span style="white-space:normal;"><em>h</em></span><span style="white-space:normal;"><em>。</em></span><span style="white-space:normal;"><em>Vice&nbsp;</em></span><span style="white-space:normal;"><em>已经与那些觊觎它受众的主流媒体公司签订了价值数亿美元的节目播放协议。</em></span><em></em> 
+</p>
+<p class="MsoNormal" align="left">
+	现在，Vice 很快就会取得自己的有线电视频道，这将为它的非新闻类节目带来一条传统的播出渠道。如果一切按计划进行的话，由赫斯特（Hearst）和迪士尼（Disney）拥有的电视集团 <span>A&amp;E Networks </span>将会把它的历史频道副台 <span>H2 </span>转让给 <span>Vice </span>经营。
+</p>
+<p class="MsoNormal" align="left">
+	这宗交易的公告本来应该上周出来，但是并非所有 <span>A&amp;E </span>的分销合作伙伴——那些拥有 <span>A&amp;E </span>频道落地权的有线电视和卫星电视公司——都同意签署协议，这些消息来源于一位知道谈判内情的人，他不愿意透露姓名，因为这些谈话是私底下进行的。
+</p>
+<p class="MsoNormal" align="left">
+	对 <span>Vice </span>来说，有线电视频道意味着从一个坏孩子般的数字新贵，进一步向主流的媒体公司转变。
+</p>
+<p class="MsoNormal" align="left">
+	由于急切想得到那些被 <span>Vice </span>吸引的年轻观众，21 世纪福克斯、时代华纳和迪士尼等媒体大鳄去年都对 <span>Vice </span>表现出浓厚的兴趣。Vice 最终从 <span>A&amp;E Networks &nbsp;</span>和 <span>&nbsp;&nbsp;Technology Crossover Ventures</span>（一家投资过 Facebook 和 &nbsp;<span>Netflix </span>的硅谷风险投资公司）那里得到了五亿美元的融资。
+</p>
+<p class="MsoNormal" align="left">
+	那些投资让 <span>Vice </span>的估值超过了 <span>25 </span>亿美元。（2013 年，Fox 花了 <span>7000 </span>万美元购买了 <span>Vice </span>百分之五的股份。）
+</p>
+<p class="MsoNormal" align="left">
+	接下来到了三月份，HBO 宣布它已经和 <span>Vice </span>签署了一份<span><a href="http://www.nytimes.com/2015/03/27/business/media/hbo-will-introduce-a-daily-vice-newscast.html">多年的协议</a></span>，将每天播放半个小时 Vice 的新闻节目。Vice 已经在为 <span>HBO </span>的网络制作名为“Vice”的新闻周刊类节目。这个节目将会一直播放到 <span>2018 </span>年，而且将从每年 <span>14 </span>集增加到 <span>35 </span>集。
+</p>
+<p class="MsoNormal" align="left">
+	HBO 节目部的总裁 <span>Michael
+Lombardo </span>在公布交易时说，这“当然是我们在播出的节目上最大的投资之一”。
+</p>
+<p class="MsoNormal" align="left">
+	以布鲁克林为大本营的 <span>Vice </span>最近还和一家名为 <span>Rogers Communications </span>加拿大媒体集团签署了一份价值一亿美元的多年合作协议，将为电视、智能手机和桌面的观众制作原创节目。
+</p>
+<p class="MsoNormal" align="left">
+	Vice 的财务是保密的，但是根据《纽约时报》看过的一份内部文件，而且经一位熟悉 <span>Vice </span>公司财务的人士证实，Vice 今年很有可能创造 <span>9.15 </span>亿美元的利润。
+</p>
+<p class="MsoNormal" align="left">
+	<img src="/uploads/image/201505/82b0c2894936.jpg" alt="" /> 
+</p>
+<p class="MsoNormal" align="left">
+	<em>Vice 上周在纽约的 NewFronts 活动上播放了公司的电视集锦节目。</em>&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	根据这份文件，Vice 第一季度的利润非常可观，达到 <span>5.45 </span>亿美元，其中包括与 <span>HBO </span>和 <span>Rogers </span>新签订的协议所带来的利润。Vice 说，与一年前利润主要来自品牌介绍相比，现在它的利润主要来源于这种类型的内容合作。
+</p>
+<p class="MsoNormal" align="left">
+	Smith 说，Vice 至少值四十亿美元。如果公司的市值再往上升的话，他说他将会考虑让公司上市。
+</p>
+<p class="MsoNormal" align="left">
+	“我不担心钱的问题；我有足够的钱，”Smith 说。他是 <span>Vice </span>最大的股东，在星期五的报告会之后的一次采访中他说，“我关心的是战略性的交易。”
+</p>
+<p class="MsoNormal" align="left">
+	根据 <span>comScore </span>的数据，在美国，Vice Media 的网站三月份的访问量为 <span>3520 </span>万。
+</p>
+<p class="MsoNormal" align="left">
+	据 <span>Horizon Media </span>的研究部主管 <span>Brad Adgate </span>说， 一直到 <span>4 </span>月 <span>12 </span>日，第三季度 <span>Vice </span>每周制作的 <span>HBO </span>节目平均都有 <span>180 </span>万人观看，其中包括重播。（Vice 说它们的节目每周吸引了 <span>300 </span>万的观众观看，其中包括重复播放、在线播放和点播。）
+</p>
+<p class="MsoNormal" align="left">
+	多年来，Smith 一直批评传统的电视，说它们太慢了，无法吸引年轻的观众。但是，如果 <span>Vice </span>缔结的合同都能执行的话，Smith 也许不得不更多地遵照传统媒体的游戏规则出牌。默多克的儿子、Vice 的董事会成员 <span>James
+Murdoch </span>参加了公司周五的报告会，在场的还有其他的顶尖媒体高管。
+</p>
+<p class="MsoNormal" align="left">
+	“他们知道自己需要像我这样的人帮忙，但是他们无法找到自己的出路，”Smith 在周五的采访中说，“我面临的唯一困难在于，我们已经习惯了全身充满难以置信的活力，而他们却令人难以置信地一点活力也没有。”
+</p>
+<p class="MsoNormal" align="left">
+	Vice 在美国拥有了自己的电视频道之后，将会获得某些它觊觎已久的东西，尽管传统的媒体公司正在寻求超越电视的方法。去年，Vice 和时代华纳的交易没有谈成，部分原因在于两家公司无法就 <span>Vice </span>在 <span>24 </span>小时电视网上拥有的控制权达成一致意见。
+</p>
+<p class="MsoNormal" align="left">
+	Vice 说，它希望用非新闻类的节目来填充新的电视频道。Vice 计划播出体育节目、时尚节目、美食节目以及与女演员 <span>Ellen Page </span>一起制作的名为“Gaycation”的旅游节目。它还在和 <span>Kanye West </span>谈做节目的事情。
+</p>
+<p class="MsoNormal" align="left">
+	Vice 的观众是否会看传统的有线频道，我们将拭目以待。但是 <span>Smith </span>说，Vice 实际上已经把前三年所有的插播广告预先卖给了两家最大的广告代理商。
+</p>
+<p class="MsoNormal" align="left">
+	与此同时，Smith 正在为 <span>Vice </span>扮演的新角色——传统媒体公司潜在的救星——而沾沾自喜。
+</p>
+<p class="MsoNormal" align="left">
+	“我是一家内容公司的首席执行官，”Smith 在登机飞往拉斯维加斯观看周六 <span>Floyd
+Mayweather Jr. </span>和 <span>Manny Pacquiao </span>之间的一场拳击比赛之前说，“如果没有意思的话，那为什么还要去做呢？”
+</p>
+<p class="MsoNormal" align="left">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="left">
+	翻译 is译社 曾小楚
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="2918">
+				<span data-id="2918">有线电视</span>
+			</li>
+			<li class="tag item" data-id="110">
+				<span data-id="110">媒体</span>
+			</li>
+			<li class="tag item" data-id="9693">
+				<span data-id="9693">节目</span>
+			</li>
+			<li class="tag item" data-id="1129">
+				<span data-id="1129">Vice</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9203" data-title="《Vice 做电视，就好像坏孩子终于加入了成年人派对》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9203/medium/9203.png?1436687592" data-url="http://www.qdaily.com/mobile/articles/9203.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25238.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25238/medium/25238.jpg?1460312896" alt="">
+                        <h1 class="title">从门户到电商，家家都去做“头条”，它们能成吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25228.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25228/medium/25228.jpg?1460273365" alt="">
+                        <h1 class="title">无人机误闯机场怎么办？这个监测系统可以帮忙</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25239.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25239/medium/25239.jpg?1460298988" alt="">
+                        <h1 class="title">这个设计了不起之今日最佳</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25235.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25235/medium/25235.jpg?1460284710" alt="">
+                        <h1 class="title">乐视要花 100 亿元来买影视版权，这些内容你感兴趣么？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25231.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25231/medium/25231.jpg?1460280103" alt="">
+                        <h1 class="title">看厌了网红DW表，也许你可以试试自带中性气质的这个品牌</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9203">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9203" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">11</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/9225.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

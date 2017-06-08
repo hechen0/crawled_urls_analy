@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人。2014 年的诺贝尔生理学和医学奖颁给了发现大脑细胞帮助老鼠和其他哺乳动物建立周围环境空间地图具体过程的三位研究人员。。好奇心日报为您呈现诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="纽约时报 诺贝尔奖 人脑定位 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="jeu6+QeSehrr2/VolrNMZix+Ubuumln2MzkpEMJQsKg=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3372">
+				<span data-id="3372">诺贝尔奖</span>
+			</li>
+			<li class="tag item" data-id="3373">
+				<span data-id="3373">人脑定位</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/6345/small/6345.jgp?1422064327" alt="">
+					</span>
+				<span class="name">Lawrence K. Altman</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-08 08:49:56 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2711/medium/2711.jpg?1436654047" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2711" data-title="《诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2711/medium/2711.jpg?1436654047" data-url="http://www.qdaily.com/mobile/articles/2711.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				2014 年的诺贝尔生理学和医学奖颁给了发现大脑细胞帮助老鼠和其他哺乳动物建立周围环境空间地图具体过程的三位研究人员。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<em><strong><span style="background-color:#CCCCCC;">本文由《纽约时报》授权《好奇心日报》发布，即使我们允许了也不许转载。</span></strong></em> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	周一，一位拥有英国和美国双重国籍的科学家，以及一对挪威研究员夫妇，成为了今年诺贝尔生理学和医学奖得主。他们的发现是“大脑中的 GPS”，它几乎可以让所有生物在周围的环境中导航。
+</p>
+<p class="MsoNormal">
+	75 岁的约翰·奥基夫（John O’Keefe）是一位拥有英国和美国双重国籍的科学家，他将和 51 岁的梅·布里特·莫泽（May-Britt Moser）及 52 岁的爱德华·I·莫泽（Edvard I. Moser）分享 110 万美元奖金。莫泽夫妇是第二对获得诺贝尔医学奖的夫妇，他们将共同获得全部奖金的一半。
+</p>
+<p class="MsoNormal">
+	<img src="/uploads/image/201410/d5d1595d77b8.jpg" alt="" /> 
+</p>
+<p class="MsoNormal">
+	三位科学家的发现“解决了一个让哲学家和科学家思索了数个世纪的难题——大脑是如何形成我们周围环境的地图，以及我们是如何在复杂的环境中找到路的？”遴选获奖者的瑞典卡罗林斯卡医学院（Karolinska Institute）在颁奖辞中这样写道。
+</p>
+<p class="MsoNormal">
+	卡罗林斯卡学院诺贝尔奖委员会秘书长格兰·K·汉森（Goran K. Hansson）说，他们发现的定位系统可以帮助人们知道自己的位置、找到从一个地方到另一个地方的路，并把这些信息存储起来，以供下次使用。
+</p>
+<h1>
+	大脑地图
+</h1>
+<p>
+	<img src="/uploads/image/201410/09070620e0fb.jpg" alt="" />
+</p>
+<p class="MsoNormal">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;明亮的区域激活率更高
+</p>
+<p class="MsoNormal" style="text-align:center;">
+	<em>来源：《自然》杂志</em>
+</p>
+<p>
+	<br />
+</p>
+<p class="MsoNormal">
+	研究人员证明，在指引生物导航系统的更高层级的认知功能中，有特定的细胞在起作用。
+</p>
+<p class="MsoNormal">
+	奥基夫在 1960 年代就开始使用神经生理学方法，研究大脑是如何控制行为、感知方向的。1971 年，他在老鼠身上发现了内部导航系统的第一个组成部分。他发现，当老鼠位于特定位置时，它大脑的海马体（hippocampus region）里一些神经细胞总是处于激活状态。
+</p>
+<p class="MsoNormal">
+	他把这些神经细胞称为“位置细胞（place cells）”，并证明了这些细胞通过在不同环境中建立内部地图，不仅记录了老鼠看到的环境，而且还记录了它们没有看到的环境。
+</p>
+<p class="MsoNormal">
+	奥基夫出生在纽约一个爱尔兰移民家庭，毕业于纽约城市大学（City College of New York）。1967 年，他在加拿大麦吉尔大学（McGill
+University）获得了生理心理学博士学位，随后在英国伦敦大学学院（University College London）攻读博士后，并留校担任认知神经科学教授。
+</p>
+<p class="MsoNormal">
+	路透社报道说，他告诉记者，获得诺贝尔奖让他感到很吃惊，尤其是他还经历过一段“波折的”年轻岁月。他一开始学的是古罗马文学，后来又学航空学，最后才转向哲学和心理学。
+</p>
+<p class="MsoNormal">
+	因大脑研究而获得过诺贝尔奖的哥伦比亚大学教授埃里克·R·坎德尔（Eric R. Kandel）在接受采访时说，在奥基夫的研究之前，人们对于海马区的认知非常少。“我们当时知道它和记忆有关，但不知道哪种海马区细胞控制哪种功能。”他说。
+</p>
+<p class="MsoNormal">
+	坎德尔说，他曾向诺贝尔奖委员会表达过自己对于提名奥基夫的支持。
+</p>
+<p class="MsoNormal">
+	2005 年，莫泽夫妇发现了大脑定位系统的第二个关键组成部分，他们发现了控制协调和定位的神经细胞，并把它命名为网格细胞。通过测绘在实验室的一个房间里乱跑的老鼠大脑海体区的连接点，“他们在大脑一个名叫内嗅皮层（entorhinal cortex）的邻近区域里，发现了令人激动的细胞激活模式”，诺贝尔奖委员会这样写道。
+</p>
+<p class="MsoNormal">
+	当老鼠经过多个位置时，这些细胞会形成一个六边形网格。每个细胞都会在独特的空间模式中激活。他们的研究显示了“‘位置细胞’和‘网格细胞’是如何共同作用，使确定位置和导航成为可能的”，诺贝尔奖委员会这样写道。
+</p>
+<p class="MsoNormal">
+	莫泽夫妇都出生于挪威乡下没有学术传统的家庭。虽然他们上的是同一所高中，但他们直到在奥斯陆大学（University of Oslo）读本科之前，都还不认识彼此。他们在上大学时就结婚了，现在都在位于特隆赫姆（Trondheim）的挪威科技大学（Norwegian University of Science and Technology）担任教授，并育有两个女儿。
+</p>
+<p class="MsoNormal">
+	在伦敦大学学院做访问学者时，他们都曾跟随奥基夫学习。
+</p>
+<p class="MsoNormal">
+	去年，这三位科学家凭借他们的发现，都获得了哥伦比亚大学颁发的路易莎·格罗斯·霍维茨奖（Louisa Gross Horwitz Prize）。在 92 名获得该奖项的人里，有 46 名都在随后获得了诺贝尔奖。同时获得诺贝尔奖的夫妇只有少数几对，自 1901 年设立诺贝尔医学奖以来，只有不到 12 位女性获得过该奖项。
+</p>
+<p class="MsoNormal">
+	莫泽夫妇说，作为夫妻档共同开展科研有一个重要的优势，那就是可以在有灵感的时候，很快地和对方进行交流，而不必等到开会的时候再说。
+</p>
+<p class="MsoNormal">
+	而人类大脑中存在位置和网格细胞的证据，则来自于最近使用大脑成像技术进行的研究，以及进行了神经外科手术的患者。
+</p>
+<p class="MsoNormal">
+	获奖者的发现，可能会最终让人们更好地理解老年痴呆症和其他神经疾病导致的空间感消失症状。早期老年痴呆症患者的海马体和内嗅皮层往往受到损害，此类患者会迷路，同时无法辨认周围环境。
+</p>
+<p class="MsoNormal">
+	“我们在大脑中发现的细胞，确实就处在老年痴呆症最早伤害到的同一区域，”爱德华·莫泽说。他还说，解开这些伤害为什么会发生的谜题之后，可能到有一天，人们就能找到预防和治疗老年痴呆症的办法，但剩下的研究还需要其他科学家去完成。
+</p>
+<p class="MsoNormal">
+	诺贝尔奖委员会说，这一发现还为理解认知过程（比如记忆、思考和计划）提供了新的思路。
+</p>
+<p class="MsoNormal">
+	梅·布里特·莫泽说，他们感到非常高兴。“这对我们所有人，所有和我们共事和支持过我们的人都是无上的荣耀，”她对美联社记者说。“我们会继续努力，希望能在未来有更多开创性的发现。”
+</p>
+<p class="MsoNormal">
+	她说，当获奖情况宣布时，她的丈夫正在飞机上，他后来告诉挪威通讯社 NTB 说，他是在落地后打开手机，接到一大堆信息和电话，才知道这一消息的。“之前我对此一无所知，”美联社引述他的话说。“当我下飞机的时候，有一位代表拿着一束花说：‘恭喜你获奖。’”
+</p>
+<p class="MsoNormal">
+	根据传统，获奖者将于 12 月 10 日在斯德哥尔摩举办的晚宴上收到奖金。而&nbsp;1896 年 12 月 10 日，诺贝尔奖设立者、炸药的发明人阿尔弗雷德·诺贝尔（Alfred Nobel）逝世。
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	翻译 is译社 葛仲君
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="594">
+				<span data-id="594">纽约时报</span>
+			</li>
+			<li class="tag item" data-id="3372">
+				<span data-id="3372">诺贝尔奖</span>
+			</li>
+			<li class="tag item" data-id="3373">
+				<span data-id="3373">人脑定位</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2711" data-title="《诺贝尔生理和医学奖给了三个发现大脑“内部GPS”的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2711/medium/2711.jpg?1436654047" data-url="http://www.qdaily.com/mobile/articles/2711.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26277.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26277/medium/26277.jpg?1462021750" alt="">
+                        <h1 class="title">都卖酒了，怎么在音乐节还赚不到年轻人的钱？｜音乐节上的 4 个人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26274.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26274/medium/26274.jpg?1462007461" alt="">
+                        <h1 class="title">趁着巴菲特开会，我们来看看他的资产和履历</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26276.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26276/medium/26276.jpg?1462021064" alt="">
+                        <h1 class="title">喜欢蓝染，可以关注The Hill-Side 和 Buaisou 合作系列</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26235.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26235/medium/26235.jpg?1461907685" alt="">
+                        <h1 class="title">这款彩虹高光，红到让Etsy小店48小时所有货都卖光</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2711">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2711" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">8</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2697.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

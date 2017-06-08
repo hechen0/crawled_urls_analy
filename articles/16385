@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>苹果向广告开战，这会改变广告业吗？_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="苹果向广告开战，这会改变广告业吗？。在苹果的推动下，屏蔽广告从一个只有极客在意的功能变成了推动广告变革的力量，我们整理了它带来的 6 个问题。。好奇心日报为您呈现苹果向广告开战，这会改变广告业吗？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 Top 15 广告拦截 iOS9 社交网络 智能手机 移动广告 苹果 Google 百度 爱奇艺 搜狗 腾讯 Facebook Eyeo " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="3eG0Ck2PgMGrsi9LtK5OXRxfTtgp9tnDcsbrCKts620=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">苹果向广告开战，这会改变广告业吗？</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-10-21 15:23:51 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/16385/medium/16385.jpg?1445411188" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16385" data-title="《苹果向广告开战，这会改变广告业吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16385/medium/16385.jpg?1445410767" data-url="http://www.qdaily.com/mobile/articles/16385.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				在苹果的推动下，屏蔽广告从一个只有极客在意的功能变成了推动广告变革的力量，我们整理了它带来的 6 个问题。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+	过去一个月，数字广告遇到一个大麻烦，这个麻烦来自苹果。
+</p>
+<p>
+	9 月 16 日，苹果开始将最新操作系统 iOS 9 推向数亿 iPhone 用户。伴随新系统功能而来的是一系列由第三方开发的去广告应用。
+</p>
+<p>
+</p>
+<p>
+	尽管现在已经不流行先付费才能下载的应用，尽管这个功能被称为拗口的 Safari Extension，但去广告的吸引力太大了。其中一款名为 Peace 的应用登上了付费榜第一名，甩开了轻松的游戏。
+</p>
+<p style="text-align:center;">
+	<span style="text-align:center;"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/1bd3377ef7d4.jpg" width="1080" height="810" title="使用 AdBlock 前后对比" alt="使用 AdBlock 前后对比" /><span>使用 AdBlock 前后对比</span> 
+</p>
+<p>
+</p>
+<p>
+	苹果的新动作对于广告业来说不是什么好兆头。过去一年，苹果卖出 2.59 亿部 iPhone，差不多垄断高端手机市场。再加上原先在 PC 上就已经有超过两亿人使用广告屏蔽插件，很快会有数亿人避开网站的广告。
+</p>
+<p>
+	面对广告屏蔽，《华盛顿邮报》等仰赖广告收入的媒体网站<a href="http://www.buzzfeed.com/matthewzeitlin/the-washington-post-begins-blocking-ad-blockers" target="_blank">用技术手段反击</a>，而关于这么做是否有违道德乃至法律的讨论也在进行中。
+</p>
+<p>
+	手机广告屏蔽对中国的影响还在发酵之中，但去视频广告的功能已经惹来麻烦。本月<a href="http://legal.people.com.cn/n/2015/1008/c42510-27671719.html" target="_blank">，爱奇艺将搜狗告上法庭</a>，要求其赔偿浏览器屏蔽视频广告所造成的损失。
+</p>
+<h2>
+	到底什么广告会受影响？
+</h2>
+<p>
+	尽管广告拦截软件在全球已经有 2 亿人使用了，但并不是所有广告都会受到影响。
+</p>
+<p>
+	譬如，网站所有者自己手动在网页里加一张图片广告或者一个超链接，软件还不可能把它们过滤掉。
+</p>
+<p>
+	但今天的主要广告可不是这么放上去的，汇集数以万计网站的广告平台才是广告的投放渠道。通过这些平台，广告主可以直接把广告投放到数十数百个网站上，而不需要再像传统报纸、杂志那样，一个个联系具体的网站。
+</p>
+<p>
+	<span>方便以外，精准是广告平台带给广告主的更大好处。由于广告平台会在自己接触的所有网页追踪用户信息，这样就会对你生活的地方、喜好、年龄等信息有一个概念。借此，广告主就能利用程序直接针对用户群进行广告投放了。</span> 
+</p>
+<p>
+	这是广告业在互联网时代的重大变革。运营广告平台已经成为 Google、百度的最主要收入来源之一，数以万计的网站也靠着这些平台维生。例如，百度联盟上注册网站就达到了 80 万家，<a href="http://tech.sina.com.cn/i/2015-05-29/doc-iawzuney6371367.shtml">58 同城过去 50% 的收入都是来自于它</a>。
+</p>
+<p>
+	在方便的同时，为了适应所有网站，广告平台的链接、格式也变得有规律可循——这也是广告屏蔽工具所能干掉的广告。根据广告和隐私保护服务 Ghostery 提供的信息，仅仅是广告插件它就能识别并屏蔽 997 个，当中包括了 Google、百度、亚马逊等科技巨头的广告平台。
+</p>
+<h2>
+	为什么干掉广告的点子这么受人欢迎？
+</h2>
+<p>
+</p>
+<p>
+	广告平台无疑是一个对广告主更友好的发明，<a href="http://fortune.com/fortune500/adobe-systems-605/">Google 帝国九成多的收入便来自它</a>。不过，它对于用户来说并不是友好的存在。
+</p>
+<p>
+</p>
+<p>
+	最为直观的结果就是这些广告太丑。不像在杂志和电视上，广告通常都需要精心制作，使它们更适应媒体的品牌。广告平台更强调通用、但同一个广告必然不会适合几千个网站。于是那些看上去风格和网站内容完全不搭调的广告便出现在你的屏幕上了。
+</p>
+<p>
+	此外，每个广告平台都需要网站在页面上增加追踪代码（tracker），以此追踪用户信息。
+</p>
+<p>
+	追踪显而易见的问题是隐私。或许你相信 Google、百度这样千亿规模的美国上市公司有足够的动力和能力保护你的隐私，但谁也不知道能活几年的中小广告平台即便有意愿，也未必能守住秘密。
+</p>
+<p>
+	即便你不在意自己的隐私，这些追踪器的存在使得手机打开网页时需要加载更多内容在减慢速度的同时，会消耗更多流量和电力。
+</p>
+<p>
+	科技媒体&nbsp;<a href="http://www.theverge.com/2015/7/20/9002721/the-mobile-web-sucks">The Verge 就为此撰文</a>称认为如今的网站体验差，就是这些在线广告带来的。具有讽刺意味的是，<a href="http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/">有开发者对这篇文章页面做了个测试</a>，结果整篇文章只有 75KB 大小，但最终该页面却加载了 9.5MB 的流量，多出近 130 倍——多出来的基本是广告和追踪代码。
+</p>
+<p>
+	广告带来的臃肿体验已是网站常态。<a href="http://www.mondaynote.com/2015/07/20/20-home-pages-500-trackers-loaded-%E2%80%A8media-succumbs-to-monitoring-frenzy/">Monday Note 对 20 个新闻网站的首页抽样统计</a>，总计发现 500 个追踪器。其中多数都是被用于广告。
+</p>
+<p>
+	也许对于接上宽带网络的笔脑，追踪器的影响还不太明显。但在手机上人们的耐性可就没那么好了。<a href="http://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales">据《快公司》报道</a>，4 成互联网用户在访问电商的移动网站时，等待时长如果超过 3 秒就会选择放弃。因为人们在手机上的耐心实在有限。
+</p>
+<p>
+</p>
+<h2>
+	谁在屏蔽广告？
+</h2>
+<p>
+	<a href="http://www.qdaily.com/articles/10124.html">据调查机构皮尤的统计</a>，去年移动广告市场的投放量就达到了 190 亿美元。如今对抗这个庞大的市场也已经吸引到了众多的参与者。
+</p>
+<p>
+	早在 2011 年，总部位于德国的公司 Eyeo 就推出了一款名为 AdBlock Plus 的浏览器插件。不过，那时候要想使用它并不那么容易。你需要找到它、下载、安装、然后订阅具体的过滤列表。即便如此 AdBlock Plus 还是获得了上亿用户——上亿相对而言更活跃的互联网用户。
+</p>
+<p>
+	而在如今的 iOS 9 系统上，苹果已经降低了广告拦截工具普及的难度。和使用普通应用差不多了，你只要从应用商店下载，然后开启它。
+</p>
+<p>
+	对于开发者，制作这样一个 Safari 插件难度也不大。一款名为“广告终结者”应用的开发者 Lei Wang 告诉《好奇心日报》，他仅花了 3 天的业余时间就完成了开发。
+</p>
+<p>
+	凭借苹果在全球庞大的用户量，开发者 <a href="http://www.qdaily.com/articles/15563.html">Dean Muphy 就通过自己的应用 Crystal 在一周内获得了 7 万美元的纯收入。</a> 
+</p>
+<p>
+	但 iOS 系统上的广告拦截还不仅限你桌面上的那个蓝圈白底的图标里，苹果已允许开发者在应用内屏蔽网页广告。比如，当你在聊天应用里收到好友发来的网页链接，打开的时候就会强制调用 Safari 浏览器。应用的开发者现在可以让这个浏览器里的网页屏蔽广告。
+</p>
+<p>
+	出于加快网页速度的目的，更多应用的开发者们未来很可能也会在自己的应用里拦截外部页面中的广告，完全不需要用户手动操作。
+</p>
+<p>
+	除了苹果，一些浏览器也已直接集成了这一功能。<a href="http://www.qdaily.com/articles/15928.html">像搜狗就在其浏览器中，就提供了片头广告快进功能。为此，本月还被爱奇艺给告上了法院。</a>不过它也不是做这事的第一家，去年 2 月傲游也推出过类似的功能，但不足一周便被各大视频网站封杀，以至不能使用。毕竟广告可是视频网站重要的收入来源。
+</p>
+<p>
+	甚至，像 360 和金山毒霸等软件，以及小米路由，极路由器等路由器也都开始以此为卖点，想要帮你干掉广告。
+</p>
+<p>
+	不在 Google 控制下的中国 Android 厂商们，如果哪天在手机里默认启动广告屏蔽也不奇怪。省电省流量永远是好的差异化宣传点，<a href="http://www.qdaily.com/articles/15540.html">而差异化是它们最渴求的</a>。
+</p>
+<p>
+</p>
+<h2>
+	去掉广告本身可以是一个生意么？
+</h2>
+<p>
+	尽管 AdBlock Plus 是个开源项目，但它背后的开发公司 Eyeo 还是实现了营利。具体来说，Eyeo 所做的就是通过建立一套白名单，让部分网站上“可接受广告”能正常显示。当然，这是需要收钱的。
+</p>
+<p>
+	<span>同时，使用 Adblock Plus 拦截规则的其他应用，也会得到相应的分成。以此，Eyeo 也扩大了它的影响力。</span> 
+</p>
+<p>
+	<a href="http://www.ft.com/cms/s/0/80a8ce54-a61d-11e4-9bd3-00144feab7de.html#axzz3QZY0Ta4D">《金融时报》甚至有爆料，</a>为了正常显示页面广告，连 Google 、亚马逊和微软都与之妥协，并成为它的客户。Eyeo 辩称这能让一些在意广告体验的公司赚钱，而且维护“白名单”也需要成本。
+</p>
+<p>
+	<a href="http://thenextweb.com/insider/2015/10/14/the-surprising-amount-of-money-an-adblocker-was-offered-to-show-acceptable-ads/">据 TheNextWeb 报道</a>，Eyeo 目前正在商谈以 25 万元美元的现金收购 App Store 里现在卖的最好的一款广告拦截工具 Purify。
+</p>
+<p>
+	而在 Chrome 浏览器上，有 4 千万用户的插件 Adblock 本月初也宣布被神秘卖家买走，并开始支持“可接受广告”。在这个新生的广告拦截市场，已经出现了行业整合的趋势。
+</p>
+<p>
+</p>
+<h2>
+	广告屏蔽普及之后，谁是受害者？
+</h2>
+<p>
+	最先受损失的是靠广告收入为生的网站主。不能显示或者无法追踪的广告，是收不到钱的。
+</p>
+<p>
+	与这些网站关联的广告平台，其所有的收入也都会受到威胁。<a href="http://searchengineland.com/report-75-percent-of-googles-mobile-search-revenue-comes-from-apple-devices-221722">据高盛在其报告中指出</a>，Google 在 2014 年移动广告的收入就达到了 118 亿美元。但其对苹果设备却显得相当依赖，因为移动搜索收入的 75% 都是来自于 iPhone 和 iPad 的用户。
+</p>
+<p>
+	在国内与之对应的，就要数百度了。2015 年第二季度，这家公司在网络营销就达到了 162.27 亿元(约合 26.17 亿美元)，在总营收的占比高达 97.9%，当中绝大多数都是广告。
+</p>
+<p>
+	对于广告主而言，短期内还不会有多少影响。因为广告显示不出来，或者没有被追踪到，他们就不需要为之付钱。
+</p>
+<p>
+	但问题，一旦网页广告的追踪器被干掉，他们将就无法接触到特定的用户群了。其中就包括更为理想的 iPhone 用户，<a href="http://www.wsj.com/articles/apples-share-of-smartphone-industrys-profits-soars-to-92-1436727458">因为他们平均愿意为一部手机花费 624 美元</a>，而 Android 手机的均价却只有 185 美元。
+</p>
+<p>
+	此外，没有精准追踪后，漫无目标地投放广告，也会致使广告费用变得更高。尤其对于小众产品而言，生存也就更难了。
+</p>
+<p>
+	所以如果广告拦截的影响到了极致，现在把“免费+广告”作为商业模式的互联网都不可避免，其波及的就会是一个数以百亿计的市场。
+</p>
+<h2>
+	这会对广告的未来造成什么影响？
+</h2>
+<p>
+	如果广告平台的广告做不下去，必然会带动其他形态广告的流行。
+</p>
+<p>
+	例如，原生广告（native advertising），因为是直接插入在日常发布的信息流中，不仅不会干扰用户的浏览体验，更不会被广告拦截工具屏蔽，也因而成为广告主和网站主热衷的选择。
+</p>
+<p>
+	《纽约时报》自去年 2 月推出原生广告后，<a href="http://adage.com/article/media/york-times-sold-18-2-million-worth-native-ads/296966/">当年原生广告的收入就已经达到了 1800 万美元，占数字广告收入的 10%</a>。
+</p>
+<p>
+	而 2006 年才成立，获得硅谷顶级风投 A16Z 投资的 BuzzFeed，在其网站上你甚至根本看不到广告窗口，因为它的收入几乎都来自于这种原生广告。
+</p>
+<p>
+	百度也在今年 4 月推出<a href="http://nativead.baidu.com:8080/native_ad/install.html">原生广告平台</a>，不过，由于原生广告还是需要进行专门的内容定制，广告联盟也不见得能做好这件事。
+</p>
+<p>
+	更大的影响是广告被投到哪里。尽管未来在网页上，你可能看不到广告了。但在微信和 Facebook 等每天抓住你数十分钟的社交应用里，它们的广告却不会受到影响。所以不管用什么拦截工具，那些出现在公众号和朋友圈广告还是出现在你的面前。
+</p>
+<p>
+	当网站自己的广告受影响以后，网站只会更依赖于把自己的内容发布到这些平台上。哪怕它需要把钱分给腾讯和 Facebook。
+</p>
+<p>
+	这些在手机上直接抓住用户时间的应用的广告本身就在快速增长。例如 <a href="http://www.statista.com/chart/2496/facebook-revenue-by-segment/">Facebook 营收的 72% 都是来自于移动应用广告</a>，而在 3 年前这一业务才刚刚起步。而广告屏蔽将会加速广告主导权从 Google、百度这种“搜索引擎＋广告平台”向 Facebook、腾讯的交接。
+</p>
+<p>
+	在线广告话语权的转变已成为不可避免的一个趋势，苹果将加速这一变革。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="11262">
+				<span data-id="11262">广告拦截</span>
+			</li>
+			<li class="tag item" data-id="15691">
+				<span data-id="15691">iOS9</span>
+			</li>
+			<li class="tag item" data-id="234">
+				<span data-id="234">社交网络</span>
+			</li>
+			<li class="tag item" data-id="238">
+				<span data-id="238">智能手机</span>
+			</li>
+			<li class="tag item" data-id="2663">
+				<span data-id="2663">移动广告</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="261">
+				<span data-id="261">百度</span>
+			</li>
+			<li class="tag item" data-id="2510">
+				<span data-id="2510">爱奇艺</span>
+			</li>
+			<li class="tag item" data-id="17023">
+				<span data-id="17023">搜狗</span>
+			</li>
+			<li class="tag item" data-id="1437">
+				<span data-id="1437">腾讯</span>
+			</li>
+			<li class="tag item" data-id="66">
+				<span data-id="66">Facebook</span>
+			</li>
+			<li class="tag item" data-id="10483">
+				<span data-id="10483">Eyeo</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="16385" data-title="《苹果向广告开战，这会改变广告业吗？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/16385/medium/16385.jpg?1445410767" data-url="http://www.qdaily.com/mobile/articles/16385.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/10567.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/10567/medium/10567.jpg?1436647533" alt="现在已经有两亿人屏蔽了在线广告，这改变了什么？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">现在已经有两亿人屏蔽了在线广告，这改变了什么？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">9</span>
+				<span class="iconfont icon-heart">32</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/15928.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/15928/medium/15928.jpg?1444483243" alt="搜狗浏览器让你快进跳过爱奇艺的广告，然后被告了">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/18/medium/18.png?1433891511" alt="商业">
+				<span>商业</span>
+		</p>
+		<h1 class="title">搜狗浏览器让你快进跳过爱奇艺的广告，然后被告了</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">56</span>
+				<span class="iconfont icon-heart">34</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26437.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26437/medium/26437.jpg?1462412604" alt="">
+                        <h1 class="title">Farfetch 获 1.1 亿美元投资，以及，去沙滩度假可以这样穿｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26449.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26449/medium/26449.jpg?1462425686" alt="">
+                        <h1 class="title">「这世界」英国首相想用足球套近乎，反而被糗了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26463.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26463/medium/26463.jpg?1462436943" alt="">
+                        <h1 class="title">她把报刊亭做成了城市名片，也做成了一门不错的生意</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26464.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26464/medium/26464.jpg?1462438829" alt="">
+                        <h1 class="title">电影《龙虾》的小游戏，来测测你将成为哪种动物</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26435.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26435/medium/26435.jpg?1462409850" alt="">
+                        <h1 class="title">毒舌 Met Gala 红毯秀：这些人穿的和科技真的有关吗</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26469.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26469/medium/26469.jpg?1462439952" alt="">
+                        <h1 class="title">什么家电都得联网，连戴森也带来智能空气净化器</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26466.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26466/medium/26466.jpg?1462437735" alt="">
+                        <h1 class="title">肯德基推出炸鸡味指甲油，可以舔的那一种</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="16385">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="16385" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">329</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/16384.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

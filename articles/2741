@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>如何把一座树屋变成日常？_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="如何把一座树屋变成日常？。急速的城市化进程让所有人都陷入了水泥森林，树屋成为建筑设计师们把居住体验重新带回自然的一种抗议方式。而在越南，树屋终于摆脱了浪漫的度假酒店的宿命，而成为日常生活的一部分。
+。好奇心日报为您呈现如何把一座树屋变成日常？的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="设计 树屋 Vo Trong Nghia Architects 胡志明市 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Z63PclP9AOypGAM+A3sJcWn80wlumq6kC490u4om8Ww=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3407">
+				<span data-id="3407">树屋</span>
+			</li>
+			<li class="tag item" data-id="3408">
+				<span data-id="3408">Vo Trong Nghia Architects</span>
+			</li>
+			<li class="tag item" data-id="3409">
+				<span data-id="3409">胡志明市</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">如何把一座树屋变成日常？</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1329/small/1329.jpg?1418779602" alt="">
+					</span>
+				<span class="name">胡莹</span>
+			</div>
+		<span class="date smart-date" data-originDate="2014-10-10 08:19:06 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/2741/medium/2741.jpg?1436654257" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2741" data-title="《如何把一座树屋变成日常？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2741/medium/2741.jpg?1436654257" data-url="http://www.qdaily.com/mobile/articles/2741.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				急速的城市化进程让所有人都陷入了水泥森林，树屋成为建筑设计师们把居住体验重新带回自然的一种抗议方式。而在越南，树屋终于摆脱了浪漫的度假酒店的宿命，而成为日常生活的一部分。
+
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	一幢幢高楼拔地而起，夺去的是原本属于绿地的空间。在急速的城市化进程中，越南首都胡志明市的植被覆盖率仅剩 0.25% 。怎样才能让更多的绿色空间重回城市呢？在众多人类试图亲近自然的方式中，建一所树屋听起来是个不错的提议。
+</p>
+<p>
+	越南建筑事务所 Vo Trong Nghia Architects 日前就带来了一个名为“树房子（ House for Trees ）”的项目，旨在重建居民与自然的关系。整个项目坐落于胡志明市人口最稠密的一个内陆郊区，只能通过人行道出入。
+</p>
+<p>
+	在仅 15.6 万美元的有限预算条件下，Vo Trong Nghia Architects 最大限度地降低材料成本，整个设计的建筑材料都是就地取材或者利用天然材料，外部墙面皆是用钢筋混凝土和竹制框架构成，内部结构是由裸露的红色长方形砖石构成。
+</p>
+<p>
+	5 座独立的混凝土结构房子承担着大型花盆的功能，用以在其顶部种植树木。每幢房子顶部都覆盖着厚厚的土壤，使得树木可以很好地扎根于此，天然的雨水用于灌溉，不仅节约了水资源，若能推广开来，还能减少热带季风气候下胡志明市城市洪灾发生的可能性。
+</p>
+<p>
+	<img src="/uploads/image/201410/b055364c0701.jpg" alt="" /><span style="line-height:1.5;"></span> 
+</p>
+<p>
+	整体布局方面，5 幢独立的房子在一块不规则的场地下自然围成了一个中央院落，楼顶的树木之间也天然形成了一个互相联系的小型花园。地面层的大玻璃门和可操作的窗户确保了住宅有充足的光照和通风条件，同时还保证了安全和隐私。公共区域，如餐厅和图书馆都位于较低层，而上面则是私人卧室和卫生间。
+</p>
+<p>
+	Vo Trong Nghia Architects 希望借此项目传达出将绿色空间还给城市居民的理念，能够使得高密度居住者与热带树木共存成为“树房子”最大的亮点。
+</p>
+<p>
+	当然，树屋的概念并不新鲜。注重休闲的欧洲人很早就将树屋建到了山野、公园以及森林里，往往是在离地面几米甚至几十米的空中，借助树杈树干巧妙搭建“树屋”，不仅自己享用，而且还用于出租。
+</p>
+<p>
+	灵感来源于纪录片 Treelover 的瑞典哈拉斯村的树屋酒店有 5 间分别命名为鸟巢、镜魔方、机舱、蓝椎体和 UFO 的主题房间，就恰如其分地诠释了人与树木的和谐共生。
+</p>
+<p>
+	<img src="/uploads/image/201410/739531802b54.jpg" alt="" /> 
+</p>
+<p style="text-align:center;">
+	（<span>瑞典哈拉斯村的树屋酒店</span>）
+</p>
+<p>
+	今年年初，Harvest Moon Holidays 在邓巴和北伯威克的海岸上打造了七间手工树屋，距离爱丁堡只要一个小时的路程。每个树屋都有两个双人卧室、一个热水淋浴，一片配备厨房用具的居住区。威尔士名为“ Living-Room ”的 5 间生态树屋建在 200 英亩的牧羊场之上。葡萄牙 Pedras Salgadas 的一座树上小屋位于一座百年历史的公园中，被石板、木头和当地原材料覆盖。每间树屋都有两扇巨大的窗户，一扇俯视公园，一扇仰望星空。这些树屋<span>在旅游旺季，游客爆满，常常一“屋”难求。</span> 
+</p>
+<p>
+	<span><img src="/uploads/image/201410/eb33db68f53d.jpg" alt="" /><img src="/uploads/image/201410/3521802190ad.jpg" alt="" /><br />
+</span> 
+</p>
+<p style="text-align:center;">
+	<span>（<span>葡萄牙 Pedras Salgadas 树屋</span>）</span> 
+</p>
+<p style="text-align:left;">
+	<span style="line-height:1.5;">说个更普遍的非树屋case，现今人们不再满足于树屋只用来度假休闲，还想将其用于日常生活。从这个意义上来说，Vo Trong Nghia Architects 带来的“树房子”项目更值得借鉴。</span> 
+</p>
+<p>
+	<img src="/uploads/image/201410/e46380080915.jpg" alt="" /><img src="/uploads/image/201410/aa751189b4d5.jpg" alt="" /><img src="/uploads/image/201410/6ff697d6f6fe.jpg" alt="" /><img src="/uploads/image/201410/e887974842ac.jpg" alt="" /><img src="/uploads/image/201410/14f7dfe557f8.jpg" alt="" />
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="143">
+				<span data-id="143">设计</span>
+			</li>
+			<li class="tag item" data-id="3407">
+				<span data-id="3407">树屋</span>
+			</li>
+			<li class="tag item" data-id="3408">
+				<span data-id="3408">Vo Trong Nghia Architects</span>
+			</li>
+			<li class="tag item" data-id="3409">
+				<span data-id="3409">胡志明市</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="2741" data-title="《如何把一座树屋变成日常？》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/2741/medium/2741.jpg?1436654257" data-url="http://www.qdaily.com/mobile/articles/2741.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27218.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27218/medium/27218.jpg?1463990611" alt="">
+                        <h1 class="title">剑桥大学要为领袖开商科博士课程，会是个噱头吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27222.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27222/medium/27222.jpg?1463995142" alt="">
+                        <h1 class="title">时隔19年，“香港小虎队”草蜢又发了一张国语专辑</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27207.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27207/medium/27207.jpg?1463979170" alt="">
+                        <h1 class="title">癌症这个超级复杂的命题，被这个葡萄牙人变成了信息图</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="2741">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="2741" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">71</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/2744.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

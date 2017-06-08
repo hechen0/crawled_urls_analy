@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心。这一定是最重要的非自然定律之一。。好奇心日报为您呈现高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="摩尔定律 半导体 这个人有好奇心 英特尔 高登·摩尔 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="VByf+3A2CaAozXpKB8RdBcHc3QqlgPgFoXofbDdYdwU=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8838">
+				<span data-id="8838">摩尔定律</span>
+			</li>
+			<li class="tag item" data-id="6614">
+				<span data-id="6614">半导体</span>
+			</li>
+			<li class="tag item" data-id="16539">
+				<span data-id="16539">这个人有好奇心</span>
+			</li>
+			<li class="tag item" data-id="1014">
+				<span data-id="1014">英特尔</span>
+			</li>
+			<li class="tag item" data-id="16920">
+				<span data-id="16920">高登·摩尔</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/3603/small/3603.png?1414588369" alt="">
+					</span>
+				<span class="name">王杰夫</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-28 09:19:19 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/15831/medium/15831.jpg?1444374511" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15831" data-title="《高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15831/medium/15831.jpg?1444374511" data-url="http://www.qdaily.com/mobile/articles/15831.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这一定是最重要的非自然定律之一。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<h4>
+	<span style="background-color:transparent;"><span>他是谁：<span style="text-align:start;">高登·厄尔·摩尔（Gordon Earle Moore，1929- ），他创建了最重要的半导体公司英特尔，并且提出了最有洞察力的人造定律摩尔定律。</span></span></span> 
+</h4>
+<h4>
+	<span style="background-color:transparent;"><span>好奇心：<span style="text-align:start;">他见证了一个人如何通过不懈的商业运作和努力，将一个猜想变为信条，并最终塑造成定律。</span></span></span> 
+</h4>
+<p>
+	<span style="background-color:transparent;"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span> 
+</p>
+<p>
+	1964 年，时任仙童半导体公司的研发总监的高登·摩尔受邀为《电子学》35 周年刊庆撰写一篇预测半导体组件行业未来 10 年发展前景的文章。
+</p>
+<p>
+	要知道自 1959 年平面晶体管开始生产以来，整个行业才刚刚发展了 5 年而已。用 5 年的经验去预测 10 年后的事情，连摩尔也只能用大胆来形容自己这篇文章。
+</p>
+<p>
+	摩尔回顾了在仙童公司的工作，发现短短的几年内，单个芯片容纳的晶体管数量从 1 个、8 个、16 个一直增加到了 30 个，并且团队已经着手研究容纳 60 个晶体管的技术。如果按照这个增长速度，在 1975 年单个芯片将能够容纳 65000 个元件。
+</p>
+<p>
+	于是，在 1965 年《电子学》杂志上，摩尔用四页篇幅描述了这个大胆的发现。他在《让集成电路填满更多的组件》中写到，“芯片容纳元件数每年增加一倍，短期内这个速率将继续保持。而长期看，这个速率可能有所改变，尽管我们没有理由否认它能继续保持 10 年。”
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/ae3b8a5fcf4c.jpg" width="1080" height="467" title="1965 年摩尔定律" alt="1965 年摩尔定律" /><span>1965 年的摩尔定律（左），1975 年的摩尔定律（右）</span> 
+</p>
+<p>
+</p>
+<p>
+	这也就是摩尔定律最初的表述，当然，它当时还没有被这样称呼。它不过是夹在摩托罗拉关于未来消费电子产品展望和 NASA 关于航天科技发展论述中一篇不起眼的短文章，谁能想到它居然左右了半导体产业之后 50 年的发展进程呢？
+</p>
+<p>
+	在这之后的 10 年中，芯片的复杂程度竟然真的按照摩尔的推测推进着。在 1975 年的 IEEE 国际电子组件大会上，摩尔用事实印证了当年的预测。同时，他发现一些促使集成电路发展的条件逐步弱化，因而修正了当年的结论，把芯片集成度翻倍的时间由 1 年增加到 2 年。
+</p>
+<p>
+	此时，高登·摩尔已经从仙童半导体公司离职，与罗伯特·诺伊斯共同创建了英特尔公司。该公司也成为了在之后 50 年中，践行这一理念的代表公司。加州理工学院的教授 Carver Mead 在采访中引述了摩尔的结论，并将其命名为摩尔定律。
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201510/4200de29e53e.jpg" width="1080" height="1063" title="摩尔" alt="摩尔" /><span><span>高登·摩尔（左）与</span><span>罗伯特·诺伊斯</span>（右）</span> 
+</p>
+<p>
+</p>
+<p>
+	事实上，摩尔定律虽然被称作定律，但它从来都不是客观规律。最初，它不过是高登·摩尔对半导体产业发展经验的总结。但随着制造芯片的工艺日益复杂，半导体公司与研究人员发现，为了跟上摩尔定律的发展，他们需要付出更多的努力避免掉队。
+</p>
+<p>
+	就这样，摩尔定律逐渐成长为行业内的信条。由于新一代的芯片会迅速拉低前一代产品的价格，每个公司为了保持营收，都需要投入大量经费来进行研发。因此在 2005 年，定律提出 40 周年时摩尔自己写到，“摩尔定律事实上是经济学的”。
+</p>
+<p>
+	近十年来，不断有人宣称摩尔定律即将失效。这是因为随着芯片制造日益复杂，硅晶圆的蚀刻技术已经接近材料本身的极限。并且研发成本在产品营收中的占比也逐渐升高，继续提升芯片集成度已经越来越不划算了。
+</p>
+<p>
+	摩尔定律终将有一天会失效。因为它实质上就是在市场经济条件下，半导体产业内进行研发上的竞争时所参照的时间表。正是因为这些公司间的竞争，个人电脑才能够在今天如此普及，更加便携的计算机设备——智能手机，也才能在这几年发展得如此迅猛。
+</p>
+<p>
+	这不禁让人回想起 <a href="http://www.techpolicydaily.com/communications/much-iphone-cost-1991/">2014 年一位记者</a>尝试计算在 1991 年制造一台 iPhone 5s 的价格，答案是至少 356 万美元。而且这台拼凑出来的机器体型巨大只能够在性能上达到 iPhone 的水平，但绝对无法放进你的口袋里。
+</p>
+<p>
+	题图来自：<a href="http://www.gpb.org/news/2015/04/21/50-years-old-the-challenge-keep-moores-law" target="_blank">www.gpb.org</a>、<a href="http://en.wikipedia.org/wiki/Gordon_Moore" target="_blank">Wikipedia</a> 
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;
+</p>
+<p>
+	<em><i><em><em></em></em></i></em> 
+</p>
+<p style="text-align:start;">
+	<em><i><em><em><em><i><em><em><em><i><em><em><em><i><em><em><em><i><em><em><em><i><em><em><em><i><em><em>这是 “50 个有好奇心的人” 系列，我们将介绍：<a href="http://www.qdaily.com/articles/15463.html" target="_blank">约翰·拉塞特</a>，<a href="http://www.qdaily.com/articles/15472.html" target="_blank">道格拉斯·亚当斯</a>，<a href="http://www.qdaily.com/articles/15788.html" target="_blank">艾萨克·阿西莫夫</a>，<a href="http://www.qdaily.com/articles/15838.html" target="_blank">詹姆斯·卡梅隆</a>&nbsp;，<a href="http://www.qdaily.com/articles/15845.html" target="_blank">亨利·卢斯</a>，<a href="http://www.qdaily.com/articles/15424.html" target="_blank">泰德·特纳</a>，<a href="http://www.qdaily.com/articles/15844.html" target="_blank">约翰·亨德里克斯，</a><a href="http://www.qdaily.com/articles/15434.html" target="_blank">斯图尔特·布兰德</a>，<a href="http://www.qdaily.com/articles/15810.html" target="_blank">亨利·福特</a>，<a href="http://www.qdaily.com/articles/15477.html" target="_blank">约翰·马龙</a>，<a href="http://www.qdaily.com/articles/15820.html" target="_blank">盛田昭夫</a>，<a href="http://www.qdaily.com/articles/15475.html" target="_blank">迈克尔·米尔肯</a>，<a href="http://www.qdaily.com/articles/15814.html" target="_blank">诺兰·布什内尔</a>，<a href="http://www.qdaily.com/articles/15479.html" target="_blank">安藤百福</a>，<a href="http://www.qdaily.com/articles/15823.html" target="_blank">乔治·伊士曼</a>，<a href="http://www.qdaily.com/articles/15480.html" target="_blank">托马斯·米奇利</a>，<a href="http://www.qdaily.com/articles/15468.html" target="_blank">史蒂芬·沃尔夫勒姆</a>，<a href="http://www.qdaily.com/articles/15832.html" target="_blank">冯·诺依曼</a>，<a href="http://www.qdaily.com/articles/15833.html" target="_blank">拉里·佩奇</a>，<a href="http://www.qdaily.com/articles/15460.html" target="_blank">艾伦·图灵</a>，<a href="http://www.qdaily.com/articles/15831.html" target="_blank">高登·摩尔</a>，<a href="http://www.qdaily.com/articles/15778.html" target="_blank">安迪·沃霍尔</a>，<a href="http://www.qdaily.com/articles/15478.html" target="_blank">伍迪·艾伦</a>，<a href="http://www.qdaily.com/articles/15837.html" target="_blank">“中本聪”</a>，<a href="http://www.qdaily.com/articles/15398.html" target="_blank">“班克斯”</a>，<a href="http://www.qdaily.com/articles/15473.html" target="_blank">唐纳德·诺曼</a>，<a href="http://www.qdaily.com/articles/15435.html" target="_blank">大卫·格芬</a>，<a href="http://www.qdaily.com/articles/15895.html" target="_blank">保罗·史密斯</a>，<a href="http://www.qdaily.com/articles/15412.html" target="_blank">大卫·奥格威</a>，<a href="http://www.qdaily.com/articles/15834.html" target="_blank">萨奇兄弟</a>，<a href="http://www.qdaily.com/articles/15825.html" target="_blank">查理·芒格</a>，<a href="http://www.qdaily.com/articles/15419.html" target="_blank">查尔斯·郎佛迅</a>，<a href="http://www.qdaily.com/articles/15829.html" target="_blank">拉里·金</a>，<a href="http://www.qdaily.com/articles/15779.html" target="_blank">林纳斯·托瓦兹</a>，<a href="http://www.qdaily.com/articles/15442.html" target="_blank">道格·恩格尔巴特</a>，<a href="http://www.qdaily.com/articles/15781.html" target="_blank">马克·安德里森</a>，<a href="http://www.qdaily.com/articles/15783.html" target="_blank">埃德温·兰德</a>，<a href="http://www.qdaily.com/articles/15422.html" target="_blank">乔治·巴帕尼古拉</a>，<a href="http://www.qdaily.com/articles/15456.html" target="_blank">杰夫·贝索斯</a>，<a href="http://www.qdaily.com/articles/15457.html" target="_blank">保罗·格雷厄姆</a>，<a href="http://www.qdaily.com/articles/15855.html" target="_blank">哈利·厄尔</a>，<a href="http://www.qdaily.com/articles/15812.html" target="_blank">蒂姆·伯纳斯·李</a>，<a href="http://www.qdaily.com/articles/15441.html" target="_blank">埃德温·阿姆斯特朗</a>，<a href="http://www.qdaily.com/articles/15872.html" target="_blank">雷蒙德·达马迪安</a></em><b><em>，</em></b><em><a href="http://www.qdaily.com/articles/15870.html" target="_blank">尼古拉·特斯拉</a>，<a href="http://www.qdaily.com/articles/15403.html" target="_blank">詹姆斯·拉夫洛克</a>，<a href="http://www.qdaily.com/articles/15440.html" target="_blank">威廉·杜兰特</a>，<a href="http://www.qdaily.com/articles/15875.html" target="_blank">吉姆·克拉克</a>，<a href="http://www.qdaily.com/articles/15852.html" target="_blank">霍华德·休斯</a>，<a href="http://www.qdaily.com/articles/15438.html" target="_blank">肖恩·帕克</a>。名单可能会继续扩充，如果我们发现了足够了不起的好奇心。&nbsp;</em></em></i></em></em></em></i></em></em></em></i></em></em><em><a href="http://www.qdaily.com/articles/15403.html" target="_blank"></a><a href="http://www.qdaily.com/articles/15440.html" target="_blank"></a><a href="http://www.qdaily.com/articles/15438.html" target="_blank"></a></em></em></i></em></em></em></i></em></em></em></i></em></em></em></i></em> 
+</p>
+<p>
+	<i><em></em></i> 
+</p>
+<p>
+	<i><em><a href="http://www.qdaily.com/articles/15403.html" target="_blank"></a><a href="http://www.qdaily.com/articles/15440.html" target="_blank"></a><a href="http://www.qdaily.com/articles/15438.html" target="_blank"></a></em></i> 
+</p>
+<p>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="8838">
+				<span data-id="8838">摩尔定律</span>
+			</li>
+			<li class="tag item" data-id="6614">
+				<span data-id="6614">半导体</span>
+			</li>
+			<li class="tag item" data-id="16539">
+				<span data-id="16539">这个人有好奇心</span>
+			</li>
+			<li class="tag item" data-id="1014">
+				<span data-id="1014">英特尔</span>
+			</li>
+			<li class="tag item" data-id="16920">
+				<span data-id="16920">高登·摩尔</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="15831" data-title="《高登·摩尔：推动整个计算机产业发展 50 年的定律其实是他造的| 这个人有好奇心》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/15831/medium/15831.jpg?1444374511" data-url="http://www.qdaily.com/mobile/articles/15831.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/8394.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/8394/medium/8394.jpg?1436694638" alt="智能手表来了，但它们之所以存在不是因为外壳，而是成本降低的传感器">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能 ⋅ 10 个图</span>
+		</p>
+		<h1 class="title">智能手表来了，但它们之所以存在不是因为外壳，而是成本降低的传感器</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">10</span>
+				<span class="iconfont icon-heart">157</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26567.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26567/medium/26567.jpg?1462760882" alt="">
+                        <h1 class="title">Gucci 退出可疑的国际反伪联盟，以及，这些泳衣值得推荐｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26568.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26568/medium/26568.jpg?1462758893" alt="">
+                        <h1 class="title">100万美金全球买房，分别可以买到多大的地方？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26573.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26573/medium/26573.jpg?1462763877" alt="">
+                        <h1 class="title">这是一个画面唯美，但剧情伤感而离奇的游戏</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26566.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26566/medium/26566.jpg?1462762677" alt="">
+                        <h1 class="title">看图：这里是过去那个周末发生的重要的事</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26565.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26565/medium/26565.jpg?1462754534" alt="">
+                        <h1 class="title">「票房」五年里，“美国队长”票房为何会增长如此之快？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="15831">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="15831" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">45</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/18156.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-4fee9498ce4e6a393edb3aa64b0e505b.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

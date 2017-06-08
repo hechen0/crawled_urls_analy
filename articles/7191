@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术_游戏_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术。GDC 2015 系列报道的最终篇。。好奇心日报为您呈现「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="GDC 游戏 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="eT0SLo3foj9uW/invo4qR/MGRA3mYGw0ObliPAeftfw=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/54.html" class="category x25" data-id="54">
+			<img src="/system/categories/iconwhites/54/medium/54.png?1418161513" alt=""/>
+			<span>游戏</span>
+		</a>
+		<h1 class="title">「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+				<span class="name">李如一</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-09 11:29:14 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/7191/medium/7191.jpg?1425866736" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7191" data-title="《「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7191/medium/7191.jpg?1436688301" data-url="http://www.qdaily.com/mobile/articles/7191.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				GDC 2015 系列报道的最终篇。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p style="color:#000000;font-size:37px;line-height:42px;margin-top:42px;margin-bottom:21px;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	<span style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size:1.1429em;line-height:1.3125em;">每个人参加展会的理由各不相同。有人是去做生意的，有人是去社交的，有人是去试图搞清楚一些事情的（比如我），还有的人是去领奖的。</span> 
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	或许你在某个游戏的 App Store 或&nbsp;<a href="http://store.steampowered.com" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">Steam</a>&nbsp;页面的简介文字里见过开发者罗列各种奖项，但只有在 GDC 的独立游戏大奖（IGF Awards）和游戏开发者优选大奖（Game Developers Choice Awards）颁奖礼上才能切实体会到每个奖项背后的荣光。我没有去过奥斯卡颁奖礼现场，但今年 GDC 上的这两个颁奖礼的制作水准都达到了闪闪发光的高度。如果游戏在你心目中仍然是一种和「宅」或「腐」脱离不了干系的东西的话，请不要从类似的出发点来想像这两场颁奖礼。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	这在很大程度上要归功于 Tim Schafer 与 Nathan Vella 两位主持人。正如每年奥斯卡颁奖礼的主持人总是关注的焦点一样，Schafer 与 Vella 的幽默感和节奏感都不输给我们熟悉的娱乐圈一线主持人。Schafer 尤其惊艳。近日的话题之作、1990 年代的经典冒险游戏&nbsp;<a href="http://en.wikipedia.org/wiki/Grim_Fandango" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">Grim Fandango</a>&nbsp;便是在他的生花妙笔下才有了那充满 noir 氛围的经典台词。Schafer 身材魁梧，站在演讲台后方有种不怒自威的气势。他妙语如珠，绝不冷场，甚至在左手上套了个粉色布偶，自己和自己演了一出双簧。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	每年的独立游戏大奖和游戏开发者优选大奖分别会在独立游戏——预算较低、创作自由度较大、实验性较强——和主流游戏作品中选出一批杰出作品。前者的奖项包括最佳声音设计奖、最佳游戏设计奖、最佳美术奖、最佳叙事奖、创新奖、最佳学生作品奖、以及 Seumas McNally 大奖，后者则由新星奖、创新奖、最佳技术奖、最佳声音设计奖、最佳美术奖、最佳叙事奖、最佳游戏设计奖、最佳手游奖和年度游戏大奖构成（每年的奖项名目略有不同）。如果要把今年获得提名的几十款游戏都写一遍，恐怕会是一个长达两个月的连载。我鼓励大家对着两个奖项的提名名单（<a href="http://igf.com/2015/01/2015_independent_games_festiva_1.html" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">2015 独立游戏大奖</a>、<a href="http://www.gamechoiceawards.com/winners/index.html" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">游戏开发者优选大奖</a>）按图索骥，但在本文里我只想重点谈谈今年独立游戏大奖之「创新奖」（Nuovo Award）的获奖作品&nbsp;<a href="http://tetrageddon.com/" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;"><i>Tetrageddon Games</i></a>&nbsp;及其作者&nbsp;<a href="http://nathalielawhead.com/" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">Nathalie Lawhead</a>。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	你在维基百科上找不到 Nathalie Lawhead 的词条。<a href="http://www.nathalielawhead.com/candybox/about" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">nathalielawhead.com 的个人简介页面</a>并不是以「Nathalie Lawhead 是一位……」开头，而是列出了她自己的十三种线上存在：电邮、Google Talk、Skype、YouTube、Vimeo、Tumblr、Twitter、MySpace (MySpace!)、LinkedIn、Facebook，以及几个我没有听说过的名字。在那下面是她的肖像照，来自流行文化、电脑文化和游戏文化中的各种五彩缤纷的元素把她包裹在中间，Lawhead 低头站着，手里扶着一块木质画框，画面正中是一个图片在电脑上无法显示时的错误图标。即便在 27 寸的显示器上把浏览器窗口纵向拉满，你也无法在不滚屏的情况下看到那句「Nathalie Lawhead 是一位……」如果你不是那种从来不手动输入网址的人的话，这时抬头看看浏览器的地址栏，会发现 URL 中紧跟着 .com 的路径是 /candybox。事实上，输入 nathalielawhead.com 并回车之后，网址会直接跳转到 nathalielawhead.com/candybox。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	这不是一个符合如今主流网页设计审美和用户体验原则的站点。它不干净，不优雅，主要信息不突出，波普风格的杂烩风格像万花筒般令人目眩，同时又带有一种蔑视成俗的狂气。的的确确是一个装满了糖果的盒子。毫无疑问，这是一个数字世界的原住民。「The internet is my homeland!」Lawhead 在自己的&nbsp;<a href="https://twitter.com/alienmelon" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">Twitter 简介</a>里写道。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<i>Tetrageddon Games</i>&nbsp;是伪装成游戏的<a href="http://en.wikipedia.org/wiki/Internet_art" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">网络艺术</a>——1990 年代的那种把互联网、万维网等新媒介当成创作载体与素材的艺术作品。它对于电脑、游戏、互联网以及数字文化的历史有着高度的自觉和刻意的指涉。根据 Lawhead 本人在游戏中的介绍，它是「一部开源的免费街机游戏」，并且「对作为艺术的游戏、作为游戏的互联网、音乐诠释以及游戏中的喜剧主题进行了探索。」这段简介是&nbsp;<i>Tetrageddon Games</i>&nbsp;里为数不多的正经文字。如果你注意到了 games 用的是复数的话，没错，这不是一款游戏，而是聚合了九个小游戏的「九合一」。其中一款名叫 FROGGY 的游戏显然是对 1981 年的&nbsp;<a href="http://en.wikipedia.org/wiki/Frogger" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">Frogger</a>&nbsp;的戏仿。Lawhead 在 FROGGY 的简介里写道：
+</p>
+<blockquote style="margin-top:21px;margin-bottom:21px;color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size:15px;line-height:21px;white-space:normal;">
+	<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:16.5px;line-height:1.6em;font-style:italic;">
+		传奇性的青蛙游戏 FROGGY 用其石破天惊的叙事永远改变了青蛙产业的青蛙故事模式。许多批评家称其为青蛙中的《公民凯恩》。FROGGY 最重要的成就在于对青蛙进行了准确的再现，为此它获得了青蛙娱乐界的许多青蛙提名，包括《PC 青蛙》的「年度青蛙」大奖。
+	</p>
+</blockquote>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	简介被放在一块以「Windows 死机蓝」为背景色的方块当中，署以 ABOUT.GAME 的标题。你读着这段文字的时候，背景传来得是用各种早年游戏的音效和配乐拼贴而成的声响。整个页面的背景由一个个老游戏的截图组成。原子弹在远处爆炸，高楼大厦前烈火熊熊燃烧，被轰飞的汽车如碎片般跌落，正是点题的末世景象。（Tetrageddon 一词系拼合 Tetris（《俄罗斯方块》）与 armageddon（《新约》中末日审判前的正邪战争）而成。）
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	作为如假包换的网络艺术，<i>Tetrageddon Games</i>&nbsp;中的「典」不只来自电脑和游戏。玩家点开某个小游戏后返回导航页，会看到下面这幅图像：
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<img src="/uploads/image/201503/b08bea4104fd.jpg" alt="" /> 
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<em>当你玩完&nbsp;</em><i><em>Tetrageddon Games</em></i><em>&nbsp;中的某个小游戏返回目录页时，会看到这张假的报纸，头条标题写着「用户终于回来了！」。细读会发现正文也是用一本正经的口吻写的假新闻。</em> 
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<em>图片来源：tetrageddon.com。</em> 
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	经常关注当代艺术的玩家玩到这里，已经几乎可以听到批评家的翻译腔滥调：「<i>Tetrageddon Games</i>&nbsp;对网页浏览行为习惯进行了反讽与批判。通过将『返回上一页』这个司空见惯的动作演化成为恶意但又具幽默感的场域，艺术家 Lawhead 把日常经验中的平庸时间转译成了讽刺文学的实验场。如果库哈斯的&nbsp;<a href="http://www.oma.eu/oma" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">AMO</a>&nbsp;团队要在万维网这一媒介里做<a href="http://www.oma.eu/publications/content/" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">《Content》</a>的续集，<i>Tetrageddon Games</i>&nbsp;就会是他们最后的成品。」
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<i>Tetrageddon Games</i>&nbsp;无疑是智性的。对数字文化典故不熟的玩家遇到它，就仿佛没有好好上中学古文课的中国人遇到了用典浩瀚繁杂的古代经典，很容易不知所云，望而却步。妙就妙在它用来编织典故迷宫的，呃，场域，是当今世界的<a href="http://www.qdaily.com/display/articles/4158.html" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">第一媒介</a>——电子游戏。对游戏再冷感的人，也能从中辨认出自己熟悉的线索；再怎么说你也玩过《俄罗斯方块》吧。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	Lawhead 并不靠游戏赚钱，她的收入来自网页开发和设计工作。她独立一人包办了游戏的设计、开发、写作与音乐，此外在她的网站上你还能找到诗歌、俳句、摄影、漫画、技术文档、源代码、以及她自己设计的 WordPress 模版供人免费下载。老实说，看到她的网站和作品时，我立刻幻想这会不会就是活跃于 1990 年代的神秘网络游侠&nbsp;<a href="http://en.wikipedia.org/wiki/Netochka_Nezvanova_(author)" style="color:#0D6EA1;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;">antiorp</a>&nbsp;本尊。（她说不是，但谁知道呢？）
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	<i>Tetrageddon Games</i>&nbsp;不是一般意义上的游戏。但对我而言，今年的独立游戏大奖把创新奖颁给一件介于游戏和艺术边界的作品是一件赏心乐事。它意味着游戏圈比媒体近期呈现出来的形象更具包容性。Lawhead 生于传统美术世家，但她长年浸润在数字文化当中，借助互联网这一「伟大均衡器」将自己训练成为「全栈」（full-stack）民间艺术家。她没有当代艺术圈的认证，甚至也未必谈得上是哪怕重度游戏玩家心目中的独立开发英雄。一人军团的工作方式意味着她的艺术/游戏粗糙但强悍，简陋但狂放。通过藐视一切类型与既成框架的创造，她实现了真正的个人精神自由。这，原本就是个人电脑这项伟大发明自 1970 年代末开始与我们人类的约定。
+</p>
+<p style="color:#111111;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;margin-top:1.3125em;margin-bottom:1.3125em;font-size:1.1429em;line-height:1.3125em;white-space:normal;">
+	（本文系李如一 GDC 2015 系列报道的最终篇。）
+</p>
+<p style="padding:0px;margin-top:0px;margin-bottom:0px;font-size:30px;line-height:normal;color:#000000;white-space:normal;">
+	<b><strong style="color:#000000;outline:none;"><a href="http://www.qdaily.com/display/articles/7107.html" style="color:#000000;outline:none;">「在全球游戏开发者大会」Crossy Road 的正义感和不龌龊的杀必死</a></strong></b> 
+</p>
+<p style="padding:0px;margin-top:0px;margin-bottom:0px;font-size:30px;line-height:normal;color:#000000;white-space:normal;">
+	<a href="http://www.qdaily.com/display/articles/7060.html" style="color:#000000;outline:none;"><span style="color:#000000;outline:none;"><span style="outline-color:initial;outline-width:initial;"><strong style="outline:none;"></strong></span></span><strong style="color:#000000;outline:none;">「在全球游戏开发者大会」游戏如何叙事？</strong></a>
+</p>
+<p style="padding:0px;margin:0px;font-size:36px;line-height:44px;font-weight:normal;color:#000000;white-space:normal;background-color:#FFFFFF;">
+	<a href="http://www.qdaily.com/display/articles/7174.html" target="_blank"><strong>「在全</strong><strong>球游戏开发者大会」虚拟现实和智能家居</strong></a>
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="7462">
+				<span data-id="7462">GDC</span>
+			</li>
+			<li class="tag item" data-id="13">
+				<span data-id="13">游戏</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7191" data-title="《「在全球游戏开发者大会」Tetrageddon Games，伪装成游戏的网络艺术》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7191/medium/7191.jpg?1436688301" data-url="http://www.qdaily.com/mobile/articles/7191.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24658.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24658/medium/24658.JPG?1459243490" alt="">
+                        <h1 class="title">9.7 英寸 iPad Pro，不像它的兄长那么“专业”</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24633.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24633/medium/24633.jpg?1459229835" alt="">
+                        <h1 class="title">「这世界」明明是巴基斯坦出事了，你警告我干吗？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24634.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24634/medium/24634.jpg?1459234270" alt="">
+                        <h1 class="title">Calvin Klein 之前以为，他的简洁只适合美国女人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24651.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24651/medium/24651.jpg?1459239643" alt="">
+                        <h1 class="title">与其说是户外装置广告，更像邀请你参与一场秀</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24643.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24643/medium/24643.jpg?1459238768" alt="">
+                        <h1 class="title">郭敬明的新电影《爵迹》，会在国庆档上映</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24664.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24664/medium/24664.jpg?1459256330" alt="">
+                        <h1 class="title">手机实在太主流，淘宝取消了移动部门</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24637.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24637/medium/24637.jpg?1459233739" alt="">
+                        <h1 class="title">内衣在移动拖车里卖，你会想去试一试吗？</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7191">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7191" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">86</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7190.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

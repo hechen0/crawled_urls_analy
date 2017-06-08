@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>当年轻人和小办公室在一起，就有脑洞大开的设计_设计_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="当年轻人和小办公室在一起，就有脑洞大开的设计。HAY 请了一群学生，做出来的效果令人惊讶。。好奇心日报为您呈现当年轻人和小办公室在一起，就有脑洞大开的设计的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="办公家具 趋势 HAY " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-fc9f94f9b0385e64d8da426f2b437b44.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="kfuZFKoTfdnChgbg708cmAQmb6HCHpC47Gb4QLvo26A=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="17">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/17.html" class="category black clearfix x25" data-id="17">
+			<img class="black" src="/system/categories/iconblacks/17/medium/17.png?1411569502" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/17/medium/17.png?1411569501" alt=""/>
+			<span>设计</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3563">
+				<span data-id="3563">办公家具</span>
+			</li>
+			<li class="tag item" data-id="417">
+				<span data-id="417">趋势</span>
+			</li>
+			<li class="tag item" data-id="2629">
+				<span data-id="2629">HAY</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">当年轻人和小办公室在一起，就有脑洞大开的设计</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/161922/small/161922.jpg?1442322894" alt="">
+					</span>
+				<span class="name">廖婷 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2016-04-22 07:08:58 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/25848/medium/25848.jpeg?1461246027" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25848" data-title="《当年轻人和小办公室在一起，就有脑洞大开的设计》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25848/medium/25848.jpeg?1461246027" data-url="http://www.qdaily.com/mobile/articles/25848.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				HAY 请了一群学生，做出来的效果令人惊讶。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="">          </p><p>          </p><p>重新思考办公家具是今年米兰设计周上的趋势，<a href="http://www.qdaily.com/articles/25236.html">在之前的看点中，已经有丹麦品牌 Lensvelt 和英国家具品牌 Ercol 设计了可适用于办公室的家具。</a>前者风格前卫，外形有点类似孟菲斯风格的 Carlton Room Divider 书架，打破家具的固有形式。而后者是将较为常规的家具扩展到可通用于办公室的领域。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/c1d909f440dc.jpg" alt="" class="">
+<figcaption class=""><p style="text-align: center;"> Boring 系列 by Lensvelt&nbsp;</p></figcaption></figure><figure style="margin:0;">
+    <img src="/uploads/image/201604/4ee21cbba231.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">&nbsp;Ercol家具系列&nbsp;</div></figcaption></figure></div><p>丹麦品牌 HAY 向来喜欢和明星设计师合作，但在这一次，他们联合了瑞典隆德大学（Lund University）的学生。HAY 的联合创始人 Rolf Hay 和德国设计师 Stefan Diez 一起参与，一共设计了 12 组适合小规模办公空间的家具 In Our Office。其中一个设计者 André Gunnarsson 称“出于经济和方便的考虑，工厂生产的家具都是大体积的，小型家具是一个很有趣的领域，尤其对于年轻的创意者。”我们来看一下这些年轻人的想法：</p><p class="">开放式的办公桌似乎是办公室年轻化的一种形式，但在这次展出系列中只出现了这组工作桌，它有一个高低床的结构，爬上旁边的梯子之后可以使用上面一层桌子，极力让办公环境变得轻松。</p><p class="">设计者 André Gunnarsson 认为这是集中精力的做法，“小空间的办公环境很容易让人们陷入闲谈之中，将桌面错位后就有各自独立的空间。”<br></p><p>          </p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/92765f496ee6.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Bunk Desk system by André Cunnarsson</div></figcaption></figure></div><p class="">与开放式相对的是较为注重隐私的空间，比如这组折叠桌，它与<a href="http://www.qdaily.com/articles/25717.html">昨天介绍的格子间类似</a>，这样的设计被认为更有助于集中精力。</p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/2b5e892779d0.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Deskretary by Dick Hammer</div></figcaption></figure></div><p class="">另外还有可以隔音的椅子，靠背和座位扶手两侧可用拉链拉起来形成半封闭的空间，方便一个人集中精力工作或者休息。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/822f2a622ba8.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Zip It by Rae Bei-Han Kuo</div></figcaption></figure></div><p class="">有不少办公家具是为休闲而设计的，比如这个咖啡角，将小的桌面嵌在折叠墙面中，因而桌面很窄，有些类似吧台，鼓励人们过来交流。</p><div class="com-insert-images"><figure class="">
+    <img src="/uploads/image/201604/d9a05e16139d.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Coffee Corner by Anna Mattsson and Isis Flote</div></figcaption></figure></div><p class="">设计师 Fredrikka Hanson 则关注午睡的重要性，她设计了一种折叠床可以让人们小睡一会儿，“在我们办公室，工作时间和休息时间泾渭分明，一个简短的休息时间和喝咖啡的时间可以让我们更有活力地工作。”</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/8a1b09285807.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">BRB by Fredrikka Hanson</div></figcaption></figure></div><p class="">还有一些小型家具或工具给了使用者自己调整的空间，或者让办公室本身更有趣。比如这个塑料做的圆柱充当了桌腿，可以调整桌面的高度。这种办公环境并不在乎你的坐姿，只在乎是否舒服。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/64eaa2418b56.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Workaround by Sofie Aschan Eriksson</div></figcaption></figure></div><p class="">这是模块化的布线系统，电线的接入源于悬挂的弹簧线，收放自如，也可以更加灵活移动。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/6412474f9783.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Plug &amp; Play by Bjorn Fjaestad and Jennifer Bengsston</div></figcaption></figure></div><p class="">这是可调整朝向的灯。配合细铁杆和几何灯形，简洁实用。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/1d41d09e8e69.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Spot on by Emilia Claesson</div></figcaption></figure></div><p class="">这一组的设计同理，设计者认为它同样有助于集中精力。</p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/4d57eca4bc14.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Umbrella by Malin Yngvessonn</div></figcaption></figure></div><p class="">带有褶皱纹的窗帘，可以用它来分割不同区域，它也有隔音的效果。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/840df5f2961a.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Fold by Siri Skillgate</div></figcaption></figure></div><p class="">悬挂的盆景，从最上端浇水通过水管流入各个盆景中，可以用来净化办公室的空气。<br></p><div class="com-insert-images"><figure style="margin:0;">
+    <img src="/uploads/image/201604/15e9b9b3fdef.jpg" alt="" class="">
+<figcaption class=""><div style="text-align: center;">Babylon by Elias Monzóni</div></figcaption></figure></div><p class="">图片来自 <a href="http://www.dezeen.com/2016/04/20/in-our-office-furniture-lund-university-students-rolf-hay-stefan-diez-milan-design-week-2016/">dezeen</a></p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="3563">
+				<span data-id="3563">办公家具</span>
+			</li>
+			<li class="tag item" data-id="417">
+				<span data-id="417">趋势</span>
+			</li>
+			<li class="tag item" data-id="2629">
+				<span data-id="2629">HAY</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="25848" data-title="《当年轻人和小办公室在一起，就有脑洞大开的设计》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/25848/medium/25848.jpeg?1461246027" data-url="http://www.qdaily.com/mobile/articles/25848.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/25236.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/25236/medium/25236.jpg?1460288164" alt="一年中最有分量的家具展马上开始，10个趋势值得关注">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">一年中最有分量的家具展马上开始，10个趋势值得关注</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-heart">165</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/25717.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/articleshows/25717/medium/25717.jpg?1461071559" alt="在这个新型格子间里工作，你的注意力会更集中吗？">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">在这个新型格子间里工作，你的注意力会更集中吗？</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">5</span>
+				<span class="iconfont icon-heart">176</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/27194.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27194/medium/27194.jpg?1463968658" alt="">
+                        <h1 class="title">历峰手表生意欠佳，以及，侃爷的新快闪店生意特别好｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27210.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27210/medium/27210.jpg?1463987237" alt="">
+                        <h1 class="title">不只是筹钱，众筹网站还要做零部件生意了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27207.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27207/medium/27207.jpg?1463979170" alt="">
+                        <h1 class="title">癌症这个超级复杂的命题，被这个葡萄牙人变成了信息图</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27220.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27220/medium/27220.jpg?1463992075" alt="">
+                        <h1 class="title">耐克和巴萨续天价合约，阿迪想靠便宜跑鞋吸引美国人</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/27149.html" class="imgcover">
+                        <img src="/system/articles/articleshows/27149/medium/27149.jpg?1463764055" alt="">
+                        <h1 class="title">又到毕业季，我们和几个学服装设计的年轻人聊了聊</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="25848">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="25848" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">111</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/25846.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-13e3f7d43d496988d1a38a62a00d10ca.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-9e667db3bff829c7d9119de7847e822b.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

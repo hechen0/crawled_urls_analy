@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人。米奇·奥特曼是 TV-B-Gone 的发明者，也是创客运动的早期推动者之一。好奇心日报为您呈现从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 创客 创客运动 TV-B-Gone 电视 车库 创客空间 100个有想法的人 Mitch Altman 林云雅 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="GwyrBUTkY7VnBTKJ9/c+zY6dGhkQOP7FZZBS2uc1zdk=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1375/small/1375.jpg?1460641790" alt="">
+					</span>
+				<span class="name">徐弢 孙今泾</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-11-18 15:20:55 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/17747/medium/17747.jpg?1447825099" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17747" data-title="《从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17747/medium/17747.jpg?1447821413" data-url="http://www.qdaily.com/mobile/articles/17747.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				米奇·奥特曼是 TV-B-Gone 的发明者，也是创客运动的早期推动者之一
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	米奇·奥特曼（Mitch Altman），59 岁、在旧金山长大、花白头发染了几缕红黄蓝、左手手腕上缠着二十多条彩色带子。
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201511/f745d4ba21ae.jpg" width="1080" height="718" title="Mitch Altman 知名的发型" alt="Mitch Altman 知名的发型" /><span><em>Mitch Altman 知名的发型</em></span><span style="text-align:justify;"></span> 
+</p>
+<p>
+</p>
+<p>
+	<span>这个名字第一次出现在流行创客杂志 Make（Maker Faire 展会举办者）上时，被比作创客空间的约翰尼·阿普尔希德 (Johnny Appleseed) ——美国人传统的民间英雄，靠改进苹果种植推动了西部的发展。</span> 
+</p>
+<p>
+	<span></span> 
+</p>
+<p>
+	奥特曼在种苹果这事上没什么建树。他最为人所知的作品，是一个可以一键关闭全世界电视机的遥控器：TV-B-Gone。这个外形就像一把汽车钥匙的小东西内嵌红外发射器，可以发送几乎品牌电视机的关闭信号——不用 1 分钟的时间就可以把周边所有的电视机关掉。奥特曼总是随身带着。
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/9b67346e9e7e.jpg" width="1080" height="719" title="TV-B-Gone 长得像车钥匙" alt="TV-B-Gone 长得像车钥匙" /><em>TV-B-Gone 长得像车钥匙</em> 
+</p>
+<p>
+	“当电视打开着的时候，整个世界都很吵。”奥特曼相信这是个充满正义的发明，他向我们解释道，“电视机关了之后，世界平静了，人们会感觉更好，他们甚至不需要知道为什么。”
+</p>
+<p>
+	让 TV-B-Gone 出名的是 2008 年 1 月在拉斯维加斯举行的 CES 消费电子展。在这个厂商们展示最新消费电子产品的地方，电视不但是主要产品之一、也是其它活动的重要展示工具。科技博客 Gizmodo 的一位作者 Richard Blakeley 带着 TV-B-Gone 走进会场，关掉了各种正在演示新产品的电视机。他的恶作剧被录成一段视频，1 个月被人看了&nbsp;<a href="http://www.wired.com/2008/03/mf-gadgetblogs/" target="_blank">67.9 万次</a>。
+</p>
+<p>
+	这会儿你在视频网站 Youtube 上搜索 TV-B-Gone 时，<a href="http://www.youtube.com/results?search_query=TV-B-Gone" target="_blank">搜索结果会超过 100 万条</a>，甚至有人专门做了一个 12 集的《TV-B-Gone 的攻击》剧集。
+</p>
+<p>
+	<iframe src="http://player.youku.com/embed/XMTM4OTQ1NTMxNg==" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+<p>
+	奥特曼也因此在一个躁动的世界中成名。这个售价 20 美元的小硬件已经卖出了超过 50 万份。
+</p>
+<p>
+</p>
+<h4>
+	创客生涯从放弃电视开始
+</h4>
+<p>
+	1990 年代，三十出头的奥特曼做了一个决定：放弃电视。从学生时代起，他就在电视上耗费了太多的时间，现在，他迫不及待地需要解决这个问题。<span>奥特曼回忆说，有了</span>&nbsp;TV-B-Gone 的想法后，早上起床都成了一件让人兴奋的事。
+</p>
+<p>
+	创客们时常都会感到这种兴奋。不少创客曾在 Google、微软之类的大公司待过，见过世面，却仍热衷于实践自己的小想法，“将自己从大公司中解放出来”。奥特曼也是一样，他早前在 VPL 研究所工作，研究虚拟现实（VR），是这个领域最早尝试的人之一。在 1997 年，奥特曼还跟别人一起创立了 3ware 公司，再后来， 3ware 公司以 1.5 亿美元的价格出售。
+</p>
+<p>
+	不过，奥特曼花了 10 年时间才下决心真正着手制作 TV-B-Gone 的原型。那是 2003 年，之后他又花了将近 2 年来回试验，才找了家中国深圳的代工厂开始生产。这是个简单的工具，但奥特曼需要搜集市面上所有电视机将近 200 种的红外线关闭代码。正是这些代码让人可以遥控电视。
+</p>
+<p>
+	由于这些代码不是公开的，米奇·奥特曼需要搜集各种电视品牌的遥控器，按下关闭按钮，通过算法将其记录下来，再放入到 TV-B-Gone 内。不同品牌电视机的代码可能有不同、可能重复、可能有相似，例如三星电视机可能有 1、2 种代码，而中国的长虹可能有 50 种。保证代码不重复而且有效，很耗时。
+</p>
+<p>
+	因为 TV-B-Gone ，奥特曼关掉了很多在三藩的电视机。“我的朋友跟我一样怪，他们激动坏了，也想要。”之后就是朋友的朋友的朋友。在奥特曼受到热捧前， TV- B-Gone 最先在旧金山一个古怪的小圈子里传开了。
+</p>
+<p>
+</p>
+<h2>
+	一个性情内向的怪孩子
+</h2>
+<p>
+</p>
+<p>
+	除了这些古怪的朋友，奥特曼过去在人群里并不受欢迎。他性情内向，小时候少不了被人欺负，记忆里难忘的部分大都来自一位叫 Roth Coopnick 的高中老师。Coopnick&nbsp;教授电子课程，鼓励奥特曼尝试些极客的想法。
+</p>
+<p>
+	后来，奥特曼又遇到了一位录音房的主人。事后奥特曼回忆说这是“创客空间的早期原型”。在那里，想要获得进入许可的人得承诺每周六都去，年纪小的可以接受年长的一辈免费指导，交流交流自己想做的东西。
+</p>
+<p>
+	2008 年 10 月，奥特曼和几位朋友一起在旧金山成立了一个名为噪音桥（Noisebridge）的地方。每周，那些被称为“创客”的人聚在这里鼓捣各种硬件软件产品，可能是手工艺品、电动滑板，也可能是无线音箱。整个创造过程可以简单粗暴地归类为 DIY 的升级版。
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/8a2c0a8bd9ef.jpg" width="640" height="430" title="Noisebridge 噪音桥" alt="Noisebridge 噪音桥" /><em>Noisebridge 噪音桥</em> 
+</p>
+<p>
+	因为奥特曼的倡导，这类场所有了个共同的名字“创客空间”。奥特曼特意解释说，“噪音桥”是玩无线电时使用的一种测试设备，这里的噪音的含义取自“噪音桥”，意味着穿越光谱的同等的能量，放到创客空间内，这个词意味着创客可以看到他们在噪音桥做了什么，他们就会获得什么。
+</p>
+<p>
+	这些创客空间提供实体的空间和工具，包括数控机床、3D 打印等，参与者可以利用这些工具来实现自己的想法。包括美国 TechShop 在内的创客空间会向会员另外征收工具的费用，来寻求可盈利的商业模式。
+</p>
+<p>
+	成立噪音桥之后，为创客运动布道就成了奥特曼的主要工作。
+</p>
+<p>
+</p>
+<h4>
+	创客运动的布道者
+</h4>
+<p>
+	奥特曼特别喜欢展示一张创客地图，并把 2007 年称为创客运动发展史上重要的时间节点。这一年， Chaos Communication Club（至今有 32 年历史）在德国举办的室外创客大会 Chaos Camp，奥特曼内在这里被三位创客的演讲所激励，回去开始筹备创客空间，而奥特曼只是受到激励的创客之一。
+</p>
+<p>
+	在此之前，所谓的创客空间很少，只有将近 40 家，并且多数集中在德国，而现在已经远远超过了 2000 家。
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/97a7a3e59e56.jpg" width="1080" height="498" title="创客地图" alt="创客地图" /><em><a href="http://wiki.hackerspaces.org/List_of_Hackerspaces" target="_blank">创客地图</a>，由于技术限制，地图上只能显示 500 家</em> 
+</p>
+<p>
+	奥特曼希望这项运动能够更加普及。他合作出版了一本免费的小书——<a href="http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf" target="_blank">开源的电子漫画书《焊接是容易的（Soldering is Easy）》</a>（免费下载）。这本小书在网络上被翻译成超过 30 种语言，而简体中文版是由上海的创客空间新车间的联合创始人翻译的。最近，这个最初关掉屏幕的创客还尝试着制作创客教程，上传到 Youtube 上。
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/010877fff870.jpg" width="800" height="363" title="《焊接是容易的》电子书" alt="《焊接是容易的》电子书" /><em>《焊接是容易的》电子书</em> 
+</p>
+<p style="text-align:left;">
+	林云雅（Silvia Lindtner）在中国研究创客已经很多年了，是密西根大学的副教授。自从 2008 年在北京创客嘉年华上和奥特曼初次会面，她发现总能在中国的各个创客活动上见到这位热心的创客布道者。她说，米奇·奥特曼对于中国创客运动的发展中有着很大的影响作用，也是中心力量之一。
+</p>
+<p style="text-align:left;">
+	2003 年，为了生产 TV-B-Gone ，奥特曼来到深圳寻找工厂。之后他每年都会到中国来待上一个月，在那期间，他在工厂周边走动，拜访那些对技术感兴趣的人。
+</p>
+<p style="text-align:center;">
+	<img src="http://cms.qdaily.com/uploads/image/201511/4276b9d6da60.jpg" width="750" height="563" title="2009 年拜访工厂" alt="2009 年拜访工厂" /><em>2009 年创客们拜访工厂</em> 
+</p>
+<p>
+	2009 年后，奥特曼开始带着其他来自国外的创客到中国参观工厂，分享创客空间的想法，举办工作坊。由于介入得早，奥特曼在中国的观察基本上记录了中国创客运动的发起和发展，包括部分创客受到奥特曼故事的影响而开始创立创客空间。
+</p>
+<p>
+	如果说 Maker 这个词在美国更多是指为兴趣而投入精力的爱好者。创客在中国则已经被等同于硬件创业者。奥特曼发现创业者在中国的创客空间尤其多。
+</p>
+<p>
+	“在中国，现在大家都说尽可能地赚钱，我没觉得这没什么可指摘的。”在 10 月 30 日在苏州举行的一场创客论坛上，奥特曼表达了自己的看法，“但如果你做你喜欢的事，顺便也赚钱，那会更好。”
+</p>
+<p>
+	不过奥特曼也有自己的原则。奥特曼二十多年前便从事虚拟现实技术的研发，但当自己所参与的虚拟现实公司 VPL 与美国国防部展开合作以后，他便离开了这家公司。
+</p>
+<p>
+	同样的事也发生在全球最大的创客展会 Maker Faire 上。奥特曼是 Maker Faire 及其背后推动者 Make 杂志的早期支持者。但当 2012 年，Maker Faire 与美国国防部合作以后，他公开与之决裂。
+</p>
+<p>
+	相比今天积极争取政府订单的科技公司们，奥特曼更像是一位活在 50 年前的理想主义者。
+</p>
+<p>
+	最近几年，<span>奥特曼</span>的大部分时间都花在旅行上，全世界都在举办创客大会，而几乎谁都想邀请他。说着，奥特曼挽起左手袖子，抬了抬缠满带子的手臂，那上头写着 Chaos Communication Clubs、Chaos Camp、Maker Faire……
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<div>
+</div>
+<p>
+	<span></span> 
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+	题图来自：<a href="http://www.wikiwand.com/en/Maker_Faire" target="_blank">wikipedia</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="216">
+				<span data-id="216">创客</span>
+			</li>
+			<li class="tag item" data-id="18931">
+				<span data-id="18931">创客运动</span>
+			</li>
+			<li class="tag item" data-id="18932">
+				<span data-id="18932">TV-B-Gone</span>
+			</li>
+			<li class="tag item" data-id="582">
+				<span data-id="582">电视</span>
+			</li>
+			<li class="tag item" data-id="18933">
+				<span data-id="18933">车库</span>
+			</li>
+			<li class="tag item" data-id="285">
+				<span data-id="285">创客空间</span>
+			</li>
+			<li class="tag item" data-id="12066">
+				<span data-id="12066">100个有想法的人</span>
+			</li>
+			<li class="tag item" data-id="18934">
+				<span data-id="18934">Mitch Altman</span>
+			</li>
+			<li class="tag item" data-id="18935">
+				<span data-id="18935">林云雅</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="17747" data-title="《从关掉全世界的电视机开始，这个人成了创客运动的布道者 | 100 个有想法的人》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/17747/medium/17747.jpg?1447821413" data-url="http://www.qdaily.com/mobile/articles/17747.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/16694.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/16694/medium/16694.jpg?1446017043" alt="如何把保温瓶卖给更多不想拿保温瓶喝水的人？|100 个有想法的人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/17/medium/17.png?1433891536" alt="设计">
+				<span>设计</span>
+		</p>
+		<h1 class="title">如何把保温瓶卖给更多不想拿保温瓶喝水的人？|100 个有想法的人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">42</span>
+				<span class="iconfont icon-heart">767</span>
+		</div>
+	</div>
+</a>
+				<div class="gap"></div>
+					<!-- 重点文章格子，占位2x1，智能占位 -->
+<!-- 传入参数：article -->
+
+<a href="/mobile/articles/13520.html" class="com-grid-key-article">
+	<div class="grid-key-article-hd">
+		<div class="imgcover">
+				<img class="pic" src="/system/articles/banners/13520/medium/13520.jpg?1439901380" alt="在一个科技爱好者都用手机阅读的时代，给他们做一本纸质杂志 | 100 个有想法的人">
+		</div>
+	</div>
+	<div class="grid-key-article-bd">
+		<p class="category">
+				<img src="/system/categories/iconyellowapps/4/medium/4.png?1433891522" alt="智能">
+				<span>智能</span>
+		</p>
+		<h1 class="title">在一个科技爱好者都用手机阅读的时代，给他们做一本纸质杂志 | 100 个有想法的人</h1>
+		<div class="ribbon">
+				<span class="iconfont icon-message">8</span>
+				<span class="iconfont icon-heart">124</span>
+		</div>
+	</div>
+</a>
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26284.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26284/medium/26284.jpg?1462169320" alt="">
+                        <h1 class="title">在百度出丑闻的时候，人们为什么更应该怀念 Google</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26282.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26282/medium/26282.jpg?1462162351" alt="">
+                        <h1 class="title">今年巴菲特大会上到底发生了什么？这里是实录</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26269.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26269/medium/26269.jpeg?1461978601" alt="">
+                        <h1 class="title">北京龙泉寺开发了一个机器人，它还称不上有智慧</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26295.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26295/medium/26295.jpg?1462180067" alt="">
+                        <h1 class="title">讨论魏则西事件，不要打错板子</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26280.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26280/medium/26280.jpg?1462155346" alt="">
+                        <h1 class="title">在京都祗园租一间町屋，感受传统日式建筑的魅力</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26235.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26235/medium/26235.jpg?1461907685" alt="">
+                        <h1 class="title">这款彩虹高光，红到让Etsy小店48小时所有货都卖光</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26272.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26272/medium/26272.gif?1462006376" alt="">
+                        <h1 class="title">香菜，吃还是不吃，这是一种归属感</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="17747">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="17747" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">377</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/17752.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列。2015 是手机超过 PC 成为真正的个人电脑的那一年。好奇心日报为您呈现跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="长文章 电商 移动化 软件业 手机 按月付费 商业模式 微软 Adobe 美图 阿里巴巴 小红书 洋码头 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="VgH4Kkh/Qw8PJ5gqsQfKKQcVIYL8VVn8qCvVw6Ohr1Q=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail long" >
+
+		<div class="article-detail-hd">
+	<div class="category-title">
+		<a href="/mobile/categories/4.html" class="category x25" data-id="4">
+			<img src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<h1 class="title">跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列</h1>
+	</div>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/97532/small/97532.jpeg?1431064746" alt="">
+					</span>
+				<span class="name">赵长存 </span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-12-30 14:37:47 +0800"></span>
+	</div>
+	<div class="banner">
+		<img src="/system/articles/longshows/19943/medium/19943.jpg?1451444303" alt="" />
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19943" data-title="《跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19943/medium/19943.jpg?1451444011" data-url="http://www.qdaily.com/mobile/articles/19943.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>
+</div>
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				2015 是手机超过 PC 成为真正的个人电脑的那一年
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	<span></span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);">从“7.17”生鲜购物节，到“双 11”，再到黑色星期五、“双 12”，电商们的购物节一个接一个地到来。</span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);">下厨房、淘宝、京东、小红书、洋码头，每个购物节的主角虽各有不同，但不论谁胜谁负，争的都不再是端放在用户面前的电脑屏幕，而是两根拇指控制着的四五寸屏幕。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">今年“双 11”，天猫 68% 的交易额来自手机购物，而京东的订单中也有 74% 也是来自于此。而洋码头在“黑五”活动开始后的前 12 小时里，来自移动端的交易额更是高达 90%。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">彻底转向手机的不只是购物。<a href="http://www.qdaily.com/articles/10124.html" target="_blank">2014 年访问量前 50 的新闻网站里，有 39 家的手机访问量超过了电脑。</a>在线视频也是如此。<a href="http://www.qdaily.com/articles/8855.html" target="_blank">2014 年，YouTube 已经有超过一半的播放次数来自移动端，移动端营收比去年增长了整整一倍</a>。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">手机占据了人们生活中越来越多的时间。<a href="http://www.globalwebindex.net/hubfs/Reports/GWI_Device_Report_-_Q3_2015_Summary.pdf?t=1442912544705&utm_campaign=Insight+Reports&utm_source=hs_automation&utm_medium=email&utm_content=22032064&_hsenc=p2ANqtz--VTZy89m8FmV6ax2FUtdjgNMZUmLIkz_JTlYZBGHTltU9D6HwgnUsMeSwq_QLBKLqW1pE4U37AiM118dNLe1U2RmfqrA&_hsmi=22032064" target="_blank">全球网络指数机构（GWI）10 月发布的一份抽样报告显示，</a>如今 16 至 24 岁之间的年轻人日均手机上网时间已达到 3.25 小时。已经有更多<a href="http://www.mcafee.com/us/about/news/2012/q2/20120625-01.aspx" target="_blank">研究显示</a>，人们在回答上网时长的问题时，往往会少算大部分时间。手机已经毫无疑问地取代了电脑，成为人们使用软件和互联网服务的首要入口。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">就像每一次科技革命一样，这次迁移，也伴随着产业内公司的颠覆。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">迅雷就是一个很典型的例子。这个曾作为 PC 上装机必备的软件，现在其 iOS 版应用也早已排在了排行榜百名开外，而市值也比刚上市时缩水了一半。同样曾为 PC 装机必备的 360 也好不了多少，市值也比顶峰时缩水了 4 成。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">当然也有些成功的例子。伴随着 40 年前个人电脑诞生的软件业，正为了年轻一代用户，将目光投向移动市场。</span> 
+</p>
+<h2 style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">为了手机，重新分解了产品</span> 
+</h2>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">一周前，Adobe 推出了适用于 iPhone 的<a href="http://post.adobe.com/">图文制作应用 Post</a>。用户可以用它给图片做简单的处理，再搭配艺术化字体，用以发送到社交网络中。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">这也不是 Adobe 推出的第一个给普通人用的图片处理工具了。今年 4 月这家公司还在发布过一个 iPad 版的 Html5 制作网页工具 Slate，同样也是给普通用户分享内容到社交网络的，但比前者略微复杂一些。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">Adobe 的新产品越来越简单也只是这几年才有的事。25 年前，它在 Mac 上推出的首款软件 Photoshop，成为行业标准。不管是电影特效制作，印刷出版，还是拍照摄影，“PS”都是工作流程中的一个动词。而面对这个颇复杂的工具，案头一本工具书也成了标配。</span><span style="background-color:rgba(255, 255, 255, 0);">《Photoshop CS5 完全自学手册》据称就卖出了 37 万本。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">但今天的拍照和图像处理已经不再是相机加电脑的工作。<a href="http://www.qdaily.com/articles/19437.html" target="_blank">专业摄影社区 Flickr 前不久公布的 2015 最常用的设备报告中</a>，排最前面的是 iPhone。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">如果你只是要想发一条朋友圈，也更有可能会直接在手机上用更简单的工具一键处理。Post 和 Slate 也正是为此而诞生的。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">从去年年末至今，Adobe 为手机和平板推出了 5 个以 Photoshop 打头的应用。这个曾经独立的应用一下子变成了系列软件的统称。</span><span style="background-color:rgba(255, 255, 255, 0);">这也只是 2009 年这家公司发布第一款 iOS 应用以来，陆陆续续做出的 102 个 iOS 应用中的一小部分——其中有 62 个都被撤了下来，当中包括大而全的 Photoshop Touch。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"></span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201512/85f31464dad4.jpg" width="720" height="540" title="Photoshop" alt="Photoshop" /> 
+</p>
+<p>
+</p>
+<p style="text-align:justify;">
+	Adobe 之前，美图已经证明针对手机做更多细分工具可以成功<span style="background-color:rgba(255, 255, 255, 0);">。美图秀秀在 PC 时代只是多个简化版 Photoshop 选择之一，今天已经成为中国市场最成功的图像生意。<span>美图秀秀却从 2011 年开始就常年处在 App Store 下载榜的前 5 名。该公司的另一款应用美拍甚至还在 2014 年 5 月取得了 Appstore 中国区下载量的第 1 名。</span></span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">从一开始，美图在手机上就不是一个全功能的软件。除了美图秀秀和美拍这两个应用外，这几年来美图已经有了海报工厂、表情工厂、美图 Gif 以及潮自拍，并分别主打图文制作，聊天表情制作，Gif 制作、自拍功能。每一个都让人看一眼名字就知道它做什么，什么时候能用得上。如今在 App Store 摄影与录像类的前 15 名里，有 6 个都是这家公司的产品。</span> 
+</p>
+<h2 style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">像 Netflix 一样卖软件</span> 
+</h2>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">软件业的变化并不只停在产品上，收费的模式也发生了变化。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"></span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);">今天 Adobe 的主要销售来自</span><span style="background-color:rgba(255, 255, 255, 0);">&nbsp;Creative Cloud（创意云）服务。为这个服务每月支付数百元便能使用它的所有工具。Photoshop、InDesign Illustrator、Dreamweaver、Premiere Pro 等重量级软件的名字后面也都挂上了 CC 的标识，原本它们每个都需要花数千元买回，过几年再花钱升级。</span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);">这也意味着一次付费后，所有这些应用都不再需要单独购买了，只要登录 Creative Cloud 的帐号即可随意使用。</span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);"><span>看上去和流媒体服务 Netflix 的按月付费十分相似，它同样是让你在付费后即可观看任意影片，而不再需要为每部影片单独付费。</span></span> 
+</p>
+<p>
+	<span style="background-color:rgba(255, 255, 255, 0);">另一个调整收费方式的老牌软件巨头是微软。</span> 
+</p>
+<p>
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">PC 时代，Office 就是所有人处理公司事务和家庭琐事都能用得上的工具。在微软的收入组成中，这一项也是它十几年来最赚钱的部分。2013 财年里，这部分的收入就已达到了 247 亿美元，占微软总收入的 32%。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">直到 2014 年，微软的在线办公服务 Office 365 开始进入手机、平板，并于 11 月免费向消费者提供。它的收费方式从卖 Office 软件变成向个人收每月数十元人民币，而后打包提供包括 Office 软件、Outlook 邮箱、OneDrive 存储乃至 Skype、OneNote 等一系列更小的功能。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">一年不到，<a href="http://www.qdaily.com/articles/19623.html" target="_blank">根据云安全公司 Bitglass 今年夏天的报告</a>，目前使用 Office 365 的企业已从去年的 7.7% 增长到了 25.2%，超过了早推出五年的 Google Docs。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">Office 365 首先蚕食的并不是 Google Docs 这类的云服务的份额，而是微软自己原有的业务。因为你要买的已经不再是一个具体产品的所有权，而更像是一种租赁。以至于它干掉了购买软件授权的需求。在 Office 软件依然每季度带来数十亿美元利润的今天，微软能做出这样的选择实属不易。</span> 
+</p>
+<h2 style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">内容消费和互联网已经分不开</span> 
+</h2>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">当手机开始和电商结合，买东西这件事也和在电脑不一样了。因为在小屏幕上，要想先输入文字搜索，再对一个个卖家的比价并不容易。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">如何通过内容，在手机上抓住用户眼球，在他们浏览过程中创造订单就成了电商们在这一年里关心的事。如果只是靠商家自己给商品添加文字、图片描述，购物体验就很难产生差异化，也就难以在竞争激烈的电商行业崭露头角。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">像海淘社区的小红书，此前就一直靠分享用户的购买和使用体验吸引女性消费者。而今年 3 月以来，他们更是自己直接采购商品，做起了电商。3 个月，小红书已完成了 1 亿销售额，并获得数千万美元的融资。而波罗蜜更是把直播海外代购的过程作为卖点，上线半年以来就获得 3 轮总共 4300 万美元的融资。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">今年 6 月，连体量最大的手机淘宝，也把“社区”变成了底部导航栏的五个按钮之一，想借用户的分享晒单刺激其他用户的消费欲。到了 9 月，他们还开放了首屏上的"淘宝头条"，开始变成媒体平台，聚集第三方内容吸引用户买单。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">最新的进展是全球最大的<a href="http://www.theverge.com/2015/12/29/10683722/facebook-news-feed-customize-interests-update-shopping" target="_blank">社交网络 Facebook 也想要在其应用里独立展示信息流里购物内容</a>，并能让用户直接购买。毕竟手机上，键盘已经不是默认的配置——虚拟键盘只会在你需要的时候显现，人们最常做的还是滑动屏幕，刷信息流。只要有足够多活跃的用户，社交网络和电商的结合也大有可为。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">如果放到一年前，这些做法恐怕未必会有市场。可如今伴随智能手机的普及，新的尝试已经不再是传统"搜索－购物"额外的补充。因为现在浏览本身也变成了人们在碎片时间里的一种休闲。电商也由此获得了接触并占据用户时间的新途径。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"></span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">今天已经没有公司敢忽视移动，</span><span style="background-color:rgba(255, 255, 255, 0);">收购成了大公司拓展疆域的标准做法。微软</span><span style="background-color:rgba(255, 255, 255, 0);">一口气收购 Sunrise、Wunderlist、Acompli 等多个手机应用，打包变成自己名下的产品。而中国科技业的收购就更为频繁，从年初的滴滴快的，之后的美团点评和携程去哪儿……所有这些大宗的合并与投资都绕不开腾讯和阿里巴巴的身影。</span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"><span>不管中国、美国，应用商店排名靠前的永远是那些大公司和它们的相关产品。今天的移动市场已经成为软件和互联网公司争夺年轻人</span>的战场。但同时，年轻的公司<span>也越来越难在这里留下印记。</span></span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"></span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);"></span> 
+</p>
+<p style="text-align:justify;">
+	<span style="background-color:rgba(255, 255, 255, 0);">题图来自：站酷海洛创意</span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="1068">
+				<span data-id="1068">长文章</span>
+			</li>
+			<li class="tag item" data-id="319">
+				<span data-id="319">电商</span>
+			</li>
+			<li class="tag item" data-id="4324">
+				<span data-id="4324">移动化</span>
+			</li>
+			<li class="tag item" data-id="21322">
+				<span data-id="21322">软件业</span>
+			</li>
+			<li class="tag item" data-id="566">
+				<span data-id="566">手机</span>
+			</li>
+			<li class="tag item" data-id="21333">
+				<span data-id="21333">按月付费</span>
+			</li>
+			<li class="tag item" data-id="3092">
+				<span data-id="3092">商业模式</span>
+			</li>
+			<li class="tag item" data-id="260">
+				<span data-id="260">微软</span>
+			</li>
+			<li class="tag item" data-id="144">
+				<span data-id="144">Adobe</span>
+			</li>
+			<li class="tag item" data-id="21323">
+				<span data-id="21323">美图</span>
+			</li>
+			<li class="tag item" data-id="354">
+				<span data-id="354">阿里巴巴</span>
+			</li>
+			<li class="tag item" data-id="12226">
+				<span data-id="12226">小红书</span>
+			</li>
+			<li class="tag item" data-id="16516">
+				<span data-id="16516">洋码头</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="19943" data-title="《跟着年轻人们走，那些传统的软件和互联网公司也挤进了小屏幕 | 2015 年轻化系列》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/19943/medium/19943.jpg?1451444011" data-url="http://www.qdaily.com/mobile/articles/19943.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26057.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26057/medium/26057.jpg?1461683908" alt="">
+                        <h1 class="title">13 年来，苹果的赚钱机器第一次放慢，市值蒸发超过一个特斯拉公司</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26009.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26009/medium/26009.jpg?1461643625" alt="">
+                        <h1 class="title">这些用菠萝叶做成的包包和鞋子，令人意外地好看</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26066.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26066/medium/26066.jpeg?1461715313" alt="">
+                        <h1 class="title">大公司头条：苹果发布了 13 年以来最差财报，三菱汽车也出了油耗丑闻</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26051.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26051/medium/26051.jpg?1461669772" alt="">
+                        <h1 class="title">要了解全球各国如何连接彼此，我们推荐这本新书</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26055.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26055/medium/26055.jpg?1461676113" alt="">
+                        <h1 class="title">在新的规则下，谁有资格为奥斯卡投票？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26045.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26045/medium/26045.jpg?1461661113" alt="">
+                        <h1 class="title">HTC Vive 有了新计划，拉来一批合作伙伴</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26060.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26060/medium/26060.jpeg?1461685071" alt="">
+                        <h1 class="title">把老图书馆改成老少皆宜的空间，来看美国这个示范</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="19943">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="19943" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">302</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/19956.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-f165ef627a37cd0fd1027337b7c6ba05.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

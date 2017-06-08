@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?。想要变革健身行业的互联网公司不止燃健身一家，当更多的资本和用户涌向这个新兴的领域，健身房真的就能被“颠覆”吗？。好奇心日报为您呈现将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="健身 健身房 燃 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Yyl+xpifiV9EEJTJ0K8bj2gofeuKeeqtAU+KB+CPDSY=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4759">
+				<span data-id="4759">健身</span>
+			</li>
+			<li class="tag item" data-id="12598">
+				<span data-id="12598">健身房</span>
+			</li>
+			<li class="tag item" data-id="14525">
+				<span data-id="14525">燃</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/113378/small/113378.jpg?1435590009" alt="">
+					</span>
+				<span class="name">周韶宏 崔绮雯</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-08-18 21:09:45 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/13588/medium/13588.jpg?1439749754" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13588" data-title="《将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13588/medium/13588.jpg?1439749754" data-url="http://www.qdaily.com/mobile/articles/13588.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				想要变革健身行业的互联网公司不止燃健身一家，当更多的资本和用户涌向这个新兴的领域，健身房真的就能被“颠覆”吗？
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	王浩从春节到现在已经通过健身减掉 40 斤体重了，而这位高频的健身者不仅自己做运动，还做了一个和健身房相关的应用“燃健身”，这个互联网服务，想让用户不用再购买健身房年卡，每健身一次支付一次。
+</p>
+<p>
+	这个上线一个多月的应用，已经拿到了 1500 万美元的投资，<span>在北京、上海和广州三个城市 2000 多个场馆通用。而随着他们的在分众广告等渠道的曝光，燃健身也加入了互联网健身预定的服务市场，他们的竞争对手，还有主打 99 元包月，通行全国几千家健身房的“全城热炼”和“小熊快跑”。</span> 
+</p>
+<p>
+	<span>但燃健身准备怎么应对这场与健身房以及其他竞争服务之间的战役？</span> 
+</p>
+<h2>
+	将健身年卡打碎成次卡
+</h2>
+<p>
+	打开燃健身的 app，能看到它目前是以课程为单位展示，其中最多的包括游泳、自由器械这样的通课，以及瑜伽、减脂等私教课。<span>每一节课程都标出了单价，从十几到上百块不等。私教课会贵一些，价格都在百元以上。</span> 
+</p>
+<p style="text-align:center;">
+	<img src="/uploads/image/201508/398bf69ff09e.jpg" width="640" height="358" title="燃的所有课程均按次付费" alt="燃的所有课程均按次付费" />“<span><em>燃”的所有课程均按次付费</em></span> 
+</p>
+<p>
+	我们试着预约了一节私教课程，在列表中选择想要的时间段并付款后，我们就收到了确认短信。随后，健身房打来两次电话，再次确认上课时间，教练本人也询问了我的基本情况，比如运动基础、期望目标等。包括上课在内的整个过程，和你在健身房里找私教并没有太大差别，只是，整个过程搬到了互联网上，更快了，而且不用你一次购买几十节私教课程。
+</p>
+<p>
+	这些定价是和健身房协商而来，二者依据场馆的位置、设备等情况定出符合市场情况的价格。
+</p>
+<p>
+	王浩说，年卡的模式实在太糟糕了。“有些健身房年卡会员的流动性很大。比如出差、搬家、工作变迁……另外，用户有这样的心理：反正我办了年卡，去不去都行。”
+</p>
+<p>
+	按照王浩的说法，按次数付费是一种理性消费，这让用户在第一个环节就没有心理压力。
+</p>
+<p>
+	“用户有按此付费的需求，因为它的自由度很高，我们会先满足用户的需求。”
+</p>
+<p>
+	看上这个市场并不止王浩一个。从 2014 年以来，包括全城热炼、小熊快跑等公司都在使用着同样的模式，把线下的场馆聚合起来，使用更灵活的方式付款和预约。不同的是，全城热炼和小熊快跑采用的是月卡付费，每月 99 元，可以在其合作的场馆中任意挑选。
+</p>
+<p>
+	王浩并不认同这种月卡模式，他说，每个月去 4-6 次健身房的已经算是高频用户，2-3 次是“最正常不过”：
+</p>
+<p>
+	“如果按月购买，用户最开始会夸大自己的自信，因为理论上的包月去 30 次都行，但实际情况并不是这样，如果按照每月去 3 次的频次计算，我们更优惠。理性的看，按次会一样优惠，甚至更便宜。”
+</p>
+<h3>
+	烧钱，烧更多的钱
+</h3>
+<p>
+	中国健身行业其实起步于 2000 年左右。<span>从 2004 年到 2012 年，中国健身房的数量增加了 7 倍，尽管人均健身房渗透率十分低。</span>根据美国健身协会&nbsp;<a href="http://www.statista.com/statistics/308861/health-club-number-in-asia-pacific-countries/" target="_blank">IHRSA 的数据</a>，中国商业健身房的数量排在亚太地区只排名第五，“健身房数量和中国 15 到 60 岁这个年龄层人口总数的比例”，却是倒数第三。
+</p>
+<p>
+	另一方面，健身房靠着动辄几千上万的“年卡+教练课程”来赚钱。那些给了钱又不去健身的懒人，每年给健身房贡献海量的收入。
+</p>
+<p>
+	在这样高速的增长速度和巨大的增长空间面前，燃健身具体怎么做？
+</p>
+<p>
+	答案是，按照用户下单的次数给健身房补贴，<span>而因为在业务扩展期，燃在用户端收到的订单费用也会全数支付给场地或者教练</span>。
+</p>
+<p>
+	根据燃健身的合作健身场馆的消息，每一单的补贴大约在 20-40 元左右，按照健身房每周售出的单次，补贴按照梯度发放。而根据王浩提供的数字，燃健身最近每天会产生 1000 单以上的交易，八月份预计会达到 3000-5000 的日订单量。按次推算，燃健身光是补贴烧钱，每天可能就要花掉几十万人民币。
+</p>
+<p>
+	而全城热炼、小熊快跑等服务也正在烧钱扩张市场，但他们的经营模式还是和健身房类似——包月收取 99 元的费用，赌一部分给了钱的用户来锻炼的次数少于 3 次，所以他们就能赚到中间的差价。这也是为什么健身房会和着两家互联网服务又比较多的摩擦，因为他们本质上也是想让用户留在自己的包月平台，而不是单个的健身房。
+</p>
+<p>
+	而燃健身相比起来更像是低价版健身房销售体验卡的大众点评团购，对于健身房来说，燃健身的合作方式至少在现阶段更加友好，不会直接触犯到利益，这也许会对燃健身服务的早期发展可能更加有利。
+</p>
+<p>
+	但至少“全城热炼”和“小熊快跑”这种“包月”这种方式还是和健身房一样，赌用户一个月去健身的次数不足 3 次，赚懒人的钱。而燃健身，由于下单的金额和补贴都给到健身房一方，他们目前还没有一个现成的盈利方式。
+</p>
+<p>
+	未来，燃健身会通过什么赚钱？可能是平台做大了每单收取中介费用，可能是和智能硬件对接，可能他们还会自己做健身房……目前无论是形式还是时间表都说不准。
+</p>
+<p>
+	我们问，烧钱将会烧到什么时候，王浩说，他也不好说。
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自<a href="http://www.hellorf.com/" target="_blank">海洛创意</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="4759">
+				<span data-id="4759">健身</span>
+			</li>
+			<li class="tag item" data-id="12598">
+				<span data-id="12598">健身房</span>
+			</li>
+			<li class="tag item" data-id="14525">
+				<span data-id="14525">燃</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="13588" data-title="《将健身年卡变成单次服务，互联网服务“燃健身”是怎么想的?》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/13588/medium/13588.jpg?1439749754" data-url="http://www.qdaily.com/mobile/articles/13588.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/26679.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26679/medium/26679.jpg?1462934844" alt="">
+                        <h1 class="title">Pharrell 和三叶草合作第二波，以及，Acne 的春夏眼镜系列不错｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26688.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26688/medium/26688.jpg?1462941957" alt="">
+                        <h1 class="title">「这世界」17个 Logo 都是什么，我还小我真的不懂</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26676.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26676/medium/26676.jpg?1462928433" alt="">
+                        <h1 class="title">Zara 最新潮流系列，全线抄袭“侃爷”？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26686.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26686/medium/26686.jpg?1462938644" alt="">
+                        <h1 class="title">在安利种草这种事上，网红比你身边的朋友更有潜力？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/26693.html" class="imgcover">
+                        <img src="/system/articles/articleshows/26693/medium/26693.jpg?1462945035" alt="">
+                        <h1 class="title">亚马逊做了网红平台，要和 YouTube 抢生意</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="13588">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="13588" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">57</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/13520.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-ec76a3d41d6b67524e6e54d0a055a53e.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-cd0add390d3274962cb6616476b884ec.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

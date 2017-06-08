@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google X 的风车，是边飞边发电的_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google X 的风车，是边飞边发电的。这大概是你能见到的最奇怪的风车了。。好奇心日报为您呈现Google X 的风车，是边飞边发电的的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 风力发电 风能 涡轮机 Google Malanki Power Larry Page Astro Teller " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-fff711d0374775dcbab74149ce446b73.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="id063JbaTE/m3HNRTUT92bj1Sd/dBA5PDtenxEMH7mo=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="7913">
+				<span data-id="7913">风力发电</span>
+			</li>
+			<li class="tag item" data-id="1536">
+				<span data-id="1536">风能</span>
+			</li>
+			<li class="tag item" data-id="7914">
+				<span data-id="7914">涡轮机</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="7915">
+				<span data-id="7915">Malanki Power</span>
+			</li>
+			<li class="tag item" data-id="7916">
+				<span data-id="7916">Larry Page</span>
+			</li>
+			<li class="tag item" data-id="7917">
+				<span data-id="7917">Astro Teller</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">Google X 的风车，是边飞边发电的</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/1741/small/1741.jpg?1435203015" alt="">
+					</span>
+				<span class="name">高宇馨</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-03-18 15:21:53 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/7520/medium/7520.jpg?1436691018" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7520" data-title="《Google X 的风车，是边飞边发电的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7520/medium/7520.jpg?1436691018" data-url="http://www.qdaily.com/mobile/articles/7520.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				这大概是你能见到的最奇怪的风车了。
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p>
+	在电影《超能陆战队》里，有一幕身着红色铠甲的大白和小宏在高空中看夕阳。他们坐在一个巨型的涡轮机上，由铁索牵引着漂浮在圣弗朗东京（San Fransokyo）的空中。这种风力涡轮机就是未来城市供电的理想发电机组。你可以把它理解为一群飞在天上的风车。
+</p>
+<p>
+	昨天，Google X 实验室负责人 Astro Teller 在西南偏南大会上宣布，Google X 实验室将会<a href="http://www.theverge.com/2015/3/17/8236723/google-x-makani-project-wind-turbine-planes" target="_blank">在下个月开始</a>测试它的下一个异想天开的计划，测试的正是一种类似于电影中看到的涡轮发电机组。不过，与电影中静静漂浮在空中的涡轮机不同，Google X 的发电机安装在翼展为 25 米左右的无人机上，无人机将由一条钢索牵引，从 450 米高空向地面输送电力。在发电过程中，它会像一只鹰一样不停地按照原型轨迹在空中盘旋。
+</p>
+<iframe height="498" width="640" src="http://player.youku.com/embed/XOTE0NTY0MjIw" frameborder="0" allowfullscreen="">
+</iframe>
+<p>
+	Google X 的这项通过风力发电计划，是 2013 年收购 Makani Power 公司的直接成果。<a href="http://www.theverge.com/2013/5/22/4356394/google-x-buying-floating-wind-turbine-company-makani" target="_blank">收购两年的时间里</a>，“风筝发电”（Kate Power）已经在 Google X &nbsp;实验室进化了几代，从最初的 8 米长的无人机，变成下个月即将测试的超过 25 米的超大版本。装载的涡轮机也会在 8 枚基础上继续增加。这些涡轮机，基础功率是每只每小时生产 600 千瓦时（即 600 度）电力，虽然不及一些传统涡轮机组的功率，但是使这样一只“风筝”运转起来，消耗的能量是在地面安装一台风车的百分之一。
+</p>
+<p>
+	除了价格变得极其便宜以外，Google X 的“风筝”还能在大风、多变的环境中持续转换更多风能。Teller 是<a href="http://venturebeat.com/2015/03/17/google-will-put-600-kilowatt-soaring-wind-turbines-in-air-next-month/" target="_blank">这样解释的</a>“风力转化的风能是成立方级别增长的，如果风力增加两倍，转化成的风能就会增加 8 倍”。
+</p>
+<p>
+	<span style="white-space:normal;">它还避开了传统风车需要在稳定风力条件下才能更好工作的弊端，通过自身盘旋的方式收集各种角度、各种大小的风，进一步转化为电能。可以说是对环境一点都不挑剔。</span>而恰好，Google X 之前测试小无人机的加州 Pigeon Point 镇，就是出了名的恶劣环境。当地瞬时风力的变化，在一秒钟内可以有 30 公里/每小时这样的变化量，也就是说可能前一秒刮的还是 2 级微风，后一秒就<a href="http://www.wikiwand.com/zh/%E8%92%B2%E7%A6%8F%E9%A2%A8%E7%B4%9A" target="_blank" style="background-color:#FFFFFF;">变成 6 级劲风</a>了。
+</p>
+<p>
+	尽管风力情况变化这么频繁，但 Teller 却说他们在测试期间一台测试机都没有摔过。
+</p>
+<p>
+	<img src="/uploads/image/201503/8a69b468f0f1.jpg" alt="" style="font-family:'sans serif', tahoma, verdana, helvetica;width:584px;" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	题图来自：<a href="http://weibo.com/p/100120174896?pids=Pl_Official_MixDianpingFeed__15&feed_sort=normal&feed_filter=normal" target="_blank">BigHero6</a> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="7913">
+				<span data-id="7913">风力发电</span>
+			</li>
+			<li class="tag item" data-id="1536">
+				<span data-id="1536">风能</span>
+			</li>
+			<li class="tag item" data-id="7914">
+				<span data-id="7914">涡轮机</span>
+			</li>
+			<li class="tag item" data-id="199">
+				<span data-id="199">Google</span>
+			</li>
+			<li class="tag item" data-id="7915">
+				<span data-id="7915">Malanki Power</span>
+			</li>
+			<li class="tag item" data-id="7916">
+				<span data-id="7916">Larry Page</span>
+			</li>
+			<li class="tag item" data-id="7917">
+				<span data-id="7917">Astro Teller</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="7520" data-title="《Google X 的风车，是边飞边发电的》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/7520/medium/7520.jpg?1436691018" data-url="http://www.qdaily.com/mobile/articles/7520.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/25088.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25088/medium/25088.jpg?1459995308" alt="">
+                        <h1 class="title">H&amp;M一季度利润下跌，Supreme 与北脸新一季联名上市｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25108.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25108/medium/25108.jpg?1460005404" alt="">
+                        <h1 class="title">日本晨间剧越来越火，《阿浅来了》又创造了收视记录</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25111.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25111/medium/25111.jpg?1460009228" alt="">
+                        <h1 class="title">《愤怒的小鸟》制作方大亏损，就指着电影救命了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25092.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25092/medium/25092.jpg?1459995896" alt="">
+                        <h1 class="title">「酸汤鱼经济学」为什么和颐酒店的事让女性格外焦虑？</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/25094.html" class="imgcover">
+                        <img src="/system/articles/articleshows/25094/medium/25094.jpg?1459997112" alt="">
+                        <h1 class="title">「这世界」健身房里的难言之隐，全都藏在这 31 张名画里</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="7520">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="7520" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">56</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/7514.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-aa9caf8e30916125471faa21ab536b4f.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-40595e3500ee8310ed1b64dc821e5ce3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一个设计师使用了Apple Watch后的碎碎念_智能_好奇心日报（QDaily）</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="一个设计师使用了Apple Watch后的碎碎念。真的是碎碎念，希望你能跟我们一样忍受这种说话方式，然后看到一个设计师的心。好奇心日报为您呈现一个设计师使用了Apple Watch后的碎碎念的相关内容，赶快来发表自己的观点吧，想要了解更多内容请登录好奇心日报官方网站。"/>
+  <meta name="keywords" content="Top 15 Apple Watch 体验 来自 Medium 苹果 " />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="format-detection" content="telephone=no"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  
+  <script type="text/javascript">
+    // 转化rem到vm，主要是用来计算padding，margin，width等等
+    ;(function(win) {
+        function setUnitA() {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px";
+        }
+        var h = null;
+        window.addEventListener("resize", function() {
+            clearTimeout(h);
+            h = setTimeout(setUnitA, 300);
+        }, false);
+        setUnitA();
+    })(window);
+  </script>
+  
+  <script src="/assets/components/mobile/common/redirect-850e7b5d9656f4ab81ecef257dca63d0.js" type="text/javascript"></script>
+  <link href="/assets/pages/mobile/articles/show-671ed19968e8bc29b662984ccfdc87f1.css" media="all" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="W+Ux6DcrSyC2LQR5rTYCpvywSaW/QEH2qt+NIEkG06M=" name="csrf-token" />
+</head>
+<body class="mobile articles show">
+  <script language="JavaScript" type="text/javascript">
+    var o='d'+'i'+'v', a=' class="com-s' + 'eo" style=\'disp', b='lay:', c='none\'';
+    document.write( "<" + o + a + b + c + ">" );
+</script>
+<script language="JavaScript" type="text/javascript">
+    var o='di'+'v';
+    document.write( "</"+o+">" );
+</script>
+
+<div class="menu-overlay"></div>
+<div class="com-header clearfix" data-isLogined="false">
+	<div class="header-left">
+		<a data-ga-event="mobile:click:logo" href="/mobile/homes.html" class="logo">
+			<img src="/img/webapp/logo.png" alt="">
+		</a>
+	</div>
+	<div class="header-right">
+		<!-- 未登录状态 -->
+		<div class="user signin hidden">
+			<a href="#" class="user-hd">
+				<i class="iconfont icon-user"></i><span class="name"></span>
+			</a>
+			<div class="user-bd hidden">
+				<ul class="items">
+					<li class="item">
+						<a href="#" target="_self">
+							<i class="iconfont icon-user"></i>我的动态
+						</a>
+					</li>
+					<li class="item">
+						<a href="/webapp/users/messages" target="_self">
+							<i class="iconfont icon-01message"></i>我的消息
+						</a>
+					</li>
+					<li class="item account-setting-link">
+						<a href="/mobile/users/edit" target="_self">
+							<i class="iconfont icon-setting"></i>账号设置
+						</a>
+					</li>
+					<li class="item account-logout">
+						<form action="/users/sign_out" method="post">
+							<input type="hidden" name="_method" value="delete">
+							<input type="hidden" name="authenticity_token">
+							<a href=""><i class="iconfont icon-logout"></i>退出登录</a>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 已登录状态 -->
+		<div class="user unsign">
+			<a data-ga-event="mobile:open:login_popup" href="#" data-popup=".com-login-popup" class="user-hd open-popup">
+				<i class="iconfont icon-user"></i>登录
+			</a>
+		</div>
+		<!-- 		
+		<div class="explore">
+			<a href="/webapp/downloads.html" class="explore-hd">
+				<i class="iconfont icon-explore"></i>发现
+			</a>
+		</div> 
+		-->
+	</div>
+</div>
+
+<!-- component comment Popup -->
+<div class="popup com-login-popup">
+	<div class="login-popup-hd">
+		<a href="#" class="spirt icon-login-logo"></a>
+		<a data-ga-event="mobile:close:login_popup" href="#" class="iconfont icon-close close-popup"></a>
+	</div>
+	<div class="login-popup-bd">
+		<!-- 登录表单 -->
+		<form class="login active" action="">
+			<p class="small-title"><span>社交账号登录</span></p>
+			<div class="social-login">
+				<a data-ga-event="mobile:login:weibo" href="http://www.qdaily.com/oauth_sessions/weibo_token" class="social iconfont icon-weibo"></a>
+				<a data-ga-event="mobile:login:qq" href="http://www.qdaily.com/oauth_sessions/qq_token" class="social iconfont icon-qq"></a>
+			</div>
+			<p class="small-title"><span>或者</span></p>
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="密码">
+			</div>
+			<div class="form-action">
+				<a data-ga-event="mobile:login:account" href="#" class="btn submit">登录</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword">忘记密码</a>
+				<a href="#" data-toForm=".register">新用户</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤一，注册 -->
+		<form class="register" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="电子邮箱">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password]" placeholder="创建密码">
+			</div>
+			<div class="form-control">
+				<input type="password" name="user[password_confirmation]" placeholder="确认密码">
+			</div>
+			<div class="form-control agree" style="display: none;">
+				<input type="radio">
+				<a href="#">我已阅读并同意《用户注册协议》</a>
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">下一步</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".findpassword" >忘记密码</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+
+		<!-- 注册表单-步骤二，个人信息 -->
+		<form class="info" action="">
+			<div class="form-control">
+				<input type="text" name="user[username]" placeholder="我的昵称">
+			</div>
+			<div class="form-control">
+				<input type="text" name="user[description]" placeholder="一句话介绍自己">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">完成</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+		</form>
+		
+		<!-- 找回密码表单 -->
+		<form class="findpassword" action="">
+			<div class="form-control">
+				<input type="text" name="user[email]" placeholder="输入电子邮箱">
+			</div>
+			<div class="form-action">
+				<a href="#" class="btn submit">发送</a>
+				<a href="#" class="btn cancel close-popup">取消</a>
+			</div>
+			<div class="form-links clearfix">
+				<a href="#" data-toForm=".register" >新用户</a>
+				<a href="#" data-toForm=".login" >已有账号</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="page-content">
+		<!-- 传入参数：article -->
+
+<div class="com-article-detail short"  data-categoryId="4">
+
+		<div class="article-detail-hd">
+	<div class="category-tags clearfix">
+		<a href="/mobile/categories/4.html" class="category black clearfix x25" data-id="4">
+			<img class="black" src="/system/categories/iconblacks/4/medium/4.png?1411569452" alt=""/>
+			<img class="white" src="/system/categories/iconwhites/4/medium/4.png?1411569452" alt=""/>
+			<span>智能</span>
+		</a>
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2871">
+				<span data-id="2871">Apple Watch</span>
+			</li>
+			<li class="tag item" data-id="8058">
+				<span data-id="8058">体验</span>
+			</li>
+			<li class="tag item" data-id="7543">
+				<span data-id="7543">来自 Medium</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+	</div>
+	<h1 class="title">一个设计师使用了Apple Watch后的碎碎念</h1>
+	<div class="author-date clearfix">					
+			<div class="author clearfix">
+					<span class="avatar x25 circle">
+						<img src="/system/users/faces/112252/small/112252.png?1431932536" alt="">
+					</span>
+				<span class="name">Medium Crag Mod</span>
+			</div>
+		<span class="date smart-date" data-originDate="2015-05-26 08:15:00 +0800"></span>
+	</div>
+	<div class="banner">
+			<img src="/system/articles/articleshows/9958/medium/9958.jpeg?1436653278" alt="" />			
+	</div>
+	<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9958" data-title="《一个设计师使用了Apple Watch后的碎碎念》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9958/medium/9958.jpeg?1436653278" data-url="http://www.qdaily.com/mobile/articles/9958.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+</div>
+
+
+	<div class="article-detail-bd">
+			<div class="excerpt">
+				真的是碎碎念，希望你能跟我们一样忍受这种说话方式，然后看到一个设计师的心
+			</div>
+		<div class="detail">
+				<!-- 普通文章 -->
+				<p class="MsoNormal">
+	<span><a href="https://medium.com/message/upon-this-wrist-97cfc33c443c" target="_blank" style="white-space:normal;text-align:justify;"><em>本文</em></a><em style="white-space:normal;outline:none;text-align:justify;">由 Medium 和&nbsp;<em style="outline:none;">Craig Mod&nbsp;</em>授权《好奇心日报》发布。Craig Mod 是一位作家兼设计师，<span style="color:rgba(0, 0, 0, 0.6);font-family:jaf-bernino-sans, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;font-size:14px;letter-spacing:-0.4399999976158142px;line-height:18px;white-space:normal;">MacDowell 协会成员。</span></em></span> 
+</p>
+<p class="MsoNormal">
+	它戴在我的手腕上。这是我想要的样子吗？并不是。我很想要它吗？也没有。好吧，或许有一点儿。我是个人类，而它是新事物，还包含媒体，而且它本身也许就是新媒体。了解些新东西也是有益处的。所以现在它就戴在我的手腕上了。这玩意儿就像丹尼尔<span>·</span>戴<span>-</span>刘易斯（<span>Daniel Day Lewis</span>）的眉毛，像抹了油一样，又黑又亮。它一直都很安静，直到提示音咻咻地响起，像来自未来的温柔声音，只是为了提醒我们这些懒鬼起来活动活动。
+</p>
+<p class="MsoNormal">
+	为了用这个戴在我手腕上的小东西，我特地制定了一次闹铃。我过去并没有那么想要这玩意儿，而现在，一周后的今天，我还是没有多想要。我早上醒来不会像去摸其他玻璃金属制品（比如手机）那样伸手够它。这个手腕上的小小黑黑的东西就像从地心抽出的天然黑玛瑙，不能带给我任何情绪上的波动。我并不讨厌它，只是一个态度中立的同伴。
+</p>
+<p class="MsoNormal">
+	极少有人能注意到我手腕上的这东西，这让我挺高兴。但也有些人能发现。一旦他们看到就会问：“哦，这就是那玩意儿吗？”然后我就会说：“是的，这就是那玩意儿。”接着他们会问：“它有改变你的生活吗？”我就耸耸肩。他们就会很失望——他们想要我说：“是的，它是改变了我的生活。这腕表。它让我成为了一个更好的人，更强的人，更体贴的人。”然而，并没有。我是这么说的，我说：“看，它有地图。”然后他们就“哦<span>”</span>一声。然后我给他们看遥感相机，他们就“啊啊啊啊”起来。我又说：“看<span>——</span>我的心跳。”他们就会说：“哇，你的静息心跳好快。”然后我叹气说：“我知道。”哦，我太知道了。
+</p>
+<p class="MsoNormal">
+	在他们表达了“这货并不能改变生活，并且仅靠拥有它，人类并不能变得更好”的遗憾之情后，我让他们戴上它试试。于是他们就激动了。他们寄希望于发现“我就是那个意外，到了我的手腕上也许就不一样了呢”。我买的是最小的那款。必须得承认，戴在手腕上的这物件儿，<span>10&nbsp;</span>人里有&nbsp;<span>8&nbsp;</span>个戴这个尺寸都特别合适。之前还在嘲笑这个小版来着。“哈！为什么还要做小号的啊？”他们问到，“对那些小巧身材的人来说简直是种侮辱。”为什么？我们又不用靠这个玩意儿过活。就像他们说的，这个戴在手腕上的东西，我们本应是偶尔匆匆地瞥一眼或者瞄一眼，然后就转过目光，把眼睛移向别处，不管它了。我们本来最不应该去看它的。但如果是这样的话，我们为什么要买大号的呢？它本就应该不起眼——这就是我对这东西的哲学理念。要让它不起眼。但这个金属和玻璃制成的东西，还没有让我变成更好的我。
+</p>
+<p class="MsoNormal">
+	“你能用它阅读吗？”他们问。“可以，”我说。“你能用它读新闻。”但就算你热爱新闻、热爱阅读、热爱生活、热爱宇宙，我也建议你别这么做。可以浏览新闻的应用都很慢，而且用起来非常笨拙。一段文字在你眼前弹出，单词一个一个地冒出来。这个戴在手腕上的东西黑不溜秋的，黄色的字就这么从里头飘过。一旦你花费点儿时间来研究这块腕表上的那些新闻应用，你很快就会发现它们不太好使。它们没什么用，你最好还是别用这个看新闻了。要读新闻也不应该举着手腕读啊，你会累死的。你只能为今后的自己生出更多的麻烦事——那个时候的你也许就不会那么在意此刻你在手腕上看到的这玩意儿。所以不，我不推荐用这货阅读，尤其是看新闻还是算了吧。它还不够完善，还不够智能，而且还不够快。
+</p>
+<p class="MsoNormal">
+	我跟他们说起月亮的盈亏圆缺，月亮会在&nbsp;<span>9&nbsp;</span>小时&nbsp;<span>26&nbsp;</span>分钟后升起。我告诉他们日落的精确时间是&nbsp;<span>18:30</span>。我本来还想演示指北针，但是这货没有这功能。我依然是原住民，与大自然产生着千丝万缕的联系。我和月球，我们是一体的。今天的最高温是&nbsp;<span>22&nbsp;</span>摄氏度。他们看着我的时候，就好像看着一个疯子。<span></span> 
+</p>
+<p class="MsoNormal">
+	哦，那些问起这个腕表的人，他们被我虐了。我是科技命理的通报者，知道些没用的天文讯息。而且我能通过他们的眼睛看出，他们想听到些赞美之词、一些振奋人心的消息——可真没啥特别的。所以我就只说了一个单词：运动。就好像我在 1930 年代卖塑料制品似的。“运动，”我说。然后笑了笑。这是它能做得最好的事儿。但我还是得站在我的立场上、摆出有史以来最差的销售员的姿态警告买家——好吧，我是说它是个好东西，或者不如说，它有成为好东西的潜力，只是现在还不是时候。所以，请别摆弄它了，如果你已经习惯了口袋里的其它应用，你会被这蠢东西气着的。那些功能其他的应用都有。你跑步的时候，也是能够被监测到的，骑车的时候也行。你不用特意告诉它们你在干什么，因为它们很智能。而你手腕上戴的这个必须得由你明确地告诉它你在干啥。也许这个可以改进，也许它也能变得智能，但是如今它不行——高冷得不行。如果你做什么事儿之前忘了告诉它你在干嘛，那就相当于你白做了。不幸地说，这就是我手腕上戴着的那个东西，黑得像乌鸦的眼睛，把你吸进了这种窘境。
+</p>
+<p class="MsoNormal">
+	此外我还得说，既然我现在已经放松了，进入了碎碎念模式，进入了万物审判者的用户体验阶段，那我就举起双臂大力地拍桌子，开始碎碎念：你现在想象一下，你打开了表上的骑车应用，然后你开始骑车。汽车从你身边咻咻地开过，手腕上的玩意会告诉你骑了多远、你用了多少力气。这很不错，挺好。你能看到自己的心率，你觉得手腕上这玩意儿终于派上用场了。而且它还挺好使，你每骑&nbsp;<span>5&nbsp;</span>公里它就会温柔地咻咻提醒。不过接下来就是灾难了：你收到了一条来自&nbsp;<span>Jack&nbsp;</span>的信息，可你还骑着车呢。等你下次想知道你骑多远、费了多少力气时，你瞅了一眼手腕上的这玩意，可你看到的界面不一样了，它根本就不是你想看到的界面——你看到的是&nbsp;<span>Jack</span>发的信息。唯一能关掉这个信息提醒的方法，就是戳戳屏幕上的一个按键。不过你正在骑车啊，而你手腕上的玩意终归是在你的手腕上。所以你得使唤下你的鼻子，用它来戳戳手腕上的按钮，让那条完全不想看到的信息提醒消失。手腕上的玩意儿实在是太蠢了，简直是邪恶。它为啥想要弄死你？其实它压根儿就不知道你在干啥，除非你告诉它一声——“我正在干这个呢。”然后它就了解了，然后它还是会继续做出愚蠢的决定。你用鼻子来戳那个按键，然后就连人带车撞到了车流里，撞到小宝贝、女警之类的——问题是按钮还没啥反应，因为你的鼻子还不够尖。你被困住了，永远被困在了一条来自&nbsp;<span>Jack&nbsp;</span>的信息上。而且话说回来，那个&nbsp;<span>Jack 到底</span>是谁？现在你手腕上的玩意，这个通晓你心率的大咖，它的人机交互却蠢到不行，当真是没啥实用性。你会想到《迷失》（<span>Lost</span>），你希望你没把这货戴在手腕上，你希望一开始就能把口袋里的家伙掏出来架在车把手上，因为那家伙靠谱，它能让你一路好好看地图，新来的信息提醒也不会占据一整个屏幕，此外它还会告诉你很多实用的东西。但你手腕上的新玩意儿就这样卡住了，你也被卡在了新世界，一个你不想要的未来界面，而你还得张开怀抱接受它。你手腕上的玩意儿不会让你成为更好的人，不会改变你的生活。或许有一天它能做到，它的潜力在那儿摆着呢——不过就目前来看，我们还是得出动鼻子来戳它。我们都是乐观主义的傻子，而它就像没有月光照耀的海洋那般漆黑。它从未来温柔地传来咻咻的提醒：“该起来活动啦，你这个懒鬼，我能感受到你嘭嘭嘭的心跳哟。”<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>&nbsp;</span> 
+</p>
+<p class="MsoNormal">
+	翻译 &nbsp;<span>is</span>译社
+塔米日<span></span> 
+</p>
+		</div>
+	</div>
+	<div class="article-detail-ft">
+		<ul class="tags items clearfix">
+			<li class="tag item" data-id="29">
+				<span data-id="29">Top 15</span>
+			</li>
+			<li class="tag item" data-id="2871">
+				<span data-id="2871">Apple Watch</span>
+			</li>
+			<li class="tag item" data-id="8058">
+				<span data-id="8058">体验</span>
+			</li>
+			<li class="tag item" data-id="7543">
+				<span data-id="7543">来自 Medium</span>
+			</li>
+			<li class="tag item" data-id="68">
+				<span data-id="68">苹果</span>
+			</li>
+		</ul>
+		<!--a href="http://www.qdaily.com/mobile/articles/60.html" class="bottom-download">
+			<img src="/img/mobile/bottom-guoqing.jpg?20150930" alt="">
+		</a--> 
+		<div class="share-wrapper clearfix">
+			<span class="text">分享至：</span>
+			<!-- 传入参数：obj(aritcle, paper, card, mob) -->
+
+
+<div class="com-share" data-id="9958" data-title="《一个设计师使用了Apple Watch后的碎碎念》，来自@好奇心日报" data-pic="http://www.qdaily.com/system/articles/articleshows/9958/medium/9958.jpeg?1436653278" data-url="http://www.qdaily.com/mobile/articles/9958.html" data-weiboAppkey="2462590045">
+	<div class="share-bd clearfix">
+		<!-- 新浪微博 -->
+		<a data-ga-event="mobile:share:weibo" href="http://service.weibo.com/share/share.php" class="share iconfont icon-weibo" ></a>
+		<!-- 腾讯微博 -->
+		<a data-ga-event="mobile:share:tengxunweibo" href="http://share.v.t.qq.com/index.php" class="share iconfont icon-tengxunweibo" ></a>
+		<!-- QQ空间 -->
+		<a data-ga-event="mobile:share:kongjian" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey" class="share iconfont icon-kongjian" ></a>
+		<!-- 豆瓣 -->
+		<a data-ga-event="mobile:share:douban" href="http://www.douban.com/share/service" class="share iconfont icon-douban" ></a>
+		<!-- linkedIn -->
+		<a data-ga-event="mobile:share:linkedin" href="http://www.linkedin.com/shareArticle" class="share iconfont icon-linkedin" ></a>
+	</div>
+</div>	
+		</div>
+	</div>
+</div>
+
+		<!-- 传入参数：relateds, votes -->
+
+	<div class="com-related-banners">
+		<div class="related-banners-bd">
+			<!--
+			<a href="" class="makemoney">
+				<img src="/img/mobile/missing-long-article-banner.jpg">
+			</a>
+			-->
+		</div>
+	</div>
+
+		<!-- 传入参数：related_articles -->
+
+
+<!-- 长文章 -->
+<div class="com-related-articles">
+    <div class="gap"></div>
+	<div class="related-articles-bd">
+		<div class="packery-container articles">
+            <div class="packery-gutter"></div>
+                <div class="packery-item article size2x1">
+                    <a href="/mobile/articles/24750.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24750/medium/24750.jpg?1459387634" alt="">
+                        <h1 class="title">Lululemon 推出休闲服，以及，前耐克设计师正式在阿迪上岗｜浮华日报</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24773.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24773/medium/24773.jpg?1459402678" alt="">
+                        <h1 class="title">《蜜桃女孩》改编成真人电影，傻黑甜少女恋爱了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24804.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24804/medium/24804.jpg?1459415732" alt="">
+                        <h1 class="title">为了摆脱 Google 的控制，美国运营商要做手机操作系统了</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24717.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24717/medium/24717.jpg?1459334238" alt="">
+                        <h1 class="title">这三个挺火的法国轻奢品牌，在山东企业收购计划之中</h1>
+                    </a>
+                </div>
+                <div class="packery-item article ">
+                    <a href="/mobile/articles/24768.html" class="imgcover">
+                        <img src="/system/articles/articleshows/24768/medium/24768.jpg?1459397515" alt="">
+                        <h1 class="title">「这世界」房租太贵，他在朋友家里搭了一个木头小窝</h1>
+                    </a>
+                </div>
+	    </div>
+	</div>
+</div>
+		<!-- 传入参数：obj（paper或者article） -->
+
+
+<div class="com-related-comments " data-id="9958">
+	<div class="gap"></div>
+    <div class="related-comments-bd">
+    	<p class="count" style="visibility: hidden;">10条评论</p>
+        <div class="items comments">
+        </div>
+        <!-- 传入参数：hasmore -->
+
+<div class="com-loader loading">
+	<div class="loader-bd">
+		<p class="nomore">没有更多啦</p>
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+</div>
+
+	<!-- 传入参数：article, type -->
+
+
+	<div class="com-toolbar" data-id="9958" data-type="article">
+		<div class="toolbar-bd clearfix">
+			<div class="toolbar-left clearfix">
+				<a data-ga-event="mobile:comment:toolbar" href="#" data-popup=".com-comment-popup" class="open-popup mock-input">我有意见</a>
+				<!-- 规则，上万之后就用1.2w（保留一位小数） -->
+				<a data-ga-event="mobile:favor:toolbar" href="#" class="iconfont icon-heart">39</a>
+			</div>
+			<div class="toolbar-right">
+				<!--有card-->
+				<a data-ga-event="mobile:nextpage:toolbar" href="/mobile/articles/10010.html" class="next">下一篇</a>
+			</div>
+		</div>
+	</div>
+	<!-- 传入参数：article -->
+
+<!-- component comment Popup -->
+<div class="popup com-comment-popup">
+	<div class="comment-popup-hd">
+		<div class="left"><a href="#" class="link close-popup">取消</a></div>
+		<div class="center">我有意见</div>
+		<div class="right"><a href="#" class="link submit">发布</a></div>
+	</div>
+	<div class="comment-popup-bd">
+		<!-- 评论form表单 -->
+		<form action="/" method="post">
+			<textarea name="content" placeholder="我有意见"></textarea>
+		</form>
+	</div>
+</div>
+
+	<div class="com-download-banner hidden">
+	<div class="download-banner-bd clearfix">
+		<div class="logo">
+			<img src="/img/mobile/download-banner-logo.png" alt="下载logo" class="pic">
+			<p class="text">这个 app 可以满足你</p>
+			<p class="text bold">对世界的好奇心</p>
+		</div>
+		<a data-ga-event="mobile:click:download_banner" href="/webapp/download" class="btn download">马上下载<span class="iconfont icon-right-bold"></span></a>
+	</div>
+	<a data-ga-event="mobile:close:download_banner" class="close" href="#"><span class="iconfont icon-close"></span></a>
+</div>
+
+
+
+
+  <script src="/assets/components/mobile/common/base-665783ddfab60b8e68cc25c109fd840a.js" type="text/javascript"></script>
+  <script src="/assets/pages/mobile/articles/show-e3f6f83734ce85847c1b7f20823de41a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50426186-1', 'qdaily.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+
